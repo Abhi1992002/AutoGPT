@@ -1,3 +1,5 @@
+from backend.integrations.oauth.slack_bot import SlackBotOAuthHandler
+from backend.integrations.oauth.slack_user import SlackUserOAuthHandler
 from .base import BaseOAuthHandler
 from .github import GitHubOAuthHandler
 from .google import GoogleOAuthHandler
@@ -12,6 +14,8 @@ HANDLERS_BY_NAME: dict[str, type[BaseOAuthHandler]] = {
         GoogleOAuthHandler,
         NotionOAuthHandler,
         TwitterOAuthHandler,
+        SlackBotOAuthHandler,
+        SlackUserOAuthHandler
     ]
 }
 # --8<-- [end:HANDLERS_BY_NAMEExample]

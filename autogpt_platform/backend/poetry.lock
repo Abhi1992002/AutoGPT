@@ -943,8 +943,8 @@ grpcio-status = [
     {version = ">=1.33.2,<2.0.dev0", optional = true, markers = "python_version < \"3.11\" and extra == \"grpc\""},
 ]
 proto-plus = [
-    {version = ">=1.25.0,<2.0.0dev", markers = "python_version >= \"3.13\""},
     {version = ">=1.22.3,<2.0.0dev", markers = "python_version < \"3.13\""},
+    {version = ">=1.25.0,<2.0.0dev", markers = "python_version >= \"3.13\""},
 ]
 protobuf = ">=3.19.5,<3.20.0 || >3.20.0,<3.20.1 || >3.20.1,<4.21.0 || >4.21.0,<4.21.1 || >4.21.1,<4.21.2 || >4.21.2,<4.21.3 || >4.21.3,<4.21.4 || >4.21.4,<4.21.5 || >4.21.5,<6.0.0.dev0"
 requests = ">=2.18.0,<3.0.0.dev0"
@@ -1044,8 +1044,8 @@ files = [
 google-api-core = {version = ">=1.34.1,<2.0.dev0 || >=2.11.dev0,<3.0.0dev", extras = ["grpc"]}
 google-auth = ">=2.14.1,<2.24.0 || >2.24.0,<2.25.0 || >2.25.0,<3.0.0dev"
 proto-plus = [
-    {version = ">=1.25.0,<2.0.0dev", markers = "python_version >= \"3.13\""},
     {version = ">=1.22.3,<2.0.0dev", markers = "python_version < \"3.13\""},
+    {version = ">=1.25.0,<2.0.0dev", markers = "python_version >= \"3.13\""},
 ]
 protobuf = ">=3.20.2,<4.21.0 || >4.21.0,<4.21.1 || >4.21.1,<4.21.2 || >4.21.2,<4.21.3 || >4.21.3,<4.21.4 || >4.21.4,<4.21.5 || >4.21.5,<6.0.0dev"
 
@@ -2113,8 +2113,8 @@ python-dateutil = ">=2.5.3"
 tqdm = ">=4.64.1"
 typing-extensions = ">=3.7.4"
 urllib3 = [
-    {version = ">=1.26.5", markers = "python_version >= \"3.12\" and python_version < \"4.0\""},
     {version = ">=1.26.0", markers = "python_version >= \"3.8\" and python_version < \"3.12\""},
+    {version = ">=1.26.5", markers = "python_version >= \"3.12\" and python_version < \"4.0\""},
 ]
 
 [package.extras]
@@ -3331,6 +3331,34 @@ files = [
 ]
 
 [[package]]
+name = "slack-bolt"
+version = "1.21.3"
+description = "The Bolt Framework for Python"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "slack_bolt-1.21.3-py2.py3-none-any.whl", hash = "sha256:f5c41bfd5758db2023a7591e93d05ebb218aaae704e0dc382ae400bc1d5f2670"},
+    {file = "slack_bolt-1.21.3.tar.gz", hash = "sha256:f91ca5dc22da749a42e40a1885b466a4f2af1f65d40c544fccce56e4bb95f1fe"},
+]
+
+[package.dependencies]
+slack_sdk = ">=3.33.5,<4"
+
+[[package]]
+name = "slack-sdk"
+version = "3.33.5"
+description = "The Slack API Platform SDK for Python"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "slack_sdk-3.33.5-py2.py3-none-any.whl", hash = "sha256:b8cccadfa3d4005a5e6529f52000d25c583f46173fda8e9136fdd2bc58923ff6"},
+    {file = "slack_sdk-3.33.5.tar.gz", hash = "sha256:a5e74c00c99dc844ad93e501ab764a20d86fa8184bbc9432af217496f632c4ee"},
+]
+
+[package.extras]
+optional = ["SQLAlchemy (>=1.4,<3)", "aiodns (>1.0)", "aiohttp (>=3.7.3,<4)", "boto3 (<=2)", "websocket-client (>=1,<2)", "websockets (>=9.1,<15)"]
+
+[[package]]
 name = "sniffio"
 version = "1.3.1"
 description = "Sniff out which async library your code is running under"
@@ -4233,4 +4261,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "70fb4c3388d6b66953c35b369c4b659ea51aefdf0038f2adedf2103bc5ae5c1e"
+content-hash = "98ef8ccaaaa800422c621ff8b5351879cb0c3324bb4841cc53edc2d65f12fbef"
