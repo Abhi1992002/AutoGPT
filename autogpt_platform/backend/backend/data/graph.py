@@ -620,21 +620,56 @@ class GraphModel(Graph, GraphMeta):
 
     def get_top_providers(self, limit: int = 3) -> list[str]:
         """
-        The integration providers this graph relies on most, ranked by how many
-        credential fields reference them (ties broken alphabetically), returned
-        as provider slugs (e.g. "openai", "anthropic", "google").
+        The most prominent integration providers this graph uses, as provider
+        slugs (e.g. "openai", "anthropic", "google"), for display on agent cards.
+
+        Selection mirrors the desktop "agentdock" picker: among the providers the
+        agent actually uses, prefer the most *famous* integrations first, then the
+        most *used* (by credential-field references), then alphabetical so the
+        result is stable. Providers we don't have a curated fame rank for still
+        appear (after the famous ones) rather than being dropped.
 
         Derived from `aggregate_credentials_inputs()`, which spans this graph and
-        any loaded sub-graphs — so it's cheap enough to include in list responses.
+        any loaded sub-graphs — cheap enough to include in list responses.
         Returns an empty list when the graph's nodes aren't loaded.
         """
+        # Curated "fame" order — most recognizable integrations first.
+        FAMOUS_PROVIDERS = (
+            "openai",
+            "anthropic",
+            "google",
+            "github",
+            "notion",
+            "slack",
+            "discord",
+            "google_maps",
+            "hubspot",
+            "reddit",
+            "twitter",
+            "telegram",
+            "medium",
+            "todoist",
+            "groq",
+            "fal",
+            "elevenlabs",
+            "pinecone",
+            "replicate",
+            "open_router",
+        )
+        fame = {slug: rank for rank, slug in enumerate(FAMOUS_PROVIDERS)}
+
         counts: dict[str, int] = {}
         for field_info, node_field_pairs, _ in self.aggregate_credentials_inputs().values():
             weight = len(node_field_pairs) or 1
             for provider in field_info.provider:
                 slug = getattr(provider, "value", str(provider))
                 counts[slug] = counts.get(slug, 0) + weight
-        return sorted(counts, key=lambda slug: (-counts[slug], slug))[:limit]
+
+        # famous first (curated order) → most-used → alphabetical
+        return sorted(
+            counts,
+            key=lambda slug: (fame.get(slug, len(FAMOUS_PROVIDERS)), -counts[slug], slug),
+        )[:limit]
 
     def reassign_ids(self, user_id: str, reassign_graph_id: bool = False):
         """
