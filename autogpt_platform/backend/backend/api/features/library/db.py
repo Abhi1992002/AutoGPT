@@ -192,8 +192,10 @@ async def list_library_agents(
 
     library_agents = await prisma.models.LibraryAgent.prisma().find_many(
         where=where_clause,
+        # include_nodes=True so LibraryAgent.top_providers (integration logos on
+        # cards) can be derived from the graph's credential fields.
         include=library_agent_include(
-            user_id, include_nodes=False, include_executions=include_executions
+            user_id, include_nodes=True, include_executions=include_executions
         ),
         order=order_by,
         skip=(page - 1) * page_size,
@@ -277,8 +279,9 @@ async def list_favorite_library_agents(
 
     library_agents = await prisma.models.LibraryAgent.prisma().find_many(
         where=where_clause,
+        # include_nodes=True so top_providers (integration logos) populate.
         include=library_agent_include(
-            user_id, include_nodes=False, include_executions=False
+            user_id, include_nodes=True, include_executions=False
         ),
         order=order_by,
         skip=(page - 1) * page_size,

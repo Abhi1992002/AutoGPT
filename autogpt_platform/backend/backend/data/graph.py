@@ -618,6 +618,24 @@ class GraphModel(Graph, GraphMeta):
             if v[0].is_auto_credential
         }
 
+    def get_top_providers(self, limit: int = 3) -> list[str]:
+        """
+        The integration providers this graph relies on most, ranked by how many
+        credential fields reference them (ties broken alphabetically), returned
+        as provider slugs (e.g. "openai", "anthropic", "google").
+
+        Derived from `aggregate_credentials_inputs()`, which spans this graph and
+        any loaded sub-graphs — so it's cheap enough to include in list responses.
+        Returns an empty list when the graph's nodes aren't loaded.
+        """
+        counts: dict[str, int] = {}
+        for field_info, node_field_pairs, _ in self.aggregate_credentials_inputs().values():
+            weight = len(node_field_pairs) or 1
+            for provider in field_info.provider:
+                slug = getattr(provider, "value", str(provider))
+                counts[slug] = counts.get(slug, 0) + weight
+        return sorted(counts, key=lambda slug: (-counts[slug], slug))[:limit]
+
     def reassign_ids(self, user_id: str, reassign_graph_id: bool = False):
         """
         Reassigns all IDs in the graph to new UUIDs.

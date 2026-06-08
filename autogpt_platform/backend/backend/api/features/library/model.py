@@ -185,6 +185,13 @@ class LibraryAgent(pydantic.BaseModel):
     credentials_input_schema: dict[str, Any] | None = pydantic.Field(
         description="Input schema for credentials required by the agent",
     )
+    top_providers: list[str] = pydantic.Field(
+        default_factory=list,
+        description=(
+            "Up to 3 integration provider slugs used by the agent "
+            "(most-referenced first), for display on the agent card."
+        ),
+    )
 
     has_external_trigger: bool = pydantic.Field(
         description="Whether the agent has an external trigger (e.g. webhook) node"
@@ -355,6 +362,9 @@ class LibraryAgent(pydantic.BaseModel):
             credentials_input_schema=(
                 graph.credentials_input_schema if sub_graphs is not None else None
             ),
+            # Cheap on the main graph (no sub_graphs needed); [] when nodes
+            # aren't loaded. Lets list views show integration logos on cards.
+            top_providers=graph.get_top_providers(),
             has_external_trigger=graph.has_external_trigger,
             has_human_in_the_loop=graph.has_human_in_the_loop,
             has_sensitive_action=graph.has_sensitive_action,
