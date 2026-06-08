@@ -666,10 +666,26 @@ class GraphModel(Graph, GraphMeta):
                 counts[slug] = counts.get(slug, 0) + weight
 
         # famous first (curated order) → most-used → alphabetical
-        return sorted(
+        result = sorted(
             counts,
             key=lambda slug: (fame.get(slug, len(FAMOUS_PROVIDERS)), -counts[slug], slug),
         )[:limit]
+
+        # Pad to `limit` with the agent's input/output block "providers" so cards
+        # always have a few icons to show even when credentials are sparse. The
+        # frontend maps the "input"/"output" slugs to block-type glyphs.
+        if len(result) < limit:
+            block_types = {node.block.block_type for node in self.nodes}
+            for pseudo, block_type in (
+                ("input", BlockType.INPUT),
+                ("output", BlockType.OUTPUT),
+            ):
+                if len(result) >= limit:
+                    break
+                if block_type in block_types and pseudo not in result:
+                    result.append(pseudo)
+
+        return result
 
     def reassign_ids(self, user_id: str, reassign_graph_id: bool = False):
         """
