@@ -1,0 +1,61 @@
+name: AutoGPT Platform - PR Preview (Bunnyshell)
+
+# Selects the docker-compose profile for a PR's preview environment and hands it
+# to Bunnyshell. Bunnyshell's GitHub App handles the actual create/deploy/destroy;
+# this workflow only decides whether the heavier CoPilot path (FalkorDB +
+# copilot_executor) is needed, based on what the PR touches.
+#
+# Safe before setup: the Bunnyshell step is skipped unless BUNNYSHELL_TOKEN is set,
+# so this never fails PRs on its own.
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - "autogpt_platform/**"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: preview-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  select-profile:
+    runs-on: ubuntu-latest
+    env:
+      BNS_TOKEN: ${{ secrets.BUNNYSHELL_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect CoPilot changes
+        id: profile
+        run: |
+          BASE="origin/${{ github.base_ref }}"
+          if git diff --name-only "$BASE...HEAD" \
+              | grep -q '^autogpt_platform/backend/backend/copilot/'; then
+            echo "profiles=copilot" >> "$GITHUB_OUTPUT"
+          else
+            echo "profiles=" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Summary
+        run: |
+          echo "### PR Preview profile" >> "$GITHUB_STEP_SUMMARY"
+          echo "COMPOSE_PROFILES=\`${{ steps.profile.outputs.profiles || '(default)' }}\`" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Notify Bunnyshell of profile
+        if: ${{ env.BNS_TOKEN != '' }}
+        continue-on-error: true
+        run: |
+          curl -fsSL https://github.com/bunnyshell/cli/releases/latest/download/bns_linux_amd64.tar.gz \
+            | tar -xz -C /usr/local/bin bns || { echo "bns install failed; skipping"; exit 0; }
+          bns environments set-variable \
+            --token "$BNS_TOKEN" \
+            --environment "pr-${{ github.event.pull_request.number }}" \
+            --name COMPOSE_PROFILES \
+            --value "${{ steps.profile.outputs.profiles }}" || true

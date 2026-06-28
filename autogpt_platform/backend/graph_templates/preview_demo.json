@@ -1,0 +1,30 @@
+{
+  "name": "Preview Demo Agent",
+  "description": "A tiny demo agent seeded into PR preview environments so reviewers have something to open and run. Input -> Output.",
+  "nodes": [
+    {
+      "id": "11111111-1111-4111-8111-111111111111",
+      "block_id": "c0a8e994-ebf1-4a9c-a4d8-89d09c86741b",
+      "input_default": {
+        "name": "message",
+        "value": "Hello from your PR preview!",
+        "title": "Message"
+      },
+      "metadata": { "position": { "x": 0, "y": 0 } }
+    },
+    {
+      "id": "22222222-2222-4222-8222-222222222222",
+      "block_id": "363ae599-353e-4804-937e-b2ee3cef3da4",
+      "input_default": { "name": "result" },
+      "metadata": { "position": { "x": 450, "y": 0 } }
+    }
+  ],
+  "links": [
+    {
+      "source_id": "11111111-1111-4111-8111-111111111111",
+      "sink_id": "22222222-2222-4222-8222-222222222222",
+      "source_name": "result",
+      "sink_name": "value"
+    }
+  ]
+}

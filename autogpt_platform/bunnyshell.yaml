@@ -1,0 +1,63 @@
+# Bunnyshell environment definition for AutoGPT Platform PR previews.
+#
+# SOURCE OF TRUTH: commit this file and sync it with `bns` — do NOT rely on
+# Bunnyshell re-importing docker-compose on every change (it imports once).
+#
+# ⚠ Field names/behaviours below follow Bunnyshell's documented schema but are
+# VENDOR-SPECIFIC — verify against https://docs.bunnyshell.com before first use.
+# `{{ env.base_domain }}` is Bunnyshell's per-environment domain token (the
+# wildcard *.preview.agpt.co host assigned to this PR).
+
+kind: Environment
+name: autogpt-platform
+# PR-triggered clones of this primary become ephemeral environments.
+type: primary
+
+# Per-environment values injected at deploy. These override the compose
+# `environment:` blocks so they are NOT hardcoded in docker-compose.preview.yml.
+environmentVariables:
+  # Self-hosted Supabase (GoTrue) must point at THIS preview's origin.
+  GOTRUE_SITE_URL: "https://{{ env.base_domain }}"
+  API_EXTERNAL_URL: "https://{{ env.base_domain }}"
+  SUPABASE_PUBLIC_URL: "https://{{ env.base_domain }}"
+  GOTRUE_URI_ALLOW_LIST: "https://{{ env.base_domain }}/**"
+  # Secrets (LLM keys, JWT_SECRET, ANON_KEY, SERVICE_ROLE_KEY, VAULT_ENC_KEY,
+  # GRAPHITI_FALKORDB_PASSWORD, …) come from Bunnyshell Project Variables /
+  # GCP Secret Manager — never commit them here.
+
+# Build from the existing compose stack + the preview overlay.
+configurationFiles:
+  - docker-compose.yml
+  - docker-compose.preview.yml
+
+components:
+  # The frontend bakes NEXT_PUBLIC_* at build time, so it must be built PER PR
+  # with this environment's absolute URLs (relative URLs break @supabase/ssr and
+  # the agent websocket — see PREVIEW.md §7).
+  - kind: Application
+    name: frontend
+    buildArgs:
+      NEXT_PUBLIC_AGPT_SERVER_URL: "https://{{ env.base_domain }}/api"
+      NEXT_PUBLIC_AGPT_WS_SERVER_URL: "wss://{{ env.base_domain }}/ws"
+      NEXT_PUBLIC_SUPABASE_URL: "https://{{ env.base_domain }}"
+      # Only needed if per-env Supabase keys are used (see PREVIEW.md §8):
+      # NEXT_PUBLIC_SUPABASE_ANON_KEY: "{{ env.vars.ANON_KEY }}"
+    # Single origin, path-routed -> same-origin (no CORS), websocket works.
+    hosts:
+      - hostname: "{{ env.base_domain }}"
+        paths:
+          - { path: "/",        servicePort: 3000 }   # frontend
+          - { path: "/api",     servicePort: 8006 }   # rest_server
+          - { path: "/ws",      servicePort: 8001 }   # websocket_server
+          - { path: "/auth/v1", servicePort: 8000 }   # kong -> GoTrue
+
+# Cost controls for a heavy multi-container stack. Verify exact keys/semantics.
+deployment:
+  # Scale to zero on idle, wake on request.
+  autoStop:
+    enabled: true
+    idleMinutes: 30
+  # Hard ceiling so abandoned PRs don't linger (a reconciliation sweep should
+  # still GC orphans — see PREVIEW.md Phase 3).
+  ttlHours: 72
+  destroyOnPrClose: true

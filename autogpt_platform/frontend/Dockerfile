@@ -16,6 +16,14 @@ ENV NEXT_PUBLIC_PW_TEST=$NEXT_PUBLIC_PW_TEST
 # Keep Docker builds defaulting to false to avoid the memory hit.
 ARG NEXT_PUBLIC_SOURCEMAPS="false"
 ENV NEXT_PUBLIC_SOURCEMAPS=$NEXT_PUBLIC_SOURCEMAPS
+# Per-PR preview URLs. Preview deploys (Bunnyshell) pass these as build args so the
+# absolute backend/Supabase URLs are inlined into the client bundle at build time.
+# ARG-only (NOT exported as ENV): an empty ENV would clobber .env.default during
+# normal local/CI builds. They are overlaid into the env file below only when set.
+ARG NEXT_PUBLIC_AGPT_SERVER_URL=""
+ARG NEXT_PUBLIC_AGPT_WS_SERVER_URL=""
+ARG NEXT_PUBLIC_SUPABASE_URL=""
+ARG NEXT_PUBLIC_SUPABASE_ANON_KEY=""
 ENV NODE_ENV="production"
 # Merge env files appropriately based on environment
 RUN if [ -f .env.production ]; then \
@@ -28,6 +36,22 @@ RUN if [ -f .env.production ]; then \
       # Local without custom .env: use defaults
       cp .env.default .env; \
     fi
+# Overlay per-PR preview URLs (only when passed as non-empty build args) so they
+# win over .env.default. Each key is stripped then re-appended once, so there is no
+# duplicate-key precedence ambiguity. No-op for normal local/CI builds.
+RUN ENVFILE=$([ -f .env.production ] && echo .env.production || echo .env); \
+    for kv in \
+      "NEXT_PUBLIC_AGPT_SERVER_URL=${NEXT_PUBLIC_AGPT_SERVER_URL}" \
+      "NEXT_PUBLIC_AGPT_WS_SERVER_URL=${NEXT_PUBLIC_AGPT_WS_SERVER_URL}" \
+      "NEXT_PUBLIC_SUPABASE_URL=${NEXT_PUBLIC_SUPABASE_URL}" \
+      "NEXT_PUBLIC_SUPABASE_ANON_KEY=${NEXT_PUBLIC_SUPABASE_ANON_KEY}"; do \
+      key="${kv%%=*}"; val="${kv#*=}"; \
+      if [ -n "$val" ]; then \
+        grep -v "^${key}=" "$ENVFILE" > "$ENVFILE.tmp" 2>/dev/null || true; \
+        mv "$ENVFILE.tmp" "$ENVFILE" 2>/dev/null || true; \
+        echo "${key}=${val}" >> "$ENVFILE"; \
+      fi; \
+    done
 RUN pnpm run generate:api
 # In CI, we want NEXT_PUBLIC_PW_TEST=true during build so Next.js inlines it
 RUN if [ "$NEXT_PUBLIC_PW_TEST" = "true" ]; then NEXT_PUBLIC_PW_TEST=true NODE_OPTIONS="--max-old-space-size=8192" pnpm build; else NODE_OPTIONS="--max-old-space-size=8192" pnpm build; fi

@@ -1,0 +1,101 @@
+# PR Preview overlay for ephemeral environments (Bunnyshell / local testing).
+#
+# Apply on top of the curated stack:
+#   docker compose -f docker-compose.yml -f docker-compose.preview.yml up
+# Add the CoPilot path when needed:
+#   COMPOSE_PROFILES=copilot docker compose -f docker-compose.yml -f docker-compose.preview.yml up
+#
+# What this overlay does (see PREVIEW.md for the full plan):
+#   - Collapses the 3-master Redis cluster to a single self-forming node
+#     (the backend Redis client is cluster-only, so it must still be a cluster).
+#   - Drops services not needed to log in, build a graph, and run it.
+#   - Gates FalkorDB + copilot_executor behind the opt-in `copilot` profile.
+#   - Adds a one-shot `seed` service that creates a funded demo login.
+#
+# NOTE: per-PR dynamic auth URLs (GOTRUE_SITE_URL / API_EXTERNAL_URL /
+# GOTRUE_URI_ALLOW_LIST) and the browser NEXT_PUBLIC_* build args are injected by
+# Bunnyshell per environment (see bunnyshell.yaml) — deliberately NOT hardcoded
+# here so local `docker compose` testing keeps working against localhost.
+
+services:
+  # --- Redis: collapse 3-master cluster -> single-node cluster ---
+  # One node owns all 16384 slots. `--cluster-replicas 0` + self-create makes it
+  # cluster_state:ok so the base healthcheck passes.
+  redis-0:
+    command: >-
+      sh -c "redis-server --port 17000 --cluster-enabled yes
+      --cluster-config-file nodes.conf --cluster-node-timeout 5000
+      --cluster-require-full-coverage no --cluster-announce-hostname redis-0
+      --cluster-announce-port 17000 --cluster-announce-bus-port 27000
+      --cluster-preferred-endpoint-type hostname &
+      until redis-cli -p 17000 ping; do sleep 1; done;
+      redis-cli -p 17000 cluster info | grep -q cluster_state:ok ||
+      redis-cli --cluster create 127.0.0.1:17000 --cluster-replicas 0 --cluster-yes;
+      wait"
+
+  # --- Disable the other shards + the cluster-init sidecar (never started) ---
+  redis-1:
+    profiles: ["disabled"]
+  redis-2:
+    profiles: ["disabled"]
+  redis-init:
+    profiles: ["disabled"]
+
+  # --- Drop heavy / non-essential services for a smoke-test preview ---
+  clamav:
+    profiles: ["disabled"]
+  notification_server:
+    profiles: ["disabled"]
+  scheduler_server:
+    profiles: ["disabled"]
+
+  # --- CoPilot path: opt-in only (re-add with COMPOSE_PROFILES=copilot) ---
+  falkordb:
+    profiles: ["copilot"]
+  copilot_executor:
+    profiles: ["copilot"]
+
+  # --- Login works without an inbox ---
+  auth:
+    environment:
+      GOTRUE_MAILER_AUTOCONFIRM: "true"
+
+  # --- One-shot: seed a funded, confirmed demo account (+ optional demo agent) ---
+  # Standalone (not `extends`, which would copy database_manager's 8005 port and
+  # collide). Reuses the backend `server` image; only the env it actually needs.
+  seed:
+    build:
+      context: ../
+      dockerfile: autogpt_platform/backend/Dockerfile
+      target: server
+    command: ["seed-preview"]
+    restart: "no"
+    networks:
+      - app-network
+    # backend/.env.default + platform .env.default provide SERVICE_ROLE_KEY and the
+    # other secrets; the explicit `environment:` below overrides hosts for Docker.
+    # Bunnyshell injects the real secrets per environment.
+    env_file:
+      - backend/.env.default
+      - path: backend/.env
+        required: false
+      - path: .env.default
+        required: false
+      - path: .env
+        required: false
+    environment:
+      DATABASE_URL: postgresql://postgres:your-super-secret-and-long-postgres-password@db:5432/postgres?connect_timeout=60&schema=platform
+      DIRECT_URL: postgresql://postgres:your-super-secret-and-long-postgres-password@db:5432/postgres?connect_timeout=60&schema=platform
+      DB_HOST: db
+      REDIS_HOST: redis-0
+      REDIS_PORT: "17000"
+      REDIS_USE_ANNOUNCED_ADDRESS: "true"
+      SUPABASE_URL: http://kong:8000
+      PREVIEW_DEMO_EMAIL: reviewer@preview.agpt.co
+      PREVIEW_DEMO_PASSWORD: preview-pass-change-me
+      PREVIEW_DEMO_CREDITS: "10000"
+    depends_on:
+      db:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
