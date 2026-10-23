@@ -1,0 +1,15 @@
+A: width 1280 0/1589
+A: width 1280 600/1589
+A: width 1280 1200/1589
+A: width 1280 0/1589
+A: width 1280 600/1589
+A: width 1280 1200/1589
+A: width 390 0/1589
+A: width 390 600/1589
+A: width 390 1200/1589
+A: width 390 0/1589
+A: width 390 600/1589
+A: width 390 1200/1589
+A. 1954 render cases (1589 distinct) x 3 parent line-heights x 2 widths: 26868 element/pseudo-element styles compared on every computed property; 0 differing; 0 structural differences
+B. 842 changed class strings (per variant scope) compared on every emitted property plus font-size, line-height, letter-spacing, font-weight, font-family, text-transform, color: 0 failing
+exit=0
