@@ -1,0 +1,86 @@
+--- /home/vercel-sandbox/autogpt/autogpt_platform/frontend/scripts/screenshot-pages.ts	2026-10-23 15:59:08.904962654 +0000
++++ /home/vercel-sandbox/autogpt/.context/screenshot-pages-ds5g.ts	2026-10-23 21:29:40.157283256 +0000
+@@ -65,7 +65,7 @@
+ 
+ const DEFAULT_STORIES = ["tokens-", "atoms-button--", "atoms-text--"];
+ 
+-const DEFAULT_DISMISS = ["Got it"];
++const DEFAULT_DISMISS = ["Got it", "Dismiss changelog"];
+ 
+ // Stories that animate on a timer by design and never hold still.
+ const DEFAULT_SKIP = ["atoms-progress--live"];
+@@ -81,6 +81,10 @@
+   "--force-color-profile=srgb",
+   "--font-render-hinting=none",
+   "--disable-lcd-text",
++  // DS5g: keep sandboxed artifact iframes in-process, so their text is
++  // rasterised the same way on every load.
++  "--disable-site-isolation-trials",
++  "--disable-features=IsolateOrigins,site-per-process",
+ ];
+ 
+ interface PngImage {
+@@ -288,6 +292,46 @@
+   return true;
+ }
+ 
++// DS5g harness fixes (SECRT-3111), applied to every run alike:
++// - no element keeps focus and the mouse rests in the bottom-right corner,
++//   so focus-within / hover styles never depend on what loaded first;
++// - text is reshaped after the fonts load, and a 1px viewport resize and
++//   back forces a full relayout and repaint, so
++//   the final pixels do not depend on paint history (font swaps, iframes).
++async function neutralise(page: Page) {
++  for (const frame of page.frames()) await reshape(frame).catch(() => undefined);
++  const size = page.viewportSize();
++  if (size) {
++    await page.mouse.move(size.width - 1, size.height - 1);
++    await page.setViewportSize({ width: size.width, height: size.height + 1 });
++    await settle(page);
++    await page.setViewportSize(size);
++  }
++  await settle(page);
++}
++
++// Runs in every frame, artifact iframes included.
++async function reshape(frame: ReturnType<Page["mainFrame"]>) {
++  await frame.evaluate(async () => {
++    const active = document.activeElement as HTMLElement | null;
++    active?.blur?.();
++    // Reshape every text run once the web fonts are in: text first laid out
++    // before the font swap otherwise keeps decoration metrics (a dotted
++    // underline's dots) that vary from load to load.
++    await document.fonts.ready;
++    const style = document.createElement("style");
++    style.textContent = "*{letter-spacing:0.001px!important}";
++    document.head.appendChild(style);
++    await new Promise((done) =>
++      requestAnimationFrame(() => requestAnimationFrame(done)),
++    );
++    style.remove();
++    await new Promise((done) =>
++      requestAnimationFrame(() => requestAnimationFrame(done)),
++    );
++  });
++}
++
+ async function shoot(
+   page: Page,
+   url: string,
+@@ -301,6 +345,7 @@
+     await page.reload({ waitUntil: "load", timeout: 60_000 });
+     await settle(page);
+   }
++  await neutralise(page);
+   const { image, stable } = await stableScreenshot(page);
+   writeFileSync(file, image);
+   if (!stable) console.warn(`not stable after ${STABLE_TIMEOUT_MS}ms: ${url}`);
+@@ -467,7 +512,7 @@
+   return 2;
+ }
+ 
+-if (process.argv[1]?.endsWith("screenshot-pages.ts")) {
++if (process.argv[1]?.endsWith("screenshot-pages-ds5g.ts")) {
+   main(process.argv.slice(2)).then(
+     (code) => {
+       process.exitCode = code;
