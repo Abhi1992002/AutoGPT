@@ -1,0 +1,296 @@
+134 files, 312 distinct changed strings, 0 misaligned
+312 changed class strings x 2 viewports x 3 parent line-heights x 2 modes (as written, cn()) x 3 hosts x 2 state passes; 39521664 computed-property comparisons; 42 failing strings
+FAIL #12 flex shrink-0 items-center gap-2 text-xs text-zinc-500 -> flex shrink-0 items-center gap-2 text-xs text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #17 flex size-12 shrink-0 items-center justify-center rounded-xl bg-zinc-100 text-zinc-500 -> flex size-12 shrink-0 items-center justify-center rounded-xl bg-surface-hover text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #35 text-xs text-zinc-500 -> text-xs text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #41 font-normal text-zinc-500 -> font-normal text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #43 flex size-9 items-center justify-center rounded-full bg-zinc-100 text-zinc-500 ring-2 ring-white -> flex size-9 items-center justify-center rounded-full bg-surface-hover text-foreground-secondary ring-2 ring-white
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #46 flex size-[18px] shrink-0 items-center justify-center rounded-full bg-zinc-100 text-zinc-500 -> flex size-[18px] shrink-0 items-center justify-center rounded-full bg-surface-hover text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #49 bg-zinc-100 text-zinc-500 -> bg-surface-hover text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #50 max-w-40 truncate font-medium text-zinc-500 -> max-w-40 truncate font-medium text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #57 border-zinc-200 bg-white text-zinc-500 -> border-border-base bg-surface text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #67 mb-6 text-[28px] font-normal text-neutral-900 dark:text-neutral-100 sm:mb-8 sm:text-[35px] -> mb-6 text-heading font-normal text-neutral-900 dark:text-neutral-100 sm:mb-8 sm:text-[35px]
+  1280 0-0-div self block-size: 120px != 160px
+  1280 0-0-div self height: 120px != 160px
+  1280 0-0-div self line-height: 30px != 40px
+  1280 0-0-div self perspective-origin: 640px 60px != 640px 80px
+  1280 0-0-div self transform-origin: 640px 60px != 640px 80px
+  1280 0-0-div before line-height: 30px != 40px
+FAIL #71 text-[15px] font-medium text-neutral-800 dark:text-neutral-200 -> text-body-md font-medium text-neutral-800 dark:text-neutral-200
+  1280 0-0-div self block-size: 120px != 96px
+  1280 0-0-div self height: 120px != 96px
+  1280 0-0-div self line-height: 30px != 24px
+  1280 0-0-div self perspective-origin: 640px 60px != 640px 48px
+  1280 0-0-div self transform-origin: 640px 60px != 640px 48px
+  1280 0-0-div before line-height: 30px != 24px
+FAIL #72 text-[13px] text-neutral-500 dark:text-neutral-400 -> text-body-sm text-neutral-500 dark:text-neutral-400
+  1280 0-0-div self block-size: 120px != 80px
+  1280 0-0-div self height: 120px != 80px
+  1280 0-0-div self line-height: 30px != 20px
+  1280 0-0-div self perspective-origin: 640px 60px != 640px 40px
+  1280 0-0-div self transform-origin: 640px 60px != 640px 40px
+  1280 0-0-div before line-height: 30px != 20px
+FAIL #116 text-zinc-500 -> text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #119 max-w-64 text-right text-zinc-500 -> max-w-64 text-right text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #132 max-w-[360px] text-zinc-500 -> max-w-[360px] text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #139 text-zinc-500 hover:text-zinc-700 -> text-foreground-secondary hover:text-foreground-body
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #140 shrink-0 rounded text-zinc-500 transition-colors hover:text-zinc-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-zinc-800 -> shrink-0 rounded text-foreground-secondary transition-colors hover:text-foreground-body focus:outline-none focus-visible:ring-2 focus-visible:ring-action
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #141 leading-[20px] text-zinc-500 -> leading-5 text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #184 mt-0.5 shrink-0 text-zinc-500 -> mt-0.5 shrink-0 text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #194 uppercase tracking-[0.04em] text-zinc-500 -> uppercase tracking-[0.04em] text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #202 bg-transparent text-zinc-500 hover:text-zinc-700 -> bg-transparent text-foreground-secondary hover:text-foreground-body
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #203 ml-1 bg-gradient-to-r from-green-500 via-emerald-500 to-teal-500 bg-clip-text text-[11px] font-semibold text-transparent -> ml-1 bg-gradient-to-r from-green-500 via-emerald-500 to-teal-500 bg-clip-text text-caption-sm font-semibold text-transparent
+  1280 0-0-div self block-size: 120px != 64px
+  1280 0-0-div self height: 120px != 64px
+  1280 0-0-div self line-height: 30px != 16px
+  1280 0-0-div self perspective-origin: 638px 60px != 638px 32px
+  1280 0-0-div self transform-origin: 638px 60px != 638px 32px
+  1280 0-0-div before line-height: 30px != 16px
+FAIL #213 uppercase tracking-wide text-zinc-500 -> uppercase tracking-wide text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #215 shrink-0 text-zinc-500 -> shrink-0 text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #216 inline-flex items-center gap-1 text-xs text-zinc-500 -> inline-flex items-center gap-1 text-xs text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #232 max-w-[460px] text-zinc-500 -> max-w-[460px] text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #237 mt-0.5 line-clamp-2 break-words text-zinc-500 -> mt-0.5 line-clamp-2 break-words text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #238 -mr-1 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-zinc-500 transition-colors hover:bg-zinc-100 hover:text-zinc-900 active:scale-[0.92] motion-reduce:active:scale-100 -> -mr-1 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-foreground-secondary transition-colors hover:bg-surface-hover hover:text-foreground-strong active:scale-[0.92] motion-reduce:active:scale-100
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #239 inline-flex items-center gap-1 whitespace-nowrap rounded-full px-2 py-0.5 text-[11px] font-medium -> inline-flex items-center gap-1 whitespace-nowrap rounded-full px-2 py-0.5 text-caption-sm font-medium
+  1280 0-0-div self block-size: 34px != 20px
+  1280 0-0-div self height: 34px != 20px
+  1280 0-0-div self line-height: 30px != 16px
+  1280 0-0-div self perspective-origin: 38.0312px 17px != 38.0312px 10px
+  1280 0-0-div self transform-origin: 38.0312px 17px != 38.0312px 10px
+  1280 0-0-div before line-height: 30px != 16px
+FAIL #240 whitespace-nowrap text-xs text-zinc-500 -> whitespace-nowrap text-xs text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #242 whitespace-nowrap text-xs tabular-nums text-zinc-500 -> whitespace-nowrap text-xs tabular-nums text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #243 inline-flex items-center gap-1 whitespace-nowrap text-xs tabular-nums text-zinc-500 -> inline-flex items-center gap-1 whitespace-nowrap text-xs tabular-nums text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #258 line-clamp-1 max-w-[420px] text-zinc-500 -> line-clamp-1 max-w-[420px] text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #261 ease-[cubic-bezier(0.16,1,0.3,1)] inline-flex h-8 w-8 items-center justify-center rounded-full text-zinc-500 transition-[background-color,color,transform] duration-150 hover:bg-zinc-100 hover:text-zinc-900 active:scale-[0.92] motion-reduce:transition-none motion-reduce:active:scale-100 -> ease-[cubic-bezier(0.16,1,0.3,1)] inline-flex h-8 w-8 items-center justify-center rounded-full text-foreground-secondary transition-[background-color,color,transform] duration-150 hover:bg-surface-hover hover:text-foreground-strong active:scale-[0.92] motion-reduce:transition-none motion-reduce:active:scale-100
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #266 flex h-5 w-5 items-center justify-center rounded text-zinc-500 -> flex h-5 w-5 items-center justify-center rounded text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #278 py-3 text-zinc-500 -> py-3 text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #284 flex flex-1 items-center justify-center px-4 py-6 text-sm text-zinc-500 -> flex flex-1 items-center justify-center px-4 py-6 text-sm text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #292 ml-auto shrink-0 text-zinc-500 -> ml-auto shrink-0 text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #293 px-2.5 pb-0.5 pt-1.5 text-[10px] font-semibold uppercase tracking-[0.12em] text-zinc-400 -> px-2.5 pb-0.5 pt-1.5 text-tiny font-semibold uppercase tracking-caps text-foreground-subtle
+  1280 0-0-div self block-size: 128px != 64px
+  1280 0-0-div self height: 128px != 64px
+  1280 0-0-div self line-height: 30px != 14px
+  1280 0-0-div self perspective-origin: 640px 64px != 640px 32px
+  1280 0-0-div self transform-origin: 640px 64px != 640px 32px
+  1280 0-0-div before line-height: 30px != 14px
+FAIL #294 truncate text-xs text-zinc-500 -> truncate text-xs text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #304 [&_del]:text-zinc-500 [&_del]:line-through -> [&_del]:text-foreground-secondary [&_del]:line-through
+  1280 0-0-div child4-DEL caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div child4-DEL color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div child4-DEL column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div child4-DEL outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div child4-DEL text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div child4-DEL text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+FAIL #308 bg-gradient-to-br from-zinc-100 to-zinc-200 text-zinc-500 -> bg-gradient-to-br from-surface-hover to-surface-active text-foreground-secondary
+  1280 0-0-div self caret-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self column-rule-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self outline-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-decoration-color: rgb(131, 131, 140) != rgb(104, 104, 111)
+  1280 0-0-div self text-emphasis-color: rgb(131, 131, 140) != rgb(104, 104, 111)
