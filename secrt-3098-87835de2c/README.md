@@ -2,7 +2,7 @@
 
 PR head ee3606200 (this branch merged ds/w1-base 87835de2c in b6705f6db; the diff against the base is 3 Markdown files). Base: a `git worktree` of 87835de2c. `src/` (with the generated API client) is byte-identical in the two checkouts.
 
-Harness: DS1's `autogpt_platform/frontend/scripts/screenshot-pages.ts` as committed on the base, unmodified. `capture` then `compare` (pixelmatch, threshold 0, anti-aliased pixels counted), 1440x900 and 390x844. Production builds with `NEXT_PUBLIC_PW_TEST=true`, the backend in docker rebuilt from 87835de2c, one signed-in user, 17 marketplace listings. Storybook from `pnpm build-storybook` of each checkout, built one at a time. 96 screenshots per set: 13 app routes and 35 stories, each at both viewports.
+Harness: DS1's `autogpt_platform/frontend/scripts/screenshot-pages.ts` as committed on the base, unmodified. `capture` then `compare` (pixelmatch, threshold 0, anti-aliased pixels counted), 1440x900 and 390x844. Production builds with `NEXT_PUBLIC_PW_TEST=true`, the backend in docker rebuilt from 87835de2c, one signed-in user, 17 marketplace listings. Storybook from `pnpm build-storybook` of each checkout, built one at a time. 96 screenshots per set: 14 app routes (the base now has `/team/autopilot`) and 34 stories, each at both viewports.
 
 Sets: `warmup-base/` then `before/` and `before-repeat/` (base), `warmup-head/` then `after/` and `after-repeat/` (head). The warm-up runs absorb the servers' first, cold requests.
 
