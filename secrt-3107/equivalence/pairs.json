@@ -1,0 +1,4495 @@
+{
+ "pairs": [
+  {
+   "file": "src/components/contextual/CredentialsInput/CredentialsInput.tsx",
+   "line": 254,
+   "old": "mt-2 text-red-500",
+   "new": "mt-2 text-error",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/APIKeyCredentialsModal/APIKeyCredentialsModal.tsx",
+   "line": 60,
+   "old": "mb-4 text-sm text-zinc-600",
+   "new": "mb-4 text-sm text-foreground-secondary",
+   "ctx": {
+    "tag": "p",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/ConnectCredentialDialog/components/ExistingCredentialsView/ExistingCredentialsView.tsx",
+   "line": 48,
+   "old": "relative flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-[0_8px_24px_rgba(0,0,0,0.08)] ring-1 ring-zinc-100",
+   "new": "relative flex h-20 w-20 items-center justify-center rounded-full bg-surface shadow-[0_8px_24px_rgba(0,0,0,0.08)] ring-1 ring-separator",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/ConnectCredentialDialog/components/ExistingCredentialsView/ExistingCredentialsView.tsx",
+   "line": 62,
+   "old": "flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-[0_8px_24px_rgba(0,0,0,0.08)] ring-1 ring-zinc-100",
+   "new": "flex h-20 w-20 items-center justify-center rounded-full bg-surface shadow-[0_8px_24px_rgba(0,0,0,0.08)] ring-1 ring-separator",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/ConnectCredentialDialog/components/ExistingCredentialsView/ExistingCredentialsView.tsx",
+   "line": 70,
+   "old": "!text-[1.25rem] text-zinc-900",
+   "new": "!text-lead !leading-10 text-foreground-strong",
+   "ctx": {
+    "tag": "Text",
+    "variant": "h3",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/ConnectCredentialDialog/components/ExistingCredentialsView/ExistingCredentialsView.tsx",
+   "line": 74,
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/ConnectCredentialDialog/components/ExistingCredentialsView/ExistingCredentialsView.tsx",
+   "line": 95,
+   "old": "flex w-full items-center gap-3 rounded-xl bg-white p-3 text-left shadow-sm",
+   "new": "flex w-full items-center gap-3 rounded-xl bg-surface p-3 text-left shadow-sm",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/ConnectCredentialDialog/components/ExistingCredentialsView/ExistingCredentialsView.tsx",
+   "line": 96,
+   "old": "flex w-full items-center gap-3 rounded-xl p-3 text-left transition-colors hover:bg-white/60",
+   "new": "flex w-full items-center gap-3 rounded-xl p-3 text-left transition-colors hover:bg-surface/60",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/ConnectCredentialDialog/components/ExistingCredentialsView/ExistingCredentialsView.tsx",
+   "line": 99,
+   "old": "flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-white shadow-sm",
+   "new": "flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-surface shadow-sm",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/ConnectCredentialDialog/components/ExistingCredentialsView/ExistingCredentialsView.tsx",
+   "line": 105,
+   "old": "text-zinc-700",
+   "new": "text-foreground-body",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/ConnectCredentialDialog/components/ExistingCredentialsView/ExistingCredentialsView.tsx",
+   "line": 109,
+   "old": "truncate text-sm font-semibold text-zinc-900",
+   "new": "truncate text-sm font-semibold text-foreground-strong",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/ConnectCredentialDialog/components/ExistingCredentialsView/ExistingCredentialsView.tsx",
+   "line": 112,
+   "old": "text-xs text-zinc-500",
+   "new": "text-xs text-foreground-tertiary",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/ConnectCredentialDialog/components/ExistingCredentialsView/ExistingCredentialsView.tsx",
+   "line": 121,
+   "old": "h-5 w-5 shrink-0 rounded-full border-2 border-zinc-200",
+   "new": "h-5 w-5 shrink-0 rounded-full border-2 border-border-base",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/CredentialRow/CredentialRow.tsx",
+   "line": 89,
+   "old": "flex min-w-[20rem] items-center gap-3 rounded-medium border border-zinc-200 bg-white p-3 transition-colors",
+   "new": "flex min-w-[20rem] items-center gap-3 rounded-medium border border-border-base bg-surface p-3 transition-colors",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/CredentialRow/CredentialRow.tsx",
+   "line": 108,
+   "old": "h-3 w-3 text-white",
+   "new": "h-3 w-3 text-action-foreground",
+   "ctx": {
+    "tag": "ProviderIcon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/CredentialRow/CredentialRow.tsx",
+   "line": 110,
+   "old": "h-5 w-5 shrink-0 text-zinc-800",
+   "new": "h-5 w-5 shrink-0 text-foreground-emphasis",
+   "ctx": {
+    "tag": "TypeIcon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/CredentialRow/CredentialRow.tsx",
+   "line": 128,
+   "old": "shrink-0 rounded bg-zinc-100 px-1.5 py-0.5 text-[0.625rem] font-medium leading-tight text-zinc-500",
+   "new": "shrink-0 rounded bg-surface-hover px-1.5 py-0.5 text-tiny font-medium leading-tight text-foreground-tertiary",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/CredentialTypeSelector/CredentialTypeSelector.tsx",
+   "line": 149,
+   "old": "text-sm text-zinc-600",
+   "new": "text-sm text-foreground-secondary",
+   "ctx": {
+    "tag": "p",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/CredentialTypeSelector/CredentialTypeSelector.tsx",
+   "line": 205,
+   "old": "text-sm text-zinc-600",
+   "new": "text-sm text-foreground-secondary",
+   "ctx": {
+    "tag": "p",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/CredentialTypeSelector/CredentialTypeSelector.tsx",
+   "line": 292,
+   "old": "text-sm text-zinc-600",
+   "new": "text-sm text-foreground-secondary",
+   "ctx": {
+    "tag": "p",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/CredentialsFlatView/CredentialsFlatView.tsx",
+   "line": 44,
+   "old": "flex size-7 shrink-0 items-center justify-center rounded-md bg-white text-[12px] font-semibold uppercase text-zinc-600",
+   "new": "flex size-7 shrink-0 items-center justify-center rounded-md bg-surface text-caption font-semibold uppercase leading-inherit text-foreground-secondary",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/CredentialsFlatView/CredentialsFlatView.tsx",
+   "line": 60,
+   "old": "min-w-0 flex-1 truncate text-[14px] font-medium leading-[22px] text-zinc-800",
+   "new": "min-w-0 flex-1 truncate text-body font-medium leading-5.5 text-foreground-emphasis",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/CredentialsFlatView/CredentialsFlatView.tsx",
+   "line": 123,
+   "old": "inline-flex items-center gap-1 text-zinc-600",
+   "new": "inline-flex items-center gap-1 text-foreground-secondary",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/CredentialsSelect/CredentialsSelect.tsx",
+   "line": 98,
+   "old": "rounded-medium border border-zinc-200 bg-white",
+   "new": "rounded-medium border border-border-base bg-surface",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/HotScopedCredentialsModal/HotScopedCredentialsModal.tsx",
+   "line": 198,
+   "old": "mb-4 text-sm text-zinc-600",
+   "new": "mb-4 text-sm text-foreground-secondary",
+   "ctx": {
+    "tag": "p",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/OAuthWaitingModal/OAuthWaitingModal.tsx",
+   "line": 34,
+   "old": "text-sm text-zinc-600",
+   "new": "text-sm text-foreground-secondary",
+   "ctx": {
+    "tag": "p",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CredentialsInput/components/OAuthWaitingModal/OAuthWaitingModal.tsx",
+   "line": 42,
+   "old": "text-sm text-zinc-600",
+   "new": "text-sm text-foreground-secondary",
+   "ctx": {
+    "tag": "p",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CronScheduler/cron-scheduler-dialog.tsx",
+   "line": 120,
+   "old": "flex items-center gap-2 rounded-md border border-amber-200 bg-amber-50 p-3",
+   "new": "flex items-center gap-2 rounded-md border border-warning-border bg-warning-surface p-3",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CronScheduler/cron-scheduler.tsx",
+   "line": 354,
+   "old": "text-sm text-red-500",
+   "new": "text-sm text-error",
+   "ctx": {
+    "tag": "p",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CronScheduler/cron-scheduler.tsx",
+   "line": 422,
+   "old": "text-sm text-red-500",
+   "new": "text-sm text-error",
+   "ctx": {
+    "tag": "p",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/CronScheduler/cron-scheduler.tsx",
+   "line": 474,
+   "old": "text-sm text-red-500",
+   "new": "text-sm text-error",
+   "ctx": {
+    "tag": "p",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/DeviceAuth/DeviceAuthConnectButton.tsx",
+   "line": 38,
+   "old": "text-zinc-600",
+   "new": "text-foreground-secondary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/DeviceAuth/DeviceAuthConnectButton.tsx",
+   "line": 41,
+   "old": "flex items-center gap-2 text-zinc-500",
+   "new": "flex items-center gap-2 text-foreground-tertiary",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/DeviceAuth/DeviceAuthConnectButton.tsx",
+   "line": 52,
+   "old": "text-zinc-600",
+   "new": "text-foreground-secondary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/DeviceAuth/DeviceAuthConnectButton.tsx",
+   "line": 65,
+   "old": "text-zinc-600",
+   "new": "text-foreground-secondary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/DeviceAuth/DeviceAuthConnectButton.tsx",
+   "line": 73,
+   "old": "ph-no-capture flex flex-col gap-3 rounded-lg border border-zinc-200 bg-zinc-50 p-4",
+   "new": "ph-no-capture flex flex-col gap-3 rounded-lg border border-border-base bg-surface-muted p-4",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/DeviceAuth/DeviceAuthConnectButton.tsx",
+   "line": 77,
+   "old": "font-medium text-zinc-500",
+   "new": "font-medium text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/DeviceAuth/DeviceAuthConnectButton.tsx",
+   "line": 84,
+   "old": "select-all text-center font-mono text-2xl tracking-widest text-zinc-800",
+   "new": "select-all text-center font-mono text-2xl tracking-widest text-foreground-emphasis",
+   "ctx": {
+    "tag": "Text",
+    "variant": "h3",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/DeviceAuth/DeviceAuthConnectButton.tsx",
+   "line": 94,
+   "old": "inline-flex items-center justify-center gap-2 rounded-md bg-zinc-900 px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-zinc-800",
+   "new": "inline-flex items-center justify-center gap-2 rounded-md bg-action-hover px-4 py-2.5 text-sm font-medium text-action-foreground transition-colors hover:bg-action",
+   "ctx": {
+    "tag": "a",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/DeviceAuth/DeviceAuthConnectButton.tsx",
+   "line": 102,
+   "old": "flex items-center gap-2 text-zinc-500",
+   "new": "flex items-center gap-2 text-foreground-tertiary",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/EditAgentModal/components/EditAgentForm.tsx",
+   "line": 96,
+   "old": "rounded-[18px] border border-amber-200 bg-amber-50 p-4",
+   "new": "rounded-[18px] border border-warning-border bg-warning-surface p-4",
+   "ctx": {
+    "tag": "section",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/EditAgentModal/components/EditAgentForm.tsx",
+   "line": 98,
+   "old": "flex size-9 shrink-0 items-center justify-center rounded-full bg-white text-amber-700 shadow-[0_1px_2px_rgba(15,15,20,0.04)]",
+   "new": "flex size-9 shrink-0 items-center justify-center rounded-full bg-surface text-warning-foreground shadow-[0_1px_2px_rgba(15,15,20,0.04)]",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/EditAgentModal/components/EditAgentForm.tsx",
+   "line": 149,
+   "old": "overflow-hidden rounded-[14px] border border-zinc-200 bg-white shadow-[0_1px_2px_rgba(15,15,20,0.04)] [&>*+*]:border-t [&>*+*]:border-zinc-200",
+   "new": "overflow-hidden rounded-[14px] border border-border-base bg-surface shadow-[0_1px_2px_rgba(15,15,20,0.04)] [&>*+*]:border-t [&>*+*]:border-border-base",
+   "ctx": {
+    "tag": "Accordion",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/EditAgentModal/components/EditAgentForm.tsx",
+   "line": 157,
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/EditAgentModal/components/EditAgentForm.tsx",
+   "line": 170,
+   "old": "text-purple-500",
+   "new": "text-brand",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/EditAgentModal/components/EditAgentForm.tsx",
+   "line": 245,
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/EditAgentModal/components/EditAgentForm.tsx",
+   "line": 258,
+   "old": "text-purple-500",
+   "new": "text-brand",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/EditAgentModal/components/EditAgentForm.tsx",
+   "line": 282,
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/EditAgentModal/components/EditAgentForm.tsx",
+   "line": 295,
+   "old": "text-purple-500",
+   "new": "text-brand",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/EditAgentModal/components/EditAgentForm.tsx",
+   "line": 363,
+   "old": "flex flex-col-reverse gap-3 border-t border-zinc-200 pt-4 sm:flex-row sm:justify-end",
+   "new": "flex flex-col-reverse gap-3 border-t border-border-base pt-4 sm:flex-row sm:justify-end",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/GoogleDrivePicker/GoogleDrivePickerInput.tsx",
+   "line": 118,
+   "old": "justify-between rounded-md border border-gray-300 bg-gray-50 px-3 py-2 text-sm dark:border-gray-600 dark:bg-gray-800",
+   "new": "justify-between rounded-md border border-gray-300 bg-gray-50 px-3 py-2 text-sm",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/GoogleDrivePicker/GoogleDrivePickerInput.tsx",
+   "line": 119,
+   "old": "text-sm text-gray-600 dark:text-gray-400",
+   "new": "text-sm text-gray-600",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/GoogleDrivePicker/GoogleDrivePickerInput.tsx",
+   "line": 152,
+   "old": "text-sm text-red-500",
+   "new": "text-sm text-error",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/GoogleDrivePicker/GoogleDrivePickerInput.tsx",
+   "line": 153,
+   "old": "text-sm text-red-500",
+   "new": "text-sm text-error",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/IntegrationsPanel.tsx",
+   "line": 15,
+   "old": "bg-[#F9F9FA]",
+   "new": "bg-surface-muted",
+   "ctx": null
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/IntegrationsPanel.tsx",
+   "line": 16,
+   "old": "bg-white",
+   "new": "bg-surface",
+   "ctx": null
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/IntegrationsPanel.tsx",
+   "line": 56,
+   "old": "pb-3 pl-4 uppercase tracking-[0.06em] text-[#505057]",
+   "new": "pb-3 pl-4 uppercase tracking-eyebrow text-foreground-body",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small-medium",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/AIConnectionsSection.tsx",
+   "line": 60,
+   "old": "uppercase tracking-[0.06em] text-[#505057]",
+   "new": "uppercase tracking-eyebrow text-foreground-body",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small-medium",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/AIConnectionsSection.tsx",
+   "line": 64,
+   "old": "mt-2 max-w-[600px] text-[#505057]",
+   "new": "mt-2 max-w-[600px] text-foreground-body",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/AIConnectionsSection.tsx",
+   "line": 191,
+   "old": "text-black",
+   "new": "text-foreground-base",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body-medium",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/AIConnectionsSection.tsx",
+   "line": 199,
+   "old": "inline-flex items-center gap-1 rounded-[10px] bg-[#E8F8F0] px-2 py-[2px] text-[13px] font-medium leading-[20px] text-[#157E58]",
+   "new": "inline-flex items-center gap-1 rounded-[10px] bg-[#E8F8F0] px-2 py-[2px] text-body-sm font-medium leading-5 text-[#157E58]",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/AIConnectionsSection.tsx",
+   "line": 207,
+   "old": "max-w-full truncate rounded-[10px] bg-[#EFF1F4] px-2 py-[2px] text-[13px] font-medium leading-[20px] text-[#505057]",
+   "new": "max-w-full truncate rounded-[10px] bg-[#EFF1F4] px-2 py-[2px] text-body-sm font-medium leading-5 text-foreground-body",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/AIConnectionsSection.tsx",
+   "line": 214,
+   "old": "inline-flex items-center gap-1 rounded-[10px] bg-[#F1EBFF] px-2 py-[2px] text-[13px] font-medium leading-[20px] text-[#4A25AD]",
+   "new": "inline-flex items-center gap-1 rounded-[10px] bg-[#F1EBFF] px-2 py-[2px] text-body-sm font-medium leading-5 text-[#4A25AD]",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/AIConnectionsSection.tsx",
+   "line": 221,
+   "old": "text-[#505057]",
+   "new": "text-foreground-body",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/AIConnectionsSection.tsx",
+   "line": 259,
+   "old": "flex w-full items-start gap-3 rounded-2xl border border-[#DADADC] bg-white p-4",
+   "new": "flex w-full items-start gap-3 rounded-2xl border border-border-base bg-surface p-4",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/AIConnectionsSection.tsx",
+   "line": 269,
+   "old": "flex w-full items-start rounded-2xl border bg-white pr-4 transition-colors",
+   "new": "flex w-full items-start rounded-2xl border bg-surface pr-4 transition-colors",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/AIConnectionsSection.tsx",
+   "line": 272,
+   "old": "border-[#DADADC] hover:bg-[#F9F9FA]",
+   "new": "border-border-base hover:bg-surface-muted",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/ManageConnectionDialog.tsx",
+   "line": 138,
+   "old": "text-black",
+   "new": "text-foreground-base",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body-medium",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/ManageConnectionDialog.tsx",
+   "line": 156,
+   "old": "text-amber-700",
+   "new": "text-warning-foreground",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/ManageConnectionDialog.tsx",
+   "line": 163,
+   "old": "rounded-[10px] bg-[#F1EBFF] px-2 py-[2px] text-[13px] font-medium leading-[20px] text-[#4A25AD]",
+   "new": "rounded-[10px] bg-[#F1EBFF] px-2 py-[2px] text-body-sm font-medium leading-5 text-[#4A25AD]",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/ManageConnectionDialog.tsx",
+   "line": 180,
+   "old": "text-[#505057]",
+   "new": "text-foreground-body",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/ManageConnectionDialog.tsx",
+   "line": 301,
+   "old": "text-black",
+   "new": "text-foreground-base",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body-medium",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/ManageConnectionDialog.tsx",
+   "line": 307,
+   "old": "text-[#505057]",
+   "new": "text-foreground-body",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/ManageConnectionDialog.tsx",
+   "line": 322,
+   "old": "text-[#505057]",
+   "new": "text-foreground-body",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small-medium",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/ManageConnectionDialog.tsx",
+   "line": 330,
+   "old": "rounded-[10px] bg-[#EFF1F4] px-2 py-[2px] text-[13px] font-medium leading-[20px] text-[#505057]",
+   "new": "rounded-[10px] bg-[#EFF1F4] px-2 py-[2px] text-body-sm font-medium leading-5 text-foreground-body",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/ManageConnectionDialog.tsx",
+   "line": 346,
+   "old": "text-[#505057]",
+   "new": "text-foreground-body",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/ProviderBox.tsx",
+   "line": 21,
+   "old": "flex h-44 w-full min-w-0 flex-col items-center gap-3 rounded-2xl border bg-white px-3 py-4 text-center",
+   "new": "flex h-44 w-full min-w-0 flex-col items-center gap-3 rounded-2xl border bg-surface px-3 py-4 text-center",
+   "ctx": null
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/ProviderBox.tsx",
+   "line": 49,
+   "old": "absolute -bottom-1 -right-1 rounded-full bg-white text-zinc-500 motion-safe:animate-spin",
+   "new": "absolute -bottom-1 -right-1 rounded-full bg-surface text-foreground-tertiary motion-safe:animate-spin",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/ProviderBox.tsx",
+   "line": 60,
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body-medium",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/ProviderBox.tsx",
+   "line": 61,
+   "old": "text-black",
+   "new": "text-foreground-base",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body-medium",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/ProviderBox.tsx",
+   "line": 68,
+   "old": "inline-flex items-center gap-1 rounded-[10px] bg-emerald-50 px-2 py-[2px] text-[13px] font-medium leading-[20px] text-emerald-700",
+   "new": "inline-flex items-center gap-1 rounded-[10px] bg-emerald-50 px-2 py-[2px] text-body-sm font-medium leading-5 text-emerald-700",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/ProviderBox.tsx",
+   "line": 75,
+   "old": "inline-flex items-center rounded-[10px] bg-zinc-100 px-2 py-[2px] text-[13px] font-medium leading-[20px] text-zinc-500",
+   "new": "inline-flex items-center rounded-[10px] bg-surface-hover px-2 py-[2px] text-body-sm font-medium leading-5 text-foreground-tertiary",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/ProviderBox.tsx",
+   "line": 89,
+   "old": "border-dashed border-zinc-200",
+   "new": "border-dashed border-border-base",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/ProviderBox.tsx",
+   "line": 90,
+   "old": "border-zinc-200",
+   "new": "border-border-base",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AIConnectionsSection/ProviderBox.tsx",
+   "line": 106,
+   "old": "border-zinc-200 transition-colors hover:border-zinc-300 hover:bg-zinc-50",
+   "new": "border-border-base transition-colors hover:border-border-strong hover:bg-surface-muted",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AvailableIntegrations/AvailableIntegrations.tsx",
+   "line": 28,
+   "old": "uppercase tracking-[0.06em] text-zinc-600",
+   "new": "uppercase tracking-eyebrow text-foreground-secondary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small-medium",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AvailableIntegrations/AvailableIntegrations.tsx",
+   "line": 32,
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/AvailableIntegrations/AvailableIntegrations.tsx",
+   "line": 64,
+   "old": "px-4 text-zinc-500",
+   "new": "px-4 text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ConnectMethodView/ConnectMethodView.tsx",
+   "line": 128,
+   "old": "relative flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-[0_8px_24px_rgba(0,0,0,0.08)] ring-1 ring-zinc-100",
+   "new": "relative flex h-20 w-20 items-center justify-center rounded-full bg-surface shadow-[0_8px_24px_rgba(0,0,0,0.08)] ring-1 ring-separator",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ConnectMethodView/ConnectMethodView.tsx",
+   "line": 142,
+   "old": "flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-[0_8px_24px_rgba(0,0,0,0.08)] ring-1 ring-zinc-100",
+   "new": "flex h-20 w-20 items-center justify-center rounded-full bg-surface shadow-[0_8px_24px_rgba(0,0,0,0.08)] ring-1 ring-separator",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ConnectMethodView/ConnectMethodView.tsx",
+   "line": 153,
+   "old": "!text-[1.25rem] text-zinc-900",
+   "new": "!text-lead !leading-10 text-foreground-strong",
+   "ctx": {
+    "tag": "Text",
+    "variant": "h3",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ConnectMethodView/ConnectMethodView.tsx",
+   "line": 160,
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ConnectMethodView/ConnectMethodView.tsx",
+   "line": 188,
+   "old": "rounded-xl bg-white shadow-sm",
+   "new": "rounded-xl bg-surface shadow-sm",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ConnectMethodView/ConnectMethodView.tsx",
+   "line": 197,
+   "old": "flex w-full items-center gap-3 rounded-xl p-3 text-left transition-colors hover:bg-white/60",
+   "new": "flex w-full items-center gap-3 rounded-xl p-3 text-left transition-colors hover:bg-surface/60",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ConnectMethodView/ConnectMethodView.tsx",
+   "line": 200,
+   "old": "flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-white shadow-sm",
+   "new": "flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-surface shadow-sm",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ConnectMethodView/ConnectMethodView.tsx",
+   "line": 204,
+   "old": "text-zinc-700",
+   "new": "text-foreground-body",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ConnectMethodView/ConnectMethodView.tsx",
+   "line": 209,
+   "old": "text-sm font-semibold text-zinc-900",
+   "new": "text-sm font-semibold text-foreground-strong",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ConnectMethodView/ConnectMethodView.tsx",
+   "line": 214,
+   "old": "rounded-md bg-violet-100 px-1.5 py-0.5 text-[10px] font-semibold tracking-wide text-violet-700",
+   "new": "rounded-md bg-violet-100 px-1.5 py-0.5 text-tiny font-semibold leading-inherit tracking-wide text-accent-strong",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ConnectMethodView/ConnectMethodView.tsx",
+   "line": 220,
+   "old": "text-xs text-zinc-500",
+   "new": "text-xs text-foreground-tertiary",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ConnectMethodView/ConnectMethodView.tsx",
+   "line": 229,
+   "old": "h-5 w-5 shrink-0 rounded-full border-2 border-zinc-200",
+   "new": "h-5 w-5 shrink-0 rounded-full border-2 border-border-base",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ConnectMethodView/InlineHostScopedForm.tsx",
+   "line": 117,
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ConnectMethodView/InlineHostScopedForm.tsx",
+   "line": 128,
+   "old": "text-zinc-900",
+   "new": "text-foreground-strong",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small-medium",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ConnectMethodView/InlineHostScopedForm.tsx",
+   "line": 131,
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/DetailView/ChatGPTConnectExplainer.tsx",
+   "line": 71,
+   "old": "divide-y divide-[#DADADC] rounded-2xl border border-[#DADADC] bg-[#FBFBFC]",
+   "new": "divide-y divide-border-base rounded-2xl border border-border-base bg-[#FBFBFC]",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/DetailView/ChatGPTConnectExplainer.tsx",
+   "line": 81,
+   "old": "text-[#505057]",
+   "new": "text-foreground-body",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/DetailView/ChatGPTConnectExplainer.tsx",
+   "line": 82,
+   "old": "font-medium text-black",
+   "new": "font-medium text-foreground-base",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/DetailView/DetailView.tsx",
+   "line": 99,
+   "old": "text-[#83838C]",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/DetailView/MCPPresetPanel.tsx",
+   "line": 39,
+   "old": "text-zinc-600",
+   "new": "text-foreground-secondary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/DetailView/McpConnectPanel.tsx",
+   "line": 53,
+   "old": "text-zinc-600",
+   "new": "text-foreground-secondary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/DetailView/McpConnectPanel.tsx",
+   "line": 84,
+   "old": "text-zinc-600",
+   "new": "text-foreground-secondary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/DetailView/McpConnectPanel.tsx",
+   "line": 95,
+   "old": "text-sm font-medium text-zinc-700",
+   "new": "text-sm font-medium text-foreground-body",
+   "ctx": {
+    "tag": "MCPAuthSchemeField",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/DetailView/McpConnectPanel.tsx",
+   "line": 96,
+   "old": "rounded-lg border border-zinc-300 bg-white px-3 py-2 text-zinc-900",
+   "new": "rounded-lg border border-border-strong bg-surface px-3 py-2 text-foreground-strong",
+   "ctx": {
+    "tag": "MCPAuthSchemeField",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/DetailView/McpConnectPanel.tsx",
+   "line": 117,
+   "old": "rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700",
+   "new": "rounded-lg border border-red-200 bg-error-surface px-3 py-2 text-sm text-error-foreground",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/DetailView/OAuthConnectButton.tsx",
+   "line": 34,
+   "old": "text-[#505057]",
+   "new": "text-foreground-body",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/DetailView/ProviderAvatar.tsx",
+   "line": 19,
+   "old": "flex size-10 shrink-0 items-center justify-center rounded-md bg-zinc-100 text-[16px] font-semibold uppercase text-zinc-600",
+   "new": "flex size-10 shrink-0 items-center justify-center rounded-md bg-surface-hover text-body-lg font-semibold uppercase leading-inherit text-foreground-secondary",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/DetailView/PublicMCPPanel.tsx",
+   "line": 26,
+   "old": "text-zinc-600",
+   "new": "text-foreground-secondary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/DetailView/PublicMCPPanel.tsx",
+   "line": 37,
+   "old": "text-zinc-600",
+   "new": "text-foreground-secondary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/DetailView/PublicMCPPanel.tsx",
+   "line": 43,
+   "old": "text-red-700",
+   "new": "text-error-foreground",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/DetailView/UnsupportedNotice.tsx",
+   "line": 13,
+   "old": "flex flex-col items-center gap-3 rounded-2xl border border-dashed border-[#DADADC] px-6 py-10 text-center",
+   "new": "flex flex-col items-center gap-3 rounded-2xl border border-dashed border-border-base px-6 py-10 text-center",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/DetailView/UnsupportedNotice.tsx",
+   "line": 14,
+   "old": "text-[#83838C]",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/DetailView/UnsupportedNotice.tsx",
+   "line": 21,
+   "old": "max-w-[360px] text-[#83838C]",
+   "new": "max-w-[360px] text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ListView.tsx",
+   "line": 28,
+   "old": "text-[#505057]",
+   "new": "text-foreground-body",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ListView.tsx",
+   "line": 36,
+   "old": "pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-[#83838C]",
+   "new": "pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-foreground-tertiary",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ListView.tsx",
+   "line": 44,
+   "old": "h-[46px] w-full rounded-3xl border border-[#DADADC] bg-white pl-12 pr-4 text-sm leading-[22px] text-[#1F1F20] placeholder:text-[#83838C] focus:border-purple-400 focus:outline-none focus:ring-1 focus:ring-purple-400",
+   "new": "h-[46px] w-full rounded-3xl border border-border-base bg-surface pl-12 pr-4 text-sm leading-5.5 text-[#1F1F20] placeholder:text-placeholder focus:border-purple-400 focus:outline-none focus:ring-1 focus:ring-purple-400",
+   "ctx": {
+    "tag": "input",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ListView.tsx",
+   "line": 49,
+   "old": "flex flex-col items-center justify-center gap-2 rounded-2xl border border-dashed border-[#DADADC] py-10 text-center",
+   "new": "flex flex-col items-center justify-center gap-2 rounded-2xl border border-dashed border-border-base py-10 text-center",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ListView.tsx",
+   "line": 53,
+   "old": "text-[#83838C]",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ListView.tsx",
+   "line": 55,
+   "old": "text-[#505057]",
+   "new": "text-foreground-body",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ProviderRow.tsx",
+   "line": 24,
+   "old": "group flex min-h-20 w-full items-center gap-3 rounded-xl border border-zinc-200 bg-white px-[0.875rem] py-[0.625rem] text-left transition-colors hover:bg-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 active:bg-zinc-100",
+   "new": "group flex min-h-20 w-full items-center gap-3 rounded-xl border border-border-base bg-surface px-[0.875rem] py-[0.625rem] text-left transition-colors hover:bg-surface-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 active:bg-surface-hover",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ProviderRow.tsx",
+   "line": 29,
+   "old": "flex size-9 shrink-0 items-center justify-center rounded-md bg-zinc-100 text-[14px] font-semibold uppercase text-zinc-600",
+   "new": "flex size-9 shrink-0 items-center justify-center rounded-md bg-surface-hover text-body font-semibold uppercase leading-inherit text-foreground-secondary",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ProviderRow.tsx",
+   "line": 45,
+   "old": "flex flex-wrap items-center gap-x-2 gap-y-1 text-[14px] font-medium leading-[22px] text-zinc-800",
+   "new": "flex flex-wrap items-center gap-x-2 gap-y-1 text-body font-medium leading-5.5 text-foreground-emphasis",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ProviderRow.tsx",
+   "line": 54,
+   "old": "truncate text-[12px] leading-[20px] text-zinc-500",
+   "new": "truncate text-caption leading-5 text-foreground-tertiary",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ProviderRow.tsx",
+   "line": 60,
+   "old": "flex size-7 shrink-0 items-center justify-center rounded-lg bg-zinc-700 text-white transition-transform group-hover:bg-zinc-800 group-active:scale-[0.96]",
+   "new": "flex size-7 shrink-0 items-center justify-center rounded-lg bg-zinc-700 text-action-foreground transition-transform group-hover:bg-action group-active:scale-[0.96]",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/CredentialRow/CredentialRow.tsx",
+   "line": 40,
+   "old": "flex w-full items-center justify-between py-3 pl-3 pr-5 transition-colors data-[selected=true]:bg-zinc-100",
+   "new": "flex w-full items-center justify-between py-3 pl-3 pr-5 transition-colors data-[selected=true]:bg-surface-hover",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/CredentialRow/CredentialRow.tsx",
+   "line": 54,
+   "old": "text-zinc-800 hover:text-zinc-900",
+   "new": "text-foreground-emphasis hover:text-foreground-strong",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/CredentialRow/CredentialRow.tsx",
+   "line": 55,
+   "old": "text-zinc-500 hover:text-zinc-700",
+   "new": "text-foreground-tertiary hover:text-foreground-body",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/CredentialRow/CredentialRow.tsx",
+   "line": 69,
+   "old": "text-[14px] font-medium leading-[22px] text-[#1F1F20]",
+   "new": "text-body font-medium leading-5.5 text-[#1F1F20]",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/CredentialRow/CredentialRow.tsx",
+   "line": 74,
+   "old": "inline-flex items-center justify-center rounded-[10px] bg-[#EFF1F4] px-2 py-[2px] text-[12px] font-medium leading-[20px] text-[#505057]",
+   "new": "inline-flex items-center justify-center rounded-[10px] bg-[#EFF1F4] px-2 py-[2px] text-caption font-medium leading-5 text-foreground-body",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/CredentialRow/CredentialRow.tsx",
+   "line": 81,
+   "old": "flex items-center gap-3 leading-[20px]",
+   "new": "flex items-center gap-3 leading-5",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/CredentialRow/CredentialRow.tsx",
+   "line": 83,
+   "old": "text-[11px] font-medium uppercase tracking-[1.1px] text-[#505057]",
+   "new": "text-caption-sm font-medium uppercase leading-inherit tracking-[1.1px] text-foreground-body",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/CredentialRow/CredentialRow.tsx",
+   "line": 97,
+   "old": "text-[11px] font-medium uppercase tracking-[1.1px] text-[#505057] focus:outline-none focus-visible:ring-2 focus-visible:ring-zinc-800",
+   "new": "text-caption-sm font-medium uppercase leading-inherit tracking-[1.1px] text-foreground-body focus:outline-none focus-visible:ring-2 focus-visible:ring-zinc-800",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/CredentialRow/CredentialRow.tsx",
+   "line": 114,
+   "old": "inline-flex size-5 items-center justify-center text-[#1F1F20] transition-colors hover:text-red-500 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-purple-400 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:text-[#1F1F20]",
+   "new": "inline-flex size-5 items-center justify-center text-[#1F1F20] transition-colors hover:text-error focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-purple-400 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:text-[#1F1F20]",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/DeleteConfirmDialog/DeleteConfirmDialog.tsx",
+   "line": 55,
+   "old": "text-zinc-800",
+   "new": "text-foreground-emphasis",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/DeleteConfirmDialog/DeleteConfirmDialog.tsx",
+   "line": 60,
+   "old": "text-[#505057]",
+   "new": "text-foreground-body",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/IntegrationsHeader/IntegrationsHeader.tsx",
+   "line": 20,
+   "old": "leading-[28px] text-[#1F1F20]",
+   "new": "leading-7 text-[#1F1F20]",
+   "ctx": {
+    "tag": "Text",
+    "variant": "h4",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/IntegrationsHeader/IntegrationsHeader.tsx",
+   "line": 27,
+   "old": "mt-4 max-w-[600px] text-[#505057]",
+   "new": "mt-4 max-w-[600px] text-foreground-body",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/IntegrationsList/IntegrationsListSkeleton.tsx",
+   "line": 45,
+   "old": "w-full overflow-hidden rounded-lg border border-[#DADADC] bg-white",
+   "new": "w-full overflow-hidden rounded-lg border border-border-base bg-surface",
+   "ctx": {
+    "tag": "motion.div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/IntegrationsList/IntegrationsListSkeleton.tsx",
+   "line": 60,
+   "old": "flex items-center justify-between border-t border-[#DADADC] py-3 pl-3 pr-5",
+   "new": "flex items-center justify-between border-t border-border-base py-3 pl-3 pr-5",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/IntegrationsListEmpty/IntegrationsListEmpty.tsx",
+   "line": 17,
+   "old": "px-4 text-zinc-500",
+   "new": "px-4 text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/IntegrationsListEmpty/IntegrationsListEmpty.tsx",
+   "line": 30,
+   "old": "max-w-[360px] text-zinc-500",
+   "new": "max-w-[360px] text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/IntegrationsSearch/IntegrationsSearch.tsx",
+   "line": 18,
+   "old": "pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-[#83838C]",
+   "new": "pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-foreground-tertiary",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/IntegrationsSearch/IntegrationsSearch.tsx",
+   "line": 27,
+   "old": "h-[46px] w-full rounded-3xl border border-[#DADADC] bg-white pl-12 pr-4 text-sm leading-[22px] text-[#1F1F20] placeholder:text-[#83838C] focus:border-purple-400 focus:outline-none focus:ring-1 focus:ring-purple-400 disabled:cursor-not-allowed disabled:opacity-60",
+   "new": "h-[46px] w-full rounded-3xl border border-border-base bg-surface pl-12 pr-4 text-sm leading-5.5 text-[#1F1F20] placeholder:text-placeholder focus:border-purple-400 focus:outline-none focus:ring-1 focus:ring-purple-400 disabled:cursor-not-allowed disabled:opacity-60",
+   "ctx": {
+    "tag": "input",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/IntegrationsSelectionBar/IntegrationsSelectionBar.tsx",
+   "line": 25,
+   "old": "flex w-full items-center justify-between rounded-[4px] border border-zinc-200 bg-zinc-100 px-4 py-2",
+   "new": "flex w-full items-center justify-between rounded-[4px] border border-border-base bg-surface-hover px-4 py-2",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/IntegrationsSelectionBar/IntegrationsSelectionBar.tsx",
+   "line": 27,
+   "old": "text-zinc-700",
+   "new": "text-foreground-body",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ProviderGroup/ProviderGroup.tsx",
+   "line": 37,
+   "old": "w-full overflow-hidden rounded-2xl border border-[#DADADC] bg-white",
+   "new": "w-full overflow-hidden rounded-2xl border border-border-base bg-surface",
+   "ctx": {
+    "tag": "Accordion",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ProviderGroup/ProviderGroup.tsx",
+   "line": 46,
+   "old": "text-[16px] font-medium leading-[26px] tracking-[-0.08px] text-black",
+   "new": "text-body-lg font-medium leading-6.5 tracking-[-0.08px] text-foreground-base",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ProviderGroup/ProviderGroup.tsx",
+   "line": 51,
+   "old": "inline-flex items-center justify-center rounded-[10px] bg-[#EFF1F4] px-2 py-[2px] text-[14px] font-medium leading-[22px] text-black",
+   "new": "inline-flex items-center justify-center rounded-[10px] bg-[#EFF1F4] px-2 py-[2px] text-body font-medium leading-5.5 text-foreground-base",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ProviderGroup/ProviderGroup.tsx",
+   "line": 58,
+   "old": "flex flex-col divide-y divide-[#DADADC] border-t border-[#DADADC]",
+   "new": "flex flex-col divide-y divide-border-base border-t border-border-base",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ProviderGroup/ProviderGroup.tsx",
+   "line": 84,
+   "old": "flex size-6 items-center justify-center rounded-full bg-[#D9D9D9] text-[10px] font-semibold uppercase text-zinc-700",
+   "new": "flex size-6 items-center justify-center rounded-full bg-[#D9D9D9] text-tiny font-semibold uppercase leading-inherit text-foreground-body",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/IntegrationsPanel/components/ProviderGroup/ProviderGroup.tsx",
+   "line": 99,
+   "old": "size-6 rounded-full bg-white object-contain",
+   "new": "size-6 rounded-full bg-surface object-contain",
+   "ctx": {
+    "tag": "Image",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/components/OutputActions.tsx",
+   "line": 82,
+   "old": "size-4 text-green-600",
+   "new": "size-4 text-success",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/components/OutputActions.tsx",
+   "line": 88,
+   "old": "text-white",
+   "new": "text-action-foreground",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/components/OutputActions.tsx",
+   "line": 106,
+   "old": "text-white",
+   "new": "text-action-foreground",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/CSVRenderer.tsx",
+   "line": 120,
+   "old": "p-4 text-sm text-zinc-500",
+   "new": "p-4 text-sm text-foreground-tertiary",
+   "ctx": {
+    "tag": "p",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/CSVRenderer.tsx",
+   "line": 127,
+   "old": "border-b border-zinc-200 bg-zinc-50",
+   "new": "border-b border-border-base bg-surface-muted",
+   "ctx": {
+    "tag": "tr",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/CSVRenderer.tsx",
+   "line": 131,
+   "old": "px-3 py-2 text-left font-medium text-zinc-700",
+   "new": "px-3 py-2 text-left font-medium text-foreground-body",
+   "ctx": {
+    "tag": "th",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/CSVRenderer.tsx",
+   "line": 135,
+   "old": "flex w-full cursor-pointer select-none items-center gap-1 hover:bg-zinc-100",
+   "new": "flex w-full cursor-pointer select-none items-center gap-1 hover:bg-surface-hover",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/CSVRenderer.tsx",
+   "line": 153,
+   "old": "border-b border-zinc-100 even:bg-zinc-50/50",
+   "new": "border-b border-separator even:bg-surface-muted/50",
+   "ctx": {
+    "tag": "tr",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/CSVRenderer.tsx",
+   "line": 162,
+   "old": "px-3 py-1.5 text-zinc-600",
+   "new": "px-3 py-1.5 text-foreground-secondary",
+   "ctx": {
+    "tag": "td",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/CodeRenderer.tsx",
+   "line": 94,
+   "old": "select-none pr-2 text-right font-mono text-xs text-zinc-600",
+   "new": "select-none pr-2 text-right font-mono text-xs text-foreground-secondary",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/CodeRenderer.tsx",
+   "line": 176,
+   "old": "overflow-hidden rounded-lg border border-zinc-900 bg-[#020617] shadow-sm",
+   "new": "overflow-hidden rounded-lg border border-action-hover bg-[#020617] shadow-sm",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/CodeRenderer.tsx",
+   "line": 179,
+   "old": "flex items-center justify-between border-b border-zinc-800 bg-[#111827] px-3 py-2",
+   "new": "flex items-center justify-between border-b border-action bg-[#111827] px-3 py-2",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/CodeRenderer.tsx",
+   "line": 181,
+   "old": "truncate font-mono text-xs text-zinc-400",
+   "new": "truncate font-mono text-xs text-foreground-subtle",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/CodeRenderer.tsx",
+   "line": 184,
+   "old": "rounded bg-zinc-800 px-2 py-0.5 font-mono text-[11px] uppercase tracking-wide text-zinc-300",
+   "new": "rounded bg-action px-2 py-0.5 font-mono text-caption-sm uppercase leading-inherit tracking-wide text-foreground-disabled",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/DesktopStreamRenderer.tsx",
+   "line": 68,
+   "old": "overflow-hidden rounded-lg border border-zinc-200",
+   "new": "overflow-hidden rounded-lg border border-border-base",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/DesktopStreamRenderer.tsx",
+   "line": 69,
+   "old": "flex items-center justify-between border-b border-zinc-200 bg-zinc-50 px-3 py-2",
+   "new": "flex items-center justify-between border-b border-border-base bg-surface-muted px-3 py-2",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/DesktopStreamRenderer.tsx",
+   "line": 70,
+   "old": "flex items-center gap-2 text-sm text-zinc-700",
+   "new": "flex items-center gap-2 text-sm text-foreground-body",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/DesktopStreamRenderer.tsx",
+   "line": 73,
+   "old": "rounded bg-zinc-200 px-1.5 py-0.5 text-xs uppercase text-zinc-600",
+   "new": "rounded bg-surface-active px-1.5 py-0.5 text-xs uppercase text-foreground-secondary",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/DesktopStreamRenderer.tsx",
+   "line": 82,
+   "old": "flex items-center gap-1 rounded px-2 py-1 text-xs text-zinc-600 hover:bg-zinc-200",
+   "new": "flex items-center gap-1 rounded px-2 py-1 text-xs text-foreground-secondary hover:bg-surface-active",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/DesktopStreamRenderer.tsx",
+   "line": 92,
+   "old": "flex items-center gap-1 rounded px-2 py-1 text-xs text-zinc-600 hover:bg-zinc-200",
+   "new": "flex items-center gap-1 rounded px-2 py-1 text-xs text-foreground-secondary hover:bg-surface-active",
+   "ctx": {
+    "tag": "a",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/DesktopStreamRenderer.tsx",
+   "line": 101,
+   "old": "flex aspect-video w-full items-center justify-center bg-zinc-900 px-6 text-center text-sm text-zinc-400",
+   "new": "flex aspect-video w-full items-center justify-center bg-action-hover px-6 text-center text-sm text-foreground-subtle",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/DesktopStreamRenderer.tsx",
+   "line": 110,
+   "old": "aspect-video w-full bg-zinc-900",
+   "new": "aspect-video w-full bg-action-hover",
+   "ctx": {
+    "tag": "iframe",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/DesktopStreamRenderer.tsx",
+   "line": 114,
+   "old": "border-t border-zinc-200 bg-zinc-50 px-3 py-2 text-xs font-medium text-zinc-700",
+   "new": "border-t border-border-base bg-surface-muted px-3 py-2 text-xs font-medium text-foreground-body",
+   "ctx": {
+    "tag": "p",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/HTMLRenderer.tsx",
+   "line": 25,
+   "old": "h-96 w-full rounded border border-zinc-200",
+   "new": "h-96 w-full rounded border border-border-base",
+   "ctx": {
+    "tag": "iframe",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/JSONRenderer.tsx",
+   "line": 112,
+   "old": "text-blue-600",
+   "new": "text-info-foreground",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/JSONRenderer.tsx",
+   "line": 116,
+   "old": "text-green-600",
+   "new": "text-success",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/LinkRenderer.tsx",
+   "line": 40,
+   "old": "inline-flex items-center gap-1.5 rounded-md text-sm text-blue-600 underline decoration-blue-300 underline-offset-2 transition-colors hover:text-blue-800 hover:decoration-blue-500",
+   "new": "inline-flex items-center gap-1.5 rounded-md text-sm text-info-foreground underline decoration-blue-300 underline-offset-2 transition-colors hover:text-blue-800 hover:decoration-info",
+   "ctx": {
+    "tag": "a",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 87,
+   "old": "text-blue-600 underline",
+   "new": "text-info-foreground underline",
+   "ctx": {
+    "tag": "a",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 203,
+   "old": "my-4 overflow-x-auto rounded-md bg-gray-900 p-4 dark:bg-gray-950",
+   "new": "my-4 overflow-x-auto rounded-md bg-gray-900 p-4",
+   "ctx": {
+    "tag": "pre",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 215,
+   "old": "rounded bg-gray-100 px-1.5 py-0.5 font-mono text-sm text-gray-800 dark:bg-gray-800 dark:text-gray-200",
+   "new": "rounded bg-gray-100 px-1.5 py-0.5 font-mono text-sm text-gray-800",
+   "ctx": {
+    "tag": "code",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 237,
+   "old": "text-black underline decoration-1 underline-offset-2 transition-colors",
+   "new": "text-foreground-base underline decoration-1 underline-offset-2 transition-colors",
+   "ctx": {
+    "tag": "a",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 247,
+   "old": "my-4 border-l-4 border-blue-500 pl-4 italic text-gray-700 dark:border-blue-400 dark:text-gray-300",
+   "new": "my-4 border-l-4 border-info pl-4 italic text-gray-700",
+   "ctx": {
+    "tag": "blockquote",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 256,
+   "old": "min-w-full divide-y divide-gray-200 border-y border-gray-200 dark:divide-gray-700 dark:border-gray-700",
+   "new": "min-w-full divide-y divide-gray-200 border-y border-gray-200",
+   "ctx": {
+    "tag": "table",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 265,
+   "old": "bg-gray-50 px-4 py-3.5 text-left text-xs font-semibold uppercase tracking-wider text-gray-700 dark:bg-gray-800 dark:text-gray-300",
+   "new": "bg-gray-50 px-4 py-3.5 text-left text-xs font-semibold uppercase tracking-wider text-gray-700",
+   "ctx": {
+    "tag": "th",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 273,
+   "old": "border-t border-gray-200 px-4 py-3.5 text-sm text-gray-600 dark:border-gray-700 dark:text-gray-400",
+   "new": "border-t border-gray-200 px-4 py-3.5 text-sm text-gray-600",
+   "ctx": {
+    "tag": "td",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 285,
+   "old": "mr-2 h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500 disabled:cursor-not-allowed disabled:opacity-70",
+   "new": "mr-2 h-4 w-4 rounded border-gray-300 text-info-foreground focus:ring-info disabled:cursor-not-allowed disabled:opacity-70",
+   "ctx": {
+    "tag": "input",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 322,
+   "old": "my-6 text-3xl font-bold text-gray-900 dark:text-gray-100",
+   "new": "my-6 text-3xl font-bold text-gray-900",
+   "ctx": {
+    "tag": "h1",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 330,
+   "old": "my-5 text-2xl font-semibold text-gray-800 dark:text-gray-200",
+   "new": "my-5 text-2xl font-semibold text-gray-800",
+   "ctx": {
+    "tag": "h2",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 338,
+   "old": "my-4 text-xl font-semibold text-gray-800 dark:text-gray-200",
+   "new": "my-4 text-xl font-semibold text-gray-800",
+   "ctx": {
+    "tag": "h3",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 346,
+   "old": "my-3 text-lg font-medium text-gray-700 dark:text-gray-300",
+   "new": "my-3 text-lg font-medium text-gray-700",
+   "ctx": {
+    "tag": "h4",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 354,
+   "old": "my-2 text-base font-medium text-gray-700 dark:text-gray-300",
+   "new": "my-2 text-base font-medium text-gray-700",
+   "ctx": {
+    "tag": "h5",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 362,
+   "old": "my-2 text-sm font-medium text-gray-600 dark:text-gray-400",
+   "new": "my-2 text-sm font-medium text-gray-600",
+   "ctx": {
+    "tag": "h6",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 371,
+   "old": "my-6 border-gray-300 dark:border-gray-700",
+   "new": "my-6 border-gray-300",
+   "ctx": {
+    "tag": "hr",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 378,
+   "old": "text-gray-500 line-through dark:text-gray-500",
+   "new": "text-gray-500 line-through",
+   "ctx": {
+    "tag": "del",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 428,
+   "old": "my-3 leading-relaxed text-gray-700 dark:text-gray-300",
+   "new": "my-3 leading-relaxed text-gray-700",
+   "ctx": {
+    "tag": "p",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 446,
+   "old": "prose prose-sm dark:prose-invert max-w-none",
+   "new": "prose prose-sm max-w-none",
+   "ctx": {
+    "tag": "ReactMarkdown",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/VideoRenderer.tsx",
+   "line": 126,
+   "old": "text-blue-600 underline",
+   "new": "text-info-foreground underline",
+   "ctx": {
+    "tag": "a",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/WorkspaceFileRenderer.tsx",
+   "line": 152,
+   "old": "flex items-center gap-3 rounded-lg border border-gray-200 bg-gray-50 p-3 dark:border-gray-700 dark:bg-gray-800",
+   "new": "flex items-center gap-3 rounded-lg border border-gray-200 bg-gray-50 p-3",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/WorkspaceFileRenderer.tsx",
+   "line": 161,
+   "old": "truncate text-sm font-medium text-gray-900 dark:text-gray-100",
+   "new": "truncate text-sm font-medium text-gray-900",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/WorkspaceFileRenderer.tsx",
+   "line": 167,
+   "old": "text-xs text-gray-500 dark:text-gray-400",
+   "new": "text-xs text-gray-500",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/WorkspaceFileRenderer.tsx",
+   "line": 176,
+   "old": "flex-shrink-0 rounded-md p-1.5 text-gray-500 transition-colors hover:bg-gray-200 hover:text-gray-700 dark:hover:bg-gray-700 dark:hover:text-gray-300",
+   "new": "flex-shrink-0 rounded-md p-1.5 text-gray-500 transition-colors hover:bg-gray-200 hover:text-gray-700",
+   "ctx": {
+    "tag": "a",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/AgentInfoStep.tsx",
+   "line": 132,
+   "old": "rounded-[18px] border border-amber-200 bg-amber-50 p-4",
+   "new": "rounded-[18px] border border-warning-border bg-warning-surface p-4",
+   "ctx": {
+    "tag": "section",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/AgentInfoStep.tsx",
+   "line": 134,
+   "old": "flex size-9 shrink-0 items-center justify-center rounded-full bg-white text-amber-700 shadow-[0_1px_2px_rgba(15,15,20,0.04)]",
+   "new": "flex size-9 shrink-0 items-center justify-center rounded-full bg-surface text-warning-foreground shadow-[0_1px_2px_rgba(15,15,20,0.04)]",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/AgentInfoStep.tsx",
+   "line": 181,
+   "old": "overflow-hidden rounded-[14px] border border-zinc-200 bg-white shadow-[0_1px_2px_rgba(15,15,20,0.04)] [&>*+*]:border-t [&>*+*]:border-zinc-200",
+   "new": "overflow-hidden rounded-[14px] border border-border-base bg-surface shadow-[0_1px_2px_rgba(15,15,20,0.04)] [&>*+*]:border-t [&>*+*]:border-border-base",
+   "ctx": {
+    "tag": "Accordion",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/AgentInfoStep.tsx",
+   "line": 189,
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/AgentInfoStep.tsx",
+   "line": 202,
+   "old": "text-purple-500",
+   "new": "text-brand",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/AgentInfoStep.tsx",
+   "line": 294,
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/AgentInfoStep.tsx",
+   "line": 307,
+   "old": "text-purple-500",
+   "new": "text-brand",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/AgentInfoStep.tsx",
+   "line": 329,
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/AgentInfoStep.tsx",
+   "line": 342,
+   "old": "text-purple-500",
+   "new": "text-brand",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/AgentInfoStep.tsx",
+   "line": 440,
+   "old": "text-black",
+   "new": "text-foreground-base",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/AgentInfoStep.tsx",
+   "line": 453,
+   "old": "flex h-[2.875rem] w-full items-center gap-2 rounded-xl border border-zinc-200 bg-white px-4 py-2.5 text-left text-sm font-normal text-black shadow-none transition-colors hover:border-zinc-300 focus:border-purple-400 focus:outline-none focus:ring-1 focus:ring-purple-400",
+   "new": "flex h-[2.875rem] w-full items-center gap-2 rounded-xl border border-border-base bg-surface px-4 py-2.5 text-left text-sm font-normal text-foreground-base shadow-none transition-colors hover:border-border-strong focus:border-purple-400 focus:outline-none focus:ring-1 focus:ring-purple-400",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/AgentInfoStep.tsx",
+   "line": 458,
+   "old": "shrink-0 text-zinc-500",
+   "new": "shrink-0 text-foreground-tertiary",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/AgentInfoStep.tsx",
+   "line": 463,
+   "old": "text-zinc-400",
+   "new": "text-foreground-subtle",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/components/CharCountedTextarea.tsx",
+   "line": 20,
+   "old": "text-zinc-400",
+   "new": "text-foreground-subtle",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/components/ThumbnailImages.tsx",
+   "line": 57,
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/components/ThumbnailImages.tsx",
+   "line": 61,
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/components/ThumbnailImages.tsx",
+   "line": 65,
+   "old": "text-sm text-red-500",
+   "new": "text-sm text-error",
+   "ctx": {
+    "tag": "p",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/components/ThumbnailImages.tsx",
+   "line": 79,
+   "old": "inline-flex h-[2.25rem] min-w-[5.5rem] cursor-pointer items-center justify-center gap-1.5 whitespace-nowrap rounded-full border border-zinc-700 bg-transparent px-3 py-2 font-sans text-sm font-medium leading-snug text-black transition-colors hover:border-zinc-700 hover:bg-zinc-100 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-neutral-950",
+   "new": "inline-flex h-[2.25rem] min-w-[5.5rem] cursor-pointer items-center justify-center gap-1.5 whitespace-nowrap rounded-full border border-zinc-700 bg-transparent px-3 py-2 font-sans text-sm font-medium leading-snug text-foreground-base transition-colors hover:border-zinc-700 hover:bg-surface-hover focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus",
+   "ctx": {
+    "tag": "label",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/components/ThumbnailImages.tsx",
+   "line": 121,
+   "old": "border-zinc-900",
+   "new": "border-action-hover",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/components/ThumbnailImages.tsx",
+   "line": 122,
+   "old": "border-transparent hover:border-zinc-300",
+   "new": "border-transparent hover:border-border-strong",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/components/ThumbnailImages.tsx",
+   "line": 142,
+   "old": "absolute right-1.5 top-1.5 z-30 inline-flex size-7 cursor-pointer items-center justify-center rounded-full bg-zinc-900/85 text-white shadow-sm backdrop-blur-sm transition-colors hover:bg-zinc-900",
+   "new": "absolute right-1.5 top-1.5 z-30 inline-flex size-7 cursor-pointer items-center justify-center rounded-full bg-action-hover/85 text-action-foreground shadow-sm backdrop-blur-sm transition-colors hover:bg-action-hover",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/components/ThumbnailImages.tsx",
+   "line": 149,
+   "old": "mt-1 block text-center text-[11px] font-medium text-zinc-500",
+   "new": "mt-1 block text-center text-caption-sm font-medium leading-inherit text-foreground-tertiary",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 131,
+   "old": "mt-5 flex min-h-[320px] flex-col items-center justify-center gap-4 rounded-[18px] border border-dashed border-zinc-300 bg-zinc-50 px-6 py-8 text-center",
+   "new": "mt-5 flex min-h-[320px] flex-col items-center justify-center gap-4 rounded-[18px] border border-dashed border-border-strong bg-surface-muted px-6 py-8 text-center",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 132,
+   "old": "flex size-11 items-center justify-center rounded-full bg-white text-zinc-700 shadow-[0_1px_2px_rgba(15,15,20,0.06)]",
+   "new": "flex size-11 items-center justify-center rounded-full bg-surface text-foreground-body shadow-[0_1px_2px_rgba(15,15,20,0.06)]",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 140,
+   "old": "max-w-[460px] text-zinc-600",
+   "new": "max-w-[460px] text-foreground-secondary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 194,
+   "old": "flex items-center gap-3 rounded-[12px] border border-zinc-200 bg-white p-3",
+   "new": "flex items-center gap-3 rounded-[12px] border border-border-base bg-surface p-3",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 211,
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 269,
+   "old": "group flex w-full cursor-pointer select-none items-center gap-3 rounded-[12px] border bg-white p-3 text-left transition-[border-color,box-shadow] duration-150 hover:border-purple-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 focus-visible:ring-offset-2",
+   "new": "group flex w-full cursor-pointer select-none items-center gap-3 rounded-[12px] border bg-surface p-3 text-left transition-[border-color,box-shadow] duration-150 hover:border-purple-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 focus-visible:ring-offset-2",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 271,
+   "old": "border-purple-500 bg-purple-50/40 shadow-[0_0_0_3px_rgba(119,51,245,0.12)]",
+   "new": "border-brand bg-purple-50/40 shadow-[0_0_0_3px_rgba(119,51,245,0.12)]",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 272,
+   "old": "border-zinc-200",
+   "new": "border-border-base",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 292,
+   "old": "shrink-0 rounded-full bg-zinc-100 px-2 py-0.5 text-[11px] font-medium text-zinc-600",
+   "new": "shrink-0 rounded-full bg-surface-hover px-2 py-0.5 text-caption-sm font-medium leading-inherit text-foreground-secondary",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 299,
+   "old": "truncate text-zinc-500",
+   "new": "truncate text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 307,
+   "old": "flex size-6 shrink-0 items-center justify-center rounded-full bg-purple-500 text-white",
+   "new": "flex size-6 shrink-0 items-center justify-center rounded-full bg-brand text-action-foreground",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 313,
+   "old": "size-5 shrink-0 rounded-full border border-zinc-300",
+   "new": "size-5 shrink-0 rounded-full border border-border-strong",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 383,
+   "old": "flex flex-col items-center justify-between gap-3 pb-3 pt-1 text-zinc-500 sm:flex-row",
+   "new": "flex flex-col items-center justify-between gap-3 pb-3 pt-1 text-foreground-tertiary sm:flex-row",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 384,
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 393,
+   "old": "flex size-9 items-center justify-center rounded-full border border-zinc-200 text-zinc-500 transition hover:border-zinc-300 hover:text-zinc-700 disabled:cursor-not-allowed disabled:opacity-40",
+   "new": "flex size-9 items-center justify-center rounded-full border border-border-base text-foreground-tertiary transition hover:border-border-strong hover:text-foreground-body disabled:cursor-not-allowed disabled:opacity-40",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 401,
+   "old": "px-1 text-sm text-zinc-400",
+   "new": "px-1 text-sm text-foreground-subtle",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 415,
+   "old": "text-white",
+   "new": "text-action-foreground",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 416,
+   "old": "border border-zinc-200 text-zinc-700 hover:border-zinc-300",
+   "new": "border border-border-base text-foreground-body hover:border-border-strong",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 423,
+   "old": "absolute inset-0 rounded-full bg-purple-500 shadow-[0_4px_10px_-4px_rgba(119,51,245,0.55)]",
+   "new": "absolute inset-0 rounded-full bg-brand shadow-[0_4px_10px_-4px_rgba(119,51,245,0.55)]",
+   "ctx": {
+    "tag": "motion.span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentSelectStep/AgentSelectStep.tsx",
+   "line": 436,
+   "old": "flex size-9 items-center justify-center rounded-full border border-zinc-200 text-zinc-500 transition hover:border-zinc-300 hover:text-zinc-700 disabled:cursor-not-allowed disabled:opacity-40",
+   "new": "flex size-9 items-center justify-center rounded-full border border-border-base text-foreground-tertiary transition hover:border-border-strong hover:text-foreground-body disabled:cursor-not-allowed disabled:opacity-40",
+   "ctx": null
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/PublishAuthPrompt.tsx",
+   "line": 17,
+   "old": "max-w-[80%] text-neutral-600 dark:text-neutral-400",
+   "new": "max-w-[80%] text-neutral-600",
+   "ctx": {
+    "tag": "Text",
+    "variant": "lead",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/PublishAuthPrompt.tsx",
+   "line": 26,
+   "old": "bg-neutral-800 text-white hover:bg-neutral-900",
+   "new": "bg-neutral-800 text-action-foreground hover:bg-neutral-900",
+   "ctx": {
+    "tag": "Button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/ReviewHero.tsx",
+   "line": 98,
+   "old": "absolute inset-1 rounded-full bg-white/10",
+   "new": "absolute inset-1 rounded-full bg-surface/10",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/ReviewHero.tsx",
+   "line": 115,
+   "old": "text-white",
+   "new": "text-action-foreground",
+   "ctx": {
+    "tag": "motion.span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/ReviewHero.tsx",
+   "line": 136,
+   "old": "text-zinc-600",
+   "new": "text-foreground-secondary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/ReviewStepper.tsx",
+   "line": 47,
+   "old": "bg-emerald-500 text-white",
+   "new": "bg-emerald-500 text-action-foreground",
+   "ctx": null
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/ReviewStepper.tsx",
+   "line": 48,
+   "old": "bg-amber-50 text-amber-700 ring-2 ring-amber-300",
+   "new": "bg-warning-surface text-warning-foreground ring-2 ring-amber-300",
+   "ctx": null
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/ReviewStepper.tsx",
+   "line": 49,
+   "old": "bg-zinc-100 text-zinc-400",
+   "new": "bg-surface-hover text-foreground-subtle",
+   "ctx": null
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/ReviewStepper.tsx",
+   "line": 87,
+   "old": "bg-zinc-200",
+   "new": "bg-surface-active",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/ReviewStepper.tsx",
+   "line": 98,
+   "old": "text-zinc-400",
+   "new": "text-foreground-subtle",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small-medium",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/ReviewStepper.tsx",
+   "line": 108,
+   "old": "text-zinc-400",
+   "new": "text-foreground-subtle",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/ReviewStepper.tsx",
+   "line": 109,
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/ReviewStepper.tsx",
+   "line": 117,
+   "old": "mt-1 text-amber-700",
+   "new": "mt-1 text-warning-foreground",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/StepHeader.tsx",
+   "line": 16,
+   "old": "text-zinc-600",
+   "new": "text-foreground-secondary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/StepStrip.tsx",
+   "line": 61,
+   "old": "flex size-6 shrink-0 items-center justify-center rounded-full text-[12px] font-medium transition-colors",
+   "new": "flex size-6 shrink-0 items-center justify-center rounded-full text-caption font-medium leading-inherit transition-colors",
+   "ctx": {
+    "tag": "motion.span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/StepStrip.tsx",
+   "line": 63,
+   "old": "bg-zinc-900 text-white",
+   "new": "bg-action-hover text-action-foreground",
+   "ctx": {
+    "tag": "motion.span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/StepStrip.tsx",
+   "line": 65,
+   "old": "bg-zinc-900 text-white",
+   "new": "bg-action-hover text-action-foreground",
+   "ctx": {
+    "tag": "motion.span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/StepStrip.tsx",
+   "line": 66,
+   "old": "border border-zinc-300 bg-white text-zinc-400",
+   "new": "border border-border-strong bg-surface text-foreground-subtle",
+   "ctx": {
+    "tag": "motion.span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/StepStrip.tsx",
+   "line": 116,
+   "old": "text-zinc-950",
+   "new": "text-foreground",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small-medium",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/StepStrip.tsx",
+   "line": 118,
+   "old": "text-zinc-700",
+   "new": "text-foreground-body",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small-medium",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/StepStrip.tsx",
+   "line": 119,
+   "old": "font-normal text-zinc-400",
+   "new": "font-normal text-foreground-subtle",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small-medium",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/StepStrip.tsx",
+   "line": 127,
+   "old": "absolute inset-x-0 top-0 border-t border-solid border-zinc-200",
+   "new": "absolute inset-x-0 top-0 border-t border-solid border-border-base",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/StepStrip.tsx",
+   "line": 137,
+   "old": "absolute inset-x-0 top-0 border-t border-solid border-zinc-900",
+   "new": "absolute inset-x-0 top-0 border-t border-solid border-action-hover",
+   "ctx": {
+    "tag": "motion.span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/SubmissionMetaGrid.tsx",
+   "line": 21,
+   "old": "mt-4 grid w-full max-w-md grid-cols-2 gap-x-4 gap-y-3 rounded-[14px] border border-zinc-200 bg-zinc-50/60 p-4",
+   "new": "mt-4 grid w-full max-w-md grid-cols-2 gap-x-4 gap-y-3 rounded-[14px] border border-border-base bg-surface-muted/60 p-4",
+   "ctx": {
+    "tag": "motion.div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/SubmissionMetaGrid.tsx",
+   "line": 26,
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/SubmissionSummaryCard.tsx",
+   "line": 30,
+   "old": "mt-6 flex w-full max-w-md items-center gap-3 rounded-[14px] border border-zinc-200 bg-white p-3 shadow-[0_1px_2px_rgba(15,15,20,0.04)]",
+   "new": "mt-6 flex w-full max-w-md items-center gap-3 rounded-[14px] border border-border-base bg-surface p-3 shadow-[0_1px_2px_rgba(15,15,20,0.04)]",
+   "ctx": {
+    "tag": "motion.div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/SubmissionSummaryCard.tsx",
+   "line": 32,
+   "old": "relative aspect-video h-12 shrink-0 overflow-hidden rounded-[8px] bg-zinc-100",
+   "new": "relative aspect-video h-12 shrink-0 overflow-hidden rounded-[8px] bg-surface-hover",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/SubmissionSummaryCard.tsx",
+   "line": 43,
+   "old": "flex h-full w-full items-center justify-center text-zinc-400",
+   "new": "flex h-full w-full items-center justify-center text-foreground-subtle",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/SubmissionSummaryCard.tsx",
+   "line": 57,
+   "old": "truncate text-zinc-500",
+   "new": "truncate text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/SubmissionSummaryCard.tsx",
+   "line": 64,
+   "old": "inline-flex items-center gap-1.5 rounded-full bg-amber-50 px-2.5 py-1 text-[11px] font-medium text-amber-800",
+   "new": "inline-flex items-center gap-1.5 rounded-full bg-warning-surface px-2.5 py-1 text-caption-sm font-medium leading-inherit text-amber-800",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/SchedulesPanel.tsx",
+   "line": 30,
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/SchedulesPanel.tsx",
+   "line": 52,
+   "old": "rounded-md border border-amber-200 bg-amber-50 px-3 py-2 !text-amber-700",
+   "new": "rounded-md border border-warning-border bg-warning-surface px-3 py-2 !text-warning-foreground",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/EmptyFollowups/EmptyFollowups.tsx",
+   "line": 8,
+   "old": "flex flex-col items-center justify-center gap-3 rounded-large border border-dashed border-zinc-200 px-6 py-16 text-center",
+   "new": "flex flex-col items-center justify-center gap-3 rounded-large border border-dashed border-border-base px-6 py-16 text-center",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/EmptyFollowups/EmptyFollowups.tsx",
+   "line": 20,
+   "old": "text-zinc-900",
+   "new": "text-foreground-strong",
+   "ctx": {
+    "tag": "Text",
+    "variant": "h4",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/EmptyFollowups/EmptyFollowups.tsx",
+   "line": 23,
+   "old": "max-w-md !text-zinc-500",
+   "new": "max-w-md !text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/FollowupListItem/FollowupListItem.tsx",
+   "line": 41,
+   "old": "rounded-full bg-zinc-100 px-2 py-0.5 text-xs text-zinc-600",
+   "new": "rounded-full bg-surface-hover px-2 py-0.5 text-xs text-foreground-secondary",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/FollowupListItem/FollowupListItem.tsx",
+   "line": 69,
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/FollowupListItem/FollowupListItem.tsx",
+   "line": 74,
+   "old": "text-zinc-300",
+   "new": "text-foreground-disabled",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/FollowupListItem/FollowupListItem.tsx",
+   "line": 75,
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/FollowupListItem/FollowupListItem.tsx",
+   "line": 78,
+   "old": "text-zinc-300",
+   "new": "text-foreground-disabled",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/FollowupListItem/FollowupListItem.tsx",
+   "line": 87,
+   "old": "flex w-full flex-col gap-3 rounded-large border border-zinc-200 bg-white p-4 sm:flex-row sm:items-center sm:justify-between",
+   "new": "flex w-full flex-col gap-3 rounded-large border border-border-base bg-surface p-4 sm:flex-row sm:items-center sm:justify-between",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/FollowupListItem/FollowupListItem.tsx",
+   "line": 139,
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/FollowupListItem/FollowupListItem.tsx",
+   "line": 142,
+   "old": "text-zinc-300",
+   "new": "text-foreground-disabled",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/FollowupListItem/FollowupListItem.tsx",
+   "line": 143,
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/FollowupListItem/FollowupListItem.tsx",
+   "line": 146,
+   "old": "text-zinc-300",
+   "new": "text-foreground-disabled",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/FollowupListItem/FollowupListItem.tsx",
+   "line": 150,
+   "old": "max-h-[60vh] overflow-auto rounded-medium bg-zinc-50 p-3 text-sm text-zinc-800",
+   "new": "max-h-[60vh] overflow-auto rounded-medium bg-surface-muted p-3 text-sm text-foreground-emphasis",
+   "ctx": {
+    "tag": "pre",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/GraphScheduleListItem/GraphScheduleListItem.tsx",
+   "line": 60,
+   "old": "flex w-full flex-col gap-3 rounded-lg border border-zinc-200 bg-white p-3 sm:flex-row sm:items-center sm:justify-between",
+   "new": "flex w-full flex-col gap-3 rounded-lg border border-border-base bg-surface p-3 sm:flex-row sm:items-center sm:justify-between",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/GraphScheduleListItem/GraphScheduleListItem.tsx",
+   "line": 94,
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/GraphScheduleListItem/GraphScheduleListItem.tsx",
+   "line": 99,
+   "old": "text-zinc-300",
+   "new": "text-foreground-disabled",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/GraphScheduleListItem/GraphScheduleListItem.tsx",
+   "line": 100,
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/GraphScheduleListItem/GraphScheduleListItem.tsx",
+   "line": 103,
+   "old": "text-zinc-300",
+   "new": "text-foreground-disabled",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/GraphScheduleListItem/GraphScheduleListItem.tsx",
+   "line": 161,
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/GraphScheduleListItem/GraphScheduleListItem.tsx",
+   "line": 166,
+   "old": "divide-y divide-zinc-100 overflow-hidden rounded-xl border border-zinc-200/80 bg-zinc-50/60",
+   "new": "divide-y divide-separator overflow-hidden rounded-xl border border-border-base/80 bg-surface-muted/60",
+   "ctx": {
+    "tag": "dl",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/GraphScheduleListItem/GraphScheduleListItem.tsx",
+   "line": 233,
+   "old": "flex-shrink-0 text-[13px] text-zinc-500",
+   "new": "flex-shrink-0 text-body-sm leading-inherit text-foreground-tertiary",
+   "ctx": {
+    "tag": "dt",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/GraphScheduleListItem/GraphScheduleListItem.tsx",
+   "line": 238,
+   "old": "min-w-0 truncate text-right text-[13px] font-medium text-zinc-800",
+   "new": "min-w-0 truncate text-right text-body-sm font-medium leading-inherit text-foreground-emphasis",
+   "ctx": {
+    "tag": "dd",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/GraphScheduleListItem/GraphScheduleListItem.tsx",
+   "line": 240,
+   "old": "font-mono text-xs font-normal tracking-tight text-zinc-600",
+   "new": "font-mono text-xs font-normal tracking-tight text-foreground-secondary",
+   "ctx": {
+    "tag": "dd",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/PausedChatListItem/PausedChatListItem.tsx",
+   "line": 31,
+   "old": "flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-large border border-slate-50 bg-amber-50",
+   "new": "flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-large border border-slate-50 bg-warning-surface",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/PausedChatListItem/PausedChatListItem.tsx",
+   "line": 33,
+   "old": "text-amber-700",
+   "new": "text-warning-foreground",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/PausedChatListItem/PausedChatListItem.tsx",
+   "line": 42,
+   "old": "!text-amber-700",
+   "new": "!text-warning-foreground",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/PausedChatListItem/PausedChatListItem.tsx",
+   "line": 51,
+   "old": "flex w-full flex-col gap-3 rounded-large border border-amber-200 bg-white p-4 sm:flex-row sm:items-center sm:justify-between",
+   "new": "flex w-full flex-col gap-3 rounded-large border border-warning-border bg-surface p-4 sm:flex-row sm:items-center sm:justify-between",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillPackage/SkillFileViewer.tsx",
+   "line": 40,
+   "old": "text-sm text-zinc-500",
+   "new": "text-sm text-foreground-tertiary",
+   "ctx": {
+    "tag": "p",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillPackage/SkillFileViewer.tsx",
+   "line": 42,
+   "old": "max-h-[60vh] overflow-auto rounded-md bg-zinc-50 p-3 font-mono text-[13px] leading-5 text-zinc-700",
+   "new": "max-h-[60vh] overflow-auto rounded-md bg-surface-muted p-3 font-mono text-body-sm leading-5 text-foreground-body",
+   "ctx": {
+    "tag": "pre",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillPackage/SkillPackageFileList.tsx",
+   "line": 14,
+   "old": "divide-y divide-zinc-100 overflow-hidden rounded-xl border border-zinc-200",
+   "new": "divide-y divide-separator overflow-hidden rounded-xl border border-border-base",
+   "ctx": {
+    "tag": "ul",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillPackage/SkillPackageFileList.tsx",
+   "line": 22,
+   "old": "flex w-full items-center gap-3 px-3 py-2 text-left transition-colors hover:bg-zinc-50 focus-visible:outline-none focus-visible:-outline-offset-2 focus-visible:ring-2 focus-visible:ring-zinc-300",
+   "new": "flex w-full items-center gap-3 px-3 py-2 text-left transition-colors hover:bg-surface-muted focus-visible:outline-none focus-visible:-outline-offset-2 focus-visible:ring-2 focus-visible:ring-border-strong",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillPackage/SkillPackageFileList.tsx",
+   "line": 27,
+   "old": "shrink-0 text-zinc-400",
+   "new": "shrink-0 text-foreground-subtle",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillPackage/SkillPackageFileList.tsx",
+   "line": 30,
+   "old": "min-w-0 flex-1 truncate font-mono text-[13px] text-zinc-700",
+   "new": "min-w-0 flex-1 truncate font-mono text-body-sm leading-inherit text-foreground-body",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillPackage/SkillPackageFileList.tsx",
+   "line": 34,
+   "old": "shrink-0 rounded-md bg-zinc-100 px-1.5 py-0.5 text-[11px] font-medium text-zinc-500",
+   "new": "shrink-0 rounded-md bg-surface-hover px-1.5 py-0.5 text-caption-sm font-medium leading-inherit text-foreground-tertiary",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillPackage/SkillPackageFileList.tsx",
+   "line": 38,
+   "old": "shrink-0 text-xs tabular-nums text-zinc-400",
+   "new": "shrink-0 text-xs tabular-nums text-foreground-subtle",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/SkillsPanel.tsx",
+   "line": 34,
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/components/EmptySkills/EmptySkills.tsx",
+   "line": 8,
+   "old": "flex flex-col items-center justify-center gap-3 rounded-large border border-dashed border-zinc-200 px-6 py-16 text-center",
+   "new": "flex flex-col items-center justify-center gap-3 rounded-large border border-dashed border-border-base px-6 py-16 text-center",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/components/EmptySkills/EmptySkills.tsx",
+   "line": 11,
+   "old": "flex h-12 w-12 items-center justify-center rounded-full bg-violet-50",
+   "new": "flex h-12 w-12 items-center justify-center rounded-full bg-accent-surface",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/components/EmptySkills/EmptySkills.tsx",
+   "line": 12,
+   "old": "text-violet-700",
+   "new": "text-accent-strong",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/components/EmptySkills/EmptySkills.tsx",
+   "line": 14,
+   "old": "text-zinc-900",
+   "new": "text-foreground-strong",
+   "ctx": {
+    "tag": "Text",
+    "variant": "h4",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/components/EmptySkills/EmptySkills.tsx",
+   "line": 17,
+   "old": "max-w-md !text-zinc-500",
+   "new": "max-w-md !text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/components/PublishSkillButton/PublishSkillButton.tsx",
+   "line": 69,
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/components/PublishSkillButton/PublishSkillButton.tsx",
+   "line": 84,
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/components/SkillListItem/SkillListItem.tsx",
+   "line": 47,
+   "old": "flex w-full flex-col gap-3 rounded-large border border-zinc-200 bg-white p-4 sm:flex-row sm:items-start sm:justify-between",
+   "new": "flex w-full flex-col gap-3 rounded-large border border-border-base bg-surface p-4 sm:flex-row sm:items-start sm:justify-between",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/components/SkillListItem/SkillListItem.tsx",
+   "line": 53,
+   "old": "flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-large border border-slate-50 bg-violet-50",
+   "new": "flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-large border border-slate-50 bg-accent-surface",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/components/SkillListItem/SkillListItem.tsx",
+   "line": 58,
+   "old": "text-violet-700",
+   "new": "text-accent-strong",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/components/SkillListItem/SkillListItem.tsx",
+   "line": 74,
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/components/SkillListItem/SkillListItem.tsx",
+   "line": 85,
+   "old": "rounded-full bg-zinc-100 px-2 py-0.5 text-xs text-zinc-600",
+   "new": "rounded-full bg-surface-hover px-2 py-0.5 text-xs text-foreground-secondary",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/components/SkillListItem/SkillListItem.tsx",
+   "line": 134,
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/components/SkillListItem/SkillListItem.tsx",
+   "line": 142,
+   "old": "rounded-full bg-zinc-100 px-2 py-0.5 text-xs text-zinc-600",
+   "new": "rounded-full bg-surface-hover px-2 py-0.5 text-xs text-foreground-secondary",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/components/SkillListItem/SkillListItem.tsx",
+   "line": 163,
+   "old": "max-h-[60vh] overflow-auto rounded-medium bg-zinc-50 p-3 text-sm text-zinc-800",
+   "new": "max-h-[60vh] overflow-auto rounded-medium bg-surface-muted p-3 text-sm text-foreground-emphasis",
+   "ctx": {
+    "tag": "pre",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/components/SkillListItem/SkillListItem.tsx",
+   "line": 174,
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/components/SkillListItem/SkillListItem.tsx",
+   "line": 177,
+   "old": "flex flex-col gap-0.5 text-xs text-zinc-600",
+   "new": "flex flex-col gap-0.5 text-xs text-foreground-secondary",
+   "ctx": {
+    "tag": "ul",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SkillsPanel/components/SkillListItem/SkillListItem.tsx",
+   "line": 185,
+   "old": "flex-shrink-0 tabular-nums text-zinc-400",
+   "new": "flex-shrink-0 tabular-nums text-foreground-subtle",
+   "ctx": {
+    "tag": "span",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/base/anyof/AnyOfField.tsx",
+   "line": 96,
+   "old": "border-red-500 bg-red-100 text-red-600 line-through",
+   "new": "border-error bg-red-100 text-red-600 line-through",
+   "ctx": null
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/base/anyof/components/AnyOfFieldTitle.tsx",
+   "line": 77,
+   "old": "text-zinc-700",
+   "new": "text-foreground-body",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/base/anyof/components/AnyOfFieldTitle.tsx",
+   "line": 80,
+   "old": "rounded-md bg-red-100 px-1 !text-red-500",
+   "new": "rounded-md bg-red-100 px-1 !text-error",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/base/oneof/OneOfField.tsx",
+   "line": 237,
+   "old": "mr-1 text-red-500",
+   "new": "mr-1 text-error",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/base/standard/TitleField.tsx",
+   "line": 48,
+   "old": "text-sm text-zinc-700",
+   "new": "text-sm text-foreground-body",
+   "ctx": {
+    "tag": "Text",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/base/standard/TitleField.tsx",
+   "line": 49,
+   "old": "text-red-500 line-through",
+   "new": "text-error line-through",
+   "ctx": {
+    "tag": "Text",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/base/standard/TitleField.tsx",
+   "line": 54,
+   "old": "mr-1 text-red-500",
+   "new": "mr-1 text-error",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/base/standard/buttons/IconButton.tsx",
+   "line": 41,
+   "old": "w-fit border border-zinc-200 p-1.5 px-4",
+   "new": "w-fit border border-border-base p-1.5 px-4",
+   "ctx": {
+    "tag": "Button",
+    "variant": "secondary",
+    "size": "icon",
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/base/standard/buttons/IconButton.tsx",
+   "line": 108,
+   "old": "!text-zinc-800",
+   "new": "!text-foreground-emphasis",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/base/standard/widgets/TextInput/TextInputExpanderModal.tsx",
+   "line": 101,
+   "old": "h-fit min-w-0 gap-1.5 border border-zinc-200 p-2 text-black hover:text-slate-900",
+   "new": "h-fit min-w-0 gap-1.5 border border-border-base p-2 text-foreground-base hover:text-slate-900",
+   "ctx": {
+    "tag": "Button",
+    "variant": "secondary",
+    "size": "small",
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/base/standard/widgets/TextInput/TextInputExpanderModal.tsx",
+   "line": 107,
+   "old": "text-green-600",
+   "new": "text-success",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/CredentialField/CredentialField.tsx",
+   "line": 166,
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/LlmModelField/components/LlmIcon.tsx",
+   "line": 58,
+   "old": "flex items-center justify-center rounded-xsmall bg-zinc-100",
+   "new": "flex items-center justify-center rounded-xsmall bg-surface-hover",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/LlmModelField/components/LlmIcon.tsx",
+   "line": 61,
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/LlmModelField/components/LlmMenuHeader.tsx",
+   "line": 16,
+   "old": "flex w-full items-center gap-2 px-2 py-2 text-left hover:bg-zinc-100",
+   "new": "flex w-full items-center gap-2 px-2 py-2 text-left hover:bg-surface-hover",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/LlmModelField/components/LlmMenuHeader.tsx",
+   "line": 20,
+   "old": "h-4 w-4 text-zinc-800",
+   "new": "h-4 w-4 text-foreground-emphasis",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/LlmModelField/components/LlmMenuHeader.tsx",
+   "line": 22,
+   "old": "text-zinc-900",
+   "new": "text-foreground-strong",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/LlmModelField/components/LlmMenuItem.tsx",
+   "line": 32,
+   "old": "w-full py-1 pl-2 pr-4 text-left hover:bg-zinc-100",
+   "new": "w-full py-1 pl-2 pr-4 text-left hover:bg-surface-hover",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/LlmModelField/components/LlmMenuItem.tsx",
+   "line": 37,
+   "old": "text-zinc-900",
+   "new": "text-foreground-strong",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/LlmModelField/components/LlmMenuItem.tsx",
+   "line": 52,
+   "old": "h-4 w-4 text-zinc-900",
+   "new": "h-4 w-4 text-foreground-strong",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/LlmModelField/components/LlmMenuItem.tsx",
+   "line": 60,
+   "old": "mb-1 text-zinc-500",
+   "new": "mb-1 text-foreground-tertiary",
+   "ctx": {
+    "tag": "Text",
+    "variant": "small",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/LlmModelField/components/LlmModelPicker.tsx",
+   "line": 144,
+   "old": "flex w-full min-w-[15rem] items-center rounded-lg border border-zinc-200 bg-white px-3 py-2 text-left",
+   "new": "flex w-full min-w-[15rem] items-center rounded-lg border border-border-base bg-surface px-3 py-2 text-left",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/LlmModelField/components/LlmModelPicker.tsx",
+   "line": 145,
+   "old": "hover:border-zinc-300 focus:outline-none focus:ring-2 focus:ring-zinc-200",
+   "new": "hover:border-border-strong focus:outline-none focus:ring-2 focus:ring-border-base",
+   "ctx": {
+    "tag": "button",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/LlmModelField/components/LlmModelPicker.tsx",
+   "line": 150,
+   "old": "ml-1 flex-1 text-zinc-900",
+   "new": "ml-1 flex-1 text-foreground-strong",
+   "ctx": {
+    "tag": "Text",
+    "variant": "body",
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/LlmModelField/components/LlmModelPicker.tsx",
+   "line": 155,
+   "old": "h-3 w-3 text-zinc-900",
+   "new": "h-3 w-3 text-foreground-strong",
+   "ctx": {
+    "tag": "Icon",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/LlmModelField/components/LlmModelPicker.tsx",
+   "line": 162,
+   "old": "max-h-[45vh] w-[--radix-popover-trigger-width] min-w-[16rem] overflow-y-auto rounded-md border border-zinc-200 bg-white p-0 shadow-[0px_1px_4px_rgba(12,12,13,0.12)]",
+   "new": "max-h-[45vh] w-[--radix-popover-trigger-width] min-w-[16rem] overflow-y-auto rounded-md border border-border-base bg-surface p-0 shadow-[0px_1px_4px_rgba(12,12,13,0.12)]",
+   "ctx": {
+    "tag": "PopoverContent",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/LlmModelField/components/LlmModelPicker.tsx",
+   "line": 174,
+   "old": "border-b border-zinc-200",
+   "new": "border-b border-border-base",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/LlmModelField/components/LlmModelPicker.tsx",
+   "line": 204,
+   "old": "border-b border-zinc-200",
+   "new": "border-b border-border-base",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/LlmModelField/components/LlmModelPicker.tsx",
+   "line": 235,
+   "old": "border-b border-zinc-200",
+   "new": "border-b border-border-base",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/LlmModelField/components/LlmPriceTier.tsx",
+   "line": 16,
+   "old": "flex items-center text-zinc-900",
+   "new": "flex items-center text-foreground-strong",
+   "ctx": {
+    "tag": "div",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/renderers/InputRenderer/custom/MultiSelectField/MultiSelectField.tsx",
+   "line": 36,
+   "old": "rounded-3xl border border-zinc-200 bg-white px-2 shadow-none",
+   "new": "rounded-3xl border border-border-base bg-surface px-2 shadow-none",
+   "ctx": {
+    "tag": "MultiSelectorTrigger",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  }
+ ],
+ "odd": [
+  {
+   "file": "src/components/contextual/CredentialsInput/components/CredentialsFlatView/CredentialsFlatView.tsx",
+   "op": "nonclass",
+   "old": [
+    ">(optional)</span> )"
+   ],
+   "new": [
+    "> (optional) </span> )"
+   ]
+  },
+  {
+   "file": "src/components/contextual/GoogleDrivePicker/GoogleDrivePickerInput.tsx",
+   "op": "nonclass",
+   "old": [
+    "pickerError && ( <span className="
+   ],
+   "new": [
+    "pickerError && <span className="
+   ]
+  },
+  {
+   "file": "src/components/contextual/GoogleDrivePicker/GoogleDrivePickerInput.tsx",
+   "op": "nonclass",
+   "old": [
+    "</span> )"
+   ],
+   "new": [
+    "</span>"
+   ]
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "op": "nonclass",
+   "old": [
+    "text-gray-700 dark:text-gray-300 $"
+   ],
+   "new": [
+    "text-gray-700 $"
+   ]
+  },
+  {
+   "file": "src/components/contextual/PublishAgentModal/components/AgentInfoStep/components/__tests__/CharCountedTextarea.test.tsx",
+   "op": "nonclass",
+   "old": [
+    "); expect(badge.className).toMatch(/text-zinc-400/); expect(screen.getByRole("
+   ],
+   "new": [
+    "); expect(badge.className).toMatch(/text-foreground-subtle/); expect(screen.getByRole("
+   ]
+  }
+ ],
+ "extra": [
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 320,
+   "old": "text-gray-700 dark:text-gray-300",
+   "new": "text-gray-700",
+   "ctx": {
+    "tag": "li",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/OutputRenderers/renderers/MarkdownRenderer.tsx",
+   "line": 320,
+   "old": "text-gray-700 dark:text-gray-300 flex items-start",
+   "new": "text-gray-700 flex items-start",
+   "ctx": {
+    "tag": "li",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  },
+  {
+   "file": "src/components/contextual/SchedulesPanel/components/GraphScheduleListItem/GraphScheduleListItem.tsx",
+   "line": 243,
+   "cnOnly": true,
+   "old": "min-w-0 truncate text-right text-[13px] font-medium text-zinc-800 font-mono text-xs font-normal tracking-tight text-zinc-600",
+   "new": "min-w-0 truncate text-right text-body-sm font-medium leading-inherit text-foreground-emphasis font-mono text-xs font-normal tracking-tight text-foreground-secondary",
+   "ctx": {
+    "tag": "dd",
+    "variant": null,
+    "size": null,
+    "tone": null
+   }
+  }
+ ]
+}

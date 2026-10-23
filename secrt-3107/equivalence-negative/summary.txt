@@ -1,0 +1,1 @@
+3 changed class strings, 5 cases (3 distinct old/new strings across merges), 720 node comparisons of every computed property: 5 failing
