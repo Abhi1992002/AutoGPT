@@ -1,0 +1,962 @@
+[
+ {
+  "file": "Accordion/Accordion.stories.tsx",
+  "old": "rounded-lg bg-zinc-100 px-4 hover:bg-zinc-200 hover:no-underline",
+  "new": "rounded-lg bg-surface-hover px-4 hover:bg-surface-active hover:no-underline"
+ },
+ {
+  "file": "Accordion/Accordion.stories.tsx",
+  "old": "rounded-lg bg-blue-50 px-4 text-blue-700 hover:bg-blue-100 hover:no-underline",
+  "new": "rounded-lg bg-info-surface px-4 text-blue-700 hover:bg-blue-100 hover:no-underline"
+ },
+ {
+  "file": "Accordion/Accordion.stories.tsx",
+  "old": "px-4 pt-2 text-blue-600",
+  "new": "px-4 pt-2 text-info-foreground"
+ },
+ {
+  "file": "Alert/Alert.tsx",
+  "old": "relative w-full rounded-lg border border-zinc-200 px-4 py-3 text-sm [&>svg]:absolute [&>svg]:left-4 [&>svg]:top-1/2 [&>svg]:-translate-y-1/2 [&>svg]:text-zinc-800 [&>svg~*]:pl-7",
+  "new": "relative w-full rounded-lg border border-border-base px-4 py-3 text-body leading-5 [&>svg]:absolute [&>svg]:left-4 [&>svg]:top-1/2 [&>svg]:-translate-y-1/2 [&>svg]:text-foreground-emphasis [&>svg~*]:pl-7"
+ },
+ {
+  "file": "Alert/Alert.tsx",
+  "old": "bg-white text-zinc-800 [&>svg]:text-purple-500",
+  "new": "bg-surface text-foreground-emphasis [&>svg]:text-brand"
+ },
+ {
+  "file": "Alert/Alert.tsx",
+  "old": "bg-[#FFF3E680] border-yellow-300 text-zinc-800 [&>svg]:text-orange-600",
+  "new": "bg-[#FFF3E680] border-yellow-300 text-foreground-emphasis [&>svg]:text-orange-600"
+ },
+ {
+  "file": "Alert/Alert.tsx",
+  "old": "bg-[#FDECEC80] border-red-300 text-zinc-800 [&>svg]:text-red-500",
+  "new": "bg-[#FDECEC80] border-red-300 text-foreground-emphasis [&>svg]:text-error"
+ },
+ {
+  "file": "Alert/Alert.tsx",
+  "old": "text-sm [&_p]:leading-relaxed",
+  "new": "text-body leading-5 [&_p]:leading-relaxed"
+ },
+ {
+  "file": "AutopilotAvatar/helpers.ts",
+  "old": "bg-violet-50",
+  "new": "bg-accent-surface"
+ },
+ {
+  "file": "Breadcrumbs/Breadcrumbs.tsx",
+  "old": "text-sm font-[400] text-zinc-600 transition-colors hover:text-zinc-900 hover:no-underline",
+  "new": "text-body font-normal leading-5 text-foreground-secondary transition-colors hover:text-foreground-strong hover:no-underline"
+ },
+ {
+  "file": "Breadcrumbs/Breadcrumbs.tsx",
+  "old": "text-sm font-[400] text-zinc-900",
+  "new": "text-body font-normal leading-5 text-foreground-strong"
+ },
+ {
+  "file": "Breadcrumbs/Breadcrumbs.tsx",
+  "old": "text-zinc-600",
+  "new": "text-foreground-secondary"
+ },
+ {
+  "file": "Confetti/Confetti.stories.tsx",
+  "old": "flex h-screen flex-col items-center justify-center gap-6 bg-zinc-50",
+  "new": "flex h-screen flex-col items-center justify-center gap-6 bg-surface-muted"
+ },
+ {
+  "file": "Confetti/Confetti.stories.tsx",
+  "old": "text-sm text-zinc-500",
+  "new": "text-sm text-foreground-tertiary"
+ },
+ {
+  "file": "Confetti/Confetti.stories.tsx",
+  "old": "rounded-lg bg-purple-500 px-8 py-3 text-base font-medium text-white shadow-md transition-colors hover:bg-purple-600 active:scale-95",
+  "new": "rounded-lg bg-brand px-8 py-3 text-base font-medium text-action-foreground shadow-md transition-colors hover:bg-brand-hover active:scale-95"
+ },
+ {
+  "file": "Confetti/Confetti.stories.tsx",
+  "old": "flex h-screen flex-col items-center justify-center gap-6 bg-zinc-50",
+  "new": "flex h-screen flex-col items-center justify-center gap-6 bg-surface-muted"
+ },
+ {
+  "file": "Confetti/Confetti.stories.tsx",
+  "old": "text-sm text-zinc-500",
+  "new": "text-sm text-foreground-tertiary"
+ },
+ {
+  "file": "Confetti/Confetti.stories.tsx",
+  "old": "rounded-lg bg-purple-500 px-8 py-3 text-base font-medium text-white shadow-md transition-colors hover:bg-purple-600 active:scale-95",
+  "new": "rounded-lg bg-brand px-8 py-3 text-base font-medium text-action-foreground shadow-md transition-colors hover:bg-brand-hover active:scale-95"
+ },
+ {
+  "file": "Confetti/Confetti.stories.tsx",
+  "old": "flex h-screen flex-col items-center justify-center gap-6 bg-zinc-50",
+  "new": "flex h-screen flex-col items-center justify-center gap-6 bg-surface-muted"
+ },
+ {
+  "file": "Confetti/Confetti.stories.tsx",
+  "old": "text-sm text-zinc-500",
+  "new": "text-sm text-foreground-tertiary"
+ },
+ {
+  "file": "Confetti/Confetti.stories.tsx",
+  "old": "rounded-lg bg-purple-500 px-8 py-3 text-base font-medium text-white shadow-md transition-colors hover:bg-purple-600 active:scale-95",
+  "new": "rounded-lg bg-brand px-8 py-3 text-base font-medium text-action-foreground shadow-md transition-colors hover:bg-brand-hover active:scale-95"
+ },
+ {
+  "file": "Confetti/Confetti.stories.tsx",
+  "old": "flex h-screen flex-col items-center justify-center gap-6 bg-zinc-900",
+  "new": "flex h-screen flex-col items-center justify-center gap-6 bg-action-hover"
+ },
+ {
+  "file": "Confetti/Confetti.stories.tsx",
+  "old": "text-sm text-zinc-400",
+  "new": "text-sm text-foreground-subtle"
+ },
+ {
+  "file": "Confetti/Confetti.stories.tsx",
+  "old": "rounded-lg bg-purple-500 px-8 py-3 text-base font-medium text-white shadow-md transition-colors hover:bg-purple-600 active:scale-95 disabled:opacity-50",
+  "new": "rounded-lg bg-brand px-8 py-3 text-base font-medium text-action-foreground shadow-md transition-colors hover:bg-brand-hover active:scale-95 disabled:opacity-50"
+ },
+ {
+  "file": "Confetti/Confetti.stories.tsx",
+  "old": "text-lg text-purple-500",
+  "new": "text-lg text-brand"
+ },
+ {
+  "file": "Confetti/Confetti.stories.tsx",
+  "old": "mt-4 rounded-lg bg-purple-500 px-8 py-3 text-base font-medium text-white shadow-md transition-colors hover:bg-purple-600 active:scale-95 disabled:opacity-50",
+  "new": "mt-4 rounded-lg bg-brand px-8 py-3 text-base font-medium text-action-foreground shadow-md transition-colors hover:bg-brand-hover active:scale-95 disabled:opacity-50"
+ },
+ {
+  "file": "Confetti/Confetti.stories.tsx",
+  "old": "rounded-lg bg-purple-600 px-8 py-3 text-base font-medium text-white shadow-md transition-colors hover:bg-purple-700 active:scale-95",
+  "new": "rounded-lg bg-brand-hover px-8 py-3 text-base font-medium text-action-foreground shadow-md transition-colors hover:bg-purple-700 active:scale-95"
+ },
+ {
+  "file": "Confetti/Confetti.stories.tsx",
+  "old": "flex h-screen flex-col items-center justify-center gap-6 bg-zinc-50",
+  "new": "flex h-screen flex-col items-center justify-center gap-6 bg-surface-muted"
+ },
+ {
+  "file": "Confetti/Confetti.stories.tsx",
+  "old": "text-sm text-zinc-500",
+  "new": "text-sm text-foreground-tertiary"
+ },
+ {
+  "file": "Confetti/Confetti.stories.tsx",
+  "old": "rounded-lg bg-purple-500 px-8 py-3 text-base font-medium text-white shadow-md transition-colors hover:bg-purple-600 active:scale-95 disabled:opacity-50",
+  "new": "rounded-lg bg-brand px-8 py-3 text-base font-medium text-action-foreground shadow-md transition-colors hover:bg-brand-hover active:scale-95 disabled:opacity-50"
+ },
+ {
+  "file": "CookieSettingsLink/CookieSettingsLink.tsx",
+  "old": "group inline-flex items-center rounded-md px-2 py-1.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 disabled:cursor-default disabled:opacity-60 sm:py-1",
+  "new": "group inline-flex items-center rounded-md px-2 py-1.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-info disabled:cursor-default disabled:opacity-60 sm:py-1"
+ },
+ {
+  "file": "CookieSettingsLink/CookieSettingsLink.tsx",
+  "old": "underline-offset-2 group-hover:text-zinc-900 group-hover:underline group-disabled:no-underline",
+  "new": "underline-offset-2 group-hover:text-foreground-strong group-hover:underline group-disabled:no-underline"
+ },
+ {
+  "file": "Dialog/components/DialogWrap.tsx",
+  "old": "absolute right-4 top-4 z-50 bg-white",
+  "new": "absolute right-4 top-4 z-50 bg-surface"
+ },
+ {
+  "file": "Dialog/components/DrawerWrap.tsx",
+  "old": "transition-colors duration-200 hover:bg-gray-200 dark:hover:bg-gray-700",
+  "new": "transition-colors duration-200 hover:bg-gray-200"
+ },
+ {
+  "file": "Dialog/components/styles.ts",
+  "old": "fixed inset-0 z-50 bg-stone-500/20 dark:bg-black/50 backdrop-blur-md animate-fade-in",
+  "new": "fixed inset-0 z-50 bg-overlay/20 backdrop-blur-md animate-fade-in"
+ },
+ {
+  "file": "Dialog/components/styles.ts",
+  "old": "bg-white p-6 fixed rounded-2xlarge flex flex-col z-50 w-full",
+  "new": "bg-surface p-6 fixed rounded-2xlarge flex flex-col z-50 w-full"
+ },
+ {
+  "file": "Dialog/components/styles.ts",
+  "old": "font-sans text-base font-medium leading-6 text-zinc-900",
+  "new": "font-sans text-body-lg font-medium leading-6 text-foreground-strong"
+ },
+ {
+  "file": "DropdownMenu/DropdownMenu.tsx",
+  "old": "z-50 min-w-[8rem] overflow-hidden rounded-md border border-neutral-200 bg-white p-1 text-neutral-950 shadow-lg data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50",
+  "new": "z-50 min-w-[8rem] overflow-hidden rounded-md border border-neutral-200 bg-surface p-1 text-neutral-950 shadow-lg data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2"
+ },
+ {
+  "file": "DropdownMenu/DropdownMenu.tsx",
+  "old": "z-50 min-w-[8rem] overflow-hidden rounded-md border border-neutral-200 bg-white p-1 text-neutral-950 shadow-md dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50",
+  "new": "z-50 min-w-[8rem] overflow-hidden rounded-md border border-neutral-200 bg-surface p-1 text-neutral-950 shadow-md"
+ },
+ {
+  "file": "DropdownMenu/DropdownMenu.tsx",
+  "old": "px-2 py-1.5 text-sm font-semibold",
+  "new": "px-2 py-1.5 text-body font-semibold leading-5"
+ },
+ {
+  "file": "DropdownMenu/DropdownMenu.tsx",
+  "old": "-mx-1 my-1 h-px bg-neutral-100 dark:bg-neutral-800",
+  "new": "-mx-1 my-1 h-px bg-neutral-100"
+ },
+ {
+  "file": "DropdownMenu/DropdownMenu.tsx",
+  "old": "ml-auto text-xs tracking-widest opacity-60",
+  "new": "ml-auto text-caption leading-4 tracking-widest opacity-60"
+ },
+ {
+  "file": "ErrorCard/components/CardWrapper.tsx",
+  "old": "absolute inset-0 rounded-xl p-[1px]",
+  "new": null
+ },
+ {
+  "file": "ErrorCard/components/CardWrapper.tsx",
+  "old": "linear-gradient(135deg, , , )",
+  "new": null
+ },
+ {
+  "file": "ErrorCard/components/CardWrapper.tsx",
+  "old": "h-full w-full rounded-xl bg-white",
+  "new": null
+ },
+ {
+  "file": "ErrorCard/components/CardWrapper.tsx",
+  "old": null,
+  "new": "absolute inset-0 rounded-xl bg-[linear-gradient(135deg,rgb(var(--color-surface-hover)),rgb(var(--color-surface-active)),rgb(var(--color-surface-hover)))] p-px"
+ },
+ {
+  "file": "ErrorCard/components/CardWrapper.tsx",
+  "old": null,
+  "new": "h-full w-full rounded-xl bg-surface"
+ },
+ {
+  "file": "ErrorCard/components/ErrorHeader.tsx",
+  "old": "text-zinc-800",
+  "new": "text-foreground-emphasis"
+ },
+ {
+  "file": "ErrorCard/components/ErrorMessage.tsx",
+  "old": "text-zinc-700",
+  "new": "text-foreground-body"
+ },
+ {
+  "file": "ErrorCard/components/ErrorMessage.tsx",
+  "old": "rounded-lg border border-zinc-100 bg-zinc-50 p-3",
+  "new": "rounded-lg border border-separator bg-surface-muted p-3"
+ },
+ {
+  "file": "ErrorCard/components/ErrorMessage.tsx",
+  "old": "!text-red-700",
+  "new": "!text-error-foreground"
+ },
+ {
+  "file": "ErrorCard/components/ErrorMessage.tsx",
+  "old": "text-zinc-700",
+  "new": "text-foreground-body"
+ },
+ {
+  "file": "ExpertAvatar/ExpertAvatar.stories.tsx",
+  "old": "rounded-2xl border border-zinc-200 bg-white p-2",
+  "new": "rounded-2xl border border-border-base bg-surface p-2"
+ },
+ {
+  "file": "ExpertAvatar/ExpertAvatar.stories.tsx",
+  "old": "text-sm text-zinc-500",
+  "new": "text-sm text-foreground-tertiary"
+ },
+ {
+  "file": "ExpertAvatar/ExpertAvatar.stories.tsx",
+  "old": "my-3 flex items-center gap-2 text-sm text-zinc-500",
+  "new": "my-3 flex items-center gap-2 text-sm text-foreground-tertiary"
+ },
+ {
+  "file": "ExpertAvatar/ExpertAvatar.stories.tsx",
+  "old": "mb-2 text-sm font-medium capitalize text-zinc-500",
+  "new": "mb-2 text-sm font-medium capitalize text-foreground-tertiary"
+ },
+ {
+  "file": "ExpertAvatar/ExpertAvatar.tsx",
+  "old": "text-sm",
+  "new": "text-body leading-5"
+ },
+ {
+  "file": "ExpertAvatarPicker/ExpertAvatarPicker.tsx",
+  "old": "text-sm text-muted-foreground",
+  "new": "text-body leading-5 text-muted-foreground"
+ },
+ {
+  "file": "ExpertAvatarPicker/ExpertAvatarPicker.tsx",
+  "old": "text-sm text-destructive",
+  "new": "text-body leading-5 text-destructive"
+ },
+ {
+  "file": "ExpertIdentityDetails/ExpertIdentityDetails.tsx",
+  "old": "leading-[1.125rem]",
+  "new": "leading-4.5"
+ },
+ {
+  "file": "ExpertIdentityDetails/ExpertIdentityDetails.tsx",
+  "old": "text-[13px]",
+  "new": "text-body-sm leading-inherit"
+ },
+ {
+  "file": "ExpertIdentityDetails/ExpertIdentityDetails.tsx",
+  "old": "text-[15px]",
+  "new": "text-body-md leading-inherit"
+ },
+ {
+  "file": "ExpertIdentityDetails/ExpertIdentityDetails.tsx",
+  "old": "linear-gradient(90deg, color-mix(in srgb, 60%, #18181b), color-mix(in srgb, 85%, #18181b))",
+  "new": "linear-gradient(90deg, color-mix(in srgb, 60%, rgb(var(--color-primary))), color-mix(in srgb, 85%, rgb(var(--color-primary))))"
+ },
+ {
+  "file": "Form/Form.tsx",
+  "old": "text-red-500 dark:text-red-900",
+  "new": "text-error"
+ },
+ {
+  "file": "Form/Form.tsx",
+  "old": "font-sans text-[0.75rem] font-[400] leading-[1.125rem] text-neutral-500 dark:text-neutral-400",
+  "new": "font-sans text-caption font-normal leading-4.5 text-neutral-500"
+ },
+ {
+  "file": "Form/Form.tsx",
+  "old": "font-sans text-[0.75rem] font-[500] leading-[1.125rem] text-red-500 dark:text-red-900",
+  "new": "font-sans text-caption font-medium leading-4.5 text-error"
+ },
+ {
+  "file": "GlassOrb/GlassOrb.tsx",
+  "old": "absolute inset-0",
+  "new": null
+ },
+ {
+  "file": "GlassOrb/GlassOrb.tsx",
+  "old": "url(#glass-orb-refraction)",
+  "new": null
+ },
+ {
+  "file": "GlassOrb/GlassOrb.tsx",
+  "old": null,
+  "new": "absolute inset-0 [filter:url(#glass-orb-refraction)]"
+ },
+ {
+  "file": "GlassOrb/GlassOrb.tsx",
+  "old": null,
+  "new": "absolute inset-0 animate-[glass-orb-spin_12s_linear_infinite] motion-reduce:animate-none"
+ },
+ {
+  "file": "GlassOrb/GlassOrb.tsx",
+  "old": null,
+  "new": "absolute left-[6%] top-[10%] h-[46%] w-[78%] animate-[glass-orb-drift-1_9s_ease-in-out_infinite_alternate] rounded-[78%_22%_58%_42%/30%_72%_28%_70%] bg-[linear-gradient(120deg,#9c43fe,#5b8cff)] opacity-50 blur motion-reduce:animate-none"
+ },
+ {
+  "file": "GlassOrb/GlassOrb.tsx",
+  "old": null,
+  "new": "absolute inset-0 animate-[glass-orb-spin_19s_linear_infinite_reverse] motion-reduce:animate-none"
+ },
+ {
+  "file": "GlassOrb/GlassOrb.tsx",
+  "old": null,
+  "new": "absolute left-[34%] top-[18%] h-[70%] w-[55%] animate-[glass-orb-drift-2_11s_ease-in-out_infinite_alternate] rounded-[30%_70%_25%_75%/65%_28%_72%_35%] bg-[linear-gradient(200deg,#7c5bff,#4062ff)] opacity-50 blur motion-reduce:animate-none"
+ },
+ {
+  "file": "GlassOrb/GlassOrb.tsx",
+  "old": null,
+  "new": "absolute inset-0 animate-[glass-orb-spin_15s_linear_infinite] motion-reduce:animate-none"
+ },
+ {
+  "file": "GlassOrb/GlassOrb.tsx",
+  "old": null,
+  "new": "absolute left-[12%] top-[46%] h-[38%] w-[68%] animate-[glass-orb-drift-3_7.5s_ease-in-out_infinite_alternate] rounded-[85%_15%_70%_30%/20%_80%_25%_75%] bg-[linear-gradient(90deg,#b06bff,#6d7dff)] opacity-50 blur motion-reduce:animate-none"
+ },
+ {
+  "file": "GlassOrb/GlassOrb.tsx",
+  "old": null,
+  "new": "absolute inset-0 animate-[glass-orb-spin_24s_linear_infinite_reverse] motion-reduce:animate-none"
+ },
+ {
+  "file": "GlassOrb/GlassOrb.tsx",
+  "old": null,
+  "new": "absolute left-[8%] top-[30%] h-[58%] w-[44%] animate-[glass-orb-drift-4_13s_ease-in-out_infinite_alternate] rounded-[45%_55%_80%_20%/75%_30%_70%_25%] bg-[linear-gradient(160deg,#8a4dff,#4d8bff)] opacity-50 blur motion-reduce:animate-none"
+ },
+ {
+  "file": "GlassOrb/GlassOrb.tsx",
+  "old": null,
+  "new": "absolute inset-0 animate-[glass-orb-spin_9s_linear_infinite] motion-reduce:animate-none"
+ },
+ {
+  "file": "GlassOrb/GlassOrb.tsx",
+  "old": null,
+  "new": "absolute left-[26%] top-[58%] h-[34%] w-[60%] animate-[glass-orb-drift-5_8.5s_ease-in-out_infinite_alternate] rounded-[20%_80%_35%_65%/80%_25%_75%_20%] bg-[linear-gradient(45deg,#a35bff,#5470ff)] opacity-50 blur motion-reduce:animate-none"
+ },
+ {
+  "file": "InformationTooltip/InformationTooltip.tsx",
+  "old": "inline-flex flex-none items-center justify-center rounded-full p-1 text-current hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-300",
+  "new": "inline-flex flex-none items-center justify-center rounded-full p-1 text-current hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-strong"
+ },
+ {
+  "file": "InstallWorkflowPicker/InstallWorkflowPicker.tsx",
+  "old": "text-zinc-500",
+  "new": "text-foreground-tertiary"
+ },
+ {
+  "file": "InstallWorkflowPicker/InstallWorkflowPicker.tsx",
+  "old": "divide-y divide-zinc-100 overflow-hidden rounded-lg border border-zinc-200/80",
+  "new": "divide-y divide-separator overflow-hidden rounded-lg border border-border-base/80"
+ },
+ {
+  "file": "InstallWorkflowPicker/InstallWorkflowPicker.tsx",
+  "old": "flex items-center gap-3 px-3.5 py-2.5 transition-colors hover:bg-zinc-50",
+  "new": "flex items-center gap-3 px-3.5 py-2.5 transition-colors hover:bg-surface-muted"
+ },
+ {
+  "file": "InstallWorkflowPicker/InstallWorkflowPicker.tsx",
+  "old": "!text-zinc-500",
+  "new": "!text-foreground-tertiary"
+ },
+ {
+  "file": "InstallWorkflowPicker/InstallWorkflowPicker.tsx",
+  "old": "py-2 text-center !text-zinc-500",
+  "new": "py-2 text-center !text-foreground-tertiary"
+ },
+ {
+  "file": "InstallWorkflowPicker/InstallWorkflowPicker.tsx",
+  "old": "py-2 text-center !text-zinc-500",
+  "new": "py-2 text-center !text-foreground-tertiary"
+ },
+ {
+  "file": "InstallWorkflowPicker/InstallWorkflowPicker.tsx",
+  "old": "divide-y divide-zinc-100 overflow-hidden rounded-lg border border-zinc-200/80",
+  "new": "divide-y divide-separator overflow-hidden rounded-lg border border-border-base/80"
+ },
+ {
+  "file": "InstallWorkflowPicker/InstallWorkflowPicker.tsx",
+  "old": "flex items-center gap-3 px-3.5 py-2.5 transition-colors hover:bg-zinc-50",
+  "new": "flex items-center gap-3 px-3.5 py-2.5 transition-colors hover:bg-surface-muted"
+ },
+ {
+  "file": "InstallWorkflowPicker/InstallWorkflowPicker.tsx",
+  "old": "truncate !text-zinc-500",
+  "new": "truncate !text-foreground-tertiary"
+ },
+ {
+  "file": "InstallWorkflowPicker/InstallWorkflowPicker.tsx",
+  "old": "flex items-center gap-3 px-3.5 py-2.5 transition-colors hover:bg-zinc-50",
+  "new": "flex items-center gap-3 px-3.5 py-2.5 transition-colors hover:bg-surface-muted"
+ },
+ {
+  "file": "InstallWorkflowPicker/InstallWorkflowPicker.tsx",
+  "old": "!text-zinc-500",
+  "new": "!text-foreground-tertiary"
+ },
+ {
+  "file": "InstallWorkflowPicker/components/WorkflowTile.tsx",
+  "old": "size-9 shrink-0 rounded-lg bg-zinc-100",
+  "new": "size-9 shrink-0 rounded-lg bg-surface-hover"
+ },
+ {
+  "file": "InstallWorkflowPicker/components/WorkflowTile.tsx",
+  "old": "size-9 shrink-0 rounded-lg bg-zinc-100 object-cover",
+  "new": "size-9 shrink-0 rounded-lg bg-surface-hover object-cover"
+ },
+ {
+  "file": "IntegrationLogo/IntegrationLogo.tsx",
+  "old": "text-zinc-400",
+  "new": "text-foreground-subtle"
+ },
+ {
+  "file": "IntegrationsMarquee/IntegrationsMarquee.tsx",
+  "old": "relative flex h-[200px] w-[340px] flex-col justify-center gap-3 overflow-hidden",
+  "new": null
+ },
+ {
+  "file": "IntegrationsMarquee/IntegrationsMarquee.tsx",
+  "old": "linear-gradient(to right, transparent 0%, black 18%, black 82%, transparent 100%)",
+  "new": null
+ },
+ {
+  "file": "IntegrationsMarquee/IntegrationsMarquee.tsx",
+  "old": "linear-gradient(to right, transparent 0%, black 18%, black 82%, transparent 100%)",
+  "new": null
+ },
+ {
+  "file": "IntegrationsMarquee/IntegrationsMarquee.tsx",
+  "old": null,
+  "new": "relative flex h-[200px] w-[340px] flex-col justify-center gap-3 overflow-hidden [-webkit-mask-image:linear-gradient(to_right,transparent_0%,black_18%,black_82%,transparent_100%)] [mask-image:linear-gradient(to_right,transparent_0%,black_18%,black_82%,transparent_100%)]"
+ },
+ {
+  "file": "IntegrationsMarquee/IntegrationsMarquee.tsx",
+  "old": "border-white/10 bg-white/[0.04]",
+  "new": "border-surface/10 bg-surface/[0.04]"
+ },
+ {
+  "file": "IntegrationsMarquee/IntegrationsMarquee.tsx",
+  "old": "border-zinc-200/50 bg-white/50 opacity-70",
+  "new": "border-border-base/50 bg-surface/50 opacity-70"
+ },
+ {
+  "file": "IntegrationsMarquee/IntegrationsMarquee.tsx",
+  "old": "bg-white/[0.06]",
+  "new": "bg-surface/[0.06]"
+ },
+ {
+  "file": "IntegrationsMarquee/IntegrationsMarquee.tsx",
+  "old": "bg-zinc-50/60",
+  "new": "bg-surface-muted/60"
+ },
+ {
+  "file": "IntegrationsMarquee/IntegrationsMarquee.tsx",
+  "old": "bg-white/15",
+  "new": "bg-surface/15"
+ },
+ {
+  "file": "IntegrationsMarquee/IntegrationsMarquee.tsx",
+  "old": "bg-zinc-100/80",
+  "new": "bg-surface-hover/80"
+ },
+ {
+  "file": "IntegrationsMarquee/IntegrationsMarquee.tsx",
+  "old": "bg-white/10",
+  "new": "bg-surface/10"
+ },
+ {
+  "file": "IntegrationsMarquee/IntegrationsMarquee.tsx",
+  "old": "bg-zinc-100/80",
+  "new": "bg-surface-hover/80"
+ },
+ {
+  "file": "MultiToggle/MultiToggle.tsx",
+  "old": "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-600 focus-visible:ring-offset-2",
+  "new": "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-hover focus-visible:ring-offset-2"
+ },
+ {
+  "file": "MultiToggle/MultiToggle.tsx",
+  "old": "h-[2.25rem] px-4 py-2 text-sm leading-[22px]",
+  "new": "h-[2.25rem] px-4 py-2 text-body leading-5.5"
+ },
+ {
+  "file": "MultiToggle/MultiToggle.tsx",
+  "old": "border-zinc-700 bg-transparent text-black hover:bg-zinc-100",
+  "new": "border-zinc-700 bg-transparent text-foreground-base hover:bg-surface-hover"
+ },
+ {
+  "file": "MultiToggle/MultiToggle.tsx",
+  "old": "border-purple-600 bg-purple-50 text-purple-600 hover:bg-purple-100",
+  "new": "border-brand-hover bg-purple-50 text-brand-hover hover:bg-purple-100"
+ },
+ {
+  "file": "MultiToggle/MultiToggle.tsx",
+  "old": "border-zinc-200 text-zinc-200 opacity-50",
+  "new": "border-border-base text-zinc-200 opacity-50"
+ },
+ {
+  "file": "Popover/Popover.tsx",
+  "old": "z-50 w-72 rounded-lg border border-zinc-200 bg-white p-4 text-zinc-900 shadow-md outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2",
+  "new": "z-50 w-72 rounded-lg border border-border-base bg-surface p-4 text-foreground-strong shadow-md outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2"
+ },
+ {
+  "file": "ScrollableTabs/ScrollableTabs.stories.tsx",
+  "old": "h-[300px] overflow-y-auto border border-zinc-200",
+  "new": "h-[300px] overflow-y-auto border border-border-base"
+ },
+ {
+  "file": "ScrollableTabs/ScrollableTabs.stories.tsx",
+  "old": "h-[400px] overflow-y-auto border border-zinc-200",
+  "new": "h-[400px] overflow-y-auto border border-border-base"
+ },
+ {
+  "file": "ScrollableTabs/ScrollableTabs.stories.tsx",
+  "old": "h-[500px] overflow-y-auto border border-zinc-200",
+  "new": "h-[500px] overflow-y-auto border border-border-base"
+ },
+ {
+  "file": "ScrollableTabs/ScrollableTabs.stories.tsx",
+  "old": "h-[200px] overflow-y-auto border border-zinc-200",
+  "new": "h-[200px] overflow-y-auto border border-border-base"
+ },
+ {
+  "file": "ScrollableTabs/ScrollableTabs.stories.tsx",
+  "old": "h-[600px] overflow-y-auto border border-zinc-200",
+  "new": "h-[600px] overflow-y-auto border border-border-base"
+ },
+ {
+  "file": "ScrollableTabs/ScrollableTabs.tsx",
+  "old": "max-h-[64rem] overflow-y-auto scrollbar-thin scrollbar-track-transparent scrollbar-thumb-zinc-300 dark:scrollbar-thumb-zinc-700",
+  "new": "max-h-[64rem] overflow-y-auto scrollbar-thin scrollbar-track-transparent scrollbar-thumb-border-strong"
+ },
+ {
+  "file": "ScrollableTabs/components/ScrollableTabsList.tsx",
+  "old": "inline-flex w-full items-center justify-start border-b border-zinc-100",
+  "new": "inline-flex w-full items-center justify-start border-b border-separator"
+ },
+ {
+  "file": "ScrollableTabs/components/ScrollableTabsList.tsx",
+  "old": "transition-left transition-right absolute bottom-0 h-0.5 bg-purple-600 duration-200 ease-in-out",
+  "new": "transition-left transition-right absolute bottom-0 h-0.5 bg-brand-hover duration-200 ease-in-out"
+ },
+ {
+  "file": "ScrollableTabs/components/ScrollableTabsTrigger.tsx",
+  "old": "relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-[0.875rem] font-medium leading-[1.5rem] text-zinc-700 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
+  "new": "relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+ },
+ {
+  "file": "ScrollableTabs/components/ScrollableTabsTrigger.tsx",
+  "old": "text-purple-600",
+  "new": "text-brand-hover"
+ },
+ {
+  "file": "SearchInput/SearchInput.tsx",
+  "old": "h-7 rounded-md pl-8 pr-7 text-xs leading-5",
+  "new": "h-7 rounded-md pl-8 pr-7 text-caption leading-5"
+ },
+ {
+  "file": "SearchInput/SearchInput.tsx",
+  "old": "h-[36px] pl-10 pr-9 text-sm leading-[22px]",
+  "new": "h-[36px] pl-10 pr-9 text-body leading-5.5"
+ },
+ {
+  "file": "SearchInput/SearchInput.tsx",
+  "old": "h-[46px] pl-12 pr-10 text-sm leading-[22px]",
+  "new": "h-[46px] pl-12 pr-10 text-body leading-5.5"
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": "flex h-32 w-64 cursor-pointer items-center justify-center rounded-lg border border-gray-300 bg-gray-50 dark:border-gray-600 dark:bg-gray-800",
+  "new": null
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": "mr-2 dark:text-gray-100",
+  "new": null
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": "dark:text-gray-100",
+  "new": null
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": "mr-2 dark:text-gray-100",
+  "new": null
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": "dark:text-gray-100",
+  "new": null
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": "mr-2 text-red-500 dark:text-red-400",
+  "new": null
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": "dark:text-red-400",
+  "new": null
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": null,
+  "new": "flex h-32 w-64 cursor-pointer items-center justify-center rounded-lg border border-gray-300 bg-gray-50"
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": null,
+  "new": "mr-2"
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": null,
+  "new": "mr-2"
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": null,
+  "new": "mr-2 text-error"
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": "mr-2 dark:text-gray-100",
+  "new": null
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": "dark:text-gray-100",
+  "new": null
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": "mr-2 dark:text-gray-100",
+  "new": null
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": "dark:text-gray-100",
+  "new": null
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": "mr-2 text-red-500 dark:text-red-400",
+  "new": null
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": "dark:text-red-400",
+  "new": null
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": null,
+  "new": "mr-2"
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": null,
+  "new": "mr-2"
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.stories.tsx",
+  "old": null,
+  "new": "mr-2 text-error"
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.tsx",
+  "old": "z-10 rounded-xl border bg-white p-1 shadow-md dark:bg-gray-800",
+  "new": "z-10 rounded-xl border bg-surface p-1 shadow-md"
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.tsx",
+  "old": "flex cursor-pointer items-center rounded-md px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-700",
+  "new": "flex cursor-pointer items-center rounded-md px-3 py-2 hover:bg-gray-100"
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.tsx",
+  "old": "my-1 h-px bg-gray-300 dark:bg-gray-600",
+  "new": "my-1 h-px bg-gray-300"
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.tsx",
+  "old": "text-red-500 hover:bg-gray-100 dark:hover:bg-gray-700",
+  "new": "text-error hover:bg-gray-100"
+ },
+ {
+  "file": "SecondaryMenu/SecondaryMenu.tsx",
+  "old": "text-red-500 hover:bg-gray-100 dark:hover:bg-gray-700",
+  "new": "text-error hover:bg-gray-100"
+ },
+ {
+  "file": "ShowMore/ShowMore.stories.tsx",
+  "old": "text-blue-600 hover:text-blue-800",
+  "new": "text-info-foreground hover:text-blue-800"
+ },
+ {
+  "file": "ShowMore/ShowMore.tsx",
+  "old": "ml-1 inline-flex items-center gap-1 font-medium text-black",
+  "new": "ml-1 inline-flex items-center gap-1 font-medium text-foreground-base"
+ },
+ {
+  "file": "ShowMoreText/ShowMoreText.stories.tsx",
+  "old": "text-blue-600 hover:text-blue-800",
+  "new": "text-info-foreground hover:text-blue-800"
+ },
+ {
+  "file": "ShowMoreText/ShowMoreText.tsx",
+  "old": "mt-2 flex h-[1rem] w-[1.75rem] items-center justify-center rounded-full bg-zinc-100 pb-2 font-medium text-black",
+  "new": "mt-2 flex h-[1rem] w-[1.75rem] items-center justify-center rounded-full bg-surface-hover pb-2 font-medium text-foreground-base"
+ },
+ {
+  "file": "Table/Table.tsx",
+  "old": "overflow-hidden rounded-xl border border-zinc-200 bg-white",
+  "new": "overflow-hidden rounded-xl border border-border-base bg-surface"
+ },
+ {
+  "file": "Table/Table.tsx",
+  "old": "border-b border-zinc-100 bg-zinc-50/50",
+  "new": "border-b border-separator bg-surface-muted/50"
+ },
+ {
+  "file": "Table/Table.tsx",
+  "old": "h-10 px-3 text-sm font-medium text-zinc-600",
+  "new": "h-10 px-3 text-body font-medium leading-5 text-foreground-secondary"
+ },
+ {
+  "file": "Table/Table.tsx",
+  "old": "px-3 py-2 text-sm text-zinc-800",
+  "new": "px-3 py-2 text-body leading-5 text-foreground-emphasis"
+ },
+ {
+  "file": "Table/Table.tsx",
+  "old": "text-zinc-400 transition-colors hover:text-red-500",
+  "new": "text-foreground-subtle transition-colors hover:text-error"
+ },
+ {
+  "file": "TabsLine/TabsLine.stories.tsx",
+  "old": "text-sm text-zinc-600",
+  "new": "text-sm text-foreground-secondary"
+ },
+ {
+  "file": "TabsLine/TabsLine.stories.tsx",
+  "old": "text-sm text-zinc-600",
+  "new": "text-sm text-foreground-secondary"
+ },
+ {
+  "file": "TabsLine/TabsLine.stories.tsx",
+  "old": "text-sm text-zinc-600",
+  "new": "text-sm text-foreground-secondary"
+ },
+ {
+  "file": "TabsLine/TabsLine.stories.tsx",
+  "old": "text-sm text-zinc-600",
+  "new": "text-sm text-foreground-secondary"
+ },
+ {
+  "file": "TabsLine/TabsLine.tsx",
+  "old": "inline-flex w-full items-center justify-start border-b border-zinc-100",
+  "new": "inline-flex w-full items-center justify-start border-b border-separator"
+ },
+ {
+  "file": "TabsLine/TabsLine.tsx",
+  "old": "transition-left transition-right absolute bottom-0 h-0.5 bg-purple-600 duration-200 ease-in-out",
+  "new": "transition-left transition-right absolute bottom-0 h-0.5 bg-brand-hover duration-200 ease-in-out"
+ },
+ {
+  "file": "TabsLine/TabsLine.tsx",
+  "old": "bg-zinc-900",
+  "new": "bg-action-hover"
+ },
+ {
+  "file": "TabsLine/TabsLine.tsx",
+  "old": "relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-[0.875rem] font-medium leading-[1.5rem] text-zinc-700 transition-all data-[state=active]:text-purple-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
+  "new": "relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50"
+ },
+ {
+  "file": "TabsLine/TabsLine.tsx",
+  "old": "px-2.5 py-2 text-sm leading-5 text-zinc-600 data-[state=active]:text-zinc-900",
+  "new": "px-2.5 py-2 text-body leading-5 text-foreground-secondary data-[state=active]:text-foreground-strong"
+ },
+ {
+  "file": "TimePicker/TimePicker.tsx",
+  "old": "m-auto text-xl font-bold",
+  "new": "m-auto text-lead font-bold"
+ },
+ {
+  "file": "Toast/toaster.tsx",
+  "old": null,
+  "new": "!px-4 !py-[0.8rem] !bg-action-hover !border-action-hover"
+ },
+ {
+  "file": "Toast/toaster.tsx",
+  "old": null,
+  "new": "!-mb-[0.15rem] !text-body !font-medium !text-action-foreground"
+ },
+ {
+  "file": "Toast/toaster.tsx",
+  "old": null,
+  "new": "!text-caption !leading-5 !text-[#f4f4f5]"
+ },
+ {
+  "file": "Toast/toaster.tsx",
+  "old": null,
+  "new": "[&[data-type=error]]:!bg-red-400 [&[data-type=error]]:!border-red-400"
+ },
+ {
+  "file": "Toast/toaster.tsx",
+  "old": null,
+  "new": "[&[data-type=success]]:!bg-green-400 [&[data-type=success]]:!border-green-400"
+ },
+ {
+  "file": "Toast/toaster.tsx",
+  "old": null,
+  "new": "[&[data-type=warning]]:!bg-orange-600 [&[data-type=warning]]:!border-orange-600"
+ },
+ {
+  "file": "YouTubeEmbed/YouTubeEmbed.tsx",
+  "old": "flex h-full w-full flex-col items-center justify-center gap-3 overflow-auto bg-zinc-100 p-4 text-center",
+  "new": "flex h-full w-full flex-col items-center justify-center gap-3 overflow-auto bg-surface-hover p-4 text-center"
+ },
+ {
+  "file": "YouTubeEmbed/YouTubeEmbed.tsx",
+  "old": "text-zinc-400",
+  "new": "text-foreground-subtle"
+ },
+ {
+  "file": "file-tree.tsx",
+  "old": "absolute left-1.5 h-full w-px rounded-md bg-neutral-400 py-3 duration-300 ease-in-out hover:bg-neutral-600 dark:bg-neutral-500 rtl:right-1.5",
+  "new": "absolute left-1.5 h-full w-px rounded-md bg-neutral-400 py-3 duration-300 ease-in-out hover:bg-neutral-600 rtl:right-1.5"
+ },
+ {
+  "file": "file-tree.tsx",
+  "old": "flex items-center gap-1 rounded-md text-sm",
+  "new": "flex items-center gap-1 rounded-md text-body leading-5"
+ },
+ {
+  "file": "file-tree.tsx",
+  "old": "rounded-md bg-neutral-100 dark:bg-neutral-800",
+  "new": "rounded-md bg-neutral-100"
+ },
+ {
+  "file": "file-tree.tsx",
+  "old": "relative h-full overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down",
+  "new": "relative h-full overflow-hidden text-body leading-5 data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
+ },
+ {
+  "file": "file-tree.tsx",
+  "old": "flex w-fit items-center gap-1 rounded-md pr-1 text-sm duration-200 ease-in-out rtl:pl-1 rtl:pr-0",
+  "new": "flex w-fit items-center gap-1 rounded-md pr-1 text-body leading-5 duration-200 ease-in-out rtl:pl-1 rtl:pr-0"
+ },
+ {
+  "file": "file-tree.tsx",
+  "old": "bg-neutral-100 dark:bg-neutral-800",
+  "new": "bg-neutral-100"
+ },
+ {
+  "file": "ErrorCard/components/ErrorHeader.tsx (Text large-semibold + className)",
+  "old": "font-sans text-body-lg font-semibold text-black text-zinc-800",
+  "new": "font-sans text-body-lg font-semibold text-black text-foreground-emphasis"
+ },
+ {
+  "file": "ErrorCard/components/ErrorMessage.tsx (Text body + className)",
+  "old": "font-sans text-body font-normal text-black text-zinc-700",
+  "new": "font-sans text-body font-normal text-black text-foreground-body"
+ },
+ {
+  "file": "ErrorCard/components/ErrorMessage.tsx (Text body + className)",
+  "old": "font-sans text-body font-normal text-black !text-red-700",
+  "new": "font-sans text-body font-normal text-black !text-error-foreground"
+ },
+ {
+  "file": "CookieSettingsLink/CookieSettingsLink.tsx (Text small, tone secondary + className)",
+  "old": "font-sans text-caption font-normal text-black text-zinc-600 underline-offset-2 group-hover:text-zinc-900 group-hover:underline group-disabled:no-underline",
+  "new": "font-sans text-caption font-normal text-black text-zinc-600 underline-offset-2 group-hover:text-foreground-strong group-hover:underline group-disabled:no-underline"
+ },
+ {
+  "file": "ExpertIdentityDetails/ExpertIdentityDetails.tsx (Text body-medium, tone primary, compact)",
+  "old": "font-sans text-body font-medium text-black text-zinc-900 min-w-0 truncate leading-[1.125rem]",
+  "new": "font-sans text-body font-medium text-black text-zinc-900 min-w-0 truncate leading-4.5"
+ },
+ {
+  "file": "ExpertIdentityDetails/ExpertIdentityDetails.tsx (Text body, tone secondary, card)",
+  "old": "font-sans text-body font-normal text-black text-zinc-600 min-w-0 truncate text-[13px]",
+  "new": "font-sans text-body font-normal text-black text-zinc-600 min-w-0 truncate text-body-sm leading-inherit"
+ },
+ {
+  "file": "TabsLine/TabsLine.tsx (trigger, default)",
+  "old": "relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-[0.875rem] font-medium leading-[1.5rem] text-zinc-700 transition-all data-[state=active]:text-purple-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
+  "new": "relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:text-brand-hover"
+ },
+ {
+  "file": "TabsLine/TabsLine.tsx (trigger, compact merged)",
+  "old": "relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-[0.875rem] font-medium leading-[1.5rem] text-zinc-700 transition-all data-[state=active]:text-purple-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 px-2.5 py-2 text-sm leading-5 text-zinc-600 data-[state=active]:text-zinc-900",
+  "new": "relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:text-brand-hover px-2.5 py-2 text-body leading-5 text-foreground-secondary data-[state=active]:text-foreground-strong"
+ },
+ {
+  "file": "ScrollableTabs/components/ScrollableTabsTrigger.tsx (active, merged)",
+  "old": "relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-[0.875rem] font-medium leading-[1.5rem] text-zinc-700 transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-purple-600",
+  "new": "relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-brand-hover"
+ }
+]
