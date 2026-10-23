@@ -1,0 +1,126 @@
+bots/components/MessageVolumeChart.tsx:1:// TODO(tokens): chart and canvas colours, which have no tokens yet: #6366F1,
+bots/components/MessageVolumeChart.tsx-2-// #10B981, #EF4444.
+bots/components/MessageVolumeChart.tsx-3-// The axis fontSize={12} props are Recharts' own API (a number, not a
+bots/components/MessageVolumeChart.tsx-4-// class); 12px is the text-caption size, so they move with the chart tokens.
+bots/components/ServerGrowthChart.tsx:1:// TODO(tokens): chart and canvas colours, which have no tokens yet: #6366F1,
+bots/components/ServerGrowthChart.tsx-2-// #EF4444.
+bots/components/ServerGrowthChart.tsx-3-// The axis fontSize={12} props are Recharts' own API (a number, not a
+bots/components/ServerGrowthChart.tsx-4-// class); 12px is the text-caption size, so they move with the chart tokens.
+components/AdminImpersonationBanner.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+components/AdminImpersonationBanner.tsx-4-// bg-amber-100 #FEF3C7, border-amber-300 #FCD34D, text-amber-900 #78350F.
+components/AdminSection.tsx:26:        // TODO(tokens): the shadow colour rgba(15,15,20,0.04) has no token yet.
+components/UsageBar.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+components/UsageBar.tsx-4-// bg-gray-200 #E5E7EB, bg-green-500 #16A34A, bg-yellow-500 #F5C000,
+components/UsageBar.tsx-5-// text-gray-500 #6B7280.
+diagnostics/components/DiagnosticsContent.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+diagnostics/components/DiagnosticsContent.tsx-4-// bg-blue-100 #DBEAFE, bg-green-100 #B7E2C7, bg-green-500 #16A34A,
+diagnostics/components/DiagnosticsContent.tsx-5-// bg-orange-50 #FFF3E6, bg-pink-50 #FDEDF5, bg-purple-100 #EFE8FE,
+diagnostics/components/DiagnosticsContent.tsx-6-// bg-purple-50 #F1EBFE, bg-red-100 #FDECEC, bg-yellow-100 #FCEBB0,
+diagnostics/components/DiagnosticsContent.tsx-7-// bg-yellow-50 #FEF9E6, bg-yellow-500 #F5C000, border-orange-300 #FEAF54,
+diagnostics/components/DiagnosticsContent.tsx-8-// border-pink-300 #F284BB, border-purple-300 #A476F8, border-red-300 #F69999,
+diagnostics/components/DiagnosticsContent.tsx-9-// border-yellow-300 #F8D554, text-blue-700 #1D4ED8, text-gray-400 #9CA3AF,
+diagnostics/components/ExecutionsTable.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+diagnostics/components/ExecutionsTable.tsx-4-// bg-blue-600 #2563EB, bg-blue-700 #1D4ED8, bg-green-100 #B7E2C7,
+diagnostics/components/ExecutionsTable.tsx-5-// bg-orange-100 #FFDAB0, bg-orange-50 #FFF3E6, bg-orange-600 #E77B00,
+diagnostics/components/ExecutionsTable.tsx-6-// bg-orange-700 #B46000, bg-pink-50 #FDEDF5, bg-red-700 #AA3030,
+diagnostics/components/ExecutionsTable.tsx-7-// bg-yellow-100 #FCEBB0, border-orange-500 #FE8700, text-blue-700 #1D4ED8,
+diagnostics/components/ExecutionsTable.tsx-8-// text-gray-400 #9CA3AF, text-gray-500 #6B7280, text-gray-600 #4B5563,
+diagnostics/components/ExecutionsTable.tsx-9-// text-gray-700 #374151, text-green-800 #0C5A29, text-orange-200 #FFC88A,
+diagnostics/components/SchedulesTable.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+diagnostics/components/SchedulesTable.tsx-4-// bg-gray-100 #F3F4F6, bg-purple-50 #F1EBFE, bg-red-700 #AA3030,
+diagnostics/components/SchedulesTable.tsx-5-// text-gray-400 #9CA3AF, text-gray-500 #6B7280, text-gray-600 #4B5563,
+diagnostics/components/SchedulesTable.tsx-6-// text-gray-700 #374151, text-purple-600 #6C2EDF.
+diagnostics/components/SchedulesTable.tsx-7-// Same value as a role with another meaning, so not swapped:
+diagnostics/components/SchedulesTable.tsx-8-// text-purple-600 = brand-hover (a hover fill).
+execution-analytics/components/AnalyticsResultsTable.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+execution-analytics/components/AnalyticsResultsTable.tsx-4-// bg-gray-50 #F9FAFB, border-gray-200 #E5E7EB, divide-gray-200 #E5E7EB,
+execution-analytics/components/AnalyticsResultsTable.tsx-5-// text-gray-500 #6B7280, text-gray-600 #4B5563, text-gray-700 #374151,
+execution-analytics/components/AnalyticsResultsTable.tsx-6-// text-orange-600 #E77B00, text-red-600 #D93636, text-yellow-600 #DFAF00.
+execution-analytics/components/AnalyticsResultsTable.tsx-7-// Same value as a role with another meaning, so not swapped:
+execution-analytics/components/AnalyticsResultsTable.tsx-8-// text-red-600 = error-hover (a hover fill).
+execution-analytics/components/ExecutionAnalyticsForm.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+execution-analytics/components/ExecutionAnalyticsForm.tsx-4-// bg-gray-100 #F3F4F6, bg-red-100 #FDECEC, text-blue-700 #1D4ED8,
+execution-analytics/components/ExecutionAnalyticsForm.tsx-5-// text-gray-500 #6B7280, text-gray-600 #4B5563, text-gray-700 #374151,
+execution-analytics/components/ExecutionAnalyticsForm.tsx-6-// text-orange-600 #E77B00, text-purple-600 #6C2EDF, text-red-600 #D93636,
+execution-analytics/components/ExecutionAnalyticsForm.tsx-7-// text-red-800 #832525.
+execution-analytics/components/ExecutionAnalyticsForm.tsx-8-// Same value as a role with another meaning, so not swapped:
+execution-analytics/components/ExecutionAnalyticsForm.tsx-9-// text-red-600 = error-hover (a hover fill),
+execution-analytics/components/ExecutionAnalyticsForm.tsx:11:// TODO(tokens): chart and canvas colours, which have no tokens yet: #3B82F6,
+execution-analytics/components/ExecutionAnalyticsForm.tsx-12-// #10B981, #F59E0B, #8B5CF6.
+execution-analytics/page.tsx:1:// TODO(tokens): no role for these colours yet, so they stay raw:
+execution-analytics/page.tsx-2-// text-gray-500 #6B7280, text-gray-600 #4B5563.
+marketplace/components/ApproveRejectButton.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+marketplace/components/ApproveRejectButton.tsx-4-// text-red-600 #D93636.
+marketplace/components/ApproveRejectButton.tsx-5-// Same value as a role with another meaning, so not swapped:
+marketplace/components/ApproveRejectButton.tsx-6-// text-red-600 = error-hover (a hover fill).
+marketplace/components/ExpandleRow.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+marketplace/components/ExpandleRow.tsx-4-// bg-gray-500 #6B7280, bg-green-500 #16A34A, text-gray-400 #9CA3AF,
+marketplace/components/ExpandleRow.tsx-5-// text-pink-600 #D7428B.
+marketplace/page.tsx:1:// TODO(tokens): no role for these colours yet, so they stay raw:
+marketplace/page.tsx-2-// text-gray-500 #6B7280.
+marketplace/preview/[id]/page.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+marketplace/preview/[id]/page.tsx-4-// text-amber-600 #D97706.
+memory/components/DreamOperationsView/DreamOperationsView.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+memory/components/DreamOperationsView/DreamOperationsView.tsx-4-// bg-gray-100 #F3F4F6, text-gray-500 #6B7280, text-gray-600 #4B5563,
+memory/components/DreamOperationsView/DreamOperationsView.tsx-5-// text-gray-800 #1F2937.
+memory/components/DreamOperationsView/components/DreamDemotionRow.tsx:1:// TODO(tokens): no role for these colours yet, so they stay raw:
+memory/components/DreamOperationsView/components/DreamDemotionRow.tsx-2-// text-gray-500 #6B7280.
+memory/components/DreamOperationsView/components/DreamEntityInvalidationRow.tsx:1:// TODO(tokens): no role for these colours yet, so they stay raw:
+memory/components/DreamOperationsView/components/DreamEntityInvalidationRow.tsx-2-// bg-gray-50 #F9FAFB, border-rose-200 #FECDD3, text-gray-500 #6B7280,
+memory/components/DreamOperationsView/components/DreamEntityInvalidationRow.tsx-3-// text-gray-600 #4B5563.
+memory/components/DreamOperationsView/components/DreamWriteRow.tsx:1:// TODO(tokens): no role for these colours yet, so they stay raw:
+memory/components/DreamOperationsView/components/DreamWriteRow.tsx-2-// border-violet-200 #DDD6FE, text-gray-500 #6B7280.
+memory/components/DreamUsageSummary/DreamUsageSummary.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+memory/components/DreamUsageSummary/DreamUsageSummary.tsx-4-// bg-gray-50 #F9FAFB, border-gray-100 #F3F4F6, border-gray-200 #E5E7EB,
+memory/components/DreamUsageSummary/DreamUsageSummary.tsx-5-// text-gray-500 #6B7280, text-gray-600 #4B5563, text-gray-800 #1F2937.
+memory/components/GraphCanvas.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+memory/components/GraphCanvas.tsx-4-// text-gray-500 #6B7280.
+memory/components/GraphCanvas.tsx:5:// TODO(tokens): chart and canvas colours, which have no tokens yet: #7DD3FC,
+memory/components/GraphCanvas.tsx-6-// #86EFAC, #FDE68A, #FCA5A5, #C4B5FD, #BEF264, #FDBA74, #93C5FD, #F0ABFC,
+memory/components/GraphCanvas.tsx-7-// #A855F7, #6366F1, #EC4899, #111827, #94A3B8.
+memory/components/MaintenanceControls.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+memory/components/MaintenanceControls.tsx-4-// bg-blue-600 #2563EB, bg-blue-700 #1D4ED8, bg-indigo-700 #4338CA,
+memory/components/MaintenanceControls.tsx-5-// bg-indigo-800 #3730A3, bg-purple-700 #5424AE, bg-teal-600 #0D9488,
+memory/components/MaintenanceControls.tsx-6-// bg-teal-700 #0F766E, border-gray-200 #E5E7EB, text-gray-700 #374151.
+memory/components/MaintenanceControls.tsx-7-// Same value as a role with another meaning, so not swapped:
+memory/components/MaintenanceControls.tsx-8-// bg-blue-600 = info-foreground (a text colour).
+memory/components/MemoryScopeSelector.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+memory/components/MemoryScopeSelector.tsx-4-// text-gray-500 #6B7280.
+memory/components/MemoryVisualizer.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+memory/components/MemoryVisualizer.tsx-4-// bg-amber-100 #FEF3C7, bg-gray-100 #F3F4F6, border-gray-200 #E5E7EB,
+memory/components/MemoryVisualizer.tsx-5-// border-gray-300 #D1D5DB, border-gray-700 #374151, border-red-200 #FAC5C5,
+memory/components/MemoryVisualizer.tsx-6-// text-amber-800 #92400E, text-gray-400 #9CA3AF, text-gray-500 #6B7280,
+memory/components/MemoryVisualizer.tsx-7-// text-gray-600 #4B5563, text-gray-700 #374151.
+memory/page.tsx:1:// TODO(tokens): no role for these colours yet, so they stay raw:
+memory/page.tsx-2-// text-gray-500 #6B7280.
+platform-costs/components/ExecutionPathBadge.tsx:1:// TODO(tokens): no role for these colours yet, so they stay raw:
+platform-costs/components/ExecutionPathBadge.tsx-2-// bg-green-500 #16A34A, text-blue-700 #1D4ED8.
+platform-costs/components/TrackingBadge.tsx:1:// TODO(tokens): no role for these colours yet, so they stay raw:
+platform-costs/components/TrackingBadge.tsx-2-// bg-green-500 #16A34A, bg-orange-500 #FE8700, bg-pink-500 #EC4899,
+platform-costs/components/TrackingBadge.tsx-3-// text-blue-700 #1D4ED8, text-orange-700 #B46000, text-pink-700 #A8336D,
+platform-costs/components/TrackingBadge.tsx-4-// text-purple-700 #5424AE.
+spending/components/AddMoneyButton.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+spending/components/AddMoneyButton.tsx-4-// bg-gray-50 #F9FAFB, text-gray-500 #6B7280.
+spending/components/AdminUserGrantHistory.tsx:1:// TODO(tokens): no role for these colours yet, so they stay raw:
+spending/components/AdminUserGrantHistory.tsx-2-// bg-blue-100 #DBEAFE, bg-gray-50 #F9FAFB, bg-green-100 #B7E2C7,
+spending/components/AdminUserGrantHistory.tsx-3-// bg-red-100 #FDECEC, text-blue-800 #1E40AF, text-gray-500 #6B7280,
+spending/components/AdminUserGrantHistory.tsx-4-// text-gray-600 #4B5563, text-green-800 #0C5A29, text-red-600 #D93636,
+spending/components/AdminUserGrantHistory.tsx-5-// text-red-800 #832525.
+spending/components/AdminUserGrantHistory.tsx-6-// Same value as a role with another meaning, so not swapped:
+spending/components/AdminUserGrantHistory.tsx-7-// text-red-600 = error-hover (a hover fill).
+spending/components/RateLimitDisplay.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+spending/components/RateLimitDisplay.tsx-4-// bg-amber-100 #FEF3C7, bg-blue-100 #DBEAFE, bg-gray-100 #F3F4F6,
+spending/components/RateLimitDisplay.tsx-5-// bg-indigo-100 #E0E7FF, bg-purple-100 #EFE8FE, bg-red-100 #FDECEC,
+spending/components/RateLimitDisplay.tsx-6-// text-blue-700 #1D4ED8, text-gray-500 #6B7280, text-gray-700 #374151,
+spending/components/RateLimitDisplay.tsx-7-// text-indigo-700 #4338CA, text-purple-700 #5424AE.
+spending/components/RateLimitModal.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+spending/components/RateLimitModal.tsx-4-// text-gray-500 #6B7280.
+spending/page.tsx:1:// TODO(tokens): no role for these colours yet, so they stay raw:
+spending/page.tsx-2-// text-gray-500 #6B7280.
+test-data/components/GenerateTestDataButton.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+test-data/components/GenerateTestDataButton.tsx-4-// text-neutral-600 #525252.
+test-data/page.tsx:1:// TODO(tokens): no role for these colours yet, so they stay raw:
+test-data/page.tsx-2-// bg-gray-50 #F9FAFB, text-gray-500 #6B7280, text-gray-600 #4B5563,
+test-data/page.tsx-3-// text-gray-700 #374151.
+users/components/AccessDialogs/AccountChecklist.tsx:3:// TODO(tokens): no role for these colours yet, so they stay raw:
+users/components/AccessDialogs/AccountChecklist.tsx-4-// text-emerald-700 #047857.
