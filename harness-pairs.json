@@ -1,0 +1,1640 @@
+[
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/ApprovalFields.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-zinc-500 sm:pt-px"
+  },
+  "new": {
+   "cls": "text-foreground-tertiary sm:pt-px"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/ApprovalFields.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "mb-1.5 min-w-0 text-zinc-900 [overflow-wrap:anywhere] sm:mb-0"
+  },
+  "new": {
+   "cls": "mb-1.5 min-w-0 text-foreground-strong [overflow-wrap:anywhere] sm:mb-0"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/components/FieldValue.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "ml-1 text-zinc-400"
+  },
+  "new": {
+   "cls": "ml-1 text-foreground-subtle"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/components/FieldValue.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "grid grid-cols-[auto_minmax(0,1fr)] gap-x-3 gap-y-1 border-l border-zinc-200 pl-3"
+  },
+  "new": {
+   "cls": "grid grid-cols-[auto_minmax(0,1fr)] gap-x-3 gap-y-1 border-l border-border-base pl-3"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/components/FieldValue.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-zinc-500"
+  },
+  "new": {
+   "cls": "text-foreground-tertiary"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/components/FieldValue.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "cursor-pointer text-zinc-600 underline decoration-zinc-300 underline-offset-2 hover:text-zinc-900"
+  },
+  "new": {
+   "cls": "cursor-pointer text-foreground-secondary underline decoration-border-strong underline-offset-2 hover:text-foreground-strong"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/components/FieldValue.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "mt-1.5 max-h-64 overflow-auto rounded-lg bg-zinc-50 px-3 py-2 font-mono text-xs text-zinc-800"
+  },
+  "new": {
+   "cls": "mt-1.5 max-h-64 overflow-auto rounded-lg bg-surface-muted px-3 py-2 font-mono text-xs text-foreground-emphasis"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/components/FieldValue.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "w-full rounded-lg bg-zinc-50 px-3 py-2"
+  },
+  "new": {
+   "cls": "w-full rounded-lg bg-surface-muted px-3 py-2"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/components/FieldValue.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "max-h-96 overflow-y-auto focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-300"
+  },
+  "new": {
+   "cls": "max-h-96 overflow-y-auto focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-strong"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/components/ReferenceCard.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-sm font-semibold text-zinc-900"
+  },
+  "new": {
+   "cls": "text-sm font-semibold text-foreground-strong"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/components/ReferenceCard.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "mt-1 line-clamp-3 text-zinc-700"
+  },
+  "new": {
+   "cls": "mt-1 line-clamp-3 text-foreground-body"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/components/ReferenceCard.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "mt-1.5 text-zinc-500"
+  },
+  "new": {
+   "cls": "mt-1.5 text-foreground-tertiary"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/components/ReferenceCard.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "mt-1.5 text-zinc-700"
+  },
+  "new": {
+   "cls": "mt-1.5 text-foreground-body"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/components/ReferenceCard.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "mt-1.5 font-mono text-[0.6875rem] text-zinc-400"
+  },
+  "new": {
+   "cls": "mt-1.5 font-mono text-caption-sm leading-inherit text-foreground-subtle"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/components/ReferenceLink.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "underline decoration-zinc-300 underline-offset-2 hover:decoration-zinc-500 focus-visible:rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-300"
+  },
+  "new": {
+   "cls": "underline decoration-border-strong underline-offset-2 hover:decoration-foreground-tertiary focus-visible:rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-strong"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/components/ReferenceLink.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "underline decoration-zinc-400 decoration-dotted underline-offset-2 focus-visible:rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-300"
+  },
+  "new": {
+   "cls": "underline decoration-foreground-subtle decoration-dotted underline-offset-2 focus-visible:rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-strong"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/components/ReferenceValue.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "font-mono text-[0.8125rem]"
+  },
+  "new": {
+   "cls": "font-mono text-body-sm leading-inherit"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/BriefingCard/BriefingCard.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-zinc-400"
+  },
+  "new": {
+   "cls": "text-foreground-subtle"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/BriefingCard/BriefingCard.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-zinc-700"
+  },
+  "new": {
+   "cls": "text-foreground-body"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/BriefingCard/BriefingCard.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "overflow-hidden rounded-3xl bg-white shadow-zinc-950 smooth-shadow-ring-sm"
+  },
+  "new": {
+   "cls": "overflow-hidden rounded-3xl bg-surface shadow-zinc-950 smooth-shadow-ring-sm"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/BriefingCard/BriefingCard.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "h-full divide-y divide-zinc-100"
+  },
+  "new": {
+   "cls": "h-full divide-y divide-separator"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/BriefingCard/BriefingCard.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "flex w-full items-center justify-center gap-1.5 border-t border-zinc-100 px-4 py-3 text-zinc-500 transition-colors hover:bg-zinc-50 hover:text-zinc-900"
+  },
+  "new": {
+   "cls": "flex w-full items-center justify-center gap-1.5 border-t border-separator px-4 py-3 text-foreground-tertiary transition-colors hover:bg-surface-muted hover:text-foreground-strong"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/BriefingCard/BriefingCard.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "flex size-8 items-center justify-center rounded-full bg-white text-zinc-500 shadow-zinc-950 transition-colors smooth-shadow-ring-sm hover:text-zinc-900"
+  },
+  "new": {
+   "cls": "flex size-8 items-center justify-center rounded-full bg-surface text-foreground-tertiary shadow-zinc-950 transition-colors smooth-shadow-ring-sm hover:text-foreground-strong"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/BriefingCard/BriefingCard.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"body\"> -> <Text variant=\"body\">",
+  "old": {
+   "cls": "font-sans text-body font-normal text-zinc-700"
+  },
+  "new": {
+   "cls": "font-sans text-body font-normal text-foreground-body"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/BriefingCard/components/RunRow.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "transition-colors hover:bg-zinc-50"
+  },
+  "new": {
+   "cls": "transition-colors hover:bg-surface-muted"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/BriefingCard/components/RunRow.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"body-medium\"> -> <Text variant=\"body-medium\" tone=\"primary\">",
+  "old": {
+   "cls": "font-sans text-body font-medium truncate text-zinc-900"
+  },
+  "new": {
+   "cls": "font-sans text-body font-medium text-zinc-900 truncate"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/BriefingCard/components/RunRow.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"body\"> -> <Text variant=\"body\" tone=\"muted\">",
+  "old": {
+   "cls": "font-sans text-body font-normal line-clamp-2 text-zinc-500"
+  },
+  "new": {
+   "cls": "font-sans text-body font-normal text-zinc-500 line-clamp-2"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/NeedsAttentionList/components/NeedsAttentionRow.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "flex items-center gap-3 rounded-xl border border-zinc-200 bg-white p-3"
+  },
+  "new": {
+   "cls": "flex items-center gap-3 rounded-xl border border-border-base bg-surface p-3"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/NeedsAttentionList/components/NeedsAttentionRow.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"small\"> -> <Text variant=\"small\" tone=\"muted\">",
+  "old": {
+   "cls": "font-sans text-caption font-normal truncate text-zinc-500"
+  },
+  "new": {
+   "cls": "font-sans text-caption font-normal text-zinc-500 truncate"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/PendingReviewCard/PendingReviewCard.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "rounded-lg border border-gray-200 bg-white p-3"
+  },
+  "new": {
+   "cls": "rounded-lg border border-gray-200 bg-surface p-3"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/PendingReviewCard/components/ReviewInputFields/ReviewInputFields.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "flex flex-col gap-3 rounded-lg border border-zinc-200 p-3"
+  },
+  "new": {
+   "cls": "flex flex-col gap-3 rounded-lg border border-border-base p-3"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/PendingReviewsList/PendingReviewsList.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "fill-yellow-600 text-white"
+  },
+  "new": {
+   "cls": "fill-yellow-600 text-action-foreground"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/PendingReviewsList/PendingReviewsList.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "flex min-w-20 items-center justify-center gap-2 rounded-full bg-red-600 px-4 py-3"
+  },
+  "new": {
+   "cls": "flex min-w-20 items-center justify-center gap-2 rounded-full bg-error-hover px-4 py-3"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ActivationPaymentMethod.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "flex items-center justify-between gap-3 rounded-large border border-zinc-200 px-4 py-3"
+  },
+  "new": {
+   "cls": "flex items-center justify-between gap-3 rounded-large border border-border-base px-4 py-3"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ActivationPaymentMethod.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "flex items-center gap-2 text-sm text-zinc-600"
+  },
+  "new": {
+   "cls": "flex items-center gap-2 text-sm text-foreground-secondary"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ActivationStatus.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "rounded-xlarge border border-zinc-200 bg-zinc-50 p-5"
+  },
+  "new": {
+   "cls": "rounded-xlarge border border-border-base bg-surface-muted p-5"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ActivationSummary.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "overflow-hidden rounded-xlarge border border-zinc-200"
+  },
+  "new": {
+   "cls": "overflow-hidden rounded-xlarge border border-border-base"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ActivationSummary.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1 border-b border-zinc-200 bg-zinc-50 px-4 py-3.5"
+  },
+  "new": {
+   "cls": "flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1 border-b border-border-base bg-surface-muted px-4 py-3.5"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ActivationSummary.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-sm text-zinc-500"
+  },
+  "new": {
+   "cls": "text-sm text-foreground-tertiary"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ActivationSummary.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-base font-semibold text-zinc-900"
+  },
+  "new": {
+   "cls": "text-base font-semibold text-foreground-strong"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ActivationSummary.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-sm tabular-nums text-zinc-600"
+  },
+  "new": {
+   "cls": "text-sm tabular-nums text-foreground-secondary"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ActivationSummary.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "space-y-3.5 p-4 text-sm text-zinc-600"
+  },
+  "new": {
+   "cls": "space-y-3.5 p-4 text-sm text-foreground-secondary"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ActivationSummary.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "flex items-baseline justify-between gap-4 border-t border-zinc-200 pt-3.5 text-base font-semibold text-zinc-900"
+  },
+  "new": {
+   "cls": "flex items-baseline justify-between gap-4 border-t border-border-base pt-3.5 text-base font-semibold text-foreground-strong"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ActivationTerms.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"body\"> -> <Text variant=\"body\" tone=\"secondary\">",
+  "old": {
+   "cls": "font-sans text-body font-normal leading-relaxed text-zinc-600"
+  },
+  "new": {
+   "cls": "font-sans text-body font-normal text-zinc-600 leading-relaxed"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ActivationTimeline.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "relative grid grid-cols-[0.75rem_4.5rem_1fr] gap-x-3 before:absolute before:bottom-[-1rem] before:left-[5px] before:top-4 before:w-px before:bg-zinc-200"
+  },
+  "new": {
+   "cls": "relative grid grid-cols-[0.75rem_4.5rem_1fr] gap-x-3 before:absolute before:bottom-[-1rem] before:left-[5px] before:top-4 before:w-px before:bg-surface-active"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ActivationTimeline.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "mt-1.5 h-2.5 w-2.5 rounded-full bg-zinc-900"
+  },
+  "new": {
+   "cls": "mt-1.5 h-2.5 w-2.5 rounded-full bg-action-hover"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ActivationTimeline.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "font-medium text-zinc-900"
+  },
+  "new": {
+   "cls": "font-medium text-foreground-strong"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ActivationTimeline.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "leading-relaxed text-zinc-600"
+  },
+  "new": {
+   "cls": "leading-relaxed text-foreground-secondary"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ActivationTimeline.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "mt-1.5 h-2.5 w-2.5 rounded-full border border-zinc-400 bg-white"
+  },
+  "new": {
+   "cls": "mt-1.5 h-2.5 w-2.5 rounded-full border border-zinc-400 bg-surface"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ProActivationDialog.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "block text-[26px] font-semibold leading-[1.2] tracking-[-0.6px] text-zinc-900"
+  },
+  "new": {
+   "cls": "block text-[26px] font-semibold leading-[1.2] tracking-[-0.6px] text-foreground-strong"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ProActivationDialog.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "rounded-large border border-amber-200 bg-amber-50 p-4 text-sm text-zinc-700"
+  },
+  "new": {
+   "cls": "rounded-large border border-warning-border bg-warning-surface p-4 text-sm text-foreground-body"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ProActivationDialog.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-amber-700"
+  },
+  "new": {
+   "cls": "text-warning-foreground"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ProActivationDialog.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "w-full text-zinc-600"
+  },
+  "new": {
+   "cls": "w-full text-foreground-secondary"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ProActivationDialog.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"small\"> -> <Text variant=\"small-medium\" tone=\"muted\">",
+  "old": {
+   "cls": "font-sans text-caption font-medium text-zinc-500"
+  },
+  "new": {
+   "cls": "font-sans text-caption font-medium text-zinc-500"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ProActivationDialog.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"small\"> -> <Text variant=\"small\">",
+  "old": {
+   "cls": "font-sans text-caption font-normal text-amber-700"
+  },
+  "new": {
+   "cls": "font-sans text-caption font-normal text-warning-foreground"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/ProActivationDialog.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"small\"> -> <Text variant=\"small\" tone=\"muted\">",
+  "old": {
+   "cls": "font-sans text-caption font-normal text-center text-zinc-500"
+  },
+  "new": {
+   "cls": "font-sans text-caption font-normal text-zinc-500 text-center"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/RenewalDetails.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "group text-sm text-zinc-500"
+  },
+  "new": {
+   "cls": "group text-sm text-foreground-tertiary"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/RenewalDetails.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "w-fit cursor-pointer rounded-small underline decoration-zinc-300 underline-offset-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-violet-500"
+  },
+  "new": {
+   "cls": "w-fit cursor-pointer rounded-small underline decoration-border-strong underline-offset-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-violet-500"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/RenewalDetails.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"small\"> -> <Text variant=\"small\" tone=\"secondary\">",
+  "old": {
+   "cls": "font-sans text-caption font-normal text-zinc-600"
+  },
+  "new": {
+   "cls": "font-sans text-caption font-normal text-zinc-600"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/RenewalDetails.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"small\"> -> <Text variant=\"small\" tone=\"secondary\">",
+  "old": {
+   "cls": "font-sans text-caption font-normal mt-3 leading-relaxed text-zinc-600"
+  },
+  "new": {
+   "cls": "font-sans text-caption font-normal text-zinc-600 mt-3 leading-relaxed"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ProActivation/RenewalDetails.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"small\"> -> <Text variant=\"small\" tone=\"secondary\">",
+  "old": {
+   "cls": "font-sans text-caption font-normal mt-2 text-zinc-600"
+  },
+  "new": {
+   "cls": "font-sans text-caption font-normal text-zinc-600 mt-2"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandModal.stories.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "m-4 rounded-md border border-zinc-200 bg-white px-3 py-2 text-sm shadow-sm"
+  },
+  "new": {
+   "cls": "m-4 rounded-md border border-border-base bg-surface px-3 py-2 text-sm shadow-sm"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandModal.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "fixed left-1/2 top-[18vh] z-[80] w-[calc(100%-2rem)] max-w-xl -translate-x-1/2 overflow-hidden rounded-3xl bg-white shadow-2xl ring-1 ring-zinc-200 focus:outline-none"
+  },
+  "new": {
+   "cls": "fixed left-1/2 top-[18vh] z-[80] w-[calc(100%-2rem)] max-w-xl -translate-x-1/2 overflow-hidden rounded-3xl bg-surface shadow-2xl ring-1 ring-border-base focus:outline-none"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandModal.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "flex items-center gap-3 bg-zinc-50 p-3"
+  },
+  "new": {
+   "cls": "flex items-center gap-3 bg-surface-muted p-3"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandModal.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "h-5 w-5 shrink-0 text-zinc-800"
+  },
+  "new": {
+   "cls": "h-5 w-5 shrink-0 text-foreground-emphasis"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandModal.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "h-9 border-0 bg-transparent px-0 text-base text-zinc-950 shadow-none placeholder:text-zinc-700 focus-visible:ring-0"
+  },
+  "new": {
+   "cls": "h-9 border-0 bg-transparent px-0 text-base text-foreground shadow-none placeholder:text-foreground-body focus-visible:ring-0"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandModal.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "shrink-0 text-zinc-500"
+  },
+  "new": {
+   "cls": "shrink-0 text-foreground-tertiary"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandModal.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "max-h-[26rem] overflow-y-auto scrollbar-thin scrollbar-track-transparent scrollbar-thumb-zinc-200"
+  },
+  "new": {
+   "cls": "max-h-[26rem] overflow-y-auto scrollbar-thin scrollbar-track-transparent scrollbar-thumb-border-base"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandModal.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "px-3 py-8 text-center text-sm text-red-500"
+  },
+  "new": {
+   "cls": "px-3 py-8 text-center text-sm text-error"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandModal.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "px-3 py-8 text-center text-sm text-zinc-500"
+  },
+  "new": {
+   "cls": "px-3 py-8 text-center text-sm text-foreground-tertiary"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandModal.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "flex items-center justify-between gap-4 bg-zinc-50 px-4 py-4 text-xs text-zinc-700"
+  },
+  "new": {
+   "cls": "flex items-center justify-between gap-4 bg-surface-muted px-4 py-4 text-xs text-foreground-body"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandModal.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "inline-flex h-5 w-5 items-center justify-center rounded-md border border-zinc-200 bg-white font-sans text-[11px] text-zinc-800 shadow-[inset_0_-1px_0_rgba(15,15,20,0.04),0_1px_1px_rgba(15,15,20,0.04)]"
+  },
+  "new": {
+   "cls": "inline-flex h-5 w-5 items-center justify-center rounded-md border border-border-base bg-surface font-sans text-caption-sm leading-inherit text-foreground-emphasis shadow-[inset_0_-1px_0_rgba(15,15,20,0.04),0_1px_1px_rgba(15,15,20,0.04)]"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandModal.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "inline-flex h-5 min-w-5 items-center justify-center rounded-md border border-zinc-200 bg-white px-1 font-sans text-[11px] text-zinc-800 shadow-[inset_0_-1px_0_rgba(15,15,20,0.04),0_1px_1px_rgba(15,15,20,0.04)]"
+  },
+  "new": {
+   "cls": "inline-flex h-5 min-w-5 items-center justify-center rounded-md border border-border-base bg-surface px-1 font-sans text-caption-sm leading-inherit text-foreground-emphasis shadow-[inset_0_-1px_0_rgba(15,15,20,0.04),0_1px_1px_rgba(15,15,20,0.04)]"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandModal.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "inline-flex h-5 items-center justify-center rounded-md border border-zinc-200 bg-white px-1.5 font-sans text-[11px] text-zinc-800 shadow-[inset_0_-1px_0_rgba(15,15,20,0.04),0_1px_1px_rgba(15,15,20,0.04)]"
+  },
+  "new": {
+   "cls": "inline-flex h-5 items-center justify-center rounded-md border border-border-base bg-surface px-1.5 font-sans text-caption-sm leading-inherit text-foreground-emphasis shadow-[inset_0_-1px_0_rgba(15,15,20,0.04),0_1px_1px_rgba(15,15,20,0.04)]"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandResultItem.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "bg-zinc-100 hover:bg-zinc-100"
+  },
+  "new": {
+   "cls": "bg-surface-hover hover:bg-surface-hover"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandResultItem.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "hover:bg-zinc-50"
+  },
+  "new": {
+   "cls": "hover:bg-surface-muted"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandResultItem.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "absolute inset-y-0 left-0 my-auto h-5 w-[3px] rounded-full bg-zinc-900 transition-opacity duration-150"
+  },
+  "new": {
+   "cls": "absolute inset-y-0 left-0 my-auto h-5 w-[3px] rounded-full bg-action-hover transition-opacity duration-150"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandResultItem.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-zinc-900"
+  },
+  "new": {
+   "cls": "text-foreground-strong"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandResultItem.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-zinc-950"
+  },
+  "new": {
+   "cls": "text-foreground"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandResultItem.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-zinc-800"
+  },
+  "new": {
+   "cls": "text-foreground-emphasis"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandResultItem.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "mt-0.5 truncate text-xs text-zinc-500"
+  },
+  "new": {
+   "cls": "mt-0.5 truncate text-xs text-foreground-tertiary"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandResultItem.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "inline-flex h-5 min-w-5 shrink-0 items-center justify-center rounded-md border border-zinc-200 bg-white px-1 font-sans text-[11px] text-zinc-600 shadow-[inset_0_-1px_0_rgba(15,15,20,0.04),0_1px_1px_rgba(15,15,20,0.04)] transition-opacity duration-150"
+  },
+  "new": {
+   "cls": "inline-flex h-5 min-w-5 shrink-0 items-center justify-center rounded-md border border-border-base bg-surface px-1 font-sans text-caption-sm leading-inherit text-foreground-secondary shadow-[inset_0_-1px_0_rgba(15,15,20,0.04),0_1px_1px_rgba(15,15,20,0.04)] transition-opacity duration-150"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SearchCommandModal/SearchCommandResults.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "px-3 pb-1 pt-2 text-[11px] font-semibold uppercase tracking-wide text-zinc-500"
+  },
+  "new": {
+   "cls": "px-3 pb-1 pt-2 text-caption-sm font-semibold uppercase leading-inherit tracking-wide text-foreground-tertiary"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SkillLearningSheet/components/ChangesView.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "rounded-md border border-zinc-200 px-2 py-1 text-sm"
+  },
+  "new": {
+   "cls": "rounded-md border border-border-base px-2 py-1 text-sm"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SkillLearningSheet/components/ChangesView.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "rounded-lg bg-zinc-50 p-3"
+  },
+  "new": {
+   "cls": "rounded-lg bg-surface-muted p-3"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SkillLearningSheet/components/ChangesView.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "overflow-x-auto rounded-lg bg-zinc-900 p-3 text-xs text-zinc-100"
+  },
+  "new": {
+   "cls": "overflow-x-auto rounded-lg bg-action-hover p-3 text-xs text-zinc-100"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SkillLearningSheet/components/DecisionView.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "flex flex-col gap-3 rounded-xl border border-amber-200 bg-amber-50/60 p-3"
+  },
+  "new": {
+   "cls": "flex flex-col gap-3 rounded-xl border border-warning-border bg-warning-surface/60 p-3"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SkillLearningSheet/components/DecisionView.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "rounded-md bg-white p-2"
+  },
+  "new": {
+   "cls": "rounded-md bg-surface p-2"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SkillLearningSheet/components/EditSkillForm.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "rounded-lg border border-amber-200 bg-amber-50 p-3"
+  },
+  "new": {
+   "cls": "rounded-lg border border-warning-border bg-warning-surface p-3"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SkillLearningSheet/components/EditSkillForm.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "my-3 overflow-x-auto rounded-lg bg-zinc-900 p-3 text-xs text-zinc-100"
+  },
+  "new": {
+   "cls": "my-3 overflow-x-auto rounded-lg bg-action-hover p-3 text-xs text-zinc-100"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SkillLearningSheet/components/HistoryView.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "flex flex-col gap-1 rounded-lg bg-zinc-50 p-3 sm:flex-row sm:items-center sm:justify-between"
+  },
+  "new": {
+   "cls": "flex flex-col gap-1 rounded-lg bg-surface-muted p-3 sm:flex-row sm:items-center sm:justify-between"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SkillLearningSheet/components/PackageFiles/FilePreview.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "mt-1 max-h-80 overflow-auto whitespace-pre-wrap break-words rounded-md bg-zinc-900 p-3 text-xs text-zinc-100"
+  },
+  "new": {
+   "cls": "mt-1 max-h-80 overflow-auto whitespace-pre-wrap break-words rounded-md bg-action-hover p-3 text-xs text-zinc-100"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SkillLearningSheet/components/PackageFiles/PackageFiles.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "min-w-0 rounded-lg border border-zinc-200 p-3"
+  },
+  "new": {
+   "cls": "min-w-0 rounded-lg border border-border-base p-3"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SkillLearningSheet/components/SourcesView.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-sm text-violet-700 underline"
+  },
+  "new": {
+   "cls": "text-sm text-accent-strong underline"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/BillingToggle.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "mt-3 flex rounded-full border border-zinc-200 bg-zinc-100 p-1"
+  },
+  "new": {
+   "cls": "mt-3 flex rounded-full border border-border-base bg-surface-hover p-1"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/BillingToggle.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "bg-white text-zinc-900 shadow-sm hover:bg-white"
+  },
+  "new": {
+   "cls": "bg-surface text-foreground-strong shadow-sm hover:bg-surface"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/OfferActions.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "h-auto min-w-0 p-0 text-xs text-zinc-500"
+  },
+  "new": {
+   "cls": "h-auto min-w-0 p-0 text-xs text-foreground-tertiary"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/OfferActions.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "h-auto min-w-0 p-0 text-xs text-purple-500"
+  },
+  "new": {
+   "cls": "h-auto min-w-0 p-0 text-xs text-brand"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/PlanDetailsDialog/components/PlanComparison.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "w-full table-fixed text-left font-sans text-sm text-zinc-800"
+  },
+  "new": {
+   "cls": "w-full table-fixed text-left font-sans text-sm text-foreground-emphasis"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/PlanDetailsDialog/components/PlanComparison.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "border-t border-zinc-200"
+  },
+  "new": {
+   "cls": "border-t border-border-base"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/PlanDetailsDialog/components/TrialDetails.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "divide-y divide-zinc-200 border-y border-zinc-200"
+  },
+  "new": {
+   "cls": "divide-y divide-border-base border-y border-border-base"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/PlanFooter.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "font-medium text-purple-500 no-underline hover:text-purple-600"
+  },
+  "new": {
+   "cls": "font-medium text-brand no-underline hover:text-brand-hover"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/PlanHeader.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "bg-gradient-to-r from-purple-500 to-indigo-500 bg-clip-text text-transparent"
+  },
+  "new": {
+   "cls": "bg-gradient-to-r from-brand to-indigo-500 bg-clip-text text-transparent"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/SubscriptionOffer.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "flex h-full flex-col rounded-2xl border border-zinc-300 bg-white p-5 shadow-none"
+  },
+  "new": {
+   "cls": "flex h-full flex-col rounded-2xl border border-border-strong bg-surface p-5 shadow-none"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/SubscriptionOffer.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "font-semibold text-zinc-800"
+  },
+  "new": {
+   "cls": "font-semibold text-foreground-emphasis"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/SubscriptionOffer.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "bg-zinc-100 text-zinc-500"
+  },
+  "new": {
+   "cls": "bg-surface-hover text-foreground-tertiary"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/SubscriptionOffer.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "leading-9 text-zinc-800"
+  },
+  "new": {
+   "cls": "leading-9 text-foreground-emphasis"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/SubscriptionOffer.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "mb-4 mt-3 flex-1 space-y-1.5 border-t border-zinc-100 pt-3"
+  },
+  "new": {
+   "cls": "mb-4 mt-3 flex-1 space-y-1.5 border-t border-separator pt-3"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/SubscriptionOffer.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "bg-zinc-100"
+  },
+  "new": {
+   "cls": "bg-surface-hover"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/SubscriptionOffer.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-purple-500"
+  },
+  "new": {
+   "cls": "text-brand"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/SubscriptionOffer.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-[13px] leading-[18px]"
+  },
+  "new": {
+   "cls": "text-body-sm leading-4.5"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/SubscriptionOffer.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"h5\"> -> <Text variant=\"h5\">",
+  "old": {
+   "cls": "font-poppins text-body-lg leading-6 font-semibold text-zinc-800"
+  },
+  "new": {
+   "cls": "font-poppins text-body-lg leading-6 font-semibold text-foreground-emphasis"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/SubscriptionOffer.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"h3\"> -> <Text variant=\"h3\">",
+  "old": {
+   "cls": "font-poppins text-heading font-medium tracking-[-0.01313rem] leading-9 text-zinc-800"
+  },
+  "new": {
+   "cls": "font-poppins text-heading font-medium tracking-[-0.01313rem] leading-9 text-foreground-emphasis"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/SubscriptionPlans/components/SubscriptionOffer.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"small\" tone=\"primary\"> -> <Text variant=\"small\" tone=\"primary\">",
+  "old": {
+   "cls": "font-sans font-normal text-zinc-900 text-[13px] leading-[18px]"
+  },
+  "new": {
+   "cls": "font-sans font-normal text-zinc-900 text-body-sm leading-4.5"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/TrialCard/CancelTrialDialog.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "!text-zinc-800"
+  },
+  "new": {
+   "cls": "!text-foreground-emphasis"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/TrialCard/CancelTrialDialog.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"body\"> -> <Text variant=\"body\">",
+  "old": {
+   "cls": "font-sans text-body font-normal text-black !text-zinc-800"
+  },
+  "new": {
+   "cls": "font-sans text-body font-normal text-black !text-foreground-emphasis"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/TrialCard/TrialCancelPending.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "inline-flex items-center gap-1.5 rounded-full bg-zinc-100 px-2 py-0.5 text-xs text-zinc-700"
+  },
+  "new": {
+   "cls": "inline-flex items-center gap-1.5 rounded-full bg-surface-hover px-2 py-0.5 text-xs text-foreground-body"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/TrialCard/TrialCancelPending.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"small\"> -> <Text variant=\"small\" tone=\"muted\">",
+  "old": {
+   "cls": "font-sans text-caption font-normal text-black !text-zinc-500"
+  },
+  "new": {
+   "cls": "font-sans text-caption font-normal text-zinc-500"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/TrialCard/TrialCanceledDialog/components/WorthDoingPanel.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "rounded-xl border border-zinc-200 bg-zinc-50 px-4 pt-3"
+  },
+  "new": {
+   "cls": "rounded-xl border border-border-base bg-surface-muted px-4 pt-3"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/TrialCard/TrialCanceledDialog/components/WorthDoingPanel.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "divide-y divide-zinc-200"
+  },
+  "new": {
+   "cls": "divide-y divide-border-base"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/TrialCard/TrialCanceledDialog/components/WorthDoingPanel.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-violet-700"
+  },
+  "new": {
+   "cls": "text-accent-strong"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/TrialCard/TrialCanceledDialog/components/WorthDoingPanel.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"body-medium\"> -> <Text variant=\"body-medium\" tone=\"primary\">",
+  "old": {
+   "cls": "font-sans text-body font-medium text-black !text-zinc-900"
+  },
+  "new": {
+   "cls": "font-sans text-body font-medium text-zinc-900"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/TrialCard/TrialCanceledDialog/components/WorthDoingPanel.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"small\"> -> <Text variant=\"small\" tone=\"secondary\">",
+  "old": {
+   "cls": "font-sans text-caption font-normal text-black !text-zinc-600"
+  },
+  "new": {
+   "cls": "font-sans text-caption font-normal text-zinc-600"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/TrialCard/TrialCard.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "relative overflow-hidden rounded-[15px] bg-white p-5 md:p-6"
+  },
+  "new": {
+   "cls": "relative overflow-hidden rounded-[15px] bg-surface p-5 md:p-6"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/TrialCard/TrialOffer.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "inline-flex items-center rounded-full bg-purple-100 px-2 py-0.5 text-[10px] font-medium text-purple-700"
+  },
+  "new": {
+   "cls": "inline-flex items-center rounded-full bg-purple-100 px-2 py-0.5 text-tiny font-medium leading-inherit text-purple-700"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/TrialCard/TrialTitle/TrialTitle.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "font-poppins !text-[17px] !font-semibold !text-zinc-800"
+  },
+  "new": {
+   "cls": "font-poppins !text-[17px] !font-semibold !text-foreground-emphasis"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/TrialCard/TrialTitle/TrialTitle.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"h5\"> -> <Text variant=\"h5\">",
+  "old": {
+   "cls": "text-body-lg font-medium leading-6 text-black font-poppins !text-[17px] !font-semibold !text-zinc-800"
+  },
+  "new": {
+   "cls": "text-body-lg font-medium leading-6 text-black font-poppins !text-[17px] !font-semibold !text-foreground-emphasis"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/UsageExperience/PaymentDueAction.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"small\"> -> <Text variant=\"small\" tone=\"muted\">",
+  "old": {
+   "cls": "font-sans text-caption font-normal text-black !text-xs !text-zinc-500 text-center"
+  },
+  "new": {
+   "cls": "font-sans text-caption font-normal text-zinc-500 !text-xs text-center"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/UsageExperience/PaymentRecoveryCard.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "w-full rounded-2xl border border-zinc-200 bg-white p-6 text-left"
+  },
+  "new": {
+   "cls": "w-full rounded-2xl border border-border-base bg-surface p-6 text-left"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/UsageExperience/PaymentRecoveryCard.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "flex size-7 items-center justify-center rounded-lg bg-white text-zinc-600 ring-1 ring-zinc-200"
+  },
+  "new": {
+   "cls": "flex size-7 items-center justify-center rounded-lg bg-surface text-foreground-secondary ring-1 ring-border-base"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/UsageExperience/PaymentRecoveryCard.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "mb-3 mt-4 text-[23px] leading-8 tracking-[-0.04em]"
+  },
+  "new": {
+   "cls": "mb-3 mt-4 text-[23px] leading-8 tracking-display"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/UsageExperience/PaymentRecoveryCard.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"small-medium\"> -> <Text variant=\"small-medium\" tone=\"secondary\">",
+  "old": {
+   "cls": "font-sans text-caption font-medium text-zinc-600"
+  },
+  "new": {
+   "cls": "font-sans text-caption font-medium text-zinc-600"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/UsageExperience/PaymentRecoveryCard.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"h4\"> -> <Text variant=\"h4\">",
+  "old": {
+   "cls": "font-poppins font-medium text-black mb-3 mt-4 text-[23px] leading-8 tracking-[-0.04em]"
+  },
+  "new": {
+   "cls": "font-poppins font-medium text-black mb-3 mt-4 text-[23px] leading-8 tracking-display"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/UsageExperience/PlanOffer.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "hidden size-10 shrink-0 items-center justify-center rounded-xl border border-purple-200 bg-white text-purple-600 min-[360px]:flex"
+  },
+  "new": {
+   "cls": "hidden size-10 shrink-0 items-center justify-center rounded-xl border border-purple-200 bg-surface text-purple-600 min-[360px]:flex"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/UsageExperience/PlanOffer.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "flex gap-2.5 text-sm leading-5 text-zinc-700"
+  },
+  "new": {
+   "cls": "flex gap-2.5 text-sm leading-5 text-foreground-body"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/UsageExperience/PlanOffer.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"small\"> -> <Text variant=\"small\" tone=\"muted\">",
+  "old": {
+   "cls": "font-sans text-caption font-normal text-black mt-3 text-center !text-xs !text-zinc-500"
+  },
+  "new": {
+   "cls": "font-sans text-caption font-normal text-zinc-500 mt-3 text-center !text-xs"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/UsageExperience/ProviderContinuation.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "mt-4 flex flex-wrap items-center justify-between gap-2 border-t border-zinc-200 pt-4"
+  },
+  "new": {
+   "cls": "mt-4 flex flex-wrap items-center justify-between gap-2 border-t border-border-base pt-4"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/UsageExperience/UsageMeter.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "!text-zinc-700"
+  },
+  "new": {
+   "cls": "!text-foreground-body"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/UsageExperience/UsageMeter.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "h-1.5 overflow-hidden rounded-full bg-zinc-100"
+  },
+  "new": {
+   "cls": "h-1.5 overflow-hidden rounded-full bg-surface-hover"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/UsageExperience/UsageMeter.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "h-full rounded-full transition-[width]"
+  },
+  "new": {
+   "cls": "h-full w-[--usage-meter-width] rounded-full transition-[width]"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/UsageExperience/UsageMeter.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"small-medium\"> -> <Text variant=\"small-medium\">",
+  "old": {
+   "cls": "font-sans text-caption font-medium text-black !text-zinc-700"
+  },
+  "new": {
+   "cls": "font-sans text-caption font-medium text-black !text-foreground-body"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/UsageExperience/UsageMeter.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"small\"> -> <Text variant=\"small\" tone=\"muted\">",
+  "old": {
+   "cls": "font-sans text-caption font-normal text-black tabular-nums !text-zinc-500"
+  },
+  "new": {
+   "cls": "font-sans text-caption font-normal text-zinc-500 tabular-nums"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/UsageExperience/UsageMeter.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"small\"> -> <Text variant=\"small\" tone=\"muted\">",
+  "old": {
+   "cls": "font-sans text-caption font-normal text-black !text-xs !text-zinc-500"
+  },
+  "new": {
+   "cls": "font-sans text-caption font-normal text-zinc-500 !text-xs"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/VoicePicker/VoicePicker.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-2xl font-semibold tracking-[-0.02em]"
+  },
+  "new": {
+   "cls": "text-2xl font-semibold tracking-heading"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/VoicePicker/components/CustomVoiceOption.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "mb-2 block cursor-pointer text-xs font-semibold uppercase tracking-[0.12em]"
+  },
+  "new": {
+   "cls": "mb-2 block cursor-pointer text-xs font-semibold uppercase tracking-caps"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/VoicePicker/components/SampleCard.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-xs font-semibold uppercase tracking-[0.12em]"
+  },
+  "new": {
+   "cls": "text-xs font-semibold uppercase tracking-caps"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/VoicePicker/components/SampleCard.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "text-[15px] leading-relaxed"
+  },
+  "new": {
+   "cls": "text-body-md leading-relaxed"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/WorkOutputSheet/WorkOutputSheet.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "overflow-x-auto rounded-xl ring-1 ring-inset ring-zinc-200"
+  },
+  "new": {
+   "cls": "overflow-x-auto rounded-xl ring-1 ring-inset ring-border-base"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/WorkOutputSheet/WorkOutputSheet.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "bg-zinc-50 text-left"
+  },
+  "new": {
+   "cls": "bg-surface-muted text-left"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/WorkOutputSheet/WorkOutputSheet.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "px-3 py-2 font-medium text-zinc-600"
+  },
+  "new": {
+   "cls": "px-3 py-2 font-medium text-foreground-secondary"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/WorkOutputSheet/WorkOutputSheet.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "border-t border-zinc-100"
+  },
+  "new": {
+   "cls": "border-t border-separator"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/WorkOutputSheet/WorkOutputSheet.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "px-3 py-2 text-zinc-700"
+  },
+  "new": {
+   "cls": "px-3 py-2 text-foreground-body"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/WorkOutputSheet/WorkOutputSheet.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"small\"> -> <Text variant=\"small\" tone=\"muted\">",
+  "old": {
+   "cls": "font-sans text-caption font-normal text-zinc-500"
+  },
+  "new": {
+   "cls": "font-sans text-caption font-normal text-zinc-500"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/WorkOutputSheet/WorkOutputSheet.tsx",
+  "kind": "text",
+  "note": "<Text variant=\"body\"> -> <Text variant=\"body\" tone=\"muted\">",
+  "old": {
+   "cls": "font-sans text-body font-normal text-zinc-500"
+  },
+  "new": {
+   "cls": "font-sans text-body font-normal text-zinc-500"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/BriefingCard/components/RunRow.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "shrink-0 rounded-full bg-red-50 px-2 py-0.5 text-[0.6875rem] font-medium text-red-600"
+  },
+  "new": {
+   "cls": "shrink-0 rounded-full bg-error-surface px-2 py-0.5 text-caption-sm font-medium leading-inherit text-red-600"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/BriefingCard/components/RunRow.tsx",
+  "kind": "literal",
+  "old": {
+   "cls": "shrink-0 self-center text-zinc-300 transition-colors group-hover:text-zinc-500"
+  },
+  "new": {
+   "cls": "shrink-0 self-center text-foreground-disabled transition-colors group-hover:text-foreground-tertiary"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/UsageExperience/UsageMeter.tsx",
+  "kind": "literal",
+  "note": "meter fill, inline width -> custom property",
+  "old": {
+   "cls": "h-full rounded-full transition-[width] bg-purple-500",
+   "style": "width: 37%"
+  },
+  "new": {
+   "cls": "h-full w-[--usage-meter-width] rounded-full transition-[width] bg-brand",
+   "style": "--usage-meter-width: 37%"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/UsageExperience/UsageMeter.tsx",
+  "kind": "literal",
+  "note": "full meter",
+  "old": {
+   "cls": "h-full rounded-full transition-[width] bg-orange-500",
+   "style": "width: 100%"
+  },
+  "new": {
+   "cls": "h-full w-[--usage-meter-width] rounded-full transition-[width] bg-orange-500",
+   "style": "--usage-meter-width: 100%"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/components/FieldValue.tsx",
+  "kind": "literal",
+  "note": "code block, inline maxHeight -> max-h-64",
+  "old": {
+   "cls": "overflow-auto whitespace-pre-wrap rounded-lg bg-zinc-900 px-3 py-2 font-mono text-[0.8125rem] leading-5 text-zinc-100",
+   "style": "max-height: 16rem"
+  },
+  "new": {
+   "cls": "max-h-64 overflow-auto whitespace-pre-wrap rounded-lg bg-action-hover px-3 py-2 font-mono text-body-sm leading-5 text-zinc-100"
+  }
+ },
+ {
+  "file": "autogpt_platform/frontend/src/components/organisms/ApprovalFields/components/FieldValue.tsx",
+  "kind": "literal",
+  "note": "LongText closed, inline WebkitLineClamp dropped",
+  "old": {
+   "cls": "whitespace-pre-wrap line-clamp-3",
+   "style": "-webkit-line-clamp: 3"
+  },
+  "new": {
+   "cls": "whitespace-pre-wrap line-clamp-3"
+  }
+ }
+]
