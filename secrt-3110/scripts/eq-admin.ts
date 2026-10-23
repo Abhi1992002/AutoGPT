@@ -1,5 +1,6 @@
 /**
- * Exact-string value equivalence for DS5f (SECRT-3110).
+ * Exact-string value equivalence for DS5f (SECRT-3110). Modified files only:
+ * a file the PR adds has no base version to pair with.
  *
  * DS1's check-token-equivalence.ts proves each codemod mapping and a sample
  * of size lists. This proves every exact class string this PR writes: for
@@ -80,7 +81,7 @@ const repoRoot = execFileSync("git", ["rev-parse", "--show-toplevel"], { encodin
 const prefix = execFileSync("git", ["rev-parse", "--show-prefix"], { encoding: "utf8" }).trim();
 const changed = execFileSync(
   "git",
-  ["diff", "--name-only", baseSha, "HEAD", "--", scope],
+  ["diff", "--name-only", "--diff-filter=M", baseSha, "HEAD", "--", scope],
   { encoding: "utf8" },
 )
   .split("\n")

@@ -1,6 +1,6 @@
 # SECRT-3110 (DS5f) evidence — not code
 
-Base dev `447fd55be6ee25bc6a71687b607865dd66214782`, head `09c453a3c7c434204e0016aa2953363d4d6a0d58` (`abhi/tokenise-admin`).
+Base dev `447fd55be6ee25bc6a71687b607865dd66214782`, head `3d0a2fd82be374bee99835a467128e123a08b931` (screenshots from the byte-identical build of `09c453a3c`, see `build-identity/`) (`abhi/tokenise-admin`).
 
 - `before/` — production build of dev (git worktree), `after/` and `after-repeat/` — production build of the head, captured twice. DS1's `scripts/screenshot-pages.ts capture`, unchanged, run through `scripts/capture.sh` (batches of 5 routes, fresh sign-in each; preload `scripts/freeze-server-timestamps.cjs` pins the diagnostics `timestamp` field). Routes: `scripts/routes.txt`.
 - `diff/`, `compare-before-after.md` — before vs after, threshold 0: 66 screenshots, 0 with differences.
