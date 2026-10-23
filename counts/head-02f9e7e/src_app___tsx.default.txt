@@ -1,0 +1,1 @@
+src/app/global-error.tsx:22:21: error shadcn(no-raw-colors): "bg-gray-50" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md.
