@@ -1,0 +1,350 @@
+npm warn Unknown project config "minimum-release-age". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+| group | old class | new class | resolved value (computed, 16px root) | result |
+| --- | --- | --- | --- | --- |
+| Surfaces | `bg-[#F6F7F8]` | `bg-canvas` | background-color: rgb(246, 247, 248) | identical |
+| Surfaces | `bg-[#f6f7f8]` | `bg-canvas` | background-color: rgb(246, 247, 248) | identical |
+| Surfaces | `bg-white` | `bg-surface` | background-color: rgb(254, 254, 254) | identical |
+| Surfaces | `bg-zinc-50` | `bg-surface-muted` | background-color: rgb(249, 249, 250) | identical |
+| Surfaces | `bg-zinc-100` | `bg-surface-hover` | background-color: rgb(239, 239, 240) | identical |
+| Surfaces | `bg-zinc-200` | `bg-surface-active` | background-color: rgb(218, 218, 220) | identical |
+| Surfaces | `bg-stone-500` | `bg-overlay` | background-color: rgb(120, 113, 108) | identical |
+| Surfaces | `bg-neutral-50` | `bg-background` | background-color: rgb(250, 250, 250) | identical |
+| Text | `text-black` | `text-foreground-base` | color: rgb(20, 20, 20) | identical |
+| Text | `text-zinc-900` | `text-foreground-strong` | color: rgb(44, 44, 48) | identical |
+| Text | `text-zinc-800` | `text-foreground-emphasis` | color: rgb(62, 62, 67) | identical |
+| Text | `text-zinc-700` | `text-foreground-body` | color: rgb(80, 80, 87) | identical |
+| Text | `text-[#505057]` | `text-foreground-body` | color: rgb(80, 80, 87) | identical |
+| Text | `text-zinc-600` | `text-foreground-secondary` | color: rgb(104, 104, 111) | identical |
+| Text | `text-zinc-500` | `text-foreground-tertiary` | color: rgb(131, 131, 140) | identical |
+| Text | `text-[#83838C]` | `text-foreground-tertiary` | color: rgb(131, 131, 140) | identical |
+| Text | `text-[#83838c]` | `text-foreground-tertiary` | color: rgb(131, 131, 140) | identical |
+| Text | `text-zinc-400` | `text-foreground-subtle` | color: rgb(173, 173, 179) | identical |
+| Text | `text-zinc-300` | `text-foreground-disabled` | color: rgb(197, 197, 201) | identical |
+| Text | `placeholder:text-zinc-500` | `placeholder:text-placeholder` | color: rgb(131, 131, 140) | identical |
+| Text | `text-zinc-950` | `text-foreground` | color: rgb(9, 9, 11) | identical |
+| Borders | `border-zinc-100` | `border-separator` | border-color: rgb(239, 239, 240) | identical |
+| Borders | `divide-zinc-100` | `divide-separator` | border-color: rgb(239, 239, 240) | identical |
+| Borders | `border-zinc-200` | `border-border-base` | border-color: rgb(218, 218, 220) | identical |
+| Borders | `divide-zinc-200` | `divide-border-base` | border-color: rgb(218, 218, 220) | identical |
+| Borders | `ring-zinc-200` | `ring-border-base` | box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px, rgb(218, 218, 220) 0px 0px 0px 2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px | identical |
+| Borders | `border-zinc-300` | `border-border-strong` | border-color: rgb(197, 197, 201) | identical |
+| Borders | `ring-zinc-300` | `ring-border-strong` | box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px, rgb(197, 197, 201) 0px 0px 0px 2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px | identical |
+| Borders | `ring-neutral-950` | `ring-focus` | box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px, rgb(10, 10, 10) 0px 0px 0px 2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px | identical |
+| Action | `bg-zinc-800` | `bg-action` | background-color: rgb(62, 62, 67) | identical |
+| Action | `border-zinc-800` | `border-action` | border-color: rgb(62, 62, 67) | identical |
+| Action | `bg-zinc-900` | `bg-action-hover` | background-color: rgb(44, 44, 48) | identical |
+| Action | `border-zinc-900` | `border-action-hover` | border-color: rgb(44, 44, 48) | identical |
+| Action | `text-white` | `text-action-foreground` | color: rgb(254, 254, 254) | identical |
+| Accent | `text-purple-500` | `text-brand` | color: rgb(119, 51, 245) | identical |
+| Accent | `bg-purple-500` | `bg-brand` | background-color: rgb(119, 51, 245) | identical |
+| Accent | `bg-purple-600` | `bg-brand-hover` | background-color: rgb(108, 46, 223) | identical |
+| Accent | `bg-violet-50` | `bg-accent-surface` | background-color: rgb(245, 243, 255) | identical |
+| Accent | `text-violet-700` | `text-accent-strong` | color: rgb(109, 40, 217) | identical |
+| Status | `text-red-500` | `text-error` | color: rgb(239, 68, 68) | identical |
+| Status | `bg-red-500` | `bg-error` | background-color: rgb(239, 68, 68) | identical |
+| Status | `border-red-500` | `border-error` | border-color: rgb(239, 68, 68) | identical |
+| Status | `bg-red-600` | `bg-error-hover` | background-color: rgb(217, 54, 54) | identical |
+| Status | `border-red-600` | `border-error-hover` | border-color: rgb(217, 54, 54) | identical |
+| Status | `text-red-700` | `text-error-foreground` | color: rgb(170, 48, 48) | identical |
+| Status | `bg-red-50` | `bg-error-surface` | background-color: rgb(254, 245, 245) | identical |
+| Status | `text-amber-500` | `text-warning` | color: rgb(245, 158, 11) | identical |
+| Status | `bg-amber-500` | `bg-warning` | background-color: rgb(245, 158, 11) | identical |
+| Status | `text-amber-700` | `text-warning-foreground` | color: rgb(180, 83, 9) | identical |
+| Status | `bg-amber-50` | `bg-warning-surface` | background-color: rgb(255, 251, 235) | identical |
+| Status | `border-amber-200` | `border-warning-border` | border-color: rgb(253, 230, 138) | identical |
+| Status | `ring-amber-200` | `ring-warning-border` | box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px, rgb(253, 230, 138) 0px 0px 0px 2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px | identical |
+| Status | `text-green-600` | `text-success` | color: rgb(20, 148, 67) | identical |
+| Status | `text-green-700` | `text-success-foreground` | color: rgb(16, 116, 53) | identical |
+| Status | `bg-green-50` | `bg-success-surface` | background-color: rgb(232, 246, 237) | identical |
+| Status | `text-blue-500` | `text-info` | color: rgb(59, 130, 246) | identical |
+| Status | `bg-blue-500` | `bg-info` | background-color: rgb(59, 130, 246) | identical |
+| Status | `text-blue-600` | `text-info-foreground` | color: rgb(37, 99, 235) | identical |
+| Status | `bg-blue-50` | `bg-info-surface` | background-color: rgb(239, 246, 255) | identical |
+| Line height | `leading-[16px]` | `leading-4` | line-height: 16px | identical |
+| Line height | `leading-[1rem]` | `leading-4` | line-height: 16px | identical |
+| Line height | `leading-[18px]` | `leading-4.5` | line-height: 18px | identical |
+| Line height | `leading-[1.125rem]` | `leading-4.5` | line-height: 18px | identical |
+| Line height | `leading-[20px]` | `leading-5` | line-height: 20px | identical |
+| Line height | `leading-[1.25rem]` | `leading-5` | line-height: 20px | identical |
+| Line height | `leading-[22px]` | `leading-5.5` | line-height: 22px | identical |
+| Line height | `leading-[1.375rem]` | `leading-5.5` | line-height: 22px | identical |
+| Line height | `leading-[24px]` | `leading-6` | line-height: 24px | identical |
+| Line height | `leading-[1.5rem]` | `leading-6` | line-height: 24px | identical |
+| Line height | `leading-[26px]` | `leading-6.5` | line-height: 26px | identical |
+| Line height | `leading-[1.625rem]` | `leading-6.5` | line-height: 26px | identical |
+| Line height | `leading-[28px]` | `leading-7` | line-height: 28px | identical |
+| Line height | `leading-[1.75rem]` | `leading-7` | line-height: 28px | identical |
+| Line height | `leading-[32px]` | `leading-8` | line-height: 32px | identical |
+| Line height | `leading-[2rem]` | `leading-8` | line-height: 32px | identical |
+| Line height | `leading-[40px]` | `leading-10` | line-height: 40px | identical |
+| Line height | `leading-[2.5rem]` | `leading-10` | line-height: 40px | identical |
+| Letter spacing | `tracking-[-0.04em]` | `tracking-display` | letter-spacing: -0.64px | identical |
+| Letter spacing | `tracking-[-0.02em]` | `tracking-heading` | letter-spacing: -0.32px | identical |
+| Letter spacing | `tracking-[-0.01em]` | `tracking-title` | letter-spacing: -0.16px | identical |
+| Letter spacing | `tracking-[0.12em]` | `tracking-caps` | letter-spacing: 1.92px | identical |
+| Letter spacing | `tracking-[0.06em]` | `tracking-eyebrow` | letter-spacing: 0.96px | identical |
+| Font weight | `font-[400]` | `font-normal` | font-weight: 400 | identical |
+| Font weight | `font-[500]` | `font-medium` | font-weight: 500 | identical |
+| Font weight | `font-[600]` | `font-semibold` | font-weight: 600 | identical |
+| shadcn names | `bg-background` | `bg-background` | background-color: rgb(250, 250, 250) | identical |
+| shadcn names | `text-foreground` | `text-foreground` | color: rgb(9, 9, 11) | identical |
+| shadcn names | `bg-card` | `bg-card` | background-color: rgb(255, 255, 255) | identical |
+| shadcn names | `text-card-foreground` | `text-card-foreground` | color: rgb(9, 9, 11) | identical |
+| shadcn names | `bg-popover` | `bg-popover` | background-color: rgb(255, 255, 255) | identical |
+| shadcn names | `text-popover-foreground` | `text-popover-foreground` | color: rgb(9, 9, 11) | identical |
+| shadcn names | `bg-primary` | `bg-primary` | background-color: rgb(24, 24, 27) | identical |
+| shadcn names | `text-primary-foreground` | `text-primary-foreground` | color: rgb(250, 250, 250) | identical |
+| shadcn names | `bg-secondary` | `bg-secondary` | background-color: rgb(244, 244, 245) | identical |
+| shadcn names | `text-secondary-foreground` | `text-secondary-foreground` | color: rgb(24, 24, 27) | identical |
+| shadcn names | `bg-muted` | `bg-muted` | background-color: rgb(244, 244, 245) | identical |
+| shadcn names | `text-muted-foreground` | `text-muted-foreground` | color: rgb(113, 113, 122) | identical |
+| shadcn names | `bg-accent` | `bg-accent` | background-color: rgb(124, 59, 237) | identical |
+| shadcn names | `text-accent-foreground` | `text-accent-foreground` | color: rgb(255, 255, 255) | identical |
+| shadcn names | `bg-destructive` | `bg-destructive` | background-color: rgb(239, 68, 68) | identical |
+| shadcn names | `text-destructive-foreground` | `text-destructive-foreground` | color: rgb(250, 250, 250) | identical |
+| shadcn names | `border-border` | `border-border` | border-color: rgb(228, 228, 231) | identical |
+| shadcn names | `border-input` | `border-input` | border-color: rgb(214, 214, 219) | identical |
+| shadcn names | `ring-ring` | `ring-ring` | box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px, rgb(24, 24, 27) 0px 0px 0px 2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px | identical |
+| shadcn names | `bg-sidebar` | `bg-sidebar` | background-color: rgb(250, 250, 250) | identical |
+| shadcn names | `text-sidebar-foreground` | `text-sidebar-foreground` | color: rgb(63, 63, 70) | identical |
+| shadcn names | `bg-sidebar-primary` | `bg-sidebar-primary` | background-color: rgb(24, 24, 27) | identical |
+| shadcn names | `text-sidebar-primary-foreground` | `text-sidebar-primary-foreground` | color: rgb(250, 250, 250) | identical |
+| shadcn names | `bg-sidebar-accent` | `bg-sidebar-accent` | background-color: rgb(244, 244, 245) | identical |
+| shadcn names | `text-sidebar-accent-foreground` | `text-sidebar-accent-foreground` | color: rgb(24, 24, 27) | identical |
+| shadcn names | `border-sidebar-border` | `border-sidebar-border` | border-color: rgb(229, 231, 235) | identical |
+| shadcn names | `ring-sidebar-ring` | `ring-sidebar-ring` | box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px, rgb(59, 130, 246) 0px 0px 0px 2px, rgba(0, 0, 0, 0) 0px 0px 0px 0px | identical |
+| shadcn names | `agpt-card` | `agpt-card` | background-color: rgb(254, 254, 254); border-color: rgb(197, 197, 201); border-radius: 16px; border-width: 1px; padding: 1px | identical |
+| shadcn names | `agpt-border-input` | `agpt-border-input` | border-color: rgb(214, 214, 219); border-width: 1px; box-shadow: none; margin: 2px; outline: rgb(9, 9, 11) none 0px; outline-offset: 0px | identical |
+| Sidebar | `shadow-[0_0_0_1px_hsl(var(--sidebar-border))]` | `shadow-[0_0_0_1px_rgb(var(--color-sidebar-border))]` | box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(229, 231, 235) 0px 0px 0px 1px | FAIL: box-shadow: none != rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(229, 231, 235) 0px 0px 0px 1px |
+| Sidebar | `shadow-[0_0_0_1px_hsl(var(--sidebar-accent))]` | `shadow-[0_0_0_1px_rgb(var(--color-sidebar-accent))]` | box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(244, 244, 245) 0px 0px 0px 1px | FAIL: box-shadow: none != rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(244, 244, 245) 0px 0px 0px 1px |
+| Page | `bg-[#F6F7F8]` | `bg-canvas` | background-color: rgb(246, 247, 248) | identical |
+| Page | `border` | `border` | border-color: rgb(228, 228, 231); border-width: 1px | identical |
+| Opacity | `bg-white/50` | `bg-surface/50` | background-color: rgba(254, 254, 254, 0.5) | identical |
+| Opacity | `bg-stone-500/20` | `bg-overlay/20` | background-color: rgba(120, 113, 108, 0.2) | identical |
+| Opacity | `bg-violet-50/50` | `bg-accent-surface/50` | background-color: rgba(245, 243, 255, 0.5) | identical |
+| Opacity | `bg-accent/5` | `bg-accent/5` | background-color: rgba(124, 59, 237, 0.05) | identical |
+| Opacity | `bg-muted/50` | `bg-muted/50` | background-color: rgba(244, 244, 245, 0.5) | identical |
+| Opacity | `text-muted-foreground/70` | `text-muted-foreground/70` | color: rgba(113, 113, 122, 0.7) | identical |
+
+| group | old classes | new classes | font-size | line-height in a parent at leading-[1.5] / leading-[30px] / leading-normal | result |
+| --- | --- | --- | --- | --- | --- |
+| Font size (codemod) | `text-[10px]` | `text-tiny leading-inherit` | 10px | 15px / 30px / 15px | identical (12 cases) |
+| Font size (codemod) | `text-[10px] leading-5` | `text-tiny leading-5` | 10px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[10px]` | `md:text-tiny md:leading-inherit` | 10px | 15px / 30px / 15px | identical (12 cases) |
+| Font size (codemod) | `text-[10px] md:leading-6` | `text-tiny leading-inherit md:leading-6` | 10px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[0.625rem]` | `text-tiny leading-inherit` | 10px | 15px / 30px / 15px | identical (12 cases) |
+| Font size (codemod) | `text-[0.625rem] leading-5` | `text-tiny leading-5` | 10px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[0.625rem]` | `md:text-tiny md:leading-inherit` | 10px | 15px / 30px / 15px | identical (12 cases) |
+| Font size (codemod) | `text-[0.625rem] md:leading-6` | `text-tiny leading-inherit md:leading-6` | 10px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[11px]` | `text-caption-sm leading-inherit` | 11px | 16.5px / 30px / 16.5px | identical (12 cases) |
+| Font size (codemod) | `text-[11px] leading-5` | `text-caption-sm leading-5` | 11px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[11px]` | `md:text-caption-sm md:leading-inherit` | 11px | 16.5px / 30px / 16.5px | identical (12 cases) |
+| Font size (codemod) | `text-[11px] md:leading-6` | `text-caption-sm leading-inherit md:leading-6` | 11px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[0.6875rem]` | `text-caption-sm leading-inherit` | 11px | 16.5px / 30px / 16.5px | identical (12 cases) |
+| Font size (codemod) | `text-[0.6875rem] leading-5` | `text-caption-sm leading-5` | 11px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[0.6875rem]` | `md:text-caption-sm md:leading-inherit` | 11px | 16.5px / 30px / 16.5px | identical (12 cases) |
+| Font size (codemod) | `text-[0.6875rem] md:leading-6` | `text-caption-sm leading-inherit md:leading-6` | 11px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[12px]` | `text-caption leading-inherit` | 12px | 18px / 30px / 18px | identical (12 cases) |
+| Font size (codemod) | `text-[12px] leading-5` | `text-caption leading-5` | 12px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[12px]` | `md:text-caption md:leading-inherit` | 12px | 18px / 30px / 18px | identical (12 cases) |
+| Font size (codemod) | `text-[12px] md:leading-6` | `text-caption leading-inherit md:leading-6` | 12px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[0.75rem]` | `text-caption leading-inherit` | 12px | 18px / 30px / 18px | identical (12 cases) |
+| Font size (codemod) | `text-[0.75rem] leading-5` | `text-caption leading-5` | 12px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[0.75rem]` | `md:text-caption md:leading-inherit` | 12px | 18px / 30px / 18px | identical (12 cases) |
+| Font size (codemod) | `text-[0.75rem] md:leading-6` | `text-caption leading-inherit md:leading-6` | 12px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[13px]` | `text-body-sm leading-inherit` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Font size (codemod) | `text-[13px] leading-5` | `text-body-sm leading-5` | 13px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[13px]` | `md:text-body-sm md:leading-inherit` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Font size (codemod) | `text-[13px] md:leading-6` | `text-body-sm leading-inherit md:leading-6` | 13px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[0.8125rem]` | `text-body-sm leading-inherit` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Font size (codemod) | `text-[0.8125rem] leading-5` | `text-body-sm leading-5` | 13px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[0.8125rem]` | `md:text-body-sm md:leading-inherit` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Font size (codemod) | `text-[0.8125rem] md:leading-6` | `text-body-sm leading-inherit md:leading-6` | 13px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[14px]` | `text-body leading-inherit` | 14px | 21px / 30px / 21px | identical (12 cases) |
+| Font size (codemod) | `text-[14px] leading-5` | `text-body leading-5` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[14px]` | `md:text-body md:leading-inherit` | 14px | 21px / 30px / 21px | identical (12 cases) |
+| Font size (codemod) | `text-[14px] md:leading-6` | `text-body leading-inherit md:leading-6` | 14px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[0.875rem]` | `text-body leading-inherit` | 14px | 21px / 30px / 21px | identical (12 cases) |
+| Font size (codemod) | `text-[0.875rem] leading-5` | `text-body leading-5` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[0.875rem]` | `md:text-body md:leading-inherit` | 14px | 21px / 30px / 21px | identical (12 cases) |
+| Font size (codemod) | `text-[0.875rem] md:leading-6` | `text-body leading-inherit md:leading-6` | 14px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[15px]` | `text-body-md leading-inherit` | 15px | 22.5px / 30px / 22.5px | identical (12 cases) |
+| Font size (codemod) | `text-[15px] leading-5` | `text-body-md leading-5` | 15px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[15px]` | `md:text-body-md md:leading-inherit` | 15px | 22.5px / 30px / 22.5px | identical (12 cases) |
+| Font size (codemod) | `text-[15px] md:leading-6` | `text-body-md leading-inherit md:leading-6` | 15px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[0.9375rem]` | `text-body-md leading-inherit` | 15px | 22.5px / 30px / 22.5px | identical (12 cases) |
+| Font size (codemod) | `text-[0.9375rem] leading-5` | `text-body-md leading-5` | 15px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[0.9375rem]` | `md:text-body-md md:leading-inherit` | 15px | 22.5px / 30px / 22.5px | identical (12 cases) |
+| Font size (codemod) | `text-[0.9375rem] md:leading-6` | `text-body-md leading-inherit md:leading-6` | 15px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[16px]` | `text-body-lg leading-inherit` | 16px | 24px / 30px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[16px] leading-5` | `text-body-lg leading-5` | 16px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[16px]` | `md:text-body-lg md:leading-inherit` | 16px | 24px / 30px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[16px] md:leading-6` | `text-body-lg leading-inherit md:leading-6` | 16px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[1rem]` | `text-body-lg leading-inherit` | 16px | 24px / 30px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[1rem] leading-5` | `text-body-lg leading-5` | 16px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[1rem]` | `md:text-body-lg md:leading-inherit` | 16px | 24px / 30px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[1rem] md:leading-6` | `text-body-lg leading-inherit md:leading-6` | 16px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[20px]` | `text-lead leading-inherit` | 20px | 30px / 30px / 30px | identical (12 cases) |
+| Font size (codemod) | `text-[20px] leading-5` | `text-lead leading-5` | 20px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[20px]` | `md:text-lead md:leading-inherit` | 20px | 30px / 30px / 30px | identical (12 cases) |
+| Font size (codemod) | `text-[20px] md:leading-6` | `text-lead leading-inherit md:leading-6` | 20px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[1.25rem]` | `text-lead leading-inherit` | 20px | 30px / 30px / 30px | identical (12 cases) |
+| Font size (codemod) | `text-[1.25rem] leading-5` | `text-lead leading-5` | 20px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[1.25rem]` | `md:text-lead md:leading-inherit` | 20px | 30px / 30px / 30px | identical (12 cases) |
+| Font size (codemod) | `text-[1.25rem] md:leading-6` | `text-lead leading-inherit md:leading-6` | 20px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[22px]` | `text-heading-sm leading-inherit` | 22px | 33px / 30px / 33px | identical (12 cases) |
+| Font size (codemod) | `text-[22px] leading-5` | `text-heading-sm leading-5` | 22px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[22px]` | `md:text-heading-sm md:leading-inherit` | 22px | 33px / 30px / 33px | identical (12 cases) |
+| Font size (codemod) | `text-[22px] md:leading-6` | `text-heading-sm leading-inherit md:leading-6` | 22px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[1.375rem]` | `text-heading-sm leading-inherit` | 22px | 33px / 30px / 33px | identical (12 cases) |
+| Font size (codemod) | `text-[1.375rem] leading-5` | `text-heading-sm leading-5` | 22px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[1.375rem]` | `md:text-heading-sm md:leading-inherit` | 22px | 33px / 30px / 33px | identical (12 cases) |
+| Font size (codemod) | `text-[1.375rem] md:leading-6` | `text-heading-sm leading-inherit md:leading-6` | 22px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[28px]` | `text-heading leading-inherit` | 28px | 42px / 30px / 42px | identical (12 cases) |
+| Font size (codemod) | `text-[28px] leading-5` | `text-heading leading-5` | 28px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[28px]` | `md:text-heading md:leading-inherit` | 28px | 42px / 30px / 42px | identical (12 cases) |
+| Font size (codemod) | `text-[28px] md:leading-6` | `text-heading leading-inherit md:leading-6` | 28px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[1.75rem]` | `text-heading leading-inherit` | 28px | 42px / 30px / 42px | identical (12 cases) |
+| Font size (codemod) | `text-[1.75rem] leading-5` | `text-heading leading-5` | 28px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[1.75rem]` | `md:text-heading md:leading-inherit` | 28px | 42px / 30px / 42px | identical (12 cases) |
+| Font size (codemod) | `text-[1.75rem] md:leading-6` | `text-heading leading-inherit md:leading-6` | 28px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[32px]` | `text-title leading-inherit` | 32px | 48px / 30px / 48px | identical (12 cases) |
+| Font size (codemod) | `text-[32px] leading-5` | `text-title leading-5` | 32px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[32px]` | `md:text-title md:leading-inherit` | 32px | 48px / 30px / 48px | identical (12 cases) |
+| Font size (codemod) | `text-[32px] md:leading-6` | `text-title leading-inherit md:leading-6` | 32px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[2rem]` | `text-title leading-inherit` | 32px | 48px / 30px / 48px | identical (12 cases) |
+| Font size (codemod) | `text-[2rem] leading-5` | `text-title leading-5` | 32px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[2rem]` | `md:text-title md:leading-inherit` | 32px | 48px / 30px / 48px | identical (12 cases) |
+| Font size (codemod) | `text-[2rem] md:leading-6` | `text-title leading-inherit md:leading-6` | 32px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[44px]` | `text-display leading-inherit` | 44px | 66px / 30px / 66px | identical (12 cases) |
+| Font size (codemod) | `text-[44px] leading-5` | `text-display leading-5` | 44px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[44px]` | `md:text-display md:leading-inherit` | 44px | 66px / 30px / 66px | identical (12 cases) |
+| Font size (codemod) | `text-[44px] md:leading-6` | `text-display leading-inherit md:leading-6` | 44px | 24px / 24px / 24px | identical (12 cases) |
+| Font size (codemod) | `text-[2.75rem]` | `text-display leading-inherit` | 44px | 66px / 30px / 66px | identical (12 cases) |
+| Font size (codemod) | `text-[2.75rem] leading-5` | `text-display leading-5` | 44px | 20px / 20px / 20px | identical (12 cases) |
+| Font size (codemod) | `md:text-[2.75rem]` | `md:text-display md:leading-inherit` | 44px | 66px / 30px / 66px | identical (12 cases) |
+| Font size (codemod) | `text-[2.75rem] md:leading-6` | `text-display leading-inherit md:leading-6` | 44px | 24px / 24px / 24px | identical (12 cases) |
+| Text `h1` | `font-poppins text-display font-semibold tracking-[-0.033rem] text-black` | `font-poppins text-display font-semibold tracking-[-0.033rem] text-black` | 44px | 56px / 56px / 56px | identical (12 cases) |
+| Text `h1` + `text-sm` | `font-poppins font-semibold tracking-[-0.033rem] text-black text-sm` | `font-poppins font-semibold tracking-[-0.033rem] text-black text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `h1` + `text-[13px]` | `font-poppins font-semibold tracking-[-0.033rem] text-black text-[13px]` | `font-poppins font-semibold tracking-[-0.033rem] text-black text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `h1` + `leading-6` | `font-poppins text-display font-semibold tracking-[-0.033rem] text-black leading-6` | `font-poppins text-display font-semibold tracking-[-0.033rem] text-black leading-6` | 44px | 24px / 24px / 24px | identical (12 cases) |
+| Text `h1` + `tracking-tight` | `font-poppins text-display font-semibold text-black tracking-tight` | `font-poppins text-display font-semibold text-black tracking-tight` | 44px | 56px / 56px / 56px | identical (12 cases) |
+| Text `h1` + `font-normal` | `font-poppins text-display tracking-[-0.033rem] text-black font-normal` | `font-poppins text-display tracking-[-0.033rem] text-black font-normal` | 44px | 56px / 56px / 56px | identical (12 cases) |
+| Text `h1` + `text-zinc-500` | `font-poppins text-display font-semibold tracking-[-0.033rem] text-zinc-500` | `font-poppins text-display font-semibold tracking-[-0.033rem] text-zinc-500` | 44px | 56px / 56px / 56px | identical (12 cases) |
+| Text `h2` | `font-poppins text-title font-medium text-black tracking-[-0.02rem]` | `font-poppins text-title font-medium text-black tracking-[-0.02rem]` | 32px | 40px / 40px / 40px | identical (12 cases) |
+| Text `h2` + `text-sm` | `font-poppins font-medium text-black tracking-[-0.02rem] text-sm` | `font-poppins font-medium text-black tracking-[-0.02rem] text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `h2` + `text-[13px]` | `font-poppins font-medium text-black tracking-[-0.02rem] text-[13px]` | `font-poppins font-medium text-black tracking-[-0.02rem] text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `h2` + `leading-6` | `font-poppins text-title font-medium text-black tracking-[-0.02rem] leading-6` | `font-poppins text-title font-medium text-black tracking-[-0.02rem] leading-6` | 32px | 24px / 24px / 24px | identical (12 cases) |
+| Text `h2` + `tracking-tight` | `font-poppins text-title font-medium text-black tracking-tight` | `font-poppins text-title font-medium text-black tracking-tight` | 32px | 40px / 40px / 40px | identical (12 cases) |
+| Text `h2` + `font-normal` | `font-poppins text-title text-black tracking-[-0.02rem] font-normal` | `font-poppins text-title text-black tracking-[-0.02rem] font-normal` | 32px | 40px / 40px / 40px | identical (12 cases) |
+| Text `h2` + `text-zinc-500` | `font-poppins text-title font-medium tracking-[-0.02rem] text-zinc-500` | `font-poppins text-title font-medium tracking-[-0.02rem] text-zinc-500` | 32px | 40px / 40px / 40px | identical (12 cases) |
+| Text `h3` | `font-poppins text-heading font-medium text-black tracking-[-0.01313rem]` | `font-poppins text-heading font-medium text-black tracking-[-0.01313rem]` | 28px | 40px / 40px / 40px | identical (12 cases) |
+| Text `h3` + `text-sm` | `font-poppins font-medium text-black tracking-[-0.01313rem] text-sm` | `font-poppins font-medium text-black tracking-[-0.01313rem] text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `h3` + `text-[13px]` | `font-poppins font-medium text-black tracking-[-0.01313rem] text-[13px]` | `font-poppins font-medium text-black tracking-[-0.01313rem] text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `h3` + `leading-6` | `font-poppins text-heading font-medium text-black tracking-[-0.01313rem] leading-6` | `font-poppins text-heading font-medium text-black tracking-[-0.01313rem] leading-6` | 28px | 24px / 24px / 24px | identical (12 cases) |
+| Text `h3` + `tracking-tight` | `font-poppins text-heading font-medium text-black tracking-tight` | `font-poppins text-heading font-medium text-black tracking-tight` | 28px | 40px / 40px / 40px | identical (12 cases) |
+| Text `h3` + `font-normal` | `font-poppins text-heading text-black tracking-[-0.01313rem] font-normal` | `font-poppins text-heading text-black tracking-[-0.01313rem] font-normal` | 28px | 40px / 40px / 40px | identical (12 cases) |
+| Text `h3` + `text-zinc-500` | `font-poppins text-heading font-medium tracking-[-0.01313rem] text-zinc-500` | `font-poppins text-heading font-medium tracking-[-0.01313rem] text-zinc-500` | 28px | 40px / 40px / 40px | identical (12 cases) |
+| Text `h4` | `font-poppins text-heading-sm font-medium text-black` | `font-poppins text-heading-sm font-medium text-black` | 22px | 24px / 24px / 24px | identical (12 cases) |
+| Text `h4` + `text-sm` | `font-poppins font-medium text-black text-sm` | `font-poppins font-medium text-black text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `h4` + `text-[13px]` | `font-poppins font-medium text-black text-[13px]` | `font-poppins font-medium text-black text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `h4` + `leading-6` | `font-poppins text-heading-sm font-medium text-black leading-6` | `font-poppins text-heading-sm font-medium text-black leading-6` | 22px | 24px / 24px / 24px | identical (12 cases) |
+| Text `h4` + `tracking-tight` | `font-poppins text-heading-sm font-medium text-black tracking-tight` | `font-poppins text-heading-sm font-medium text-black tracking-tight` | 22px | 24px / 24px / 24px | identical (12 cases) |
+| Text `h4` + `font-normal` | `font-poppins text-heading-sm text-black font-normal` | `font-poppins text-heading-sm text-black font-normal` | 22px | 24px / 24px / 24px | identical (12 cases) |
+| Text `h4` + `text-zinc-500` | `font-poppins text-heading-sm font-medium text-zinc-500` | `font-poppins text-heading-sm font-medium text-zinc-500` | 22px | 24px / 24px / 24px | identical (12 cases) |
+| Text `h5` | `font-poppins text-body-lg font-medium leading-6 text-black` | `font-poppins text-body-lg font-medium leading-6 text-black` | 16px | 24px / 24px / 24px | identical (12 cases) |
+| Text `h5` + `text-sm` | `font-poppins font-medium text-black text-sm` | `font-poppins font-medium text-black text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `h5` + `text-[13px]` | `font-poppins font-medium text-black text-[13px]` | `font-poppins font-medium text-black text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `h5` + `leading-6` | `font-poppins text-body-lg font-medium text-black leading-6` | `font-poppins text-body-lg font-medium text-black leading-6` | 16px | 24px / 24px / 24px | identical (12 cases) |
+| Text `h5` + `tracking-tight` | `font-poppins text-body-lg font-medium leading-6 text-black tracking-tight` | `font-poppins text-body-lg font-medium leading-6 text-black tracking-tight` | 16px | 24px / 24px / 24px | identical (12 cases) |
+| Text `h5` + `font-normal` | `font-poppins text-body-lg leading-6 text-black font-normal` | `font-poppins text-body-lg leading-6 text-black font-normal` | 16px | 24px / 24px / 24px | identical (12 cases) |
+| Text `h5` + `text-zinc-500` | `font-poppins text-body-lg font-medium leading-6 text-zinc-500` | `font-poppins text-body-lg font-medium leading-6 text-zinc-500` | 16px | 24px / 24px / 24px | identical (12 cases) |
+| Text `lead` | `font-sans text-lead font-normal text-black` | `font-sans text-lead font-normal text-black` | 20px | 28px / 28px / 28px | identical (12 cases) |
+| Text `lead` + `text-sm` | `font-sans font-normal text-black text-sm` | `font-sans font-normal text-black text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `lead` + `text-[13px]` | `font-sans font-normal text-black text-[13px]` | `font-sans font-normal text-black text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `lead` + `leading-6` | `font-sans text-lead font-normal text-black leading-6` | `font-sans text-lead font-normal text-black leading-6` | 20px | 24px / 24px / 24px | identical (12 cases) |
+| Text `lead` + `tracking-tight` | `font-sans text-lead font-normal text-black tracking-tight` | `font-sans text-lead font-normal text-black tracking-tight` | 20px | 28px / 28px / 28px | identical (12 cases) |
+| Text `lead` + `font-normal` | `font-sans text-lead text-black font-normal` | `font-sans text-lead text-black font-normal` | 20px | 28px / 28px / 28px | identical (12 cases) |
+| Text `lead` + `text-zinc-500` | `font-sans text-lead font-normal text-zinc-500` | `font-sans text-lead font-normal text-zinc-500` | 20px | 28px / 28px / 28px | identical (12 cases) |
+| Text `lead-medium` | `font-sans text-lead font-medium text-black` | `font-sans text-lead font-medium text-black` | 20px | 28px / 28px / 28px | identical (12 cases) |
+| Text `lead-medium` + `text-sm` | `font-sans font-medium text-black text-sm` | `font-sans font-medium text-black text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `lead-medium` + `text-[13px]` | `font-sans font-medium text-black text-[13px]` | `font-sans font-medium text-black text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `lead-medium` + `leading-6` | `font-sans text-lead font-medium text-black leading-6` | `font-sans text-lead font-medium text-black leading-6` | 20px | 24px / 24px / 24px | identical (12 cases) |
+| Text `lead-medium` + `tracking-tight` | `font-sans text-lead font-medium text-black tracking-tight` | `font-sans text-lead font-medium text-black tracking-tight` | 20px | 28px / 28px / 28px | identical (12 cases) |
+| Text `lead-medium` + `font-normal` | `font-sans text-lead text-black font-normal` | `font-sans text-lead text-black font-normal` | 20px | 28px / 28px / 28px | identical (12 cases) |
+| Text `lead-medium` + `text-zinc-500` | `font-sans text-lead font-medium text-zinc-500` | `font-sans text-lead font-medium text-zinc-500` | 20px | 28px / 28px / 28px | identical (12 cases) |
+| Text `lead-semibold` | `font-sans text-lead font-semibold text-black` | `font-sans text-lead font-semibold text-black` | 20px | 28px / 28px / 28px | identical (12 cases) |
+| Text `lead-semibold` + `text-sm` | `font-sans font-semibold text-black text-sm` | `font-sans font-semibold text-black text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `lead-semibold` + `text-[13px]` | `font-sans font-semibold text-black text-[13px]` | `font-sans font-semibold text-black text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `lead-semibold` + `leading-6` | `font-sans text-lead font-semibold text-black leading-6` | `font-sans text-lead font-semibold text-black leading-6` | 20px | 24px / 24px / 24px | identical (12 cases) |
+| Text `lead-semibold` + `tracking-tight` | `font-sans text-lead font-semibold text-black tracking-tight` | `font-sans text-lead font-semibold text-black tracking-tight` | 20px | 28px / 28px / 28px | identical (12 cases) |
+| Text `lead-semibold` + `font-normal` | `font-sans text-lead text-black font-normal` | `font-sans text-lead text-black font-normal` | 20px | 28px / 28px / 28px | identical (12 cases) |
+| Text `lead-semibold` + `text-zinc-500` | `font-sans text-lead font-semibold text-zinc-500` | `font-sans text-lead font-semibold text-zinc-500` | 20px | 28px / 28px / 28px | identical (12 cases) |
+| Text `large` | `font-sans text-body-lg font-normal text-black` | `font-sans text-body-lg font-normal text-black` | 16px | 26px / 26px / 26px | identical (12 cases) |
+| Text `large` + `text-sm` | `font-sans font-normal text-black text-sm` | `font-sans font-normal text-black text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `large` + `text-[13px]` | `font-sans font-normal text-black text-[13px]` | `font-sans font-normal text-black text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `large` + `leading-6` | `font-sans text-body-lg font-normal text-black leading-6` | `font-sans text-body-lg font-normal text-black leading-6` | 16px | 24px / 24px / 24px | identical (12 cases) |
+| Text `large` + `tracking-tight` | `font-sans text-body-lg font-normal text-black tracking-tight` | `font-sans text-body-lg font-normal text-black tracking-tight` | 16px | 26px / 26px / 26px | identical (12 cases) |
+| Text `large` + `font-normal` | `font-sans text-body-lg text-black font-normal` | `font-sans text-body-lg text-black font-normal` | 16px | 26px / 26px / 26px | identical (12 cases) |
+| Text `large` + `text-zinc-500` | `font-sans text-body-lg font-normal text-zinc-500` | `font-sans text-body-lg font-normal text-zinc-500` | 16px | 26px / 26px / 26px | identical (12 cases) |
+| Text `large-medium` | `font-sans text-body-lg font-medium text-black` | `font-sans text-body-lg font-medium text-black` | 16px | 26px / 26px / 26px | identical (12 cases) |
+| Text `large-medium` + `text-sm` | `font-sans font-medium text-black text-sm` | `font-sans font-medium text-black text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `large-medium` + `text-[13px]` | `font-sans font-medium text-black text-[13px]` | `font-sans font-medium text-black text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `large-medium` + `leading-6` | `font-sans text-body-lg font-medium text-black leading-6` | `font-sans text-body-lg font-medium text-black leading-6` | 16px | 24px / 24px / 24px | identical (12 cases) |
+| Text `large-medium` + `tracking-tight` | `font-sans text-body-lg font-medium text-black tracking-tight` | `font-sans text-body-lg font-medium text-black tracking-tight` | 16px | 26px / 26px / 26px | identical (12 cases) |
+| Text `large-medium` + `font-normal` | `font-sans text-body-lg text-black font-normal` | `font-sans text-body-lg text-black font-normal` | 16px | 26px / 26px / 26px | identical (12 cases) |
+| Text `large-medium` + `text-zinc-500` | `font-sans text-body-lg font-medium text-zinc-500` | `font-sans text-body-lg font-medium text-zinc-500` | 16px | 26px / 26px / 26px | identical (12 cases) |
+| Text `large-semibold` | `font-sans text-body-lg font-semibold text-black` | `font-sans text-body-lg font-semibold text-black` | 16px | 26px / 26px / 26px | identical (12 cases) |
+| Text `large-semibold` + `text-sm` | `font-sans font-semibold text-black text-sm` | `font-sans font-semibold text-black text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `large-semibold` + `text-[13px]` | `font-sans font-semibold text-black text-[13px]` | `font-sans font-semibold text-black text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `large-semibold` + `leading-6` | `font-sans text-body-lg font-semibold text-black leading-6` | `font-sans text-body-lg font-semibold text-black leading-6` | 16px | 24px / 24px / 24px | identical (12 cases) |
+| Text `large-semibold` + `tracking-tight` | `font-sans text-body-lg font-semibold text-black tracking-tight` | `font-sans text-body-lg font-semibold text-black tracking-tight` | 16px | 26px / 26px / 26px | identical (12 cases) |
+| Text `large-semibold` + `font-normal` | `font-sans text-body-lg text-black font-normal` | `font-sans text-body-lg text-black font-normal` | 16px | 26px / 26px / 26px | identical (12 cases) |
+| Text `large-semibold` + `text-zinc-500` | `font-sans text-body-lg font-semibold text-zinc-500` | `font-sans text-body-lg font-semibold text-zinc-500` | 16px | 26px / 26px / 26px | identical (12 cases) |
+| Text `body` | `font-sans text-body font-normal text-black` | `font-sans text-body font-normal text-black` | 14px | 22px / 22px / 22px | identical (12 cases) |
+| Text `body` + `text-sm` | `font-sans font-normal text-black text-sm` | `font-sans font-normal text-black text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `body` + `text-[13px]` | `font-sans font-normal text-black text-[13px]` | `font-sans font-normal text-black text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `body` + `leading-6` | `font-sans text-body font-normal text-black leading-6` | `font-sans text-body font-normal text-black leading-6` | 14px | 24px / 24px / 24px | identical (12 cases) |
+| Text `body` + `tracking-tight` | `font-sans text-body font-normal text-black tracking-tight` | `font-sans text-body font-normal text-black tracking-tight` | 14px | 22px / 22px / 22px | identical (12 cases) |
+| Text `body` + `font-normal` | `font-sans text-body text-black font-normal` | `font-sans text-body text-black font-normal` | 14px | 22px / 22px / 22px | identical (12 cases) |
+| Text `body` + `text-zinc-500` | `font-sans text-body font-normal text-zinc-500` | `font-sans text-body font-normal text-zinc-500` | 14px | 22px / 22px / 22px | identical (12 cases) |
+| Text `body-medium` | `font-sans text-body font-medium text-black` | `font-sans text-body font-medium text-black` | 14px | 22px / 22px / 22px | identical (12 cases) |
+| Text `body-medium` + `text-sm` | `font-sans font-medium text-black text-sm` | `font-sans font-medium text-black text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `body-medium` + `text-[13px]` | `font-sans font-medium text-black text-[13px]` | `font-sans font-medium text-black text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `body-medium` + `leading-6` | `font-sans text-body font-medium text-black leading-6` | `font-sans text-body font-medium text-black leading-6` | 14px | 24px / 24px / 24px | identical (12 cases) |
+| Text `body-medium` + `tracking-tight` | `font-sans text-body font-medium text-black tracking-tight` | `font-sans text-body font-medium text-black tracking-tight` | 14px | 22px / 22px / 22px | identical (12 cases) |
+| Text `body-medium` + `font-normal` | `font-sans text-body text-black font-normal` | `font-sans text-body text-black font-normal` | 14px | 22px / 22px / 22px | identical (12 cases) |
+| Text `body-medium` + `text-zinc-500` | `font-sans text-body font-medium text-zinc-500` | `font-sans text-body font-medium text-zinc-500` | 14px | 22px / 22px / 22px | identical (12 cases) |
+| Text `small` | `font-sans text-caption font-normal text-black` | `font-sans text-caption font-normal text-black` | 12px | 18px / 18px / 18px | identical (12 cases) |
+| Text `small` + `text-sm` | `font-sans font-normal text-black text-sm` | `font-sans font-normal text-black text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `small` + `text-[13px]` | `font-sans font-normal text-black text-[13px]` | `font-sans font-normal text-black text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `small` + `leading-6` | `font-sans text-caption font-normal text-black leading-6` | `font-sans text-caption font-normal text-black leading-6` | 12px | 24px / 24px / 24px | identical (12 cases) |
+| Text `small` + `tracking-tight` | `font-sans text-caption font-normal text-black tracking-tight` | `font-sans text-caption font-normal text-black tracking-tight` | 12px | 18px / 18px / 18px | identical (12 cases) |
+| Text `small` + `font-normal` | `font-sans text-caption text-black font-normal` | `font-sans text-caption text-black font-normal` | 12px | 18px / 18px / 18px | identical (12 cases) |
+| Text `small` + `text-zinc-500` | `font-sans text-caption font-normal text-zinc-500` | `font-sans text-caption font-normal text-zinc-500` | 12px | 18px / 18px / 18px | identical (12 cases) |
+| Text `small-medium` | `font-sans text-caption font-medium text-black` | `font-sans text-caption font-medium text-black` | 12px | 18px / 18px / 18px | identical (12 cases) |
+| Text `small-medium` + `text-sm` | `font-sans font-medium text-black text-sm` | `font-sans font-medium text-black text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `small-medium` + `text-[13px]` | `font-sans font-medium text-black text-[13px]` | `font-sans font-medium text-black text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `small-medium` + `leading-6` | `font-sans text-caption font-medium text-black leading-6` | `font-sans text-caption font-medium text-black leading-6` | 12px | 24px / 24px / 24px | identical (12 cases) |
+| Text `small-medium` + `tracking-tight` | `font-sans text-caption font-medium text-black tracking-tight` | `font-sans text-caption font-medium text-black tracking-tight` | 12px | 18px / 18px / 18px | identical (12 cases) |
+| Text `small-medium` + `font-normal` | `font-sans text-caption text-black font-normal` | `font-sans text-caption text-black font-normal` | 12px | 18px / 18px / 18px | identical (12 cases) |
+| Text `small-medium` + `text-zinc-500` | `font-sans text-caption font-medium text-zinc-500` | `font-sans text-caption font-medium text-zinc-500` | 12px | 18px / 18px / 18px | identical (12 cases) |
+| Text `label` | `font-sans text-[0.6785rem] font-medium uppercase leading-5 tracking-[0.06785rem] text-black` | `font-sans text-[0.6785rem] font-medium uppercase leading-5 tracking-[0.06785rem] text-black` | 10.856px | 20px / 20px / 20px | identical (12 cases) |
+| Text `label` + `text-sm` | `font-sans font-medium uppercase tracking-[0.06785rem] text-black text-sm` | `font-sans font-medium uppercase tracking-[0.06785rem] text-black text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `label` + `text-[13px]` | `font-sans font-medium uppercase tracking-[0.06785rem] text-black text-[13px]` | `font-sans font-medium uppercase tracking-[0.06785rem] text-black text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `label` + `leading-6` | `font-sans text-[0.6785rem] font-medium uppercase tracking-[0.06785rem] text-black leading-6` | `font-sans text-[0.6785rem] font-medium uppercase tracking-[0.06785rem] text-black leading-6` | 10.856px | 24px / 24px / 24px | identical (12 cases) |
+| Text `label` + `tracking-tight` | `font-sans text-[0.6785rem] font-medium uppercase leading-5 text-black tracking-tight` | `font-sans text-[0.6785rem] font-medium uppercase leading-5 text-black tracking-tight` | 10.856px | 20px / 20px / 20px | identical (12 cases) |
+| Text `label` + `font-normal` | `font-sans text-[0.6785rem] uppercase leading-5 tracking-[0.06785rem] text-black font-normal` | `font-sans text-[0.6785rem] uppercase leading-5 tracking-[0.06785rem] text-black font-normal` | 10.856px | 20px / 20px / 20px | identical (12 cases) |
+| Text `label` + `text-zinc-500` | `font-sans text-[0.6785rem] font-medium uppercase leading-5 tracking-[0.06785rem] text-zinc-500` | `font-sans text-[0.6785rem] font-medium uppercase leading-5 tracking-[0.06785rem] text-zinc-500` | 10.856px | 20px / 20px / 20px | identical (12 cases) |
+| Text `eyebrow` | `font-sans text-caption font-medium uppercase leading-4 tracking-eyebrow text-zinc-500` | `font-sans text-caption font-medium uppercase leading-4 tracking-eyebrow text-zinc-500` | 12px | 16px / 16px / 16px | identical (12 cases) |
+| Text `eyebrow` + `text-sm` | `font-sans font-medium uppercase tracking-eyebrow text-zinc-500 text-sm` | `font-sans font-medium uppercase tracking-eyebrow text-zinc-500 text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `eyebrow` + `text-[13px]` | `font-sans font-medium uppercase tracking-eyebrow text-zinc-500 text-[13px]` | `font-sans font-medium uppercase tracking-eyebrow text-zinc-500 text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `eyebrow` + `leading-6` | `font-sans text-caption font-medium uppercase tracking-eyebrow text-zinc-500 leading-6` | `font-sans text-caption font-medium uppercase tracking-eyebrow text-zinc-500 leading-6` | 12px | 24px / 24px / 24px | identical (12 cases) |
+| Text `eyebrow` + `tracking-tight` | `font-sans text-caption font-medium uppercase leading-4 text-zinc-500 tracking-tight` | `font-sans text-caption font-medium uppercase leading-4 text-zinc-500 tracking-tight` | 12px | 16px / 16px / 16px | identical (12 cases) |
+| Text `eyebrow` + `font-normal` | `font-sans text-caption uppercase leading-4 tracking-eyebrow text-zinc-500 font-normal` | `font-sans text-caption uppercase leading-4 tracking-eyebrow text-zinc-500 font-normal` | 12px | 16px / 16px / 16px | identical (12 cases) |
+| Text `eyebrow` + `text-zinc-500` | `font-sans text-caption font-medium uppercase leading-4 tracking-eyebrow text-zinc-500` | `font-sans text-caption font-medium uppercase leading-4 tracking-eyebrow text-zinc-500` | 12px | 16px / 16px / 16px | identical (12 cases) |
+
+Opacity swatches: 87 colour pairs x 21 steps (0-100%) = 1827 swatches, 0 differing pixels
+124 pairs checked against this checkout: 2 failing
+215 text class lists x 12 cases (viewport, parent line-height, as written | cn()): 0 failing
+6 cn() checks: 0 failing

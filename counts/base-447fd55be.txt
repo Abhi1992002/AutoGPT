@@ -1,0 +1,12 @@
+team: wc-l=545 unix='545 problems'
+     19 shadcn(no-arbitrary-values)
+     10 shadcn(no-inline-styles)
+    233 shadcn(no-raw-colors)
+    270 shadcn(no-restyle)
+     13 shadcn(require-static-classes)
+marketplace: wc-l=478 unix='478 problems'
+     77 shadcn(no-arbitrary-values)
+      8 shadcn(no-inline-styles)
+    235 shadcn(no-raw-colors)
+    149 shadcn(no-restyle)
+      9 shadcn(require-static-classes)

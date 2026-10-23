@@ -1,0 +1,15 @@
+5 unique class strings (5 occurrences), 10 cases (as written, cn() contexts), 480 measurements (2 widths x 6 states x 2 parent line-heights x plain/profile-tabs): 5 failing cases
+
+| # | old class string | new class string | value of the new class (computed, 16px root, in a leading-[30px] parent, 1440px, variant stripped, with the ring/divide/gradient helper that makes a colour visible) | result |
+| --- | --- | --- | --- | --- |
+| 1 | `text-[13px]` | `text-body-sm` | color: rgb(1, 2, 3); font-size: 13px; line-height: 20px | FAIL |
+| 2 | `text-zinc-500` | `text-foreground-secondary` | color: rgb(104, 104, 111) | FAIL |
+| 3 | `hover:bg-zinc-50` | `hover:bg-surface-hover` | background-color: rgb(239, 239, 240) | FAIL |
+| 4 | `text-sm` | `text-body` | color: rgb(1, 2, 3); font-size: 14px; line-height: 22px | FAIL |
+| 5 | `text-[13px]` | `text-body-sm leading-inherit` | color: rgb(1, 2, 3); font-size: 13px; line-height: 30px | identical (96 measurements) |
+
+- FAIL as written: `text-[13px]` -> `text-body-sm` at 1440px default leading-[30px] plain, 1440px default leading-[30px] profile-tabs, 1440px default leading-[1.5] plain, 1440px default leading-[1.5] profile-tabs (+44)
+- FAIL as written: `text-zinc-500` -> `text-foreground-secondary` at 1440px default leading-[30px] plain, 1440px default leading-[30px] profile-tabs, 1440px default leading-[1.5] plain, 1440px default leading-[1.5] profile-tabs (+44)
+- FAIL as written: `text-sm` -> `text-body` at 1440px default leading-[30px] plain, 1440px default leading-[1.5] plain, 1440px hover leading-[30px] plain, 1440px hover leading-[1.5] plain (+20)
+- FAIL as written: `hover:bg-zinc-50` -> `hover:bg-surface-hover` at 1440px hover leading-[30px] plain, 1440px hover leading-[30px] profile-tabs, 1440px hover leading-[1.5] plain, 1440px hover leading-[1.5] profile-tabs (+4)
+- FAIL cn(generic base): `text-black text-base leading-7 tracking-wide font-bold bg-black border-black ring-black divide-black from-black via-black to-black outline-black decoration-black placeholder:text-black hover:text-black hover:border-black hover:to-black focus:text-black focus:bg-black focus-visible:ring-black group-hover:text-black data-[state=active]:text-black [&_svg]:text-black [&>svg]:text-black [&>div]:bg-black !text-black !text-base !leading-7 hover:bg-zinc-50` -> `text-black text-base leading-7 tracking-wide font-bold bg-black border-black ring-black divide-black from-black via-black to-black outline-black decoration-black placeholder:text-black hover:text-black hover:border-black hover:to-black focus:text-black focus:bg-black focus-visible:ring-black group-hover:text-black data-[state=active]:text-black [&_svg]:text-black [&>svg]:text-black [&>div]:bg-black !text-black !text-base !leading-7 hover:bg-surface-hover` at 1440px hover leading-[30px] plain, 1440px hover leading-[30px] profile-tabs, 1440px hover leading-[1.5] plain, 1440px hover leading-[1.5] profile-tabs (+4)

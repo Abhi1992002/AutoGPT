@@ -1,0 +1,641 @@
+{
+ "pairs": [
+  {
+   "file": "x58",
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "tag": null
+  },
+  {
+   "file": "x51",
+   "old": "bg-white",
+   "new": "bg-surface",
+   "tag": null
+  },
+  {
+   "file": "x27",
+   "old": "border-zinc-200",
+   "new": "border-border-base",
+   "tag": null
+  },
+  {
+   "file": "x26",
+   "old": "text-zinc-900",
+   "new": "text-foreground-strong",
+   "tag": null
+  },
+  {
+   "file": "x23",
+   "old": "text-zinc-600",
+   "new": "text-foreground-secondary",
+   "tag": null
+  },
+  {
+   "file": "x18",
+   "old": "bg-zinc-100",
+   "new": "bg-surface-hover",
+   "tag": null
+  },
+  {
+   "file": "x14",
+   "old": "bg-amber-50",
+   "new": "bg-warning-surface",
+   "tag": null
+  },
+  {
+   "file": "x14",
+   "old": "text-[13px]",
+   "new": "text-body-sm leading-inherit",
+   "tag": null
+  },
+  {
+   "file": "x14",
+   "old": "text-zinc-400",
+   "new": "text-foreground-subtle",
+   "tag": null
+  },
+  {
+   "file": "x11",
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "tag": null
+  },
+  {
+   "file": "x11",
+   "old": "bg-zinc-50",
+   "new": "bg-surface-muted",
+   "tag": null
+  },
+  {
+   "file": "x11",
+   "old": "text-zinc-700",
+   "new": "text-foreground-body",
+   "tag": null
+  },
+  {
+   "file": "x10",
+   "old": "from-white",
+   "new": "from-surface",
+   "tag": null
+  },
+  {
+   "file": "x9",
+   "old": "text-amber-700",
+   "new": "text-warning-foreground",
+   "tag": null
+  },
+  {
+   "file": "x8",
+   "old": "hover:bg-zinc-50",
+   "new": "hover:bg-surface-muted",
+   "tag": null
+  },
+  {
+   "file": "x8",
+   "old": "hover:border-zinc-300",
+   "new": "hover:border-border-strong",
+   "tag": null
+  },
+  {
+   "file": "x8",
+   "old": "text-zinc-800",
+   "new": "text-foreground-emphasis",
+   "tag": null
+  },
+  {
+   "file": "x8",
+   "old": "tracking-[-0.02em]",
+   "new": "tracking-heading",
+   "tag": null
+  },
+  {
+   "file": "x7",
+   "old": "!text-zinc-700",
+   "new": "!text-foreground-body",
+   "tag": null
+  },
+  {
+   "file": "x7",
+   "old": "hover:text-zinc-900",
+   "new": "hover:text-foreground-strong",
+   "tag": null
+  },
+  {
+   "file": "x6",
+   "old": "!text-zinc-900",
+   "new": "!text-foreground-strong",
+   "tag": null
+  },
+  {
+   "file": "x6",
+   "old": "text-zinc-300",
+   "new": "text-foreground-disabled",
+   "tag": null
+  },
+  {
+   "file": "x5",
+   "old": "!text-zinc-600",
+   "new": "!text-foreground-secondary",
+   "tag": null
+  },
+  {
+   "file": "x5",
+   "old": "!text-zinc-800",
+   "new": "!text-foreground-emphasis",
+   "tag": null
+  },
+  {
+   "file": "x5",
+   "old": "bg-violet-50",
+   "new": "bg-accent-surface",
+   "tag": null
+  },
+  {
+   "file": "x5",
+   "old": "border-zinc-200/80",
+   "new": "border-border-base/80",
+   "tag": null
+  },
+  {
+   "file": "x5",
+   "old": "to-zinc-50",
+   "new": "to-surface-muted",
+   "tag": null
+  },
+  {
+   "file": "x4",
+   "old": "divide-zinc-100",
+   "new": "divide-separator",
+   "tag": null
+  },
+  {
+   "file": "x4",
+   "old": "ring-amber-200",
+   "new": "ring-warning-border",
+   "tag": null
+  },
+  {
+   "file": "x4",
+   "old": "ring-zinc-200",
+   "new": "ring-border-base",
+   "tag": null
+  },
+  {
+   "file": "x4",
+   "old": "text-[15px]",
+   "new": "text-body-md leading-inherit",
+   "tag": null
+  },
+  {
+   "file": "x4",
+   "old": "text-[15px] leading-6",
+   "new": "text-body-md leading-6",
+   "tag": null
+  },
+  {
+   "file": "x4",
+   "old": "tracking-[-0.01em]",
+   "new": "tracking-title",
+   "tag": null
+  },
+  {
+   "file": "x3",
+   "old": "bg-zinc-900",
+   "new": "bg-action-hover",
+   "tag": null
+  },
+  {
+   "file": "x3",
+   "old": "border-zinc-100",
+   "new": "border-separator",
+   "tag": null
+  },
+  {
+   "file": "x3",
+   "old": "border-zinc-300",
+   "new": "border-border-strong",
+   "tag": null
+  },
+  {
+   "file": "x3",
+   "old": "dark:text-neutral-300",
+   "new": "(removed)",
+   "tag": null
+  },
+  {
+   "file": "x3",
+   "old": "hover:text-zinc-800",
+   "new": "hover:text-foreground-emphasis",
+   "tag": null
+  },
+  {
+   "file": "x3",
+   "old": "ring-zinc-200/70",
+   "new": "ring-border-base/70",
+   "tag": null
+  },
+  {
+   "file": "x3",
+   "old": "ring-zinc-200/80",
+   "new": "ring-border-base/80",
+   "tag": null
+  },
+  {
+   "file": "x3",
+   "old": "text-amber-500",
+   "new": "text-warning",
+   "tag": null
+  },
+  {
+   "file": "x3",
+   "old": "text-black",
+   "new": "text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "x3",
+   "old": "text-violet-700",
+   "new": "text-accent-strong",
+   "tag": null
+  },
+  {
+   "file": "x2",
+   "old": "!text-zinc-400",
+   "new": "!text-foreground-subtle",
+   "tag": null
+  },
+  {
+   "file": "x2",
+   "old": "bg-zinc-100/80",
+   "new": "bg-surface-hover/80",
+   "tag": null
+  },
+  {
+   "file": "x2",
+   "old": "border-amber-200",
+   "new": "border-warning-border",
+   "tag": null
+  },
+  {
+   "file": "x2",
+   "old": "dark:text-neutral-100",
+   "new": "(removed)",
+   "tag": null
+  },
+  {
+   "file": "x2",
+   "old": "dark:text-neutral-200",
+   "new": "(removed)",
+   "tag": null
+  },
+  {
+   "file": "x2",
+   "old": "dark:text-neutral-400",
+   "new": "(removed)",
+   "tag": null
+  },
+  {
+   "file": "x2",
+   "old": "from-[rgb(246,247,248)]",
+   "new": "from-canvas",
+   "tag": null
+  },
+  {
+   "file": "x2",
+   "old": "group-hover:text-zinc-900",
+   "new": "group-hover:text-foreground-strong",
+   "tag": null
+  },
+  {
+   "file": "x2",
+   "old": "hover:bg-zinc-100",
+   "new": "hover:bg-surface-hover",
+   "tag": null
+  },
+  {
+   "file": "x2",
+   "old": "hover:bg-zinc-800",
+   "new": "hover:bg-action",
+   "tag": null
+  },
+  {
+   "file": "x2",
+   "old": "text-white",
+   "new": "text-action-foreground",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "!text-[1.75rem] !leading-9",
+   "new": "!text-heading !leading-9",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "!text-[15px] !leading-relaxed",
+   "new": "!text-body-md !leading-relaxed",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "!text-zinc-300",
+   "new": "!text-foreground-disabled",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "[&>svg]:text-zinc-500",
+   "new": "[&>svg]:text-foreground-tertiary",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "[&_svg]:text-white",
+   "new": "[&_svg]:text-action-foreground",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "bg-[linear-gradient(180deg,rgba(245,158,11,0.10),rgba(245,158,11,0.03)_60%,transparent)]",
+   "new": "bg-[linear-gradient(180deg,rgb(var(--color-warning)/0.10),rgb(var(--color-warning)/0.03)_60%,transparent)]",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "bg-[linear-gradient(to_bottom,rgba(255,255,255,0.35),transparent_45%)]",
+   "new": "bg-[linear-gradient(to_bottom,rgb(var(--color-card)/0.35),transparent_45%)]",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "bg-[radial-gradient(120%_100%_at_50%_0%,rgba(245,158,11,0.10),transparent_70%)]",
+   "new": "bg-[radial-gradient(120%_100%_at_50%_0%,rgb(var(--color-warning)/0.10),transparent_70%)]",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "bg-[radial-gradient(120%_100%_at_50%_0%,rgba(59,130,246,0.10),transparent_70%)]",
+   "new": "bg-[radial-gradient(120%_100%_at_50%_0%,rgb(var(--color-info)/0.10),transparent_70%)]",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "bg-[radial-gradient(ellipse_at_top,rgba(255,255,255,0.08),transparent_60%)]",
+   "new": "bg-[radial-gradient(ellipse_at_top,rgb(var(--color-card)/0.08),transparent_60%)]",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "bg-amber-50/60",
+   "new": "bg-warning-surface/60",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "bg-blue-50",
+   "new": "bg-info-surface",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "bg-green-50",
+   "new": "bg-success-surface",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "bg-red-50/60",
+   "new": "bg-error-surface/60",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "bg-violet-50/60",
+   "new": "bg-accent-surface/60",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "bg-white/10",
+   "new": "bg-surface/10",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "bg-white/75",
+   "new": "bg-surface/75",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "bg-zinc-100/60",
+   "new": "bg-surface-hover/60",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "bg-zinc-200",
+   "new": "bg-surface-active",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "bg-zinc-50/60",
+   "new": "bg-surface-muted/60",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "bg-zinc-800",
+   "new": "bg-action",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "border-[#DADADC]",
+   "new": "border-border-base",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "border-zinc-900",
+   "new": "border-action-hover",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "dark:bg-blue-900",
+   "new": "(removed)",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "dark:bg-transparent",
+   "new": "(removed)",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "dark:text-blue-100",
+   "new": "(removed)",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "data-[state=active]:text-zinc-900",
+   "new": "data-[state=active]:text-foreground-strong",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "divide-zinc-200/70",
+   "new": "divide-border-base/70",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "focus-visible:ring-zinc-300",
+   "new": "focus-visible:ring-border-strong",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "focus:bg-red-50",
+   "new": "focus:bg-error-surface",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "focus:text-red-700",
+   "new": "focus:text-error-foreground",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "from-zinc-100",
+   "new": "from-surface-hover",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "from-zinc-800",
+   "new": "from-action",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "group-hover:text-zinc-800",
+   "new": "group-hover:text-foreground-emphasis",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "hover:bg-white/50",
+   "new": "hover:bg-surface/50",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "hover:border-zinc-800",
+   "new": "hover:border-action",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "hover:from-white",
+   "new": "hover:from-surface",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "hover:text-red-500",
+   "new": "hover:text-error",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "hover:text-zinc-400",
+   "new": "hover:text-foreground-subtle",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "hover:text-zinc-950",
+   "new": "hover:text-foreground",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "hover:to-zinc-100",
+   "new": "hover:to-surface-hover",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "leading-[32px]",
+   "new": "leading-8",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "placeholder:text-zinc-400",
+   "new": "placeholder:text-foreground-subtle",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "ring-amber-500/20",
+   "new": "ring-warning/20",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "ring-zinc-100",
+   "new": "ring-separator",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "text-[#83838C]",
+   "new": "text-foreground-tertiary",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "text-[15px] leading-relaxed",
+   "new": "text-body-md leading-relaxed",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "text-[28px] leading-8",
+   "new": "text-heading leading-8",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "to-amber-50",
+   "new": "to-warning-surface",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "to-violet-50",
+   "new": "to-accent-surface",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "to-zinc-200/80",
+   "new": "to-surface-active/80",
+   "tag": null
+  },
+  {
+   "file": "x1",
+   "old": "via-zinc-900",
+   "new": "via-action-hover",
+   "tag": null
+  }
+ ],
+ "unpaired": []
+}

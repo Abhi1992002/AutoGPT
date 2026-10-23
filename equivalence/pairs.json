@@ -1,0 +1,2195 @@
+{
+ "pairs": [
+  {
+   "file": "src/app/(platform)/marketplace/components/AddToLibraryButton/AddToLibraryButton.tsx",
+   "old": "bg-neutral-200 text-zinc-900 hover:bg-neutral-300 hover:text-zinc-800",
+   "new": "bg-neutral-200 text-foreground-strong hover:bg-neutral-300 hover:text-foreground-emphasis",
+   "tag": "Button",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AddToLibraryButton/AddToLibraryButton.tsx",
+   "old": "border-none text-zinc-200 hover:bg-transparent hover:text-zinc-400",
+   "new": "border-none text-zinc-200 hover:bg-transparent hover:text-foreground-subtle",
+   "tag": "Button",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentImageItem/AgentImageItem.tsx",
+   "old": "flex h-full w-full items-center justify-center rounded-xl bg-zinc-100",
+   "new": "flex h-full w-full items-center justify-center rounded-xl bg-surface-hover",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentImageItem/AgentImageItem.tsx",
+   "old": "h-10 w-10 text-zinc-400",
+   "new": "h-10 w-10 text-foreground-subtle",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentImageItem/AgentImageItem.tsx",
+   "old": "text-black dark:text-neutral-200 sm:h-6 sm:w-6 md:h-7 md:w-7",
+   "new": "text-foreground-base sm:h-6 sm:w-6 md:h-7 md:w-7",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentImages/AgentImage.tsx",
+   "old": "w-full px-2 dark:bg-transparent lg:w-3/5 lg:flex-1",
+   "new": "w-full px-2 lg:w-3/5 lg:flex-1",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentImages/AgentImage.tsx",
+   "old": "border-zinc-100 opacity-70 hover:opacity-100",
+   "new": "border-separator opacity-70 hover:opacity-100",
+   "tag": "button"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentImages/AgentImage.tsx",
+   "old": "flex h-full w-full items-center justify-center bg-zinc-100",
+   "new": "flex h-full w-full items-center justify-center bg-surface-hover",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentImages/AgentImage.tsx",
+   "old": "h-5 w-5 text-zinc-400",
+   "new": "h-5 w-5 text-foreground-subtle",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentImages/AgentImage.tsx",
+   "old": "flex h-full w-full items-center justify-center bg-zinc-100",
+   "new": "flex h-full w-full items-center justify-center bg-surface-hover",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentImages/AgentImage.tsx",
+   "old": "h-6 w-6 text-zinc-400",
+   "new": "h-6 w-6 text-foreground-subtle",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentInfo/AgentInfo.tsx",
+   "old": "font-semibold text-neutral-900 dark:text-neutral-100",
+   "new": "font-semibold text-neutral-900",
+   "tag": "Text",
+   "variant": "body"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentInfo/AgentInfo.tsx",
+   "old": "rounded bg-blue-100 px-1.5 py-0.5 text-xs font-medium text-blue-800 dark:bg-blue-900 dark:text-blue-100",
+   "new": "rounded bg-blue-100 px-1.5 py-0.5 text-xs font-medium text-blue-800",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentInfo/AgentInfo.tsx",
+   "old": "text-neutral-500 dark:text-neutral-400",
+   "new": "text-neutral-500",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentInfo/AgentInfo.tsx",
+   "old": "text-neutral-700 dark:text-neutral-300",
+   "new": "text-neutral-700",
+   "tag": "Text",
+   "variant": "body"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentInfo/AgentInfo.tsx",
+   "old": "mb-4 line-clamp-2 w-full text-base font-normal leading-normal text-neutral-600 dark:text-neutral-300 sm:text-lg lg:mb-5 lg:text-xl lg:leading-7",
+   "new": "mb-4 line-clamp-2 w-full text-base font-normal leading-normal text-neutral-600 sm:text-lg lg:mb-5 lg:text-xl lg:leading-7",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentPageLoading.tsx",
+   "old": "text-zinc-300",
+   "new": "text-foreground-disabled",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentPageLoading.tsx",
+   "old": "text-zinc-300",
+   "new": "text-foreground-disabled",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentsSection/AgentsSection.tsx",
+   "old": "mb-7 text-2xl font-semibold tracking-[-0.02em] text-zinc-900",
+   "new": "mb-7 text-2xl font-semibold tracking-heading text-foreground-strong",
+   "tag": "h2"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentsSection/AgentsSection.tsx",
+   "old": "pointer-events-none absolute inset-y-0 left-0 w-8 bg-gradient-to-r from-[rgb(246,247,248)] to-transparent",
+   "new": "pointer-events-none absolute inset-y-0 left-0 w-8 bg-gradient-to-r from-canvas to-transparent",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/AgentsSection/AgentsSection.tsx",
+   "old": "pointer-events-none absolute inset-y-0 right-0 w-8 bg-gradient-to-l from-[rgb(246,247,248)] to-transparent",
+   "new": "pointer-events-none absolute inset-y-0 right-0 w-8 bg-gradient-to-l from-canvas to-transparent",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/BecomeACreator/BecomeACreator.tsx",
+   "old": "inline-flex h-12 cursor-pointer items-center justify-center rounded-full bg-zinc-900 px-8 text-[15px] font-medium text-white shadow-[0_1px_2px_rgba(16,24,40,0.1)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-zinc-800 hover:shadow-[0_10px_24px_-10px_rgba(16,24,40,0.4)]",
+   "new": "inline-flex h-12 cursor-pointer items-center justify-center rounded-full bg-action-hover px-8 text-body-md font-medium leading-inherit text-action-foreground shadow-[0_1px_2px_rgba(16,24,40,0.1)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-action hover:shadow-[0_10px_24px_-10px_rgba(16,24,40,0.4)]",
+   "tag": "button"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/BecomeACreator/BecomeACreator.tsx",
+   "old": "mb-4 text-3xl font-semibold tracking-[-0.02em] text-zinc-900 md:text-4xl",
+   "new": "mb-4 text-3xl font-semibold tracking-heading text-foreground-strong md:text-4xl",
+   "tag": "h2"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/BecomeACreator/BecomeACreator.tsx",
+   "old": "mx-auto mb-8 max-w-xl text-[15px] leading-relaxed text-zinc-500 md:text-lg",
+   "new": "mx-auto mb-8 max-w-xl text-body-md leading-relaxed text-foreground-tertiary md:text-lg",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/CategoryChip/CategoryChip.tsx",
+   "old": "inline-flex items-center rounded-full border border-[#e9e9e9] bg-transparent font-medium text-black",
+   "new": "inline-flex items-center rounded-full border border-[#e9e9e9] bg-transparent font-medium text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/CategoryChip/CategoryChip.tsx",
+   "old": "border-transparent bg-zinc-100 text-zinc-900",
+   "new": "border-transparent bg-surface-hover text-foreground-strong",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/CategoryChip/CategoryChip.tsx",
+   "old": "border-zinc-200 from-white to-zinc-50 text-zinc-700 hover:border-zinc-300 hover:from-white hover:to-zinc-100",
+   "new": "border-border-base from-surface to-surface-muted text-foreground-body hover:border-border-strong hover:from-surface hover:to-surface-hover",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/CategoryChip/CategoryChip.tsx",
+   "old": "border-zinc-300 from-zinc-100 to-zinc-200/80 text-zinc-900",
+   "new": "border-border-strong from-surface-hover to-surface-active/80 text-foreground-strong",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/CategoryChip/CategoryChip.tsx",
+   "old": "border-transparent text-zinc-900",
+   "new": "border-transparent text-foreground-strong",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/CategoryFilter/CategoryFilter.tsx",
+   "old": "text-sm font-medium text-zinc-500",
+   "new": "text-sm font-medium text-foreground-tertiary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/CreatorCard/CreatorCard.tsx",
+   "old": "absolute bottom-4 left-4 text-zinc-500",
+   "new": "absolute bottom-4 left-4 text-foreground-tertiary",
+   "tag": "Text",
+   "variant": "body"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/CreatorCard/helper.ts",
+   "old": "bg-amber-50 border-amber-100/70",
+   "new": "bg-warning-surface border-amber-100/70",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/CreatorCard/helper.ts",
+   "old": "bg-violet-50 border-violet-100/70",
+   "new": "bg-accent-surface border-violet-100/70",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/CreatorCard/helper.ts",
+   "old": "bg-green-50 border-green-100/70",
+   "new": "bg-success-surface border-green-100/70",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/CreatorCard/helper.ts",
+   "old": "bg-blue-50 border-blue-100/70",
+   "new": "bg-info-surface border-blue-100/70",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/CreatorPageLoading.tsx",
+   "old": "text-zinc-300",
+   "new": "text-foreground-disabled",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/ExpertsSection/components/ExpertCard.tsx",
+   "old": "group relative flex flex-col overflow-hidden rounded-2xl border border-zinc-200/80 bg-white text-left shadow-[0_1px_2px_rgba(16,24,40,0.04)] transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-zinc-300 hover:shadow-[0_16px_40px_-16px_rgba(16,24,40,0.18)]",
+   "new": "group relative flex flex-col overflow-hidden rounded-2xl border border-border-base/80 bg-surface text-left shadow-[0_1px_2px_rgba(16,24,40,0.04)] transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-border-strong hover:shadow-[0_16px_40px_-16px_rgba(16,24,40,0.18)]",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/ExpertsSection/components/ExpertCard.tsx",
+   "old": "mb-1 text-sm text-zinc-500",
+   "new": "mb-1 text-sm text-foreground-tertiary",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/ExpertsSection/components/ExpertCard.tsx",
+   "old": "h-6 cursor-default border-transparent px-0 text-zinc-500 outline-none focus-visible:ring-2 focus-visible:ring-violet-600",
+   "new": "h-6 cursor-default border-transparent px-0 text-foreground-tertiary outline-none focus-visible:ring-2 focus-visible:ring-violet-600",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/ExpertsSection/components/ExpertCard.tsx",
+   "old": "flex items-center gap-1.5 text-base font-medium text-zinc-400 transition-colors duration-200 group-hover:text-zinc-900",
+   "new": "flex items-center gap-1.5 text-base font-medium text-foreground-subtle transition-colors duration-200 group-hover:text-foreground-strong",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/ExpertsSection/helpers.ts",
+   "old": "bg-violet-50 text-violet-700 ring-1 ring-inset ring-violet-600/10",
+   "new": "bg-accent-surface text-accent-strong ring-1 ring-inset ring-violet-600/10",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/ExpertsSection/helpers.ts",
+   "old": "bg-violet-50/60",
+   "new": "bg-accent-surface/60",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/ExpertsSection/helpers.ts",
+   "old": "bg-gradient-to-b from-white to-violet-50 text-violet-800 ring-1 ring-inset ring-violet-500/20 shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_1px_2px_rgba(139,92,246,0.12),0_0_18px_-4px_rgba(139,92,246,0.45)]",
+   "new": "bg-gradient-to-b from-surface to-accent-surface text-violet-800 ring-1 ring-inset ring-violet-500/20 shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_1px_2px_rgba(139,92,246,0.12),0_0_18px_-4px_rgba(139,92,246,0.45)]",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/ExpertsSection/helpers.ts",
+   "old": "bg-[radial-gradient(120%_100%_at_50%_0%,rgba(245,158,11,0.10),transparent_70%)]",
+   "new": "bg-[radial-gradient(120%_100%_at_50%_0%,rgb(var(--color-warning)/0.10),transparent_70%)]",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/ExpertsSection/helpers.ts",
+   "old": "bg-[linear-gradient(180deg,rgba(245,158,11,0.10),rgba(245,158,11,0.03)_60%,transparent)]",
+   "new": "bg-[linear-gradient(180deg,rgb(var(--color-warning)/0.10),rgb(var(--color-warning)/0.03)_60%,transparent)]",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/ExpertsSection/helpers.ts",
+   "old": "bg-amber-50 text-amber-700 ring-1 ring-inset ring-amber-600/10",
+   "new": "bg-warning-surface text-warning-foreground ring-1 ring-inset ring-amber-600/10",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/ExpertsSection/helpers.ts",
+   "old": "bg-amber-50/60",
+   "new": "bg-warning-surface/60",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/ExpertsSection/helpers.ts",
+   "old": "bg-gradient-to-b from-white to-amber-50 text-amber-800 ring-1 ring-inset ring-amber-500/20 shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_1px_2px_rgba(245,158,11,0.12),0_0_18px_-4px_rgba(245,158,11,0.45)]",
+   "new": "bg-gradient-to-b from-surface to-warning-surface text-amber-800 ring-1 ring-inset ring-warning/20 shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_1px_2px_rgba(245,158,11,0.12),0_0_18px_-4px_rgba(245,158,11,0.45)]",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/ExpertsSection/helpers.ts",
+   "old": "text-amber-500",
+   "new": "text-warning",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/ExpertsSection/helpers.ts",
+   "old": "bg-gradient-to-b from-white to-sky-50 text-sky-800 ring-1 ring-inset ring-sky-500/20 shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_1px_2px_rgba(14,165,233,0.12),0_0_18px_-4px_rgba(14,165,233,0.45)]",
+   "new": "bg-gradient-to-b from-surface to-sky-50 text-sky-800 ring-1 ring-inset ring-sky-500/20 shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_1px_2px_rgba(14,165,233,0.12),0_0_18px_-4px_rgba(14,165,233,0.45)]",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/ExpertsSection/helpers.ts",
+   "old": "bg-zinc-100 text-zinc-600 ring-1 ring-inset ring-zinc-500/10",
+   "new": "bg-surface-hover text-foreground-secondary ring-1 ring-inset ring-zinc-500/10",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/ExpertsSection/helpers.ts",
+   "old": "bg-zinc-100/60",
+   "new": "bg-surface-hover/60",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/ExpertsSection/helpers.ts",
+   "old": "bg-gradient-to-b from-white to-zinc-50 text-zinc-700 ring-1 ring-inset ring-zinc-500/20 shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_1px_2px_rgba(113,113,122,0.12),0_0_18px_-4px_rgba(113,113,122,0.45)]",
+   "new": "bg-gradient-to-b from-surface to-surface-muted text-foreground-body ring-1 ring-inset ring-zinc-500/20 shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_1px_2px_rgba(113,113,122,0.12),0_0_18px_-4px_rgba(113,113,122,0.45)]",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/ExpertsSection/helpers.ts",
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/FeaturedAgentCard/FeaturedAgentCard.tsx",
+   "old": "bg-[radial-gradient(120%_100%_at_50%_0%,rgba(59,130,246,0.10),transparent_70%)]",
+   "new": "bg-[radial-gradient(120%_100%_at_50%_0%,rgb(var(--color-info)/0.10),transparent_70%)]",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/FeaturedAgentCard/FeaturedAgentCard.tsx",
+   "old": "group relative flex h-full w-full max-w-md cursor-pointer flex-col items-start overflow-hidden rounded-2xl border border-zinc-200/80 bg-white p-5 shadow-[0_1px_2px_rgba(16,24,40,0.04)] transition-all duration-200 hover:-translate-y-0.5 hover:border-zinc-300 hover:shadow-[0_16px_40px_-16px_rgba(16,24,40,0.18)]",
+   "new": "group relative flex h-full w-full max-w-md cursor-pointer flex-col items-start overflow-hidden rounded-2xl border border-border-base/80 bg-surface p-5 shadow-[0_1px_2px_rgba(16,24,40,0.04)] transition-all duration-200 hover:-translate-y-0.5 hover:border-border-strong hover:shadow-[0_16px_40px_-16px_rgba(16,24,40,0.18)]",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/FeaturedAgentCard/FeaturedAgentCard.tsx",
+   "old": "line-clamp-1 block min-w-0 font-sans text-lg font-semibold tracking-[-0.01em] text-zinc-900",
+   "new": "line-clamp-1 block min-w-0 font-sans text-lg font-semibold tracking-title text-foreground-strong",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/FeaturedAgentCard/FeaturedAgentCard.tsx",
+   "old": "truncate text-[13px] text-zinc-500",
+   "new": "truncate text-body-sm leading-inherit text-foreground-tertiary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/FeaturedAgentCard/FeaturedAgentCard.tsx",
+   "old": "mt-3 line-clamp-3 text-sm leading-relaxed text-zinc-600",
+   "new": "mt-3 line-clamp-3 text-sm leading-relaxed text-foreground-secondary",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/FeaturedAgentCard/FeaturedAgentCard.tsx",
+   "old": "text-xs text-zinc-500",
+   "new": "text-xs text-foreground-tertiary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/HeroSection/HeroSection.tsx",
+   "old": "mb-3 text-center text-3xl font-semibold leading-[1.05] tracking-[-0.02em] text-zinc-900 md:text-[3rem]",
+   "new": "mb-3 text-center text-3xl font-semibold leading-[1.05] tracking-heading text-foreground-strong md:text-[3rem]",
+   "tag": "h1"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/HeroSection/HeroSection.tsx",
+   "old": "mb-8 text-center text-[15px] text-zinc-500 md:text-lg",
+   "new": "mb-8 text-center text-body-md leading-inherit text-foreground-tertiary md:text-lg",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SearchBar/SearchBar.tsx",
+   "old": "flex items-center gap-3 rounded-full border border-zinc-200 bg-white px-4 shadow-none focus-within:border-zinc-400 focus-within:ring-1 focus-within:ring-zinc-400 focus-within:ring-offset-0",
+   "new": "flex items-center gap-3 rounded-full border border-border-base bg-surface px-4 shadow-none focus-within:border-zinc-400 focus-within:ring-1 focus-within:ring-zinc-400 focus-within:ring-offset-0",
+   "tag": "form"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SearchBar/SearchBar.tsx",
+   "old": "text-zinc-400 md:h-6 md:w-6",
+   "new": "text-foreground-subtle md:h-6 md:w-6",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SearchBar/SearchBar.tsx",
+   "old": "flex-grow border-none bg-transparent text-base font-normal text-black placeholder:text-base placeholder:font-normal placeholder:text-zinc-400 focus:outline-none md:text-lg md:placeholder:text-lg",
+   "new": "flex-grow border-none bg-transparent text-base font-normal text-foreground-base placeholder:text-base placeholder:font-normal placeholder:text-foreground-subtle focus:outline-none md:text-lg md:placeholder:text-lg",
+   "tag": "input"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SectionHeader.tsx",
+   "old": "text-3xl font-semibold tracking-[-0.02em] text-zinc-900",
+   "new": "text-3xl font-semibold tracking-heading text-foreground-strong",
+   "tag": "h2"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SectionHeader.tsx",
+   "old": "mt-2 text-lg text-zinc-500",
+   "new": "mt-2 text-lg text-foreground-tertiary",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SectionHeader.tsx",
+   "old": "group flex items-center gap-1 pb-1 text-sm font-medium text-zinc-500 transition-colors hover:text-zinc-900",
+   "new": "group flex items-center gap-1 pb-1 text-sm font-medium text-foreground-tertiary transition-colors hover:text-foreground-strong",
+   "tag": "Link",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/Shelf/ShelfTile.tsx",
+   "old": "flex w-full items-center gap-3 rounded-xl border border-zinc-200/80 bg-white p-2.5 text-left outline-none transition-colors hover:border-zinc-300 focus-visible:ring-2 focus-visible:ring-violet-600",
+   "new": "flex w-full items-center gap-3 rounded-xl border border-border-base/80 bg-surface p-2.5 text-left outline-none transition-colors hover:border-border-strong focus-visible:ring-2 focus-visible:ring-violet-600",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/Shelf/ShelfTile.tsx",
+   "old": "block truncate text-sm font-medium text-zinc-900",
+   "new": "block truncate text-sm font-medium text-foreground-strong",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/Shelf/ShelfTile.tsx",
+   "old": "block truncate text-[13px] text-zinc-500",
+   "new": "block truncate text-body-sm leading-inherit text-foreground-tertiary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SkillsList/SkillsList.tsx",
+   "old": "flex items-center gap-2 text-sm text-zinc-600",
+   "new": "flex items-center gap-2 text-sm text-foreground-secondary",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SkillsList/SkillsList.tsx",
+   "old": "flex items-center gap-2 text-sm text-zinc-600",
+   "new": "flex items-center gap-2 text-sm text-foreground-secondary",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SkillsList/components/SkillDialog.tsx",
+   "old": "flex items-center gap-2 text-sm text-zinc-600",
+   "new": "flex items-center gap-2 text-sm text-foreground-secondary",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SkillsList/components/SkillDialog.tsx",
+   "old": "mb-6 flex flex-wrap items-start justify-between gap-4 border-b border-zinc-200 pb-5",
+   "new": "mb-6 flex flex-wrap items-start justify-between gap-4 border-b border-border-base pb-5",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SkillsList/components/SkillDialog.tsx",
+   "old": "min-w-0 max-w-[52ch] flex-1 text-[15px] leading-6 text-zinc-600",
+   "new": "min-w-0 max-w-[52ch] flex-1 text-body-md leading-6 text-foreground-secondary",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SkillsList/components/SkillDialog.tsx",
+   "old": "text-sm text-zinc-500",
+   "new": "text-sm text-foreground-tertiary",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SkillsList/components/SkillTile.tsx",
+   "old": "flex shrink-0 items-center gap-1 pr-1 text-[13px] font-medium text-emerald-600",
+   "new": "flex shrink-0 items-center gap-1 pr-1 text-body-sm font-medium leading-inherit text-emerald-600",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SkillsSection/components/SkillCard.tsx",
+   "old": "group relative flex h-full flex-col overflow-hidden rounded-2xl border border-zinc-200/80 bg-white text-left shadow-[0_1px_2px_rgba(16,24,40,0.04)] outline-none transition-[transform,box-shadow,border-color] duration-200 ease-out [touch-action:manipulation] hover:-translate-y-0.5 hover:border-zinc-300 hover:shadow-[0_16px_40px_-16px_rgba(16,24,40,0.18)] focus-visible:ring-2 focus-visible:ring-violet-600 focus-visible:ring-offset-2 motion-reduce:transition-none motion-reduce:hover:transform-none",
+   "new": "group relative flex h-full flex-col overflow-hidden rounded-2xl border border-border-base/80 bg-surface text-left shadow-[0_1px_2px_rgba(16,24,40,0.04)] outline-none transition-[transform,box-shadow,border-color] duration-200 ease-out [touch-action:manipulation] hover:-translate-y-0.5 hover:border-border-strong hover:shadow-[0_16px_40px_-16px_rgba(16,24,40,0.18)] focus-visible:ring-2 focus-visible:ring-violet-600 focus-visible:ring-offset-2 motion-reduce:transition-none motion-reduce:hover:transform-none",
+   "tag": "Link",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SkillsSection/components/SkillCard.tsx",
+   "old": "inline-flex h-12 w-12 items-center justify-center rounded-xl bg-white ring-1 ring-inset ring-zinc-200/70",
+   "new": "inline-flex h-12 w-12 items-center justify-center rounded-xl bg-surface ring-1 ring-inset ring-border-base/70",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SkillsSection/components/SkillCard.tsx",
+   "old": "line-clamp-1 text-lg font-semibold tracking-[-0.01em] text-zinc-900",
+   "new": "line-clamp-1 text-lg font-semibold tracking-title text-foreground-strong",
+   "tag": "h3"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SkillsSection/components/SkillCard.tsx",
+   "old": "mt-1.5 flex flex-wrap items-center gap-x-2 gap-y-1 text-[13px] text-zinc-500",
+   "new": "mt-1.5 flex flex-wrap items-center gap-x-2 gap-y-1 text-body-sm leading-inherit text-foreground-tertiary",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SkillsSection/components/SkillCard.tsx",
+   "old": "mt-2 line-clamp-3 text-sm leading-relaxed text-zinc-600",
+   "new": "mt-2 line-clamp-3 text-sm leading-relaxed text-foreground-secondary",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SkillsSection/components/SkillCard.tsx",
+   "old": "flex items-center gap-2 text-base text-zinc-600",
+   "new": "flex items-center gap-2 text-base text-foreground-secondary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/SkillsSection/components/SkillCard.tsx",
+   "old": "flex items-center gap-1.5 text-base font-medium text-zinc-500 transition-colors duration-200 group-hover:text-zinc-900",
+   "new": "flex items-center gap-1.5 text-base font-medium text-foreground-tertiary transition-colors duration-200 group-hover:text-foreground-strong",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/StoreCard/StoreCard.tsx",
+   "old": "group relative flex h-[26rem] w-full max-w-md cursor-pointer flex-col items-start rounded-2xl border border-zinc-200/80 bg-white p-5 shadow-[0_1px_2px_rgba(16,24,40,0.04)] transition-all duration-200 hover:-translate-y-0.5 hover:border-zinc-300 hover:shadow-[0_16px_40px_-16px_rgba(16,24,40,0.18)]",
+   "new": "group relative flex h-[26rem] w-full max-w-md cursor-pointer flex-col items-start rounded-2xl border border-border-base/80 bg-surface p-5 shadow-[0_1px_2px_rgba(16,24,40,0.04)] transition-all duration-200 hover:-translate-y-0.5 hover:border-border-strong hover:shadow-[0_16px_40px_-16px_rgba(16,24,40,0.18)]",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/StoreCard/StoreCard.tsx",
+   "old": "line-clamp-1 font-sans text-lg font-semibold tracking-[-0.01em] text-zinc-900",
+   "new": "line-clamp-1 font-sans text-lg font-semibold tracking-title text-foreground-strong",
+   "tag": "h3"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/StoreCard/StoreCard.tsx",
+   "old": "truncate text-[13px] text-zinc-500",
+   "new": "truncate text-body-sm leading-inherit text-foreground-tertiary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/StoreCard/StoreCard.tsx",
+   "old": "mt-3 line-clamp-3 text-sm leading-relaxed text-zinc-600",
+   "new": "mt-3 line-clamp-3 text-sm leading-relaxed text-foreground-secondary",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/StoreCard/StoreCard.tsx",
+   "old": "flex items-center gap-2 text-xs text-zinc-500",
+   "new": "flex items-center gap-2 text-xs text-foreground-tertiary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/components/StoreCard/StoreCard.tsx",
+   "old": "font-medium text-zinc-700",
+   "new": "font-medium text-foreground-body",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertAbout.tsx",
+   "old": "whitespace-pre-line text-base leading-7 text-zinc-600",
+   "new": "whitespace-pre-line text-base leading-7 text-foreground-secondary",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertAbout.tsx",
+   "old": "mt-2 inline-flex items-center gap-1 text-sm font-medium text-zinc-500 transition-colors hover:text-zinc-900",
+   "new": "mt-2 inline-flex items-center gap-1 text-sm font-medium text-foreground-tertiary transition-colors hover:text-foreground-strong",
+   "tag": "button"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertAccess.tsx",
+   "old": "flex min-w-0 items-center gap-3 rounded-2xl bg-white p-3 smooth-shadow-ring-sm",
+   "new": "flex min-w-0 items-center gap-3 rounded-2xl bg-surface p-3 smooth-shadow-ring-sm",
+   "tag": "li"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertAccess.tsx",
+   "old": "flex size-10 shrink-0 items-center justify-center rounded-xl border border-zinc-200 bg-gradient-to-b from-white to-zinc-50",
+   "new": "flex size-10 shrink-0 items-center justify-center rounded-xl border border-border-base bg-gradient-to-b from-surface to-surface-muted",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertAccess.tsx",
+   "old": "min-w-0 break-words text-sm font-medium leading-5 text-zinc-800",
+   "new": "min-w-0 break-words text-sm font-medium leading-5 text-foreground-emphasis",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertDayOne.tsx",
+   "old": "rounded-2xl bg-white p-5 smooth-shadow-ring-sm",
+   "new": "rounded-2xl bg-surface p-5 smooth-shadow-ring-sm",
+   "tag": "ol"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertDayOne.tsx",
+   "old": "absolute left-[15px] top-9 h-[calc(100%-2.25rem)] w-px bg-zinc-200",
+   "new": "absolute left-[15px] top-9 h-[calc(100%-2.25rem)] w-px bg-surface-active",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertDayOne.tsx",
+   "old": "break-words text-base font-semibold leading-6 text-zinc-900",
+   "new": "break-words text-base font-semibold leading-6 text-foreground-strong",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertDayOne.tsx",
+   "old": "mt-0.5 break-words text-[15px] leading-6 text-zinc-500",
+   "new": "mt-0.5 break-words text-body-md leading-6 text-foreground-tertiary",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertDayOne.tsx",
+   "old": "shrink-0 self-start whitespace-nowrap rounded-full border border-zinc-200 bg-gradient-to-b from-white to-zinc-50 px-2.5 py-0.5 text-xs font-medium leading-5 text-zinc-600",
+   "new": "shrink-0 self-start whitespace-nowrap rounded-full border border-border-base bg-gradient-to-b from-surface to-surface-muted px-2.5 py-0.5 text-xs font-medium leading-5 text-foreground-secondary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertHireActions.tsx",
+   "old": "border-zinc-200 bg-white shadow-[0_1px_2px_rgba(16,24,40,0.05)] hover:border-zinc-300 hover:bg-zinc-50",
+   "new": "border-border-base bg-surface shadow-[0_1px_2px_rgba(16,24,40,0.05)] hover:border-border-strong hover:bg-surface-muted",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertHireCard.tsx",
+   "old": "rounded-2xl bg-white p-5 smooth-shadow-ring-sm",
+   "new": "rounded-2xl bg-surface p-5 smooth-shadow-ring-sm",
+   "tag": "aside"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertHireCard.tsx",
+   "old": "mt-5 border-t border-zinc-100 pt-4",
+   "new": "mt-5 border-t border-separator pt-4",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertHireCard.tsx",
+   "old": "flex items-center gap-2 text-sm font-semibold text-zinc-900",
+   "new": "flex items-center gap-2 text-sm font-semibold text-foreground-strong",
+   "tag": "h2"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertHireCard.tsx",
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertHireCard.tsx",
+   "old": "mt-1.5 text-sm leading-6 text-zinc-600",
+   "new": "mt-1.5 text-sm leading-6 text-foreground-secondary",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertHireCard.tsx",
+   "old": "flex items-start gap-2 text-sm text-zinc-700",
+   "new": "flex items-start gap-2 text-sm text-foreground-body",
+   "tag": "li"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertPage.tsx",
+   "old": "mb-6 inline-flex w-fit items-center gap-1.5 text-[13px] text-zinc-500 transition-colors hover:text-zinc-900",
+   "new": "mb-6 inline-flex w-fit items-center gap-1.5 text-body-sm leading-inherit text-foreground-tertiary transition-colors hover:text-foreground-strong",
+   "tag": "Link",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertPage.tsx",
+   "old": "mt-8 flex flex-col gap-3 border-t border-zinc-200 pt-8",
+   "new": "mt-8 flex flex-col gap-3 border-t border-border-base pt-8",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertPageHeader.tsx",
+   "old": "inline-flex h-8 items-center rounded-full border border-zinc-200 bg-gradient-to-b from-white to-zinc-50 px-3.5 text-sm font-medium text-zinc-700 shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_1px_2px_rgba(16,24,40,0.05)]",
+   "new": "inline-flex h-8 items-center rounded-full border border-border-base bg-gradient-to-b from-surface to-surface-muted px-3.5 text-sm font-medium text-foreground-body shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_1px_2px_rgba(16,24,40,0.05)]",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertPageHeader.tsx",
+   "old": "absolute inset-0 bg-[linear-gradient(to_bottom,rgba(255,255,255,0.35),transparent_45%)]",
+   "new": "absolute inset-0 bg-[linear-gradient(to_bottom,rgb(var(--color-card)/0.35),transparent_45%)]",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertPageHeader.tsx",
+   "old": "absolute left-5 top-5 h-7 px-2.5 text-[13px]",
+   "new": "absolute left-5 top-5 h-7 px-2.5 text-body-sm leading-inherit",
+   "tag": "CategoryTag",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertPageHeader.tsx",
+   "old": "mt-3 max-w-2xl text-lg leading-8 text-zinc-600",
+   "new": "mt-3 max-w-2xl text-lg leading-8 text-foreground-secondary",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertProtectedRules.tsx",
+   "old": "flex gap-3.5 rounded-2xl bg-white p-4 smooth-shadow-ring-sm",
+   "new": "flex gap-3.5 rounded-2xl bg-surface p-4 smooth-shadow-ring-sm",
+   "tag": "li"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertProtectedRules.tsx",
+   "old": "text-[15px] leading-6 text-zinc-800",
+   "new": "text-body-md leading-6 text-foreground-emphasis",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertProtectedRules.tsx",
+   "old": "mt-1 inline-flex items-center gap-1 text-xs text-zinc-500",
+   "new": "mt-1 inline-flex items-center gap-1 text-xs text-foreground-tertiary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertSection.tsx",
+   "old": "flex items-baseline gap-2 text-lg font-semibold tracking-[-0.01em] text-zinc-800",
+   "new": "flex items-baseline gap-2 text-lg font-semibold tracking-title text-foreground-emphasis",
+   "tag": "h2"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertSection.tsx",
+   "old": "flex items-baseline gap-2 text-2xl font-semibold tracking-[-0.02em] text-zinc-900",
+   "new": "flex items-baseline gap-2 text-2xl font-semibold tracking-heading text-foreground-strong",
+   "tag": "h2"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertSection.tsx",
+   "old": "text-base font-normal tabular-nums text-zinc-400",
+   "new": "text-base font-normal tabular-nums text-foreground-subtle",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertSection.tsx",
+   "old": "mt-1 text-sm leading-5 text-zinc-500",
+   "new": "mt-1 text-sm leading-5 text-foreground-tertiary",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertSection.tsx",
+   "old": "mt-1.5 text-base leading-6 text-zinc-500",
+   "new": "mt-1.5 text-base leading-6 text-foreground-tertiary",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertWorkflowList.tsx",
+   "old": "divide-y divide-zinc-200/70 rounded-2xl bg-white px-4 smooth-shadow-ring-sm",
+   "new": "divide-y divide-border-base/70 rounded-2xl bg-surface px-4 smooth-shadow-ring-sm",
+   "tag": "ul"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertWorkflowList.tsx",
+   "old": "mt-0.5 shrink-0 text-zinc-400",
+   "new": "mt-0.5 shrink-0 text-foreground-subtle",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertWorkflowList.tsx",
+   "old": "truncate text-sm font-medium text-zinc-800",
+   "new": "truncate text-sm font-medium text-foreground-emphasis",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertWorkflowList.tsx",
+   "old": "truncate text-[13px] text-zinc-500",
+   "new": "truncate text-body-sm leading-inherit text-foreground-tertiary",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/experts/[expertId]/components/ExpertWorkflowList.tsx",
+   "old": "flex shrink-0 items-center gap-1 text-xs text-zinc-500 sm:mt-0.5",
+   "new": "flex shrink-0 items-center gap-1 text-xs text-foreground-tertiary sm:mt-0.5",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/search/components/MainSearchResultPage/MainSearchResultPage.tsx",
+   "old": "text-base font-medium leading-normal text-neutral-800 dark:text-neutral-200",
+   "new": "text-base font-medium leading-normal text-neutral-800",
+   "tag": "h2"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/search/components/MainSearchResultPage/MainSearchResultPage.tsx",
+   "old": "font-poppins text-2xl font-semibold leading-[32px] text-neutral-800 dark:text-neutral-100",
+   "new": "font-poppins text-2xl font-semibold leading-8 text-neutral-800",
+   "tag": "h1"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/search/components/MainSearchResultPage/MainSearchResultPage.tsx",
+   "old": "mb-2 text-xl font-medium text-neutral-600 dark:text-neutral-300",
+   "new": "mb-2 text-xl font-medium text-neutral-600",
+   "tag": "h3"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/search/components/MainSearchResultPage/MainSearchResultPage.tsx",
+   "old": "text-neutral-500 dark:text-neutral-400",
+   "new": "text-neutral-500",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/ConnectStep.tsx",
+   "old": "mt-6 flex flex-wrap items-center gap-3 rounded-xl border border-zinc-200 bg-white p-4",
+   "new": "mt-6 flex flex-wrap items-center gap-3 rounded-xl border border-border-base bg-surface p-4",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/ConnectStep.tsx",
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/ConnectStep.tsx",
+   "old": "!text-zinc-600",
+   "new": "!text-foreground-secondary",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/InstallSkillButton.tsx",
+   "old": "text-xs font-normal text-zinc-500",
+   "new": "text-xs font-normal text-foreground-tertiary",
+   "tag": "DropdownMenuLabel",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/InstallSkillButton.tsx",
+   "old": "block truncate text-zinc-900",
+   "new": "block truncate text-foreground-strong",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/InstallSkillButton.tsx",
+   "old": "block truncate text-xs text-zinc-500",
+   "new": "block truncate text-xs text-foreground-tertiary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillActions.tsx",
+   "old": "border-zinc-200 bg-white shadow-[0_1px_2px_rgba(16,24,40,0.05)] hover:border-zinc-300 hover:bg-zinc-50",
+   "new": "border-border-base bg-surface shadow-[0_1px_2px_rgba(16,24,40,0.05)] hover:border-border-strong hover:bg-surface-muted",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillBody.tsx",
+   "old": "text-[15px] leading-6 text-zinc-700 [overflow-wrap:anywhere]",
+   "new": "text-body-md leading-6 text-foreground-body [overflow-wrap:anywhere]",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillBody.tsx",
+   "old": "font-mono text-[13px]",
+   "new": "font-mono text-body-sm leading-inherit",
+   "tag": "button"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillBody.tsx",
+   "old": "rounded-sm text-zinc-900 underline underline-offset-2 transition-colors hover:text-violet-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-300 focus-visible:ring-offset-2",
+   "new": "rounded-sm text-foreground-strong underline underline-offset-2 transition-colors hover:text-violet-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-border-strong focus-visible:ring-offset-2",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillBody.tsx",
+   "old": "font-semibold text-zinc-900",
+   "new": "font-semibold text-foreground-strong",
+   "tag": "strong"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillBody.tsx",
+   "old": "border-b border-zinc-200 py-1.5 pr-4 text-left align-top font-medium text-zinc-900",
+   "new": "border-b border-border-base py-1.5 pr-4 text-left align-top font-medium text-foreground-strong",
+   "tag": "th"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillBody.tsx",
+   "old": "break-words rounded bg-zinc-100 px-1 py-0.5 font-mono text-xs",
+   "new": "break-words rounded bg-surface-hover px-1 py-0.5 font-mono text-xs",
+   "tag": "code"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillBody.tsx",
+   "old": "mb-3 overflow-x-auto rounded-md bg-zinc-50 p-3 text-[13px] [&_code]:bg-transparent [&_code]:p-0",
+   "new": "mb-3 overflow-x-auto rounded-md bg-surface-muted p-3 text-body-sm leading-inherit [&_code]:bg-transparent [&_code]:p-0",
+   "tag": "pre"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillBody.tsx",
+   "old": "mb-2 mt-6 text-base font-semibold text-zinc-900 first:mt-0",
+   "new": "mb-2 mt-6 text-base font-semibold text-foreground-strong first:mt-0",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillBody.tsx",
+   "old": "mb-2 mt-5 text-[15px] font-semibold text-zinc-900 first:mt-0",
+   "new": "mb-2 mt-5 text-body-md leading-inherit font-semibold text-foreground-strong first:mt-0",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillBody.tsx",
+   "old": "mb-1.5 mt-4 text-sm font-medium text-zinc-800 first:mt-0",
+   "new": "mb-1.5 mt-4 text-sm font-medium text-foreground-emphasis first:mt-0",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillPage.tsx",
+   "old": "inline-flex h-18 w-18 shrink-0 items-center justify-center rounded-2xl bg-white shadow-sm ring-1 ring-black/5",
+   "new": "inline-flex h-18 w-18 shrink-0 items-center justify-center rounded-2xl bg-surface shadow-sm ring-1 ring-black/5",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillPage.tsx",
+   "old": "text-[28px] font-semibold leading-8 tracking-[-0.02em] text-zinc-900",
+   "new": "text-heading font-semibold leading-8 tracking-heading text-foreground-strong",
+   "tag": "h1"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillPage.tsx",
+   "old": "mt-5 max-w-[60ch] text-[17px] leading-7 text-zinc-600",
+   "new": "mt-5 max-w-[60ch] text-[17px] leading-7 text-foreground-secondary",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillPage.tsx",
+   "old": "mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 text-[13px] text-zinc-600",
+   "new": "mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 text-body-sm leading-inherit text-foreground-secondary",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillPage.tsx",
+   "old": "underline decoration-zinc-300 underline-offset-2 hover:text-zinc-900",
+   "new": "underline decoration-zinc-300 underline-offset-2 hover:text-foreground-strong",
+   "tag": "a"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillPage.tsx",
+   "old": "mt-8 flex flex-col gap-10 border-t border-zinc-200 pt-8",
+   "new": "mt-8 flex flex-col gap-10 border-t border-border-base pt-8",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillPage.tsx",
+   "old": "rounded-lg bg-zinc-100 px-2.5 py-1 text-sm font-medium text-zinc-600",
+   "new": "rounded-lg bg-surface-hover px-2.5 py-1 text-sm font-medium text-foreground-secondary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillPage.tsx",
+   "old": "mb-6 inline-flex w-fit items-center gap-1.5 text-[13px] text-zinc-500 transition-colors hover:text-zinc-900",
+   "new": "mb-6 inline-flex w-fit items-center gap-1.5 text-body-sm leading-inherit text-foreground-tertiary transition-colors hover:text-foreground-strong",
+   "tag": "Link",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/[slug]/components/SkillPage.tsx",
+   "old": "mt-8 space-y-3 border-t border-zinc-200 pt-8",
+   "new": "mt-8 space-y-3 border-t border-border-base pt-8",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/components/SkillsBrowsePage/SkillsBrowsePage.tsx",
+   "old": "mb-6 inline-flex w-fit items-center gap-1.5 text-[13px] text-zinc-500 transition-colors hover:text-zinc-900",
+   "new": "mb-6 inline-flex w-fit items-center gap-1.5 text-body-sm leading-inherit text-foreground-tertiary transition-colors hover:text-foreground-strong",
+   "tag": "Link",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/components/SkillsBrowsePage/SkillsBrowsePage.tsx",
+   "old": "flex items-center gap-2.5 text-3xl font-semibold tracking-[-0.02em] text-zinc-900",
+   "new": "flex items-center gap-2.5 text-3xl font-semibold tracking-heading text-foreground-strong",
+   "tag": "h1"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/components/SkillsBrowsePage/SkillsBrowsePage.tsx",
+   "old": "mt-2 text-base text-zinc-500",
+   "new": "mt-2 text-base text-foreground-tertiary",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/components/SkillsBrowsePage/SkillsBrowsePage.tsx",
+   "old": "mb-4 text-sm text-zinc-500",
+   "new": "mb-4 text-sm text-foreground-tertiary",
+   "tag": "p"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/components/SkillsBrowsePage/SkillsBrowsePage.tsx",
+   "old": "flex flex-col items-center justify-center gap-3 rounded-large border border-dashed border-zinc-200 px-6 py-16 text-center",
+   "new": "flex flex-col items-center justify-center gap-3 rounded-large border border-dashed border-border-base px-6 py-16 text-center",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/components/SkillsBrowsePage/SkillsBrowsePage.tsx",
+   "old": "flex h-12 w-12 items-center justify-center rounded-full bg-violet-50",
+   "new": "flex h-12 w-12 items-center justify-center rounded-full bg-accent-surface",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/components/SkillsBrowsePage/SkillsBrowsePage.tsx",
+   "old": "text-violet-700",
+   "new": "text-accent-strong",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/marketplace/skills/components/SkillsBrowsePage/SkillsBrowsePage.tsx",
+   "old": "text-zinc-900",
+   "new": "text-foreground-strong",
+   "tag": "Link",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/AddSkillDialog.tsx",
+   "old": "flex items-center gap-3 rounded-lg border border-zinc-200 px-3 py-2.5",
+   "new": "flex items-center gap-3 rounded-lg border border-border-base px-3 py-2.5",
+   "tag": "li"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/AddSkillDialog.tsx",
+   "old": "shrink-0 text-zinc-500",
+   "new": "shrink-0 text-foreground-tertiary",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ChainTile.tsx",
+   "old": "flex items-center justify-center bg-white ring-1 ring-zinc-200/70",
+   "new": "flex items-center justify-center bg-surface ring-1 ring-border-base/70",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ChainTile.tsx",
+   "old": "text-zinc-600",
+   "new": "text-foreground-secondary",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/CreateScheduleDialog.tsx",
+   "old": "flex w-full items-center gap-3 rounded-2xl border border-zinc-200 px-4 py-3 text-left transition-colors hover:bg-zinc-50 disabled:opacity-60",
+   "new": "flex w-full items-center gap-3 rounded-2xl border border-border-base px-4 py-3 text-left transition-colors hover:bg-surface-muted disabled:opacity-60",
+   "tag": "button"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/CreateScheduleDialog.tsx",
+   "old": "shrink-0 text-zinc-500",
+   "new": "shrink-0 text-foreground-tertiary",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/CreateScheduleDialog.tsx",
+   "old": "shrink-0 text-zinc-400",
+   "new": "shrink-0 text-foreground-subtle",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertActivityGraph/ExpertActivityGraph.tsx",
+   "old": "bg-zinc-100",
+   "new": "bg-surface-hover",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertActivityGraph/ExpertActivityGraph.tsx",
+   "old": "bg-zinc-800",
+   "new": "bg-action",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertBudgetSection.tsx",
+   "old": "text-inherit hover:bg-white/50",
+   "new": "text-inherit hover:bg-surface/50",
+   "tag": "Button",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "mt-1 max-w-prose !text-zinc-500",
+   "new": "mt-1 max-w-prose !text-foreground-tertiary",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "rounded-xl bg-amber-50 px-4 py-2.5 ring-1 ring-inset ring-amber-200",
+   "new": "rounded-xl bg-warning-surface px-4 py-2.5 ring-1 ring-inset ring-warning-border",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "text-amber-700",
+   "new": "text-warning-foreground",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "overflow-hidden rounded-2xl bg-white p-2 smooth-shadow-ring-sm",
+   "new": "overflow-hidden rounded-2xl bg-surface p-2 smooth-shadow-ring-sm",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "relative flex min-h-[240px] flex-col items-center justify-center gap-4 overflow-hidden rounded-xl bg-gradient-to-br from-zinc-800 via-zinc-900 to-black px-6 py-8 text-center sm:aspect-[16/7] sm:min-h-0 sm:py-0",
+   "new": "relative flex min-h-[240px] flex-col items-center justify-center gap-4 overflow-hidden rounded-xl bg-gradient-to-br from-action via-action-hover to-black px-6 py-8 text-center sm:aspect-[16/7] sm:min-h-0 sm:py-0",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(255,255,255,0.08),transparent_60%)]",
+   "new": "pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgb(var(--color-card)/0.08),transparent_60%)]",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "bg-white/10 text-zinc-300",
+   "new": "bg-surface/10 text-foreground-disabled",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "relative max-w-md !text-zinc-300",
+   "new": "relative max-w-md !text-foreground-disabled",
+   "tag": "Text",
+   "variant": "body"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "rounded-2xl bg-white p-4 smooth-shadow-ring-sm",
+   "new": "rounded-2xl bg-surface p-4 smooth-shadow-ring-sm",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "!text-zinc-700",
+   "new": "!text-foreground-body",
+   "tag": "Text",
+   "variant": "small-medium"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "mt-2 divide-y divide-zinc-100",
+   "new": "mt-2 divide-y divide-separator",
+   "tag": "ul"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "flex size-8 shrink-0 items-center justify-center rounded-lg border border-zinc-200 bg-zinc-50 text-zinc-500",
+   "new": "flex size-8 shrink-0 items-center justify-center rounded-lg border border-border-base bg-surface-muted text-foreground-tertiary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "text-xs text-zinc-800",
+   "new": "text-xs text-foreground-emphasis",
+   "tag": "code"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "font-mono text-xs text-zinc-400",
+   "new": "font-mono text-xs text-foreground-subtle",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "flex items-start gap-2.5 rounded-xl bg-zinc-100/80 px-4 py-3",
+   "new": "flex items-start gap-2.5 rounded-xl bg-surface-hover/80 px-4 py-3",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "mt-0.5 shrink-0 text-zinc-500",
+   "new": "mt-0.5 shrink-0 text-foreground-tertiary",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "!text-zinc-600",
+   "new": "!text-foreground-secondary",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "flex items-start gap-3 rounded-2xl bg-white p-4 smooth-shadow-ring-sm",
+   "new": "flex items-start gap-3 rounded-2xl bg-surface p-4 smooth-shadow-ring-sm",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "flex size-8 shrink-0 items-center justify-center rounded-lg border border-zinc-200 bg-zinc-50 text-zinc-500",
+   "new": "flex size-8 shrink-0 items-center justify-center rounded-lg border border-border-base bg-surface-muted text-foreground-tertiary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "!text-zinc-700",
+   "new": "!text-foreground-body",
+   "tag": "Text",
+   "variant": "small-medium"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertComputerSection/ExpertComputerSection.tsx",
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertDetailHeader.tsx",
+   "old": "absolute left-4 top-4 h-7 px-2.5 text-[13px]",
+   "new": "absolute left-4 top-4 h-7 px-2.5 text-body-sm leading-inherit",
+   "tag": "CategoryTag",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertDetailHeader.tsx",
+   "old": "order-last mt-4 gap-2 rounded-xl bg-white/75 px-3.5 py-2.5 shadow-sm ring-1 ring-black/5 backdrop-blur-md sm:absolute sm:right-4 sm:top-4 sm:order-none sm:mt-0 sm:w-64",
+   "new": "order-last mt-4 gap-2 rounded-xl bg-surface/75 px-3.5 py-2.5 shadow-sm ring-1 ring-black/5 backdrop-blur-md sm:absolute sm:right-4 sm:top-4 sm:order-none sm:mt-0 sm:w-64",
+   "tag": "ExpertBudgetSection",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertFilesSection/ExpertFileRow.tsx",
+   "old": "group flex items-center gap-3 rounded-xl px-2 py-2 transition-colors hover:bg-zinc-50",
+   "new": "group flex items-center gap-3 rounded-xl px-2 py-2 transition-colors hover:bg-surface-muted",
+   "tag": "a"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertFilesSection/ExpertFileRow.tsx",
+   "old": "truncate !text-zinc-900",
+   "new": "truncate !text-foreground-strong",
+   "tag": "Text",
+   "variant": "body-medium"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertFilesSection/ExpertFileRow.tsx",
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertFilesSection/ExpertFileRow.tsx",
+   "old": "shrink-0 text-zinc-400 opacity-0 transition-opacity group-hover:opacity-100 [@media(hover:none)]:opacity-100",
+   "new": "shrink-0 text-foreground-subtle opacity-0 transition-opacity group-hover:opacity-100 [@media(hover:none)]:opacity-100",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertFilesSection/ExpertFilesSection.tsx",
+   "old": "mt-4 rounded-2xl bg-white p-2 smooth-shadow-ring-sm",
+   "new": "mt-4 rounded-2xl bg-surface p-2 smooth-shadow-ring-sm",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertFilesSection/ExpertFilesSection.tsx",
+   "old": "px-2 pb-1 pt-2 !text-zinc-500",
+   "new": "px-2 pb-1 pt-2 !text-foreground-tertiary",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertIntegrationsSection/ExpertConnectServiceDialog.tsx",
+   "old": "flex flex-col items-center justify-center gap-2 rounded-2xl border border-dashed border-[#DADADC] py-8 text-center",
+   "new": "flex flex-col items-center justify-center gap-2 rounded-2xl border border-dashed border-border-base py-8 text-center",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertIntegrationsSection/ExpertConnectServiceDialog.tsx",
+   "old": "text-[#83838C]",
+   "new": "text-foreground-tertiary",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertIntegrationsSection/ExpertConnectServiceDialog.tsx",
+   "old": "pointer-events-none absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-white to-transparent transition-opacity duration-200",
+   "new": "pointer-events-none absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-surface to-transparent transition-opacity duration-200",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertIntegrationsSection/ExpertIntegrationGroups.tsx",
+   "old": "w-full overflow-hidden rounded-2xl bg-white smooth-shadow-ring-sm",
+   "new": "w-full overflow-hidden rounded-2xl bg-surface smooth-shadow-ring-sm",
+   "tag": "Accordion",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertIntegrationsSection/ExpertIntegrationGroups.tsx",
+   "old": "px-3 py-2.5 pr-4 hover:no-underline [&>svg]:size-4 [&>svg]:text-zinc-500",
+   "new": "px-3 py-2.5 pr-4 hover:no-underline [&>svg]:size-4 [&>svg]:text-foreground-tertiary",
+   "tag": "AccordionTrigger",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertIntegrationsSection/ExpertIntegrationGroups.tsx",
+   "old": "rounded-full bg-white",
+   "new": "rounded-full bg-surface",
+   "tag": "IntegrationLogo",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertIntegrationsSection/ExpertIntegrationGroups.tsx",
+   "old": "inline-flex items-center justify-center rounded-md bg-zinc-100 px-1.5 py-0.5 tabular-nums",
+   "new": "inline-flex items-center justify-center rounded-md bg-surface-hover px-1.5 py-0.5 tabular-nums",
+   "tag": "Text",
+   "variant": "small-medium"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertIntegrationsSection/ExpertIntegrationGroups.tsx",
+   "old": "flex flex-col divide-y divide-zinc-100 border-t border-zinc-200",
+   "new": "flex flex-col divide-y divide-separator border-t border-border-base",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertIntegrationsSection/ExpertIntegrationGroups.tsx",
+   "old": "inline-flex items-center justify-center rounded-md bg-zinc-100 px-1.5 py-0.5 leading-4",
+   "new": "inline-flex items-center justify-center rounded-md bg-surface-hover px-1.5 py-0.5 leading-4",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertIntegrationsSection/ExpertIntegrationGroups.tsx",
+   "old": "inline-flex size-7 items-center justify-center rounded-md text-zinc-500 transition-colors hover:bg-zinc-100 hover:text-red-500 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-400 disabled:cursor-not-allowed disabled:opacity-50",
+   "new": "inline-flex size-7 items-center justify-center rounded-md text-foreground-tertiary transition-colors hover:bg-surface-hover hover:text-error focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-400 disabled:cursor-not-allowed disabled:opacity-50",
+   "tag": "button"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertIntegrationsSection/UseExistingCredentialsDialog.tsx",
+   "old": "flex w-fit items-center gap-1 text-sm text-zinc-500 hover:text-zinc-800",
+   "new": "flex w-fit items-center gap-1 text-sm text-foreground-tertiary hover:text-foreground-emphasis",
+   "tag": "button"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertIntegrationsSection/UseExistingCredentialsDialog.tsx",
+   "old": "pointer-events-none absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-white to-transparent transition-opacity duration-200",
+   "new": "pointer-events-none absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-surface to-transparent transition-opacity duration-200",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertModeSection/ExpertModeSection.tsx",
+   "old": "rounded-xl border border-zinc-200 bg-white p-4",
+   "new": "rounded-xl border border-border-base bg-surface p-4",
+   "tag": "section"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertModeSection/ExpertModeSection.tsx",
+   "old": "bg-white ring-2 ring-inset ring-zinc-800",
+   "new": "bg-surface ring-2 ring-inset ring-zinc-800",
+   "tag": "label"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertModeSection/ExpertModeSection.tsx",
+   "old": "bg-zinc-50 ring-1 ring-inset ring-zinc-200 hover:bg-zinc-100",
+   "new": "bg-surface-muted ring-1 ring-inset ring-border-base hover:bg-surface-hover",
+   "tag": "label"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertModeSection/ExpertModeSection.tsx",
+   "old": "bg-amber-50 ring-amber-600",
+   "new": "bg-warning-surface ring-amber-600",
+   "tag": "label"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertModeSection/ExpertModeSection.tsx",
+   "old": "mt-0.5 shrink-0 text-zinc-700",
+   "new": "mt-0.5 shrink-0 text-foreground-body",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertModeSection/ExpertModeSection.tsx",
+   "old": "text-sm font-medium text-zinc-900",
+   "new": "text-sm font-medium text-foreground-strong",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertModeSection/ExpertModeSection.tsx",
+   "old": "text-xs text-zinc-500",
+   "new": "text-xs text-foreground-tertiary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertNeedsYouSection/ExpertAttentionCard.tsx",
+   "old": "flex flex-col gap-3 rounded-2xl bg-white px-3.5 py-2.5 smooth-shadow-ring-sm sm:flex-row sm:items-center",
+   "new": "flex flex-col gap-3 rounded-2xl bg-surface px-3.5 py-2.5 smooth-shadow-ring-sm sm:flex-row sm:items-center",
+   "tag": "article"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertNeedsYouSection/ExpertAttentionCard.tsx",
+   "old": "shrink-0 text-zinc-500",
+   "new": "shrink-0 text-foreground-tertiary",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertNeedsYouSection/ExpertAttentionCard.tsx",
+   "old": "break-words !text-zinc-800",
+   "new": "break-words !text-foreground-emphasis",
+   "tag": "Text",
+   "variant": "body-medium"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertNeedsYouSection/ExpertAttentionCard.tsx",
+   "old": "rounded bg-amber-50 px-1.5 py-px text-amber-700 ring-1 ring-inset ring-amber-600/10",
+   "new": "rounded bg-warning-surface px-1.5 py-px text-warning-foreground ring-1 ring-inset ring-amber-600/10",
+   "tag": "Text",
+   "variant": "small-medium"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertNeedsYouSection/ExpertAttentionCard.tsx",
+   "old": "break-words !text-zinc-400",
+   "new": "break-words !text-foreground-subtle",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertNeedsYouSection/ExpertNeedsYouSection.tsx",
+   "old": "overflow-hidden rounded-2xl bg-white smooth-shadow-ring-sm",
+   "new": "overflow-hidden rounded-2xl bg-surface smooth-shadow-ring-sm",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertOverview/ExpertOverview.tsx",
+   "old": "!text-[15px] !leading-relaxed !text-zinc-600",
+   "new": "!text-body-md !leading-relaxed !text-foreground-secondary",
+   "tag": "Text",
+   "variant": "body"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertOverview/components/ActivityChart.tsx",
+   "old": "!text-zinc-600",
+   "new": "!text-foreground-secondary",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertOverview/components/ActivityChart.tsx",
+   "old": "rounded-md bg-zinc-900 px-3 py-2 text-xs text-zinc-50 shadow-sm",
+   "new": "rounded-md bg-action-hover px-3 py-2 text-xs text-zinc-50 shadow-sm",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertOverview/components/OverviewCard.tsx",
+   "old": "flex min-w-0 flex-col gap-3 rounded-2xl bg-white p-4 smooth-shadow-ring-sm",
+   "new": "flex min-w-0 flex-col gap-3 rounded-2xl bg-surface p-4 smooth-shadow-ring-sm",
+   "tag": "section"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertOverview/components/RecentConversations.tsx",
+   "old": "text-amber-500",
+   "new": "text-warning",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertOverview/components/RecentConversations.tsx",
+   "old": "flex items-center gap-3 rounded-xl px-2 py-2 transition-colors hover:bg-zinc-50",
+   "new": "flex items-center gap-3 rounded-xl px-2 py-2 transition-colors hover:bg-surface-muted",
+   "tag": "Link",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertOverview/components/RecentConversations.tsx",
+   "old": "flex size-9 shrink-0 items-center justify-center rounded-xl border border-zinc-200 bg-white text-zinc-500",
+   "new": "flex size-9 shrink-0 items-center justify-center rounded-xl border border-border-base bg-surface text-foreground-tertiary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertOverview/components/RecentConversations.tsx",
+   "old": "truncate !text-zinc-900",
+   "new": "truncate !text-foreground-strong",
+   "tag": "Text",
+   "variant": "body-medium"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertOverview/components/RecentConversations.tsx",
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertOverview/components/StatTile.tsx",
+   "old": "flex flex-col gap-1 rounded-2xl bg-white p-4 smooth-shadow-ring-sm",
+   "new": "flex flex-col gap-1 rounded-2xl bg-surface p-4 smooth-shadow-ring-sm",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertOverview/components/StatTile.tsx",
+   "old": "flex items-center gap-1.5 text-zinc-500",
+   "new": "flex items-center gap-1.5 text-foreground-tertiary",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertOverview/components/StatTile.tsx",
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "tag": "Text",
+   "variant": "small-medium"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertOverview/components/StatTile.tsx",
+   "old": "!font-sans !text-[1.75rem] !font-semibold tabular-nums !leading-9 !text-zinc-900",
+   "new": "!font-sans !text-heading !font-semibold tabular-nums !leading-9 !text-foreground-strong",
+   "tag": "Text",
+   "variant": "h3"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertOverview/components/StatTile.tsx",
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "tag": "Text",
+   "variant": "small-medium"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSettingsSection.tsx",
+   "old": "overflow-hidden rounded-2xl bg-white smooth-shadow-ring-sm",
+   "new": "overflow-hidden rounded-2xl bg-surface smooth-shadow-ring-sm",
+   "tag": "section"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSettingsSection.tsx",
+   "old": "flex items-start gap-3 border-b border-red-100 bg-red-50/60 px-5 py-4",
+   "new": "flex items-start gap-3 border-b border-red-100 bg-error-surface/60 px-5 py-4",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSettingsSection.tsx",
+   "old": "!text-zinc-900",
+   "new": "!text-foreground-strong",
+   "tag": "Text",
+   "variant": "large-medium"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSettingsSection.tsx",
+   "old": "mt-0.5 !text-zinc-600",
+   "new": "mt-0.5 !text-foreground-secondary",
+   "tag": "Text",
+   "variant": "body"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSettingsSection.tsx",
+   "old": "divide-y divide-zinc-100 px-5",
+   "new": "divide-y divide-separator px-5",
+   "tag": "ul"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSettingsSection.tsx",
+   "old": "mt-1 text-sm font-medium text-zinc-700 underline underline-offset-2 hover:text-zinc-950",
+   "new": "mt-1 text-sm font-medium text-foreground-body underline underline-offset-2 hover:text-foreground",
+   "tag": "button"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSettingsSection.tsx",
+   "old": "max-w-full truncate rounded-full border border-amber-200 bg-amber-50 px-2.5 py-0.5 text-xs text-amber-800",
+   "new": "max-w-full truncate rounded-full border border-warning-border bg-warning-surface px-2.5 py-0.5 text-xs text-amber-800",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSettingsSection.tsx",
+   "old": "px-1 py-0.5 text-xs text-zinc-500",
+   "new": "px-1 py-0.5 text-xs text-foreground-tertiary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSettingsSection.tsx",
+   "old": "flex justify-end border-t border-zinc-100 bg-zinc-50/60 px-5 py-3",
+   "new": "flex justify-end border-t border-separator bg-surface-muted/60 px-5 py-3",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSettingsSection.tsx",
+   "old": "border-amber-200 bg-amber-50 text-amber-600",
+   "new": "border-warning-border bg-warning-surface text-amber-600",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSettingsSection.tsx",
+   "old": "border-zinc-200 bg-zinc-50 text-zinc-500",
+   "new": "border-border-base bg-surface-muted text-foreground-tertiary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSettingsSection.tsx",
+   "old": "!text-zinc-800",
+   "new": "!text-foreground-emphasis",
+   "tag": "Text",
+   "variant": "body"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSettingsSection.tsx",
+   "old": "bg-amber-50 text-amber-700",
+   "new": "bg-warning-surface text-warning-foreground",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSkillListItem.tsx",
+   "old": "group relative flex h-full flex-col gap-3 rounded-2xl bg-white p-4 transition-shadow smooth-shadow-ring-sm hover:shadow-md",
+   "new": "group relative flex h-full flex-col gap-3 rounded-2xl bg-surface p-4 transition-shadow smooth-shadow-ring-sm hover:shadow-md",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSkillListItem.tsx",
+   "old": "flex size-10 shrink-0 items-center justify-center rounded-xl bg-violet-50 text-violet-700",
+   "new": "flex size-10 shrink-0 items-center justify-center rounded-xl bg-accent-surface text-accent-strong",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSkillListItem.tsx",
+   "old": "break-words !text-zinc-900",
+   "new": "break-words !text-foreground-strong",
+   "tag": "Text",
+   "variant": "body-medium"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSkillListItem.tsx",
+   "old": "line-clamp-2 !text-zinc-500",
+   "new": "line-clamp-2 !text-foreground-tertiary",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSkillListItem.tsx",
+   "old": "max-w-full truncate rounded-full border border-zinc-200 bg-zinc-50 px-2.5 py-0.5 text-xs text-zinc-600",
+   "new": "max-w-full truncate rounded-full border border-border-base bg-surface-muted px-2.5 py-0.5 text-xs text-foreground-secondary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSkillListItem.tsx",
+   "old": "rounded-full px-1.5 py-0.5 text-xs text-zinc-500",
+   "new": "rounded-full px-1.5 py-0.5 text-xs text-foreground-tertiary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSkillListItem.tsx",
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSkillListItem.tsx",
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSkillListItem.tsx",
+   "old": "text-zinc-500 hover:text-red-600",
+   "new": "text-foreground-tertiary hover:text-red-600",
+   "tag": "Button",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSkillsSection.tsx",
+   "old": "mb-3 flex flex-col gap-2 rounded-2xl bg-white p-3.5 smooth-shadow-ring-sm sm:flex-row sm:items-center sm:justify-between",
+   "new": "mb-3 flex flex-col gap-2 rounded-2xl bg-surface p-3.5 smooth-shadow-ring-sm sm:flex-row sm:items-center sm:justify-between",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSkillsSection.tsx",
+   "old": "text-amber-500",
+   "new": "text-warning",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSummaryCard.tsx",
+   "old": "flex flex-col gap-2 rounded-2xl bg-white p-4 smooth-shadow-ring-sm",
+   "new": "flex flex-col gap-2 rounded-2xl bg-surface p-4 smooth-shadow-ring-sm",
+   "tag": "section"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSummaryCard.tsx",
+   "old": "flex flex-col rounded-2xl bg-white p-4 smooth-shadow-ring-sm",
+   "new": "flex flex-col rounded-2xl bg-surface p-4 smooth-shadow-ring-sm",
+   "tag": "section"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertSummaryCard.tsx",
+   "old": "shrink-0 text-zinc-400",
+   "new": "shrink-0 text-foreground-subtle",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertWorkflowCard.tsx",
+   "old": "group relative flex w-full flex-col overflow-hidden rounded-2xl bg-white transition-colors smooth-shadow-ring-sm hover:bg-zinc-50",
+   "new": "group relative flex w-full flex-col overflow-hidden rounded-2xl bg-surface transition-colors smooth-shadow-ring-sm hover:bg-surface-muted",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertWorkflowCard.tsx",
+   "old": "pointer-events-none relative mx-1.5 mt-1.5 flex h-32 items-center justify-center overflow-hidden rounded-lg bg-zinc-100",
+   "new": "pointer-events-none relative mx-1.5 mt-1.5 flex h-32 items-center justify-center overflow-hidden rounded-lg bg-surface-hover",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertWorkflowCard.tsx",
+   "old": "rounded-md px-2 py-0.5 ring-1 ring-inset ring-zinc-200/80",
+   "new": "rounded-md px-2 py-0.5 ring-1 ring-inset ring-border-base/80",
+   "tag": "Text",
+   "variant": "small-medium"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertWorkflowListItem.tsx",
+   "old": "group relative flex flex-col items-stretch gap-3 rounded-2xl bg-white px-3.5 py-2.5 transition-colors smooth-shadow-ring-sm hover:bg-zinc-50 sm:flex-row sm:items-center sm:gap-4",
+   "new": "group relative flex flex-col items-stretch gap-3 rounded-2xl bg-surface px-3.5 py-2.5 transition-colors smooth-shadow-ring-sm hover:bg-surface-muted sm:flex-row sm:items-center sm:gap-4",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertWorkflowListItem.tsx",
+   "old": "shrink-0 rounded-md px-2 py-0.5 ring-1 ring-inset ring-zinc-200/80",
+   "new": "shrink-0 rounded-md px-2 py-0.5 ring-1 ring-inset ring-border-base/80",
+   "tag": "Text",
+   "variant": "small-medium"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertWorkflowListItem.tsx",
+   "old": "mt-1 flex flex-wrap items-center gap-2 text-sm leading-5 text-zinc-600",
+   "new": "mt-1 flex flex-wrap items-center gap-2 text-sm leading-5 text-foreground-secondary",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/ExpertWorkflowListItem.tsx",
+   "old": "text-zinc-300",
+   "new": "text-foreground-disabled",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/WorkflowChain.tsx",
+   "old": "text-zinc-300",
+   "new": "text-foreground-disabled",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/WorkflowChain.tsx",
+   "old": "text-zinc-800",
+   "new": "text-foreground-emphasis",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/WorkflowCredentialStack.tsx",
+   "old": "flex size-7 items-center justify-center rounded-full border border-zinc-200 bg-white ring-2 ring-white",
+   "new": "flex size-7 items-center justify-center rounded-full border border-border-base bg-surface ring-2 ring-white",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/WorkflowCredentialStack.tsx",
+   "old": "-ml-2 flex size-7 items-center justify-center rounded-full border border-zinc-200 bg-zinc-100 ring-2 ring-white",
+   "new": "-ml-2 flex size-7 items-center justify-center rounded-full border border-border-base bg-surface-hover ring-2 ring-white",
+   "tag": "Text",
+   "variant": "small-medium"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/useExpertWorkflowCard.ts",
+   "old": "bg-amber-50 text-amber-700",
+   "new": "bg-warning-surface text-warning-foreground",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/useExpertWorkflowCard.ts",
+   "old": "bg-amber-50 text-amber-600",
+   "new": "bg-warning-surface text-amber-600",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/useExpertWorkflowCard.ts",
+   "old": "bg-white text-zinc-700",
+   "new": "bg-surface text-foreground-body",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/useExpertWorkflowCard.ts",
+   "old": "bg-violet-50 text-violet-600",
+   "new": "bg-accent-surface text-violet-600",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/useExpertWorkflowCard.ts",
+   "old": "bg-white text-zinc-700",
+   "new": "bg-surface text-foreground-body",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/useExpertWorkflowCard.ts",
+   "old": "bg-white text-zinc-500",
+   "new": "bg-surface text-foreground-tertiary",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/components/useExpertWorkflowCard.ts",
+   "old": "bg-zinc-100 text-zinc-500",
+   "new": "bg-surface-hover text-foreground-tertiary",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/page.tsx",
+   "old": "flex items-center justify-between gap-2 rounded-lg bg-amber-50 px-4 py-2.5 ring-1 ring-inset ring-amber-200",
+   "new": "flex items-center justify-between gap-2 rounded-lg bg-warning-surface px-4 py-2.5 ring-1 ring-inset ring-warning-border",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/[expertId]/page.tsx",
+   "old": "text-amber-700",
+   "new": "text-warning-foreground",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/autopilot/components/AutopilotHeader.tsx",
+   "old": "text-2xl font-semibold tracking-[-0.02em] text-zinc-900",
+   "new": "text-2xl font-semibold tracking-heading text-foreground-strong",
+   "tag": "h1"
+  },
+  {
+   "file": "src/app/(platform)/team/components/AutopilotCard.tsx",
+   "old": "flex flex-col overflow-hidden rounded-2xl bg-white smooth-shadow-ring-sm",
+   "new": "flex flex-col overflow-hidden rounded-2xl bg-surface smooth-shadow-ring-sm",
+   "tag": "section"
+  },
+  {
+   "file": "src/app/(platform)/team/components/BackToTeamLink.tsx",
+   "old": "group inline-flex items-center gap-1 text-zinc-500 hover:text-zinc-800",
+   "new": "group inline-flex items-center gap-1 text-foreground-tertiary hover:text-foreground-emphasis",
+   "tag": "Link",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/components/BackToTeamLink.tsx",
+   "old": "group-hover:text-zinc-800",
+   "new": "group-hover:text-foreground-emphasis",
+   "tag": "Text",
+   "variant": "body"
+  },
+  {
+   "file": "src/app/(platform)/team/components/CardStats.tsx",
+   "old": "flex items-center gap-1 whitespace-nowrap text-zinc-800",
+   "new": "flex items-center gap-1 whitespace-nowrap text-foreground-emphasis",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/components/CardStats.tsx",
+   "old": "tabular-nums !text-zinc-800",
+   "new": "tabular-nums !text-foreground-emphasis",
+   "tag": "Text",
+   "variant": "body-medium"
+  },
+  {
+   "file": "src/app/(platform)/team/components/EmptyTeamState.tsx",
+   "old": "flex flex-col items-center gap-3 rounded-xl border border-dashed border-zinc-300 bg-white p-8 text-center",
+   "new": "flex flex-col items-center gap-3 rounded-xl border border-dashed border-border-strong bg-surface p-8 text-center",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/components/EmptyTeamState.tsx",
+   "old": "text-zinc-400",
+   "new": "text-foreground-subtle",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/components/ExpertTeamCard/ExpertTeamCard.tsx",
+   "old": "relative flex flex-col overflow-hidden rounded-2xl bg-white smooth-shadow-ring-sm",
+   "new": "relative flex flex-col overflow-hidden rounded-2xl bg-surface smooth-shadow-ring-sm",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/components/ExpertTeamCard/ExpertTeamCard.tsx",
+   "old": "mx-4 mb-3 flex items-center justify-between gap-2 rounded-lg bg-amber-50 px-3 py-2 ring-1 ring-inset ring-amber-200",
+   "new": "mx-4 mb-3 flex items-center justify-between gap-2 rounded-lg bg-warning-surface px-3 py-2 ring-1 ring-inset ring-warning-border",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/components/ExpertTeamCard/ExpertTeamCard.tsx",
+   "old": "text-amber-700",
+   "new": "text-warning-foreground",
+   "tag": "Text",
+   "variant": "body"
+  },
+  {
+   "file": "src/app/(platform)/team/components/ExpertTeamCard/components/ExpertCover.tsx",
+   "old": "bg-amber-50 text-amber-700",
+   "new": "bg-warning-surface text-warning-foreground",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/team/components/ExpertTeamCard/components/ExpertCover.tsx",
+   "old": "relative h-24 w-full overflow-hidden rounded-lg bg-zinc-100",
+   "new": "relative h-24 w-full overflow-hidden rounded-lg bg-surface-hover",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/components/ExpertTeamCard/components/IntegrationIcons.tsx",
+   "old": "cursor-default whitespace-nowrap !text-zinc-800",
+   "new": "cursor-default whitespace-nowrap !text-foreground-emphasis",
+   "tag": "Text",
+   "variant": "body-medium"
+  },
+  {
+   "file": "src/app/(platform)/team/components/ExpertTeamCard/components/IntegrationIcons.tsx",
+   "old": "flex size-5 shrink-0 items-center justify-center rounded-full bg-zinc-100 text-[9px] font-semibold uppercase leading-none text-zinc-600 ring-1 ring-zinc-200",
+   "new": "flex size-5 shrink-0 items-center justify-center rounded-full bg-surface-hover text-[9px] font-semibold uppercase leading-none text-foreground-secondary ring-1 ring-border-base",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/components/ExpertTeamCard/components/IntegrationIcons.tsx",
+   "old": "flex size-5 shrink-0 items-center justify-center rounded-full bg-white p-[3px] ring-1 ring-zinc-200",
+   "new": "flex size-5 shrink-0 items-center justify-center rounded-full bg-surface p-[3px] ring-1 ring-border-base",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/components/ExpertTeamCard/components/SetupStatus.tsx",
+   "old": "mx-4 mb-3 flex items-center justify-between gap-2 rounded-lg bg-amber-50 px-3 py-2 ring-1 ring-inset ring-amber-200",
+   "new": "mx-4 mb-3 flex items-center justify-between gap-2 rounded-lg bg-warning-surface px-3 py-2 ring-1 ring-inset ring-warning-border",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/components/ExpertTeamCard/components/SetupStatus.tsx",
+   "old": "text-amber-700",
+   "new": "text-warning-foreground",
+   "tag": "Text",
+   "variant": "body"
+  },
+  {
+   "file": "src/app/(platform)/team/components/ExpertTeamCard/components/SpendMeter.tsx",
+   "old": "h-1.5 w-full bg-zinc-100",
+   "new": "h-1.5 w-full bg-surface-hover",
+   "tag": "Progress",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/components/ExpertTeamCardSkeleton.tsx",
+   "old": "flex flex-col overflow-hidden rounded-2xl bg-white smooth-shadow-ring-sm",
+   "new": "flex flex-col overflow-hidden rounded-2xl bg-surface smooth-shadow-ring-sm",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/components/ExpertTeamCardSkeleton.tsx",
+   "old": "h-28 w-full rounded-lg bg-zinc-100",
+   "new": "h-28 w-full rounded-lg bg-surface-hover",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/components/ExpertTeamCardSkeleton.tsx",
+   "old": "mx-2 mt-3 flex rounded-lg bg-zinc-50 px-2 py-2 ring-1 ring-inset ring-zinc-100",
+   "new": "mx-2 mt-3 flex rounded-lg bg-surface-muted px-2 py-2 ring-1 ring-inset ring-separator",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/components/FireExpertDialog/FireExpertDialogSections.tsx",
+   "old": "rounded-xl bg-zinc-50 px-3.5 py-3 ring-1 ring-inset ring-zinc-200/80",
+   "new": "rounded-xl bg-surface-muted px-3.5 py-3 ring-1 ring-inset ring-border-base/80",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/components/FireExpertMenu/FireExpertMenu.tsx",
+   "old": "flex cursor-pointer items-center gap-2 text-red-600 focus:bg-red-50 focus:text-red-700",
+   "new": "flex cursor-pointer items-center gap-2 text-red-600 focus:bg-error-surface focus:text-error-foreground",
+   "tag": "DropdownMenuItem",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/components/PillFilterMenu.tsx",
+   "old": "ml-0.5 text-zinc-400 transition-transform duration-200 group-data-[state=open]:rotate-180",
+   "new": "ml-0.5 text-foreground-subtle transition-transform duration-200 group-data-[state=open]:rotate-180",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/components/PillFilterMenu.tsx",
+   "old": "border-zinc-900 bg-zinc-900 text-white hover:border-zinc-800 hover:bg-zinc-800 [&_svg]:text-white",
+   "new": "border-action-hover bg-action-hover text-action-foreground hover:border-action hover:bg-action [&_svg]:text-action-foreground",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/team/components/PillFilterMenu.tsx",
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/components/PodBoard/PodBoard.tsx",
+   "old": "flex flex-col items-center gap-3 rounded-xl border border-dashed border-zinc-300 bg-white p-8 text-center",
+   "new": "flex flex-col items-center gap-3 rounded-xl border border-dashed border-border-strong bg-surface p-8 text-center",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/components/PodBoard/PodBoard.tsx",
+   "old": "flex flex-col gap-3 rounded-2xl bg-white p-4 text-left transition-colors smooth-shadow-ring-sm hover:bg-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400",
+   "new": "flex flex-col gap-3 rounded-2xl bg-surface p-4 text-left transition-colors smooth-shadow-ring-sm hover:bg-surface-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400",
+   "tag": "button"
+  },
+  {
+   "file": "src/app/(platform)/team/components/PodBoard/PodBoard.tsx",
+   "old": "flex size-10 shrink-0 items-center justify-center rounded-lg bg-zinc-100 text-zinc-600",
+   "new": "flex size-10 shrink-0 items-center justify-center rounded-lg bg-surface-hover text-foreground-secondary",
+   "tag": "span"
+  },
+  {
+   "file": "src/app/(platform)/team/components/PodBoard/PodBoard.tsx",
+   "old": "max-w-full truncate rounded-md bg-zinc-50 px-2 py-0.5 ring-1 ring-inset ring-zinc-200",
+   "new": "max-w-full truncate rounded-md bg-surface-muted px-2 py-0.5 ring-1 ring-inset ring-border-base",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/components/SectionEmptyState.tsx",
+   "old": "mt-4 rounded-2xl bg-white smooth-shadow-ring-sm",
+   "new": "mt-4 rounded-2xl bg-surface smooth-shadow-ring-sm",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/components/SetupNeeded/SetupNeeded.tsx",
+   "old": "!text-zinc-700",
+   "new": "!text-foreground-body",
+   "tag": "Text",
+   "variant": "small-medium"
+  },
+  {
+   "file": "src/app/(platform)/team/components/SetupNeeded/components/SetupNeededRow.tsx",
+   "old": "flex items-center gap-2.5 rounded-2xl bg-white px-3.5 py-2.5 smooth-shadow-ring-sm",
+   "new": "flex items-center gap-2.5 rounded-2xl bg-surface px-3.5 py-2.5 smooth-shadow-ring-sm",
+   "tag": "article"
+  },
+  {
+   "file": "src/app/(platform)/team/components/SetupNeeded/components/SetupNeededRow.tsx",
+   "old": "shrink-0 text-zinc-500",
+   "new": "shrink-0 text-foreground-tertiary",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/components/SetupNeeded/components/SetupNeededRow.tsx",
+   "old": "truncate !text-zinc-800",
+   "new": "truncate !text-foreground-emphasis",
+   "tag": "Text",
+   "variant": "body-medium"
+  },
+  {
+   "file": "src/app/(platform)/team/components/SetupNeeded/components/SetupNeededRow.tsx",
+   "old": "truncate !text-zinc-400",
+   "new": "truncate !text-foreground-subtle",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/components/SetupNeeded/components/SetupNeededRow.tsx",
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/components/SoulDrawer/SoulDrawer.tsx",
+   "old": "!text-zinc-700",
+   "new": "!text-foreground-body",
+   "tag": "Input",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/components/SoulDrawer/SoulDrawer.tsx",
+   "old": "!text-zinc-700",
+   "new": "!text-foreground-body",
+   "tag": "Input",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/components/SoulDrawer/SoulDrawer.tsx",
+   "old": "!text-zinc-700",
+   "new": "!text-foreground-body",
+   "tag": "Input",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/components/SoulDrawer/SoulDrawer.tsx",
+   "old": "!text-zinc-700",
+   "new": "!text-foreground-body",
+   "tag": "Input",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/components/SoulDrawer/SoulDrawer.tsx",
+   "old": "border-t border-zinc-200 pt-6",
+   "new": "border-t border-border-base pt-6",
+   "tag": "section"
+  },
+  {
+   "file": "src/app/(platform)/team/components/SoulDrawer/SoulDrawer.tsx",
+   "old": "text-zinc-500",
+   "new": "text-foreground-tertiary",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/components/SoulDrawer/SoulDrawer.tsx",
+   "old": "space-y-2 rounded-xl bg-zinc-50 p-4",
+   "new": "space-y-2 rounded-xl bg-surface-muted p-4",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/components/SoulDrawer/components/LearnedNotes/LearnedNotes.tsx",
+   "old": "mt-2 flex flex-col divide-y divide-zinc-100",
+   "new": "mt-2 flex flex-col divide-y divide-separator",
+   "tag": "div"
+  },
+  {
+   "file": "src/app/(platform)/team/components/SoulDrawer/components/LearnedNotes/LearnedNotes.tsx",
+   "old": "text-zinc-400",
+   "new": "text-foreground-subtle",
+   "tag": "Text",
+   "variant": "small"
+  },
+  {
+   "file": "src/app/(platform)/team/components/SoulDrawer/components/LearnedNotes/LearnedNotes.tsx",
+   "old": "h-7 !min-w-0 shrink-0 px-2 text-zinc-600",
+   "new": "h-7 !min-w-0 shrink-0 px-2 text-foreground-secondary",
+   "tag": "Button",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/components/SoulDrawer/components/LearnedNotes/LearnedNotes.tsx",
+   "old": "mt-3 inline-block text-zinc-600",
+   "new": "mt-3 inline-block text-foreground-secondary",
+   "tag": "Link",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/components/TeamPageHeader/TeamPageHeader.tsx",
+   "old": "!text-zinc-900",
+   "new": "!text-foreground-strong",
+   "tag": "Text",
+   "variant": "h4"
+  },
+  {
+   "file": "src/app/(platform)/team/components/TeamPageHeader/TeamPageHeader.tsx",
+   "old": "!text-zinc-500",
+   "new": "!text-foreground-tertiary",
+   "tag": "Text",
+   "variant": "body"
+  },
+  {
+   "file": "src/app/(platform)/team/components/ToolbarSearch.tsx",
+   "old": "pointer-events-none absolute left-4 top-1/2 z-20 -translate-y-1/2 text-zinc-500",
+   "new": "pointer-events-none absolute left-4 top-1/2 z-20 -translate-y-1/2 text-foreground-tertiary",
+   "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/team/helpers.ts",
+   "old": "border border-zinc-200 bg-zinc-50 text-zinc-700",
+   "new": "border border-border-base bg-surface-muted text-foreground-body",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/team/helpers.ts",
+   "old": "relative w-full gap-0.5 overflow-x-auto rounded-full border-b-0 bg-zinc-100/80 p-1 [&>button]:flex-1",
+   "new": "relative w-full gap-0.5 overflow-x-auto rounded-full border-b-0 bg-surface-hover/80 p-1 [&>button]:flex-1",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/team/helpers.ts",
+   "old": "pointer-events-none z-10 bottom-1 top-1 h-auto rounded-full bg-white shadow-sm ring-1 ring-zinc-200/70",
+   "new": "pointer-events-none z-10 bottom-1 top-1 h-auto rounded-full bg-surface shadow-sm ring-1 ring-border-base/70",
+   "tag": null
+  },
+  {
+   "file": "src/app/(platform)/team/helpers.ts",
+   "old": "z-20 rounded-full px-3.5 py-1.5 text-[15px] max-sm:px-2 text-zinc-500 transition-colors hover:text-zinc-900 data-[state=active]:text-zinc-900 [&_svg]:!size-4",
+   "new": "z-20 rounded-full px-3.5 py-1.5 text-body-md leading-inherit max-sm:px-2 text-foreground-tertiary transition-colors hover:text-foreground-strong data-[state=active]:text-foreground-strong [&_svg]:!size-4",
+   "tag": null
+  }
+ ],
+ "unpaired": []
+}
