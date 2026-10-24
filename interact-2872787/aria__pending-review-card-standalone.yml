@@ -1,0 +1,6 @@
+- paragraph: "Node #node...6789"
+- paragraph: Approve outreach email
+- text: Enabled
+- switch [checked]
+- switch
+- paragraph: Auto-approve future executions of this block

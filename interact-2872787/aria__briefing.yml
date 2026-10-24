@@ -1,0 +1,49 @@
+- img
+- paragraph: Recap
+- paragraph: This morning
+- list:
+  - listitem:
+    - link "Expert 1, AI Expert Workflow 1 Expert 1 · Summary of what run 1 found overnight.":
+      - /url: /library/agents/lib-1
+      - img "Expert 1, AI Expert"
+      - paragraph: Workflow 1
+      - paragraph: Expert 1 · Summary of what run 1 found overnight.
+      - img
+  - listitem:
+    - img "Expert 2, AI Expert"
+    - paragraph: Workflow 2
+    - text: Failed
+    - paragraph: Expert 2 · Summary of what run 2 found overnight.
+  - listitem:
+    - link "Expert 3, AI Expert Workflow 3 Expert 3 · Summary of what run 3 found overnight.":
+      - /url: /library/agents/lib-3
+      - img "Expert 3, AI Expert"
+      - paragraph: Workflow 3
+      - paragraph: Expert 3 · Summary of what run 3 found overnight.
+      - img
+- img
+- paragraph: Recap
+- paragraph: This morning
+- list:
+  - listitem:
+    - link "Expert 1, AI Expert Workflow 1 Expert 1 · Summary of what run 1 found overnight.":
+      - /url: /library/agents/lib-1
+      - img "Expert 1, AI Expert"
+      - paragraph: Workflow 1
+      - paragraph: Expert 1 · Summary of what run 1 found overnight.
+      - img
+  - listitem:
+    - img "Expert 2, AI Expert"
+    - paragraph: Workflow 2
+    - text: Failed
+    - paragraph: Expert 2 · Summary of what run 2 found overnight.
+  - listitem:
+    - link "Expert 3, AI Expert Workflow 3 Expert 3 · Summary of what run 3 found overnight.":
+      - /url: /library/agents/lib-3
+      - img "Expert 3, AI Expert"
+      - paragraph: Workflow 3
+      - paragraph: Expert 3 · Summary of what run 3 found overnight.
+      - img
+- button "Show all results (6)":
+  - paragraph: Show all results (6)
+  - img

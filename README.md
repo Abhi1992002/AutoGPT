@@ -8,3 +8,5 @@ PR head `d3c00d5434b939cbe9447e474fd7351d3358362c`, base dev `995df0deeed4c6e171
 - `interact/`: rule 17 (b) — before/after/diff per interactive state, `aria__*.yml` (head ARIA snapshot; a `__BASE` file would exist only if it differed), `interact.md` table.
 - `equivalence/`: `equivalence.md` (34 class strings, 49 comparisons, 0 failing), the pair list and the runner (DS1's method), `stress.ts` (why muted/caution icons keep flex-shrink 1), `bbox.ts` (changed-pixel boxes).
 - `harness/`: interaction harness, story error-screen probe, data-slot class cross-check, strict-count script.
+
+- `interact-2872787/`, `stories-2872787/` (AttentionCard + consumer stories, base once, head twice), `harness/slots-*.txt` (rendered data-slot class strings on both heads, identical): re-run on head `2872787`.
