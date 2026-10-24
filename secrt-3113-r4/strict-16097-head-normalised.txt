@@ -1,0 +1,13 @@
+
+11 problems
+X: "[&_td]:text-[13px]" hardcodes an off-token value. Nearest on the scale: [&_td]:text-xs (12px), [&_td]:text-sm (14px). See docs/engineering/design-system.md. [Error/shadcn(no-arbitrary-values)]
+X: "[&_td_code]:text-[12px]" hardcodes an off-token value. Use "[&_td_code]:text-xs" instead (same value, on the scale). See docs/engineering/design-system.md. [Error/shadcn(no-arbitrary-values)]
+X: "[&_th]:text-[11px]" hardcodes an off-token value. Nearest on the scale: [&_th]:text-xs (12px), [&_th]:text-sm (14px). See docs/engineering/design-system.md. [Error/shadcn(no-arbitrary-values)]
+X: "[&_th]:text-indigo-950/70" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+X: "bg-neutral-100" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+X: "group-[.is-assistant]:text-neutral-950" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+X: "group-[.is-user]:bg-neutral-100" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+X: "group-[.is-user]:text-neutral-950" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+X: "text-neutral-500" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+X: "text-neutral-500" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+X: "text-neutral-500" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]

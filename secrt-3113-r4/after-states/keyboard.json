@@ -1,0 +1,74 @@
+{
+  "desktop harness": [
+    "TTSButton rendered: true",
+    "composer: textarea \"\" focus-visible=true",
+    "composer Tab 1: button \"+\" focus-visible=true",
+    "composer Tab 2: button[aria-label=Submit] \"\" focus-visible=true",
+    "composer Tab 3: button[aria-label=Stop] \"\" focus-visible=true",
+    "composer Tab 4: button[aria-label=Submit] \"\" focus-visible=true",
+    "composer Tab 5: button[aria-label=Stop] \"\" focus-visible=true",
+    "composer Tab 6: button[data-streamdown=link] \"the dashboard\" focus-visible=true",
+    "composer Tab 7: button \"Open work output\" focus-visible=true",
+    "composer Tab 8: body \"Home\nMarketplace\nBuild\nTeam\nFi\" focus-visible=false",
+    "composer Tab 9: button[aria-label=Expand sidebar] \"\" focus-visible=true",
+    "sheet open, focused: button \"Close\" focus-visible=true",
+    "after Esc, focused: body \"Home\nMarketplace\nBuild\nTeam\nFi\" focus-visible=false"
+  ],
+  "desktop": [
+    "changelog popup closed",
+    "scroll-to-bottom button visible: false",
+    "before dialog, focused: button[data-streamdown=link] \"link to the docs\" focus-visible=false",
+    "dialog open, focused: button[aria-label=Close] \"\" focus-visible=true",
+    "dialog Tab 1: button \"Cancel\" focus-visible=true",
+    "dialog Tab 2: button \"Open link\" focus-visible=true",
+    "dialog Tab 3: button[aria-label=Close] \"\" focus-visible=true",
+    "dialog Tab 4: button \"Cancel\" focus-visible=true",
+    "after Esc, dialog closed; focused: body \"Home\nMarketplace\nBuild\nTeam\nFi\" focus-visible=false",
+    "composer focused: textarea[aria-label=Chat message input] \"\" focus-visible=true",
+    "composer Tab 1: button[aria-label=Start recording] \"\" focus-visible=true",
+    "composer Tab 2: button[aria-label=Submit] \"\" focus-visible=true",
+    "composer Tab 3: body \"Home\nMarketplace\nBuild\nTeam\nFi\" focus-visible=false",
+    "composer Tab 4: button[aria-label=Expand sidebar] \"\" focus-visible=true",
+    "composer Tab 5: button[aria-label=Search] \"\" focus-visible=true",
+    "composer Tab 6: a \"Home\" focus-visible=true"
+  ],
+  "desktop story": [
+    "after Esc, dialog closed; focused: body \"Click the external link below \" focus-visible=false"
+  ],
+  "mobile harness": [
+    "TTSButton rendered: true",
+    "composer: textarea \"\" focus-visible=true",
+    "composer Tab 1: button \"+\" focus-visible=true",
+    "composer Tab 2: button[aria-label=Submit] \"\" focus-visible=true",
+    "composer Tab 3: button[aria-label=Stop] \"\" focus-visible=true",
+    "composer Tab 4: button[aria-label=Submit] \"\" focus-visible=true",
+    "composer Tab 5: button[aria-label=Stop] \"\" focus-visible=true",
+    "composer Tab 6: button[data-streamdown=link] \"the dashboard\" focus-visible=true",
+    "composer Tab 7: button \"Open work output\" focus-visible=true",
+    "composer Tab 8: body \"Toggle Sidebar\nConversationEmp\" focus-visible=false",
+    "composer Tab 9: button \"Toggle Sidebar\" focus-visible=true",
+    "sheet open, focused: button \"Close\" focus-visible=true",
+    "after Esc, focused: body \"Toggle Sidebar\nConversationEmp\" focus-visible=false"
+  ],
+  "mobile": [
+    "changelog popup closed",
+    "scroll-to-bottom button visible: true",
+    "before dialog, focused: button[data-streamdown=link] \"link to the docs\" focus-visible=false",
+    "dialog open, focused: button[data-streamdown=link] \"link to the docs\" focus-visible=true",
+    "dialog Tab 1: button[data-streamdown=link] \"settings\" focus-visible=true",
+    "dialog Tab 2: button[data-streamdown=code-block-download-button] \"\" focus-visible=true",
+    "dialog Tab 3: button[data-streamdown=code-block-copy-button] \"\" focus-visible=true",
+    "dialog Tab 4: pre[data-streamdown=code-block-body] \"def total(turns):\n    return s\" focus-visible=true",
+    "after Esc, dialog closed; focused: pre[data-streamdown=code-block-body] \"def total(turns):\n    return s\" focus-visible=true",
+    "composer focused: textarea[aria-label=Chat message input] \"\" focus-visible=true",
+    "composer Tab 1: button[aria-label=Start recording] \"\" focus-visible=true",
+    "composer Tab 2: button[aria-label=Submit] \"\" focus-visible=true",
+    "composer Tab 3: body \"Toggle Sidebar\nOtto\nHead of AI\" focus-visible=false",
+    "composer Tab 4: button \"Toggle Sidebar\" focus-visible=true",
+    "composer Tab 5: div[aria-label=Otto — Head of AI] \"Otto\nHead of AI\" focus-visible=true",
+    "composer Tab 6: button \"Copy\" focus-visible=true"
+  ],
+  "mobile story": [
+    "after Esc, dialog closed; focused: button[data-streamdown=link] \"Example Site\" focus-visible=true"
+  ]
+}
