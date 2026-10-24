@@ -1,0 +1,54 @@
+| screenshot | min base↔head px (pair) | max base↔base px | max head↔head px |
+| --- | --- | --- | --- |
+| app__admin_memory__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__admin_memory__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__admin_spending__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__admin_spending__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__admin_users__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__admin_users__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__artifacts__desktop.png | 0 (base-1↔head-2) | 0 | 6169 |
+| app__artifacts__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__build__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__build__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__copilot__desktop.png | 0 (base-1↔head-2) | 0 | 7812 |
+| app__copilot__mobile.png | 0 (base-1↔head-2) | 4562 | 4562 |
+| app__home__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__home__mobile.png | 0 (base-2↔head-1) | 4562 | 0 |
+| app__library__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__library__mobile.png | 0 (base-1↔head-1) | 0 | 11035 |
+| app__library_agents_96926461-f6e7-4112-9e1f-ad4dccdb7168__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__library_agents_96926461-f6e7-4112-9e1f-ad4dccdb7168__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__login__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__login__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__marketplace__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__marketplace__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__marketplace_agent_autogpt_unspirational-poster-maker__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__marketplace_agent_autogpt_unspirational-poster-maker__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__marketplace_search_searchTerm_poster__desktop.png | 0 (base-1↔head-2) | 0 | 6014 |
+| app__marketplace_search_searchTerm_poster__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__profile_api-keys__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__profile_api-keys__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__reset-password__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__reset-password__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__settings_account__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__settings_account__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__settings_api-keys__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__settings_api-keys__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__settings_billing__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__settings_billing__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__settings_creator-dashboard__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__settings_creator-dashboard__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__settings_integrations__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__settings_integrations__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__settings_memory__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__settings_memory__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__settings_profile__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__settings_profile__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__signup__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__signup__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__team__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__team__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__team_autopilot__desktop.png | 0 (base-1↔head-1) | 0 | 0 |
+| app__team_autopilot__mobile.png | 0 (base-1↔head-1) | 0 | 0 |
+
+50 screenshots; 0 with no 0 px base↔head pair; 6 that also vary between runs of one commit

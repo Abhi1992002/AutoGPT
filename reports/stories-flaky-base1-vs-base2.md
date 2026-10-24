@@ -1,0 +1,44 @@
+| screenshot | size | changed pixels |
+| --- | --- | --- |
+| story__atoms-overflowtext--custom-styling__desktop.png | 1440x900 | 0 |
+| story__atoms-overflowtext--custom-styling__mobile.png | 390x844 | 0 |
+| story__atoms-overflowtext--default__desktop.png | 1440x900 | 0 |
+| story__atoms-overflowtext--default__mobile.png | 390x844 | 0 |
+| story__atoms-overflowtext--different-widths__desktop.png | 1440x900 | 35 |
+| story__atoms-overflowtext--different-widths__mobile.png | 496x844 | 0 |
+| story__atoms-overflowtext--file-path-example__desktop.png | 1440x900 | 0 |
+| story__atoms-overflowtext--file-path-example__mobile.png | 390x844 | 0 |
+| story__atoms-overflowtext--long-text__desktop.png | 1440x900 | 11 |
+| story__atoms-overflowtext--long-text__mobile.png | 390x844 | 0 |
+| story__atoms-overflowtext--short-text__desktop.png | 1440x900 | 0 |
+| story__atoms-overflowtext--short-text__mobile.png | 390x844 | 0 |
+| story__atoms-overflowtext--url-example__desktop.png | 1440x900 | 13 |
+| story__atoms-overflowtext--url-example__mobile.png | 390x844 | 13 |
+| story__atoms-overflowtext--with-react-node__desktop.png | 1440x900 | 0 |
+| story__atoms-overflowtext--with-react-node__mobile.png | 390x844 | 0 |
+| story__copilot-artifactpanel--closed__desktop.png | 1440x900 | 0 |
+| story__copilot-artifactpanel--closed__mobile.png | 390x864 | 0 |
+| story__copilot-artifactpanel--error-state__desktop.png | 1440x900 | 0 |
+| story__copilot-artifactpanel--error-state__mobile.png | 767x864 | 0 |
+| story__copilot-artifactpanel--mobile__desktop.png | 1440x900 | 2526 |
+| story__copilot-artifactpanel--mobile__mobile.png | 390x864 | 0 |
+| story__copilot-artifactpanel--narrow-with-long-title__desktop.png | 1440x900 | 0 |
+| story__copilot-artifactpanel--narrow-with-long-title__mobile.png | 527x864 | 0 |
+| story__copilot-artifactpanel--open-with-html-artifact__desktop.png | 1440x900 | 0 |
+| story__copilot-artifactpanel--open-with-html-artifact__mobile.png | 767x864 | 0 |
+| story__copilot-artifactpanel--open-with-image-artifact__desktop.png | 1440x900 | 0 |
+| story__copilot-artifactpanel--open-with-image-artifact__mobile.png | 767x864 | 0 |
+| story__copilot-artifactpanel--open-with-text-artifact__desktop.png | 1440x900 | 0 |
+| story__copilot-artifactpanel--open-with-text-artifact__mobile.png | 767x864 | 0 |
+| story__copilot-compactioncard--rebuilding__desktop.png | 1440x900 | 0 |
+| story__copilot-compactioncard--rebuilding__mobile.png | 390x844 | 0 |
+| story__copilot-compactioncard--settled-dropped__desktop.png | 1440x900 | 0 |
+| story__copilot-compactioncard--settled-dropped__mobile.png | 390x844 | 0 |
+| story__copilot-compactioncard--settled-legacy-row__desktop.png | 1440x900 | 0 |
+| story__copilot-compactioncard--settled-legacy-row__mobile.png | 390x844 | 0 |
+| story__copilot-compactioncard--settled__desktop.png | 1440x900 | 0 |
+| story__copilot-compactioncard--settled__mobile.png | 390x844 | 0 |
+| story__copilot-compactioncard--summarizing__desktop.png | 1440x900 | 0 |
+| story__copilot-compactioncard--summarizing__mobile.png | 390x844 | 0 |
+
+40 screenshot(s) compared, 5 with differences
