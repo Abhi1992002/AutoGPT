@@ -1,0 +1,46 @@
+| screenshot | size | changed pixels |
+| --- | --- | --- |
+| empty_artifacts__desktop.png | 1440x900 | 0 |
+| empty_artifacts__mobile.png | 390x844 | 0 |
+| empty_library__desktop.png | 1440x900 | 0 |
+| empty_library__mobile.png | 390x844 | 0 |
+| moved-notice_library__desktop.png | 1440x900 | 0 |
+| moved-notice_library__mobile.png | 390x844 | 0 |
+| settled_artifacts__desktop.png | 1440x900 | 0 |
+| settled_artifacts__mobile.png | 390x844 | 0 |
+| settled_build__desktop.png | 1440x900 | 0 |
+| settled_build__mobile.png | 390x844 | 0 |
+| settled_library__desktop.png | 1440x900 | 0 |
+| settled_library__mobile.png | 390x844 | 0 |
+| settled_library_agents_8fc7a770-52da-486e-b23d-261b81b6b15e_activeTab_runs_activeItem_d0c2bd7f-dc0d-48eb-ac3b-2c3acd321fc1__desktop.png | 1440x900 | 0 |
+| settled_library_agents_8fc7a770-52da-486e-b23d-261b81b6b15e_activeTab_runs_activeItem_d0c2bd7f-dc0d-48eb-ac3b-2c3acd321fc1__mobile.png | 390x844 | 0 |
+| settled_library_agents_9d367bbb-5c49-449f-ab5f-10a8bfe5ecd4_activeTab_runs_activeItem_c1b15e05-53fd-4e0b-98f0-a9d994cf798b__desktop.png | 1440x900 | 0 |
+| settled_library_agents_9d367bbb-5c49-449f-ab5f-10a8bfe5ecd4_activeTab_runs_activeItem_c1b15e05-53fd-4e0b-98f0-a9d994cf798b__mobile.png | 390x844 | 0 |
+| settled_library_agents_9d367bbb-5c49-449f-ab5f-10a8bfe5ecd4_activeTab_scheduled_activeItem_0f4fd455-207b-402a-853b-3842655b154a__desktop.png | 1440x900 | 0 |
+| settled_library_agents_9d367bbb-5c49-449f-ab5f-10a8bfe5ecd4_activeTab_scheduled_activeItem_0f4fd455-207b-402a-853b-3842655b154a__mobile.png | 390x844 | 0 |
+| settled_library_followups__desktop.png | 1440x900 | 0 |
+| settled_library_followups__mobile.png | 390x844 | 0 |
+| settled_library_skills__desktop.png | 1440x900 | 0 |
+| settled_library_skills__mobile.png | 390x844 | 0 |
+| settled_login__desktop.png | 1440x900 | 0 |
+| settled_login__mobile.png | 390x844 | 0 |
+| settled_marketplace__desktop.png | 1440x900 | 0 |
+| settled_marketplace__mobile.png | 390x844 | 0 |
+| settled_reset-password__desktop.png | 1440x900 | 0 |
+| settled_reset-password__mobile.png | 390x844 | 0 |
+| settled_settings_account__desktop.png | 1440x900 | 0 |
+| settled_settings_account__mobile.png | 390x844 | 0 |
+| settled_settings_api-keys__desktop.png | 1440x900 | 0 |
+| settled_settings_api-keys__mobile.png | 390x844 | 0 |
+| settled_settings_integrations__desktop.png | 1440x900 | 0 |
+| settled_settings_integrations__mobile.png | 390x844 | 0 |
+| settled_settings_profile__desktop.png | 1440x900 | 0 |
+| settled_settings_profile__mobile.png | 390x844 | 0 |
+| settled_signup__desktop.png | 1440x900 | 0 |
+| settled_signup__mobile.png | 390x844 | 0 |
+| settled_team__desktop.png | 1440x900 | 1717 |
+| settled_team__mobile.png | 390x844 | 0 |
+| settled_team_autopilot__desktop.png | 1440x900 | 1717 |
+| settled_team_autopilot__mobile.png | 390x844 | 0 |
+
+42 screenshot(s) compared, 2 with differences

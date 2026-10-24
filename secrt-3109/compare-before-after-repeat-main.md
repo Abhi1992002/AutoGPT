@@ -1,0 +1,44 @@
+| screenshot | size | changed pixels |
+| --- | --- | --- |
+| app__artifacts__desktop.png | 1440x966 | 0 |
+| app__artifacts__mobile.png | 390x920 | 0 |
+| app__build__desktop.png | 1440x900 | 0 |
+| app__build__mobile.png | 390x844 | 0 |
+| app__copilot__desktop.png | 1440x900 | 0 |
+| app__copilot__mobile.png | 390x844 | 0 |
+| app__home__desktop.png | 1440x900 | 0 |
+| app__home__mobile.png | 390x844 | 0 |
+| app__library__desktop.png | 1440x900 | 0 |
+| app__library__mobile.png | 390x1637 | 0 |
+| app__library_agents_8fc7a770-52da-486e-b23d-261b81b6b15e_activeTab_runs_activeItem_d0c2bd7f-dc0d-48eb-ac3b-2c3acd321fc1__desktop.png | 1440x900 | 0 |
+| app__library_agents_8fc7a770-52da-486e-b23d-261b81b6b15e_activeTab_runs_activeItem_d0c2bd7f-dc0d-48eb-ac3b-2c3acd321fc1__mobile.png | 390x1322 | 0 |
+| app__library_agents_9d367bbb-5c49-449f-ab5f-10a8bfe5ecd4_activeTab_runs_activeItem_c1b15e05-53fd-4e0b-98f0-a9d994cf798b__desktop.png | 1440x900 | 0 |
+| app__library_agents_9d367bbb-5c49-449f-ab5f-10a8bfe5ecd4_activeTab_runs_activeItem_c1b15e05-53fd-4e0b-98f0-a9d994cf798b__mobile.png | 390x1384 | 0 |
+| app__library_agents_9d367bbb-5c49-449f-ab5f-10a8bfe5ecd4_activeTab_scheduled_activeItem_0f4fd455-207b-402a-853b-3842655b154a__desktop.png | 1440x900 | 0 |
+| app__library_agents_9d367bbb-5c49-449f-ab5f-10a8bfe5ecd4_activeTab_scheduled_activeItem_0f4fd455-207b-402a-853b-3842655b154a__mobile.png | 390x1201 | 0 |
+| app__library_followups__desktop.png | 1440x900 | 0 |
+| app__library_followups__mobile.png | 390x920 | 0 |
+| app__library_skills__desktop.png | 1440x900 | 0 |
+| app__library_skills__mobile.png | 390x920 | 0 |
+| app__login__desktop.png | 1440x900 | 0 |
+| app__login__mobile.png | 390x844 | 0 |
+| app__marketplace__desktop.png | 1440x1062 | 0 |
+| app__marketplace__mobile.png | 390x1374 | 0 |
+| app__reset-password__desktop.png | 1440x900 | 0 |
+| app__reset-password__mobile.png | 390x844 | 0 |
+| app__settings_account__desktop.png | 1440x900 | 0 |
+| app__settings_account__mobile.png | 390x844 | 0 |
+| app__settings_api-keys__desktop.png | 1440x900 | 0 |
+| app__settings_api-keys__mobile.png | 390x844 | 0 |
+| app__settings_integrations__desktop.png | 1440x2219 | 0 |
+| app__settings_integrations__mobile.png | 390x3636 | 0 |
+| app__settings_profile__desktop.png | 1440x900 | 0 |
+| app__settings_profile__mobile.png | 390x1203 | 0 |
+| app__signup__desktop.png | 1440x900 | 0 |
+| app__signup__mobile.png | 390x898 | 0 |
+| app__team__desktop.png | 1440x900 | 0 |
+| app__team__mobile.png | 390x1082 | 0 |
+| app__team_autopilot__desktop.png | 1440x900 | 0 |
+| app__team_autopilot__mobile.png | 390x1047 | 0 |
+
+40 screenshot(s) compared, 0 with differences
