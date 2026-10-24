@@ -19,12 +19,14 @@
  "kb": {
   "1": "33 keyboard paths (Tab order to the trigger, focus after open and after Esc, arrow-key moves) and full-page ARIA snapshots: identical to base apart from the diagnostics page's \"Last updated\" text.",
   "2": "33 keyboard paths (Tab order to the trigger, focus after open and after Esc, arrow-key moves, incl. both date pickers opened by keyboard and moved with the arrow keys) and full-page ARIA snapshots: identical to PR 1's head apart from the diagnostics page's \"Last updated\" text and tooltip open-timing. Two builder keyboard paths (`kb-build-agentoutputs`, `kb-build-savecontrol`) read the sidebar tooltip triggers as `data-state=instant-open` in one take and `closed` in the other while Tab passes them: Radix tooltip open-timing, which p1's two takes of the same build also show ([`kbcmp.py`]({TREE}/tools/kbcmp.py)). Every focus target, Tab stop and ARIA node is otherwise identical.",
-  "3": "33 keyboard paths (Tab order to the trigger, focus after open and after Esc, arrow-key moves) and full-page ARIA snapshots: identical to the previous head apart from the diagnostics page's \"Last updated\" text and tooltip open-timing: `kb-build-agentoutputs desktop`, `kb-build-savecontrol desktop` read the sidebar tooltip triggers as `data-state=instant-open` in one take and `closed` in the other while Tab passes them, which p1's two takes of the same build also show ([`kbcmp.py`]({TREE}/tools/kbcmp.py)). Every focus target, Tab stop and ARIA node is otherwise identical."
+  "3": "33 keyboard paths (Tab order to the trigger, focus after open and after Esc, arrow-key moves) and full-page ARIA snapshots: identical to the previous head apart from the diagnostics page's \"Last updated\" text and tooltip open-timing: `kb-build-agentoutputs desktop`, `kb-build-savecontrol desktop` read the sidebar tooltip triggers as `data-state=instant-open` in one take and `closed` in the other while Tab passes them, which p1's two takes of the same build also show ([`kbcmp.py`]({TREE}/tools/kbcmp.py)). Every focus target, Tab stop and ARIA node is otherwise identical.",
+  "4": "33 keyboard paths (Tab order to the trigger, focus after open and after Esc, arrow-key moves) and full-page ARIA snapshots: identical to the previous head apart from the diagnostics page's \"Last updated\" text."
  },
  "merge_line": {
   "1": "**Merges cleanly with the latest `dev`:** `git merge-tree --write-tree origin/dev f024901e3` exits 0 with no conflicts, with `origin/dev` at `7f91b94de`. The stack is rebased on `0d5ac323f` and every capture below was taken against it; the one commit since, #15549, is backend-only and shares no file with this stack.",
   "2": "**Merges cleanly with the latest `dev`:** `git merge-tree --write-tree origin/dev e529500de` exits 0 with no conflicts, with `origin/dev` at `7f91b94de`. The stack is rebased on `0d5ac323f` and every capture below was taken against it; the one commit since, #15549, is backend-only and shares no file with this stack.",
-  "3": "**Merges cleanly with the latest `dev`:** `git merge-tree --write-tree origin/dev d45ba7cbe` exits 0 with no conflicts, with `origin/dev` at `7f91b94de`. The stack is rebased on `0d5ac323f` and every capture below was taken against it; the one commit since, #15549, is backend-only and shares no file with this stack."
+  "3": "**Merges cleanly with the latest `dev`:** `git merge-tree --write-tree origin/dev d45ba7cbe` exits 0 with no conflicts, with `origin/dev` at `7f91b94de`. The stack is rebased on `0d5ac323f` and every capture below was taken against it; the one commit since, #15549, is backend-only and shares no file with this stack.",
+  "4": "**Merges cleanly with the latest `dev`:** `git merge-tree --write-tree origin/dev 1ec2c4fba` exits 0 with no conflicts, with `origin/dev` at `7f91b94de`. The stack is rebased on `0d5ac323f` and every capture below was taken against it; the one commit since, #15549, is backend-only and shares no file with this stack."
  },
  "shots": {
   "1": [
@@ -44,6 +46,12 @@
    "interact__kb-story-multiselect-kb-open__desktop.png",
    "interact__kb-story-multiselect-keys__desktop.png",
    "interact__kb-story-multiselect-keys__mobile.png"
+  ],
+  "4": [
+   "interact__build-blockmenu-open__desktop.png",
+   "interact__build-savecontrol-open__desktop.png",
+   "interact__kb-build-blockmenu-kb-open__desktop.png",
+   "interact__kb-story-datefield-kb-open__desktop.png"
   ]
  },
  "take_note": {
