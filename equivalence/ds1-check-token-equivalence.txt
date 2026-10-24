@@ -345,6 +345,6 @@ npm warn Unknown project config "minimum-release-age". This will stop working in
 | Text `eyebrow` + `text-zinc-500` | `font-sans text-caption font-medium uppercase leading-4 tracking-eyebrow text-zinc-500` | `font-sans text-caption font-medium uppercase leading-4 tracking-eyebrow text-zinc-500` | 12px | 16px / 16px / 16px | identical (12 cases) |
 
 Opacity swatches: 87 colour pairs x 21 steps (0-100%) = 1827 swatches, 0 differing pixels
-124 pairs checked against this checkout: 2 failing
+124 pairs checked against /home/vercel-sandbox/dev-wt/autogpt_platform/frontend: 2 failing
 215 text class lists x 12 cases (viewport, parent line-height, as written | cn()): 0 failing
 6 cn() checks: 0 failing

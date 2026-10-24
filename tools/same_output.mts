@@ -9,7 +9,7 @@ import { join } from "node:path";
 const FE = "/home/vercel-sandbox/autogpt/autogpt_platform/frontend";
 const req = createRequire(join(FE, "package.json"));
 const ts = req("typescript");
-const files = execSync("git diff --name-only 447fd55be HEAD -- 'autogpt_platform/frontend/src'", { cwd: "/home/vercel-sandbox/autogpt" }).toString().split("\n").filter(Boolean);
+const files = execSync("git diff --name-only f0ae7dfd4 HEAD -- 'autogpt_platform/frontend/src'", { cwd: "/home/vercel-sandbox/autogpt" }).toString().split("\n").filter(Boolean);
 const pairs = JSON.parse(readFileSync(process.argv[2], "utf8")).pairs as { file: string; old: string; new: string }[];
 const STYLE_EDITS: [string, string, string][] = [
   ["CategoryChip/CategoryChip.tsx", "%, #18181b)`", "%, rgb(var(--color-secondary-foreground)))`"],
@@ -30,7 +30,7 @@ const compile = (src: string, f: string) =>
     compilerOptions: { jsx: ts.JsxEmit.React, removeComments: true, target: ts.ScriptTarget.ES2022, module: ts.ModuleKind.ESNext },
   }).outputText;
 for (const f of files) {
-  const oldSrc = execSync(`git show "447fd55be:${f}"`, { cwd: "/home/vercel-sandbox/autogpt" }).toString();
+  const oldSrc = execSync(`git show "f0ae7dfd4:${f}"`, { cwd: "/home/vercel-sandbox/autogpt" }).toString();
   const newSrc = readFileSync(join("/home/vercel-sandbox/autogpt", f), "utf8");
   let oldOut = compile(oldSrc, f);
   const newOut = compile(newSrc, f);

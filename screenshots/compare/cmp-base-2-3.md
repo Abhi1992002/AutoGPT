@@ -1,7 +1,7 @@
 | screenshot | size | changed pixels |
 | --- | --- | --- |
-| app__build__desktop.png | 1440x900 | 0 |
-| app__build__mobile.png | 390x844 | 0 |
+| app__build__desktop.png | 1440x900 | 1270315 |
+| app__build__mobile.png | 390x844 | 253335 |
 | app__copilot__desktop.png | 1440x900 | 0 |
 | app__copilot__mobile.png | 390x844 | 0 |
 | app__home__desktop.png | 1440x900 | 0 |
@@ -18,9 +18,9 @@
 | app__marketplace_creator_autogpt__mobile.png | 390x1199 | 0 |
 | app__marketplace_experts_47a0db5b-a2ca-4a37-ab02-9f529b5527bf__desktop.png | 1440x2317 | 0 |
 | app__marketplace_experts_47a0db5b-a2ca-4a37-ab02-9f529b5527bf__mobile.png | 390x3703 | 0 |
-| app__marketplace_search_searchTerm_post__desktop.png | 1440x4384 | 0 |
+| app__marketplace_search_searchTerm_post__desktop.png | 1440x4384 | 6014 |
 | app__marketplace_search_searchTerm_post__mobile.png | 650x7924 | 0 |
-| app__marketplace_skills__desktop.png | 1440x3258 | 6014 |
+| app__marketplace_skills__desktop.png | 1440x3258 | 0 |
 | app__marketplace_skills__mobile.png | 390x6982 | 0 |
 | app__marketplace_skills_account-reconciliation__desktop.png | 1440x5644 | 0 |
 | app__marketplace_skills_account-reconciliation__mobile.png | 390x8429 | 0 |
@@ -36,9 +36,9 @@
 | app__settings_profile__mobile.png | 390x1203 | 0 |
 | app__signup__desktop.png | 1440x900 | 0 |
 | app__signup__mobile.png | 390x898 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_basics__desktop.png | 1440x1430 | 6308 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_basics__desktop.png | 1440x1430 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_basics__mobile.png | 390x2819 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_computer__desktop.png | 1440x1378 | 6308 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_computer__desktop.png | 1440x1378 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_computer__mobile.png | 390x1626 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_files__desktop.png | 1440x900 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_files__mobile.png | 390x1073 | 0 |

@@ -1,0 +1,8 @@
+stdout | src/app/(platform)/team/components/ExpertChatDrawer/__tests__/ExpertChatDrawer.test.tsx > ExpertChatDrawer > a new task after setup is answered stays in a new thread (refetch settled)
+stdout | src/app/(platform)/team/components/ExpertChatDrawer/__tests__/ExpertChatDrawer.test.tsx > ExpertChatDrawer > a new task after setup is answered stays in a new thread (refetch settled)
+stdout | src/app/(platform)/team/components/ExpertChatDrawer/__tests__/ExpertChatDrawer.test.tsx > ExpertChatDrawer > a new task after setup is answered stays in a new thread (refetch failed)
+ ✓ src/app/(platform)/team/components/ExpertChatDrawer/__tests__/ExpertChatDrawer.test.tsx > ExpertChatDrawer > a new task after setup is answered stays in a new thread (refetch settled) 3918ms
+stdout | src/app/(platform)/team/components/ExpertChatDrawer/__tests__/ExpertChatDrawer.test.tsx > ExpertChatDrawer > a new task after setup is answered stays in a new thread (refetch failed)
+ ✓ src/app/(platform)/team/components/ExpertChatDrawer/__tests__/ExpertChatDrawer.test.tsx > ExpertChatDrawer > a new task after setup is answered stays in a new thread (refetch failed) 5026ms
+ Test Files  268 passed (268)
+      Tests  3065 passed (3065)

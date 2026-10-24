@@ -1,9 +1,9 @@
 | screenshot | size | changed pixels |
 | --- | --- | --- |
-| app__build__desktop.png | 1440x900 | 0 |
+| app__build__desktop.png | 1440x900 | 432 |
 | app__build__mobile.png | 390x844 | 0 |
 | app__copilot__desktop.png | 1440x900 | 0 |
-| app__copilot__mobile.png | 390x844 | 0 |
+| app__copilot__mobile.png | 390x844 | 4562 |
 | app__home__desktop.png | 1440x900 | 0 |
 | app__home__mobile.png | 390x844 | 0 |
 | app__library__desktop.png | 1440x900 | 0 |
@@ -38,7 +38,7 @@
 | app__signup__mobile.png | 390x898 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_basics__desktop.png | 1440x1430 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_basics__mobile.png | 390x2819 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_computer__desktop.png | 1440x1378 | 6308 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_computer__desktop.png | 1440x1378 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_computer__mobile.png | 390x1626 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_files__desktop.png | 1440x900 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_files__mobile.png | 390x1073 | 0 |
@@ -50,7 +50,7 @@
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_settings__mobile.png | 390x1197 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_skills__desktop.png | 1440x1482 | 6308 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_skills__mobile.png | 390x2931 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_soul__desktop.png | 1440x1636 | 6308 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_soul__desktop.png | 1440x1636 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_soul__mobile.png | 390x3805 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_workflows__desktop.png | 1440x900 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_workflows__mobile.png | 390x1173 | 0 |

@@ -1,7 +1,7 @@
 """Every class string this PR rewrites: (old, new) pairs aligned from origin/dev vs HEAD."""
 import difflib, json, re, subprocess, sys
 FE = "autogpt_platform/frontend/"
-files = subprocess.run(["git", "diff", "--name-only", "447fd55be...HEAD", "--", FE + "src"], capture_output=True, text=True, check=True).stdout.split()
+files = subprocess.run(["git", "diff", "--name-only", "f0ae7dfd4...HEAD", "--", FE + "src"], capture_output=True, text=True, check=True).stdout.split()
 RUN = re.compile(r"[^\"'`{}\n]+")
 WORD = re.compile(r"^[!\w:\-\[\]/.&>=_()%#,*@+]+$")
 def class_runs(src):
@@ -17,7 +17,7 @@ def class_runs(src):
     return out
 pairs, unpaired = [], []
 for f in files:
-    old = subprocess.run(["git", "show", f"447fd55be:{f}"], capture_output=True, text=True).stdout
+    old = subprocess.run(["git", "show", f"f0ae7dfd4:{f}"], capture_output=True, text=True).stdout
     new = subprocess.run(["git", "show", f"HEAD:{f}"], capture_output=True, text=True).stdout
     a, b = class_runs(old), class_runs(new)
     for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b, autojunk=False).get_opcodes():

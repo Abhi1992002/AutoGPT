@@ -18,7 +18,7 @@
 | app__marketplace_creator_autogpt__mobile.png | 390x1199 | 0 |
 | app__marketplace_experts_47a0db5b-a2ca-4a37-ab02-9f529b5527bf__desktop.png | 1440x2317 | 0 |
 | app__marketplace_experts_47a0db5b-a2ca-4a37-ab02-9f529b5527bf__mobile.png | 390x3703 | 0 |
-| app__marketplace_search_searchTerm_post__desktop.png | 1440x4384 | 6014 |
+| app__marketplace_search_searchTerm_post__desktop.png | 1440x4384 | 0 |
 | app__marketplace_search_searchTerm_post__mobile.png | 650x7924 | 0 |
 | app__marketplace_skills__desktop.png | 1440x3258 | 0 |
 | app__marketplace_skills__mobile.png | 390x6982 | 0 |
@@ -48,9 +48,9 @@
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_schedules__mobile.png | 390x1129 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_settings__desktop.png | 1440x900 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_settings__mobile.png | 390x1197 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_skills__desktop.png | 1440x1482 | 6308 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_skills__desktop.png | 1440x1482 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_skills__mobile.png | 390x2931 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_soul__desktop.png | 1440x1636 | 6308 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_soul__desktop.png | 1440x1636 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_soul__mobile.png | 390x3805 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_workflows__desktop.png | 1440x900 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_workflows__mobile.png | 390x1173 | 0 |
@@ -129,4 +129,4 @@
 | story__tokens-typography--all-variants__desktop.png | 1440x1603 | 0 |
 | story__tokens-typography--all-variants__mobile.png | 419x2235 | 0 |
 
-128 screenshot(s) compared, 4 with differences
+128 screenshot(s) compared, 1 with differences

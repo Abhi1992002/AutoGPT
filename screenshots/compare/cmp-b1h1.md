@@ -1,7 +1,7 @@
 | screenshot | size | changed pixels |
 | --- | --- | --- |
-| app__build__desktop.png | 1440x900 | 0 |
-| app__build__mobile.png | 390x844 | 0 |
+| app__build__desktop.png | 1440x900 | 1270315 |
+| app__build__mobile.png | 390x844 | 253335 |
 | app__copilot__desktop.png | 1440x900 | 0 |
 | app__copilot__mobile.png | 390x844 | 0 |
 | app__home__desktop.png | 1440x900 | 0 |
@@ -38,7 +38,7 @@
 | app__signup__mobile.png | 390x898 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_basics__desktop.png | 1440x1430 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_basics__mobile.png | 390x2819 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_computer__desktop.png | 1440x1378 | 6308 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_computer__desktop.png | 1440x1378 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_computer__mobile.png | 390x1626 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_files__desktop.png | 1440x900 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_files__mobile.png | 390x1073 | 0 |
@@ -48,7 +48,7 @@
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_schedules__mobile.png | 390x1129 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_settings__desktop.png | 1440x900 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_settings__mobile.png | 390x1197 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_skills__desktop.png | 1440x1482 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_skills__desktop.png | 1440x1482 | 6308 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_skills__mobile.png | 390x2931 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_soul__desktop.png | 1440x1636 | 0 |
 | app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_soul__mobile.png | 390x3805 | 0 |
@@ -129,4 +129,4 @@
 | story__tokens-typography--all-variants__desktop.png | 1440x1603 | 0 |
 | story__tokens-typography--all-variants__mobile.png | 419x2235 | 0 |
 
-128 screenshot(s) compared, 2 with differences
+128 screenshot(s) compared, 4 with differences

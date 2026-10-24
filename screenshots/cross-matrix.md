@@ -1,130 +1,130 @@
-| capture | run1↔run1 | run1↔run2 | run1↔run3 | run2↔run1 | run2↔run2 | run2↔run3 | run3↔run1 | run3↔run2 | run3↔run3 | min |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| app__build__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__build__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__copilot__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__copilot__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__home__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__home__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__library__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__library__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__login__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__login__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__marketplace__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__marketplace__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__marketplace_agent_autogpt_linkedin-post-generator__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__marketplace_agent_autogpt_linkedin-post-generator__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__marketplace_creator_autogpt__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__marketplace_creator_autogpt__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__marketplace_experts_47a0db5b-a2ca-4a37-ab02-9f529b5527bf__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__marketplace_experts_47a0db5b-a2ca-4a37-ab02-9f529b5527bf__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__marketplace_search_searchTerm_post__desktop.png | 0 | 6014 | 6014 | 6014 | 0 | 0 | 6014 | 0 | 0 | 0 |
-| app__marketplace_search_searchTerm_post__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__marketplace_skills__desktop.png | 6014 | 6014 | 0 | 6014 | 6014 | 0 | 0 | 0 | 6014 | 0 |
-| app__marketplace_skills__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__marketplace_skills_account-reconciliation__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__marketplace_skills_account-reconciliation__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__reset-password__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__reset-password__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__settings_account__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__settings_account__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__settings_api-keys__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__settings_api-keys__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__settings_integrations__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__settings_integrations__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__settings_profile__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__settings_profile__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__signup__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__signup__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_basics__desktop.png | 0 | 0 | 0 | 6308 | 6308 | 6308 | 0 | 0 | 0 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_basics__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_computer__desktop.png | 6308 | 0 | 0 | 0 | 6308 | 6308 | 6308 | 0 | 0 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_computer__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_files__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_files__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_integrations__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_integrations__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_schedules__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_schedules__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_settings__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_settings__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_skills__desktop.png | 0 | 6308 | 6308 | 6308 | 0 | 0 | 6308 | 0 | 0 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_skills__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_soul__desktop.png | 0 | 6308 | 0 | 6308 | 0 | 6308 | 6308 | 0 | 6308 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_soul__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_workflows__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_workflows__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__team__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__team__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__team_autopilot__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| app__team_autopilot__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--action-buttons__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--action-buttons__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--all-variants__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--all-variants__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--contextual-loading-examples__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--contextual-loading-examples__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--destructive__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--destructive__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--disabled__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--disabled__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--ghost__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--ghost__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--icon-buttons__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--icon-buttons__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--icon-only__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--icon-only__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--large-buttons__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--large-buttons__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--link-variant__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--link-variant__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--loading-ghost__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--loading-ghost__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--loading-link__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--loading-link__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--loading__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--loading__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--outline__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--outline__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--primary__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--primary__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--secondary__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--secondary__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--small-buttons__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--small-buttons__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--toggle-buttons__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--toggle-buttons__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--with-left-icon__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--with-left-icon__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--with-right-icon__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-button--with-right-icon__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-text--all-variants__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-text--all-variants__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-text--body-text__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-text--body-text__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-text--custom-element__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-text--custom-element__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-text--headings__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-text--headings__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-text--playground__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-text--playground__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-text--text-roles__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-text--text-roles__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-text--tones__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__atoms-text--tones__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__marketplace-categorycolors--experts__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__marketplace-categorycolors--experts__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__tokens-border-radius--all-variants__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__tokens-border-radius--all-variants__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__tokens-colors--all-variants__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__tokens-colors--all-variants__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__tokens-colors--roles__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__tokens-colors--roles__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__tokens-icons--all-variants__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__tokens-icons--all-variants__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__tokens-spacing--all-variants__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__tokens-spacing--all-variants__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__tokens-text-tokens--all-tokens__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__tokens-text-tokens--all-tokens__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__tokens-typography--all-variants__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| story__tokens-typography--all-variants__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| capture | run1↔run1 | run1↔run2 | run1↔run3 | run2↔run1 | run2↔run2 | run2↔run3 | run3↔run1 | run3↔run2 | run3↔run3 | run4↔run1 | run4↔run2 | run4↔run3 | min |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| app__build__desktop.png | 1270315 | 1270315 | 1270315 | 1270315 | 1270315 | 1270315 | 432 | 432 | 432 | 0 | 0 | 0 | 0 |
+| app__build__mobile.png | 253335 | 253335 | 253335 | 253335 | 253335 | 253335 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__copilot__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__copilot__mobile.png | 0 | 0 | 0 | 4562 | 4562 | 4562 | 4562 | 4562 | 4562 | 0 | 0 | 0 | 0 |
+| app__home__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__home__mobile.png | 0 | 0 | 4562 | 0 | 0 | 4562 | 0 | 0 | 4562 | 0 | 0 | 4562 | 0 |
+| app__library__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__library__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__login__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__login__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__marketplace__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__marketplace__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__marketplace_agent_autogpt_linkedin-post-generator__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__marketplace_agent_autogpt_linkedin-post-generator__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__marketplace_creator_autogpt__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__marketplace_creator_autogpt__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__marketplace_experts_47a0db5b-a2ca-4a37-ab02-9f529b5527bf__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__marketplace_experts_47a0db5b-a2ca-4a37-ab02-9f529b5527bf__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__marketplace_search_searchTerm_post__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 6014 | 6014 | 6014 | 6014 | 6014 | 6014 | 0 |
+| app__marketplace_search_searchTerm_post__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__marketplace_skills__desktop.png | 6014 | 6014 | 6014 | 0 | 0 | 0 | 0 | 0 | 0 | 6014 | 6014 | 6014 | 0 |
+| app__marketplace_skills__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__marketplace_skills_account-reconciliation__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__marketplace_skills_account-reconciliation__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__reset-password__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__reset-password__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__settings_account__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__settings_account__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__settings_api-keys__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__settings_api-keys__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__settings_integrations__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__settings_integrations__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__settings_profile__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__settings_profile__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__signup__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__signup__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_basics__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_basics__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_computer__desktop.png | 0 | 6308 | 0 | 0 | 6308 | 0 | 0 | 6308 | 0 | 0 | 6308 | 0 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_computer__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_files__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_files__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_integrations__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_integrations__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_schedules__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_schedules__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_settings__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_settings__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_skills__desktop.png | 6308 | 6308 | 0 | 6308 | 6308 | 0 | 6308 | 6308 | 0 | 0 | 0 | 6308 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_skills__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_soul__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_soul__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_workflows__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team_53e83d97-6af2-4c55-a2ed-1a872553082d_tab_workflows__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team_autopilot__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| app__team_autopilot__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--action-buttons__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--action-buttons__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--all-variants__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--all-variants__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--contextual-loading-examples__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--contextual-loading-examples__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--destructive__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--destructive__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--disabled__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--disabled__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--ghost__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--ghost__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--icon-buttons__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--icon-buttons__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--icon-only__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--icon-only__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--large-buttons__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--large-buttons__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--link-variant__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--link-variant__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--loading-ghost__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--loading-ghost__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--loading-link__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--loading-link__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--loading__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--loading__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--outline__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--outline__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--primary__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--primary__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--secondary__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--secondary__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--small-buttons__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--small-buttons__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--toggle-buttons__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--toggle-buttons__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--with-left-icon__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--with-left-icon__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--with-right-icon__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-button--with-right-icon__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-text--all-variants__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-text--all-variants__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-text--body-text__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-text--body-text__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-text--custom-element__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-text--custom-element__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-text--headings__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-text--headings__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-text--playground__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-text--playground__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-text--text-roles__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-text--text-roles__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-text--tones__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__atoms-text--tones__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__marketplace-categorycolors--experts__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__marketplace-categorycolors--experts__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__tokens-border-radius--all-variants__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__tokens-border-radius--all-variants__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__tokens-colors--all-variants__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__tokens-colors--all-variants__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__tokens-colors--roles__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__tokens-colors--roles__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__tokens-icons--all-variants__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__tokens-icons--all-variants__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__tokens-spacing--all-variants__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__tokens-spacing--all-variants__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__tokens-text-tokens--all-tokens__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__tokens-text-tokens--all-tokens__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__tokens-typography--all-variants__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| story__tokens-typography--all-variants__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
