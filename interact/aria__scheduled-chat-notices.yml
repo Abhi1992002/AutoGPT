@@ -1,0 +1,10 @@
+- img
+- paragraph: Paused until your usage resets
+- paragraph: This routine ran out of usage for today. It picks up again when your limit resets.
+- link "View plans":
+  - /url: /settings/billing
+- button "Run less often"
+- button "Resume"
+- img
+- paragraph: Routine resumed
+- paragraph: It runs on its usual schedule again.
