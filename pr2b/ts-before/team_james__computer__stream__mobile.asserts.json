@@ -1,0 +1,22 @@
+[
+ {
+  "name": "visible Interactive Desktop",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible Fullscreen",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible Open in new tab",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible The AI works on this desktop",
+  "pass": true,
+  "got": "visible"
+ }
+]

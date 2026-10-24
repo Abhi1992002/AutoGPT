@@ -1,0 +1,22 @@
+[
+ {
+  "name": "visible Fire James",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible will pause",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible Approvals",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible (default)",
+  "pass": true,
+  "got": "visible"
+ }
+]

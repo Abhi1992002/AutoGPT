@@ -1,0 +1,37 @@
+[
+ {
+  "name": "visible Create schedule",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible css=[data-testid=schedule-row]",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible css=[role=tabpanel] input",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible Scheduled workflow run",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible Workflow",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible css=[role=dialog] dd.font-mono",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "dialog open=true",
+  "pass": true,
+  "got": "1"
+ }
+]

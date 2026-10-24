@@ -1,0 +1,22 @@
+[
+ {
+  "name": "visible Weekly status digest",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible Install workflow",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible css=[role=tabpanel] button:has-text('Run')",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "focused [role=tabpanel] input",
+  "pass": true,
+  "got": "<input class=\"agpt-border-input agpt-shadow-input flex transition-colors file:bo"
+ }
+]

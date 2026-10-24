@@ -1,0 +1,12 @@
+[
+ {
+  "name": "visible weekly-status-digest",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible css=[role=tabpanel] input",
+  "pass": true,
+  "got": "visible"
+ }
+]

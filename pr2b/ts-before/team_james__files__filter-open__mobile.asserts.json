@@ -1,0 +1,22 @@
+[
+ {
+  "name": "visible css=[role=tabpanel] input",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible css=[role=tabpanel] button[aria-label^='Filter files']",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "focus inside menu",
+  "pass": true,
+  "got": "DIV"
+ },
+ {
+  "name": "menu open=true",
+  "pass": true,
+  "got": "1"
+ }
+]

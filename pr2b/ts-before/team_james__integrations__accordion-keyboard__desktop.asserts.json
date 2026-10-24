@@ -1,0 +1,27 @@
+[
+ {
+  "name": "visible OpenAI",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible Add integration",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible Use existing",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "focused [data-slot=accordion-trigger]",
+  "pass": true,
+  "got": "<button type=\"button\" aria-controls=\"radix-_r_1a_\" aria-expanded=\"true\" data-sta"
+ },
+ {
+  "name": "aria-expanded=true",
+  "pass": true,
+  "got": "true"
+ }
+]
