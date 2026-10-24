@@ -1,0 +1,23 @@
+PARITY RefundModal (dialog + select), open, select open, Escape: 3 states, 3021/4071/3021 chars
+✓ src/__tmp_parity/parity.test.tsx > RefundModal (dialog + select), open, select open, Escape 1596ms
+PARITY APIKeysModals (dialog trigger), open, Escape: 3 states, 153/4269/153 chars
+✓ src/__tmp_parity/parity.test.tsx > APIKeysModals (dialog trigger), open, Escape 1694ms
+PARITY ApproveRejectButtons (two dialogs), approve open, Escape, reject open: 4 states, 644/2948/644/3103 chars
+✓ src/__tmp_parity/parity.test.tsx > ApproveRejectButtons (two dialogs), approve open, Escape, reject open 1907ms
+PARITY MCPToolDialog open: 1 states, 1906 chars
+✓ src/__tmp_parity/parity.test.tsx > MCPToolDialog open 802ms
+PARITY AdminAddMoneyButton + RateLimitModal, open, Escape: 5 states, 785/3287/785/3506/785 chars
+✓ src/__tmp_parity/parity.test.tsx > AdminAddMoneyButton + RateLimitModal, open, Escape 2317ms
+PARITY CronScheduler (selects), each select open + Escape: 3 states, 1459/4350/1459 chars
+✓ src/__tmp_parity/parity.test.tsx > CronScheduler (selects), each select open + Escape 1384ms
+PARITY DateInput (legacy calendar month/year selects), popover open, select open: 4 states, 510/10307/14094/10307 chars
+✓ src/__tmp_parity/parity.test.tsx > DateInput (legacy calendar month/year selects), popover open, select open 3510ms
+PARITY atoms/Select field, open, ArrowDown, Escape: 4 states, 1215/2929/2929/1215 chars
+✓ src/__tmp_parity/parity.test.tsx > atoms/Select field, open, ArrowDown, Escape 1830ms
+PARITY molecules/Table (editable and read-only): 2 states, 1331/2066 chars
+✓ src/__tmp_parity/parity.test.tsx > molecules/Table (editable and read-only) 981ms
+PARITY APIKeysSection (table): 1 states, 843 chars
+✓ src/__tmp_parity/parity.test.tsx > APIKeysSection (table) 451ms
+PARITY legacy Sidebar (sheet), open, Escape: 3 states, 876/2730/876 chars
+✓ src/__tmp_parity/parity.test.tsx > legacy Sidebar (sheet), open, Escape 1337ms
+Tests  11 passed (11)
