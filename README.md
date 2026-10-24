@@ -19,4 +19,6 @@ Evidence-only branch. Never merged; not part of any PR branch.
 | `screenshots/sb<commit>-run<n>/` | DS1's harness on Storybook (`tokens-`, `atoms-button--`, `atoms-text--`, 36 stories x 2 viewports), 2 runs per commit |
 | `screenshots/cross-*.md` | exact RGBA diff of every capture for every before-run x after-run pair, min per capture |
 | `screenshots/diff-*` | DS1 `compare` diff images |
+| `screenshots/p1b-run*`, `sbp1b-run1` | #16099's head recaptured after the sandbox VM restarted, the "before" of part 2 |
+| `screenshots/p2-run*`, `sbp2-run*` | part 2's head |
 | `tools/` | every script that produced the above |
