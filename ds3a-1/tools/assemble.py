@@ -119,7 +119,7 @@ def body(k):
                 out.append(f"  - `{name}`: {l.split('|')[-2].strip()} px, {causes.get(name, 'UNEXPLAINED')}")
     out.append(f"- **Determinism (base captured twice):** {DETERMINISM.replace('{TREE}', TREE)}\n")
     if TAKE_NOTE.get(k): out.append(f"- **Retakes:** {TAKE_NOTE[k].replace('{TREE}', TREE)}")
-    out.append(f"- **Keyboard and ARIA** (`keyboard-aria.json`, base vs head): {KB.get(k,'identical')}\n")
+    out.append(f"- **Keyboard and ARIA** (`keyboard-aria.json`, base vs head): {KB.get(k,'identical').replace('{TREE}', TREE)}\n")
     out.append("| capture | base | head | diff (0 px) |\n| --- | --- | --- | --- |")
     shown = ["app__settings_profile__desktop.png", "app__team_autopilot__desktop.png"] + PRS[k].get("shots", [])
     for name in shown:

@@ -60,14 +60,14 @@ PRS = {
  ],
  parity="""| component | used props (default) | ref | DOM tag | role / aria | handlers | old → new |
 | --- | --- | --- | --- | --- | --- | --- |
-| `Calendar` | every DayPicker prop passed through; showOutsideDays (`true`), captionLayout `dropdown`, start 1900-01 / end 2100-01, `components.Chevron`, `components.Dropdown` (legacy `Select`) | none (none before) | DayPicker markup | DayPicker `role="grid"`, `aria-selected`, dropdown `combobox` | DayPicker; dropdown → synthetic `change` event | same code; class strings only (table 2) |
+| `Calendar` | every DayPicker prop passed through; showOutsideDays (`true`), captionLayout `dropdown`, start 1900-01 / end 2100-01, `components.Chevron`, `components.Dropdown` (`atoms/Select`'s `SelectPrimitives`, where DS3a-4 moved the legacy `select`) | none (none before) | DayPicker markup | DayPicker `role="grid"`, `aria-selected`, dropdown `combobox` | DayPicker; dropdown → synthetic `change` event | same code; class strings only (table 2) |
 | `LoadingSpinner variant="circle"` vs legacy `LoadingSpinner` | className (`size-4` / `size-16`) | svg (HugeiconsIcon forwardRef; legacy lucide forwardRef) | svg > path | `aria-hidden="true"` on both | none | presentation attributes move (`stroke`/`stroke-width` also on the path, `width/height="1em"` overridden by the size class, no `lucide` class names); 114 rasterised renders 0 px and 0 aria differences (glyph check) |
 | `LoadingBox` (reset-password fallback) | className `h-[80vh]` | none | div > svg | none | none | same div classes (`flex h-[80vh] items-center justify-center`), spinner `size-16` |
 | `ScrollArea` | className, orientation (`vertical`) | Radix root | Radix ScrollArea | Radix | Radix | identical code |""",
  todos=["`atoms/Calendar`: `text-neutral-500` #737373, `bg-neutral-100` #F5F5F5, `hover:text-neutral-900`/`text-neutral-900` #171717, `bg-neutral-900` #171717, `text-neutral-100` #F5F5F5, `bg-neutral-700` #404040: no exact role; `text-[0.8rem]`: SECRT-3152 rare size",
         "`molecules/ScrollArea`: thumb `bg-neutral-200` #E5E5E5: no exact role"],
  deviations=[
-  f"**Legacy dependency kept inside a design-system file:** `atoms/Calendar`'s month/year dropdown still renders the legacy `Select` (`atoms/Select` looks different). Owner: {LEGACY_DEP}.",
+  "**Calendar dropdown on the select primitives, not the `Select` atom:** `atoms/Calendar`'s month/year dropdown renders `atoms/Select/components/SelectPrimitives` (DS3a-4 #16086 moved the legacy `select` there), as on `dev`; the `atoms/Select` atom itself looks different, so switching to it is a visible change. Owner: SECRT-3112 follow-up.",
   "**Glyphs that are not Hugeicons, kept for 0 px:** the circle spinner ring (lucide `loader-circle` path, drawn through the `Icon` atom) and `atoms/Calendar`'s `@radix-ui/react-icons` chevrons. Swapping either for a Hugeicons glyph is a visible change and a design decision. Owner: SECRT-3112 follow-up / design.",
   "**Not capturable in this sandbox (covered by the glyph check and the parity table):** the MCP tool dialog (needs a reachable MCP server), `NodeExecutionBadge`'s running state and `ViewMoreData` (need an executor run), and the reset-password Suspense fallback (shows only while the page suspends).",
   "**New design-system components without a story:** `atoms/Calendar`, `molecules/ScrollArea` (the calendar is captured open through the FormRenderer date stories).",
@@ -81,7 +81,7 @@ PRS = {
  prims="`multiselect`, `command`",
  why="`command`'s only importer was the legacy `multiselect`; both go together.",
  what="""- `multiselect` becomes `molecules/MultiSelect` (same code); its test moves with it.
-- The four cmdk pieces it uses (`Command`, `CommandList`, `CommandEmpty`, `CommandItem`) move beside it as `molecules/MultiSelect/components/Command.tsx`, an implementation detail. `CommandDialog` (which pulled in the legacy `dialog`), `CommandInput`, `CommandGroup`, `CommandSeparator` and `CommandShortcut` had no importer and are not carried over.
+- The four cmdk pieces it uses (`Command`, `CommandList`, `CommandEmpty`, `CommandItem`) move beside it as `molecules/MultiSelect/components/Command.tsx`, an implementation detail. `CommandDialog` (which pulled in the dialog primitives), `CommandInput`, `CommandGroup`, `CommandSeparator` and `CommandShortcut` had no importer and are not carried over.
 - `text-sm` → `text-body leading-5`, `text-xs` → `text-caption leading-4` (same values), `bg-white` → `bg-surface`, dead `dark:` classes dropped.
 - The renderer widgets and their test mocks import the molecule. The two legacy files are deleted.""",
  importers=[
@@ -102,7 +102,7 @@ PRS = {
   "**Glyphs that are not Hugeicons, kept for 0 px:** lucide `X` and `Check` in the multiselect. Owner: SECRT-3112 follow-up / design.",
   "**Rule 13 pair for SECRT-3154:** `text-neutral-950` #0A0A0A ↔ role `focus` (ring kind).",
  ],
- improved=["The multiselect is a molecule and the legacy `command` primitive is gone, with it five unused cmdk wrappers and a dependency on the legacy `dialog`.",
+ improved=["The multiselect is a molecule and the legacy `command` primitive is gone, with it five unused cmdk wrappers and a dependency on the dialog primitives.",
            "The multiselect's test now lives with the molecule it tests."],
 ),
 4: dict(
@@ -248,3 +248,7 @@ for _k, _v in DATASLOT.items():
         PRS[_k]["deviations"] = PRS[_k]["deviations"] + [_v]
 
 PRS[1]["what"] = PRS[1]["what"] + "\n- Every element the two new molecules render carries a DS7-2 `data-slot`, and `molecules/Collapsible` keeps its six (see Deviations)."
+
+PRS[2]["what"] = PRS[2]["what"] + "\n- The new atom and molecule carry DS7 `data-slot`s on every element they render, and `LoadingSpinner` keeps DS7-1's (see Deviations)."
+
+PRS[3]["what"] = PRS[3]["what"] + "\n- Every element `molecules/MultiSelect` and its `Command` parts render carries a DS7-2 `data-slot` (see Deviations)."
