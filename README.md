@@ -21,4 +21,7 @@ Evidence-only branch. Never merged; not part of any PR branch.
 | `screenshots/diff-*` | DS1 `compare` diff images |
 | `screenshots/p1b-run*`, `sbp1b-run1` | #16099's head recaptured after the sandbox VM restarted, the "before" of part 2 |
 | `screenshots/p2-run*`, `sbp2-run*` | part 2's head |
+| `screenshots/b2-run*`, `q1-run*`, `q2-run*` | second session (after the VM restart): base `995df0dee`, #16099 `0d59f5c2d`, #16103 `0a3a2b585` |
+| `screenshots/tb-run*`, `tq1-run*`, `tq2-run*` | all 20 tutorial steps x 2 viewports, base / #16099 / #16103 (`tools/capture-tutorial.mts`) |
+| `rule15-pr1.txt`, `rule15-pr2.txt` | the rule-15 grep over every file each PR touches |
 | `tools/` | every script that produced the above |

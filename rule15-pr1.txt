@@ -1,0 +1,2 @@
+autogpt_platform/frontend/src/app/globals.css:275:[data-profile-tabs] [role="tabpanel"] .text-sm,
+autogpt_platform/frontend/src/app/globals.css:277:[data-profile-tabs] [role="tabpanel"] [class*="text-[0.875rem]"] {

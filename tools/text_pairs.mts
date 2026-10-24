@@ -55,7 +55,9 @@ const effective = (e: El) => {
 const pairs: { file: string; old: string; new: string; tag: string; variant?: string; line: number }[] = [];
 let mismatch = 0;
 for (const f of files) {
-  const a = elements(execSync(`git show "${base}:${f}"`, { cwd: ROOT }).toString(), f);
+  let baseSrc: string;
+  try { baseSrc = execSync(`git show "${base}:${f}"`, { cwd: ROOT, stdio: ["pipe", "pipe", "ignore"] }).toString(); } catch { continue; }
+  const a = elements(baseSrc, f);
   const b = elements(execSync(`git show "${head}:${f}"`, { cwd: ROOT }).toString(), f);
   if (a.length !== b.length) { mismatch++; console.log(`ELEMENT COUNT DIFFERS ${f}: ${a.length} vs ${b.length}`); continue; }
   a.forEach((x, i) => {

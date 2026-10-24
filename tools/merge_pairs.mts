@@ -5,6 +5,24 @@ import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 const { buildReplacementMap, buildSizeMap, rewriteClassList } = await import(join(process.cwd(), "scripts/codemod-tokens.ts"));
 const map = buildReplacementMap(), size = buildSizeMap();
+// The hand size migration (sizes_to_roles.py), same rules.
+const SIZES: Record<string, [string, string | null, string]> = {
+  "text-xs": ["text-caption", "leading-4", "leading-4.5"],
+  "text-sm": ["text-body", "leading-5", "leading-5.5"],
+  "text-base": ["text-body-lg", "leading-6", "leading-6.5"],
+  "text-xl": ["text-lead", null, "leading-7"],
+};
+function roles(list: string) {
+  const w = list.split(/\s+/).filter(Boolean);
+  const i = w.findIndex((x) => x in SIZES);
+  if (i < 0) return list;
+  const [role, own, absorbed] = SIZES[w[i]];
+  const leads = w.map((x, j) => (x.startsWith("leading-") ? j : -1)).filter((j) => j >= 0);
+  if (!leads.length) w[i] = own ? `${role} ${own}` : role;
+  else if (leads.length === 1 && w[leads[0]] === absorbed) { w[i] = role; w.splice(leads[0], 1); }
+  else w[i] = role;
+  return w.join(" ");
+}
 const [pairsFile, textFile, out] = process.argv.slice(2);
 const d = JSON.parse(readFileSync(pairsFile, "utf8"));
 const t = JSON.parse(readFileSync(textFile, "utf8"));
@@ -32,7 +50,7 @@ for (const u of d.unpaired) {
   const news = [...u.new];
   for (const o of u.old) {
     const noDark = o.split(/\s+/).filter((w: string) => !w.startsWith("dark:")).join(" ");
-    const cm = rewriteClassList(noDark, map, size).output;
+    const cm = roles(rewriteClassList(noDark, map, size).output);
     const k = news.indexOf(cm);
     if (k >= 0) { pairs.push({ file: u.file.replace("autogpt_platform/frontend/", ""), old: o, new: cm, tag: null }); news.splice(k, 1); resolved++; continue; }
     if (noDark === "") { pairs.push({ file: u.file, old: o, new: "(removed)", tag: null }); removedDark++; continue; }

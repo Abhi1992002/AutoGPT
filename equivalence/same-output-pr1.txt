@@ -13,6 +13,7 @@ HUNK build/components/FlowEditor/nodes/CustomNode/components/NodeContextMenu.tsx
 HUNK build/components/FlowEditor/nodes/CustomNode/components/NodeContextMenu.tsx
   - { className : "dark:text-red-400" }
   + null
+NEW FILE autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeOutput/components/__tests__/ContentRenderer.test.tsx
 HUNK build/components/FlowEditor/nodes/CustomNode/components/NodeRightClickMenu.tsx
   - { className : "dark:text-gray-100" }
   + null
@@ -115,4 +116,4 @@ HUNK build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphConte
 HUNK build/components/ReadOnlyBanner/ReadOnlyBanner.tsx
   - className : "px-2 text-zinc-700"
   + tone : "body" , className : "px-2"
-63 files compiled; 209 string-literal hunks (class strings); 14 Text-atom hunks; 39 other hunks
+64 files compiled; 235 string-literal hunks (class strings); 14 Text-atom hunks; 39 other hunks
