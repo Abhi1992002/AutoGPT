@@ -1,0 +1,118 @@
+HUNK build/components/BuilderChatPanel/BuilderChatPanel.tsx
+  - "bg-slate-800 text-white hover:bg-slate-700" : "border border-slate-200 bg-white text-slate-700 hover:bg-slate-50"
+  + "bg-slate-800 text-action-foreground hover:bg-slate-700" : "border border-slate-200 bg-surface text-slate-700 hover:bg-slate-50"
+HUNK build/components/FloatingSafeModeToogle.tsx
+  - className : "text-zinc-600"
+  + tone : "secondary"
+HUNK build/components/FlowEditor/nodes/CustomNode/components/NodeContextMenu.tsx
+  - { className : "dark:text-gray-100" }
+  + null
+HUNK build/components/FlowEditor/nodes/CustomNode/components/NodeContextMenu.tsx
+  - { className : "dark:text-gray-100" }
+  + null
+HUNK build/components/FlowEditor/nodes/CustomNode/components/NodeContextMenu.tsx
+  - { className : "dark:text-red-400" }
+  + null
+HUNK build/components/FlowEditor/nodes/CustomNode/components/NodeRightClickMenu.tsx
+  - { className : "dark:text-gray-100" }
+  + null
+HUNK build/components/FlowEditor/nodes/CustomNode/components/NodeRightClickMenu.tsx
+  - { className : "dark:text-gray-100" }
+  + null
+HUNK build/components/FlowEditor/nodes/CustomNode/components/NodeRightClickMenu.tsx
+  - { className : "dark:text-red-400" }
+  + null
+HUNK build/components/MobileWarning/MobileWarning.tsx
+  - className : "text-zinc-700"
+  + tone : "body"
+HUNK build/components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx
+  - "h-[1px] w-full text-zinc-300" }
+  + "h-[1px] w-full text-foreground-disabled" } )
+HUNK build/components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx
+  - "p" , { className : "font-sans text-sm font-medium leading-[1.375rem] text-zinc-800"
+  + Text , { variant : "body-medium" , tone : "emphasis"
+HUNK build/components/NewControlPanel/NewBlockMenu/Block.tsx
+  - "span" , {
+  + Text , { variant : "body-medium" , as : "span" , tone : "emphasis" ,
+HUNK build/components/NewControlPanel/NewBlockMenu/Block.tsx
+  - "span" , {
+  + Text , { variant : "small" , as : "span" , tone : "muted" ,
+HUNK build/components/NewControlPanel/NewBlockMenu/FilterChip.tsx
+  - "span" , {
+  + Text , { variant : "body-medium" , as : "span" , tone : "secondary" ,
+HUNK build/components/NewControlPanel/NewBlockMenu/Integration.tsx
+  - "p" , { className : "line-clamp-1 flex-1 font-sans text-sm font-medium leading-[1.375rem] text-zinc-700 group-disabled:text-zinc-400"
+  + Text , { variant : "body-medium" , tone : "body" , className : "line-clamp-1 flex-1 group-disabled:text-foreground-subtle"
+HUNK build/components/NewControlPanel/NewBlockMenu/Integration.tsx
+  - "span" , { className : "line-clamp-1 font-sans text-xs font-normal leading-5 text-zinc-500 group-disabled:text-zinc-400"
+  + Text , { variant : "small" , as : "span" , tone : "muted" , className : "line-clamp-1 leading-5 group-disabled:text-foreground-subtle"
+HUNK build/components/NewControlPanel/NewBlockMenu/IntegrationBlocks/IntegrationBlocks.tsx
+  - "p" , { className : "font-sans text-sm font-medium leading-[1.375rem] text-zinc-800"
+  + Text , { variant : "body-medium" , tone : "emphasis"
+HUNK build/components/NewControlPanel/NewBlockMenu/IntegrationBlocks/IntegrationBlocks.tsx
+  - "p" , { className : "font-sans text-sm font-medium leading-[1.375rem] text-zinc-800"
+  + Text , { variant : "body-medium" , tone : "emphasis"
+HUNK build/components/NewControlPanel/NewBlockMenu/IntegrationChip.tsx
+  - "span" , { className : "truncate font-sans text-sm font-normal leading-[1.375rem] text-zinc-800"
+  + Text , { variant : "body" , as : "span" , tone : "emphasis" , className : "truncate"
+HUNK build/components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx
+  - "span" , {
+  + Text , { variant : "body-medium" , as : "span" , tone : "emphasis" ,
+HUNK build/components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx
+  - "span" , {
+  + Text , { variant : "small" , as : "span" , tone : "muted" ,
+HUNK build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx
+  - "span" , {
+  + Text , { variant : "body-medium" , as : "span" , tone : "emphasis" ,
+HUNK build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx
+  - "span" , {
+  + Text , { variant : "small" , as : "span" , tone : "muted" ,
+HUNK build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx
+  - "span" , {
+  + Text , { variant : "small" , as : "span" , tone : "muted" ,
+HUNK build/components/NewControlPanel/NewBlockMenu/MenuItem.tsx
+  - "span" , { className : "truncate font-sans text-sm font-medium leading-[1.375rem] text-zinc-800"
+  + Text , { variant : "body-medium" , as : "span" , tone : "emphasis" , className : "truncate"
+HUNK build/components/NewControlPanel/NewBlockMenu/MenuItem.tsx
+  - "span" , { className : "font-sans text-sm font-normal leading-[1.375rem] text-zinc-600"
+  + Text , { variant : "body" , as : "span" , tone : "secondary"
+HUNK build/components/NewControlPanel/NewBlockMenu/NoSearchResult.tsx
+  - "p" , { className : "font-sans text-sm font-medium leading-[1.375rem] text-zinc-800"
+  + Text , { variant : "body-medium" , tone : "emphasis"
+HUNK build/components/NewControlPanel/NewBlockMenu/NoSearchResult.tsx
+  - "p" , { className : "font-sans text-sm font-normal leading-[1.375rem] text-zinc-600"
+  + Text , { variant : "body" , tone : "secondary"
+HUNK build/components/NewControlPanel/NewBlockMenu/SearchHistoryChip.tsx
+  - "span" , { className : "font-sans text-sm font-normal leading-[1.375rem] text-zinc-800"
+  + Text , { variant : "body" , as : "span" , tone : "emphasis"
+HUNK build/components/NewControlPanel/NewBlockMenu/SuggestionContent/SuggestionContent.tsx
+  - "p" , { className : "font-sans text-sm font-medium leading-[1.375rem] text-zinc-800"
+  + Text , { variant : "body-medium" , tone : "emphasis"
+HUNK build/components/NewControlPanel/NewBlockMenu/SuggestionContent/SuggestionContent.tsx
+  - "p" , { className : "font-sans text-sm font-medium leading-[1.375rem] text-zinc-800"
+  + Text , { variant : "body-medium" , tone : "emphasis"
+HUNK build/components/NewControlPanel/NewBlockMenu/SuggestionContent/SuggestionContent.tsx
+  - "p" , { className : "font-sans text-sm font-medium leading-[1.375rem] text-zinc-800"
+  + Text , { variant : "body-medium" , tone : "emphasis"
+HUNK build/components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx
+  - "span" , {
+  + Text , { variant : "body-medium" , as : "span" , tone : "emphasis" ,
+HUNK build/components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx
+  - "span" , {
+  + Text , { variant : "small" , as : "span" , tone : "muted" ,
+HUNK build/components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx
+  - "span" , {
+  + Text , { variant : "small" , as : "span" , tone : "muted" ,
+HUNK build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx
+  - "bg-zinc-100 ring-1 ring-zinc-300" : "hover:bg-zinc-100"
+  + "bg-surface-hover ring-1 ring-border-strong" : "hover:bg-surface-hover"
+HUNK build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx
+  - "span" , { className : "line-clamp-1 font-sans text-sm font-medium leading-[1.375rem] text-zinc-800"
+  + Text , { variant : "body-medium" , as : "span" , tone : "emphasis" , className : "line-clamp-1"
+HUNK build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx
+  - "span" , { className : "line-clamp-1 font-sans text-xs font-normal leading-5 text-zinc-500"
+  + Text , { variant : "small" , as : "span" , tone : "muted" , className : "line-clamp-1 leading-5"
+HUNK build/components/ReadOnlyBanner/ReadOnlyBanner.tsx
+  - className : "px-2 text-zinc-700"
+  + tone : "body" , className : "px-2"
+63 files compiled; 209 string-literal hunks (class strings); 14 Text-atom hunks; 39 other hunks

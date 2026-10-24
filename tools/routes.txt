@@ -1,0 +1,1 @@
+/login,/signup,/reset-password,/marketplace,/library,/home,/copilot,/team,/team/autopilot,/build,/settings/profile,/settings/account,/settings/api-keys,/settings/integrations,/build?flowID=fb6139fc-fa1c-4e42-a41a-28dbd2462089
