@@ -1,0 +1,556 @@
+{
+ "build-blockmenu-open desktop": {
+  "aria": "- link \"AutoGPT\":\n  - /url: /home\n  - img \"AutoGPT Logo\"\n- button \"Search\":\n  - img\n- list:\n  - listitem:\n    - link \"Home\":\n      - /url: /home\n      - img\n      - text: Home\n  - listitem:\n    - link \"Marketplace\":\n      - /url: /marketplace\n      - img\n      - text: Marketplace\n  - listitem:\n    - link \"Build\":\n      - /url: /build\n      - img\n      - text: Build\n- list:\n  - listitem:\n    - link \"Team\":\n      - /url: /team\n      - img\n      - text: Team\n  - listitem:\n    - link \"Files\":\n      - /url: /artifacts\n      - img\n      - text: Files\n- list:\n  - listitem:\n    - button \"Chats\":\n      - img\n      - text: Chats\n- button \"Open profile menu\"\n- button \"Toggle Sidebar\"\n- dialog \"What's new\":\n  - img\n  - paragraph: What's new\n  - paragraph: October 8 – October 14\n  - button \"Dismiss changelog\":\n    - img\n  - list:\n    - listitem:\n      - paragraph: Redesigned wallet\n    - listitem:\n      - paragraph: Trial cancel keeps access\n    - listitem:\n      - paragraph: Verified email at signup\n  - link \"View changelog\":\n    - /url: https://agpt.co/docs/platform/changelog/changelog/october-8-october-14-2026\n    - text: View changelog\n    - img\n- main:\n  - application:\n    - img\n    - button \"Zoom In\":\n      - img\n      - text: Zoom In\n    - button \"Zoom Out\":\n      - img\n      - text: Zoom Out\n    - button \"Start Tutorial\":\n      - img\n      - text: Start Tutorial\n    - button \"Fit View\":\n      - img\n      - text: Fit View\n    - button \"Toggle Lock\"\n    - button [expanded]:\n      - button:\n        - img\n    - button:\n      - img\n    - button:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - link \"React Flow attribution\":\n      - /url: https://reactflow.dev\n      - text: React Flow\n  - button \"Chat with builder\":\n    - img\n- region \"Notifications alt+T\"\n- alert\n- dialog:\n  - img\n  - textbox \"Blocks, Workflows, Integrations or Keywords...\"\n  - button \"Suggestion\"\n  - button \"All blocks 100+\"\n  - button \"Input blocks 25\"\n  - button \"Action blocks 100+\"\n  - button \"Output blocks 1\"\n  - button \"Integrations 100+\"\n  - button \"Marketplace Workflows 17\"\n  - button \"My Workflows 0\"\n  - paragraph: Integrations\n  - button \"integration-icon Twitter\":\n    - img \"integration-icon\"\n    - text: Twitter\n  - button \"integration-icon Github\":\n    - img \"integration-icon\"\n    - text: Github\n  - button \"integration-icon Notion\":\n    - img \"integration-icon\"\n    - text: Notion\n  - button \"integration-icon Google\":\n    - img \"integration-icon\"\n    - text: Google\n  - button \"integration-icon Discord\":\n    - img \"integration-icon\"\n    - text: Discord\n  - button \"integration-icon Google Maps\":\n    - img \"integration-icon\"\n    - text: Google Maps\n  - paragraph: Top blocks\n  - button \"AI Image Customizer Generate and edit custom images using Google's Nano-Banana models from Gemini. Provide a prompt and optional reference images to create or modify images.\":\n    - text: AI Image Customizer Generate and edit custom images using Google's Nano-Banana models from Gemini. Provide a prompt and optional reference images to create or modify images.\n    - img\n  - button \"AI Image Generator Generate images using various AI models through a unified interface\":\n    - text: AI Image Generator Generate images using various AI models through a unified interface\n    - img\n  - button \"AI Music Generator This block generates music using Meta's MusicGen model on Replicate.\":\n    - text: AI Music Generator This block generates music using Meta's MusicGen model on Replicate.\n    - img\n  - button \"Search Organizations Search for organizations in Apollo\":\n    - text: Search Organizations Search for organizations in Apollo\n    - img\n  - button \"Search People Search for people in Apollo\":\n    - text: Search People Search for people in Apollo\n    - img"
+ },
+ "build-savecontrol-open desktop": {
+  "aria": "- link \"AutoGPT\":\n  - /url: /home\n  - img \"AutoGPT Logo\"\n- button \"Search\":\n  - img\n- list:\n  - listitem:\n    - link \"Home\":\n      - /url: /home\n      - img\n      - text: Home\n  - listitem:\n    - link \"Marketplace\":\n      - /url: /marketplace\n      - img\n      - text: Marketplace\n  - listitem:\n    - link \"Build\":\n      - /url: /build\n      - img\n      - text: Build\n- list:\n  - listitem:\n    - link \"Team\":\n      - /url: /team\n      - img\n      - text: Team\n  - listitem:\n    - link \"Files\":\n      - /url: /artifacts\n      - img\n      - text: Files\n- list:\n  - listitem:\n    - button \"Chats\":\n      - img\n      - text: Chats\n- button \"Open profile menu\"\n- button \"Toggle Sidebar\"\n- dialog \"What's new\":\n  - img\n  - paragraph: What's new\n  - paragraph: October 8 – October 14\n  - button \"Dismiss changelog\":\n    - img\n  - list:\n    - listitem:\n      - paragraph: Redesigned wallet\n    - listitem:\n      - paragraph: Trial cancel keeps access\n    - listitem:\n      - paragraph: Verified email at signup\n  - link \"View changelog\":\n    - /url: https://agpt.co/docs/platform/changelog/changelog/october-8-october-14-2026\n    - text: View changelog\n    - img\n- main:\n  - application:\n    - img\n    - button \"Zoom In\":\n      - img\n      - text: Zoom In\n    - button \"Zoom Out\":\n      - img\n      - text: Zoom Out\n    - button \"Start Tutorial\":\n      - img\n      - text: Start Tutorial\n    - button \"Fit View\":\n      - img\n      - text: Fit View\n    - button \"Toggle Lock\"\n    - button:\n      - button:\n        - img\n    - button:\n      - img\n    - button [expanded]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - link \"React Flow attribution\":\n      - /url: https://reactflow.dev\n      - text: React Flow\n  - button \"Chat with builder\":\n    - img\n- region \"Notifications alt+T\"\n- alert\n- dialog:\n  - text: Name\n  - textbox \"Name\":\n    - /placeholder: Enter your workflow name\n  - text: Description\n  - textbox \"Description\":\n    - /placeholder: Your workflow description\n  - button \"Save Workflow\""
+ },
+ "build-agentoutputs-open desktop": {
+  "aria": "- link \"AutoGPT\":\n  - /url: /home\n  - img \"AutoGPT Logo\"\n- button \"Search\":\n  - img\n- list:\n  - listitem:\n    - link \"Home\":\n      - /url: /home\n      - img\n      - text: Home\n  - listitem:\n    - link \"Marketplace\":\n      - /url: /marketplace\n      - img\n      - text: Marketplace\n  - listitem:\n    - link \"Build\":\n      - /url: /build\n      - img\n      - text: Build\n- list:\n  - listitem:\n    - link \"Team\":\n      - /url: /team\n      - img\n      - text: Team\n  - listitem:\n    - link \"Files\":\n      - /url: /artifacts\n      - img\n      - text: Files\n- list:\n  - listitem:\n    - button \"Chats\":\n      - img\n      - text: Chats\n- button \"Open profile menu\"\n- button \"Toggle Sidebar\"\n- dialog \"What's new\":\n  - img\n  - paragraph: What's new\n  - paragraph: October 8 – October 14\n  - button \"Dismiss changelog\":\n    - img\n  - list:\n    - listitem:\n      - paragraph: Redesigned wallet\n    - listitem:\n      - paragraph: Trial cancel keeps access\n    - listitem:\n      - paragraph: Verified email at signup\n  - link \"View changelog\":\n    - /url: https://agpt.co/docs/platform/changelog/changelog/october-8-october-14-2026\n    - text: View changelog\n    - img\n- main:\n  - application:\n    - img\n    - button \"Zoom In\":\n      - img\n      - text: Zoom In\n    - button \"Zoom Out\":\n      - img\n      - text: Zoom Out\n    - button \"Start Tutorial\":\n      - img\n      - text: Start Tutorial\n    - button \"Fit View\":\n      - img\n      - text: Fit View\n    - button \"Toggle Lock\"\n    - button:\n      - button:\n        - img\n    - button:\n      - img\n    - button:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - link \"React Flow attribution\":\n      - /url: https://reactflow.dev\n      - text: React Flow\n  - button \"Chat with builder\":\n    - img\n- region \"Notifications alt+T\"\n- alert"
+ },
+ "admin-diagnostics desktop": {
+  "aria": "- main:\n  - complementary:\n    - link \"Back to home\":\n      - /url: /copilot\n      - img\n      - text: Back\n    - navigation:\n      - link \"Users\":\n        - /url: /admin/users\n        - img\n        - text: Users\n      - link \"Marketplace Management\":\n        - /url: /admin/marketplace\n        - img\n        - text: Marketplace Management\n      - link \"User Spending\":\n        - /url: /admin/spending\n        - img\n        - text: User Spending\n      - link \"System Diagnostics\":\n        - /url: /admin/diagnostics\n        - img\n        - text: System Diagnostics\n      - link \"Platform Costs\":\n        - /url: /admin/platform-costs\n        - img\n        - text: Platform Costs\n      - link \"Execution Analytics\":\n        - /url: /admin/execution-analytics\n        - img\n        - text: Execution Analytics\n      - link \"Bot Analytics\":\n        - /url: /admin/bots\n        - img\n        - text: Bot Analytics\n      - link \"Block Cost Estimates\":\n        - /url: /admin/block-cost-estimates\n        - img\n        - text: Block Cost Estimates\n      - link \"Memory Inspector\":\n        - /url: /admin/memory\n        - img\n        - text: Memory Inspector\n      - link \"Admin settings\":\n        - /url: /admin/settings\n        - img\n        - text: Admin settings\n      - link \"Test Data\":\n        - /url: /admin/test-data\n        - img\n        - text: Test Data\n  - main:\n    - heading \"System Diagnostics\" [level=1]\n    - paragraph: Monitor execution and agent system health\n    - button \"Refresh\" [disabled]:\n      - img\n      - text: Refresh\n    - heading \"Execution Queue Status\" [level=3]\n    - paragraph: Current execution and queue metrics\n    - paragraph: Running Executions\n    - paragraph: \"0\"\n    - paragraph: Queued in Database\n    - paragraph: \"0\"\n    - paragraph: Queued in RabbitMQ\n    - paragraph: \"0\"\n    - text: \"Last updated: 10/24/2026, 11:17:58 AM\"\n    - heading \"System Throughput\" [level=3]\n    - paragraph: Execution completion and processing rates\n    - paragraph: Completed (24h)\n    - paragraph: \"3295\"\n    - paragraph: 0 in last hour\n    - paragraph: Throughput Rate\n    - paragraph: \"137.3\"\n    - paragraph: completions per hour\n    - paragraph: Cancel Queue Depth\n    - paragraph: \"0\"\n    - text: \"Last updated: 10/24/2026, 11:17:58 AM\"\n    - heading \"Schedules\" [level=3]\n    - paragraph: Scheduled agent executions and health\n    - paragraph: No data available\n    - heading \"Diagnostic Information\" [level=3]\n    - paragraph: Understanding metrics and tabs for on-call diagnostics\n    - paragraph: \"🟠 Orphaned Executions:\"\n    - paragraph: Executions >24h old in database but not actually running in executor. Usually from executor restarts/crashes. Safe to cleanup (marks as FAILED in DB).\n    - paragraph: \"🔵 Stuck Queued Executions:\"\n    - paragraph: QUEUED >1h but never started. Not in RabbitMQ queue. Can cleanup (safe) or requeue (⚠️ costs credits - only if temporary issue like RabbitMQ purge).\n    - paragraph: \"🟡 Long-Running Executions:\"\n    - paragraph: RUNNING status >24h. May be legitimately long jobs or stuck. Review before stopping. Sends cancel signal to executor.\n    - paragraph: \"🔴 Failed Executions:\"\n    - paragraph: Executions that failed in last 24h. View error messages to identify patterns. Spike in failures indicates system issues.\n    - paragraph: \"🩷 Invalid States (Data Corruption):\"\n    - paragraph: Executions in impossible states (QUEUED with startedAt, RUNNING without startedAt). Indicates DB corruption, race conditions, or crashes. Each requires manual investigation - no bulk actions provided.\n    - paragraph: \"Throughput Metrics:\"\n    - paragraph: Completions per hour shows system productivity. Declining throughput indicates performance degradation or executor issues.\n    - paragraph: \"Queue Health:\"\n    - paragraph: RabbitMQ depths should be low (<100). High queues indicate executor can't keep up. Cancel queue backlog indicates executor processing issues.\n    - heading \"Executions\" [level=3]\n    - button:\n      - img\n    - tablist:\n      - tab \"All (0)\" [selected]\n      - tab \"Orphaned (0)\"\n      - tab \"Stuck Queued (0)\"\n      - tab \"Long-Running (0)\"\n      - tab \"Failed (0)\"\n      - tab \"Invalid States (0)\"\n    - tabpanel \"All (0)\": No running executions\n    - heading \"Schedules\" [level=3]\n    - button [disabled]:\n      - img\n    - tablist:\n      - tab \"All Schedules\" [selected]\n      - tab \"Orphaned\"\n    - tabpanel \"All Schedules\":\n      - img\n- region \"Notifications alt+T\"\n- alert"
+ },
+ "login-error-help desktop": {
+  "aria": "- complementary:\n  - img \"AutoGPT Logo\"\n  - heading \"Welcome back\" [level=1]\n  - paragraph: Pick up where you left off. Your experts are waiting.\n  - paragraph: What's new\n  - list:\n    - listitem:\n      - img\n      - paragraph: New memory upgrades\n      - paragraph: Smarter experts with longer context windows.\n    - listitem:\n      - img\n      - paragraph: Marketplace update\n      - paragraph: Discover workflows shared by the community.\n    - listitem:\n      - img\n      - paragraph: Performance boost\n      - paragraph: Faster runs and reduced latency.\n  - paragraph: Connects with the tools you already use\n  - list:\n    - listitem:\n      - img \"GitHub\"\n    - listitem:\n      - img \"Google\"\n    - listitem:\n      - img \"Notion\"\n    - listitem:\n      - img \"Slack\"\n    - listitem:\n      - img \"HubSpot\"\n    - listitem:\n      - img \"Linear\"\n    - listitem:\n      - img \"Airtable\"\n    - listitem:\n      - img \"Discord\"\n- heading \"Log in to your account to continue\" [level=1]\n- text: Email\n- textbox \"Email\":\n  - /placeholder: name@company.com\n  - text: nobody-evidence@example.com\n- text: Password\n- link \"Forgot password?\":\n  - /url: /reset-password\n- textbox \"Password\":\n  - /placeholder: Enter your password\n  - text: wrong-password-123\n- button \"Show password\":\n  - img\n- button \"Log in\"\n- paragraph: Don't have an account?\n- link \"Sign up\":\n  - /url: /signup\n- region \"Notifications alt+T\":\n  - list:\n    - listitem:\n      - button \"Close toast\":\n        - img\n      - text: Invalid email or password\n- alert"
+ },
+ "story-datefield-open desktop": {
+  "aria": "- paragraph: Start Date\n- paragraph\n- paragraph: (date)\n- button \"Start Date\" [expanded]: Pick a date\n- dialog:\n  - combobox: January\n  - combobox: \"2026\"\n  - status: January 2026\n  - grid \"January 2026\":\n    - rowgroup:\n      - row \"Sunday, December 28th, 2025 Monday, December 29th, 2025 Tuesday, December 30th, 2025 Wednesday, December 31st, 2025 Thursday, January 1st, 2026 Friday, January 2nd, 2026 Saturday, January 3rd, 2026\":\n        - gridcell \"Sunday, December 28th, 2025\":\n          - button \"Sunday, December 28th, 2025\": \"28\"\n        - gridcell \"Monday, December 29th, 2025\":\n          - button \"Monday, December 29th, 2025\": \"29\"\n        - gridcell \"Tuesday, December 30th, 2025\":\n          - button \"Tuesday, December 30th, 2025\": \"30\"\n        - gridcell \"Wednesday, December 31st, 2025\":\n          - button \"Wednesday, December 31st, 2025\": \"31\"\n        - gridcell \"Thursday, January 1st, 2026\":\n          - button \"Thursday, January 1st, 2026\": \"1\"\n        - gridcell \"Friday, January 2nd, 2026\":\n          - button \"Friday, January 2nd, 2026\": \"2\"\n        - gridcell \"Saturday, January 3rd, 2026\":\n          - button \"Saturday, January 3rd, 2026\": \"3\"\n      - row \"Sunday, January 4th, 2026 Monday, January 5th, 2026 Tuesday, January 6th, 2026 Wednesday, January 7th, 2026 Thursday, January 8th, 2026 Friday, January 9th, 2026 Saturday, January 10th, 2026\":\n        - gridcell \"Sunday, January 4th, 2026\":\n          - button \"Sunday, January 4th, 2026\": \"4\"\n        - gridcell \"Monday, January 5th, 2026\":\n          - button \"Monday, January 5th, 2026\": \"5\"\n        - gridcell \"Tuesday, January 6th, 2026\":\n          - button \"Tuesday, January 6th, 2026\": \"6\"\n        - gridcell \"Wednesday, January 7th, 2026\":\n          - button \"Wednesday, January 7th, 2026\": \"7\"\n        - gridcell \"Thursday, January 8th, 2026\":\n          - button \"Thursday, January 8th, 2026\": \"8\"\n        - gridcell \"Friday, January 9th, 2026\":\n          - button \"Friday, January 9th, 2026\": \"9\"\n        - gridcell \"Saturday, January 10th, 2026\":\n          - button \"Saturday, January 10th, 2026\": \"10\"\n      - row \"Sunday, January 11th, 2026 Monday, January 12th, 2026 Tuesday, January 13th, 2026 Wednesday, January 14th, 2026 Today, Thursday, January 15th, 2026 Friday, January 16th, 2026 Saturday, January 17th, 2026\":\n        - gridcell \"Sunday, January 11th, 2026\":\n          - button \"Sunday, January 11th, 2026\": \"11\"\n        - gridcell \"Monday, January 12th, 2026\":\n          - button \"Monday, January 12th, 2026\": \"12\"\n        - gridcell \"Tuesday, January 13th, 2026\":\n          - button \"Tuesday, January 13th, 2026\": \"13\"\n        - gridcell \"Wednesday, January 14th, 2026\":\n          - button \"Wednesday, January 14th, 2026\": \"14\"\n        - gridcell \"Today, Thursday, January 15th, 2026\":\n          - button \"Today, Thursday, January 15th, 2026\": \"15\"\n        - gridcell \"Friday, January 16th, 2026\":\n          - button \"Friday, January 16th, 2026\": \"16\"\n        - gridcell \"Saturday, January 17th, 2026\":\n          - button \"Saturday, January 17th, 2026\": \"17\"\n      - row \"Sunday, January 18th, 2026 Monday, January 19th, 2026 Tuesday, January 20th, 2026 Wednesday, January 21st, 2026 Thursday, January 22nd, 2026 Friday, January 23rd, 2026 Saturday, January 24th, 2026\":\n        - gridcell \"Sunday, January 18th, 2026\":\n          - button \"Sunday, January 18th, 2026\": \"18\"\n        - gridcell \"Monday, January 19th, 2026\":\n          - button \"Monday, January 19th, 2026\": \"19\"\n        - gridcell \"Tuesday, January 20th, 2026\":\n          - button \"Tuesday, January 20th, 2026\": \"20\"\n        - gridcell \"Wednesday, January 21st, 2026\":\n          - button \"Wednesday, January 21st, 2026\": \"21\"\n        - gridcell \"Thursday, January 22nd, 2026\":\n          - button \"Thursday, January 22nd, 2026\": \"22\"\n        - gridcell \"Friday, January 23rd, 2026\":\n          - button \"Friday, January 23rd, 2026\": \"23\"\n        - gridcell \"Saturday, January 24th, 2026\":\n          - button \"Saturday, January 24th, 2026\": \"24\"\n      - row \"Sunday, January 25th, 2026 Monday, January 26th, 2026 Tuesday, January 27th, 2026 Wednesday, January 28th, 2026 Thursday, January 29th, 2026 Friday, January 30th, 2026 Saturday, January 31st, 2026\":\n        - gridcell \"Sunday, January 25th, 2026\":\n          - button \"Sunday, January 25th, 2026\": \"25\"\n        - gridcell \"Monday, January 26th, 2026\":\n          - button \"Monday, January 26th, 2026\": \"26\"\n        - gridcell \"Tuesday, January 27th, 2026\":\n          - button \"Tuesday, January 27th, 2026\": \"27\"\n        - gridcell \"Wednesday, January 28th, 2026\":\n          - button \"Wednesday, January 28th, 2026\": \"28\"\n        - gridcell \"Thursday, January 29th, 2026\":\n          - button \"Thursday, January 29th, 2026\": \"29\"\n        - gridcell \"Friday, January 30th, 2026\":\n          - button \"Friday, January 30th, 2026\": \"30\"\n        - gridcell \"Saturday, January 31st, 2026\":\n          - button \"Saturday, January 31st, 2026\": \"31\""
+ },
+ "story-datetimefield-open desktop": {
+  "aria": "- paragraph: Scheduled At\n- paragraph\n- paragraph: (datetime)\n- button \"Scheduled At\" [expanded]: Pick date and time\n- dialog:\n  - combobox: January\n  - combobox: \"2026\"\n  - status: January 2026\n  - grid \"January 2026\":\n    - rowgroup:\n      - row \"Sunday, December 28th, 2025 Monday, December 29th, 2025 Tuesday, December 30th, 2025 Wednesday, December 31st, 2025 Thursday, January 1st, 2026 Friday, January 2nd, 2026 Saturday, January 3rd, 2026\":\n        - gridcell \"Sunday, December 28th, 2025\":\n          - button \"Sunday, December 28th, 2025\": \"28\"\n        - gridcell \"Monday, December 29th, 2025\":\n          - button \"Monday, December 29th, 2025\": \"29\"\n        - gridcell \"Tuesday, December 30th, 2025\":\n          - button \"Tuesday, December 30th, 2025\": \"30\"\n        - gridcell \"Wednesday, December 31st, 2025\":\n          - button \"Wednesday, December 31st, 2025\": \"31\"\n        - gridcell \"Thursday, January 1st, 2026\":\n          - button \"Thursday, January 1st, 2026\": \"1\"\n        - gridcell \"Friday, January 2nd, 2026\":\n          - button \"Friday, January 2nd, 2026\": \"2\"\n        - gridcell \"Saturday, January 3rd, 2026\":\n          - button \"Saturday, January 3rd, 2026\": \"3\"\n      - row \"Sunday, January 4th, 2026 Monday, January 5th, 2026 Tuesday, January 6th, 2026 Wednesday, January 7th, 2026 Thursday, January 8th, 2026 Friday, January 9th, 2026 Saturday, January 10th, 2026\":\n        - gridcell \"Sunday, January 4th, 2026\":\n          - button \"Sunday, January 4th, 2026\": \"4\"\n        - gridcell \"Monday, January 5th, 2026\":\n          - button \"Monday, January 5th, 2026\": \"5\"\n        - gridcell \"Tuesday, January 6th, 2026\":\n          - button \"Tuesday, January 6th, 2026\": \"6\"\n        - gridcell \"Wednesday, January 7th, 2026\":\n          - button \"Wednesday, January 7th, 2026\": \"7\"\n        - gridcell \"Thursday, January 8th, 2026\":\n          - button \"Thursday, January 8th, 2026\": \"8\"\n        - gridcell \"Friday, January 9th, 2026\":\n          - button \"Friday, January 9th, 2026\": \"9\"\n        - gridcell \"Saturday, January 10th, 2026\":\n          - button \"Saturday, January 10th, 2026\": \"10\"\n      - row \"Sunday, January 11th, 2026 Monday, January 12th, 2026 Tuesday, January 13th, 2026 Wednesday, January 14th, 2026 Today, Thursday, January 15th, 2026 Friday, January 16th, 2026 Saturday, January 17th, 2026\":\n        - gridcell \"Sunday, January 11th, 2026\":\n          - button \"Sunday, January 11th, 2026\": \"11\"\n        - gridcell \"Monday, January 12th, 2026\":\n          - button \"Monday, January 12th, 2026\": \"12\"\n        - gridcell \"Tuesday, January 13th, 2026\":\n          - button \"Tuesday, January 13th, 2026\": \"13\"\n        - gridcell \"Wednesday, January 14th, 2026\":\n          - button \"Wednesday, January 14th, 2026\": \"14\"\n        - gridcell \"Today, Thursday, January 15th, 2026\":\n          - button \"Today, Thursday, January 15th, 2026\": \"15\"\n        - gridcell \"Friday, January 16th, 2026\":\n          - button \"Friday, January 16th, 2026\": \"16\"\n        - gridcell \"Saturday, January 17th, 2026\":\n          - button \"Saturday, January 17th, 2026\": \"17\"\n      - row \"Sunday, January 18th, 2026 Monday, January 19th, 2026 Tuesday, January 20th, 2026 Wednesday, January 21st, 2026 Thursday, January 22nd, 2026 Friday, January 23rd, 2026 Saturday, January 24th, 2026\":\n        - gridcell \"Sunday, January 18th, 2026\":\n          - button \"Sunday, January 18th, 2026\": \"18\"\n        - gridcell \"Monday, January 19th, 2026\":\n          - button \"Monday, January 19th, 2026\": \"19\"\n        - gridcell \"Tuesday, January 20th, 2026\":\n          - button \"Tuesday, January 20th, 2026\": \"20\"\n        - gridcell \"Wednesday, January 21st, 2026\":\n          - button \"Wednesday, January 21st, 2026\": \"21\"\n        - gridcell \"Thursday, January 22nd, 2026\":\n          - button \"Thursday, January 22nd, 2026\": \"22\"\n        - gridcell \"Friday, January 23rd, 2026\":\n          - button \"Friday, January 23rd, 2026\": \"23\"\n        - gridcell \"Saturday, January 24th, 2026\":\n          - button \"Saturday, January 24th, 2026\": \"24\"\n      - row \"Sunday, January 25th, 2026 Monday, January 26th, 2026 Tuesday, January 27th, 2026 Wednesday, January 28th, 2026 Thursday, January 29th, 2026 Friday, January 30th, 2026 Saturday, January 31st, 2026\":\n        - gridcell \"Sunday, January 25th, 2026\":\n          - button \"Sunday, January 25th, 2026\": \"25\"\n        - gridcell \"Monday, January 26th, 2026\":\n          - button \"Monday, January 26th, 2026\": \"26\"\n        - gridcell \"Tuesday, January 27th, 2026\":\n          - button \"Tuesday, January 27th, 2026\": \"27\"\n        - gridcell \"Wednesday, January 28th, 2026\":\n          - button \"Wednesday, January 28th, 2026\": \"28\"\n        - gridcell \"Thursday, January 29th, 2026\":\n          - button \"Thursday, January 29th, 2026\": \"29\"\n        - gridcell \"Friday, January 30th, 2026\":\n          - button \"Friday, January 30th, 2026\": \"30\"\n        - gridcell \"Saturday, January 31st, 2026\":\n          - button \"Saturday, January 31st, 2026\": \"31\"\n  - text: Time\n  - textbox \"Time\":\n    - /placeholder: HH:MM"
+ },
+ "story-multiselect-open desktop": {
+  "aria": "- paragraph: tweet_fields\n- paragraph\n- paragraph: (object)\n- img\n- combobox [expanded]\n- listbox \"Suggestions\":\n  - option \"Tweet Attachments\" [selected]\n  - option \"Author Id\"\n  - option \"Context Annotations\"\n  - option \"Conversation Id\"\n  - option \"Creation Time\"\n  - option \"Tweet Entities\"\n  - option \"Language\"\n  - option \"Public Metrics\"\n  - option \"Tweet Text\"\n- text: Select what tweet information you want to see."
+ },
+ "admin-spending-adddollars desktop": {
+  "aria": "- region \"Notifications alt+T\"\n- dialog \"Add Dollars\":\n  - heading \"Add Dollars\" [level=2]\n  - paragraph: \"User: toddcarson@example.net Current balance: $0.00\"\n  - text: Amount (in dollars) $\n  - spinbutton \"Amount (in dollars)\": \"0.33\"\n  - text: Comments (Optional)\n  - textbox \"Comments (Optional)\":\n    - /placeholder: Why are you adding dollars?\n    - text: Refund for usage\n  - button \"Cancel\"\n  - button \"Add Dollars\"\n  - button \"Close\":\n    - img\n    - text: Close"
+ },
+ "admin-marketplace-approve desktop": {
+  "aria": "- region \"Notifications alt+T\"\n- dialog \"Approve Agent\":\n  - heading \"Approve Agent\" [level=2]\n  - paragraph: Are you sure you want to approve this agent? This will make it available in the marketplace.\n  - text: Comments (Optional)\n  - textbox \"Comments (Optional)\":\n    - /placeholder: Add any comments for the agent creator\n    - text: Meets all requirements\n  - button \"Cancel\"\n  - button \"Approve\"\n  - button \"Close\":\n    - img\n    - text: Close"
+ },
+ "admin-diagnostics mobile": {
+  "aria": "- main:\n  - link \"Back to home\":\n    - /url: /copilot\n    - img\n  - 'button \"Admin navigation, current: System Diagnostics\"':\n    - img\n    - text: System Diagnostics\n    - img\n  - main:\n    - heading \"System Diagnostics\" [level=1]\n    - paragraph: Monitor execution and agent system health\n    - button \"Refresh\" [disabled]:\n      - img\n      - text: Refresh\n    - heading \"Execution Queue Status\" [level=3]\n    - paragraph: Current execution and queue metrics\n    - paragraph: Running Executions\n    - paragraph: \"0\"\n    - paragraph: Queued in Database\n    - paragraph: \"0\"\n    - paragraph: Queued in RabbitMQ\n    - paragraph: \"0\"\n    - text: \"Last updated: 10/24/2026, 11:18:33 AM\"\n    - heading \"System Throughput\" [level=3]\n    - paragraph: Execution completion and processing rates\n    - paragraph: Completed (24h)\n    - paragraph: \"3295\"\n    - paragraph: 0 in last hour\n    - paragraph: Throughput Rate\n    - paragraph: \"137.3\"\n    - paragraph: completions per hour\n    - paragraph: Cancel Queue Depth\n    - paragraph: \"0\"\n    - text: \"Last updated: 10/24/2026, 11:18:33 AM\"\n    - heading \"Schedules\" [level=3]\n    - paragraph: Scheduled agent executions and health\n    - paragraph: No data available\n    - heading \"Diagnostic Information\" [level=3]\n    - paragraph: Understanding metrics and tabs for on-call diagnostics\n    - paragraph: \"🟠 Orphaned Executions:\"\n    - paragraph: Executions >24h old in database but not actually running in executor. Usually from executor restarts/crashes. Safe to cleanup (marks as FAILED in DB).\n    - paragraph: \"🔵 Stuck Queued Executions:\"\n    - paragraph: QUEUED >1h but never started. Not in RabbitMQ queue. Can cleanup (safe) or requeue (⚠️ costs credits - only if temporary issue like RabbitMQ purge).\n    - paragraph: \"🟡 Long-Running Executions:\"\n    - paragraph: RUNNING status >24h. May be legitimately long jobs or stuck. Review before stopping. Sends cancel signal to executor.\n    - paragraph: \"🔴 Failed Executions:\"\n    - paragraph: Executions that failed in last 24h. View error messages to identify patterns. Spike in failures indicates system issues.\n    - paragraph: \"🩷 Invalid States (Data Corruption):\"\n    - paragraph: Executions in impossible states (QUEUED with startedAt, RUNNING without startedAt). Indicates DB corruption, race conditions, or crashes. Each requires manual investigation - no bulk actions provided.\n    - paragraph: \"Throughput Metrics:\"\n    - paragraph: Completions per hour shows system productivity. Declining throughput indicates performance degradation or executor issues.\n    - paragraph: \"Queue Health:\"\n    - paragraph: RabbitMQ depths should be low (<100). High queues indicate executor can't keep up. Cancel queue backlog indicates executor processing issues.\n    - heading \"Executions\" [level=3]\n    - button:\n      - img\n    - tablist:\n      - tab \"All (0)\" [selected]\n      - tab \"Orphaned (0)\"\n      - tab \"Stuck Queued (0)\"\n      - tab \"Long-Running (0)\"\n      - tab \"Failed (0)\"\n      - tab \"Invalid States (0)\"\n    - tabpanel \"All (0)\": No running executions\n    - heading \"Schedules\" [level=3]\n    - button [disabled]:\n      - img\n    - tablist:\n      - tab \"All Schedules\" [selected]\n      - tab \"Orphaned\"\n    - tabpanel \"All Schedules\":\n      - img\n- region \"Notifications alt+T\"\n- alert"
+ },
+ "login-error-help mobile": {
+  "aria": "- img \"AutoGPT Logo\"\n- heading \"Log in to your account to continue\" [level=1]\n- text: Email\n- textbox \"Email\":\n  - /placeholder: name@company.com\n  - text: nobody-evidence@example.com\n- text: Password\n- link \"Forgot password?\":\n  - /url: /reset-password\n- textbox \"Password\":\n  - /placeholder: Enter your password\n  - text: wrong-password-123\n- button \"Show password\":\n  - img\n- button \"Log in\"\n- paragraph: Don't have an account?\n- link \"Sign up\":\n  - /url: /signup\n- img\n- paragraph: \"Heads up: AutoGPT works best on desktop\"\n- paragraph: Some features may be limited on mobile. For the best experience, consider switching to a desktop.\n- region \"Notifications alt+T\":\n  - list:\n    - listitem:\n      - button \"Close toast\":\n        - img\n      - text: Invalid email or password\n- alert"
+ },
+ "story-datefield-open mobile": {
+  "aria": "- paragraph: Start Date\n- paragraph\n- paragraph: (date)\n- button \"Start Date\" [expanded]: Pick a date\n- dialog:\n  - combobox: January\n  - combobox: \"2026\"\n  - status: January 2026\n  - grid \"January 2026\":\n    - rowgroup:\n      - row \"Sunday, December 28th, 2025 Monday, December 29th, 2025 Tuesday, December 30th, 2025 Wednesday, December 31st, 2025 Thursday, January 1st, 2026 Friday, January 2nd, 2026 Saturday, January 3rd, 2026\":\n        - gridcell \"Sunday, December 28th, 2025\":\n          - button \"Sunday, December 28th, 2025\": \"28\"\n        - gridcell \"Monday, December 29th, 2025\":\n          - button \"Monday, December 29th, 2025\": \"29\"\n        - gridcell \"Tuesday, December 30th, 2025\":\n          - button \"Tuesday, December 30th, 2025\": \"30\"\n        - gridcell \"Wednesday, December 31st, 2025\":\n          - button \"Wednesday, December 31st, 2025\": \"31\"\n        - gridcell \"Thursday, January 1st, 2026\":\n          - button \"Thursday, January 1st, 2026\": \"1\"\n        - gridcell \"Friday, January 2nd, 2026\":\n          - button \"Friday, January 2nd, 2026\": \"2\"\n        - gridcell \"Saturday, January 3rd, 2026\":\n          - button \"Saturday, January 3rd, 2026\": \"3\"\n      - row \"Sunday, January 4th, 2026 Monday, January 5th, 2026 Tuesday, January 6th, 2026 Wednesday, January 7th, 2026 Thursday, January 8th, 2026 Friday, January 9th, 2026 Saturday, January 10th, 2026\":\n        - gridcell \"Sunday, January 4th, 2026\":\n          - button \"Sunday, January 4th, 2026\": \"4\"\n        - gridcell \"Monday, January 5th, 2026\":\n          - button \"Monday, January 5th, 2026\": \"5\"\n        - gridcell \"Tuesday, January 6th, 2026\":\n          - button \"Tuesday, January 6th, 2026\": \"6\"\n        - gridcell \"Wednesday, January 7th, 2026\":\n          - button \"Wednesday, January 7th, 2026\": \"7\"\n        - gridcell \"Thursday, January 8th, 2026\":\n          - button \"Thursday, January 8th, 2026\": \"8\"\n        - gridcell \"Friday, January 9th, 2026\":\n          - button \"Friday, January 9th, 2026\": \"9\"\n        - gridcell \"Saturday, January 10th, 2026\":\n          - button \"Saturday, January 10th, 2026\": \"10\"\n      - row \"Sunday, January 11th, 2026 Monday, January 12th, 2026 Tuesday, January 13th, 2026 Wednesday, January 14th, 2026 Today, Thursday, January 15th, 2026 Friday, January 16th, 2026 Saturday, January 17th, 2026\":\n        - gridcell \"Sunday, January 11th, 2026\":\n          - button \"Sunday, January 11th, 2026\": \"11\"\n        - gridcell \"Monday, January 12th, 2026\":\n          - button \"Monday, January 12th, 2026\": \"12\"\n        - gridcell \"Tuesday, January 13th, 2026\":\n          - button \"Tuesday, January 13th, 2026\": \"13\"\n        - gridcell \"Wednesday, January 14th, 2026\":\n          - button \"Wednesday, January 14th, 2026\": \"14\"\n        - gridcell \"Today, Thursday, January 15th, 2026\":\n          - button \"Today, Thursday, January 15th, 2026\": \"15\"\n        - gridcell \"Friday, January 16th, 2026\":\n          - button \"Friday, January 16th, 2026\": \"16\"\n        - gridcell \"Saturday, January 17th, 2026\":\n          - button \"Saturday, January 17th, 2026\": \"17\"\n      - row \"Sunday, January 18th, 2026 Monday, January 19th, 2026 Tuesday, January 20th, 2026 Wednesday, January 21st, 2026 Thursday, January 22nd, 2026 Friday, January 23rd, 2026 Saturday, January 24th, 2026\":\n        - gridcell \"Sunday, January 18th, 2026\":\n          - button \"Sunday, January 18th, 2026\": \"18\"\n        - gridcell \"Monday, January 19th, 2026\":\n          - button \"Monday, January 19th, 2026\": \"19\"\n        - gridcell \"Tuesday, January 20th, 2026\":\n          - button \"Tuesday, January 20th, 2026\": \"20\"\n        - gridcell \"Wednesday, January 21st, 2026\":\n          - button \"Wednesday, January 21st, 2026\": \"21\"\n        - gridcell \"Thursday, January 22nd, 2026\":\n          - button \"Thursday, January 22nd, 2026\": \"22\"\n        - gridcell \"Friday, January 23rd, 2026\":\n          - button \"Friday, January 23rd, 2026\": \"23\"\n        - gridcell \"Saturday, January 24th, 2026\":\n          - button \"Saturday, January 24th, 2026\": \"24\"\n      - row \"Sunday, January 25th, 2026 Monday, January 26th, 2026 Tuesday, January 27th, 2026 Wednesday, January 28th, 2026 Thursday, January 29th, 2026 Friday, January 30th, 2026 Saturday, January 31st, 2026\":\n        - gridcell \"Sunday, January 25th, 2026\":\n          - button \"Sunday, January 25th, 2026\": \"25\"\n        - gridcell \"Monday, January 26th, 2026\":\n          - button \"Monday, January 26th, 2026\": \"26\"\n        - gridcell \"Tuesday, January 27th, 2026\":\n          - button \"Tuesday, January 27th, 2026\": \"27\"\n        - gridcell \"Wednesday, January 28th, 2026\":\n          - button \"Wednesday, January 28th, 2026\": \"28\"\n        - gridcell \"Thursday, January 29th, 2026\":\n          - button \"Thursday, January 29th, 2026\": \"29\"\n        - gridcell \"Friday, January 30th, 2026\":\n          - button \"Friday, January 30th, 2026\": \"30\"\n        - gridcell \"Saturday, January 31st, 2026\":\n          - button \"Saturday, January 31st, 2026\": \"31\""
+ },
+ "story-datetimefield-open mobile": {
+  "aria": "- paragraph: Scheduled At\n- paragraph\n- paragraph: (datetime)\n- button \"Scheduled At\" [expanded]: Pick date and time\n- dialog:\n  - combobox: January\n  - combobox: \"2026\"\n  - status: January 2026\n  - grid \"January 2026\":\n    - rowgroup:\n      - row \"Sunday, December 28th, 2025 Monday, December 29th, 2025 Tuesday, December 30th, 2025 Wednesday, December 31st, 2025 Thursday, January 1st, 2026 Friday, January 2nd, 2026 Saturday, January 3rd, 2026\":\n        - gridcell \"Sunday, December 28th, 2025\":\n          - button \"Sunday, December 28th, 2025\": \"28\"\n        - gridcell \"Monday, December 29th, 2025\":\n          - button \"Monday, December 29th, 2025\": \"29\"\n        - gridcell \"Tuesday, December 30th, 2025\":\n          - button \"Tuesday, December 30th, 2025\": \"30\"\n        - gridcell \"Wednesday, December 31st, 2025\":\n          - button \"Wednesday, December 31st, 2025\": \"31\"\n        - gridcell \"Thursday, January 1st, 2026\":\n          - button \"Thursday, January 1st, 2026\": \"1\"\n        - gridcell \"Friday, January 2nd, 2026\":\n          - button \"Friday, January 2nd, 2026\": \"2\"\n        - gridcell \"Saturday, January 3rd, 2026\":\n          - button \"Saturday, January 3rd, 2026\": \"3\"\n      - row \"Sunday, January 4th, 2026 Monday, January 5th, 2026 Tuesday, January 6th, 2026 Wednesday, January 7th, 2026 Thursday, January 8th, 2026 Friday, January 9th, 2026 Saturday, January 10th, 2026\":\n        - gridcell \"Sunday, January 4th, 2026\":\n          - button \"Sunday, January 4th, 2026\": \"4\"\n        - gridcell \"Monday, January 5th, 2026\":\n          - button \"Monday, January 5th, 2026\": \"5\"\n        - gridcell \"Tuesday, January 6th, 2026\":\n          - button \"Tuesday, January 6th, 2026\": \"6\"\n        - gridcell \"Wednesday, January 7th, 2026\":\n          - button \"Wednesday, January 7th, 2026\": \"7\"\n        - gridcell \"Thursday, January 8th, 2026\":\n          - button \"Thursday, January 8th, 2026\": \"8\"\n        - gridcell \"Friday, January 9th, 2026\":\n          - button \"Friday, January 9th, 2026\": \"9\"\n        - gridcell \"Saturday, January 10th, 2026\":\n          - button \"Saturday, January 10th, 2026\": \"10\"\n      - row \"Sunday, January 11th, 2026 Monday, January 12th, 2026 Tuesday, January 13th, 2026 Wednesday, January 14th, 2026 Today, Thursday, January 15th, 2026 Friday, January 16th, 2026 Saturday, January 17th, 2026\":\n        - gridcell \"Sunday, January 11th, 2026\":\n          - button \"Sunday, January 11th, 2026\": \"11\"\n        - gridcell \"Monday, January 12th, 2026\":\n          - button \"Monday, January 12th, 2026\": \"12\"\n        - gridcell \"Tuesday, January 13th, 2026\":\n          - button \"Tuesday, January 13th, 2026\": \"13\"\n        - gridcell \"Wednesday, January 14th, 2026\":\n          - button \"Wednesday, January 14th, 2026\": \"14\"\n        - gridcell \"Today, Thursday, January 15th, 2026\":\n          - button \"Today, Thursday, January 15th, 2026\": \"15\"\n        - gridcell \"Friday, January 16th, 2026\":\n          - button \"Friday, January 16th, 2026\": \"16\"\n        - gridcell \"Saturday, January 17th, 2026\":\n          - button \"Saturday, January 17th, 2026\": \"17\"\n      - row \"Sunday, January 18th, 2026 Monday, January 19th, 2026 Tuesday, January 20th, 2026 Wednesday, January 21st, 2026 Thursday, January 22nd, 2026 Friday, January 23rd, 2026 Saturday, January 24th, 2026\":\n        - gridcell \"Sunday, January 18th, 2026\":\n          - button \"Sunday, January 18th, 2026\": \"18\"\n        - gridcell \"Monday, January 19th, 2026\":\n          - button \"Monday, January 19th, 2026\": \"19\"\n        - gridcell \"Tuesday, January 20th, 2026\":\n          - button \"Tuesday, January 20th, 2026\": \"20\"\n        - gridcell \"Wednesday, January 21st, 2026\":\n          - button \"Wednesday, January 21st, 2026\": \"21\"\n        - gridcell \"Thursday, January 22nd, 2026\":\n          - button \"Thursday, January 22nd, 2026\": \"22\"\n        - gridcell \"Friday, January 23rd, 2026\":\n          - button \"Friday, January 23rd, 2026\": \"23\"\n        - gridcell \"Saturday, January 24th, 2026\":\n          - button \"Saturday, January 24th, 2026\": \"24\"\n      - row \"Sunday, January 25th, 2026 Monday, January 26th, 2026 Tuesday, January 27th, 2026 Wednesday, January 28th, 2026 Thursday, January 29th, 2026 Friday, January 30th, 2026 Saturday, January 31st, 2026\":\n        - gridcell \"Sunday, January 25th, 2026\":\n          - button \"Sunday, January 25th, 2026\": \"25\"\n        - gridcell \"Monday, January 26th, 2026\":\n          - button \"Monday, January 26th, 2026\": \"26\"\n        - gridcell \"Tuesday, January 27th, 2026\":\n          - button \"Tuesday, January 27th, 2026\": \"27\"\n        - gridcell \"Wednesday, January 28th, 2026\":\n          - button \"Wednesday, January 28th, 2026\": \"28\"\n        - gridcell \"Thursday, January 29th, 2026\":\n          - button \"Thursday, January 29th, 2026\": \"29\"\n        - gridcell \"Friday, January 30th, 2026\":\n          - button \"Friday, January 30th, 2026\": \"30\"\n        - gridcell \"Saturday, January 31st, 2026\":\n          - button \"Saturday, January 31st, 2026\": \"31\"\n  - text: Time\n  - textbox \"Time\":\n    - /placeholder: HH:MM"
+ },
+ "story-multiselect-open mobile": {
+  "aria": "- paragraph: tweet_fields\n- paragraph\n- paragraph: (object)\n- img\n- combobox [expanded]\n- listbox \"Suggestions\":\n  - option \"Tweet Attachments\" [selected]\n  - option \"Author Id\"\n  - option \"Context Annotations\"\n  - option \"Conversation Id\"\n  - option \"Creation Time\"\n  - option \"Tweet Entities\"\n  - option \"Language\"\n  - option \"Public Metrics\"\n  - option \"Tweet Text\"\n- text: Select what tweet information you want to see."
+ },
+ "admin-spending-adddollars mobile": {
+  "aria": "- region \"Notifications alt+T\"\n- dialog \"Add Dollars\":\n  - heading \"Add Dollars\" [level=2]\n  - paragraph: \"User: toddcarson@example.net Current balance: $0.00\"\n  - text: Amount (in dollars) $\n  - spinbutton \"Amount (in dollars)\": \"0.33\"\n  - text: Comments (Optional)\n  - textbox \"Comments (Optional)\":\n    - /placeholder: Why are you adding dollars?\n    - text: Refund for usage\n  - button \"Cancel\"\n  - button \"Add Dollars\"\n  - button \"Close\":\n    - img\n    - text: Close"
+ },
+ "admin-marketplace-approve mobile": {
+  "aria": "- region \"Notifications alt+T\"\n- dialog \"Approve Agent\":\n  - heading \"Approve Agent\" [level=2]\n  - paragraph: Are you sure you want to approve this agent? This will make it available in the marketplace.\n  - text: Comments (Optional)\n  - textbox \"Comments (Optional)\":\n    - /placeholder: Add any comments for the agent creator\n    - text: Meets all requirements\n  - button \"Cancel\"\n  - button \"Approve\"\n  - button \"Close\":\n    - img\n    - text: Close"
+ },
+ "kb-build-blockmenu desktop": {
+  "tabOrder": [
+   "button aria-label=Expand sidebar data-state=instant-open type=button \"\"",
+   "button aria-label=Search data-state=instant-open type=button \"\"",
+   "a data-state=instant-open \"Home\"",
+   "a data-state=instant-open \"Marketplace\"",
+   "a data-state=instant-open \"Build\"",
+   "a data-state=instant-open \"Team\"",
+   "a data-state=instant-open \"Files\"",
+   "button data-state=instant-open \"Chats\"",
+   "button aria-label=Open profile menu aria-expanded=false aria-haspopup=true data-state=closed type=button \"\"",
+   "button aria-label=Dismiss changelog type=button \"\"",
+   "a  \"View changelog\"",
+   "button data-id=zoom-in-button data-state=instant-open \"Zoom In\"",
+   "button data-id=zoom-out-button data-state=instant-open \"Zoom Out\"",
+   "button data-id=tutorial-button data-state=instant-open \"Start Tutorial\"",
+   "button data-id=fit-view-button data-state=instant-open \"Fit View\"",
+   "button data-id=lock-button data-state=instant-open \"Toggle Lock\"",
+   "button aria-expanded=false aria-haspopup=dialog data-state=instant-open type=button \"\"",
+   "a aria-label=React Flow attribution \"React Flow\"",
+   "button aria-label=Chat with builder aria-expanded=false type=button \"\"",
+   "body  \"Home\nMarketplace\nBuild\nTeam\nFiles\nChats\n\"",
+   "button aria-label=Expand sidebar data-state=instant-open type=button \"\"",
+   "button aria-label=Search data-state=instant-open type=button \"\"",
+   "a data-state=instant-open \"Home\"",
+   "a data-state=instant-open \"Marketplace\"",
+   "a data-state=instant-open \"Build\""
+  ],
+  "tabsToTrigger": -1,
+  "focusedTrigger": "body  \"Home\nMarketplace\nBuild\nTeam\nFiles\nChats\n\"",
+  "afterOpen": "body  \"Home\nMarketplace\nBuild\nTeam\nFiles\nChats\n\"",
+  "ariaOpen": "- link \"AutoGPT\":\n  - /url: /home\n  - img \"AutoGPT Logo\"\n- button \"Search\":\n  - img\n- list:\n  - listitem:\n    - link \"Home\":\n      - /url: /home\n      - img\n      - text: Home\n  - listitem:\n    - link \"Marketplace\":\n      - /url: /marketplace\n      - img\n      - text: Marketplace\n  - listitem:\n    - link \"Build\":\n      - /url: /build\n      - img\n      - text: Build\n- list:\n  - listitem:\n    - link \"Team\":\n      - /url: /team\n      - img\n      - text: Team\n  - listitem:\n    - link \"Files\":\n      - /url: /artifacts\n      - img\n      - text: Files\n- list:\n  - listitem:\n    - button \"Chats\":\n      - img\n      - text: Chats\n- button \"Open profile menu\"\n- button \"Toggle Sidebar\"\n- dialog \"What's new\":\n  - img\n  - paragraph: What's new\n  - paragraph: October 8 – October 14\n  - button \"Dismiss changelog\":\n    - img\n  - list:\n    - listitem:\n      - paragraph: Redesigned wallet\n    - listitem:\n      - paragraph: Trial cancel keeps access\n    - listitem:\n      - paragraph: Verified email at signup\n  - link \"View changelog\":\n    - /url: https://agpt.co/docs/platform/changelog/changelog/october-8-october-14-2026\n    - text: View changelog\n    - img\n- main:\n  - application:\n    - img\n    - button \"Zoom In\":\n      - img\n      - text: Zoom In\n    - button \"Zoom Out\":\n      - img\n      - text: Zoom Out\n    - button \"Start Tutorial\":\n      - img\n      - text: Start Tutorial\n    - button \"Fit View\":\n      - img\n      - text: Fit View\n    - button \"Toggle Lock\"\n    - button:\n      - button:\n        - img\n    - text: Blocks\n    - tooltip \"Blocks\"\n    - button:\n      - img\n    - button:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - link \"React Flow attribution\":\n      - /url: https://reactflow.dev\n      - text: React Flow\n  - button \"Chat with builder\":\n    - img\n- region \"Notifications alt+T\"\n- alert",
+  "keys": [],
+  "afterEscape": "body  \"Home\nMarketplace\nBuild\nTeam\nFiles\nChats\n\"",
+  "contentVisibleAfterEscape": false
+ },
+ "kb-build-savecontrol desktop": {
+  "tabOrder": [
+   "button aria-label=Expand sidebar data-state=instant-open type=button \"\"",
+   "button aria-label=Search data-state=instant-open type=button \"\"",
+   "a data-state=instant-open \"Home\"",
+   "a data-state=instant-open \"Marketplace\"",
+   "a data-state=instant-open \"Build\"",
+   "a data-state=instant-open \"Team\"",
+   "a data-state=instant-open \"Files\"",
+   "button data-state=instant-open \"Chats\"",
+   "button aria-label=Open profile menu aria-expanded=false aria-haspopup=true data-state=closed type=button \"\"",
+   "button aria-label=Dismiss changelog type=button \"\"",
+   "a  \"View changelog\"",
+   "button data-id=zoom-in-button data-state=instant-open \"Zoom In\"",
+   "button data-id=zoom-out-button data-state=instant-open \"Zoom Out\"",
+   "button data-id=tutorial-button data-state=instant-open \"Start Tutorial\"",
+   "button data-id=fit-view-button data-state=instant-open \"Fit View\"",
+   "button data-id=lock-button data-state=instant-open \"Toggle Lock\"",
+   "button aria-expanded=false aria-haspopup=dialog data-state=instant-open type=button \"\"",
+   "a aria-label=React Flow attribution \"React Flow\"",
+   "button aria-label=Chat with builder aria-expanded=false type=button \"\"",
+   "body  \"Home\nMarketplace\nBuild\nTeam\nFiles\nChats\n\"",
+   "button aria-label=Expand sidebar data-state=closed type=button \"\"",
+   "button aria-label=Search data-state=closed type=button \"\"",
+   "a data-state=closed \"Home\"",
+   "a data-state=closed \"Marketplace\"",
+   "a data-state=closed \"Build\""
+  ],
+  "tabsToTrigger": -1,
+  "focusedTrigger": "body  \"Home\nMarketplace\nBuild\nTeam\nFiles\nChats\n\"",
+  "afterOpen": "body  \"Home\nMarketplace\nBuild\nTeam\nFiles\nChats\n\"",
+  "ariaOpen": "- link \"AutoGPT\":\n  - /url: /home\n  - img \"AutoGPT Logo\"\n- button \"Search\":\n  - img\n- list:\n  - listitem:\n    - link \"Home\":\n      - /url: /home\n      - img\n      - text: Home\n  - listitem:\n    - link \"Marketplace\":\n      - /url: /marketplace\n      - img\n      - text: Marketplace\n  - listitem:\n    - link \"Build\":\n      - /url: /build\n      - img\n      - text: Build\n- list:\n  - listitem:\n    - link \"Team\":\n      - /url: /team\n      - img\n      - text: Team\n  - listitem:\n    - link \"Files\":\n      - /url: /artifacts\n      - img\n      - text: Files\n- list:\n  - listitem:\n    - button \"Chats\":\n      - img\n      - text: Chats\n- button \"Open profile menu\"\n- button \"Toggle Sidebar\"\n- dialog \"What's new\":\n  - img\n  - paragraph: What's new\n  - paragraph: October 8 – October 14\n  - button \"Dismiss changelog\":\n    - img\n  - list:\n    - listitem:\n      - paragraph: Redesigned wallet\n    - listitem:\n      - paragraph: Trial cancel keeps access\n    - listitem:\n      - paragraph: Verified email at signup\n  - link \"View changelog\":\n    - /url: https://agpt.co/docs/platform/changelog/changelog/october-8-october-14-2026\n    - text: View changelog\n    - img\n- main:\n  - application:\n    - img\n    - button \"Zoom In\":\n      - img\n      - text: Zoom In\n    - button \"Zoom Out\":\n      - img\n      - text: Zoom Out\n    - button \"Start Tutorial\":\n      - img\n      - text: Start Tutorial\n    - button \"Fit View\":\n      - img\n      - text: Fit View\n    - button \"Toggle Lock\"\n    - button:\n      - button:\n        - img\n    - button:\n      - img\n    - button:\n      - img\n    - text: Save\n    - tooltip \"Save\"\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - link \"React Flow attribution\":\n      - /url: https://reactflow.dev\n      - text: React Flow\n  - button \"Chat with builder\":\n    - img\n- region \"Notifications alt+T\"\n- alert",
+  "keys": [],
+  "afterEscape": "body  \"Home\nMarketplace\nBuild\nTeam\nFiles\nChats\n\"",
+  "contentVisibleAfterEscape": false
+ },
+ "kb-story-datefield desktop": {
+  "tabOrder": [
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\""
+  ],
+  "tabsToTrigger": 1,
+  "focusedTrigger": "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+  "afterOpen": "button role=combobox aria-expanded=false data-state=closed type=button \"January\"",
+  "ariaOpen": "- paragraph: Start Date\n- paragraph\n- paragraph: (date)\n- button \"Start Date\" [expanded]: Pick a date\n- dialog:\n  - combobox: January\n  - combobox: \"2026\"\n  - status: January 2026\n  - grid \"January 2026\":\n    - rowgroup:\n      - row \"Sunday, December 28th, 2025 Monday, December 29th, 2025 Tuesday, December 30th, 2025 Wednesday, December 31st, 2025 Thursday, January 1st, 2026 Friday, January 2nd, 2026 Saturday, January 3rd, 2026\":\n        - gridcell \"Sunday, December 28th, 2025\":\n          - button \"Sunday, December 28th, 2025\": \"28\"\n        - gridcell \"Monday, December 29th, 2025\":\n          - button \"Monday, December 29th, 2025\": \"29\"\n        - gridcell \"Tuesday, December 30th, 2025\":\n          - button \"Tuesday, December 30th, 2025\": \"30\"\n        - gridcell \"Wednesday, December 31st, 2025\":\n          - button \"Wednesday, December 31st, 2025\": \"31\"\n        - gridcell \"Thursday, January 1st, 2026\":\n          - button \"Thursday, January 1st, 2026\": \"1\"\n        - gridcell \"Friday, January 2nd, 2026\":\n          - button \"Friday, January 2nd, 2026\": \"2\"\n        - gridcell \"Saturday, January 3rd, 2026\":\n          - button \"Saturday, January 3rd, 2026\": \"3\"\n      - row \"Sunday, January 4th, 2026 Monday, January 5th, 2026 Tuesday, January 6th, 2026 Wednesday, January 7th, 2026 Thursday, January 8th, 2026 Friday, January 9th, 2026 Saturday, January 10th, 2026\":\n        - gridcell \"Sunday, January 4th, 2026\":\n          - button \"Sunday, January 4th, 2026\": \"4\"\n        - gridcell \"Monday, January 5th, 2026\":\n          - button \"Monday, January 5th, 2026\": \"5\"\n        - gridcell \"Tuesday, January 6th, 2026\":\n          - button \"Tuesday, January 6th, 2026\": \"6\"\n        - gridcell \"Wednesday, January 7th, 2026\":\n          - button \"Wednesday, January 7th, 2026\": \"7\"\n        - gridcell \"Thursday, January 8th, 2026\":\n          - button \"Thursday, January 8th, 2026\": \"8\"\n        - gridcell \"Friday, January 9th, 2026\":\n          - button \"Friday, January 9th, 2026\": \"9\"\n        - gridcell \"Saturday, January 10th, 2026\":\n          - button \"Saturday, January 10th, 2026\": \"10\"\n      - row \"Sunday, January 11th, 2026 Monday, January 12th, 2026 Tuesday, January 13th, 2026 Wednesday, January 14th, 2026 Today, Thursday, January 15th, 2026 Friday, January 16th, 2026 Saturday, January 17th, 2026\":\n        - gridcell \"Sunday, January 11th, 2026\":\n          - button \"Sunday, January 11th, 2026\": \"11\"\n        - gridcell \"Monday, January 12th, 2026\":\n          - button \"Monday, January 12th, 2026\": \"12\"\n        - gridcell \"Tuesday, January 13th, 2026\":\n          - button \"Tuesday, January 13th, 2026\": \"13\"\n        - gridcell \"Wednesday, January 14th, 2026\":\n          - button \"Wednesday, January 14th, 2026\": \"14\"\n        - gridcell \"Today, Thursday, January 15th, 2026\":\n          - button \"Today, Thursday, January 15th, 2026\": \"15\"\n        - gridcell \"Friday, January 16th, 2026\":\n          - button \"Friday, January 16th, 2026\": \"16\"\n        - gridcell \"Saturday, January 17th, 2026\":\n          - button \"Saturday, January 17th, 2026\": \"17\"\n      - row \"Sunday, January 18th, 2026 Monday, January 19th, 2026 Tuesday, January 20th, 2026 Wednesday, January 21st, 2026 Thursday, January 22nd, 2026 Friday, January 23rd, 2026 Saturday, January 24th, 2026\":\n        - gridcell \"Sunday, January 18th, 2026\":\n          - button \"Sunday, January 18th, 2026\": \"18\"\n        - gridcell \"Monday, January 19th, 2026\":\n          - button \"Monday, January 19th, 2026\": \"19\"\n        - gridcell \"Tuesday, January 20th, 2026\":\n          - button \"Tuesday, January 20th, 2026\": \"20\"\n        - gridcell \"Wednesday, January 21st, 2026\":\n          - button \"Wednesday, January 21st, 2026\": \"21\"\n        - gridcell \"Thursday, January 22nd, 2026\":\n          - button \"Thursday, January 22nd, 2026\": \"22\"\n        - gridcell \"Friday, January 23rd, 2026\":\n          - button \"Friday, January 23rd, 2026\": \"23\"\n        - gridcell \"Saturday, January 24th, 2026\":\n          - button \"Saturday, January 24th, 2026\": \"24\"\n      - row \"Sunday, January 25th, 2026 Monday, January 26th, 2026 Tuesday, January 27th, 2026 Wednesday, January 28th, 2026 Thursday, January 29th, 2026 Friday, January 30th, 2026 Saturday, January 31st, 2026\":\n        - gridcell \"Sunday, January 25th, 2026\":\n          - button \"Sunday, January 25th, 2026\": \"25\"\n        - gridcell \"Monday, January 26th, 2026\":\n          - button \"Monday, January 26th, 2026\": \"26\"\n        - gridcell \"Tuesday, January 27th, 2026\":\n          - button \"Tuesday, January 27th, 2026\": \"27\"\n        - gridcell \"Wednesday, January 28th, 2026\":\n          - button \"Wednesday, January 28th, 2026\": \"28\"\n        - gridcell \"Thursday, January 29th, 2026\":\n          - button \"Thursday, January 29th, 2026\": \"29\"\n        - gridcell \"Friday, January 30th, 2026\":\n          - button \"Friday, January 30th, 2026\": \"30\"\n        - gridcell \"Saturday, January 31st, 2026\":\n          - button \"Saturday, January 31st, 2026\": \"31\"",
+  "keys": [
+   "ArrowRight -> button role=combobox aria-expanded=false data-state=closed type=button \"January\"",
+   "ArrowDown -> div role=option data-state=checked \"January\""
+  ],
+  "afterEscape": "button role=combobox aria-expanded=false data-state=closed type=button \"January\"",
+  "contentVisibleAfterEscape": true
+ },
+ "kb-story-datetimefield desktop": {
+  "tabOrder": [
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\""
+  ],
+  "tabsToTrigger": 1,
+  "focusedTrigger": "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+  "afterOpen": "button role=combobox aria-expanded=false data-state=closed type=button \"January\"",
+  "ariaOpen": "- paragraph: Scheduled At\n- paragraph\n- paragraph: (datetime)\n- button \"Scheduled At\" [expanded]: Pick date and time\n- dialog:\n  - combobox: January\n  - combobox: \"2026\"\n  - status: January 2026\n  - grid \"January 2026\":\n    - rowgroup:\n      - row \"Sunday, December 28th, 2025 Monday, December 29th, 2025 Tuesday, December 30th, 2025 Wednesday, December 31st, 2025 Thursday, January 1st, 2026 Friday, January 2nd, 2026 Saturday, January 3rd, 2026\":\n        - gridcell \"Sunday, December 28th, 2025\":\n          - button \"Sunday, December 28th, 2025\": \"28\"\n        - gridcell \"Monday, December 29th, 2025\":\n          - button \"Monday, December 29th, 2025\": \"29\"\n        - gridcell \"Tuesday, December 30th, 2025\":\n          - button \"Tuesday, December 30th, 2025\": \"30\"\n        - gridcell \"Wednesday, December 31st, 2025\":\n          - button \"Wednesday, December 31st, 2025\": \"31\"\n        - gridcell \"Thursday, January 1st, 2026\":\n          - button \"Thursday, January 1st, 2026\": \"1\"\n        - gridcell \"Friday, January 2nd, 2026\":\n          - button \"Friday, January 2nd, 2026\": \"2\"\n        - gridcell \"Saturday, January 3rd, 2026\":\n          - button \"Saturday, January 3rd, 2026\": \"3\"\n      - row \"Sunday, January 4th, 2026 Monday, January 5th, 2026 Tuesday, January 6th, 2026 Wednesday, January 7th, 2026 Thursday, January 8th, 2026 Friday, January 9th, 2026 Saturday, January 10th, 2026\":\n        - gridcell \"Sunday, January 4th, 2026\":\n          - button \"Sunday, January 4th, 2026\": \"4\"\n        - gridcell \"Monday, January 5th, 2026\":\n          - button \"Monday, January 5th, 2026\": \"5\"\n        - gridcell \"Tuesday, January 6th, 2026\":\n          - button \"Tuesday, January 6th, 2026\": \"6\"\n        - gridcell \"Wednesday, January 7th, 2026\":\n          - button \"Wednesday, January 7th, 2026\": \"7\"\n        - gridcell \"Thursday, January 8th, 2026\":\n          - button \"Thursday, January 8th, 2026\": \"8\"\n        - gridcell \"Friday, January 9th, 2026\":\n          - button \"Friday, January 9th, 2026\": \"9\"\n        - gridcell \"Saturday, January 10th, 2026\":\n          - button \"Saturday, January 10th, 2026\": \"10\"\n      - row \"Sunday, January 11th, 2026 Monday, January 12th, 2026 Tuesday, January 13th, 2026 Wednesday, January 14th, 2026 Today, Thursday, January 15th, 2026 Friday, January 16th, 2026 Saturday, January 17th, 2026\":\n        - gridcell \"Sunday, January 11th, 2026\":\n          - button \"Sunday, January 11th, 2026\": \"11\"\n        - gridcell \"Monday, January 12th, 2026\":\n          - button \"Monday, January 12th, 2026\": \"12\"\n        - gridcell \"Tuesday, January 13th, 2026\":\n          - button \"Tuesday, January 13th, 2026\": \"13\"\n        - gridcell \"Wednesday, January 14th, 2026\":\n          - button \"Wednesday, January 14th, 2026\": \"14\"\n        - gridcell \"Today, Thursday, January 15th, 2026\":\n          - button \"Today, Thursday, January 15th, 2026\": \"15\"\n        - gridcell \"Friday, January 16th, 2026\":\n          - button \"Friday, January 16th, 2026\": \"16\"\n        - gridcell \"Saturday, January 17th, 2026\":\n          - button \"Saturday, January 17th, 2026\": \"17\"\n      - row \"Sunday, January 18th, 2026 Monday, January 19th, 2026 Tuesday, January 20th, 2026 Wednesday, January 21st, 2026 Thursday, January 22nd, 2026 Friday, January 23rd, 2026 Saturday, January 24th, 2026\":\n        - gridcell \"Sunday, January 18th, 2026\":\n          - button \"Sunday, January 18th, 2026\": \"18\"\n        - gridcell \"Monday, January 19th, 2026\":\n          - button \"Monday, January 19th, 2026\": \"19\"\n        - gridcell \"Tuesday, January 20th, 2026\":\n          - button \"Tuesday, January 20th, 2026\": \"20\"\n        - gridcell \"Wednesday, January 21st, 2026\":\n          - button \"Wednesday, January 21st, 2026\": \"21\"\n        - gridcell \"Thursday, January 22nd, 2026\":\n          - button \"Thursday, January 22nd, 2026\": \"22\"\n        - gridcell \"Friday, January 23rd, 2026\":\n          - button \"Friday, January 23rd, 2026\": \"23\"\n        - gridcell \"Saturday, January 24th, 2026\":\n          - button \"Saturday, January 24th, 2026\": \"24\"\n      - row \"Sunday, January 25th, 2026 Monday, January 26th, 2026 Tuesday, January 27th, 2026 Wednesday, January 28th, 2026 Thursday, January 29th, 2026 Friday, January 30th, 2026 Saturday, January 31st, 2026\":\n        - gridcell \"Sunday, January 25th, 2026\":\n          - button \"Sunday, January 25th, 2026\": \"25\"\n        - gridcell \"Monday, January 26th, 2026\":\n          - button \"Monday, January 26th, 2026\": \"26\"\n        - gridcell \"Tuesday, January 27th, 2026\":\n          - button \"Tuesday, January 27th, 2026\": \"27\"\n        - gridcell \"Wednesday, January 28th, 2026\":\n          - button \"Wednesday, January 28th, 2026\": \"28\"\n        - gridcell \"Thursday, January 29th, 2026\":\n          - button \"Thursday, January 29th, 2026\": \"29\"\n        - gridcell \"Friday, January 30th, 2026\":\n          - button \"Friday, January 30th, 2026\": \"30\"\n        - gridcell \"Saturday, January 31st, 2026\":\n          - button \"Saturday, January 31st, 2026\": \"31\"\n  - text: Time\n  - textbox \"Time\":\n    - /placeholder: HH:MM",
+  "keys": [
+   "ArrowRight -> button role=combobox aria-expanded=false data-state=closed type=button \"January\"",
+   "ArrowDown -> div role=option data-state=checked \"January\""
+  ],
+  "afterEscape": "button role=combobox aria-expanded=false data-state=closed type=button \"January\"",
+  "contentVisibleAfterEscape": true
+ },
+ "kb-story-multiselect desktop": {
+  "tabOrder": [
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\""
+  ],
+  "tabsToTrigger": 1,
+  "focusedTrigger": "input role=combobox aria-expanded=true type=text \"\"",
+  "afterOpen": "input role=combobox aria-expanded=true type=text \"\"",
+  "ariaOpen": "- paragraph: tweet_fields\n- paragraph\n- paragraph: (object)\n- img\n- combobox [expanded]\n- listbox \"Suggestions\":\n  - option \"Tweet Attachments\"\n  - option \"Author Id\" [selected]\n  - option \"Context Annotations\"\n  - option \"Conversation Id\"\n  - option \"Creation Time\"\n  - option \"Tweet Entities\"\n  - option \"Language\"\n  - option \"Public Metrics\"\n  - option \"Tweet Text\"\n- text: Select what tweet information you want to see.",
+  "keys": [
+   "ArrowDown -> input role=combobox aria-expanded=true type=text \"\"",
+   "ArrowDown -> input role=combobox aria-expanded=true type=text \"\"",
+   "Enter -> input role=combobox aria-expanded=true type=text \"\""
+  ],
+  "afterEscape": "input role=combobox aria-expanded=true type=text \"\"",
+  "contentVisibleAfterEscape": false
+ },
+ "kb-build-agentoutputs desktop": {
+  "tabOrder": [
+   "button aria-label=Expand sidebar data-state=instant-open type=button \"\"",
+   "button aria-label=Search data-state=instant-open type=button \"\"",
+   "a data-state=instant-open \"Home\"",
+   "a data-state=instant-open \"Marketplace\"",
+   "a data-state=instant-open \"Build\"",
+   "a data-state=instant-open \"Team\"",
+   "a data-state=instant-open \"Files\"",
+   "button data-state=instant-open \"Chats\"",
+   "button aria-label=Open profile menu aria-expanded=false aria-haspopup=true data-state=closed type=button \"\"",
+   "button aria-label=Dismiss changelog type=button \"\"",
+   "a  \"View changelog\"",
+   "button data-id=zoom-in-button data-state=instant-open \"Zoom In\"",
+   "button data-id=zoom-out-button data-state=instant-open \"Zoom Out\"",
+   "button data-id=tutorial-button data-state=instant-open \"Start Tutorial\"",
+   "button data-id=fit-view-button data-state=instant-open \"Fit View\"",
+   "button data-id=lock-button data-state=instant-open \"Toggle Lock\"",
+   "button aria-expanded=false aria-haspopup=dialog data-state=instant-open type=button \"\"",
+   "a aria-label=React Flow attribution \"React Flow\"",
+   "button aria-label=Chat with builder aria-expanded=false type=button \"\"",
+   "body  \"Home\nMarketplace\nBuild\nTeam\nFiles\nChats\n\"",
+   "button aria-label=Expand sidebar data-state=closed type=button \"\"",
+   "button aria-label=Search data-state=closed type=button \"\"",
+   "a data-state=closed \"Home\"",
+   "a data-state=closed \"Marketplace\"",
+   "a data-state=closed \"Build\""
+  ],
+  "tabsToTrigger": -1,
+  "focusedTrigger": "body  \"Home\nMarketplace\nBuild\nTeam\nFiles\nChats\n\"",
+  "afterOpen": "body  \"Home\nMarketplace\nBuild\nTeam\nFiles\nChats\n\"",
+  "ariaOpen": "- button \"Expand sidebar\":\n  - img\n- button \"Search\":\n  - img\n- list:\n  - listitem:\n    - link \"Home\":\n      - /url: /home\n      - img\n      - text: Home\n  - listitem:\n    - link \"Marketplace\":\n      - /url: /marketplace\n      - img\n      - text: Marketplace\n  - listitem:\n    - link \"Build\":\n      - /url: /build\n      - img\n      - text: Build\n- list:\n  - listitem:\n    - link \"Team\":\n      - /url: /team\n      - img\n      - text: Team\n  - listitem:\n    - link \"Files\":\n      - /url: /artifacts\n      - img\n      - text: Files\n- list:\n  - listitem:\n    - button \"Chats\":\n      - img\n      - text: Chats\n- button \"Open profile menu\"\n- button \"Toggle Sidebar\"\n- main:\n  - application:\n    - img\n    - button \"Zoom In\":\n      - img\n      - text: Zoom In\n    - button \"Zoom Out\":\n      - img\n      - text: Zoom Out\n    - button \"Start Tutorial\":\n      - img\n      - text: Start Tutorial\n    - button \"Fit View\":\n      - img\n      - text: Fit View\n    - button \"Toggle Lock\"\n    - button:\n      - button:\n        - img\n    - button:\n      - img\n    - button:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - button [disabled]:\n      - img\n    - link \"React Flow attribution\":\n      - /url: https://reactflow.dev\n      - text: React Flow\n  - button \"Chat with builder\":\n    - img\n- region \"Notifications alt+T\"\n- alert",
+  "keys": [],
+  "afterEscape": "body  \"Home\nMarketplace\nBuild\nTeam\nFiles\nChats\n\"",
+  "contentVisibleAfterEscape": false
+ },
+ "kb-story-collapsible desktop": {
+  "tabOrder": [
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\""
+  ],
+  "tabsToTrigger": 1,
+  "focusedTrigger": "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+  "afterOpen": "button aria-expanded=true data-state=open type=button \"Click to expand\"",
+  "ariaOpen": "- button \"Click to expand\" [expanded]:\n  - text: Click to expand\n  - img\n- paragraph: This is the collapsible content that can be expanded or collapsed.\n- paragraph: You can put any React elements here.",
+  "keys": [],
+  "afterEscape": "button aria-expanded=true data-state=open type=button \"Click to expand\"",
+  "contentVisibleAfterEscape": true
+ },
+ "kb-marketplace-carousel desktop": {
+  "tabOrder": [
+   "button aria-label=Expand sidebar data-state=instant-open type=button \"\"",
+   "button aria-label=Search data-state=instant-open type=button \"\"",
+   "a data-state=instant-open \"Home\"",
+   "a data-state=instant-open \"Marketplace\"",
+   "a data-state=instant-open \"Build\"",
+   "a data-state=instant-open \"Team\"",
+   "a data-state=instant-open \"Files\"",
+   "button data-state=instant-open \"Chats\"",
+   "button aria-label=Open profile menu aria-expanded=false aria-haspopup=true data-state=closed type=button \"\"",
+   "button aria-label=Dismiss changelog type=button \"\"",
+   "a  \"View changelog\"",
+   "input aria-label=Search for tasks like \"optimise SEO\" type=text \"\"",
+   "button  \"Marketing\"",
+   "button  \"SEO\"",
+   "button  \"Content Creation\"",
+   "button  \"Automation\"",
+   "button  \"Fun\"",
+   "button  \"All\"",
+   "button  \"Marketing\"",
+   "button  \"Sales\"",
+   "button  \"Finance\"",
+   "button  \"Support\"",
+   "button  \"Operations\"",
+   "button  \"Research\"",
+   "button  \"Content\""
+  ],
+  "tabsToTrigger": -1,
+  "focusedTrigger": "button  \"Support\"",
+  "afterOpen": "button  \"Support\"",
+  "ariaOpen": "- button \"Expand sidebar\":\n  - img\n- button \"Search\":\n  - img\n- list:\n  - listitem:\n    - link \"Home\":\n      - /url: /home\n      - img\n      - text: Home\n  - listitem:\n    - link \"Marketplace\":\n      - /url: /marketplace\n      - img\n      - text: Marketplace\n  - listitem:\n    - link \"Build\":\n      - /url: /build\n      - img\n      - text: Build\n- list:\n  - listitem:\n    - link \"Team\":\n      - /url: /team\n      - img\n      - text: Team\n  - listitem:\n    - link \"Files\":\n      - /url: /artifacts\n      - img\n      - text: Files\n- list:\n  - listitem:\n    - button \"Chats\":\n      - img\n      - text: Chats\n- button \"Open profile menu\"\n- button \"Toggle Sidebar\"\n- main:\n  - main:\n    - heading \"Hire an AI expert for your team\" [level=1]\n    - paragraph: Ready-made specialists who bring their own skills and workflows — working in minutes.\n    - textbox \"Search for tasks like \\\"optimise SEO\\\"\"\n    - button \"Marketing\"\n    - button \"SEO\"\n    - button \"Content Creation\"\n    - button \"Automation\"\n    - button \"Fun\"\n    - group \"Browse experts by category\":\n      - text: Browse experts by category\n      - button \"All\"\n      - button \"Marketing\"\n      - button \"Sales\"\n      - button \"Finance\"\n      - button \"Support\" [pressed]\n      - button \"Operations\"\n      - button \"Research\"\n      - button \"Content\"\n      - button \"Development\"\n    - heading \"Build AI workflows and share your vision\" [level=2]\n    - paragraph: Join our ever-growing community of hackers and tinkerers\n    - button \"Publish your workflows\"\n- region \"Notifications alt+T\"\n- alert",
+  "keys": [
+   "ArrowRight -> button  \"Support\"",
+   "ArrowRight -> button  \"Support\""
+  ],
+  "afterEscape": "button  \"Support\"",
+  "contentVisibleAfterEscape": false
+ },
+ "kb-build-blockmenu mobile": {
+  "skipped": "builder control panel hidden at 390px"
+ },
+ "kb-build-savecontrol mobile": {
+  "skipped": "builder control panel hidden at 390px"
+ },
+ "kb-story-datefield mobile": {
+  "tabOrder": [
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+   "body  \"Start Date\n\n(date)\n\nPick a date\"",
+   "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\""
+  ],
+  "tabsToTrigger": 1,
+  "focusedTrigger": "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+  "afterOpen": "button role=combobox aria-expanded=false data-state=closed type=button \"January\"",
+  "ariaOpen": "- paragraph: Start Date\n- paragraph\n- paragraph: (date)\n- button \"Start Date\" [expanded]: Pick a date\n- dialog:\n  - combobox: January\n  - combobox: \"2026\"\n  - status: January 2026\n  - grid \"January 2026\":\n    - rowgroup:\n      - row \"Sunday, December 28th, 2025 Monday, December 29th, 2025 Tuesday, December 30th, 2025 Wednesday, December 31st, 2025 Thursday, January 1st, 2026 Friday, January 2nd, 2026 Saturday, January 3rd, 2026\":\n        - gridcell \"Sunday, December 28th, 2025\":\n          - button \"Sunday, December 28th, 2025\": \"28\"\n        - gridcell \"Monday, December 29th, 2025\":\n          - button \"Monday, December 29th, 2025\": \"29\"\n        - gridcell \"Tuesday, December 30th, 2025\":\n          - button \"Tuesday, December 30th, 2025\": \"30\"\n        - gridcell \"Wednesday, December 31st, 2025\":\n          - button \"Wednesday, December 31st, 2025\": \"31\"\n        - gridcell \"Thursday, January 1st, 2026\":\n          - button \"Thursday, January 1st, 2026\": \"1\"\n        - gridcell \"Friday, January 2nd, 2026\":\n          - button \"Friday, January 2nd, 2026\": \"2\"\n        - gridcell \"Saturday, January 3rd, 2026\":\n          - button \"Saturday, January 3rd, 2026\": \"3\"\n      - row \"Sunday, January 4th, 2026 Monday, January 5th, 2026 Tuesday, January 6th, 2026 Wednesday, January 7th, 2026 Thursday, January 8th, 2026 Friday, January 9th, 2026 Saturday, January 10th, 2026\":\n        - gridcell \"Sunday, January 4th, 2026\":\n          - button \"Sunday, January 4th, 2026\": \"4\"\n        - gridcell \"Monday, January 5th, 2026\":\n          - button \"Monday, January 5th, 2026\": \"5\"\n        - gridcell \"Tuesday, January 6th, 2026\":\n          - button \"Tuesday, January 6th, 2026\": \"6\"\n        - gridcell \"Wednesday, January 7th, 2026\":\n          - button \"Wednesday, January 7th, 2026\": \"7\"\n        - gridcell \"Thursday, January 8th, 2026\":\n          - button \"Thursday, January 8th, 2026\": \"8\"\n        - gridcell \"Friday, January 9th, 2026\":\n          - button \"Friday, January 9th, 2026\": \"9\"\n        - gridcell \"Saturday, January 10th, 2026\":\n          - button \"Saturday, January 10th, 2026\": \"10\"\n      - row \"Sunday, January 11th, 2026 Monday, January 12th, 2026 Tuesday, January 13th, 2026 Wednesday, January 14th, 2026 Today, Thursday, January 15th, 2026 Friday, January 16th, 2026 Saturday, January 17th, 2026\":\n        - gridcell \"Sunday, January 11th, 2026\":\n          - button \"Sunday, January 11th, 2026\": \"11\"\n        - gridcell \"Monday, January 12th, 2026\":\n          - button \"Monday, January 12th, 2026\": \"12\"\n        - gridcell \"Tuesday, January 13th, 2026\":\n          - button \"Tuesday, January 13th, 2026\": \"13\"\n        - gridcell \"Wednesday, January 14th, 2026\":\n          - button \"Wednesday, January 14th, 2026\": \"14\"\n        - gridcell \"Today, Thursday, January 15th, 2026\":\n          - button \"Today, Thursday, January 15th, 2026\": \"15\"\n        - gridcell \"Friday, January 16th, 2026\":\n          - button \"Friday, January 16th, 2026\": \"16\"\n        - gridcell \"Saturday, January 17th, 2026\":\n          - button \"Saturday, January 17th, 2026\": \"17\"\n      - row \"Sunday, January 18th, 2026 Monday, January 19th, 2026 Tuesday, January 20th, 2026 Wednesday, January 21st, 2026 Thursday, January 22nd, 2026 Friday, January 23rd, 2026 Saturday, January 24th, 2026\":\n        - gridcell \"Sunday, January 18th, 2026\":\n          - button \"Sunday, January 18th, 2026\": \"18\"\n        - gridcell \"Monday, January 19th, 2026\":\n          - button \"Monday, January 19th, 2026\": \"19\"\n        - gridcell \"Tuesday, January 20th, 2026\":\n          - button \"Tuesday, January 20th, 2026\": \"20\"\n        - gridcell \"Wednesday, January 21st, 2026\":\n          - button \"Wednesday, January 21st, 2026\": \"21\"\n        - gridcell \"Thursday, January 22nd, 2026\":\n          - button \"Thursday, January 22nd, 2026\": \"22\"\n        - gridcell \"Friday, January 23rd, 2026\":\n          - button \"Friday, January 23rd, 2026\": \"23\"\n        - gridcell \"Saturday, January 24th, 2026\":\n          - button \"Saturday, January 24th, 2026\": \"24\"\n      - row \"Sunday, January 25th, 2026 Monday, January 26th, 2026 Tuesday, January 27th, 2026 Wednesday, January 28th, 2026 Thursday, January 29th, 2026 Friday, January 30th, 2026 Saturday, January 31st, 2026\":\n        - gridcell \"Sunday, January 25th, 2026\":\n          - button \"Sunday, January 25th, 2026\": \"25\"\n        - gridcell \"Monday, January 26th, 2026\":\n          - button \"Monday, January 26th, 2026\": \"26\"\n        - gridcell \"Tuesday, January 27th, 2026\":\n          - button \"Tuesday, January 27th, 2026\": \"27\"\n        - gridcell \"Wednesday, January 28th, 2026\":\n          - button \"Wednesday, January 28th, 2026\": \"28\"\n        - gridcell \"Thursday, January 29th, 2026\":\n          - button \"Thursday, January 29th, 2026\": \"29\"\n        - gridcell \"Friday, January 30th, 2026\":\n          - button \"Friday, January 30th, 2026\": \"30\"\n        - gridcell \"Saturday, January 31st, 2026\":\n          - button \"Saturday, January 31st, 2026\": \"31\"",
+  "keys": [
+   "ArrowRight -> button role=combobox aria-expanded=false data-state=closed type=button \"January\"",
+   "ArrowDown -> div role=option data-state=checked \"January\""
+  ],
+  "afterEscape": "button aria-label=Start Date aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick a date\"",
+  "contentVisibleAfterEscape": false
+ },
+ "kb-story-datetimefield mobile": {
+  "tabOrder": [
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+   "body  \"Scheduled At\n\n(datetime)\n\nPick date and \"",
+   "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\""
+  ],
+  "tabsToTrigger": 1,
+  "focusedTrigger": "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+  "afterOpen": "button role=combobox aria-expanded=false data-state=closed type=button \"January\"",
+  "ariaOpen": "- paragraph: Scheduled At\n- paragraph\n- paragraph: (datetime)\n- button \"Scheduled At\" [expanded]: Pick date and time\n- dialog:\n  - combobox: January\n  - combobox: \"2026\"\n  - status: January 2026\n  - grid \"January 2026\":\n    - rowgroup:\n      - row \"Sunday, December 28th, 2025 Monday, December 29th, 2025 Tuesday, December 30th, 2025 Wednesday, December 31st, 2025 Thursday, January 1st, 2026 Friday, January 2nd, 2026 Saturday, January 3rd, 2026\":\n        - gridcell \"Sunday, December 28th, 2025\":\n          - button \"Sunday, December 28th, 2025\": \"28\"\n        - gridcell \"Monday, December 29th, 2025\":\n          - button \"Monday, December 29th, 2025\": \"29\"\n        - gridcell \"Tuesday, December 30th, 2025\":\n          - button \"Tuesday, December 30th, 2025\": \"30\"\n        - gridcell \"Wednesday, December 31st, 2025\":\n          - button \"Wednesday, December 31st, 2025\": \"31\"\n        - gridcell \"Thursday, January 1st, 2026\":\n          - button \"Thursday, January 1st, 2026\": \"1\"\n        - gridcell \"Friday, January 2nd, 2026\":\n          - button \"Friday, January 2nd, 2026\": \"2\"\n        - gridcell \"Saturday, January 3rd, 2026\":\n          - button \"Saturday, January 3rd, 2026\": \"3\"\n      - row \"Sunday, January 4th, 2026 Monday, January 5th, 2026 Tuesday, January 6th, 2026 Wednesday, January 7th, 2026 Thursday, January 8th, 2026 Friday, January 9th, 2026 Saturday, January 10th, 2026\":\n        - gridcell \"Sunday, January 4th, 2026\":\n          - button \"Sunday, January 4th, 2026\": \"4\"\n        - gridcell \"Monday, January 5th, 2026\":\n          - button \"Monday, January 5th, 2026\": \"5\"\n        - gridcell \"Tuesday, January 6th, 2026\":\n          - button \"Tuesday, January 6th, 2026\": \"6\"\n        - gridcell \"Wednesday, January 7th, 2026\":\n          - button \"Wednesday, January 7th, 2026\": \"7\"\n        - gridcell \"Thursday, January 8th, 2026\":\n          - button \"Thursday, January 8th, 2026\": \"8\"\n        - gridcell \"Friday, January 9th, 2026\":\n          - button \"Friday, January 9th, 2026\": \"9\"\n        - gridcell \"Saturday, January 10th, 2026\":\n          - button \"Saturday, January 10th, 2026\": \"10\"\n      - row \"Sunday, January 11th, 2026 Monday, January 12th, 2026 Tuesday, January 13th, 2026 Wednesday, January 14th, 2026 Today, Thursday, January 15th, 2026 Friday, January 16th, 2026 Saturday, January 17th, 2026\":\n        - gridcell \"Sunday, January 11th, 2026\":\n          - button \"Sunday, January 11th, 2026\": \"11\"\n        - gridcell \"Monday, January 12th, 2026\":\n          - button \"Monday, January 12th, 2026\": \"12\"\n        - gridcell \"Tuesday, January 13th, 2026\":\n          - button \"Tuesday, January 13th, 2026\": \"13\"\n        - gridcell \"Wednesday, January 14th, 2026\":\n          - button \"Wednesday, January 14th, 2026\": \"14\"\n        - gridcell \"Today, Thursday, January 15th, 2026\":\n          - button \"Today, Thursday, January 15th, 2026\": \"15\"\n        - gridcell \"Friday, January 16th, 2026\":\n          - button \"Friday, January 16th, 2026\": \"16\"\n        - gridcell \"Saturday, January 17th, 2026\":\n          - button \"Saturday, January 17th, 2026\": \"17\"\n      - row \"Sunday, January 18th, 2026 Monday, January 19th, 2026 Tuesday, January 20th, 2026 Wednesday, January 21st, 2026 Thursday, January 22nd, 2026 Friday, January 23rd, 2026 Saturday, January 24th, 2026\":\n        - gridcell \"Sunday, January 18th, 2026\":\n          - button \"Sunday, January 18th, 2026\": \"18\"\n        - gridcell \"Monday, January 19th, 2026\":\n          - button \"Monday, January 19th, 2026\": \"19\"\n        - gridcell \"Tuesday, January 20th, 2026\":\n          - button \"Tuesday, January 20th, 2026\": \"20\"\n        - gridcell \"Wednesday, January 21st, 2026\":\n          - button \"Wednesday, January 21st, 2026\": \"21\"\n        - gridcell \"Thursday, January 22nd, 2026\":\n          - button \"Thursday, January 22nd, 2026\": \"22\"\n        - gridcell \"Friday, January 23rd, 2026\":\n          - button \"Friday, January 23rd, 2026\": \"23\"\n        - gridcell \"Saturday, January 24th, 2026\":\n          - button \"Saturday, January 24th, 2026\": \"24\"\n      - row \"Sunday, January 25th, 2026 Monday, January 26th, 2026 Tuesday, January 27th, 2026 Wednesday, January 28th, 2026 Thursday, January 29th, 2026 Friday, January 30th, 2026 Saturday, January 31st, 2026\":\n        - gridcell \"Sunday, January 25th, 2026\":\n          - button \"Sunday, January 25th, 2026\": \"25\"\n        - gridcell \"Monday, January 26th, 2026\":\n          - button \"Monday, January 26th, 2026\": \"26\"\n        - gridcell \"Tuesday, January 27th, 2026\":\n          - button \"Tuesday, January 27th, 2026\": \"27\"\n        - gridcell \"Wednesday, January 28th, 2026\":\n          - button \"Wednesday, January 28th, 2026\": \"28\"\n        - gridcell \"Thursday, January 29th, 2026\":\n          - button \"Thursday, January 29th, 2026\": \"29\"\n        - gridcell \"Friday, January 30th, 2026\":\n          - button \"Friday, January 30th, 2026\": \"30\"\n        - gridcell \"Saturday, January 31st, 2026\":\n          - button \"Saturday, January 31st, 2026\": \"31\"\n  - text: Time\n  - textbox \"Time\":\n    - /placeholder: HH:MM",
+  "keys": [
+   "ArrowRight -> button role=combobox aria-expanded=false data-state=closed type=button \"January\"",
+   "ArrowDown -> div role=option data-state=checked \"January\""
+  ],
+  "afterEscape": "button aria-label=Scheduled At aria-expanded=false aria-haspopup=dialog data-state=closed type=button \"Pick date and time\"",
+  "contentVisibleAfterEscape": false
+ },
+ "kb-story-multiselect mobile": {
+  "tabOrder": [
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\"",
+   "body  \"tweet_fields\n\n(object)\n\nSelect what twee\"",
+   "input role=combobox aria-expanded=true type=text \"\""
+  ],
+  "tabsToTrigger": 1,
+  "focusedTrigger": "input role=combobox aria-expanded=true type=text \"\"",
+  "afterOpen": "input role=combobox aria-expanded=true type=text \"\"",
+  "ariaOpen": "- paragraph: tweet_fields\n- paragraph\n- paragraph: (object)\n- img\n- combobox [expanded]\n- listbox \"Suggestions\":\n  - option \"Tweet Attachments\"\n  - option \"Author Id\" [selected]\n  - option \"Context Annotations\"\n  - option \"Conversation Id\"\n  - option \"Creation Time\"\n  - option \"Tweet Entities\"\n  - option \"Language\"\n  - option \"Public Metrics\"\n  - option \"Tweet Text\"\n- text: Select what tweet information you want to see.",
+  "keys": [
+   "ArrowDown -> input role=combobox aria-expanded=true type=text \"\"",
+   "ArrowDown -> input role=combobox aria-expanded=true type=text \"\"",
+   "Enter -> input role=combobox aria-expanded=true type=text \"\""
+  ],
+  "afterEscape": "input role=combobox aria-expanded=true type=text \"\"",
+  "contentVisibleAfterEscape": false
+ },
+ "kb-build-agentoutputs mobile": {
+  "skipped": "builder control panel hidden at 390px"
+ },
+ "kb-story-collapsible mobile": {
+  "tabOrder": [
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+   "body  \"Click to expand\"",
+   "button aria-expanded=false data-state=closed type=button \"Click to expand\""
+  ],
+  "tabsToTrigger": 1,
+  "focusedTrigger": "button aria-expanded=false data-state=closed type=button \"Click to expand\"",
+  "afterOpen": "button aria-expanded=true data-state=open type=button \"Click to expand\"",
+  "ariaOpen": "- button \"Click to expand\" [expanded]:\n  - text: Click to expand\n  - img\n- paragraph: This is the collapsible content that can be expanded or collapsed.\n- paragraph: You can put any React elements here.",
+  "keys": [],
+  "afterEscape": "button aria-expanded=true data-state=open type=button \"Click to expand\"",
+  "contentVisibleAfterEscape": true
+ },
+ "kb-marketplace-carousel mobile": {
+  "tabOrder": [
+   "button aria-label=Dismiss changelog type=button \"\"",
+   "a  \"View changelog\"",
+   "button  \"Toggle Sidebar\"",
+   "input aria-label=Search for tasks like \"optimise SEO\" type=text \"\"",
+   "button  \"Marketing\"",
+   "button  \"SEO\"",
+   "button  \"Content Creation\"",
+   "button  \"Automation\"",
+   "button  \"Fun\"",
+   "button  \"All\"",
+   "button  \"Marketing\"",
+   "button  \"Sales\"",
+   "button  \"Finance\"",
+   "button  \"Support\"",
+   "button  \"Operations\"",
+   "button  \"Research\"",
+   "button  \"Content\"",
+   "button  \"Development\"",
+   "a  \"Create an Expert\"",
+   "a  \"Smart Meeting Prep\nNo runs\"",
+   "a  \"Automated SEO Blog Writer\nNo runs\"",
+   "a  \"Automated Support Agent\nNo runs\"",
+   "a  \"Decision Maker Lead Finder\nNo runs\"",
+   "a  \"Unspirational Poster Maker\nNo runs\"",
+   "a  \"AI Webpage Copy Improver\nNo runs\""
+  ],
+  "tabsToTrigger": -1,
+  "focusedTrigger": "a  \"View changelog\"",
+  "afterOpen": "body  \"Toggle Sidebar\nHire an AI expert\nfor you\"",
+  "ariaOpen": "- main:\n  - button \"Toggle Sidebar\":\n    - img\n    - text: Toggle Sidebar\n  - main:\n    - heading \"Hire an AI expert for your team\" [level=1]\n    - paragraph: Ready-made specialists who bring their own skills and workflows — working in minutes.\n    - textbox \"Search for tasks like \\\"optimise SEO\\\"\"\n    - button \"Marketing\"\n    - button \"SEO\"\n    - button \"Content Creation\"\n    - button \"Automation\"\n    - button \"Fun\"\n    - group \"Browse experts by category\":\n      - text: Browse experts by category\n      - button \"All\" [pressed]\n      - button \"Marketing\"\n      - button \"Sales\"\n      - button \"Finance\"\n      - button \"Support\"\n      - button \"Operations\"\n      - button \"Research\"\n      - button \"Content\"\n      - button \"Development\"\n    - link \"Create an Expert\":\n      - /url: /raise\n    - region \"Workflows\":\n      - heading \"Workflows\" [level=2]\n      - paragraph: Automations your experts can run — or install one yourself.\n      - list:\n        - listitem:\n          - link \"Smart Meeting Prep No runs\":\n            - /url: /marketplace/agent/autogpt/smart-meeting-brief\n        - listitem:\n          - link \"Automated SEO Blog Writer No runs\":\n            - /url: /marketplace/agent/autogpt/automated-blog-writer\n        - listitem:\n          - link \"Automated Support Agent No runs\":\n            - /url: /marketplace/agent/autogpt/automated-support-ai\n        - listitem:\n          - link \"Decision Maker Lead Finder No runs\":\n            - /url: /marketplace/agent/autogpt/business-ownerceo-finder\n        - listitem:\n          - link \"Unspirational Poster Maker No runs\":\n            - /url: /marketplace/agent/autogpt/unspirational-poster-maker\n        - listitem:\n          - link \"AI Webpage Copy Improver No runs\":\n            - /url: /marketplace/agent/autogpt/ai-webpage-copy-improver\n        - listitem:\n          - link \"Lead Finder No runs\":\n            - /url: /marketplace/agent/autogpt/lead-finder-local-businesses\n        - listitem:\n          - link \"Flux AI Image Generator No runs\":\n            - /url: /marketplace/agent/autogpt/flux-ai-image-generator\n      - button \"Load all 17 workflows\"\n      - button \"Publish your workflows\"\n- region \"Notifications alt+T\"\n- alert",
+  "keys": [
+   "ArrowRight -> body  \"Toggle Sidebar\nHire an AI expert\nfor you\"",
+   "ArrowRight -> body  \"Toggle Sidebar\nHire an AI expert\nfor you\""
+  ],
+  "afterEscape": "body  \"Toggle Sidebar\nHire an AI expert\nfor you\"",
+  "contentVisibleAfterEscape": false
+ }
+}

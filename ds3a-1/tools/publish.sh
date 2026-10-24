@@ -21,7 +21,7 @@ python3 -I $E/../evtools/classify.py base-determinism > $D/compare/base-determin
 cp $E/eq/*.md $E/eq/pairs-pr*.json $E/eq/ds1-check-token-equivalence.txt $D/equivalence/ 2>/dev/null || true
 cp $E/glyph/*.md $D/equivalence/ 2>/dev/null || true
 cp $E/counts.txt $E/rules.txt $D/counts/
-cp $E/{mkwt,buildsR2,pipeR,capture2,sbcap,cmp,count,count_all,rules,publish}.sh $E/{assemble.py,body_static.py,gen_pairs.mts,portpids.py,assemble_cfg.json} $E/eq/pr-string-equivalence.mts $E/../evtools/{classify,diffbox}.py $D/tools/
+cp $E/{mkwt,buildsR2,pipeR,capture2,sbcap,cmp,count,count_all,rules,publish}.sh $E/{assemble.py,body_static.py,gen_pairs.mts,portpids.py,assemble_cfg.json} $E/eq/pr-string-equivalence.mts $E/../evtools/{classify,diffbox,kbcmp,crops}.py $D/tools/
 cp $FE/.ign-interact.mts $D/tools/interact.mts; cp $FE/.ign-glyph.tsx $D/tools/glyph.tsx; cp $FE/.ign-glyph-raster.mts $D/tools/glyph-raster.mts
 cd $R; git add -A ds3a-1; git -c commit.gpgsign=false commit -qm "evidence: DS3a-1 PR $k ($prev -> $curr, base dev 0d5ac323f)" || true
 git push -q fork HEAD:evidence/ds3a-1-small-primitives

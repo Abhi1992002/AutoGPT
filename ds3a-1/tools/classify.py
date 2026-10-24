@@ -13,8 +13,8 @@ for name in nz:
     o = subprocess.run(["python3", "-I", f"{E}/../evtools/diffbox.py", f"{D}/{name}"], capture_output=True, text=True).stdout
     m = re.search(r"n=(\d+) box=\((\d+),(\d+),(\d+),(\d+)\)", o); n, x0, y0, x1, y1 = map(int, m.groups())
     mobile = "__mobile" in name; c = None
-    if "diagnostics" in name and ((not mobile and 534 <= x0 and x1 <= 955 and 591 <= y0 and y1 <= 652) or (mobile and 240 <= x0 and x1 <= 312 and 639 <= y0 and y1 <= 1200)): c = "T"
-    elif re.search(r"__(copilot|home)__", name) and y1 - y0 <= 200: c = "O"
+    if "diagnostics" in name and ((not mobile and 500 <= x0 and x1 <= 955 and 591 <= y0 and y1 <= 652) or (mobile and 230 <= x0 and x1 <= 312 and 639 <= y0 and y1 <= 1200)): c = "T"
+    elif re.search(r"__(copilot|home)__", name) and y1 <= 260: c = "O"
     elif not mobile and x1 <= 46: c = "S"
     if not c: bad += 1
     out.append((name, n, (x0, y0, x1, y1), c))

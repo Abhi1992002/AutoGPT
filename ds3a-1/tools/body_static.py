@@ -1,4 +1,4 @@
-LEGACY_DEP = "SECRT-3112 (DS3a parts 2-4: `button`, `select`, `badge`)"
+LEGACY_DEP = "SECRT-3112 (the DS3a parts that move `button` and `badge`)"
 
 COMMON_DEV = [
     "**Warn override:** \"remove my directory from the warn override\" is not done here: `.oxlintrc.json`'s per-directory warn override is DS4's (#16022), held and not in dev, and `src/components/__legacy__` is not at 0 strict hits (count above). Owner: DS4 #16022 / SECRT-3153, after it lands.",
@@ -246,3 +246,5 @@ DATASLOT = {
 for _k, _v in DATASLOT.items():
     if _v:
         PRS[_k]["deviations"] = PRS[_k]["deviations"] + [_v]
+
+PRS[1]["what"] = PRS[1]["what"] + "\n- Every element the two new molecules render carries a DS7-2 `data-slot`, and `molecules/Collapsible` keeps its six (see Deviations)."

@@ -59,7 +59,7 @@ def cmp_summary(tag):
 
 CAUSES = {
     "T": "the \"Last updated\" time (not code)",
-    "M": "the 390px top-of-page band that varies between runs of one build (not code)",
+    "O": "Otto's animated orb caught at a different point of its drift (not code)",
     "S": "the sidebar entrance animation race (not code)",
 }
 
