@@ -1,0 +1,14 @@
+- status:
+  - text: Up to 20 attachments per message — 2 not added
+  - button "Dismiss attachment limit notice":
+    - img
+- status: Only text can wait for the reset. Remove the files to schedule this message.
+- status: Only text can wait for the reset. Remove the files to schedule this message.
+- status "No AI connection":
+  - text: No AI model is connected, so chat can't answer yet. Whoever runs this server can add a model API key or a local model
+  - link "(setup guide)":
+    - /url: https://github.com/Significant-Gravitas/AutoGPT/blob/master/docs/platform/single-container.md#models-and-memory
+  - text: ", or you can connect your own ChatGPT or Microsoft 365 Copilot plan in"
+  - link "Settings → Integrations":
+    - /url: /settings/integrations
+  - text: .

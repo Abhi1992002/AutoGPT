@@ -1,0 +1,16 @@
+- text: This chat is shared
+- button "Copy link":
+  - img
+  - text: Copy link
+- alert:
+  - text: "\"GitHub (work)\" was refused — HTTP 401"
+  - paragraph: "Bad credentials: the token was revoked or has expired."
+- alert:
+  - text: The saved credential was refused
+  - paragraph: The provider refused it.
+- status:
+  - img
+  - paragraph: Ana was fired — this thread is read-only
+- status:
+  - img
+  - paragraph: Ana is temporarily unavailable — this thread is read-only

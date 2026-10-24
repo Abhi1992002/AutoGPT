@@ -1,0 +1,32 @@
+- img
+- paragraph: Your review is needed
+- paragraph: This workflow is paused until you approve the step below. Check what it will do, and edit it if needed.
+- button "Approve outreach email In workflow “Lead Finder” 2 reviews":
+  - img
+  - paragraph: Approve outreach email
+  - paragraph: In workflow “Lead Finder”
+  - text: 2 reviews
+- paragraph: Approve outreach email
+- textbox "Value":
+  - /placeholder: Enter text
+  - text: Hi Sam, following up on our call about the Q3 rollout.
+- paragraph: Approve outreach email
+- textbox "Value":
+  - /placeholder: Enter text
+  - text: Second draft
+- switch
+- paragraph: Auto-approve future executions of this node
+- button "Approve 2 reviews"
+- button "Reject 2 reviews"
+- 'button "Post the weekly summary Node #n-2 1 review"':
+  - img
+  - paragraph: Post the weekly summary
+  - paragraph: "Node #n-2"
+  - text: 1 review
+- paragraph: Post the weekly summary
+- paragraph: "42"
+- switch
+- paragraph: Auto-approve future executions of this node
+- button "Approve"
+- button "Reject"
+- paragraph: Each decision applies only to the reviews shown above it. You can turn auto-approval on or off using the toggle for each node.

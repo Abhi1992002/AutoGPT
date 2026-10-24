@@ -10,3 +10,9 @@ PR head `d3c00d5434b939cbe9447e474fd7351d3358362c`, base dev `995df0deeed4c6e171
 - `harness/`: interaction harness, story error-screen probe, data-slot class cross-check, strict-count script.
 
 - `interact-2872787/`, `stories-2872787/` (AttentionCard + consumer stories, base once, head twice), `harness/slots-*.txt` (rendered data-slot class strings on both heads, identical): re-run on head `2872787`.
+
+## Head 54b93af (merge of dev f040a0c) — current evidence
+- `routes/m-pages-base` (dev f040a0c, `next build --no-lint`), `routes/m-pages-head-1`, `m-pages-head-2` (head 54b93af); `routes/compare-*.md` + `routes/diff-m-*`.
+- `stories/m-sb-before` (dev f040a0c Storybook + consumer stories), `stories/m-sb-after`, `m-sb-after2` (head); `stories/compare-m-*.md` + `stories/diff-m-*`.
+- `interact-54b93af/`: rule 17 (b) states, ARIA snapshots, Tab order.
+- `equivalence/equivalence-54b93af-vs-f040a0c.md` (pairs in `pairs.ts`; the pre-merge pairs against 995df0d in `pairs-995df0d.ts`).
