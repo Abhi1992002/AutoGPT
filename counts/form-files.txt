@@ -1,0 +1,15 @@
+src/app/(no-navbar)/login/page.tsx
+src/app/(no-navbar)/signup/page.tsx
+src/app/(platform)/build/components/NewControlPanel/NewSaveControl/NewSaveControl.tsx
+src/app/(platform)/profile/(user)/settings/components/SettingsForm/components/EmailForm/EmailForm.tsx
+src/app/(platform)/profile/(user)/settings/components/SettingsForm/components/NotificationForm/NotificationForm.tsx
+src/app/(platform)/profile/(user)/settings/components/SettingsForm/components/TimezoneForm/TimezoneForm.tsx
+src/app/(platform)/reset-password/page.tsx
+src/components/__legacy__/ui/form.tsx
+src/components/contextual/CredentialsInput/components/APIKeyCredentialsModal/APIKeyCredentialsModal.tsx
+src/components/contextual/CredentialsInput/components/CredentialTypeSelector/CredentialTypeSelector.tsx
+src/components/contextual/CredentialsInput/components/HotScopedCredentialsModal/HotScopedCredentialsModal.tsx
+src/components/contextual/CredentialsInput/components/PasswordCredentialsModal/PasswordCredentialsModal.tsx
+src/components/contextual/EditAgentModal/components/EditAgentForm.tsx
+src/components/contextual/PublishAgentModal/components/AgentInfoStep/AgentInfoStep.tsx
+src/components/layout/Navbar/components/Wallet/components/WalletRefill.tsx

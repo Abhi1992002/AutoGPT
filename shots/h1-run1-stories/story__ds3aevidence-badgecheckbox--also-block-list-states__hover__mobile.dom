@@ -1,0 +1,204 @@
+<div>
+<div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+</div>
+<div>
+<div>
+</div>
+</div>
+</div>
+<table aria-hidden="true">
+<thead>
+<tr>
+<th>
+<span>Name</span>
+</th>
+<th>
+<span>Description</span>
+</th>
+<th>
+<span>Default</span>
+</th>
+<th>
+<span>Control</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span>propertyName</span>
+<span title="Required">*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<div>
+<h1>No Preview</h1>
+<p>Sorry, but you either have no stories or none are selected somehow.</p>
+<ul>
+<li>Please check the Storybook config.</li>
+<li>Try reloading the page.</li>
+</ul>
+<p>If the problem persists, check the browser console, or the terminal you've run Storybook from.</p>
+</div>
+</div>
+<div>
+<div>
+<h1 id="error-message">
+</h1>
+<p>The component failed to render properly, likely due to a configuration issue in Storybook. Here are some common causes and how you can address them:</p>
+<ol>
+<li>
+<strong>Missing Context/Providers</strong>: You can use decorators to supply specific contexts or providers, which are sometimes necessary for components to render correctly. For detailed instructions on using decorators, please visit the <a href="https://storybook.js.org/docs/writing-stories/decorators">Decorators documentation</a>.</li>
+<li>
+<strong>Misconfigured Webpack or Vite</strong>: Verify that Storybook picks up all necessary settings for loaders, plugins, and other relevant parameters. You can find step-by-step guides for configuring <a href="https://storybook.js.org/docs/builders/webpack">Webpack</a> or <a href="https://storybook.js.org/docs/builders/vite">Vite</a> with Storybook.</li>
+<li>
+<strong>Missing Environment Variables</strong>: Your Storybook may require specific environment variables to function as intended. You can set up custom environment variables as outlined in the <a href="https://storybook.js.org/docs/configure/environment-variables">Environment Variables documentation</a>.</li>
+</ol>
+<pre>
+<code id="error-stack">
+</code>
+</pre>
+</div>
+</div>
+<div id="storybook-root">
+<div>
+<div>
+<div>
+<p>Also block</p>
+<label for="also-block-IP:203.0.113.5">
+<button type="button" role="checkbox" aria-checked="true" data-state="checked" value="on" id="also-block-IP:203.0.113.5">
+<span data-state="checked" style="pointer-events: none;">
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+</path>
+</svg>
+</span>
+</button>
+<span>Block <span translate="no">203.0.113.5</span> · 3 sign-ins</span>
+</label>
+<label for="also-block-IP:198.51.100.7">
+<button type="button" role="checkbox" aria-checked="false" data-state="unchecked" value="on" id="also-block-IP:198.51.100.7">
+</button>
+<span>Block <span translate="no">198.51.100.7</span> · 1 sign-in</span>
+</label>
+<label for="also-block-IP:192.0.2.9">
+<button type="button" role="checkbox" aria-checked="true" data-state="checked" data-disabled="" disabled="" value="on" id="also-block-IP:192.0.2.9">
+<span data-state="checked" data-disabled="" style="pointer-events: none;">
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+</path>
+</svg>
+</span>
+</button>
+<span>Block <span translate="no">192.0.2.9</span> · already done</span>
+</label>
+<label for="also-block-EMAIL_DOMAIN:gmail.com">
+<button type="button" role="checkbox" aria-checked="false" data-state="unchecked" data-disabled="" disabled="" value="on" id="also-block-EMAIL_DOMAIN:gmail.com">
+</button>
+<span>Block <span translate="no">gmail.com</span> · public email provider</span>
+</label>
+<p>
+<span>spam.example</span> · already blocked</p>
+<div role="alert">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3">
+</path>
+<path d="M12 9v4">
+</path>
+<path d="M12 17h.01">
+</path>
+</svg>
+<div>You're signed in from 203.0.113.5. You'd be refused at your next sign-in too.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="storybook-docs" hidden="true">
+</div>
+<div id="storybook-highlights-root" style="">
+<div id="storybook-highlights-menu" popover="manual" style="display: none;">
+</div>
+</div>

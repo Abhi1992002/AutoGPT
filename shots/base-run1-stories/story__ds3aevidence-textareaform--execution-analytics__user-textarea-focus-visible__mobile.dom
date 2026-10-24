@@ -1,0 +1,264 @@
+<div>
+<div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+</div>
+<div>
+<div>
+</div>
+</div>
+</div>
+<table aria-hidden="true">
+<thead>
+<tr>
+<th>
+<span>Name</span>
+</th>
+<th>
+<span>Description</span>
+</th>
+<th>
+<span>Default</span>
+</th>
+<th>
+<span>Control</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span>propertyName</span>
+<span title="Required">*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<div>
+<h1>No Preview</h1>
+<p>Sorry, but you either have no stories or none are selected somehow.</p>
+<ul>
+<li>Please check the Storybook config.</li>
+<li>Try reloading the page.</li>
+</ul>
+<p>If the problem persists, check the browser console, or the terminal you've run Storybook from.</p>
+</div>
+</div>
+<div>
+<div>
+<h1 id="error-message">
+</h1>
+<p>The component failed to render properly, likely due to a configuration issue in Storybook. Here are some common causes and how you can address them:</p>
+<ol>
+<li>
+<strong>Missing Context/Providers</strong>: You can use decorators to supply specific contexts or providers, which are sometimes necessary for components to render correctly. For detailed instructions on using decorators, please visit the <a href="https://storybook.js.org/docs/writing-stories/decorators">Decorators documentation</a>.</li>
+<li>
+<strong>Misconfigured Webpack or Vite</strong>: Verify that Storybook picks up all necessary settings for loaders, plugins, and other relevant parameters. You can find step-by-step guides for configuring <a href="https://storybook.js.org/docs/builders/webpack">Webpack</a> or <a href="https://storybook.js.org/docs/builders/vite">Vite</a> with Storybook.</li>
+<li>
+<strong>Missing Environment Variables</strong>: Your Storybook may require specific environment variables to function as intended. You can set up custom environment variables as outlined in the <a href="https://storybook.js.org/docs/configure/environment-variables">Environment Variables documentation</a>.</li>
+</ol>
+<pre>
+<code id="error-stack">
+</code>
+</pre>
+</div>
+</div>
+<div id="storybook-root">
+<div>
+<div>
+<form>
+<div>
+<div>
+<label for="graph_id">Graph ID <span>*</span>
+</label>
+<input id="graph_id" placeholder="Enter graph/agent ID" required="" value="" style="">
+</div>
+<div>
+<label for="graph_version">Graph Version</label>
+<input id="graph_version" placeholder="Optional - leave empty for all versions" type="number" value="" style="">
+</div>
+<div>
+<label for="user_id">User ID</label>
+<input id="user_id" placeholder="Optional - leave empty for all users" value="" style="">
+</div>
+<div>
+<label for="created_after">Created After</label>
+<input id="created_after" type="datetime-local" value="" style="">
+</div>
+<div>
+<label for="model_name">AI Model</label>
+<button type="button" role="combobox" aria-controls="radix-_r_0_" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed">
+<span style="pointer-events: none;">GPT-4o mini</span>
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+</path>
+</svg>
+</button>
+<select aria-hidden="true" tabindex="-1" style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">
+<option value="gpt-4o-mini" selected="">GPT-4o mini</option>
+<option value="gpt-4o">GPT-4o</option>
+</select>
+</div>
+</div>
+<div>
+<div data-state="open">
+<button type="button" aria-controls="radix-_r_1_" aria-expanded="true" data-state="open">
+<div>
+<h3>Advanced Options</h3>
+<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+</div>
+</button>
+<div data-state="open" id="radix-_r_1_" style="--radix-collapsible-content-height: 865px; --radix-collapsible-content-width: 294px;">
+<div>
+<div>
+<div>
+<button type="button" role="checkbox" aria-checked="true" data-state="checked" value="on" id="skip_existing">
+<span data-state="checked" style="pointer-events: none;">
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+</path>
+</svg>
+</span>
+</button>
+<input aria-hidden="true" tabindex="-1" type="checkbox" value="on" checked="" style="position: absolute; pointer-events: none; opacity: 0; margin: 0px; transform: translateX(-100%); width: 16px; height: 16px;">
+<label for="skip_existing">Skip executions that already have activity status and correctness score</label>
+</div>
+<div>
+<button type="button" role="checkbox" aria-checked="true" data-state="checked" value="on" id="show_accuracy_chart">
+<span data-state="checked" style="pointer-events: none;">
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+</path>
+</svg>
+</span>
+</button>
+<input aria-hidden="true" tabindex="-1" type="checkbox" value="on" checked="" style="position: absolute; pointer-events: none; opacity: 0; margin: 0px; transform: translateX(-100%); width: 16px; height: 16px;">
+<label for="show_accuracy_chart">Show accuracy trends chart and historical data visualization</label>
+</div>
+<div>
+<label for="system_prompt">Custom System Prompt (Optional)</label>
+<textarea id="system_prompt" placeholder="You are an evaluator. Decide whether the execution succeeded." rows="6" style="">
+</textarea>
+<p>Customize how the AI evaluates execution success and failure. Leave empty to use the default prompt shown above.</p>
+</div>
+<div>
+<label for="user_prompt">Custom User Prompt Template (Optional)</label>
+<textarea id="user_prompt" placeholder="Workflow: {{GRAPH_NAME}}
+Data: {{EXECUTION_DATA}}
+Give a score." rows="8" style="">
+</textarea>
+<p>Customize the analysis instructions. Use <code>{{GRAPH_NAME}}</code> and <code>{{EXECUTION_DATA}}</code> as placeholders. Leave empty to use the default template shown above.</p>
+</div>
+<div>
+<button type="button">
+<span>Reset System Prompt</span>
+</button>
+<button type="button">
+<span>Reset User Prompt</span>
+</button>
+<button type="button">
+<span>Clear All Prompts</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<button type="submit">
+<span>Generate Analytics</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+<div id="storybook-docs" hidden="true">
+</div>
+<div id="storybook-highlights-root" style="">
+<div id="storybook-highlights-menu" popover="manual" style="display: none;">
+</div>
+</div>

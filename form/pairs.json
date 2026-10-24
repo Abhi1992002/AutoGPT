@@ -1,0 +1,42 @@
+{
+ "pairs": [
+  {
+   "file": " FormLabel (TimezoneForm, HotScopedCredentialsModal), no error",
+   "old": "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
+   "new": "text-body font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
+   "tag": null,
+   "parent": "font-sans font-normal"
+  },
+  {
+   "file": " FormLabel (TimezoneForm), field error",
+   "old": "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-red-500 dark:text-red-900",
+   "new": "text-error text-body font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
+   "tag": null,
+   "parent": "font-sans font-normal"
+  },
+  {
+   "file": " FormDescription (HotScopedCredentialsModal)",
+   "old": "text-[0.8rem] text-neutral-500 dark:text-neutral-400 max-w-md",
+   "new": "font-sans font-normal text-neutral-500 max-w-md text-[0.8rem] leading-inherit",
+   "tag": null,
+   "parent": "font-sans font-normal",
+   "final": true
+  },
+  {
+   "file": " FormDescription (CredentialTypeSelector, APIKeyCredentialsModal: inside Input's hint)",
+   "old": "text-[0.8rem] text-neutral-500 dark:text-neutral-400",
+   "new": "font-sans font-normal text-neutral-500 text-[0.8rem] leading-inherit",
+   "tag": null,
+   "parent": "font-sans text-caption font-normal text-foreground-base text-foreground-subtle",
+   "final": true
+  },
+  {
+   "file": " FormMessage (TimezoneForm)",
+   "old": "text-[0.8rem] font-medium text-red-500 dark:text-red-900",
+   "new": "font-sans font-medium text-error text-[0.8rem] leading-inherit",
+   "tag": null,
+   "parent": "font-sans font-normal",
+   "final": true
+  }
+ ]
+}

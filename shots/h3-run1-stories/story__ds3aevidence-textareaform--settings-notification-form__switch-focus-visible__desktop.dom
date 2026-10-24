@@ -1,0 +1,220 @@
+<div>
+<div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+</div>
+<div>
+<div>
+</div>
+</div>
+</div>
+<table aria-hidden="true">
+<thead>
+<tr>
+<th>
+<span>Name</span>
+</th>
+<th>
+<span>Description</span>
+</th>
+<th>
+<span>Default</span>
+</th>
+<th>
+<span>Control</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span>propertyName</span>
+<span title="Required">*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<div>
+<h1>No Preview</h1>
+<p>Sorry, but you either have no stories or none are selected somehow.</p>
+<ul>
+<li>Please check the Storybook config.</li>
+<li>Try reloading the page.</li>
+</ul>
+<p>If the problem persists, check the browser console, or the terminal you've run Storybook from.</p>
+</div>
+</div>
+<div>
+<div>
+<h1 id="error-message">
+</h1>
+<p>The component failed to render properly, likely due to a configuration issue in Storybook. Here are some common causes and how you can address them:</p>
+<ol>
+<li>
+<strong>Missing Context/Providers</strong>: You can use decorators to supply specific contexts or providers, which are sometimes necessary for components to render correctly. For detailed instructions on using decorators, please visit the <a href="https://storybook.js.org/docs/writing-stories/decorators">Decorators documentation</a>.</li>
+<li>
+<strong>Misconfigured Webpack or Vite</strong>: Verify that Storybook picks up all necessary settings for loaders, plugins, and other relevant parameters. You can find step-by-step guides for configuring <a href="https://storybook.js.org/docs/builders/webpack">Webpack</a> or <a href="https://storybook.js.org/docs/builders/vite">Vite</a> with Storybook.</li>
+<li>
+<strong>Missing Environment Variables</strong>: Your Storybook may require specific environment variables to function as intended. You can set up custom environment variables as outlined in the <a href="https://storybook.js.org/docs/configure/environment-variables">Environment Variables documentation</a>.</li>
+</ol>
+<pre>
+<code id="error-stack">
+</code>
+</pre>
+</div>
+</div>
+<div id="storybook-root">
+<div>
+<div>
+<div>
+<h3>Notifications</h3>
+<p>Billing and account messages are always sent — they are about your account, not a promotion.</p>
+<form>
+<div>
+<div>
+<div>
+<h4>Briefing</h4>
+<p>What your workflows got done, at around 07:30 your time. Never sent when nothing ran.</p>
+</div>
+<div>
+<button type="button" role="combobox" aria-controls="radix-_r_1_" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" aria-label="Briefing frequency" aria-describedby="_r_0_-form-item-description" id="briefing-frequency">
+<span style="pointer-events: none;">
+<div>
+<span>Weekly</span>
+</div>
+</span>
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+</path>
+</svg>
+</button>
+<select aria-hidden="true" tabindex="-1" style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">
+<option value="DAILY">Daily</option>
+<option value="WEEKLY" selected="">Weekly</option>
+<option value="MONTHLY">Monthly</option>
+<option value="OFF">Off</option>
+</select>
+<span>  </span>
+</div>
+</div>
+<div>
+<div>
+<h4>Alerts</h4>
+<p>Only when something is waiting on you — never for a successful run. At most two a day.</p>
+</div>
+<button type="button" role="switch" aria-checked="true" data-state="checked" value="on" aria-label="Alerts" id="_r_2_-form-item" aria-describedby="_r_2_-form-item-description" aria-invalid="false">
+<span data-state="checked">
+</span>
+</button>
+<input aria-hidden="true" tabindex="-1" type="checkbox" value="on" checked="" style="transform: translateX(-100%); position: absolute; pointer-events: none; opacity: 0; margin: 0px; width: 36px; height: 20px;">
+</div>
+<div>
+<div>
+<h4>Marketplace reviews</h4>
+<p>When a workflow you submitted is approved or needs changes.</p>
+</div>
+<button type="button" role="switch" aria-checked="false" data-state="unchecked" value="on" aria-label="Marketplace reviews" id="_r_3_-form-item" aria-describedby="_r_3_-form-item-description" aria-invalid="false">
+<span data-state="unchecked">
+</span>
+</button>
+<input aria-hidden="true" tabindex="-1" type="checkbox" value="on" style="transform: translateX(-100%); position: absolute; pointer-events: none; opacity: 0; margin: 0px; width: 36px; height: 20px;">
+</div>
+</div>
+<div>
+<button type="button">
+<span>Cancel</span>
+</button>
+<button disabled="" type="submit">
+<span>Save preferences</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id="storybook-docs" hidden="true">
+</div>
+<div id="storybook-highlights-root" style="">
+<div id="storybook-highlights-menu" popover="manual" style="display: none;">
+</div>
+</div>

@@ -1,0 +1,11 @@
+<details><summary>Every merged class string (5 rows; click to expand)</summary>
+
+| # | call site | old merged class string | new merged class string | value of the new string (16px root, leading-[30px] parent, 1440px) | result |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Textarea ApproveRejectButton (x3), AddMoneyButton, no className | `agpt-border-input flex min-h-[80px] w-full rounded-md border bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50` | `agpt-border-input flex min-h-20 w-full rounded-md border bg-background px-3 py-2 text-body leading-5 ring-offset-background placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50` | color: rgb(113, 113, 122); font-size: 14px; line-height: 20px | identical (96 measurements) |
+| 2 | Textarea ExecutionAnalyticsForm (x2) | `agpt-border-input flex min-h-[80px] w-full rounded-md border bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50 resize-y` | `agpt-border-input flex min-h-20 w-full rounded-md border bg-background px-3 py-2 text-body leading-5 ring-offset-background placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50 resize-y` | color: rgb(113, 113, 122); font-size: 14px; line-height: 20px | identical (96 measurements) |
+| 3 | Textarea RefundModal | `agpt-border-input flex w-full rounded-md border bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50 min-h-[100px]` | `agpt-border-input flex w-full rounded-md border bg-background px-3 py-2 text-body leading-5 ring-offset-background placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50 min-h-[100px]` | color: rgb(113, 113, 122); font-size: 14px; line-height: 20px | identical (96 measurements) |
+| 4 | Textarea, bare class tokens | `min-h-[80px]` | `min-h-20` | (no colour or type property: see result) | identical (96 measurements) |
+| 5 | Textarea, bare class tokens | `text-sm` | `text-body leading-5` | color: rgb(1, 2, 3); font-size: 14px; line-height: 20px | identical (96 measurements) |
+
+</details>

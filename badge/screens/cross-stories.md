@@ -1,0 +1,480 @@
+476 captures: 476 have a before/after pair at 0 px; 0 do not
+
+| capture | before×after diffs (3×1 runs) | min | same-commit diffs | before×after diff boxes (x0,y0,x1,y1) | same-commit diff boxes |
+| --- | --- | --- | --- | --- | --- |
+| story__ds3aevidence-badgecheckbox--account-checklist-states__checked__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--account-checklist-states__checked__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--account-checklist-states__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--account-checklist-states__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--account-checklist-states__focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--account-checklist-states__focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--account-checklist-states__hover-disabled__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--account-checklist-states__hover-disabled__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--account-checklist-states__hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--account-checklist-states__hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--account-checklist-states__unchecked__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--account-checklist-states__unchecked__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--admin-marketplace-expandable-row__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--admin-marketplace-expandable-row__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--admin-marketplace-expandable-row__expanded__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--admin-marketplace-expandable-row__expanded__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--admin-marketplace-expandable-row__focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--admin-marketplace-expandable-row__focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--admin-marketplace-expandable-row__hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--admin-marketplace-expandable-row__hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--also-block-list-states__checked__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--also-block-list-states__checked__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--also-block-list-states__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--also-block-list-states__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--also-block-list-states__focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--also-block-list-states__focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--also-block-list-states__hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--also-block-list-states__hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--also-block-list-states__unchecked__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--also-block-list-states__unchecked__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-create-dialog__checked__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-create-dialog__checked__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-create-dialog__closed-after-esc__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-create-dialog__closed-after-esc__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-create-dialog__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-create-dialog__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-create-dialog__focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-create-dialog__focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-create-dialog__hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-create-dialog__hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-create-dialog__open-unchecked__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-create-dialog__open-unchecked__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-create-dialog__trigger-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-create-dialog__trigger-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-create-dialog__trigger-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-create-dialog__trigger-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-section-active__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-section-active__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-section-active__focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-section-active__focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-section-active__hover-row__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-section-active__hover-row__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-section-active__menu-closed-after-esc__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-section-active__menu-closed-after-esc__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-section-active__menu-open__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--api-keys-section-active__menu-open__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-domain-dialog-open__account-unchecked__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-domain-dialog-open__account-unchecked__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-domain-dialog-open__also-ban-checked__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-domain-dialog-open__also-ban-checked__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-domain-dialog-open__checkbox-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-domain-dialog-open__checkbox-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-domain-dialog-open__closed-after-esc__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-domain-dialog-open__closed-after-esc__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-domain-dialog-open__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-domain-dialog-open__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-domain-dialog-open__open-unchecked__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-domain-dialog-open__open-unchecked__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-domain-dialog-open__trigger-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-domain-dialog-open__trigger-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-domain-dialog-open__trigger-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-domain-dialog-open__trigger-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-menu-filter-sheet__category-checked__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-menu-filter-sheet__category-checked__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-menu-filter-sheet__category-unchecked__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-menu-filter-sheet__category-unchecked__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-menu-filter-sheet__chip-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-menu-filter-sheet__chip-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-menu-filter-sheet__closed-after-apply__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-menu-filter-sheet__closed-after-apply__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-menu-filter-sheet__creator-checked__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-menu-filter-sheet__creator-checked__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-menu-filter-sheet__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-menu-filter-sheet__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-menu-filter-sheet__focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-menu-filter-sheet__focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-menu-filter-sheet__hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-menu-filter-sheet__hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-menu-filter-sheet__open__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--block-menu-filter-sheet__open__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--diagnostics-executions-table-invalid-disabled__default__desktop.png | 16 / 0 / 16 | **0** | 16 / 0 / 16 |  | (614, 169, 752, 170) |
+| story__ds3aevidence-badgecheckbox--diagnostics-executions-table-invalid-disabled__default__mobile.png | 16 / 16 / 0 | **0** | 0 / 16 / 16 |  | (614, 169, 752, 170) |
+| story__ds3aevidence-badgecheckbox--diagnostics-executions-table-invalid-disabled__hover-disabled__desktop.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-badgecheckbox--diagnostics-executions-table-invalid-disabled__hover-disabled__mobile.png | 16 / 0 / 0 | **0** | 16 / 16 / 0 |  | (614, 169, 752, 170) |
+| story__ds3aevidence-badgecheckbox--diagnostics-executions-table__all-checked__desktop.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-badgecheckbox--diagnostics-executions-table__all-checked__mobile.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-badgecheckbox--diagnostics-executions-table__default__desktop.png | 0 / 0 / 4 | **0** | 0 / 4 / 4 |  | (165, 169, 166, 170) |
+| story__ds3aevidence-badgecheckbox--diagnostics-executions-table__default__mobile.png | 0 / 4 / 4 | **0** | 4 / 4 / 0 |  | (165, 169, 166, 170) |
+| story__ds3aevidence-badgecheckbox--diagnostics-executions-table__focus-visible-header__desktop.png | 4 / 0 / 4 | **0** | 4 / 0 / 4 |  | (165, 169, 166, 170) |
+| story__ds3aevidence-badgecheckbox--diagnostics-executions-table__focus-visible-header__mobile.png | 4 / 4 / 0 | **0** | 0 / 4 / 4 |  | (165, 169, 166, 170) |
+| story__ds3aevidence-badgecheckbox--diagnostics-executions-table__focus-visible-row__desktop.png | 0 / 4 / 0 | **0** | 4 / 0 / 4 |  | (165, 169, 166, 170) |
+| story__ds3aevidence-badgecheckbox--diagnostics-executions-table__focus-visible-row__mobile.png | 0 / 0 / 4 | **0** | 0 / 4 / 4 |  | (165, 169, 166, 170) |
+| story__ds3aevidence-badgecheckbox--diagnostics-executions-table__hover__desktop.png | 0 / 4 / 0 | **0** | 4 / 0 / 4 |  | (165, 169, 166, 170) |
+| story__ds3aevidence-badgecheckbox--diagnostics-executions-table__hover__mobile.png | 4 / 0 / 4 | **0** | 4 / 0 / 4 |  | (165, 169, 166, 170) |
+| story__ds3aevidence-badgecheckbox--diagnostics-executions-table__row-checked__desktop.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-badgecheckbox--diagnostics-executions-table__row-checked__mobile.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-badgecheckbox--diagnostics-schedules-table__all-checked__desktop.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-badgecheckbox--diagnostics-schedules-table__all-checked__mobile.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-badgecheckbox--diagnostics-schedules-table__default__desktop.png | 0 / 6 / 6 | **0** | 6 / 6 / 0 |  | (236, 169, 238, 170) |
+| story__ds3aevidence-badgecheckbox--diagnostics-schedules-table__default__mobile.png | 0 / 6 / 0 | **0** | 6 / 0 / 6 |  | (236, 169, 238, 170) |
+| story__ds3aevidence-badgecheckbox--diagnostics-schedules-table__focus-visible-header__desktop.png | 6 / 0 / 0 | **0** | 6 / 6 / 0 |  | (236, 169, 238, 170) |
+| story__ds3aevidence-badgecheckbox--diagnostics-schedules-table__focus-visible-header__mobile.png | 0 / 6 / 6 | **0** | 6 / 6 / 0 |  | (236, 169, 238, 170) |
+| story__ds3aevidence-badgecheckbox--diagnostics-schedules-table__focus-visible-row__desktop.png | 0 / 6 / 6 | **0** | 6 / 6 / 0 |  | (236, 169, 238, 170) |
+| story__ds3aevidence-badgecheckbox--diagnostics-schedules-table__focus-visible-row__mobile.png | 6 / 0 / 6 | **0** | 6 / 0 / 6 |  | (236, 169, 238, 170) |
+| story__ds3aevidence-badgecheckbox--diagnostics-schedules-table__hover__desktop.png | 0 / 6 / 0 | **0** | 6 / 0 / 6 |  | (236, 169, 238, 170) |
+| story__ds3aevidence-badgecheckbox--diagnostics-schedules-table__hover__mobile.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-badgecheckbox--diagnostics-schedules-table__row-checked__desktop.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-badgecheckbox--diagnostics-schedules-table__row-checked__mobile.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-badgecheckbox--execution-analytics-form-checkboxes__advanced-open-checked__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--execution-analytics-form-checkboxes__advanced-open-checked__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--execution-analytics-form-checkboxes__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--execution-analytics-form-checkboxes__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--execution-analytics-form-checkboxes__focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--execution-analytics-form-checkboxes__focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--execution-analytics-form-checkboxes__hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--execution-analytics-form-checkboxes__hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--execution-analytics-form-checkboxes__unchecked__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--execution-analytics-form-checkboxes__unchecked__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--mcp-tool-dialog-tools__closed-after-esc__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--mcp-tool-dialog-tools__closed-after-esc__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--mcp-tool-dialog-tools__focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--mcp-tool-dialog-tools__focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--mcp-tool-dialog-tools__open-url-step__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--mcp-tool-dialog-tools__open-url-step__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--mcp-tool-dialog-tools__tool-expanded__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--mcp-tool-dialog-tools__tool-expanded__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--mcp-tool-dialog-tools__tool-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--mcp-tool-dialog-tools__tool-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--mcp-tool-dialog-tools__tool-list-scrolled-to-last__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--mcp-tool-dialog-tools__tool-list-scrolled-to-last__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--mcp-tool-dialog-tools__tool-list__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--mcp-tool-dialog-tools__tool-list__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--mcp-tool-dialog-tools__tool-selected__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--mcp-tool-dialog-tools__tool-selected__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--mcp-tool-dialog-tools__url-filled__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--mcp-tool-dialog-tools__url-filled__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--multi-selector-chips__chip-active__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--multi-selector-chips__chip-active__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--multi-selector-chips__chip-removed__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--multi-selector-chips__chip-removed__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--multi-selector-chips__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--multi-selector-chips__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--multi-selector-chips__focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--multi-selector-chips__focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--multi-selector-chips__hover-remove__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--multi-selector-chips__hover-remove__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--multi-selector-chips__open__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--multi-selector-chips__open__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--node-badges-categories__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--node-badges-categories__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--node-execution-badge-completed__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--node-execution-badge-completed__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--node-execution-badge-failed__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--node-execution-badge-failed__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--node-execution-badge-incomplete__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--node-execution-badge-incomplete__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--node-execution-badge-queued__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--node-execution-badge-queued__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--node-execution-badge-review__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--node-execution-badge-review__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--node-execution-badge-running__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--node-execution-badge-running__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--node-execution-badge-terminated__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-badgecheckbox--node-execution-badge-terminated__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--builder-block-menu-sidebar-loading__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--builder-block-menu-sidebar-loading__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--builder-block-skeleton__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--builder-block-skeleton__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--builder-integration-block-skeleton__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--builder-integration-block-skeleton__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--builder-integration-blocks-loading__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--builder-integration-blocks-loading__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--builder-integration-chip-skeleton__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--builder-integration-chip-skeleton__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--builder-integration-skeleton__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--builder-integration-skeleton__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--builder-marketplace-agent-block-skeleton__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--builder-marketplace-agent-block-skeleton__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--builder-search-history-chip-skeleton__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--builder-search-history-chip-skeleton__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--builder-ugc-agent-block-skeleton__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--builder-ugc-agent-block-skeleton__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--dashboard-submissions-loading__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--dashboard-submissions-loading__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--library-agent-runs-loading__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--library-agent-runs-loading__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--library-agent-version-changelog-loading__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--library-agent-version-changelog-loading__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--library-loading-selected-content__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--library-loading-selected-content__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--library-sidebar-runs-list-loading__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--library-sidebar-runs-list-loading__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--loading-login-page__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--loading-login-page__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--loading-signup-page__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--loading-signup-page__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--marketplace-page-loading__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--marketplace-page-loading__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--publish-agent-select-step-loading__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--publish-agent-select-step-loading__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--publish-auth-prompt-skeleton-only__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--publish-auth-prompt-skeleton-only__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--publish-modal-auth-loading__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--publish-modal-auth-loading__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--publish-modal-review-loading__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--publish-modal-review-loading__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--settings-loading-page__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-skeleton--settings-loading-page__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--add-money-button__closed-after-esc__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--add-money-button__closed-after-esc__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--add-money-button__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--add-money-button__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--add-money-button__disabled__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--add-money-button__disabled__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--add-money-button__hover-trigger__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--add-money-button__hover-trigger__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--add-money-button__open__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--add-money-button__open__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--add-money-button__submit-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--add-money-button__submit-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--add-money-button__textarea-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--add-money-button__textarea-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--add-money-button__textarea-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--add-money-button__textarea-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--api-key-credentials__closed-after-esc__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--api-key-credentials__closed-after-esc__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--api-key-credentials__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--api-key-credentials__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--api-key-credentials__error__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--api-key-credentials__error__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--api-key-credentials__input-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--api-key-credentials__input-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--api-key-credentials__open__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--api-key-credentials__open__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--api-key-credentials__submit-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--api-key-credentials__submit-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--api-key-credentials__submit-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--api-key-credentials__submit-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-approved__closed-after-esc__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-approved__closed-after-esc__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-approved__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-approved__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-approved__open-revoke__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-approved__open-revoke__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-approved__textarea-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-approved__textarea-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__approve-submit-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__approve-submit-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__approve-submit-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__approve-submit-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__approve-textarea-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__approve-textarea-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__approve-textarea-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__approve-textarea-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__closed-after-esc__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__closed-after-esc__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__error__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__error__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__hover-approve-trigger__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__hover-approve-trigger__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__hover-reject-trigger__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__hover-reject-trigger__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__open-approve__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__open-approve__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__open-reject__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__open-reject__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__reject-internal-textarea-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__reject-internal-textarea-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__reject-textarea-filled__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__reject-textarea-filled__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__reject-textarea-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--approve-reject-buttons-pending__reject-textarea-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--credential-type-selector-api-key__closed-after-esc__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--credential-type-selector-api-key__closed-after-esc__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--credential-type-selector-api-key__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--credential-type-selector-api-key__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--credential-type-selector-api-key__error__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--credential-type-selector-api-key__error__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--credential-type-selector-api-key__input-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--credential-type-selector-api-key__input-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--credential-type-selector-api-key__oauth-tab__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--credential-type-selector-api-key__oauth-tab__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--credential-type-selector-api-key__open__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--credential-type-selector-api-key__open__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--credential-type-selector-api-key__submit-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--credential-type-selector-api-key__submit-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--credential-type-selector-api-key__submit-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--credential-type-selector-api-key__submit-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--credential-type-selector-api-key__tab-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--credential-type-selector-api-key__tab-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--edit-agent__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--edit-agent__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--edit-agent__error__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--edit-agent__error__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--edit-agent__experience-open__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--edit-agent__experience-open__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--edit-agent__submit-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--edit-agent__submit-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--edit-agent__textarea-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--edit-agent__textarea-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--edit-agent__textarea-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--edit-agent__textarea-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--edit-agent__thumbnails-open__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--edit-agent__thumbnails-open__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--execution-analytics__advanced-open__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--execution-analytics__advanced-open__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--execution-analytics__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--execution-analytics__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--execution-analytics__error__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--execution-analytics__error__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--execution-analytics__prompts-filled__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--execution-analytics__prompts-filled__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--execution-analytics__submit-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--execution-analytics__submit-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--execution-analytics__system-textarea-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--execution-analytics__system-textarea-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--execution-analytics__system-textarea-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--execution-analytics__system-textarea-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--execution-analytics__user-textarea-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--execution-analytics__user-textarea-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--host-scoped-credentials__add-header__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--host-scoped-credentials__add-header__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--host-scoped-credentials__closed-after-esc__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--host-scoped-credentials__closed-after-esc__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--host-scoped-credentials__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--host-scoped-credentials__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--host-scoped-credentials__error__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--host-scoped-credentials__error__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--host-scoped-credentials__header-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--host-scoped-credentials__header-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--host-scoped-credentials__input-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--host-scoped-credentials__input-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--host-scoped-credentials__open__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--host-scoped-credentials__open__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--host-scoped-credentials__submit-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--host-scoped-credentials__submit-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--host-scoped-credentials__submit-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--host-scoped-credentials__submit-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--password-credentials__closed-after-esc__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--password-credentials__closed-after-esc__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--password-credentials__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--password-credentials__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--password-credentials__error__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--password-credentials__error__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--password-credentials__input-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--password-credentials__input-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--password-credentials__open__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--password-credentials__open__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--password-credentials__submit-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--password-credentials__submit-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--password-credentials__submit-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--password-credentials__submit-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--publish-agent-info-step-update__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--publish-agent-info-step-update__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--publish-agent-info-step-update__error__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--publish-agent-info-step-update__error__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--publish-agent-info-step-update__textarea-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--publish-agent-info-step-update__textarea-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--publish-agent-info-step__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--publish-agent-info-step__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--publish-agent-info-step__error__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--publish-agent-info-step__error__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--publish-agent-info-step__experience-open__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--publish-agent-info-step__experience-open__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--publish-agent-info-step__input-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--publish-agent-info-step__input-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--publish-agent-info-step__submit-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--publish-agent-info-step__submit-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--refund__closed-after-esc__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--refund__closed-after-esc__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--refund__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--refund__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--refund__error-short-reason__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--refund__error-short-reason__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--refund__error__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--refund__error__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--refund__open__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--refund__open__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--refund__submit-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--refund__submit-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--refund__textarea-filled__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--refund__textarea-filled__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--refund__textarea-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--refund__textarea-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--refund__textarea-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--refund__textarea-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--save-control__closed-after-esc__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--save-control__closed-after-esc__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--save-control__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--save-control__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--save-control__hover-trigger__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--save-control__hover-trigger__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--save-control__input-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--save-control__input-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--save-control__open__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--save-control__open__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--save-control__submit-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--save-control__submit-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--save-control__submit-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--save-control__submit-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-email-form__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-email-form__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-email-form__disabled__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-email-form__disabled__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-email-form__error-empty__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-email-form__error-empty__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-email-form__error__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-email-form__error__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-email-form__input-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-email-form__input-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-email-form__submit-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-email-form__submit-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-email-form__submit-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-email-form__submit-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-notification-form__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-notification-form__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-notification-form__dirty__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-notification-form__dirty__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-notification-form__disabled__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-notification-form__disabled__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-notification-form__select-open__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-notification-form__select-open__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-notification-form__submit-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-notification-form__submit-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-notification-form__switch-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-notification-form__switch-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-timezone-form-empty__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-timezone-form-empty__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-timezone-form-empty__error-select-open__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-timezone-form-empty__error-select-open__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-timezone-form-empty__error__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-timezone-form-empty__error__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-timezone-form__default__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-timezone-form__default__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-timezone-form__disabled__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-timezone-form__disabled__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-timezone-form__select-open__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-timezone-form__select-open__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-timezone-form__submit-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-timezone-form__submit-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-timezone-form__submit-hover__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-timezone-form__submit-hover__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-timezone-form__trigger-focus-visible__desktop.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--settings-timezone-form__trigger-focus-visible__mobile.png | 0 / 0 / missing | **0** | 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__auto-refill-input-focus-visible__desktop.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__auto-refill-input-focus-visible__mobile.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__auto-refill-submit-hover__desktop.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__auto-refill-submit-hover__mobile.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__auto-refill__desktop.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__auto-refill__mobile.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__default__desktop.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__default__mobile.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__disabled__desktop.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__disabled__mobile.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__error-refine__desktop.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__error-refine__mobile.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__error__desktop.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__error__mobile.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__tab-focus-visible__desktop.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__tab-focus-visible__mobile.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__topup-error__desktop.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__topup-error__mobile.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__topup-input-focus-visible__desktop.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |
+| story__ds3aevidence-textareaform--wallet-refill-panel__topup-input-focus-visible__mobile.png | 0 / 0 / 0 | **0** | 0 / 0 / 0 |  |  |

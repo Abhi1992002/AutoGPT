@@ -1,0 +1,166 @@
+<div>
+<div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+</div>
+<div>
+<div>
+</div>
+</div>
+</div>
+<table aria-hidden="true">
+<thead>
+<tr>
+<th>
+<span>Name</span>
+</th>
+<th>
+<span>Description</span>
+</th>
+<th>
+<span>Default</span>
+</th>
+<th>
+<span>Control</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span>propertyName</span>
+<span title="Required">*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<div>
+<h1>No Preview</h1>
+<p>Sorry, but you either have no stories or none are selected somehow.</p>
+<ul>
+<li>Please check the Storybook config.</li>
+<li>Try reloading the page.</li>
+</ul>
+<p>If the problem persists, check the browser console, or the terminal you've run Storybook from.</p>
+</div>
+</div>
+<div>
+<div>
+<h1 id="error-message">
+</h1>
+<p>The component failed to render properly, likely due to a configuration issue in Storybook. Here are some common causes and how you can address them:</p>
+<ol>
+<li>
+<strong>Missing Context/Providers</strong>: You can use decorators to supply specific contexts or providers, which are sometimes necessary for components to render correctly. For detailed instructions on using decorators, please visit the <a href="https://storybook.js.org/docs/writing-stories/decorators">Decorators documentation</a>.</li>
+<li>
+<strong>Misconfigured Webpack or Vite</strong>: Verify that Storybook picks up all necessary settings for loaders, plugins, and other relevant parameters. You can find step-by-step guides for configuring <a href="https://storybook.js.org/docs/builders/webpack">Webpack</a> or <a href="https://storybook.js.org/docs/builders/vite">Vite</a> with Storybook.</li>
+<li>
+<strong>Missing Environment Variables</strong>: Your Storybook may require specific environment variables to function as intended. You can set up custom environment variables as outlined in the <a href="https://storybook.js.org/docs/configure/environment-variables">Environment Variables documentation</a>.</li>
+</ol>
+<pre>
+<code id="error-stack">
+</code>
+</pre>
+</div>
+</div>
+<div id="storybook-root">
+<div>
+<div>
+<div role="button" data-id="save-control-popover-trigger" data-testid="save-control-save-button" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_r_2_" data-state="closed">
+<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M8 22V19C8 17.1144 8 16.1716 8.58579 15.5858C9.17157 15 10.1144 15 12 15C13.8856 15 14.8284 15 15.4142 15.5858C16 16.1716 16 17.1144 16 19V22" stroke="currentColor" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M10 7H14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M3 11.8584C3 7.28199 3 4.99376 4.38674 3.54394C4.43797 3.49038 4.49038 3.43797 4.54394 3.38674C5.99376 2 8.28199 2 12.8584 2C13.943 2 14.4655 2.00376 14.9628 2.18936C15.4417 2.3681 15.8429 2.70239 16.6452 3.37099L18.8411 5.20092C19.9027 6.08561 20.4335 6.52795 20.7168 7.13266C21 7.73737 21 8.42833 21 9.81025V13C21 16.7497 21 18.6246 20.0451 19.9389C19.7367 20.3634 19.3634 20.7367 18.9389 21.0451C17.6246 22 15.7497 22 12 22C8.25027 22 6.3754 22 5.06107 21.0451C4.6366 20.7367 4.26331 20.3634 3.95491 19.9389C3 18.6246 3 16.7497 3 13V11.8584Z" stroke="currentColor" stroke-width="2">
+</path>
+</svg>
+</div>
+</div>
+</div>
+</div>
+<div id="storybook-docs" hidden="true">
+</div>
+<div id="storybook-highlights-root" style="">
+<div id="storybook-highlights-menu" popover="manual" style="display: none;">
+</div>
+</div>

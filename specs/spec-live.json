@@ -1,0 +1,35 @@
+[
+ {"kind":"route","id":"/login","url":"/login","states":[
+   {"name":"default","steps":[]},
+   {"name":"error-empty-submit","steps":[{"action":"click","selector":"button[type=submit]"},{"action":"wait","ms":600}]},
+   {"name":"focus-visible-tab1","steps":[{"action":"press","key":"Tab"}]},
+   {"name":"focus-visible-tab3","steps":[{"action":"press","key":"Tab"},{"action":"press","key":"Tab"},{"action":"press","key":"Tab"}]},
+   {"name":"typed","steps":[{"action":"fill","selector":"input[type=email]","text":"someone@example.com"}]}]},
+ {"kind":"route","id":"/signup","url":"/signup","states":[
+   {"name":"default","steps":[]},
+   {"name":"error-empty-submit","steps":[{"action":"click","selector":"button[type=submit]"},{"action":"wait","ms":600}]},
+   {"name":"focus-visible-tab1","steps":[{"action":"press","key":"Tab"}]}]},
+ {"kind":"route","id":"/reset-password","url":"/reset-password","states":[
+   {"name":"default","steps":[]},
+   {"name":"error-empty-submit","steps":[{"action":"click","selector":"button[type=submit]"},{"action":"wait","ms":600}]},
+   {"name":"focus-visible-tab1","steps":[{"action":"press","key":"Tab"}]}]},
+ {"kind":"route","id":"/profile/settings","url":"/profile/settings","auth":true,"states":[
+   {"name":"default","steps":[]},
+   {"name":"timezone-trigger-focus","steps":[{"action":"focus","selector":"button[role=combobox]"}]},
+   {"name":"timezone-select-open","steps":[{"action":"click","selector":"button[role=combobox]"}]},
+   {"name":"timezone-select-esc","steps":[{"action":"click","selector":"button[role=combobox]"},{"action":"press","key":"Escape"}]},
+   {"name":"switch-hover","steps":[{"action":"hover","selector":"button[role=switch]"}]}]},
+ {"kind":"route","id":"/admin/marketplace","url":"/admin/marketplace","auth":true,"states":[
+   {"name":"default","steps":[]},
+   {"name":"row-expanded","steps":[{"action":"click","selector":"td:has(svg.lucide-chevron-right)"}]}]},
+ {"kind":"route","id":"/admin/execution-analytics","url":"/admin/execution-analytics","auth":true,"states":[
+   {"name":"default","steps":[]},
+   {"name":"advanced-open","steps":[{"action":"click","selector":"text=Advanced Options"}]},
+   {"name":"advanced-checkbox-toggled","steps":[{"action":"click","selector":"text=Advanced Options"},{"action":"click","selector":"#skip_existing"}]},
+   {"name":"advanced-checkbox-hover","steps":[{"action":"click","selector":"text=Advanced Options"},{"action":"hover","selector":"#skip_existing"}]},
+   {"name":"advanced-checkbox-focus-visible","steps":[{"action":"click","selector":"text=Advanced Options"},{"action":"focus","selector":"#skip_existing"},{"action":"press","key":"Shift+Tab"},{"action":"press","key":"Tab"}]},
+   {"name":"advanced-textarea-focus","steps":[{"action":"click","selector":"text=Advanced Options"},{"action":"focus","selector":"#system_prompt"}]},
+   {"name":"advanced-textarea-typed","steps":[{"action":"click","selector":"text=Advanced Options"},{"action":"fill","selector":"#user_prompt","text":"Evidence prompt"}]}]},
+ {"kind":"route","id":"/build-flow","url":"/build?flowID=34a305ab-b16c-4f2f-b008-e75ec66b8328","auth":true,"states":[
+   {"name":"default","steps":[{"action":"wait","ms":1500}]}]}
+]

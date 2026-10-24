@@ -1,0 +1,11 @@
+5 unique class strings (5 occurrences), 10 cases (as written, cn() contexts), 480 measurements (2 widths x 6 states x 2 parent line-heights x plain/profile-tabs): 0 failing cases
+
+| # | old class string | new class string | value of the new class (computed, 16px root, in a leading-[30px] parent, 1440px, variant stripped, with the ring/divide/gradient helper that makes a colour visible) | result |
+| --- | --- | --- | --- | --- |
+| 1 | `agpt-border-input flex min-h-[80px] w-full rounded-md border bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50` | `agpt-border-input flex min-h-20 w-full rounded-md border bg-background px-3 py-2 text-body leading-5 ring-offset-background placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50` | color: rgb(113, 113, 122); font-size: 14px; line-height: 20px | identical (96 measurements) |
+| 2 | `agpt-border-input flex min-h-[80px] w-full rounded-md border bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50 resize-y` | `agpt-border-input flex min-h-20 w-full rounded-md border bg-background px-3 py-2 text-body leading-5 ring-offset-background placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50 resize-y` | color: rgb(113, 113, 122); font-size: 14px; line-height: 20px | identical (96 measurements) |
+| 3 | `agpt-border-input flex w-full rounded-md border bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50 min-h-[100px]` | `agpt-border-input flex w-full rounded-md border bg-background px-3 py-2 text-body leading-5 ring-offset-background placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50 min-h-[100px]` | color: rgb(113, 113, 122); font-size: 14px; line-height: 20px | identical (96 measurements) |
+| 4 | `min-h-[80px]` | `min-h-20` | (no colour or type property: see result) | identical (96 measurements) |
+| 5 | `text-sm` | `text-body leading-5` | color: rgb(1, 2, 3); font-size: 14px; line-height: 20px | identical (96 measurements) |
+
+

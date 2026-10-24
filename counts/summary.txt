@@ -1,0 +1,10 @@
+base-for-badge 6e55790861139274e3853a400602742620007902 legacy-ui-dir wc=212 unix=212 | touched-files(8) wc=83 unix=83
+head-badge 6eecc0989ffb88a963a49033fa93cee2610850cc legacy-ui-dir wc=200 unix=200 | touched-files(7) wc=97 unix=97
+base-for-skeleton 6eecc0989ffb88a963a49033fa93cee2610850cc legacy-ui-dir wc=200 unix=200 | touched-files(22) wc=277 unix=277
+head-skeleton 345ba263e8d6e87a369f188138749650bdf67e32 legacy-ui-dir wc=199 unix=199 | touched-files(21) wc=330 unix=330
+base-for-checkbox 345ba263e8d6e87a369f188138749650bdf67e32 legacy-ui-dir wc=199 unix=199 | touched-files(8) wc=146 unix=146
+head-checkbox 807695ffb5d95607132a80f2fb4b6dee7e7273dc legacy-ui-dir wc=189 unix=189 | touched-files(10) wc=160 unix=160
+base-for-textarea 807695ffb5d95607132a80f2fb4b6dee7e7273dc legacy-ui-dir wc=189 unix=189 | touched-files(4) wc=21 unix=21
+head-textarea 7b8a70e388136d88bded83861e658f8ff2d35d33 legacy-ui-dir wc=189 unix=189 | touched-files(6) wc=21 unix=21
+base-for-form 7b8a70e388136d88bded83861e658f8ff2d35d33 legacy-ui-dir wc=189 unix=189 | touched-files(15) wc=116 unix=116
+head-form 7aaf1e0ee5e9b5c5879bed8364ed8991c5d4956e legacy-ui-dir wc=181 unix=181 | touched-files(14) wc=129 unix=129

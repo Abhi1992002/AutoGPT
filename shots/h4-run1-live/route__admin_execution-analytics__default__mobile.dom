@@ -1,0 +1,447 @@
+<div hidden="">
+<!--$-->
+<!--/$-->
+</div>
+<!--$-->
+<!--/$-->
+<!--$-->
+<!--/$-->
+<div>
+<main>
+<section>
+<div>
+<aside style="opacity: 1; transform: none;">
+<a aria-label="Back to home" href="/copilot">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M5.5 12.002H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M10.9999 18.002C10.9999 18.002 4.99998 13.583 4.99997 12.0019C4.99996 10.4208 11 6.00195 11 6.00195" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+<span>Back</span>
+</a>
+<nav>
+<div style="opacity: 1; transform: translateX(-6px);">
+<a href="/admin/users">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M17 8.5C17 5.73858 14.7614 3.5 12 3.5C9.23858 3.5 7 5.73858 7 8.5C7 11.2614 9.23858 13.5 12 13.5C14.7614 13.5 17 11.2614 17 8.5Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M19 20.5C19 16.634 15.866 13.5 12 13.5C8.13401 13.5 5 16.634 5 20.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+<span>Users</span>
+</a>
+</div>
+<div style="opacity: 1; transform: translateX(-6px);">
+<a href="/admin/marketplace">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M13 11C13 8.79086 11.2091 7 9 7C6.79086 7 5 8.79086 5 11C5 13.2091 6.79086 15 9 15C11.2091 15 13 13.2091 13 11Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M11.0386 7.55773C11.0131 7.37547 11 7.18927 11 7C11 4.79086 12.7909 3 15 3C17.2091 3 19 4.79086 19 7C19 9.20914 17.2091 11 15 11C14.2554 11 13.5584 10.7966 12.9614 10.4423" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M15 21C15 17.6863 12.3137 15 9 15C5.68629 15 3 17.6863 3 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M21 17C21 13.6863 18.3137 11 15 11" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+<span>Marketplace Management</span>
+</a>
+</div>
+<div style="opacity: 1; transform: translateX(-6px);">
+<a href="/admin/spending">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M17.5 8.63158C17.5 6.62699 15.0376 5.00195 12 5.00195C8.96243 5.00195 6.5 6.62699 6.5 8.63158C6.5 10.6362 8 11.7427 12 11.7427C16 11.7427 18 12.7797 18 15.3723C18 17.9649 15.5 19.002 12 19.002C8.5 19.002 6 17.502 6 15.502" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+<path d="M12 3.00195V21.002" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+</svg>
+<span>User Spending</span>
+</a>
+</div>
+<div style="opacity: 1; transform: translateX(-6px);">
+<a href="/admin/diagnostics">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M2 12H6L7.5 8L9.5 15L13 6L15.5 18L18 12H22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+<span>System Diagnostics</span>
+</a>
+</div>
+<div style="opacity: 1; transform: translateX(-6px);">
+<a href="/admin/platform-costs">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M8.06805 2.72546L7.89604 2.86189C7.71084 3.00878 7.61823 3.08223 7.52605 3.12852C7.20698 3.28874 6.8259 3.26781 6.52663 3.07364C6.44017 3.01754 6.35631 2.93441 6.1886 2.76813C5.78856 2.37152 5.58853 2.17321 5.43777 2.10043C4.89824 1.83999 4.25045 2.10601 4.0547 2.6684C4 2.82556 4 3.10601 4 3.66691V20.698C4 20.9548 4 21.0832 4.01158 21.158C4.12554 21.8938 4.98624 22.2473 5.59159 21.8069C5.65313 21.7621 5.74474 21.6713 5.92789 21.4897C6.0431 21.3755 6.10079 21.3183 6.15539 21.2735C6.66242 20.8578 7.38352 20.8182 7.93376 21.1759C7.99303 21.2144 8.05667 21.2649 8.18395 21.3658L8.32009 21.4738C8.55044 21.6565 8.66564 21.7479 8.78105 21.8104C9.22912 22.053 9.77088 22.053 10.219 21.8104C10.3344 21.7479 10.4495 21.6565 10.6799 21.4738L10.75 21.4182C11.047 21.1827 11.1955 21.0649 11.3484 20.9918C11.7601 20.7949 12.2399 20.7949 12.6516 20.9918C12.8045 21.0649 12.953 21.1827 13.25 21.4182L13.3201 21.4738C13.5505 21.6565 13.6656 21.7479 13.781 21.8104C14.2291 22.053 14.7709 22.053 15.219 21.8104C15.3344 21.7479 15.4496 21.6565 15.6799 21.4738L15.816 21.3658C15.9433 21.2649 16.007 21.2144 16.0662 21.1759C16.6165 20.8182 17.3376 20.8578 17.8446 21.2735C17.8992 21.3183 17.9569 21.3755 18.0721 21.4897C18.2553 21.6713 18.3469 21.7621 18.4084 21.8069C19.0138 22.2473 19.8745 21.8938 19.9884 21.158C20 21.0832 20 20.9548 20 20.698V3.66691C20 3.10601 20 2.82556 19.9453 2.6684C19.7495 2.10601 19.1018 1.83999 18.5622 2.10043C18.4115 2.17321 18.2114 2.37152 17.8114 2.76813C17.6437 2.93441 17.5598 3.01754 17.4734 3.07364C17.1741 3.26781 16.793 3.28874 16.4739 3.12852C16.3818 3.08223 16.2892 3.00878 16.104 2.86189L15.932 2.72546C15.4614 2.35223 15.2261 2.16562 14.9695 2.08178C14.6646 1.98214 14.3354 1.98214 14.0305 2.08178C13.7739 2.16562 13.5386 2.35224 13.068 2.72546L13 2.77943C12.6428 3.06273 12.4642 3.20438 12.2661 3.2586C12.092 3.30627 11.908 3.30627 11.7339 3.2586C11.5358 3.20438 11.3572 3.06273 11 2.77943L10.932 2.72546C10.4614 2.35223 10.2261 2.16562 9.96953 2.08178C9.66458 1.98214 9.33542 1.98214 9.03047 2.08178C8.7739 2.16562 8.53862 2.35223 8.06805 2.72546Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M8 12H16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M8 8H12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M8 16H16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+<span>Platform Costs</span>
+</a>
+</div>
+<div style="opacity: 1; transform: translateX(-6px);">
+<a aria-current="page" href="/admin/execution-analytics">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M8 17H16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M8 13H12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M13 2.5V3C13 5.82843 13 7.24264 13.8787 8.12132C14.7574 9 16.1716 9 19 9H19.5M20 10.6569V14C20 17.7712 20 19.6569 18.8284 20.8284C17.6569 22 15.7712 22 12 22C8.22876 22 6.34315 22 5.17157 20.8284C4 19.6569 4 17.7712 4 14V9.45584C4 6.21082 4 4.58831 4.88607 3.48933C5.06508 3.26731 5.26731 3.06508 5.48933 2.88607C6.58831 2 8.21082 2 11.4558 2C12.1614 2 12.5141 2 12.8372 2.11401C12.9044 2.13772 12.9702 2.165 13.0345 2.19575C13.3436 2.34355 13.593 2.593 14.0919 3.09188L18.8284 7.82843C19.4065 8.40649 19.6955 8.69552 19.8478 9.06306C20 9.4306 20 9.83935 20 10.6569Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+<span>Execution Analytics</span>
+</a>
+</div>
+<div style="opacity: 1; transform: translateX(-6px);">
+<a href="/admin/bots">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M12 4V2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M20 22C20 17.5817 16.4183 14 12 14C7.58172 14 4 17.5817 4 22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M9.375 8.25H9.25M9.5 8.25C9.5 8.38807 9.38807 8.5 9.25 8.5C9.11193 8.5 9 8.38807 9 8.25C9 8.11193 9.11193 8 9.25 8C9.38807 8 9.5 8.11193 9.5 8.25Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M14.875 8.25H14.75M15 8.25C15 8.38807 14.8881 8.5 14.75 8.5C14.6119 8.5 14.5 8.38807 14.5 8.25C14.5 8.11193 14.6119 8 14.75 8C14.8881 8 15 8.11193 15 8.25Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M15.1538 4H8.84615C7.59095 4 6.96334 4 6.47397 4.22025C5.91693 4.47095 5.47095 4.91693 5.22025 5.47397C5 5.96334 5 6.59095 5 7.84615C5 9.85448 5 10.8586 5.3524 11.6417C5.75353 12.5329 6.46709 13.2465 7.35835 13.6476C8.14135 14 9.14552 14 11.1538 14H12.8462C14.8545 14 15.8586 14 16.6417 13.6476C17.5329 13.2465 18.2465 12.5329 18.6476 11.6417C19 10.8586 19 9.85448 19 7.84615C19 6.59095 19 5.96334 18.7797 5.47397C18.529 4.91693 18.0831 4.47095 17.526 4.22025C17.0367 4 16.4091 4 15.1538 4Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+<span>Bot Analytics</span>
+</a>
+</div>
+<div style="opacity: 1; transform: translateX(-6px);">
+<a href="/admin/block-cost-estimates">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M3 10H21" stroke="currentColor" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M15 6L17 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M21 13V11C21 6.75736 21 4.63604 19.682 3.31802C18.364 2 16.2426 2 12 2C7.75736 2 5.63604 2 4.31802 3.31802C3 4.63604 3 6.75736 3 11V13C3 17.2426 3 19.364 4.31802 20.682C5.63604 22 7.75736 22 12 22C16.2426 22 18.364 22 19.682 20.682C21 19.364 21 17.2426 21 13Z" stroke="currentColor" stroke-width="2">
+</path>
+<path d="M7 14H7.52632M11.7368 14H12.2632M16.4737 14H17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M7 18H7.52632M11.7368 18H12.2632M16.4737 18H17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+<span>Block Cost Estimates</span>
+</a>
+</div>
+<div style="opacity: 1; transform: translateX(-6px);">
+<a href="/admin/memory">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M16.998 7.12652C17.3182 7.04393 17.654 7 18 7C20.2091 7 22 8.79086 22 11C22 13.2091 20.2091 15 18 15C17.6451 15 17.3009 14.9538 16.9733 14.867M16.998 7.12652C16.9993 7.08451 17 7.04233 17 7C17 4.79086 15.2091 3 13 3C11.0824 3 9.47994 4.34939 9.09041 6.15043M16.998 7.12652C16.9769 7.80763 16.7854 8.44584 16.4649 9M16.9733 14.867C16.9909 14.7472 17 14.6247 17 14.5C17 13.2905 16.1411 12.2816 15 12.05M16.9733 14.867C16.7957 16.0737 15.756 17 14.5 17H14C11.7909 17 10 18.7909 10 21M9.09041 6.15043C8.74377 6.05243 8.37801 6 8 6C5.79086 6 4 7.79086 4 10C4 10.3886 4.05542 10.7643 4.15878 11.1195M9.09041 6.15043C10.1015 6.43625 10.9498 7.10965 11.4649 8M4.15878 11.1195C2.9114 11.4832 2 12.6352 2 14C2 15.6569 3.34315 17 5 17C6.30622 17 7.41746 16.1652 7.82929 15M4.15878 11.1195C4.24921 11.4303 4.37632 11.7255 4.53513 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M11.8361 11.7435C11.3257 12.2353 10.453 12.3202 9.70713 11.9008C8.9612 11.4814 8.58031 10.6917 8.73535 10" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+</svg>
+<span>Memory Inspector</span>
+</a>
+</div>
+<div style="opacity: 1; transform: translateX(-6px);">
+<a href="/admin/settings">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M3.99963 5.00055L9.99963 5.00031" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+<path d="M12.9996 5.00031L19.9996 5.00031" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+<path d="M15.9996 9.00031L15.9996 15.0003" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+<path d="M9.99963 2.00031L9.99963 8.00031" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+<path d="M11.9996 16.0003L11.9996 22.0003" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+<path d="M15.9996 12.0001L19.9996 12.0003" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+<path d="M3.99963 12.0005L12.9996 12.0003" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+<path d="M11.9996 19.0003L19.9996 19.0003" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+<path d="M3.99963 19.0005L8.99963 19.0003" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+</svg>
+<span>Admin settings</span>
+</a>
+</div>
+<div style="opacity: 1; transform: translateX(-6px);">
+<a href="/admin/test-data">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M3 12C3 7.75736 3 5.63604 4.31802 4.31802C5.63604 3 7.75736 3 12 3C16.2426 3 18.364 3 19.682 4.31802C21 5.63604 21 7.75736 21 12C21 16.2426 21 18.364 19.682 19.682C18.364 21 16.2426 21 12 21C7.75736 21 5.63604 21 4.31802 19.682C3 18.364 3 16.2426 3 12Z" stroke="currentColor" stroke-width="2">
+</path>
+<path d="M3 12H21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M11 7.5L17 7.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M7.125 7.5H7M7.25 7.5C7.25 7.63807 7.13807 7.75 7 7.75C6.86193 7.75 6.75 7.63807 6.75 7.5C6.75 7.36193 6.86193 7.25 7 7.25C7.13807 7.25 7.25 7.36193 7.25 7.5Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M11 16.5L17 16.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M7.125 16.5H7M7.25 16.5C7.25 16.6381 7.13807 16.75 7 16.75C6.86193 16.75 6.75 16.6381 6.75 16.5C6.75 16.3619 6.86193 16.25 7 16.25C7.13807 16.25 7.25 16.3619 7.25 16.5Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+<span>Test Data</span>
+</a>
+</div>
+</nav>
+</aside>
+<div>
+<div>
+<a aria-label="Back to home" href="/copilot">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M5.5 12.002H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M10.9999 18.002C10.9999 18.002 4.99998 13.583 4.99997 12.0019C4.99996 10.4208 11 6.00195 11 6.00195" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+</a>
+<button type="button" aria-label="Admin navigation, current: Execution Analytics" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_16iunciulanb_" data-state="closed">
+<span>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M8 17H16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M8 13H12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M13 2.5V3C13 5.82843 13 7.24264 13.8787 8.12132C14.7574 9 16.1716 9 19 9H19.5M20 10.6569V14C20 17.7712 20 19.6569 18.8284 20.8284C17.6569 22 15.7712 22 12 22C8.22876 22 6.34315 22 5.17157 20.8284C4 19.6569 4 17.7712 4 14V9.45584C4 6.21082 4 4.58831 4.88607 3.48933C5.06508 3.26731 5.26731 3.06508 5.48933 2.88607C6.58831 2 8.21082 2 11.4558 2C12.1614 2 12.5141 2 12.8372 2.11401C12.9044 2.13772 12.9702 2.165 13.0345 2.19575C13.3436 2.34355 13.593 2.593 14.0919 3.09188L18.8284 7.82843C19.4065 8.40649 19.6955 8.69552 19.8478 9.06306C20 9.4306 20 9.83935 20 10.6569Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+<span>Execution Analytics</span>
+</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+</button>
+</div>
+<main>
+<div dir="ltr" style="position:relative;--radix-scroll-area-corner-width:0px;--radix-scroll-area-corner-height:0px">
+<div data-radix-scroll-area-viewport="" style="overflow-x:hidden;overflow-y:scroll">
+<div style="min-width:100%;display:table">
+<div style="opacity: 1; transform: none;">
+<div>
+<div>
+<div>
+<div>
+<h1>Execution Analytics</h1>
+<p>Generate missing activity summaries and success scores for agent executions</p>
+</div>
+</div>
+<div>
+<h2>Execution Analytics &amp; Accuracy Monitoring</h2>
+<p>Generate missing activity summaries and success scores for agent executions. After generation, accuracy trends and alerts will automatically be displayed to help monitor agent health over time.</p>
+<!--$-->
+<div>
+<form>
+<div>
+<div>
+<label for="graph_id">Graph ID <span>*</span>
+</label>
+<input id="graph_id" placeholder="Enter graph/agent ID" required="" value="" style="">
+</div>
+<div>
+<label for="graph_version">Graph Version</label>
+<input id="graph_version" placeholder="Optional - leave empty for all versions" type="number" value="" style="">
+</div>
+<div>
+<label for="user_id">User ID</label>
+<input id="user_id" placeholder="Optional - leave empty for all users" value="" style="">
+</div>
+<div>
+<label for="created_after">Created After</label>
+<input id="created_after" type="datetime-local" value="" style="">
+</div>
+<div>
+<label for="model_name">AI Model</label>
+<button type="button" role="combobox" aria-controls="radix-_r_6_" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed">
+<span style="pointer-events: none;">Openai: GPT 5.6 Terra (Recommended)</span>
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+</path>
+</svg>
+</button>
+<select aria-hidden="true" tabindex="-1" style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">
+<option value="meta-llama/Llama-3.3-70B-Instruct-Turbo">Aiml Api: Llama 3.3 70b Instruct Turbo</option>
+<option value="claude-fable-5-1">Anthropic: Claude Fable</option>
+<option value="claude-haiku-4-5-20251001">Anthropic: Claude Haiku</option>
+<option value="claude-haiku-5-5">Anthropic: Claude Haiku</option>
+<option value="claude-opus-4-5-20251101">Anthropic: Claude Opus</option>
+<option value="claude-opus-4-6">Anthropic: Claude Opus</option>
+<option value="claude-opus-4-7">Anthropic: Claude Opus</option>
+<option value="claude-opus-4-8">Anthropic: Claude Opus</option>
+<option value="claude-opus-5">Anthropic: Claude Opus</option>
+<option value="claude-opus-5-5">Anthropic: Claude Opus</option>
+<option value="claude-sonnet-4-5-20250929">Anthropic: Claude Sonnet</option>
+<option value="claude-sonnet-4-6">Anthropic: Claude Sonnet</option>
+<option value="claude-sonnet-5">Anthropic: Claude Sonnet</option>
+<option value="claude-sonnet-5-5">Anthropic: Claude Sonnet</option>
+<option value="llama-3.1-8b-instant">Groq: Llama 3.1 8b Instant</option>
+<option value="llama-3.3-70b-versatile">Groq: Llama 3.3 70b Versatile</option>
+<option value="Llama-3.3-70B-Instruct">Llama Api: Llama 3.3 70b Instruct</option>
+<option value="Llama-3.3-8B-Instruct">Llama Api: Llama 3.3 8b Instruct</option>
+<option value="Llama-4-Maverick-17B-128E-Instruct-FP8">Llama Api: Llama Maverick 17b 128e Instruct Fp8</option>
+<option value="Llama-4-Scout-17B-16E-Instruct-FP8">Llama Api: Llama Scout 17b 16e Instruct Fp8</option>
+<option value="dolphin-mistral:latest">Ollama: Dolphin Mistral:latest</option>
+<option value="llama3">Ollama: Llama3</option>
+<option value="llama3.1:405b">Ollama: Llama3.1:405b</option>
+<option value="llama3.2">Ollama: Llama3.2</option>
+<option value="llama3.3">Ollama: Llama3.3</option>
+<option value="mistralai/codestral-2508">Open Router: Codestral</option>
+<option value="cohere/command-a-03-2025">Open Router: Command A</option>
+<option value="cohere/command-a-reasoning-08-2025">Open Router: Command A Reasoning</option>
+<option value="cohere/command-a-translate-08-2025">Open Router: Command A Translate</option>
+<option value="cohere/command-a-vision-07-2025">Open Router: Command A Vision</option>
+<option value="deepseek/deepseek-chat">Open Router: Deepseek Chat</option>
+<option value="deepseek/deepseek-r1-0528">Open Router: Deepseek R1 0528</option>
+<option value="deepseek/deepseek-v4.1-flash">Open Router: Deepseek V4.1 Flash</option>
+<option value="sakana/fugu-ultra-v2">Open Router: Fugu Ultra V2</option>
+<option value="openai/gpt-oss-120b">Open Router: GPT Oss 120b</option>
+<option value="openai/gpt-oss-20b">Open Router: GPT Oss 20b</option>
+<option value="google/gemini-2.0-flash-001">Open Router: Gemini 2.0 Flash 001</option>
+<option value="google/gemini-2.0-flash-lite-001">Open Router: Gemini 2.0 Flash Lite 001</option>
+<option value="google/gemini-2.5-flash">Open Router: Gemini 2.5 Flash</option>
+<option value="google/gemini-2.5-flash-lite">Open Router: Gemini 2.5 Flash Lite</option>
+<option value="google/gemini-2.5-pro">Open Router: Gemini 2.5 Pro</option>
+<option value="google/gemini-3.1-flash-lite-preview">Open Router: Gemini 3.1 Flash Lite Preview</option>
+<option value="google/gemini-3.1-pro-preview">Open Router: Gemini 3.1 Pro Preview</option>
+<option value="google/gemini-3.8-flash">Open Router: Gemini 3.8 Flash</option>
+<option value="google/gemini-4-argon">Open Router: Gemini Argon</option>
+<option value="google/gemini-3-flash-preview">Open Router: Gemini Flash Preview</option>
+<option value="google/gemma-4-31b-it">Open Router: Gemma 31b It</option>
+<option value="z-ai/glm-5">Open Router: Glm</option>
+<option value="z-ai/glm-4.6">Open Router: Glm 4.6</option>
+<option value="z-ai/glm-4.6v">Open Router: Glm 4.6v</option>
+<option value="z-ai/glm-4.7">Open Router: Glm 4.7</option>
+<option value="z-ai/glm-4.7-flash">Open Router: Glm 4.7 Flash</option>
+<option value="z-ai/glm-5.3">Open Router: Glm 5.3</option>
+<option value="z-ai/glm-5v-turbo">Open Router: Glm 5v Turbo</option>
+<option value="z-ai/glm-5-turbo">Open Router: Glm Turbo</option>
+<option value="x-ai/grok-3">Open Router: Grok</option>
+<option value="x-ai/grok-4">Open Router: Grok</option>
+<option value="x-ai/grok-4.1-fast">Open Router: Grok 4.1 Fast</option>
+<option value="x-ai/grok-4.20">Open Router: Grok 4.20</option>
+<option value="x-ai/grok-4.20-multi-agent">Open Router: Grok 4.20 Multi Agent</option>
+<option value="x-ai/grok-4.7">Open Router: Grok 4.7</option>
+<option value="x-ai/grok-code-fast-1">Open Router: Grok Code Fast</option>
+<option value="x-ai/grok-4-fast">Open Router: Grok Fast</option>
+<option value="nousresearch/hermes-3-llama-3.1-405b">Open Router: Hermes Llama 3.1 405b</option>
+<option value="nousresearch/hermes-3-llama-3.1-70b">Open Router: Hermes Llama 3.1 70b</option>
+<option value="tencent/hy4-preview">Open Router: Hy4 Preview</option>
+<option value="moonshotai/kimi-k2-thinking">Open Router: Kimi K2 Thinking</option>
+<option value="moonshotai/kimi-k2.5">Open Router: Kimi K2.5</option>
+<option value="moonshotai/kimi-k2.6">Open Router: Kimi K2.6</option>
+<option value="moonshotai/kimi-k3">Open Router: Kimi K3</option>
+<option value="inclusionai/ling-3.0-flash-vl">Open Router: Ling 3.0 Flash Vl</option>
+<option value="meta-llama/llama-4-maverick">Open Router: Llama Maverick</option>
+<option value="meta-llama/llama-4-scout">Open Router: Llama Scout</option>
+<option value="inception/mercury-2.5">Open Router: Mercury 2.5</option>
+<option value="xiaomi/mimo-v2.6-flash">Open Router: Mimo V2.6 Flash</option>
+<option value="xiaomi/mimo-v2.6-pro">Open Router: Mimo V2.6 Pro</option>
+<option value="mistralai/ministral-14b-2512">Open Router: Ministral 14b</option>
+<option value="mistralai/ministral-3b-2512">Open Router: Ministral 3b</option>
+<option value="mistralai/ministral-8b-2512">Open Router: Ministral 8b</option>
+<option value="mistralai/mistral-large-2512">Open Router: Mistral Large</option>
+<option value="mistralai/mistral-large-4-0">Open Router: Mistral Large</option>
+<option value="mistralai/mistral-medium-3-5">Open Router: Mistral Medium</option>
+<option value="mistralai/mistral-medium-3.1">Open Router: Mistral Medium 3.1</option>
+<option value="mistralai/mistral-small-2603">Open Router: Mistral Small</option>
+<option value="mistralai/mistral-small-3.2-24b-instruct">Open Router: Mistral Small 3.2 24b Instruct</option>
+<option value="meta/muse-spark-1.3">Open Router: Muse Spark 1.3</option>
+<option value="meta/muse-spark-1.3-contributor">Open Router: Muse Spark 1.3 Contributor</option>
+<option value="meta/muse-spark-open">Open Router: Muse Spark Open</option>
+<option value="meta/muse-wonder">Open Router: Muse Wonder</option>
+<option value="gryphe/mythomax-l2-13b">Open Router: Mythomax L2 13b</option>
+<option value="amazon/nova-lite-v1">Open Router: Nova Lite V1</option>
+<option value="amazon/nova-micro-v1">Open Router: Nova Micro V1</option>
+<option value="amazon/nova-pro-v1">Open Router: Nova Pro V1</option>
+<option value="unbiased/pareto">Open Router: Pareto</option>
+<option value="microsoft/phi-4">Open Router: Phi</option>
+<option value="qwen/qwen3-235b-a22b-thinking-2507">Open Router: Qwen3 235b A22b Thinking</option>
+<option value="qwen/qwen3-coder">Open Router: Qwen3 Coder</option>
+<option value="qwen/qwen3.8-flash">Open Router: Qwen3.8 Flash</option>
+<option value="qwen/qwen3.8-max-0902">Open Router: Qwen3.8 Max 0902</option>
+<option value="perplexity/sonar">Open Router: Sonar</option>
+<option value="perplexity/sonar-deep-research">Open Router: Sonar Deep Research</option>
+<option value="perplexity/sonar-pro">Open Router: Sonar Pro</option>
+<option value="perplexity/sonar-reasoning-pro">Open Router: Sonar Reasoning Pro</option>
+<option value="gpt-5-2025-08-07">Openai: GPT</option>
+<option value="gpt-4.1-2025-04-14">Openai: GPT 4.1</option>
+<option value="gpt-4.1-mini-2025-04-14">Openai: GPT 4.1 Mini</option>
+<option value="gpt-4.1-nano">Openai: GPT 4.1 Nano</option>
+<option value="gpt-4o">Openai: GPT 4o</option>
+<option value="gpt-4o-mini">Openai: GPT 4o Mini</option>
+<option value="gpt-5.1-2025-11-13">Openai: GPT 5.1</option>
+<option value="gpt-5.1-codex">Openai: GPT 5.1 Codex</option>
+<option value="gpt-5.2-2025-12-11">Openai: GPT 5.2</option>
+<option value="gpt-5.2-pro">Openai: GPT 5.2 Pro</option>
+<option value="gpt-5.3-chat-latest">Openai: GPT 5.3 Chat Latest</option>
+<option value="gpt-5.3-codex">Openai: GPT 5.3 Codex</option>
+<option value="gpt-5.4-2026-03-05">Openai: GPT 5.4</option>
+<option value="gpt-5.4-mini-2026-03-17">Openai: GPT 5.4 Mini</option>
+<option value="gpt-5.4-nano-2026-03-17">Openai: GPT 5.4 Nano</option>
+<option value="gpt-5.4-pro">Openai: GPT 5.4 Pro</option>
+<option value="gpt-5.5-2026-04-23">Openai: GPT 5.5</option>
+<option value="gpt-5.5-pro">Openai: GPT 5.5 Pro</option>
+<option value="gpt-5.6-luna">Openai: GPT 5.6 Luna</option>
+<option value="gpt-5.6-sol">Openai: GPT 5.6 Sol</option>
+<option value="gpt-5.6-terra" selected="">Openai: GPT 5.6 Terra (Recommended)</option>
+<option value="gpt-6.1-sol">Openai: GPT 6.1 Sol</option>
+<option value="gpt-6-astra">Openai: GPT Astra</option>
+<option value="gpt-5-chat-latest">Openai: GPT Chat Latest</option>
+<option value="gpt-6-luna">Openai: GPT Luna</option>
+<option value="gpt-5-mini-2025-08-07">Openai: GPT Mini</option>
+<option value="gpt-5-nano-2025-08-07">Openai: GPT Nano</option>
+<option value="gpt-5-pro">Openai: GPT Pro</option>
+<option value="gpt-6-sol">Openai: GPT Sol</option>
+<option value="o1">Openai: O1</option>
+<option value="o1-mini">Openai: O1 Mini</option>
+<option value="o3-2025-04-16">Openai: O3</option>
+<option value="o3-mini">Openai: O3 Mini</option>
+<option value="o3-pro">Openai: O3 Pro</option>
+<option value="o4-mini">Openai: O4 Mini</option>
+<option value="v0-1.0-md">V0: V0 1.0 Md</option>
+<option value="v0-1.5-lg">V0: V0 1.5 Lg</option>
+<option value="v0-1.5-md">V0: V0 1.5 Md</option>
+</select>
+</div>
+</div>
+<div>
+<div data-state="closed">
+<button type="button" aria-controls="radix-_r_7_" aria-expanded="false" data-state="closed">
+<div>
+<h3>Advanced Options</h3>
+<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+</div>
+</button>
+<div data-state="closed" id="radix-_r_7_" hidden="" style="">
+</div>
+</div>
+</div>
+<div>
+<button type="submit">
+<span>Generate Analytics</span>
+</button>
+</div>
+</form>
+</div>
+<!--/$-->
+</div>
+</div>
+</div>
+<!--$-->
+<!--/$-->
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+</section>
+</main>
+</div>
+<section aria-label="Notifications alt+T" tabindex="-1" aria-live="polite" aria-relevant="additions text" aria-atomic="false">
+</section>

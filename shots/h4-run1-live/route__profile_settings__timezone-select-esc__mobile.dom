@@ -1,0 +1,454 @@
+<div hidden="">
+<!--$-->
+<!--/$-->
+</div>
+<!--$-->
+<!--/$-->
+<!--$-->
+<!--/$-->
+<div>
+<div style="--sidebar-width:18.25rem;--sidebar-width-icon:3rem">
+<div role="dialog" aria-label="What's new">
+<div>
+<div>
+<div>
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M18 15V9C18 6.17157 18 4.75736 17.1213 3.87868C16.2426 3 14.8284 3 12 3H8C5.17157 3 3.75736 3 2.87868 3.87868C2 4.75736 2 6.17157 2 9V15C2 17.8284 2 19.2426 2.87868 20.1213C3.75736 21 5.17157 21 8 21H20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M6 8L14 8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M6 12L14 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M6 16L10 16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M18 8H19C20.4142 8 21.1213 8 21.5607 8.43934C22 8.87868 22 9.58579 22 11V19C22 20.1046 21.1046 21 20 21C18.8954 21 18 20.1046 18 19V8Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+</div>
+<div>
+<p>What's new</p>
+<p>October 8 – October 14</p>
+</div>
+<button type="button" aria-label="Dismiss changelog">
+<span>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M18 6L6.00081 17.9992M17.9992 18L6 6.00085" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+</span>
+</button>
+</div>
+<ul>
+<li>
+<span aria-hidden="true">
+</span>
+<p>Redesigned wallet</p>
+</li>
+<li>
+<span aria-hidden="true">
+</span>
+<p>Trial cancel keeps access</p>
+</li>
+<li>
+<span aria-hidden="true">
+</span>
+<p>Verified email at signup</p>
+</li>
+</ul>
+<div>
+<a href="https://agpt.co/docs/platform/changelog/changelog/october-8-october-14-2026" target="_blank" rel="noopener noreferrer">View changelog<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M9 6.65032C9 6.65032 15.9383 6.10759 16.9154 7.08463C17.8924 8.06167 17.3496 15 17.3496 15M16.5 7.5L6.5 17.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+</a>
+</div>
+</div>
+</div>
+<main>
+<header>
+<div>
+<div>
+<button data-sidebar="trigger">
+<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M2 12C2 8.31087 2 6.4663 2.81382 5.15877C3.1149 4.67502 3.48891 4.25427 3.91891 3.91554C5.08116 3 6.72077 3 10 3H14C17.2792 3 18.9188 3 20.0811 3.91554C20.5111 4.25427 20.8851 4.67502 21.1862 5.15877C22 6.4663 22 8.31087 22 12C22 15.6891 22 17.5337 21.1862 18.8412C20.8851 19.325 20.5111 19.7457 20.0811 20.0845C18.9188 21 17.2792 21 14 21H10C6.72077 21 5.08116 21 3.91891 20.0845C3.48891 19.7457 3.1149 19.325 2.81382 18.8412C2 17.5337 2 15.6891 2 12Z" stroke="currentColor" stroke-width="2">
+</path>
+<path d="M9.5 3L9.5 21" stroke="currentColor" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M5 7H6M5 10H6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+<span>Toggle Sidebar</span>
+</button>
+</div>
+</div>
+</header>
+<section>
+<div>
+<button aria-label="Open sidebar menu" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-_R_1cnpfb5ciulanb_" data-state="closed">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M4 5h16">
+</path>
+<path d="M4 12h16">
+</path>
+<path d="M4 19h16">
+</path>
+</svg>
+<span>Open sidebar menu</span>
+</button>
+<div>
+<div>
+<div>
+<a href="/profile">
+<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M15.5 10.5C15.5 8.567 13.933 7 12 7C10.067 7 8.5 8.567 8.5 10.5C8.5 12.433 10.067 14 12 14C13.933 14 15.5 12.433 15.5 10.5Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M18 20C18 16.6863 15.3137 14 12 14C8.68629 14 6 16.6863 6 20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+<div>Profile</div>
+</a>
+<a href="/profile/dashboard">
+<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M3.50002 10V15C3.50002 17.8284 3.50002 19.2426 4.37869 20.1213C5.25737 21 6.67159 21 9.50002 21H14.5C17.3284 21 18.7427 21 19.6213 20.1213C20.5 19.2426 20.5 17.8284 20.5 15V10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M17 7.50184C17 8.88255 15.8807 9.99997 14.5 9.99997C13.1193 9.99997 12 8.88068 12 7.49997C12 8.88068 10.8807 9.99997 9.50002 9.99997C8.1193 9.99997 7.00002 8.88068 7.00002 7.49997C7.00002 8.88068 5.82655 9.99997 4.37901 9.99997C3.59984 9.99997 2.90008 9.67567 2.42 9.16087C1.59462 8.2758 2.12561 6.97403 2.81448 5.98842L3.20202 5.45851C4.08386 4.2527 4.52478 3.6498 5.16493 3.32494C5.80508 3.00008 6.55201 3.00018 8.04587 3.00038L15.9551 3.00143C17.4485 3.00163 18.1952 3.00173 18.8351 3.32658C19.475 3.65143 19.9158 4.25414 20.7974 5.45957L21.1855 5.99029C21.8744 6.97589 22.4054 8.27766 21.58 9.16273C21.0999 9.67754 20.4002 10.0018 19.621 10.0018C18.1734 10.0018 17 8.88255 17 7.50184Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M14.9971 17C14.3133 17.6072 13.2247 18 11.9985 18C10.7723 18 9.68376 17.6072 9 17" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+<div>Creator Dashboard</div>
+</a>
+<a href="/profile/integrations">
+<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M9 2L9 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M15 2L15 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M12 18L12 22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M12.6939 8.5L10.6029 10.6749C10.3788 10.9079 10.5394 11.2433 10.9048 11.3053L13.0952 11.6773C13.4848 11.7434 13.6334 12.1147 13.361 12.3413L10.7666 14.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M14.3066 5L9.69342 5C7.5551 5 6.48594 5 5.89527 5.69774C5.3046 6.39548 5.46717 7.46639 5.79232 9.60823L6.31604 13.0581C6.83606 16.4836 8.28588 18 12 18C15.7141 18 17.1639 16.4836 17.684 13.0581L18.2077 9.60823C18.5328 7.46639 18.6954 6.39548 18.1047 5.69774C17.5141 5 16.4449 5 14.3066 5Z" stroke="currentColor" stroke-width="2">
+</path>
+</svg>
+<div>Integrations</div>
+</a>
+<a href="/profile/settings">
+<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M3.99963 5.00055L9.99963 5.00031" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+<path d="M12.9996 5.00031L19.9996 5.00031" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+<path d="M15.9996 9.00031L15.9996 15.0003" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+<path d="M9.99963 2.00031L9.99963 8.00031" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+<path d="M11.9996 16.0003L11.9996 22.0003" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+<path d="M15.9996 12.0001L19.9996 12.0003" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+<path d="M3.99963 12.0005L12.9996 12.0003" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+<path d="M11.9996 19.0003L19.9996 19.0003" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+<path d="M3.99963 19.0005L8.99963 19.0003" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+</path>
+</svg>
+<div>Settings</div>
+</a>
+<a href="/profile/api-keys">
+<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M15.5 14.5C18.8137 14.5 21.5 11.8137 21.5 8.5C21.5 5.18629 18.8137 2.5 15.5 2.5C12.1863 2.5 9.5 5.18629 9.5 8.5C9.5 9.38041 9.68962 10.2165 10.0303 10.9697L2.5 18.5V21.5H5.5V19.5H7.5V17.5H9.5L13.0303 13.9697C13.7835 14.3104 14.6196 14.5 15.5 14.5Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M17.5 6.5L16.5 7.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+<div>API Keys</div>
+</a>
+<a href="/profile/oauth-apps">
+<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M15 4H9C5.70017 4 4.05025 4 3.02513 5.02513C2 6.05025 2 7.70017 2 11V13C2 16.2998 2 17.9497 3.02513 18.9749C4.05025 20 5.70017 20 9 20H15C18.2998 20 19.9497 20 20.9749 18.9749C22 17.9497 22 16.2998 22 13V11C22 7.70017 22 6.05025 20.9749 5.02513C19.9497 4 18.2998 4 15 4Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M2.5 8H21.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+<path d="M7 4.5V8" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+<div>OAuth Apps</div>
+</a>
+</div>
+</div>
+</div>
+<div>
+<!--$-->
+<!--$-->
+<!--/$-->
+<!--/$-->
+<div>
+<div>
+<h3>My account</h3>
+<p>Manage your account settings and preferences.</p>
+</div>
+<div>
+<div>
+<h3>Security &amp; Access</h3>
+<form>
+<div>
+<div>
+<div>
+<div>
+<label for="email">
+<span>Email</span>
+</label>
+</div>
+</div>
+<div>
+<div>
+<input placeholder="m@example.com" id="email" autocomplete="off" aria-describedby="_r_l_-form-item-description" aria-invalid="false" type="text" value="evidence-1792819303@example.com" name="email" style="">
+</div>
+<span>  </span>
+</div>
+</div>
+</div>
+<div>
+<a aria-disabled="false" href="/reset-password">
+<span>Reset password</span>
+</a>
+<button disabled="" type="submit">
+<span>Update email</span>
+</button>
+</div>
+</form>
+</div>
+<div data-orientation="horizontal" role="none">
+</div>
+<div>
+<div>
+<h3>Timezone</h3>
+</div>
+<div>
+<form>
+<div>
+<label for="_r_m_-form-item">Select your timezone</label>
+<button type="button" role="combobox" aria-controls="radix-_r_n_" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" id="_r_m_-form-item" aria-describedby="_r_m_-form-item-description" aria-invalid="false">
+<span style="pointer-events: none;">UTC (Coordinated Universal Time)</span>
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+</path>
+</svg>
+</button>
+<select aria-hidden="true" tabindex="-1" style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">
+<option value="UTC" selected="">UTC (Coordinated Universal Time)</option>
+<option value="America/Adak">Adak (US - Aleutian Islands)</option>
+<option value="America/Anchorage">Anchorage (US - Alaska)</option>
+<option value="America/Los_Angeles">Los Angeles (US - Pacific)</option>
+<option value="America/Tijuana">Tijuana (Mexico - Pacific)</option>
+<option value="America/Phoenix">Phoenix (US - Arizona)</option>
+<option value="America/Denver">Denver (US - Mountain)</option>
+<option value="America/Chicago">Chicago (US - Central)</option>
+<option value="America/New_York">New York (US - Eastern)</option>
+<option value="America/Toronto">Toronto (Canada - Eastern)</option>
+<option value="America/Halifax">Halifax (Canada - Atlantic)</option>
+<option value="America/St_Johns">St. John's (Canada - Newfoundland)</option>
+<option value="America/Caracas">Caracas (Venezuela)</option>
+<option value="America/Bogota">Bogotá (Colombia)</option>
+<option value="America/Lima">Lima (Peru)</option>
+<option value="America/Santiago">Santiago (Chile)</option>
+<option value="America/La_Paz">La Paz (Bolivia)</option>
+<option value="America/Asuncion">Asunción (Paraguay)</option>
+<option value="America/Montevideo">Montevideo (Uruguay)</option>
+<option value="America/Buenos_Aires">Buenos Aires (Argentina)</option>
+<option value="America/Sao_Paulo">São Paulo (Brazil)</option>
+<option value="America/Manaus">Manaus (Brazil - Amazon)</option>
+<option value="America/Fortaleza">Fortaleza (Brazil - Northeast)</option>
+<option value="America/Mexico_City">Mexico City (Mexico)</option>
+<option value="America/Guatemala">Guatemala</option>
+<option value="America/Costa_Rica">Costa Rica</option>
+<option value="America/Panama">Panama</option>
+<option value="America/Havana">Havana (Cuba)</option>
+<option value="America/Jamaica">Jamaica</option>
+<option value="America/Port-au-Prince">Port-au-Prince (Haiti)</option>
+<option value="America/Santo_Domingo">Santo Domingo (Dominican Republic)</option>
+<option value="America/Puerto_Rico">Puerto Rico</option>
+<option value="Atlantic/Azores">Azores (Portugal)</option>
+<option value="Atlantic/Cape_Verde">Cape Verde</option>
+<option value="Europe/London">London (UK)</option>
+<option value="Europe/Dublin">Dublin (Ireland)</option>
+<option value="Europe/Lisbon">Lisbon (Portugal)</option>
+<option value="Europe/Madrid">Madrid (Spain)</option>
+<option value="Europe/Paris">Paris (France)</option>
+<option value="Europe/Brussels">Brussels (Belgium)</option>
+<option value="Europe/Amsterdam">Amsterdam (Netherlands)</option>
+<option value="Europe/Berlin">Berlin (Germany)</option>
+<option value="Europe/Rome">Rome (Italy)</option>
+<option value="Europe/Vienna">Vienna (Austria)</option>
+<option value="Europe/Zurich">Zurich (Switzerland)</option>
+<option value="Europe/Prague">Prague (Czech Republic)</option>
+<option value="Europe/Warsaw">Warsaw (Poland)</option>
+<option value="Europe/Stockholm">Stockholm (Sweden)</option>
+<option value="Europe/Oslo">Oslo (Norway)</option>
+<option value="Europe/Copenhagen">Copenhagen (Denmark)</option>
+<option value="Europe/Helsinki">Helsinki (Finland)</option>
+<option value="Europe/Athens">Athens (Greece)</option>
+<option value="Europe/Bucharest">Bucharest (Romania)</option>
+<option value="Europe/Sofia">Sofia (Bulgaria)</option>
+<option value="Europe/Budapest">Budapest (Hungary)</option>
+<option value="Europe/Belgrade">Belgrade (Serbia)</option>
+<option value="Europe/Zagreb">Zagreb (Croatia)</option>
+<option value="Europe/Moscow">Moscow (Russia)</option>
+<option value="Europe/Kiev">Kyiv (Ukraine)</option>
+<option value="Europe/Istanbul">Istanbul (Turkey)</option>
+<option value="Asia/Dubai">Dubai (UAE)</option>
+<option value="Asia/Muscat">Muscat (Oman)</option>
+<option value="Asia/Kuwait">Kuwait</option>
+<option value="Asia/Riyadh">Riyadh (Saudi Arabia)</option>
+<option value="Asia/Baghdad">Baghdad (Iraq)</option>
+<option value="Asia/Tehran">Tehran (Iran)</option>
+<option value="Asia/Kabul">Kabul (Afghanistan)</option>
+<option value="Asia/Karachi">Karachi (Pakistan)</option>
+<option value="Asia/Tashkent">Tashkent (Uzbekistan)</option>
+<option value="Asia/Dhaka">Dhaka (Bangladesh)</option>
+<option value="Asia/Kolkata">Kolkata (India)</option>
+<option value="Asia/Kathmandu">Kathmandu (Nepal)</option>
+<option value="Asia/Colombo">Colombo (Sri Lanka)</option>
+<option value="Asia/Yangon">Yangon (Myanmar)</option>
+<option value="Asia/Bangkok">Bangkok (Thailand)</option>
+<option value="Asia/Ho_Chi_Minh">Ho Chi Minh City (Vietnam)</option>
+<option value="Asia/Jakarta">Jakarta (Indonesia - Western)</option>
+<option value="Asia/Makassar">Makassar (Indonesia - Central)</option>
+<option value="Asia/Jayapura">Jayapura (Indonesia - Eastern)</option>
+<option value="Asia/Manila">Manila (Philippines)</option>
+<option value="Asia/Singapore">Singapore</option>
+<option value="Asia/Kuala_Lumpur">Kuala Lumpur (Malaysia)</option>
+<option value="Asia/Hong_Kong">Hong Kong</option>
+<option value="Asia/Shanghai">Shanghai (China)</option>
+<option value="Asia/Taipei">Taipei (Taiwan)</option>
+<option value="Asia/Seoul">Seoul (South Korea)</option>
+<option value="Asia/Tokyo">Tokyo (Japan)</option>
+<option value="Asia/Vladivostok">Vladivostok (Russia)</option>
+<option value="Asia/Yakutsk">Yakutsk (Russia)</option>
+<option value="Asia/Irkutsk">Irkutsk (Russia)</option>
+<option value="Asia/Yekaterinburg">Yekaterinburg (Russia)</option>
+<option value="Australia/Perth">Perth (Australia - Western)</option>
+<option value="Australia/Darwin">Darwin (Australia - Northern)</option>
+<option value="Australia/Adelaide">Adelaide (Australia - Central)</option>
+<option value="Australia/Brisbane">Brisbane (Australia - Eastern)</option>
+<option value="Australia/Sydney">Sydney (Australia - Eastern)</option>
+<option value="Australia/Melbourne">Melbourne (Australia - Eastern)</option>
+<option value="Australia/Hobart">Hobart (Australia - Eastern)</option>
+<option value="Pacific/Auckland">Auckland (New Zealand)</option>
+<option value="Pacific/Fiji">Fiji</option>
+<option value="Pacific/Guam">Guam</option>
+<option value="Pacific/Honolulu">Honolulu (US - Hawaii)</option>
+<option value="Pacific/Samoa">Samoa</option>
+<option value="Pacific/Tahiti">Tahiti (French Polynesia)</option>
+<option value="Africa/Cairo">Cairo (Egypt)</option>
+<option value="Africa/Johannesburg">Johannesburg (South Africa)</option>
+<option value="Africa/Lagos">Lagos (Nigeria)</option>
+<option value="Africa/Nairobi">Nairobi (Kenya)</option>
+<option value="Africa/Casablanca">Casablanca (Morocco)</option>
+<option value="Africa/Algiers">Algiers (Algeria)</option>
+<option value="Africa/Tunis">Tunis (Tunisia)</option>
+<option value="Africa/Addis_Ababa">Addis Ababa (Ethiopia)</option>
+<option value="Africa/Dar_es_Salaam">Dar es Salaam (Tanzania)</option>
+<option value="Africa/Kampala">Kampala (Uganda)</option>
+<option value="Africa/Khartoum">Khartoum (Sudan)</option>
+<option value="Africa/Accra">Accra (Ghana)</option>
+<option value="Africa/Abidjan">Abidjan (Ivory Coast)</option>
+<option value="Africa/Dakar">Dakar (Senegal)</option>
+</select>
+</div>
+<button type="submit">
+<span>Save timezone</span>
+</button>
+</form>
+</div>
+</div>
+<div data-orientation="horizontal" role="none">
+</div>
+<div>
+<h3>Notifications</h3>
+<p>Billing and account messages are always sent — they are about your account, not a promotion.</p>
+<form>
+<div>
+<div>
+<div>
+<h4>Briefing</h4>
+<p>What your workflows got done, at around 07:30 your time. Never sent when nothing ran.</p>
+</div>
+<div>
+<button type="button" role="combobox" aria-controls="radix-_r_p_" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" aria-label="Briefing frequency" aria-describedby="_r_o_-form-item-description" id="briefing-frequency">
+<span style="pointer-events: none;">
+<div>
+<span>Weekly</span>
+</div>
+</span>
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+</path>
+</svg>
+</button>
+<select aria-hidden="true" tabindex="-1" style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">
+<option value="DAILY">Daily</option>
+<option value="WEEKLY" selected="">Weekly</option>
+<option value="MONTHLY">Monthly</option>
+<option value="OFF">Off</option>
+</select>
+<span>  </span>
+</div>
+</div>
+<div>
+<div>
+<h4>Alerts</h4>
+<p>Only when something is waiting on you — never for a successful run. At most two a day.</p>
+</div>
+<button type="button" role="switch" aria-checked="true" data-state="checked" value="on" aria-label="Alerts" id="_r_q_-form-item" aria-describedby="_r_q_-form-item-description" aria-invalid="false">
+<span data-state="checked">
+</span>
+</button>
+<input aria-hidden="true" tabindex="-1" type="checkbox" value="on" checked="" style="transform: translateX(-100%); position: absolute; pointer-events: none; opacity: 0; margin: 0px; width: 36px; height: 20px;">
+</div>
+<div>
+<div>
+<h4>Marketplace reviews</h4>
+<p>When a workflow you submitted is approved or needs changes.</p>
+</div>
+<button type="button" role="switch" aria-checked="true" data-state="checked" value="on" aria-label="Marketplace reviews" id="_r_r_-form-item" aria-describedby="_r_r_-form-item-description" aria-invalid="false">
+<span data-state="checked">
+</span>
+</button>
+<input aria-hidden="true" tabindex="-1" type="checkbox" value="on" checked="" style="transform: translateX(-100%); position: absolute; pointer-events: none; opacity: 0; margin: 0px; width: 36px; height: 20px;">
+</div>
+</div>
+<div>
+<button type="button">
+<span>Cancel</span>
+</button>
+<button disabled="" type="submit">
+<span>Save preferences</span>
+</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+</div>
+</div>
+<section aria-label="Notifications alt+T" tabindex="-1" aria-live="polite" aria-relevant="additions text" aria-atomic="false">
+</section>
+<title>AutoGPT Platform</title>
+<meta name="description" content="Your one stop shop to creating AI Agents">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta property="og:title" content="AutoGPT Platform">
+<meta property="og:description" content="Your one stop shop to creating AI Agents">
+<meta property="og:site_name" content="AutoGPT">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="AutoGPT Platform">
+<meta name="twitter:description" content="Your one stop shop to creating AI Agents">

@@ -1,0 +1,446 @@
+<div>
+<div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+</div>
+<div>
+<div>
+</div>
+</div>
+</div>
+<table aria-hidden="true">
+<thead>
+<tr>
+<th>
+<span>Name</span>
+</th>
+<th>
+<span>Description</span>
+</th>
+<th>
+<span>Default</span>
+</th>
+<th>
+<span>Control</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span>propertyName</span>
+<span title="Required">*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<div>
+<h1>No Preview</h1>
+<p>Sorry, but you either have no stories or none are selected somehow.</p>
+<ul>
+<li>Please check the Storybook config.</li>
+<li>Try reloading the page.</li>
+</ul>
+<p>If the problem persists, check the browser console, or the terminal you've run Storybook from.</p>
+</div>
+</div>
+<div>
+<div>
+<h1 id="error-message">
+</h1>
+<p>The component failed to render properly, likely due to a configuration issue in Storybook. Here are some common causes and how you can address them:</p>
+<ol>
+<li>
+<strong>Missing Context/Providers</strong>: You can use decorators to supply specific contexts or providers, which are sometimes necessary for components to render correctly. For detailed instructions on using decorators, please visit the <a href="https://storybook.js.org/docs/writing-stories/decorators">Decorators documentation</a>.</li>
+<li>
+<strong>Misconfigured Webpack or Vite</strong>: Verify that Storybook picks up all necessary settings for loaders, plugins, and other relevant parameters. You can find step-by-step guides for configuring <a href="https://storybook.js.org/docs/builders/webpack">Webpack</a> or <a href="https://storybook.js.org/docs/builders/vite">Vite</a> with Storybook.</li>
+<li>
+<strong>Missing Environment Variables</strong>: Your Storybook may require specific environment variables to function as intended. You can set up custom environment variables as outlined in the <a href="https://storybook.js.org/docs/configure/environment-variables">Environment Variables documentation</a>.</li>
+</ol>
+<pre>
+<code id="error-stack">
+</code>
+</pre>
+</div>
+</div>
+<div id="storybook-root">
+<div>
+<div>
+<div>
+<table>
+<thead>
+<tr>
+<th>
+</th>
+<th>Name</th>
+<th>Creator</th>
+<th>Description</th>
+<th>Status</th>
+<th>Submitted</th>
+<th>Actions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="m6 9 6 6 6-6">
+</path>
+</svg>
+</td>
+<td>Weather Reporter</td>
+<td>creator@example.com</td>
+<td>Daily weather summary v4</td>
+<td>
+<div>Pending</div>
+</td>
+<td>less than a minute ago</td>
+<td>
+<div>
+<a href="/admin/marketplace/preview/lv-4">
+<button>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0">
+</path>
+<circle cx="12" cy="12" r="3">
+</circle>
+</svg>Preview</button>
+</a>
+<button>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M15 3h6v6">
+</path>
+<path d="M10 14 21 3">
+</path>
+<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+</path>
+</svg>Download</button>
+<button>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M21.801 10A10 10 0 1 1 17 3.335">
+</path>
+<path d="m9 11 3 3L22 4">
+</path>
+</svg>Approve</button>
+<button>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<circle cx="12" cy="12" r="10">
+</circle>
+<path d="m15 9-6 6">
+</path>
+<path d="m9 9 6 6">
+</path>
+</svg>Reject</button>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="7">
+<div>
+<h4>Version History</h4>
+<div>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Status</th>
+<th>Changes</th>
+<th>Submitted</th>
+<th>Reviewed</th>
+<th>External Comments</th>
+<th>Internal Comments</th>
+<th>Name</th>
+<th>Sub Heading</th>
+<th>Description</th>
+<th>Categories</th>
+<th>Actions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>v4</td>
+<td>
+<div>Pending</div>
+</td>
+<td>Changes in v4</td>
+<td>less than a minute ago</td>
+<td>Not reviewed</td>
+<td>
+<span>No external comments</span>
+</td>
+<td>
+<span>No internal comments</span>
+</td>
+<td>Weather Reporter</td>
+<td>Daily weather summary v4</td>
+<td>Fetches the forecast and writes a summary.</td>
+<td>None</td>
+<td>
+<div>
+<a href="/admin/marketplace/preview/lv-4">
+<button>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0">
+</path>
+<circle cx="12" cy="12" r="3">
+</circle>
+</svg>Preview</button>
+</a>
+<button>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M15 3h6v6">
+</path>
+<path d="M10 14 21 3">
+</path>
+<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+</path>
+</svg>Download</button>
+<button>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M21.801 10A10 10 0 1 1 17 3.335">
+</path>
+<path d="m9 11 3 3L22 4">
+</path>
+</svg>Approve</button>
+<button>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<circle cx="12" cy="12" r="10">
+</circle>
+<path d="m15 9-6 6">
+</path>
+<path d="m9 9 6 6">
+</path>
+</svg>Reject</button>
+</div>
+</td>
+</tr>
+<tr>
+<td>v3<div>Active</div>
+</td>
+<td>
+<div>Approved</div>
+</td>
+<td>Changes in v3</td>
+<td>less than a minute ago</td>
+<td>less than a minute ago</td>
+<td>
+<div title="Looks good">Looks good</div>
+</td>
+<td>
+<div title="Checked by ops">Checked by ops</div>
+</td>
+<td>Weather Reporter</td>
+<td>Daily weather summary v3</td>
+<td>Fetches the forecast and writes a summary.</td>
+<td>productivity</td>
+<td>
+<div>
+<a href="/admin/marketplace/preview/lv-3">
+<button>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0">
+</path>
+<circle cx="12" cy="12" r="3">
+</circle>
+</svg>Preview</button>
+</a>
+<button>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M15 3h6v6">
+</path>
+<path d="M10 14 21 3">
+</path>
+<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+</path>
+</svg>Download</button>
+<button>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<circle cx="12" cy="12" r="10">
+</circle>
+<path d="m15 9-6 6">
+</path>
+<path d="m9 9 6 6">
+</path>
+</svg>Revoke</button>
+</div>
+</td>
+</tr>
+<tr>
+<td>v2</td>
+<td>
+<div>Rejected</div>
+</td>
+<td>Changes in v2</td>
+<td>less than a minute ago</td>
+<td>less than a minute ago</td>
+<td>
+<div title="Missing description">Missing description</div>
+</td>
+<td>
+<span>No internal comments</span>
+</td>
+<td>Weather Reporter</td>
+<td>Daily weather summary v2</td>
+<td>Fetches the forecast and writes a summary.</td>
+<td>None</td>
+<td>
+<div>
+<a href="/admin/marketplace/preview/lv-2">
+<button>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0">
+</path>
+<circle cx="12" cy="12" r="3">
+</circle>
+</svg>Preview</button>
+</a>
+<button>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M15 3h6v6">
+</path>
+<path d="M10 14 21 3">
+</path>
+<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+</path>
+</svg>Download</button>
+</div>
+</td>
+</tr>
+<tr>
+<td>v1</td>
+<td>
+<div>Draft</div>
+</td>
+<td>Changes in v1</td>
+<td>Unknown</td>
+<td>Not reviewed</td>
+<td>
+<span>No external comments</span>
+</td>
+<td>
+<span>No internal comments</span>
+</td>
+<td>Weather Reporter</td>
+<td>Daily weather summary v1</td>
+<td>Fetches the forecast and writes a summary.</td>
+<td>productivity</td>
+<td>
+<div>
+<a href="/admin/marketplace/preview/lv-1">
+<button>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0">
+</path>
+<circle cx="12" cy="12" r="3">
+</circle>
+</svg>Preview</button>
+</a>
+<button>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<path d="M15 3h6v6">
+</path>
+<path d="M10 14 21 3">
+</path>
+<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6">
+</path>
+</svg>Download</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="storybook-docs" hidden="true">
+</div>
+<div id="storybook-highlights-root" style="">
+<div id="storybook-highlights-menu" popover="manual" style="display: none;">
+</div>
+</div>

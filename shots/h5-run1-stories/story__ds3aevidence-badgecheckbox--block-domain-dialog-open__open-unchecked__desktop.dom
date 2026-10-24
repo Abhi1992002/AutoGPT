@@ -1,0 +1,239 @@
+<span data-radix-focus-guard="" tabindex="0" style="outline: none; opacity: 0; position: fixed; pointer-events: none;" data-aria-hidden="true" aria-hidden="true">
+</span>
+<div data-aria-hidden="true" aria-hidden="true">
+<div>
+</div>
+</div>
+<div data-aria-hidden="true" aria-hidden="true">
+<div>
+<div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+</div>
+<div>
+<div>
+</div>
+</div>
+</div>
+<table aria-hidden="true">
+<thead>
+<tr>
+<th>
+<span>Name</span>
+</th>
+<th>
+<span>Description</span>
+</th>
+<th>
+<span>Default</span>
+</th>
+<th>
+<span>Control</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span>propertyName</span>
+<span title="Required">*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div data-aria-hidden="true" aria-hidden="true">
+<div>
+<h1>No Preview</h1>
+<p>Sorry, but you either have no stories or none are selected somehow.</p>
+<ul>
+<li>Please check the Storybook config.</li>
+<li>Try reloading the page.</li>
+</ul>
+<p>If the problem persists, check the browser console, or the terminal you've run Storybook from.</p>
+</div>
+</div>
+<div data-aria-hidden="true" aria-hidden="true">
+<div>
+<h1 id="error-message">
+</h1>
+<p>The component failed to render properly, likely due to a configuration issue in Storybook. Here are some common causes and how you can address them:</p>
+<ol>
+<li>
+<strong>Missing Context/Providers</strong>: You can use decorators to supply specific contexts or providers, which are sometimes necessary for components to render correctly. For detailed instructions on using decorators, please visit the <a href="https://storybook.js.org/docs/writing-stories/decorators">Decorators documentation</a>.</li>
+<li>
+<strong>Misconfigured Webpack or Vite</strong>: Verify that Storybook picks up all necessary settings for loaders, plugins, and other relevant parameters. You can find step-by-step guides for configuring <a href="https://storybook.js.org/docs/builders/webpack">Webpack</a> or <a href="https://storybook.js.org/docs/builders/vite">Vite</a> with Storybook.</li>
+<li>
+<strong>Missing Environment Variables</strong>: Your Storybook may require specific environment variables to function as intended. You can set up custom environment variables as outlined in the <a href="https://storybook.js.org/docs/configure/environment-variables">Environment Variables documentation</a>.</li>
+</ol>
+<pre>
+<code id="error-stack">
+</code>
+</pre>
+</div>
+</div>
+<div id="storybook-root" data-aria-hidden="true" aria-hidden="true">
+<div>
+<button>
+<span>Block domain…</span>
+</button>
+</div>
+</div>
+<div id="storybook-docs" hidden="true" data-aria-hidden="true" aria-hidden="true">
+</div>
+<div id="storybook-highlights-root" style="" data-aria-hidden="true" aria-hidden="true">
+<div id="storybook-highlights-menu" popover="manual" style="display: none;">
+</div>
+</div>
+<div data-state="open" data-dialog-overlay="true" data-aria-hidden="true" aria-hidden="true" style="pointer-events: auto;">
+</div>
+<div role="dialog" id="radix-_r_1_" aria-describedby="radix-_r_3_" aria-labelledby="radix-_r_2_" data-state="open" data-dialog-content="true" tabindex="-1" style="max-width: 520px; pointer-events: auto;">
+<div>
+<h2 id="radix-_r_2_">Block example.com?</h2>
+<button aria-label="Close">
+<span>
+<svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1em" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M18 6L6.00081 17.9992M17.9992 18L6 6.00085" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+</span>
+</button>
+</div>
+<p id="radix-_r_3_">Dialog</p>
+<div>
+<div>
+<div>
+<p>No one can sign up with an @example.com address until the block ends. Accounts that already exist aren't affected unless you ban them below.</p>
+<div>
+<label for="also-ban">
+<button type="button" role="checkbox" aria-checked="false" data-state="unchecked" value="on" id="also-ban">
+</button>
+<span>Also ban the 2 existing accounts on this domain</span>
+</label>
+</div>
+<div>
+<div>
+<div>
+<label for="block-domain-reason">
+<span>Reason (required)</span>
+</label>
+</div>
+</div>
+<div>
+<div>
+<textarea placeholder="What they did" rows="3" id="block-domain-reason" required="" style="">
+</textarea>
+</div>
+<span>  </span>
+</div>
+</div>
+<div>
+<label for="block-domain-duration">
+<div>
+<div>
+<span>Duration</span>
+</div>
+</div>
+<div>
+<button type="button" role="combobox" aria-controls="radix-_r_4_" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" id="block-domain-duration">
+<span style="pointer-events: none;">
+<div>
+<span>Permanent</span>
+</div>
+</span>
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+</path>
+</svg>
+</button>
+<span>  </span>
+</div>
+</label>
+<p>Doesn't end on its own.</p>
+</div>
+</div>
+<div data-testid="modal-footer">
+<button>
+<span>Cancel</span>
+</button>
+<button disabled="">
+<span>Block domain</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<span data-radix-focus-guard="" tabindex="0" data-aria-hidden="true" aria-hidden="true" style="outline: none; opacity: 0; position: fixed; pointer-events: none;">
+</span>

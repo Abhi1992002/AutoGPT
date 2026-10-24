@@ -1,0 +1,283 @@
+<span data-radix-focus-guard="" tabindex="0" style="outline: none; opacity: 0; position: fixed; pointer-events: none;" data-aria-hidden="true" aria-hidden="true">
+</span>
+<div data-aria-hidden="true" aria-hidden="true">
+<div>
+</div>
+</div>
+<div data-aria-hidden="true" aria-hidden="true">
+<div>
+<div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+</div>
+<div>
+<div>
+</div>
+</div>
+</div>
+<table aria-hidden="true">
+<thead>
+<tr>
+<th>
+<span>Name</span>
+</th>
+<th>
+<span>Description</span>
+</th>
+<th>
+<span>Default</span>
+</th>
+<th>
+<span>Control</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span>propertyName</span>
+<span title="Required">*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div data-aria-hidden="true" aria-hidden="true">
+<div>
+<h1>No Preview</h1>
+<p>Sorry, but you either have no stories or none are selected somehow.</p>
+<ul>
+<li>Please check the Storybook config.</li>
+<li>Try reloading the page.</li>
+</ul>
+<p>If the problem persists, check the browser console, or the terminal you've run Storybook from.</p>
+</div>
+</div>
+<div data-aria-hidden="true" aria-hidden="true">
+<div>
+<h1 id="error-message">
+</h1>
+<p>The component failed to render properly, likely due to a configuration issue in Storybook. Here are some common causes and how you can address them:</p>
+<ol>
+<li>
+<strong>Missing Context/Providers</strong>: You can use decorators to supply specific contexts or providers, which are sometimes necessary for components to render correctly. For detailed instructions on using decorators, please visit the <a href="https://storybook.js.org/docs/writing-stories/decorators">Decorators documentation</a>.</li>
+<li>
+<strong>Misconfigured Webpack or Vite</strong>: Verify that Storybook picks up all necessary settings for loaders, plugins, and other relevant parameters. You can find step-by-step guides for configuring <a href="https://storybook.js.org/docs/builders/webpack">Webpack</a> or <a href="https://storybook.js.org/docs/builders/vite">Vite</a> with Storybook.</li>
+<li>
+<strong>Missing Environment Variables</strong>: Your Storybook may require specific environment variables to function as intended. You can set up custom environment variables as outlined in the <a href="https://storybook.js.org/docs/configure/environment-variables">Environment Variables documentation</a>.</li>
+</ol>
+<pre>
+<code id="error-stack">
+</code>
+</pre>
+</div>
+</div>
+<div id="storybook-root" data-aria-hidden="true" aria-hidden="true">
+<div>
+<div>
+<button type="button">Open MCP dialog</button>
+</div>
+</div>
+</div>
+<div id="storybook-docs" hidden="true" data-aria-hidden="true" aria-hidden="true">
+</div>
+<div id="storybook-highlights-root" data-aria-hidden="true" aria-hidden="true" style="">
+<div id="storybook-highlights-menu" popover="manual" style="display: none;">
+</div>
+</div>
+<div data-state="open" data-dialog-overlay="true" data-aria-hidden="true" aria-hidden="true" style="pointer-events: auto;">
+</div>
+<div role="dialog" id="radix-_r_0_" aria-describedby="radix-_r_2_" aria-labelledby="radix-_r_1_" data-state="open" data-dialog-content="true" tabindex="-1" style="pointer-events: auto;">
+<div>
+<h2 id="radix-_r_1_">Select a Tool — Example MCP</h2>
+<p id="radix-_r_2_">Found 3 tools. Select one to add to your workflow.</p>
+</div>
+<div dir="ltr" style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px;">
+<div data-radix-scroll-area-viewport="" style="overflow: hidden scroll;">
+<div style="min-width: 100%; display: table;">
+<div>
+<button>
+<div>
+<span>search_documents</span>
+<div>8 params</div>
+</div>
+<p>Search the document index with filters for author, tags, dates, and paging. Returns matching documents ranked by relevance with highlighted snippets.</p>
+<div>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>query<span>*</span>
+</td>
+<td>string</td>
+<td>Search text</td>
+</tr>
+<tr>
+<td>author</td>
+<td>string</td>
+<td>—</td>
+</tr>
+<tr>
+<td>tags</td>
+<td>array</td>
+<td>—</td>
+</tr>
+<tr>
+<td>after</td>
+<td>string</td>
+<td>—</td>
+</tr>
+<tr>
+<td>before</td>
+<td>string</td>
+<td>—</td>
+</tr>
+<tr>
+<td>limit</td>
+<td>integer</td>
+<td>—</td>
+</tr>
+<tr>
+<td>offset</td>
+<td>integer</td>
+<td>—</td>
+</tr>
+<tr>
+<td>sort</td>
+<td>string | null</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+</div>
+<button type="button">Hide details<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+</button>
+</button>
+<button>
+<div>
+<span>send_message</span>
+<div>2 params</div>
+</div>
+<p>Send a message to a channel.</p>
+<div>
+<div>channel<span>*</span>
+</div>
+<div>text<span>*</span>
+</div>
+</div>
+<button type="button">Show details<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+</button>
+</button>
+<button>
+<div>
+<span>ping</span>
+</div>
+<p>Check that the server is alive.</p>
+</button>
+</div>
+</div>
+</div>
+<div data-orientation="vertical" data-state="visible" style="position: absolute; top: 0px; right: 0px; bottom: var(--radix-scroll-area-corner-height); --radix-scroll-area-thumb-height: 303.95721925133694px;">
+<div data-state="visible" style="width: var(--radix-scroll-area-thumb-width); height: var(--radix-scroll-area-thumb-height); transform: translate3d(0px, 0px, 0px);">
+</div>
+</div>
+</div>
+<div>
+<button>Back</button>
+<button>Cancel</button>
+<button disabled="">Add Block</button>
+</div>
+<button type="button">
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.7816 4.03157C12.0062 3.80702 12.0062 3.44295 11.7816 3.2184C11.5571 2.99385 11.193 2.99385 10.9685 3.2184L7.50005 6.68682L4.03164 3.2184C3.80708 2.99385 3.44301 2.99385 3.21846 3.2184C2.99391 3.44295 2.99391 3.80702 3.21846 4.03157L6.68688 7.49999L3.21846 10.9684C2.99391 11.193 2.99391 11.557 3.21846 11.7816C3.44301 12.0061 3.80708 12.0061 4.03164 11.7816L7.50005 8.31316L10.9685 11.7816C11.193 12.0061 11.5571 12.0061 11.7816 11.7816C12.0062 11.557 12.0062 11.193 11.7816 10.9684L8.31322 7.49999L11.7816 4.03157Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+</path>
+</svg>
+<span>Close</span>
+</button>
+</div>
+<span data-radix-focus-guard="" tabindex="0" data-aria-hidden="true" aria-hidden="true" style="outline: none; opacity: 0; position: fixed; pointer-events: none;">
+</span>

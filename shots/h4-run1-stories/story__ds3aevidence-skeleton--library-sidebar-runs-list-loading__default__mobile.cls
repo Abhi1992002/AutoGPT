@@ -1,0 +1,102 @@
+div: sb-preparing-story sb-wrapper
+div: sb-loader
+div: sb-preparing-docs sb-wrapper
+div: sb-previewBlock
+div: sb-previewBlock_header
+div: sb-previewBlock_icon
+div: sb-previewBlock_icon
+div: sb-previewBlock_icon
+div: sb-previewBlock_icon
+div: sb-previewBlock_body
+div: sb-loader
+table: sb-argstableBlock
+thead: sb-argstableBlock-head
+tr: 
+th: 
+span: 
+th: 
+span: 
+th: 
+span: 
+th: 
+span: 
+tbody: sb-argstableBlock-body
+tr: 
+td: 
+span: 
+span: 
+td: 
+div: 
+span: 
+div: sb-argstableBlock-summary
+div: 
+span: sb-argstableBlock-code
+td: 
+div: 
+span: sb-argstableBlock-code
+td: 
+button: 
+tr: 
+td: 
+span: 
+span: 
+td: 
+div: 
+span: 
+div: sb-argstableBlock-summary
+div: 
+span: sb-argstableBlock-code
+td: 
+div: 
+span: sb-argstableBlock-code
+td: 
+button: 
+tr: 
+td: 
+span: 
+span: 
+td: 
+div: 
+span: 
+div: sb-argstableBlock-summary
+div: 
+span: sb-argstableBlock-code
+td: 
+div: 
+span: sb-argstableBlock-code
+td: 
+button: 
+div: sb-nopreview sb-wrapper
+div: sb-nopreview_main
+h1: sb-nopreview_heading sb-heading
+p: 
+ul: 
+li: 
+li: 
+p: 
+div: sb-errordisplay sb-wrapper
+div: sb-errordisplay_main
+h1: 
+p: 
+ol: 
+li: 
+strong: 
+a: 
+li: 
+strong: 
+a: 
+a: 
+li: 
+strong: 
+a: 
+pre: sb-errordisplay_code
+code: 
+div: 
+div: bg-background p-8
+div: ml-6 mt-8 w-[20vw] space-y-4 px-4
+div: animate-pulse rounded-md bg-surface-hover h-12 w-full
+div: animate-pulse rounded-md bg-surface-hover h-32 w-full
+div: animate-pulse rounded-md bg-surface-hover h-24 w-full
+div: 
+div: 
+div: 

@@ -1,0 +1,228 @@
+<span data-radix-focus-guard="" tabindex="0" style="outline: none; opacity: 0; position: fixed; pointer-events: none;" data-aria-hidden="true" aria-hidden="true">
+</span>
+<div data-aria-hidden="true" aria-hidden="true">
+<div>
+</div>
+</div>
+<div data-aria-hidden="true" aria-hidden="true">
+<div>
+<div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+</div>
+<div>
+<div>
+</div>
+</div>
+</div>
+<table aria-hidden="true">
+<thead>
+<tr>
+<th>
+<span>Name</span>
+</th>
+<th>
+<span>Description</span>
+</th>
+<th>
+<span>Default</span>
+</th>
+<th>
+<span>Control</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span>propertyName</span>
+<span title="Required">*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div data-aria-hidden="true" aria-hidden="true">
+<div>
+<h1>No Preview</h1>
+<p>Sorry, but you either have no stories or none are selected somehow.</p>
+<ul>
+<li>Please check the Storybook config.</li>
+<li>Try reloading the page.</li>
+</ul>
+<p>If the problem persists, check the browser console, or the terminal you've run Storybook from.</p>
+</div>
+</div>
+<div data-aria-hidden="true" aria-hidden="true">
+<div>
+<h1 id="error-message">
+</h1>
+<p>The component failed to render properly, likely due to a configuration issue in Storybook. Here are some common causes and how you can address them:</p>
+<ol>
+<li>
+<strong>Missing Context/Providers</strong>: You can use decorators to supply specific contexts or providers, which are sometimes necessary for components to render correctly. For detailed instructions on using decorators, please visit the <a href="https://storybook.js.org/docs/writing-stories/decorators">Decorators documentation</a>.</li>
+<li>
+<strong>Misconfigured Webpack or Vite</strong>: Verify that Storybook picks up all necessary settings for loaders, plugins, and other relevant parameters. You can find step-by-step guides for configuring <a href="https://storybook.js.org/docs/builders/webpack">Webpack</a> or <a href="https://storybook.js.org/docs/builders/vite">Vite</a> with Storybook.</li>
+<li>
+<strong>Missing Environment Variables</strong>: Your Storybook may require specific environment variables to function as intended. You can set up custom environment variables as outlined in the <a href="https://storybook.js.org/docs/configure/environment-variables">Environment Variables documentation</a>.</li>
+</ol>
+<pre>
+<code id="error-stack">
+</code>
+</pre>
+</div>
+</div>
+<div id="storybook-root" data-aria-hidden="true" aria-hidden="true">
+<div>
+<div>
+<div>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>API Key</th>
+<th>Status</th>
+<th>Created</th>
+<th>Last Used</th>
+<th>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr data-testid="api-key-row">
+<td>Production key</td>
+<td data-testid="api-key-id">
+<div>agpt_ab1******************9f8e7d6c</div>
+</td>
+<td>
+<div>ACTIVE</div>
+</td>
+<td>1/15/2026</td>
+<td>2/1/2026</td>
+<td>
+<button data-testid="api-key-actions" type="button" id="radix-_r_0_" aria-haspopup="menu" aria-expanded="true" data-state="open" aria-controls="radix-_r_1_">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<circle cx="12" cy="12" r="1">
+</circle>
+<circle cx="12" cy="5" r="1">
+</circle>
+<circle cx="12" cy="19" r="1">
+</circle>
+</svg>
+</button>
+</td>
+</tr>
+<tr data-testid="api-key-row">
+<td>CI key</td>
+<td data-testid="api-key-id">
+<div>agpt_cd2******************1a2b3c4d</div>
+</td>
+<td>
+<div>ACTIVE</div>
+</td>
+<td>1/15/2026</td>
+<td>Never</td>
+<td>
+<button data-testid="api-key-actions" type="button" id="radix-_r_2_" aria-haspopup="menu" aria-expanded="false" data-state="closed">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<circle cx="12" cy="12" r="1">
+</circle>
+<circle cx="12" cy="5" r="1">
+</circle>
+<circle cx="12" cy="19" r="1">
+</circle>
+</svg>
+</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="storybook-docs" hidden="true" data-aria-hidden="true" aria-hidden="true">
+</div>
+<div id="storybook-highlights-root" style="" data-aria-hidden="true" aria-hidden="true">
+<div id="storybook-highlights-menu" popover="manual" style="display: none;">
+</div>
+</div>
+<div data-radix-popper-content-wrapper="" dir="ltr" style="position: fixed; left: 0px; top: 0px; transform: translate(775px, 117px); min-width: max-content; --radix-popper-transform-origin: 100% 0px; z-index: 50; --radix-popper-available-width: 1440px; --radix-popper-available-height: 783.5px; --radix-popper-anchor-width: 40px; --radix-popper-anchor-height: 32px;">
+<div data-side="bottom" data-align="end" role="menu" aria-orientation="vertical" data-state="open" data-radix-menu-content="" dir="ltr" id="radix-_r_1_" aria-labelledby="radix-_r_0_" tabindex="-1" data-orientation="vertical" style="outline: none; --radix-dropdown-menu-content-transform-origin: var(--radix-popper-transform-origin); --radix-dropdown-menu-content-available-width: var(--radix-popper-available-width); --radix-dropdown-menu-content-available-height: var(--radix-popper-available-height); --radix-dropdown-menu-trigger-width: var(--radix-popper-anchor-width); --radix-dropdown-menu-trigger-height: var(--radix-popper-anchor-height); pointer-events: auto;">
+<div role="menuitem" tabindex="-1" data-orientation="vertical" data-radix-collection-item="">Revoke</div>
+</div>
+</div>
+<span data-radix-focus-guard="" tabindex="0" data-aria-hidden="true" aria-hidden="true" style="outline: none; opacity: 0; position: fixed; pointer-events: none;">
+</span>

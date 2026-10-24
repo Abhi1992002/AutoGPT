@@ -1,0 +1,142 @@
+{
+ "pairs": [
+  {
+   "file": " bare variant (default→solid)",
+   "old": "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default border-transparent bg-neutral-900 text-neutral-50 shadow dark:bg-neutral-50 dark:text-neutral-900",
+   "new": "inline-flex cursor-default items-center rounded-md border px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 border-transparent bg-neutral-900 text-primary-foreground shadow",
+   "tag": null
+  },
+  {
+   "file": " bare variant (secondary→secondary)",
+   "old": "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default border-transparent bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-50",
+   "new": "inline-flex cursor-default items-center rounded-md border px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 border-transparent bg-neutral-100 text-neutral-900",
+   "tag": null
+  },
+  {
+   "file": " bare variant (destructive→destructive)",
+   "old": "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default border-transparent bg-red-500 text-neutral-50 shadow dark:bg-red-900 dark:text-neutral-50",
+   "new": "inline-flex cursor-default items-center rounded-md border px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 border-transparent bg-destructive text-destructive-foreground shadow",
+   "tag": null
+  },
+  {
+   "file": " bare variant (outline→outline)",
+   "old": "inline-flex items-center rounded-md border border-neutral-200 px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default text-neutral-950 dark:text-neutral-50",
+   "new": "inline-flex cursor-default items-center rounded-md border px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 border-neutral-200 text-neutral-950",
+   "tag": null
+  },
+  {
+   "file": " ExpandleRow (default→solid, className \"bg-warning\")",
+   "old": "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default border-transparent text-neutral-50 shadow dark:bg-neutral-50 dark:text-neutral-900 bg-warning",
+   "new": "inline-flex cursor-default items-center rounded-md border px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 border-transparent text-primary-foreground shadow bg-warning",
+   "tag": null
+  },
+  {
+   "file": " ExpandleRow (default→solid, className \"bg-green-500\")",
+   "old": "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default border-transparent text-neutral-50 shadow dark:bg-neutral-50 dark:text-neutral-900 bg-green-500",
+   "new": "inline-flex cursor-default items-center rounded-md border px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 border-transparent text-primary-foreground shadow bg-green-500",
+   "tag": null
+  },
+  {
+   "file": " ExpandleRow (default→solid, className \"bg-error\")",
+   "old": "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default border-transparent text-neutral-50 shadow dark:bg-neutral-50 dark:text-neutral-900 bg-error",
+   "new": "inline-flex cursor-default items-center rounded-md border px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 border-transparent text-primary-foreground shadow bg-error",
+   "tag": null
+  },
+  {
+   "file": " ExpandleRow (default→solid, className \"bg-gray-500\")",
+   "old": "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default border-transparent text-neutral-50 shadow dark:bg-neutral-50 dark:text-neutral-900 bg-gray-500",
+   "new": "inline-flex cursor-default items-center rounded-md border px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 border-transparent text-primary-foreground shadow bg-gray-500",
+   "tag": null
+  },
+  {
+   "file": " ExpandleRow (default→solid, className \"ml-2 bg-info\")",
+   "old": "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default border-transparent text-neutral-50 shadow dark:bg-neutral-50 dark:text-neutral-900 ml-2 bg-info",
+   "new": "inline-flex cursor-default items-center rounded-md border px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 border-transparent text-primary-foreground shadow ml-2 bg-info",
+   "tag": null
+  },
+  {
+   "file": " MCPToolDialog (secondary→secondary, className \"text-[10px]\")",
+   "old": "inline-flex items-center rounded-md border px-2.5 py-0.5 font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default border-transparent bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-50 text-[10px]",
+   "new": "inline-flex cursor-default items-center rounded-md border px-2.5 py-0.5 font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 border-transparent bg-neutral-100 text-neutral-900 text-tiny leading-inherit",
+   "tag": null
+  },
+  {
+   "file": " MCPToolDialog (outline→outline, className \"text-[10px] font-normal\")",
+   "old": "inline-flex items-center rounded-md border border-neutral-200 px-2.5 py-0.5 transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default text-neutral-950 dark:text-neutral-50 text-[10px] font-normal",
+   "new": "inline-flex cursor-default items-center rounded-md border px-2.5 py-0.5 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 border-neutral-200 text-neutral-950 text-tiny font-normal leading-inherit",
+   "tag": null
+  },
+  {
+   "file": " NodeExecutionBadge (default→solid, className \"text-slate-700 border-slate-400 gap-2 rounded-full bg-white\")",
+   "old": "inline-flex items-center border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default shadow dark:bg-neutral-50 dark:text-neutral-900 text-slate-700 border-slate-400 gap-2 rounded-full bg-white",
+   "new": "inline-flex cursor-default items-center border px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 shadow text-slate-700 border-slate-400 gap-2 rounded-full bg-white",
+   "tag": null
+  },
+  {
+   "file": " NodeExecutionBadge (default→solid, className \"text-blue-700 border-blue-400 gap-2 rounded-full bg-white\")",
+   "old": "inline-flex items-center border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default shadow dark:bg-neutral-50 dark:text-neutral-900 text-blue-700 border-blue-400 gap-2 rounded-full bg-white",
+   "new": "inline-flex cursor-default items-center border px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 shadow text-blue-700 border-blue-400 gap-2 rounded-full bg-white",
+   "tag": null
+  },
+  {
+   "file": " NodeExecutionBadge (default→solid, className \"text-amber-700 border-amber-400 gap-2 rounded-full bg-white\")",
+   "old": "inline-flex items-center border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default shadow dark:bg-neutral-50 dark:text-neutral-900 text-amber-700 border-amber-400 gap-2 rounded-full bg-white",
+   "new": "inline-flex cursor-default items-center border px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 shadow text-amber-700 border-amber-400 gap-2 rounded-full bg-white",
+   "tag": null
+  },
+  {
+   "file": " NodeExecutionBadge (default→solid, className \"text-yellow-700 border-yellow-400 gap-2 rounded-full bg-white\")",
+   "old": "inline-flex items-center border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default shadow dark:bg-neutral-50 dark:text-neutral-900 text-yellow-700 border-yellow-400 gap-2 rounded-full bg-white",
+   "new": "inline-flex cursor-default items-center border px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 shadow text-yellow-700 border-yellow-400 gap-2 rounded-full bg-white",
+   "tag": null
+  },
+  {
+   "file": " NodeExecutionBadge (default→solid, className \"text-green-700 border-green-400 gap-2 rounded-full bg-white\")",
+   "old": "inline-flex items-center border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default shadow dark:bg-neutral-50 dark:text-neutral-900 text-green-700 border-green-400 gap-2 rounded-full bg-white",
+   "new": "inline-flex cursor-default items-center border px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 shadow text-green-700 border-green-400 gap-2 rounded-full bg-white",
+   "tag": null
+  },
+  {
+   "file": " NodeExecutionBadge (default→solid, className \"text-orange-700 border-orange-400 gap-2 rounded-full bg-white\")",
+   "old": "inline-flex items-center border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default shadow dark:bg-neutral-50 dark:text-neutral-900 text-orange-700 border-orange-400 gap-2 rounded-full bg-white",
+   "new": "inline-flex cursor-default items-center border px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 shadow text-orange-700 border-orange-400 gap-2 rounded-full bg-white",
+   "tag": null
+  },
+  {
+   "file": " NodeExecutionBadge (default→solid, className \"text-red-700 border-red-400 gap-2 rounded-full bg-white\")",
+   "old": "inline-flex items-center border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default shadow dark:bg-neutral-50 dark:text-neutral-900 text-red-700 border-red-400 gap-2 rounded-full bg-white",
+   "new": "inline-flex cursor-default items-center border px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 shadow text-red-700 border-red-400 gap-2 rounded-full bg-white",
+   "tag": null
+  },
+  {
+   "file": " NodeBadges (default→solid, className \"rounded-full border border-slate-500 bg-slate-100 text-black shadow-none\")",
+   "old": "inline-flex items-center px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default dark:bg-neutral-50 dark:text-neutral-900 rounded-full border border-slate-500 bg-slate-100 text-black shadow-none",
+   "new": "inline-flex cursor-default items-center px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 rounded-full border border-slate-500 bg-slate-100 text-black shadow-none",
+   "tag": null
+  },
+  {
+   "file": " APIKeySection (default→solid, className \"border-success bg-green-100 text-green-800\")",
+   "old": "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default shadow dark:bg-neutral-50 dark:text-neutral-900 border-success bg-green-100 text-green-800",
+   "new": "inline-flex cursor-default items-center rounded-md border px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 shadow border-success bg-green-100 text-green-800",
+   "tag": null
+  },
+  {
+   "file": " APIKeySection (destructive→destructive, className \"border-error-hover bg-red-100 text-red-800\")",
+   "old": "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default shadow dark:bg-red-900 dark:text-neutral-50 border-error-hover bg-red-100 text-red-800",
+   "new": "inline-flex cursor-default items-center rounded-md border px-2.5 py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 shadow border-error-hover bg-red-100 text-red-800",
+   "tag": null
+  },
+  {
+   "file": " multiselect (secondary→secondary, className \"flex items-center gap-1 rounded-xl px-1 pl-2\")",
+   "old": "border py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default border-transparent bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-50 flex items-center gap-1 rounded-xl px-1 pl-2",
+   "new": "cursor-default border py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 border-transparent bg-neutral-100 text-neutral-900 flex items-center gap-1 rounded-xl px-1 pl-2",
+   "tag": null
+  },
+  {
+   "file": " multiselect (secondary→secondary, className \"flex items-center gap-1 rounded-xl px-1 pl-2 ring-2 ring-muted-foreground\")",
+   "old": "border py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default border-transparent bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-50 flex items-center gap-1 rounded-xl px-1 pl-2 ring-2 ring-muted-foreground",
+   "new": "cursor-default border py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 border-transparent bg-neutral-100 text-neutral-900 flex items-center gap-1 rounded-xl px-1 pl-2 ring-2 ring-muted-foreground",
+   "tag": null
+  }
+ ]
+}

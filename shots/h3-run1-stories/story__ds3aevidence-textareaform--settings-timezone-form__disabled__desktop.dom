@@ -1,0 +1,298 @@
+<div>
+<div>
+</div>
+</div>
+<div>
+<div>
+<div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+</div>
+<div>
+<div>
+</div>
+</div>
+</div>
+<table aria-hidden="true">
+<thead>
+<tr>
+<th>
+<span>Name</span>
+</th>
+<th>
+<span>Description</span>
+</th>
+<th>
+<span>Default</span>
+</th>
+<th>
+<span>Control</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span>propertyName</span>
+<span title="Required">*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<div>
+<h1>No Preview</h1>
+<p>Sorry, but you either have no stories or none are selected somehow.</p>
+<ul>
+<li>Please check the Storybook config.</li>
+<li>Try reloading the page.</li>
+</ul>
+<p>If the problem persists, check the browser console, or the terminal you've run Storybook from.</p>
+</div>
+</div>
+<div>
+<div>
+<h1 id="error-message">
+</h1>
+<p>The component failed to render properly, likely due to a configuration issue in Storybook. Here are some common causes and how you can address them:</p>
+<ol>
+<li>
+<strong>Missing Context/Providers</strong>: You can use decorators to supply specific contexts or providers, which are sometimes necessary for components to render correctly. For detailed instructions on using decorators, please visit the <a href="https://storybook.js.org/docs/writing-stories/decorators">Decorators documentation</a>.</li>
+<li>
+<strong>Misconfigured Webpack or Vite</strong>: Verify that Storybook picks up all necessary settings for loaders, plugins, and other relevant parameters. You can find step-by-step guides for configuring <a href="https://storybook.js.org/docs/builders/webpack">Webpack</a> or <a href="https://storybook.js.org/docs/builders/vite">Vite</a> with Storybook.</li>
+<li>
+<strong>Missing Environment Variables</strong>: Your Storybook may require specific environment variables to function as intended. You can set up custom environment variables as outlined in the <a href="https://storybook.js.org/docs/configure/environment-variables">Environment Variables documentation</a>.</li>
+</ol>
+<pre>
+<code id="error-stack">
+</code>
+</pre>
+</div>
+</div>
+<div id="storybook-root">
+<div>
+<div>
+<div>
+<div>
+<h3>Timezone</h3>
+</div>
+<div>
+<form>
+<div>
+<label for="_r_0_-form-item">Select your timezone</label>
+<button type="button" role="combobox" aria-controls="radix-_r_1_" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" id="_r_0_-form-item" aria-describedby="_r_0_-form-item-description" aria-invalid="false">
+<span style="pointer-events: none;">London (UK)</span>
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+</path>
+</svg>
+</button>
+<select aria-hidden="true" tabindex="-1" style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; overflow-wrap: normal;">
+<option value="UTC">UTC (Coordinated Universal Time)</option>
+<option value="America/Adak">Adak (US - Aleutian Islands)</option>
+<option value="America/Anchorage">Anchorage (US - Alaska)</option>
+<option value="America/Los_Angeles">Los Angeles (US - Pacific)</option>
+<option value="America/Tijuana">Tijuana (Mexico - Pacific)</option>
+<option value="America/Phoenix">Phoenix (US - Arizona)</option>
+<option value="America/Denver">Denver (US - Mountain)</option>
+<option value="America/Chicago">Chicago (US - Central)</option>
+<option value="America/New_York">New York (US - Eastern)</option>
+<option value="America/Toronto">Toronto (Canada - Eastern)</option>
+<option value="America/Halifax">Halifax (Canada - Atlantic)</option>
+<option value="America/St_Johns">St. John's (Canada - Newfoundland)</option>
+<option value="America/Caracas">Caracas (Venezuela)</option>
+<option value="America/Bogota">Bogotá (Colombia)</option>
+<option value="America/Lima">Lima (Peru)</option>
+<option value="America/Santiago">Santiago (Chile)</option>
+<option value="America/La_Paz">La Paz (Bolivia)</option>
+<option value="America/Asuncion">Asunción (Paraguay)</option>
+<option value="America/Montevideo">Montevideo (Uruguay)</option>
+<option value="America/Buenos_Aires">Buenos Aires (Argentina)</option>
+<option value="America/Sao_Paulo">São Paulo (Brazil)</option>
+<option value="America/Manaus">Manaus (Brazil - Amazon)</option>
+<option value="America/Fortaleza">Fortaleza (Brazil - Northeast)</option>
+<option value="America/Mexico_City">Mexico City (Mexico)</option>
+<option value="America/Guatemala">Guatemala</option>
+<option value="America/Costa_Rica">Costa Rica</option>
+<option value="America/Panama">Panama</option>
+<option value="America/Havana">Havana (Cuba)</option>
+<option value="America/Jamaica">Jamaica</option>
+<option value="America/Port-au-Prince">Port-au-Prince (Haiti)</option>
+<option value="America/Santo_Domingo">Santo Domingo (Dominican Republic)</option>
+<option value="America/Puerto_Rico">Puerto Rico</option>
+<option value="Atlantic/Azores">Azores (Portugal)</option>
+<option value="Atlantic/Cape_Verde">Cape Verde</option>
+<option value="Europe/London" selected="">London (UK)</option>
+<option value="Europe/Dublin">Dublin (Ireland)</option>
+<option value="Europe/Lisbon">Lisbon (Portugal)</option>
+<option value="Europe/Madrid">Madrid (Spain)</option>
+<option value="Europe/Paris">Paris (France)</option>
+<option value="Europe/Brussels">Brussels (Belgium)</option>
+<option value="Europe/Amsterdam">Amsterdam (Netherlands)</option>
+<option value="Europe/Berlin">Berlin (Germany)</option>
+<option value="Europe/Rome">Rome (Italy)</option>
+<option value="Europe/Vienna">Vienna (Austria)</option>
+<option value="Europe/Zurich">Zurich (Switzerland)</option>
+<option value="Europe/Prague">Prague (Czech Republic)</option>
+<option value="Europe/Warsaw">Warsaw (Poland)</option>
+<option value="Europe/Stockholm">Stockholm (Sweden)</option>
+<option value="Europe/Oslo">Oslo (Norway)</option>
+<option value="Europe/Copenhagen">Copenhagen (Denmark)</option>
+<option value="Europe/Helsinki">Helsinki (Finland)</option>
+<option value="Europe/Athens">Athens (Greece)</option>
+<option value="Europe/Bucharest">Bucharest (Romania)</option>
+<option value="Europe/Sofia">Sofia (Bulgaria)</option>
+<option value="Europe/Budapest">Budapest (Hungary)</option>
+<option value="Europe/Belgrade">Belgrade (Serbia)</option>
+<option value="Europe/Zagreb">Zagreb (Croatia)</option>
+<option value="Europe/Moscow">Moscow (Russia)</option>
+<option value="Europe/Kiev">Kyiv (Ukraine)</option>
+<option value="Europe/Istanbul">Istanbul (Turkey)</option>
+<option value="Asia/Dubai">Dubai (UAE)</option>
+<option value="Asia/Muscat">Muscat (Oman)</option>
+<option value="Asia/Kuwait">Kuwait</option>
+<option value="Asia/Riyadh">Riyadh (Saudi Arabia)</option>
+<option value="Asia/Baghdad">Baghdad (Iraq)</option>
+<option value="Asia/Tehran">Tehran (Iran)</option>
+<option value="Asia/Kabul">Kabul (Afghanistan)</option>
+<option value="Asia/Karachi">Karachi (Pakistan)</option>
+<option value="Asia/Tashkent">Tashkent (Uzbekistan)</option>
+<option value="Asia/Dhaka">Dhaka (Bangladesh)</option>
+<option value="Asia/Kolkata">Kolkata (India)</option>
+<option value="Asia/Kathmandu">Kathmandu (Nepal)</option>
+<option value="Asia/Colombo">Colombo (Sri Lanka)</option>
+<option value="Asia/Yangon">Yangon (Myanmar)</option>
+<option value="Asia/Bangkok">Bangkok (Thailand)</option>
+<option value="Asia/Ho_Chi_Minh">Ho Chi Minh City (Vietnam)</option>
+<option value="Asia/Jakarta">Jakarta (Indonesia - Western)</option>
+<option value="Asia/Makassar">Makassar (Indonesia - Central)</option>
+<option value="Asia/Jayapura">Jayapura (Indonesia - Eastern)</option>
+<option value="Asia/Manila">Manila (Philippines)</option>
+<option value="Asia/Singapore">Singapore</option>
+<option value="Asia/Kuala_Lumpur">Kuala Lumpur (Malaysia)</option>
+<option value="Asia/Hong_Kong">Hong Kong</option>
+<option value="Asia/Shanghai">Shanghai (China)</option>
+<option value="Asia/Taipei">Taipei (Taiwan)</option>
+<option value="Asia/Seoul">Seoul (South Korea)</option>
+<option value="Asia/Tokyo">Tokyo (Japan)</option>
+<option value="Asia/Vladivostok">Vladivostok (Russia)</option>
+<option value="Asia/Yakutsk">Yakutsk (Russia)</option>
+<option value="Asia/Irkutsk">Irkutsk (Russia)</option>
+<option value="Asia/Yekaterinburg">Yekaterinburg (Russia)</option>
+<option value="Australia/Perth">Perth (Australia - Western)</option>
+<option value="Australia/Darwin">Darwin (Australia - Northern)</option>
+<option value="Australia/Adelaide">Adelaide (Australia - Central)</option>
+<option value="Australia/Brisbane">Brisbane (Australia - Eastern)</option>
+<option value="Australia/Sydney">Sydney (Australia - Eastern)</option>
+<option value="Australia/Melbourne">Melbourne (Australia - Eastern)</option>
+<option value="Australia/Hobart">Hobart (Australia - Eastern)</option>
+<option value="Pacific/Auckland">Auckland (New Zealand)</option>
+<option value="Pacific/Fiji">Fiji</option>
+<option value="Pacific/Guam">Guam</option>
+<option value="Pacific/Honolulu">Honolulu (US - Hawaii)</option>
+<option value="Pacific/Samoa">Samoa</option>
+<option value="Pacific/Tahiti">Tahiti (French Polynesia)</option>
+<option value="Africa/Cairo">Cairo (Egypt)</option>
+<option value="Africa/Johannesburg">Johannesburg (South Africa)</option>
+<option value="Africa/Lagos">Lagos (Nigeria)</option>
+<option value="Africa/Nairobi">Nairobi (Kenya)</option>
+<option value="Africa/Casablanca">Casablanca (Morocco)</option>
+<option value="Africa/Algiers">Algiers (Algeria)</option>
+<option value="Africa/Tunis">Tunis (Tunisia)</option>
+<option value="Africa/Addis_Ababa">Addis Ababa (Ethiopia)</option>
+<option value="Africa/Dar_es_Salaam">Dar es Salaam (Tanzania)</option>
+<option value="Africa/Kampala">Kampala (Uganda)</option>
+<option value="Africa/Khartoum">Khartoum (Sudan)</option>
+<option value="Africa/Accra">Accra (Ghana)</option>
+<option value="Africa/Abidjan">Abidjan (Ivory Coast)</option>
+<option value="Africa/Dakar">Dakar (Senegal)</option>
+</select>
+</div>
+<button type="submit" disabled="">
+<span>Saving...</span>
+</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="storybook-docs" hidden="true">
+</div>
+<div id="storybook-highlights-root" style="">
+<div id="storybook-highlights-menu" popover="manual" style="display: none;">
+</div>
+</div>

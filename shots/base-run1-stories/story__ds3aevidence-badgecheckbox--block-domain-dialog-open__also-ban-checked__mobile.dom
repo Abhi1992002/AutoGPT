@@ -1,0 +1,282 @@
+<span data-radix-focus-guard="" tabindex="0" style="outline: none; opacity: 0; position: fixed; pointer-events: none;" data-aria-hidden="true" aria-hidden="true">
+</span>
+<div data-aria-hidden="true" aria-hidden="true">
+<div>
+</div>
+</div>
+<div data-aria-hidden="true" aria-hidden="true">
+<div>
+<div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+<div>
+</div>
+</div>
+<div>
+<div>
+</div>
+</div>
+</div>
+<table aria-hidden="true">
+<thead>
+<tr>
+<th>
+<span>Name</span>
+</th>
+<th>
+<span>Description</span>
+</th>
+<th>
+<span>Default</span>
+</th>
+<th>
+<span>Control</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span>propertyName</span>
+<span title="Required">*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+<tr>
+<td>
+<span>propertyName</span>
+<span>*</span>
+</td>
+<td>
+<div>
+<span>This is a short description</span>
+</div>
+<div>
+<div>
+<span>summary</span>
+</div>
+</div>
+</td>
+<td>
+<div>
+<span>defaultValue</span>
+</div>
+</td>
+<td>
+<button>Set string</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div data-aria-hidden="true" aria-hidden="true">
+<div>
+<h1>No Preview</h1>
+<p>Sorry, but you either have no stories or none are selected somehow.</p>
+<ul>
+<li>Please check the Storybook config.</li>
+<li>Try reloading the page.</li>
+</ul>
+<p>If the problem persists, check the browser console, or the terminal you've run Storybook from.</p>
+</div>
+</div>
+<div data-aria-hidden="true" aria-hidden="true">
+<div>
+<h1 id="error-message">
+</h1>
+<p>The component failed to render properly, likely due to a configuration issue in Storybook. Here are some common causes and how you can address them:</p>
+<ol>
+<li>
+<strong>Missing Context/Providers</strong>: You can use decorators to supply specific contexts or providers, which are sometimes necessary for components to render correctly. For detailed instructions on using decorators, please visit the <a href="https://storybook.js.org/docs/writing-stories/decorators">Decorators documentation</a>.</li>
+<li>
+<strong>Misconfigured Webpack or Vite</strong>: Verify that Storybook picks up all necessary settings for loaders, plugins, and other relevant parameters. You can find step-by-step guides for configuring <a href="https://storybook.js.org/docs/builders/webpack">Webpack</a> or <a href="https://storybook.js.org/docs/builders/vite">Vite</a> with Storybook.</li>
+<li>
+<strong>Missing Environment Variables</strong>: Your Storybook may require specific environment variables to function as intended. You can set up custom environment variables as outlined in the <a href="https://storybook.js.org/docs/configure/environment-variables">Environment Variables documentation</a>.</li>
+</ol>
+<pre>
+<code id="error-stack">
+</code>
+</pre>
+</div>
+</div>
+<div id="storybook-root" data-aria-hidden="true" aria-hidden="true">
+<div>
+<button>
+<span>Block domain…</span>
+</button>
+</div>
+</div>
+<div id="storybook-docs" hidden="true" data-aria-hidden="true" aria-hidden="true">
+</div>
+<div id="storybook-highlights-root" style="" data-aria-hidden="true" aria-hidden="true">
+<div id="storybook-highlights-menu" popover="manual" style="display: none;">
+</div>
+</div>
+<div data-state="open" data-vaul-overlay="" data-vaul-snap-points="false" data-vaul-snap-points-overlay="true" data-vaul-animate="true" data-aria-hidden="true" aria-hidden="true" style="pointer-events: auto;">
+</div>
+<div role="dialog" id="radix-_r_4_" aria-describedby="radix-_r_6_" aria-labelledby="radix-_r_5_" data-state="open" data-vaul-drawer-direction="bottom" data-vaul-drawer="" data-vaul-delayed-snap-points="false" data-vaul-snap-points="false" data-vaul-custom-container="false" data-vaul-animate="true" tabindex="-1" style="pointer-events: auto;">
+<div>
+<h2 id="radix-_r_5_">Block example.com?</h2>
+<button aria-label="Close">
+<svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1em" viewBox="0 0 24 24" fill="none" color="currentColor" stroke-width="2" stroke="currentColor">
+<path d="M18 6L6.00081 17.9992M17.9992 18L6 6.00085" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+</path>
+</svg>
+</button>
+</div>
+<p id="radix-_r_6_">Dialog</p>
+<div>
+<div>
+<div>
+<p>No one can sign up with an @example.com address until the block ends. Accounts that already exist aren't affected unless you ban them below.</p>
+<div>
+<label for="also-ban">
+<button type="button" role="checkbox" aria-checked="true" data-state="checked" value="on" id="also-ban">
+<span data-state="checked" style="pointer-events: none;">
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+</path>
+</svg>
+</span>
+</button>
+<span>Also ban the 2 existing accounts on this domain</span>
+</label>
+<ul>
+<li>
+<button type="button" role="checkbox" aria-checked="true" data-state="checked" value="on" id="ban-u-1" aria-label="Ban alice@example.com">
+<span data-state="checked" style="pointer-events: none;">
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+</path>
+</svg>
+</span>
+</button>
+<label for="ban-u-1">
+<span translate="no">alice@example.com</span>
+<span>Alice</span>
+</label>
+</li>
+<li>
+<button type="button" role="checkbox" aria-checked="true" data-state="checked" value="on" id="ban-u-2" aria-label="Ban bob@example.com">
+<span data-state="checked" style="pointer-events: none;">
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+</path>
+</svg>
+</span>
+</button>
+<label for="ban-u-2">
+<span translate="no">bob@example.com</span>
+<span>Bob</span>
+</label>
+</li>
+<li>
+<button type="button" role="checkbox" aria-checked="false" data-state="unchecked" data-disabled="" disabled="" value="on" id="ban-u-3" aria-label="Ban carol@example.com">
+</button>
+<label for="ban-u-3">
+<span translate="no">carol@example.com</span>
+<span>Carol</span>
+</label>
+<span>already banned</span>
+</li>
+</ul>
+</div>
+<div>
+<div>
+<div>
+<label for="block-domain-reason">
+<span>Reason (required)</span>
+</label>
+</div>
+</div>
+<div>
+<div>
+<textarea placeholder="What they did" rows="3" id="block-domain-reason" required="" style="">
+</textarea>
+</div>
+<span>  </span>
+</div>
+</div>
+<div>
+<label for="block-domain-duration">
+<div>
+<div>
+<span>Duration</span>
+</div>
+</div>
+<div>
+<button type="button" role="combobox" aria-controls="radix-_r_7_" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" id="block-domain-duration">
+<span style="pointer-events: none;">
+<div>
+<span>Permanent</span>
+</div>
+</span>
+<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<path d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
+</path>
+</svg>
+</button>
+<span>  </span>
+</div>
+</label>
+<p>Doesn't end on its own.</p>
+</div>
+</div>
+<div data-testid="modal-footer">
+<button>
+<span>Cancel</span>
+</button>
+<button disabled="">
+<span>Block domain and ban 2 accounts</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<span data-radix-focus-guard="" tabindex="0" data-aria-hidden="true" aria-hidden="true" style="outline: none; opacity: 0; position: fixed; pointer-events: none;">
+</span>
