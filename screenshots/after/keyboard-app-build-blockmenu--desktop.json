@@ -1,0 +1,16 @@
+{
+  "tabOrder": [
+    "button[Suggestion]",
+    "button[All blocks100+]",
+    "button[Input blocks25]",
+    "button[Action blocks100+]",
+    "button[Output blocks1]",
+    "button[Integrations100+]"
+  ],
+  "role": "dialog",
+  "ariaModal": null,
+  "dataState": "open",
+  "escCloses": true,
+  "focusAfterClose": "button[]",
+  "focusReturnsToTrigger": false
+}

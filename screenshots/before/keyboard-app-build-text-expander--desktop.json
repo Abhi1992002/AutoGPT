@@ -1,0 +1,16 @@
+{
+  "tabOrder": [
+    "button[Copy to clipboard]",
+    "button[Cancel]",
+    "button[Save]",
+    "button[Close]",
+    "textarea[Name]",
+    "button[Copy to clipboard]"
+  ],
+  "role": "dialog",
+  "ariaModal": null,
+  "dataState": "open",
+  "escCloses": true,
+  "focusAfterClose": "body[((a,b,c,d,e,f,g,h)=>{let i=doc]",
+  "focusReturnsToTrigger": false
+}
