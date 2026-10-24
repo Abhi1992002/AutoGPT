@@ -1,0 +1,172 @@
+{
+ "library-sort-select": [
+  "focus-visible: button | combobox | false | null | null | closed | Last Modified",
+  "open: div | option | null | false | null | unchecked | Creation Date",
+  "listbox: div [data-side=bottom data-state=open role=listbox tabindex=-1]",
+  "options: div [aria-selected=false data-highlighted= data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1]",
+  "ArrowDown: div | option | null | false | null | unchecked | Last Modified",
+  "Escape -> focus: button | combobox | false | null | null | closed | Last Modified",
+  "trigger after Escape: button [aria-autocomplete=none aria-expanded=false aria-label=Filter workflows data-state=closed role=combobox type=button] ; button [aria-autocomplete=none aria-expanded=false data-state=closed role=combobox type=button]"
+ ],
+ "profile-settings-timezone-select": [
+  "focus-visible: button | combobox | false | null | null | closed | UTC (Coordinated Universal Time)",
+  "open: div | option | null | true | null | checked | UTC (Coordinated Universal Time)",
+  "listbox: div [data-side=top data-state=open role=listbox tabindex=-1]",
+  "options: div [aria-selected=true data-highlighted= data-state=checked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1]",
+  "ArrowDown: div | option | null | false | null | unchecked | Adak (US - Aleutian Islands)",
+  "Escape -> focus: button | combobox | false | null | null | closed | UTC (Coordinated Universal Time)",
+  "trigger after Escape: button [aria-autocomplete=none aria-describedby=_r_b_-form-item-description aria-expanded=false aria-invalid=false data-state=closed role=combobox type=button] ; button [aria-autocomplete=none aria-describedby=_r_d_-form-item-description aria-expanded=false aria-label=Briefing frequency data-state=closed role=combobox type=button]"
+ ],
+ "admin-spending-filter-select": [
+  "focus-visible: button | combobox | false | null | null | closed | All",
+  "open: div | option | null | true | null | checked | All",
+  "listbox: div [data-side=bottom data-state=open role=listbox tabindex=-1]",
+  "options: div [aria-selected=true data-highlighted= data-state=checked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1]",
+  "ArrowDown: div | option | null | false | null | unchecked | Top Up",
+  "Escape -> focus: button | combobox | false | null | null | closed | All",
+  "trigger after Escape: button [aria-autocomplete=none aria-expanded=false data-state=closed role=combobox type=button]"
+ ],
+ "admin-spending-table-row": [
+  "table: table [] ; thead [] ; th [] ; th [] ; th [] ; th [] ; th [] ; th []"
+ ],
+ "admin-spending-add-money-dialog": [
+  "open -> focus: input | null | null | null | null | null | ",
+  "dialog: div [data-state=open role=dialog tabindex=-1]",
+  "Tab 1: textarea | null | null | null | null | null | We love you!",
+  "Tab 2: button | null | null | null | null | null | Cancel",
+  "Tab 3: button | null | null | null | null | null | Add Dollars",
+  "Tab 4: button | null | null | null | null | null | Close",
+  "Tab 5: input | null | null | null | null | null | ",
+  "Tab 6: textarea | null | null | null | null | null | We love you!",
+  "Escape -> dialogs left: 0",
+  "Escape -> focus: body"
+ ],
+ "admin-spending-rate-limit-dialog": [
+  "open -> focus: button | null | null | null | null | null | Close",
+  "dialog: div [data-state=open role=dialog tabindex=-1]",
+  "Tab 1: select | null | null | null | null | null | Reset scope",
+  "Tab 2: button | null | null | null | null | null | Close",
+  "Tab 3: select | null | null | null | null | null | Reset scope",
+  "Tab 4: button | null | null | null | null | null | Close",
+  "Escape -> dialogs left: 0",
+  "Escape -> focus: body"
+ ],
+ "admin-marketplace-filter-select": [
+  "focus-visible: button | combobox | false | null | null | closed | All",
+  "open: div | option | null | true | null | checked | All",
+  "listbox: div [data-side=bottom data-state=open role=listbox tabindex=-1]",
+  "options: div [aria-selected=true data-highlighted= data-state=checked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1]",
+  "ArrowDown: div | option | null | false | null | unchecked | Pending",
+  "Escape -> focus: button | combobox | false | null | null | closed | All",
+  "trigger after Escape: button [aria-autocomplete=none aria-expanded=false data-state=closed role=combobox type=button]"
+ ],
+ "admin-execution-analytics-select": [
+  "focus-visible: button | combobox | false | null | null | closed | Openai: GPT 5.6 Terra (Recommended)",
+  "open: div | option | null | true | null | checked | Openai: GPT 5.6 Terra (Recommended)",
+  "listbox: div [data-side=top data-state=open role=listbox tabindex=-1]",
+  "options: div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1]",
+  "ArrowDown: div | option | null | false | null | unchecked | Openai: GPT 6.1 Sol",
+  "Escape -> focus: button | combobox | false | null | null | closed | Openai: GPT 5.6 Terra (Recommended)",
+  "trigger after Escape: button [aria-autocomplete=none aria-expanded=false data-state=closed role=combobox type=button]"
+ ],
+ "admin-diagnostics-page": [
+  "tabs: button [aria-selected=true data-state=active role=tab tabindex=-1 type=button] ; button [aria-selected=false data-state=inactive role=tab tabindex=-1 type=button] ; button [aria-selected=false data-state=inactive role=tab tabindex=-1 type=button] ; button [aria-selected=false data-state=inactive role=tab tabindex=-1 type=button] ; button [aria-selected=false data-state=inactive role=tab tabindex=-1 type=button] ; button [aria-selected=false data-state=inactive role=tab tabindex=-1 type=button] ; button [aria-selected=true data-state=active role=tab tabindex=-1 type=button] ; button [aria-selected=false data-state=inactive role=tab tabindex=-1 type=button]"
+ ],
+ "build-agent-outputs-button": [
+  "button: button [aria-expanded=false aria-haspopup=dialog data-state=closed type=button]"
+ ],
+ "profile-settings-mobile-sidebar-sheet": [
+  "open -> focus: button | null | null | null | null | null | Close",
+  "dialog: div [data-state=open role=dialog tabindex=-1]",
+  "Tab 1: a | null | null | null | null | null | Profile",
+  "Tab 2: a | null | null | null | null | null | Creator Dashboard",
+  "Tab 3: a | null | null | null | null | null | Integrations",
+  "Tab 4: a | null | null | null | null | null | Settings",
+  "Escape -> dialogs left: 0",
+  "Escape -> focus: button | null | false | null | dialog | closed | Open sidebar menu"
+ ],
+ "profile-settings-mobile-sheet-click-outside": [
+  "dialogs left: 0"
+ ],
+ "atoms-select--with-error": [
+  "focus-visible: button | combobox | false | null | null | closed | Select a country",
+  "open: div | option | null | false | null | unchecked | United States",
+  "listbox: div [data-side=bottom data-state=open role=listbox tabindex=-1]",
+  "options: div [aria-selected=false data-highlighted= data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1]",
+  "ArrowDown: div | option | null | false | null | unchecked | Canada",
+  "Escape -> focus: button | combobox | false | null | null | closed | Select a country",
+  "trigger after Escape: button [aria-autocomplete=none aria-expanded=false data-state=closed role=combobox type=button]"
+ ],
+ "atoms-select--with-value": [
+  "focus-visible: button | combobox | false | null | null | closed | United States",
+  "open: div | option | null | true | null | checked | United States",
+  "listbox: div [data-side=bottom data-state=open role=listbox tabindex=-1]",
+  "options: div [aria-selected=true data-highlighted= data-state=checked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1]",
+  "ArrowDown: div | option | null | false | null | unchecked | Canada",
+  "Escape -> focus: button | combobox | false | null | null | closed | United States",
+  "trigger after Escape: button [aria-autocomplete=none aria-expanded=false data-state=closed role=combobox type=button]"
+ ],
+ "atoms-select--with-icons-and-separators": [
+  "focus-visible: button | combobox | false | null | null | closed | Rich",
+  "open: div | option | null | false | null | unchecked | ✅Your Google account",
+  "listbox: div [data-side=bottom data-state=open role=listbox tabindex=-1]",
+  "options: div [aria-selected=false data-highlighted= data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1]",
+  "ArrowDown: div | option | null | false | null | unchecked | 🔐Sign in with Google",
+  "Escape -> focus: button | combobox | false | null | null | closed | Rich",
+  "trigger after Escape: button [aria-autocomplete=none aria-expanded=false aria-label=Rich data-state=closed role=combobox type=button]"
+ ],
+ "atoms-select--disabled": [
+  "trigger: button [aria-autocomplete=none aria-expanded=false data-disabled= data-state=closed role=combobox type=button]"
+ ],
+ "molecules-table--default": [
+  "Tab 1: button | null | null | null | null | null | Add row",
+  "Tab 2: body",
+  "Tab 3: button | null | null | null | null | null | Add row",
+  "Tab 4: body"
+ ],
+ "molecules-tabsline--default": [
+  "focus-visible: button | tab | null | true | null | active | Account",
+  "ArrowRight: button | tab | null | true | null | active | Password",
+  "tabs: div [aria-orientation=horizontal role=tablist tabindex=0] ; button [aria-selected=false data-state=inactive role=tab tabindex=-1 type=button] ; button [aria-selected=true data-state=active role=tab tabindex=0 type=button] ; button [aria-selected=false data-state=inactive role=tab tabindex=-1 type=button] ; div [data-state=inactive role=tabpanel tabindex=0] ; div [data-state=active role=tabpanel tabindex=0] ; div [data-state=inactive role=tabpanel tabindex=0] ; div [aria-orientation=horizontal role=tablist tabindex=0]",
+  "Tab: div | tabpanel | null | null | null | active | Change your password here. After saving,"
+ ],
+ "molecules-tabsline--compact": [
+  "focus-visible: button | tab | null | true | null | active | Basics",
+  "ArrowRight: button | tab | null | true | null | active | Work",
+  "tabs: div [aria-orientation=horizontal role=tablist tabindex=0] ; button [aria-selected=false data-state=inactive role=tab tabindex=-1 type=button] ; button [aria-selected=true data-state=active role=tab tabindex=0 type=button] ; button [aria-selected=false data-state=inactive role=tab tabindex=-1 type=button] ; button [aria-selected=false data-state=inactive role=tab tabindex=-1 type=button] ; div [data-state=inactive role=tabpanel tabindex=0] ; div [data-state=active role=tabpanel tabindex=0] ; div [data-state=inactive role=tabpanel tabindex=0]",
+  "Tab: div | tabpanel | null | null | null | active | Work panel"
+ ],
+ "evidence-wallettabs--top-up": [
+  "focus-visible: button | tab | null | true | null | active | One-time top up",
+  "ArrowRight: button | tab | null | true | null | active | Auto-refill",
+  "tabs: div [aria-orientation=horizontal role=tablist tabindex=0] ; button [aria-selected=false data-state=inactive role=tab tabindex=-1 type=button] ; button [aria-selected=true data-state=active role=tab tabindex=0 type=button] ; div [data-state=inactive role=tabpanel tabindex=0] ; div [data-state=active role=tabpanel tabindex=0]",
+  "Tab: div | tabpanel | null | null | null | inactive | "
+ ],
+ "evidence-wallettabs--auto-refill": [
+  "focus-visible: button | tab | null | true | null | active | Auto-refill",
+  "ArrowRight: button | tab | null | true | null | active | One-time top up",
+  "tabs: div [aria-orientation=horizontal role=tablist tabindex=0] ; button [aria-selected=true data-state=active role=tab tabindex=0 type=button] ; button [aria-selected=false data-state=inactive role=tab tabindex=-1 type=button] ; div [data-state=active role=tabpanel tabindex=0] ; div [data-state=inactive role=tabpanel tabindex=0]",
+  "Tab: div | tabpanel | null | null | null | active | Top-up panel"
+ ],
+ "evidence-agentoutputs--with-output": [
+  "ERROR locator.waitFor: Timeout 20000ms exceeded."
+ ],
+ "molecules-dialog--basic": [
+  "open -> focus: button | null | null | null | null | null | Close",
+  "dialog: div [data-state=open role=dialog tabindex=-1]",
+  "Tab 1: button | null | null | null | null | null | Close",
+  "Tab 2: button | null | null | null | null | null | Close",
+  "Tab 3: button | null | null | null | null | null | Close",
+  "Escape -> dialogs left: 0",
+  "Escape -> focus: body"
+ ],
+ "molecules-dialog--with-footer": [
+  "open -> focus: button | null | null | null | null | null | Close",
+  "dialog: div [data-state=open role=dialog tabindex=-1]",
+  "Tab 1: button | null | null | null | null | null | Cancel",
+  "Tab 2: button | null | null | null | null | null | Confirm",
+  "Tab 3: button | null | null | null | null | null | Close",
+  "Escape -> dialogs left: 0",
+  "Escape -> focus: body"
+ ]
+}

@@ -1,0 +1,12 @@
+✓ src/__tmp_parity/parity.test.tsx > RefundModal (dialog + select), open, select open, Escape 1568ms
+✓ src/__tmp_parity/parity.test.tsx > APIKeysModals (dialog trigger), open, Escape 1799ms
+✓ src/__tmp_parity/parity.test.tsx > ApproveRejectButtons (two dialogs), approve open, Escape, reject open 1926ms
+✓ src/__tmp_parity/parity.test.tsx > MCPToolDialog open 809ms
+✓ src/__tmp_parity/parity.test.tsx > AdminAddMoneyButton + RateLimitModal, open, Escape 2317ms
+✓ src/__tmp_parity/parity.test.tsx > CronScheduler (selects), each select open + Escape 1417ms
+✓ src/__tmp_parity/parity.test.tsx > DateInput (legacy calendar month/year selects), popover open, select open 3283ms
+✓ src/__tmp_parity/parity.test.tsx > atoms/Select field, open, ArrowDown, Escape 1819ms
+✓ src/__tmp_parity/parity.test.tsx > molecules/Table (editable and read-only) 938ms
+✓ src/__tmp_parity/parity.test.tsx > APIKeysSection (table) 491ms
+✓ src/__tmp_parity/parity.test.tsx > legacy Sidebar (sheet), open, Escape 1305ms
+Tests  11 passed (11)
