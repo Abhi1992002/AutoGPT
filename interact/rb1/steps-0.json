@@ -1,0 +1,1390 @@
+{
+ "molecules-dialog--controlled__desktop": [
+  {
+   "label": "initial",
+   "png": "molecules-dialog--controlled__desktop__initial.png",
+   "dom": "d781194bd418a895db2bda7839212dcad0808a9fc05b3b194c19149cbfcf747b",
+   "focus": "none"
+  },
+  {
+   "label": "tab0",
+   "png": "molecules-dialog--controlled__desktop__tab0.png",
+   "dom": "d781194bd418a895db2bda7839212dcad0808a9fc05b3b194c19149cbfcf747b",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem]\"></button> text=Open Controlled Dialog"
+  },
+  {
+   "label": "tab1",
+   "png": "molecules-dialog--controlled__desktop__tab1.png",
+   "dom": "d781194bd418a895db2bda7839212dcad0808a9fc05b3b194c19149cbfcf747b",
+   "focus": "none"
+  },
+  {
+   "label": "tab2",
+   "png": "molecules-dialog--controlled__desktop__tab2.png",
+   "dom": "d781194bd418a895db2bda7839212dcad0808a9fc05b3b194c19149cbfcf747b",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem]\"></button> text=Open Controlled Dialog"
+  },
+  {
+   "label": "tab3",
+   "png": "molecules-dialog--controlled__desktop__tab3.png",
+   "dom": "d781194bd418a895db2bda7839212dcad0808a9fc05b3b194c19149cbfcf747b",
+   "focus": "none"
+  },
+  {
+   "label": "tab4",
+   "png": "molecules-dialog--controlled__desktop__tab4.png",
+   "dom": "d781194bd418a895db2bda7839212dcad0808a9fc05b3b194c19149cbfcf747b",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem]\"></button> text=Open Controlled Dialog"
+  },
+  {
+   "label": "tab5",
+   "png": "molecules-dialog--controlled__desktop__tab5.png",
+   "dom": "d781194bd418a895db2bda7839212dcad0808a9fc05b3b194c19149cbfcf747b",
+   "focus": "none"
+  },
+  {
+   "label": "hover0",
+   "png": "molecules-dialog--controlled__desktop__hover0.png",
+   "dom": "d781194bd418a895db2bda7839212dcad0808a9fc05b3b194c19149cbfcf747b",
+   "focus": "none"
+  },
+  {
+   "label": "t0-open",
+   "png": "molecules-dialog--controlled__desktop__t0-open.png",
+   "dom": "1415ce2d067d9479ba93884eb9e79bf7bf601a7a34f4f24dc9b9841723ee32b1",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] text-foreground-emphasis border border-border-base shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-[96px] disabled:shadow-none disabled:opacity-1 p-3 !min-w-0 absolute right-4 top-4 z-50 bg-surface size-[2.5rem]\" aria-label=\"Close\"></button> text="
+  },
+  {
+   "label": "t0-down1",
+   "png": "molecules-dialog--controlled__desktop__t0-down1.png",
+   "dom": "1415ce2d067d9479ba93884eb9e79bf7bf601a7a34f4f24dc9b9841723ee32b1",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] text-foreground-emphasis border border-border-base shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-[96px] disabled:shadow-none disabled:opacity-1 p-3 !min-w-0 absolute right-4 top-4 z-50 bg-surface size-[2.5rem]\" aria-label=\"Close\"></button> text="
+  },
+  {
+   "label": "t0-down2",
+   "png": "molecules-dialog--controlled__desktop__t0-down2.png",
+   "dom": "1415ce2d067d9479ba93884eb9e79bf7bf601a7a34f4f24dc9b9841723ee32b1",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] text-foreground-emphasis border border-border-base shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-[96px] disabled:shadow-none disabled:opacity-1 p-3 !min-w-0 absolute right-4 top-4 z-50 bg-surface size-[2.5rem]\" aria-label=\"Close\"></button> text="
+  },
+  {
+   "label": "t0-esc",
+   "png": "molecules-dialog--controlled__desktop__t0-esc.png",
+   "dom": "5e9c2cc6544f48131158178500994caf2d43379d94df17a29131461a95f5f7fc",
+   "focus": "none"
+  }
+ ],
+ "molecules-dialog--custom-styling__desktop": [
+  {
+   "label": "initial",
+   "png": "molecules-dialog--custom-styling__desktop__initial.png",
+   "dom": "9e247b93d1e51aa7f5eafdae8b704c1d7aabcc3f3a8d6c172db6eeed5ea7b6a3",
+   "focus": "none"
+  },
+  {
+   "label": "tab0",
+   "png": "molecules-dialog--custom-styling__desktop__tab0.png",
+   "dom": "9e247b93d1e51aa7f5eafdae8b704c1d7aabcc3f3a8d6c172db6eeed5ea7b6a3",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Custom Styled Dialog"
+  },
+  {
+   "label": "tab1",
+   "png": "molecules-dialog--custom-styling__desktop__tab1.png",
+   "dom": "9e247b93d1e51aa7f5eafdae8b704c1d7aabcc3f3a8d6c172db6eeed5ea7b6a3",
+   "focus": "none"
+  },
+  {
+   "label": "tab2",
+   "png": "molecules-dialog--custom-styling__desktop__tab2.png",
+   "dom": "9e247b93d1e51aa7f5eafdae8b704c1d7aabcc3f3a8d6c172db6eeed5ea7b6a3",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Custom Styled Dialog"
+  },
+  {
+   "label": "tab3",
+   "png": "molecules-dialog--custom-styling__desktop__tab3.png",
+   "dom": "9e247b93d1e51aa7f5eafdae8b704c1d7aabcc3f3a8d6c172db6eeed5ea7b6a3",
+   "focus": "none"
+  },
+  {
+   "label": "tab4",
+   "png": "molecules-dialog--custom-styling__desktop__tab4.png",
+   "dom": "9e247b93d1e51aa7f5eafdae8b704c1d7aabcc3f3a8d6c172db6eeed5ea7b6a3",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Custom Styled Dialog"
+  },
+  {
+   "label": "tab5",
+   "png": "molecules-dialog--custom-styling__desktop__tab5.png",
+   "dom": "9e247b93d1e51aa7f5eafdae8b704c1d7aabcc3f3a8d6c172db6eeed5ea7b6a3",
+   "focus": "none"
+  },
+  {
+   "label": "hover0",
+   "png": "molecules-dialog--custom-styling__desktop__hover0.png",
+   "dom": "9e247b93d1e51aa7f5eafdae8b704c1d7aabcc3f3a8d6c172db6eeed5ea7b6a3",
+   "focus": "none"
+  },
+  {
+   "label": "t0-open",
+   "png": "molecules-dialog--custom-styling__desktop__t0-open.png",
+   "dom": "4442187804ec08cb110dd9f757f24418b882c273caf38d4f5ea61d8ffe1ca67d",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] text-foreground-emphasis border border-border-base shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-[96px] disabled:shadow-none disabled:opacity-1 p-3 !min-w-0 absolute right-4 top-4 z-50 bg-surface size-[2.5rem]\" aria-label=\"Close\"></button> text="
+  },
+  {
+   "label": "t0-down1",
+   "png": "molecules-dialog--custom-styling__desktop__t0-down1.png",
+   "dom": "4442187804ec08cb110dd9f757f24418b882c273caf38d4f5ea61d8ffe1ca67d",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] text-foreground-emphasis border border-border-base shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-[96px] disabled:shadow-none disabled:opacity-1 p-3 !min-w-0 absolute right-4 top-4 z-50 bg-surface size-[2.5rem]\" aria-label=\"Close\"></button> text="
+  },
+  {
+   "label": "t0-down2",
+   "png": "molecules-dialog--custom-styling__desktop__t0-down2.png",
+   "dom": "4442187804ec08cb110dd9f757f24418b882c273caf38d4f5ea61d8ffe1ca67d",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] text-foreground-emphasis border border-border-base shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-[96px] disabled:shadow-none disabled:opacity-1 p-3 !min-w-0 absolute right-4 top-4 z-50 bg-surface size-[2.5rem]\" aria-label=\"Close\"></button> text="
+  },
+  {
+   "label": "t0-esc",
+   "png": "molecules-dialog--custom-styling__desktop__t0-esc.png",
+   "dom": "8abb294e589f05bac153e2e98e9db2194adfb5c630ffc74d84d6082f2ff7f83d",
+   "focus": "none"
+  }
+ ],
+ "molecules-dialog--without-title__desktop": [
+  {
+   "label": "initial",
+   "png": "molecules-dialog--without-title__desktop__initial.png",
+   "dom": "3b32d157fe56394f957680c0c064d6c39c23e4c9abd8de07f0839d484223d93e",
+   "focus": "none"
+  },
+  {
+   "label": "tab0",
+   "png": "molecules-dialog--without-title__desktop__tab0.png",
+   "dom": "3b32d157fe56394f957680c0c064d6c39c23e4c9abd8de07f0839d484223d93e",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Dialog (no title)"
+  },
+  {
+   "label": "tab1",
+   "png": "molecules-dialog--without-title__desktop__tab1.png",
+   "dom": "3b32d157fe56394f957680c0c064d6c39c23e4c9abd8de07f0839d484223d93e",
+   "focus": "none"
+  },
+  {
+   "label": "tab2",
+   "png": "molecules-dialog--without-title__desktop__tab2.png",
+   "dom": "3b32d157fe56394f957680c0c064d6c39c23e4c9abd8de07f0839d484223d93e",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Dialog (no title)"
+  },
+  {
+   "label": "tab3",
+   "png": "molecules-dialog--without-title__desktop__tab3.png",
+   "dom": "3b32d157fe56394f957680c0c064d6c39c23e4c9abd8de07f0839d484223d93e",
+   "focus": "none"
+  },
+  {
+   "label": "tab4",
+   "png": "molecules-dialog--without-title__desktop__tab4.png",
+   "dom": "3b32d157fe56394f957680c0c064d6c39c23e4c9abd8de07f0839d484223d93e",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Dialog (no title)"
+  },
+  {
+   "label": "tab5",
+   "png": "molecules-dialog--without-title__desktop__tab5.png",
+   "dom": "3b32d157fe56394f957680c0c064d6c39c23e4c9abd8de07f0839d484223d93e",
+   "focus": "none"
+  },
+  {
+   "label": "hover0",
+   "png": "molecules-dialog--without-title__desktop__hover0.png",
+   "dom": "3b32d157fe56394f957680c0c064d6c39c23e4c9abd8de07f0839d484223d93e",
+   "focus": "none"
+  },
+  {
+   "label": "t0-open",
+   "png": "molecules-dialog--without-title__desktop__t0-open.png",
+   "dom": "9629d6defb662b82f1e988b355228a1081ab7d1f45d344f87e56ec7d2c2017d3",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] text-foreground-emphasis border border-border-base shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-[96px] disabled:shadow-none disabled:opacity-1 p-3 !min-w-0 absolute right-4 top-4 z-50 bg-surface size-[2.5rem]\" aria-label=\"Close\"></button> text="
+  },
+  {
+   "label": "t0-down1",
+   "png": "molecules-dialog--without-title__desktop__t0-down1.png",
+   "dom": "9629d6defb662b82f1e988b355228a1081ab7d1f45d344f87e56ec7d2c2017d3",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] text-foreground-emphasis border border-border-base shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-[96px] disabled:shadow-none disabled:opacity-1 p-3 !min-w-0 absolute right-4 top-4 z-50 bg-surface size-[2.5rem]\" aria-label=\"Close\"></button> text="
+  },
+  {
+   "label": "t0-down2",
+   "png": "molecules-dialog--without-title__desktop__t0-down2.png",
+   "dom": "9629d6defb662b82f1e988b355228a1081ab7d1f45d344f87e56ec7d2c2017d3",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] text-foreground-emphasis border border-border-base shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-[96px] disabled:shadow-none disabled:opacity-1 p-3 !min-w-0 absolute right-4 top-4 z-50 bg-surface size-[2.5rem]\" aria-label=\"Close\"></button> text="
+  },
+  {
+   "label": "t0-esc",
+   "png": "molecules-dialog--without-title__desktop__t0-esc.png",
+   "dom": "5cef77985d5918a755079221d7b058c288f80f3d99eafcb2ddaf4b4fb4ab45d9",
+   "focus": "none"
+  }
+ ],
+ "molecules-secondarymenu--dropdown-menu-example__desktop": [
+  {
+   "label": "initial",
+   "png": "molecules-secondarymenu--dropdown-menu-example__desktop__initial.png",
+   "dom": "28397a49c8f4d4f6bd27b19654736750d708154fbb212c6c0ae3413276902c30",
+   "focus": "none"
+  },
+  {
+   "label": "tab0",
+   "png": "molecules-secondarymenu--dropdown-menu-example__desktop__tab0.png",
+   "dom": "28397a49c8f4d4f6bd27b19654736750d708154fbb212c6c0ae3413276902c30",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-surface border-border-base text-foreground-emphasis shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-full disabled:text-foreground-disabled disabled:bg-surface-muted disabled:border-separator disabled:shadow-none disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" type=\"button\" id=\"radix-_r_0_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text="
+  },
+  {
+   "label": "tab1",
+   "png": "molecules-secondarymenu--dropdown-menu-example__desktop__tab1.png",
+   "dom": "28397a49c8f4d4f6bd27b19654736750d708154fbb212c6c0ae3413276902c30",
+   "focus": "none"
+  },
+  {
+   "label": "tab2",
+   "png": "molecules-secondarymenu--dropdown-menu-example__desktop__tab2.png",
+   "dom": "28397a49c8f4d4f6bd27b19654736750d708154fbb212c6c0ae3413276902c30",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-surface border-border-base text-foreground-emphasis shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-full disabled:text-foreground-disabled disabled:bg-surface-muted disabled:border-separator disabled:shadow-none disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" type=\"button\" id=\"radix-_r_0_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text="
+  },
+  {
+   "label": "tab3",
+   "png": "molecules-secondarymenu--dropdown-menu-example__desktop__tab3.png",
+   "dom": "28397a49c8f4d4f6bd27b19654736750d708154fbb212c6c0ae3413276902c30",
+   "focus": "none"
+  },
+  {
+   "label": "tab4",
+   "png": "molecules-secondarymenu--dropdown-menu-example__desktop__tab4.png",
+   "dom": "28397a49c8f4d4f6bd27b19654736750d708154fbb212c6c0ae3413276902c30",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-surface border-border-base text-foreground-emphasis shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-full disabled:text-foreground-disabled disabled:bg-surface-muted disabled:border-separator disabled:shadow-none disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" type=\"button\" id=\"radix-_r_0_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text="
+  },
+  {
+   "label": "tab5",
+   "png": "molecules-secondarymenu--dropdown-menu-example__desktop__tab5.png",
+   "dom": "28397a49c8f4d4f6bd27b19654736750d708154fbb212c6c0ae3413276902c30",
+   "focus": "none"
+  },
+  {
+   "label": "hover0",
+   "png": "molecules-secondarymenu--dropdown-menu-example__desktop__hover0.png",
+   "dom": "28397a49c8f4d4f6bd27b19654736750d708154fbb212c6c0ae3413276902c30",
+   "focus": "none"
+  },
+  {
+   "label": "t0-open",
+   "png": "molecules-secondarymenu--dropdown-menu-example__desktop__t0-open.png",
+   "dom": "78df9cdf828b37fad4a82c8d90dda8d2eba5a358db3ae738ce5ee739c1e595a7",
+   "focus": "<div data-side=\"right\" data-align=\"start\" role=\"menu\" aria-orientation=\"vertical\" data-state=\"open\" data-radix-menu-content=\"\" dir=\"ltr\" id=\"radix-_r_1_\" aria-labelledby=\"radix-_r_0_\" class=\"z-10 rounded-xl border bg-surface p-1 shadow-md\" tabindex=\"-1\" data-orientation=\"vertical\" style=\"outline: none; --radix-dropdown-menu-content-transform-origin: var(--radix-popper-transform-origin); --radix-dropdown-menu-content-available-width: var(--radix-popper-available-width); --radix-dropdown-menu-content-available-height: var(--radix-popper-available-height); --radix-dropdown-menu-trigger-width: var(--radix-popper-anchor-width); --radix-dropdown-menu-trigger-height: var(--radix-popper-anchor-height); pointer-events: auto;\"></div> text=CopyOpen agentDelete"
+  },
+  {
+   "label": "t0-down1",
+   "png": "molecules-secondarymenu--dropdown-menu-example__desktop__t0-down1.png",
+   "dom": "f10fe262abb262898bfb4ed960c1182d52f781985e030cb46494e258d0ee3477",
+   "focus": "<div role=\"menuitem\" class=\"flex cursor-pointer items-center rounded-md px-3 py-2 hover:bg-gray-100\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Copy"
+  },
+  {
+   "label": "t0-down2",
+   "png": "molecules-secondarymenu--dropdown-menu-example__desktop__t0-down2.png",
+   "dom": "67cf4b93a9b0169c014d2ec2baae68afcb3dd85d68064b414b5292616349c3d6",
+   "focus": "<div role=\"menuitem\" class=\"flex cursor-pointer items-center rounded-md px-3 py-2 hover:bg-gray-100\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Open agent"
+  },
+  {
+   "label": "t0-esc",
+   "png": "molecules-secondarymenu--dropdown-menu-example__desktop__t0-esc.png",
+   "dom": "e10ef1ebabf96bbae35abe4b8c41fe574aed2025f6859bc4593a275ca0b18e15",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-surface border-border-base text-foreground-emphasis shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-full disabled:text-foreground-disabled disabled:bg-surface-muted disabled:border-separator disabled:shadow-none disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" type=\"button\" id=\"radix-_r_0_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text="
+  },
+  {
+   "label": "ctx-open",
+   "png": "molecules-secondarymenu--dropdown-menu-example__desktop__ctx-open.png",
+   "dom": "28397a49c8f4d4f6bd27b19654736750d708154fbb212c6c0ae3413276902c30",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-surface border-border-base text-foreground-emphasis shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-full disabled:text-foreground-disabled disabled:bg-surface-muted disabled:border-separator disabled:shadow-none disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" type=\"button\" id=\"radix-_r_0_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text="
+  },
+  {
+   "label": "ctx-down1",
+   "png": "molecules-secondarymenu--dropdown-menu-example__desktop__ctx-down1.png",
+   "dom": "f430d2bd376bf941b0b47e82504a24c890c7ea587a51ee994c4df4b7cad6275d",
+   "focus": "<div role=\"menuitem\" class=\"flex cursor-pointer items-center rounded-md px-3 py-2 hover:bg-gray-100\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Copy"
+  },
+  {
+   "label": "ctx-esc",
+   "png": "molecules-secondarymenu--dropdown-menu-example__desktop__ctx-esc.png",
+   "dom": "e10ef1ebabf96bbae35abe4b8c41fe574aed2025f6859bc4593a275ca0b18e15",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-surface border-border-base text-foreground-emphasis shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-full disabled:text-foreground-disabled disabled:bg-surface-muted disabled:border-separator disabled:shadow-none disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" type=\"button\" id=\"radix-_r_0_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text="
+  }
+ ],
+ "molecules-tabsline--default__desktop": [
+  {
+   "label": "initial",
+   "png": "molecules-tabsline--default__desktop__initial.png",
+   "dom": "6b708e98ab00c1e4bdfd0720a55b3c7ce3595261fb620903ceb30f66aae34d32",
+   "focus": "none"
+  },
+  {
+   "label": "tab0",
+   "png": "molecules-tabsline--default__desktop__tab0.png",
+   "dom": "534e7ff244dd9a020ce930c3cff0320eab69b32535a9516fcb9c95d6880943cc",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab1\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab1\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Account"
+  },
+  {
+   "label": "tab1",
+   "png": "molecules-tabsline--default__desktop__tab1.png",
+   "dom": "534e7ff244dd9a020ce930c3cff0320eab69b32535a9516fcb9c95d6880943cc",
+   "focus": "<div data-state=\"active\" data-orientation=\"horizontal\" role=\"tabpanel\" aria-labelledby=\"radix-_r_0_-trigger-tab1\" id=\"radix-_r_0_-content-tab1\" tabindex=\"0\" class=\"mt-4 data-[state=inactive]:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:ring-offset-2\" style=\"animation-duration: 0s;\"></div> text=Make changes to your account here. Click save when you're do"
+  },
+  {
+   "label": "tab2",
+   "png": "molecules-tabsline--default__desktop__tab2.png",
+   "dom": "0db166a936ce74070e09722fedf8ac55549c41416dcb7e2eaee697687dee1abb",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_4_-content-overview\" data-state=\"active\" id=\"radix-_r_4_-trigger-overview\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Overview"
+  },
+  {
+   "label": "tab3",
+   "png": "molecules-tabsline--default__desktop__tab3.png",
+   "dom": "0db166a936ce74070e09722fedf8ac55549c41416dcb7e2eaee697687dee1abb",
+   "focus": "<div data-state=\"active\" data-orientation=\"horizontal\" role=\"tabpanel\" aria-labelledby=\"radix-_r_4_-trigger-overview\" id=\"radix-_r_4_-content-overview\" tabindex=\"0\" class=\"mt-4 data-[state=inactive]:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:ring-offset-2\" style=\"animation-duration: 0s;\"></div> text=Dashboard overview with key metrics and recent activity."
+  },
+  {
+   "label": "tab4",
+   "png": "molecules-tabsline--default__desktop__tab4.png",
+   "dom": "5e448f5b2b6e6a37fee2ac38cea9caddf8357c9607ec4d2167472c330c185739",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_b_-content-active1\" data-state=\"active\" id=\"radix-_r_b_-trigger-active1\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Active Tab"
+  },
+  {
+   "label": "tab5",
+   "png": "molecules-tabsline--default__desktop__tab5.png",
+   "dom": "5e448f5b2b6e6a37fee2ac38cea9caddf8357c9607ec4d2167472c330c185739",
+   "focus": "<div data-state=\"active\" data-orientation=\"horizontal\" role=\"tabpanel\" aria-labelledby=\"radix-_r_b_-trigger-active1\" id=\"radix-_r_b_-content-active1\" tabindex=\"0\" class=\"mt-4 data-[state=inactive]:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:ring-offset-2\" style=\"animation-duration: 0s;\"></div> text=This is an active tab that you can interact with."
+  },
+  {
+   "label": "hover0",
+   "png": "molecules-tabsline--default__desktop__hover0.png",
+   "dom": "9c3c07ae58fbd3d62a41a3bfbc6b18a7d8163ceaeabac89311a5a7b35c827a2b",
+   "focus": "none"
+  },
+  {
+   "label": "hover1",
+   "png": "molecules-tabsline--default__desktop__hover1.png",
+   "dom": "9c3c07ae58fbd3d62a41a3bfbc6b18a7d8163ceaeabac89311a5a7b35c827a2b",
+   "focus": "none"
+  },
+  {
+   "label": "hover2",
+   "png": "molecules-tabsline--default__desktop__hover2.png",
+   "dom": "9c3c07ae58fbd3d62a41a3bfbc6b18a7d8163ceaeabac89311a5a7b35c827a2b",
+   "focus": "none"
+  },
+  {
+   "label": "hover3",
+   "png": "molecules-tabsline--default__desktop__hover3.png",
+   "dom": "9c3c07ae58fbd3d62a41a3bfbc6b18a7d8163ceaeabac89311a5a7b35c827a2b",
+   "focus": "none"
+  },
+  {
+   "label": "hover4",
+   "png": "molecules-tabsline--default__desktop__hover4.png",
+   "dom": "9c3c07ae58fbd3d62a41a3bfbc6b18a7d8163ceaeabac89311a5a7b35c827a2b",
+   "focus": "none"
+  },
+  {
+   "label": "t0-open",
+   "png": "molecules-tabsline--default__desktop__t0-open.png",
+   "dom": "758dfffc56243afc1c3a0e5a3dbcf5200cf8eecbf5f886cd7bd93986c0ebe3ac",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab1\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab1\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Account"
+  },
+  {
+   "label": "t0-down1",
+   "png": "molecules-tabsline--default__desktop__t0-down1.png",
+   "dom": "758dfffc56243afc1c3a0e5a3dbcf5200cf8eecbf5f886cd7bd93986c0ebe3ac",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab1\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab1\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Account"
+  },
+  {
+   "label": "t0-down2",
+   "png": "molecules-tabsline--default__desktop__t0-down2.png",
+   "dom": "758dfffc56243afc1c3a0e5a3dbcf5200cf8eecbf5f886cd7bd93986c0ebe3ac",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab1\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab1\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Account"
+  },
+  {
+   "label": "t0-esc",
+   "png": "molecules-tabsline--default__desktop__t0-esc.png",
+   "dom": "758dfffc56243afc1c3a0e5a3dbcf5200cf8eecbf5f886cd7bd93986c0ebe3ac",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab1\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab1\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Account"
+  },
+  {
+   "label": "t1-open",
+   "png": "molecules-tabsline--default__desktop__t1-open.png",
+   "dom": "34d07b0b96668ddf03229f3aa8f3abfa70a207e71bc34ffa9622e0686d1378a3",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab2\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab2\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Password"
+  },
+  {
+   "label": "t1-down1",
+   "png": "molecules-tabsline--default__desktop__t1-down1.png",
+   "dom": "34d07b0b96668ddf03229f3aa8f3abfa70a207e71bc34ffa9622e0686d1378a3",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab2\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab2\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Password"
+  },
+  {
+   "label": "t1-down2",
+   "png": "molecules-tabsline--default__desktop__t1-down2.png",
+   "dom": "34d07b0b96668ddf03229f3aa8f3abfa70a207e71bc34ffa9622e0686d1378a3",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab2\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab2\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Password"
+  },
+  {
+   "label": "t1-esc",
+   "png": "molecules-tabsline--default__desktop__t1-esc.png",
+   "dom": "34d07b0b96668ddf03229f3aa8f3abfa70a207e71bc34ffa9622e0686d1378a3",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab2\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab2\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Password"
+  },
+  {
+   "label": "t2-open",
+   "png": "molecules-tabsline--default__desktop__t2-open.png",
+   "dom": "2b5689e4f0d7798013cc473feb40d2379692d1c1367323b9324e703a14791641",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab3\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab3\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Settings"
+  },
+  {
+   "label": "t2-down1",
+   "png": "molecules-tabsline--default__desktop__t2-down1.png",
+   "dom": "2b5689e4f0d7798013cc473feb40d2379692d1c1367323b9324e703a14791641",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab3\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab3\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Settings"
+  },
+  {
+   "label": "t2-down2",
+   "png": "molecules-tabsline--default__desktop__t2-down2.png",
+   "dom": "2b5689e4f0d7798013cc473feb40d2379692d1c1367323b9324e703a14791641",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab3\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab3\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Settings"
+  },
+  {
+   "label": "t2-esc",
+   "png": "molecules-tabsline--default__desktop__t2-esc.png",
+   "dom": "2b5689e4f0d7798013cc473feb40d2379692d1c1367323b9324e703a14791641",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab3\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab3\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Settings"
+  }
+ ],
+ "molecules-tabsline--many-tabs__desktop": [
+  {
+   "label": "initial",
+   "png": "molecules-tabsline--many-tabs__desktop__initial.png",
+   "dom": "a68910df2f8713832f0b14f4720c3bbfa2f3283270d234633600b2d250d06d87",
+   "focus": "none"
+  },
+  {
+   "label": "tab0",
+   "png": "molecules-tabsline--many-tabs__desktop__tab0.png",
+   "dom": "a11a7cff08ae2f4c1eb3da02721cc0a166c7b144b361cb4f9633d332b019f78b",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-home\" data-state=\"active\" id=\"radix-_r_0_-trigger-home\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Home"
+  },
+  {
+   "label": "tab1",
+   "png": "molecules-tabsline--many-tabs__desktop__tab1.png",
+   "dom": "a11a7cff08ae2f4c1eb3da02721cc0a166c7b144b361cb4f9633d332b019f78b",
+   "focus": "<div data-state=\"active\" data-orientation=\"horizontal\" role=\"tabpanel\" aria-labelledby=\"radix-_r_0_-trigger-home\" id=\"radix-_r_0_-content-home\" tabindex=\"0\" class=\"mt-4 data-[state=inactive]:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:ring-offset-2\" style=\"animation-duration: 0s;\"></div> text=Welcome to our homepage!"
+  },
+  {
+   "label": "tab2",
+   "png": "molecules-tabsline--many-tabs__desktop__tab2.png",
+   "dom": "a11a7cff08ae2f4c1eb3da02721cc0a166c7b144b361cb4f9633d332b019f78b",
+   "focus": "none"
+  },
+  {
+   "label": "tab3",
+   "png": "molecules-tabsline--many-tabs__desktop__tab3.png",
+   "dom": "a11a7cff08ae2f4c1eb3da02721cc0a166c7b144b361cb4f9633d332b019f78b",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-home\" data-state=\"active\" id=\"radix-_r_0_-trigger-home\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Home"
+  },
+  {
+   "label": "tab4",
+   "png": "molecules-tabsline--many-tabs__desktop__tab4.png",
+   "dom": "a11a7cff08ae2f4c1eb3da02721cc0a166c7b144b361cb4f9633d332b019f78b",
+   "focus": "<div data-state=\"active\" data-orientation=\"horizontal\" role=\"tabpanel\" aria-labelledby=\"radix-_r_0_-trigger-home\" id=\"radix-_r_0_-content-home\" tabindex=\"0\" class=\"mt-4 data-[state=inactive]:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:ring-offset-2\" style=\"animation-duration: 0s;\"></div> text=Welcome to our homepage!"
+  },
+  {
+   "label": "tab5",
+   "png": "molecules-tabsline--many-tabs__desktop__tab5.png",
+   "dom": "a11a7cff08ae2f4c1eb3da02721cc0a166c7b144b361cb4f9633d332b019f78b",
+   "focus": "none"
+  },
+  {
+   "label": "hover0",
+   "png": "molecules-tabsline--many-tabs__desktop__hover0.png",
+   "dom": "a2fb03c3dab4f59b9d93ef4fffe81b6d6a4bd2dc99f7d07b24d3a42af9bfd105",
+   "focus": "none"
+  },
+  {
+   "label": "hover1",
+   "png": "molecules-tabsline--many-tabs__desktop__hover1.png",
+   "dom": "a2fb03c3dab4f59b9d93ef4fffe81b6d6a4bd2dc99f7d07b24d3a42af9bfd105",
+   "focus": "none"
+  },
+  {
+   "label": "hover2",
+   "png": "molecules-tabsline--many-tabs__desktop__hover2.png",
+   "dom": "a2fb03c3dab4f59b9d93ef4fffe81b6d6a4bd2dc99f7d07b24d3a42af9bfd105",
+   "focus": "none"
+  },
+  {
+   "label": "hover3",
+   "png": "molecules-tabsline--many-tabs__desktop__hover3.png",
+   "dom": "a2fb03c3dab4f59b9d93ef4fffe81b6d6a4bd2dc99f7d07b24d3a42af9bfd105",
+   "focus": "none"
+  },
+  {
+   "label": "hover4",
+   "png": "molecules-tabsline--many-tabs__desktop__hover4.png",
+   "dom": "a2fb03c3dab4f59b9d93ef4fffe81b6d6a4bd2dc99f7d07b24d3a42af9bfd105",
+   "focus": "none"
+  },
+  {
+   "label": "t0-open",
+   "png": "molecules-tabsline--many-tabs__desktop__t0-open.png",
+   "dom": "d53e2672678e7e891753a155a67384b656c1ceb3d8ef1087e3168dcb6236093c",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-home\" data-state=\"active\" id=\"radix-_r_0_-trigger-home\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Home"
+  },
+  {
+   "label": "t0-down1",
+   "png": "molecules-tabsline--many-tabs__desktop__t0-down1.png",
+   "dom": "d53e2672678e7e891753a155a67384b656c1ceb3d8ef1087e3168dcb6236093c",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-home\" data-state=\"active\" id=\"radix-_r_0_-trigger-home\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Home"
+  },
+  {
+   "label": "t0-down2",
+   "png": "molecules-tabsline--many-tabs__desktop__t0-down2.png",
+   "dom": "d53e2672678e7e891753a155a67384b656c1ceb3d8ef1087e3168dcb6236093c",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-home\" data-state=\"active\" id=\"radix-_r_0_-trigger-home\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Home"
+  },
+  {
+   "label": "t0-esc",
+   "png": "molecules-tabsline--many-tabs__desktop__t0-esc.png",
+   "dom": "d53e2672678e7e891753a155a67384b656c1ceb3d8ef1087e3168dcb6236093c",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-home\" data-state=\"active\" id=\"radix-_r_0_-trigger-home\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Home"
+  },
+  {
+   "label": "t1-open",
+   "png": "molecules-tabsline--many-tabs__desktop__t1-open.png",
+   "dom": "0083d898849497ea17ae1a5791b516c4cb13583385d2c3493cac338336b0e9d5",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-about\" data-state=\"active\" id=\"radix-_r_0_-trigger-about\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=About"
+  },
+  {
+   "label": "t1-down1",
+   "png": "molecules-tabsline--many-tabs__desktop__t1-down1.png",
+   "dom": "0083d898849497ea17ae1a5791b516c4cb13583385d2c3493cac338336b0e9d5",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-about\" data-state=\"active\" id=\"radix-_r_0_-trigger-about\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=About"
+  },
+  {
+   "label": "t1-down2",
+   "png": "molecules-tabsline--many-tabs__desktop__t1-down2.png",
+   "dom": "0083d898849497ea17ae1a5791b516c4cb13583385d2c3493cac338336b0e9d5",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-about\" data-state=\"active\" id=\"radix-_r_0_-trigger-about\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=About"
+  },
+  {
+   "label": "t1-esc",
+   "png": "molecules-tabsline--many-tabs__desktop__t1-esc.png",
+   "dom": "0083d898849497ea17ae1a5791b516c4cb13583385d2c3493cac338336b0e9d5",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-about\" data-state=\"active\" id=\"radix-_r_0_-trigger-about\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=About"
+  },
+  {
+   "label": "t2-open",
+   "png": "molecules-tabsline--many-tabs__desktop__t2-open.png",
+   "dom": "ff69c16b4c3cd4d6057d56104c90ebde58c10282d7a9901dc6ede995bc9ed54a",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-services\" data-state=\"active\" id=\"radix-_r_0_-trigger-services\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Services"
+  },
+  {
+   "label": "t2-down1",
+   "png": "molecules-tabsline--many-tabs__desktop__t2-down1.png",
+   "dom": "ff69c16b4c3cd4d6057d56104c90ebde58c10282d7a9901dc6ede995bc9ed54a",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-services\" data-state=\"active\" id=\"radix-_r_0_-trigger-services\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Services"
+  },
+  {
+   "label": "t2-down2",
+   "png": "molecules-tabsline--many-tabs__desktop__t2-down2.png",
+   "dom": "ff69c16b4c3cd4d6057d56104c90ebde58c10282d7a9901dc6ede995bc9ed54a",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-services\" data-state=\"active\" id=\"radix-_r_0_-trigger-services\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Services"
+  },
+  {
+   "label": "t2-esc",
+   "png": "molecules-tabsline--many-tabs__desktop__t2-esc.png",
+   "dom": "ff69c16b4c3cd4d6057d56104c90ebde58c10282d7a9901dc6ede995bc9ed54a",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-services\" data-state=\"active\" id=\"radix-_r_0_-trigger-services\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Services"
+  }
+ ],
+ "molecules-typingtext--default__desktop": [
+  {
+   "label": "initial",
+   "png": "molecules-typingtext--default__desktop__initial.png",
+   "dom": "f616d380aa9a7dce45cf533153a76a14d4c63030111cf7bc0467eaba83e42da4",
+   "focus": "none"
+  },
+  {
+   "label": "tab0",
+   "png": "molecules-typingtext--default__desktop__tab0.png",
+   "dom": "965e07c490cabf27b4f9903b54c2003f822cc65ced882e5473192a6e61de0e31",
+   "focus": "none"
+  },
+  {
+   "label": "tab1",
+   "png": "molecules-typingtext--default__desktop__tab1.png",
+   "dom": "965e07c490cabf27b4f9903b54c2003f822cc65ced882e5473192a6e61de0e31",
+   "focus": "none"
+  },
+  {
+   "label": "tab2",
+   "png": "molecules-typingtext--default__desktop__tab2.png",
+   "dom": "965e07c490cabf27b4f9903b54c2003f822cc65ced882e5473192a6e61de0e31",
+   "focus": "none"
+  },
+  {
+   "label": "tab3",
+   "png": "molecules-typingtext--default__desktop__tab3.png",
+   "dom": "965e07c490cabf27b4f9903b54c2003f822cc65ced882e5473192a6e61de0e31",
+   "focus": "none"
+  },
+  {
+   "label": "tab4",
+   "png": "molecules-typingtext--default__desktop__tab4.png",
+   "dom": "965e07c490cabf27b4f9903b54c2003f822cc65ced882e5473192a6e61de0e31",
+   "focus": "none"
+  },
+  {
+   "label": "tab5",
+   "png": "molecules-typingtext--default__desktop__tab5.png",
+   "dom": "965e07c490cabf27b4f9903b54c2003f822cc65ced882e5473192a6e61de0e31",
+   "focus": "none"
+  }
+ ],
+ "molecules-typingtext--slow__desktop": [
+  {
+   "label": "initial",
+   "png": "molecules-typingtext--slow__desktop__initial.png",
+   "dom": "7cd08c26e208a7070bfc8ac99a0a47be05fe1ef947886631576e3774ce81eb24",
+   "focus": "none"
+  },
+  {
+   "label": "tab0",
+   "png": "molecules-typingtext--slow__desktop__tab0.png",
+   "dom": "630d7f2cd1a65d4f5bb7a516f83f4e73728150b72cd21cb11e328d945185acd6",
+   "focus": "none"
+  },
+  {
+   "label": "tab1",
+   "png": "molecules-typingtext--slow__desktop__tab1.png",
+   "dom": "f88f75bf7fad935ac566fbe52cf54e6d4c0de42b96f87449416e6c16c1add14d",
+   "focus": "none"
+  },
+  {
+   "label": "tab2",
+   "png": "molecules-typingtext--slow__desktop__tab2.png",
+   "dom": "18fe7d9df5ff128147ef59eba48c7bf7d084550ba9f313f9601efb0fde1d2ad5",
+   "focus": "none"
+  },
+  {
+   "label": "tab3",
+   "png": "molecules-typingtext--slow__desktop__tab3.png",
+   "dom": "8bc9188d120b3a96aef233cd217051759ff9f8955be4d66102ad6737e2d61e95",
+   "focus": "none"
+  },
+  {
+   "label": "tab4",
+   "png": "molecules-typingtext--slow__desktop__tab4.png",
+   "dom": "5495b0a49c344c04c13364c2697a2f6cbc52de59d6d93438ada6c88341fd1e50",
+   "focus": "none"
+  },
+  {
+   "label": "tab5",
+   "png": "molecules-typingtext--slow__desktop__tab5.png",
+   "dom": "5495b0a49c344c04c13364c2697a2f6cbc52de59d6d93438ada6c88341fd1e50",
+   "focus": "none"
+  }
+ ],
+ "molecules-dialog--controlled__mobile": [
+  {
+   "label": "initial",
+   "png": "molecules-dialog--controlled__mobile__initial.png",
+   "dom": "d781194bd418a895db2bda7839212dcad0808a9fc05b3b194c19149cbfcf747b",
+   "focus": "none"
+  },
+  {
+   "label": "tab0",
+   "png": "molecules-dialog--controlled__mobile__tab0.png",
+   "dom": "d781194bd418a895db2bda7839212dcad0808a9fc05b3b194c19149cbfcf747b",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem]\"></button> text=Open Controlled Dialog"
+  },
+  {
+   "label": "tab1",
+   "png": "molecules-dialog--controlled__mobile__tab1.png",
+   "dom": "d781194bd418a895db2bda7839212dcad0808a9fc05b3b194c19149cbfcf747b",
+   "focus": "none"
+  },
+  {
+   "label": "tab2",
+   "png": "molecules-dialog--controlled__mobile__tab2.png",
+   "dom": "d781194bd418a895db2bda7839212dcad0808a9fc05b3b194c19149cbfcf747b",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem]\"></button> text=Open Controlled Dialog"
+  },
+  {
+   "label": "tab3",
+   "png": "molecules-dialog--controlled__mobile__tab3.png",
+   "dom": "d781194bd418a895db2bda7839212dcad0808a9fc05b3b194c19149cbfcf747b",
+   "focus": "none"
+  },
+  {
+   "label": "tab4",
+   "png": "molecules-dialog--controlled__mobile__tab4.png",
+   "dom": "d781194bd418a895db2bda7839212dcad0808a9fc05b3b194c19149cbfcf747b",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem]\"></button> text=Open Controlled Dialog"
+  },
+  {
+   "label": "tab5",
+   "png": "molecules-dialog--controlled__mobile__tab5.png",
+   "dom": "d781194bd418a895db2bda7839212dcad0808a9fc05b3b194c19149cbfcf747b",
+   "focus": "none"
+  },
+  {
+   "label": "hover0",
+   "png": "molecules-dialog--controlled__mobile__hover0.png",
+   "dom": "d781194bd418a895db2bda7839212dcad0808a9fc05b3b194c19149cbfcf747b",
+   "focus": "none"
+  },
+  {
+   "label": "t0-open",
+   "png": "molecules-dialog--controlled__mobile__t0-open.png",
+   "dom": "bd6eb1e4a96c0cde755d538ac4e1c67c5b61252731f0d112232c1a0dd3b2713f",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem]\"></button> text=Close Controlled Dialog"
+  },
+  {
+   "label": "t0-down1",
+   "png": "molecules-dialog--controlled__mobile__t0-down1.png",
+   "dom": "bd6eb1e4a96c0cde755d538ac4e1c67c5b61252731f0d112232c1a0dd3b2713f",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem]\"></button> text=Close Controlled Dialog"
+  },
+  {
+   "label": "t0-down2",
+   "png": "molecules-dialog--controlled__mobile__t0-down2.png",
+   "dom": "bd6eb1e4a96c0cde755d538ac4e1c67c5b61252731f0d112232c1a0dd3b2713f",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem]\"></button> text=Close Controlled Dialog"
+  },
+  {
+   "label": "t0-esc",
+   "png": "molecules-dialog--controlled__mobile__t0-esc.png",
+   "dom": "5e9c2cc6544f48131158178500994caf2d43379d94df17a29131461a95f5f7fc",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem]\"></button> text=Open Controlled Dialog"
+  }
+ ],
+ "molecules-dialog--custom-styling__mobile": [
+  {
+   "label": "initial",
+   "png": "molecules-dialog--custom-styling__mobile__initial.png",
+   "dom": "9e247b93d1e51aa7f5eafdae8b704c1d7aabcc3f3a8d6c172db6eeed5ea7b6a3",
+   "focus": "none"
+  },
+  {
+   "label": "tab0",
+   "png": "molecules-dialog--custom-styling__mobile__tab0.png",
+   "dom": "9e247b93d1e51aa7f5eafdae8b704c1d7aabcc3f3a8d6c172db6eeed5ea7b6a3",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Custom Styled Dialog"
+  },
+  {
+   "label": "tab1",
+   "png": "molecules-dialog--custom-styling__mobile__tab1.png",
+   "dom": "9e247b93d1e51aa7f5eafdae8b704c1d7aabcc3f3a8d6c172db6eeed5ea7b6a3",
+   "focus": "none"
+  },
+  {
+   "label": "tab2",
+   "png": "molecules-dialog--custom-styling__mobile__tab2.png",
+   "dom": "9e247b93d1e51aa7f5eafdae8b704c1d7aabcc3f3a8d6c172db6eeed5ea7b6a3",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Custom Styled Dialog"
+  },
+  {
+   "label": "tab3",
+   "png": "molecules-dialog--custom-styling__mobile__tab3.png",
+   "dom": "9e247b93d1e51aa7f5eafdae8b704c1d7aabcc3f3a8d6c172db6eeed5ea7b6a3",
+   "focus": "none"
+  },
+  {
+   "label": "tab4",
+   "png": "molecules-dialog--custom-styling__mobile__tab4.png",
+   "dom": "9e247b93d1e51aa7f5eafdae8b704c1d7aabcc3f3a8d6c172db6eeed5ea7b6a3",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Custom Styled Dialog"
+  },
+  {
+   "label": "tab5",
+   "png": "molecules-dialog--custom-styling__mobile__tab5.png",
+   "dom": "9e247b93d1e51aa7f5eafdae8b704c1d7aabcc3f3a8d6c172db6eeed5ea7b6a3",
+   "focus": "none"
+  },
+  {
+   "label": "hover0",
+   "png": "molecules-dialog--custom-styling__mobile__hover0.png",
+   "dom": "9e247b93d1e51aa7f5eafdae8b704c1d7aabcc3f3a8d6c172db6eeed5ea7b6a3",
+   "focus": "none"
+  },
+  {
+   "label": "t0-open",
+   "png": "molecules-dialog--custom-styling__mobile__t0-open.png",
+   "dom": "db8852f05c41652ba7dc51ea502fb31a76aaf2e2a3fe34455cb81903d55a5a6c",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Custom Styled Dialog"
+  },
+  {
+   "label": "t0-down1",
+   "png": "molecules-dialog--custom-styling__mobile__t0-down1.png",
+   "dom": "db8852f05c41652ba7dc51ea502fb31a76aaf2e2a3fe34455cb81903d55a5a6c",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Custom Styled Dialog"
+  },
+  {
+   "label": "t0-down2",
+   "png": "molecules-dialog--custom-styling__mobile__t0-down2.png",
+   "dom": "db8852f05c41652ba7dc51ea502fb31a76aaf2e2a3fe34455cb81903d55a5a6c",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Custom Styled Dialog"
+  },
+  {
+   "label": "t0-esc",
+   "png": "molecules-dialog--custom-styling__mobile__t0-esc.png",
+   "dom": "8abb294e589f05bac153e2e98e9db2194adfb5c630ffc74d84d6082f2ff7f83d",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Custom Styled Dialog"
+  }
+ ],
+ "molecules-dialog--without-title__mobile": [
+  {
+   "label": "initial",
+   "png": "molecules-dialog--without-title__mobile__initial.png",
+   "dom": "3b32d157fe56394f957680c0c064d6c39c23e4c9abd8de07f0839d484223d93e",
+   "focus": "none"
+  },
+  {
+   "label": "tab0",
+   "png": "molecules-dialog--without-title__mobile__tab0.png",
+   "dom": "3b32d157fe56394f957680c0c064d6c39c23e4c9abd8de07f0839d484223d93e",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Dialog (no title)"
+  },
+  {
+   "label": "tab1",
+   "png": "molecules-dialog--without-title__mobile__tab1.png",
+   "dom": "3b32d157fe56394f957680c0c064d6c39c23e4c9abd8de07f0839d484223d93e",
+   "focus": "none"
+  },
+  {
+   "label": "tab2",
+   "png": "molecules-dialog--without-title__mobile__tab2.png",
+   "dom": "3b32d157fe56394f957680c0c064d6c39c23e4c9abd8de07f0839d484223d93e",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Dialog (no title)"
+  },
+  {
+   "label": "tab3",
+   "png": "molecules-dialog--without-title__mobile__tab3.png",
+   "dom": "3b32d157fe56394f957680c0c064d6c39c23e4c9abd8de07f0839d484223d93e",
+   "focus": "none"
+  },
+  {
+   "label": "tab4",
+   "png": "molecules-dialog--without-title__mobile__tab4.png",
+   "dom": "3b32d157fe56394f957680c0c064d6c39c23e4c9abd8de07f0839d484223d93e",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Dialog (no title)"
+  },
+  {
+   "label": "tab5",
+   "png": "molecules-dialog--without-title__mobile__tab5.png",
+   "dom": "3b32d157fe56394f957680c0c064d6c39c23e4c9abd8de07f0839d484223d93e",
+   "focus": "none"
+  },
+  {
+   "label": "hover0",
+   "png": "molecules-dialog--without-title__mobile__hover0.png",
+   "dom": "3b32d157fe56394f957680c0c064d6c39c23e4c9abd8de07f0839d484223d93e",
+   "focus": "none"
+  },
+  {
+   "label": "t0-open",
+   "png": "molecules-dialog--without-title__mobile__t0-open.png",
+   "dom": "d3350287762761c4c5767a84ed2147f5a1d2c45b2c90a0ab6d0441c72dab04f9",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Dialog (no title)"
+  },
+  {
+   "label": "t0-down1",
+   "png": "molecules-dialog--without-title__mobile__t0-down1.png",
+   "dom": "d3350287762761c4c5767a84ed2147f5a1d2c45b2c90a0ab6d0441c72dab04f9",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Dialog (no title)"
+  },
+  {
+   "label": "t0-down2",
+   "png": "molecules-dialog--without-title__mobile__t0-down2.png",
+   "dom": "d3350287762761c4c5767a84ed2147f5a1d2c45b2c90a0ab6d0441c72dab04f9",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Dialog (no title)"
+  },
+  {
+   "label": "t0-esc",
+   "png": "molecules-dialog--without-title__mobile__t0-esc.png",
+   "dom": "5cef77985d5918a755079221d7b058c288f80f3d99eafcb2ddaf4b4fb4ab45d9",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem] cursor-pointer\"></button> text=Open Dialog (no title)"
+  }
+ ],
+ "molecules-secondarymenu--dropdown-menu-example__mobile": [
+  {
+   "label": "initial",
+   "png": "molecules-secondarymenu--dropdown-menu-example__mobile__initial.png",
+   "dom": "28397a49c8f4d4f6bd27b19654736750d708154fbb212c6c0ae3413276902c30",
+   "focus": "none"
+  },
+  {
+   "label": "tab0",
+   "png": "molecules-secondarymenu--dropdown-menu-example__mobile__tab0.png",
+   "dom": "28397a49c8f4d4f6bd27b19654736750d708154fbb212c6c0ae3413276902c30",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-surface border-border-base text-foreground-emphasis shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-full disabled:text-foreground-disabled disabled:bg-surface-muted disabled:border-separator disabled:shadow-none disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" type=\"button\" id=\"radix-_r_0_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text="
+  },
+  {
+   "label": "tab1",
+   "png": "molecules-secondarymenu--dropdown-menu-example__mobile__tab1.png",
+   "dom": "28397a49c8f4d4f6bd27b19654736750d708154fbb212c6c0ae3413276902c30",
+   "focus": "none"
+  },
+  {
+   "label": "tab2",
+   "png": "molecules-secondarymenu--dropdown-menu-example__mobile__tab2.png",
+   "dom": "28397a49c8f4d4f6bd27b19654736750d708154fbb212c6c0ae3413276902c30",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-surface border-border-base text-foreground-emphasis shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-full disabled:text-foreground-disabled disabled:bg-surface-muted disabled:border-separator disabled:shadow-none disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" type=\"button\" id=\"radix-_r_0_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text="
+  },
+  {
+   "label": "tab3",
+   "png": "molecules-secondarymenu--dropdown-menu-example__mobile__tab3.png",
+   "dom": "28397a49c8f4d4f6bd27b19654736750d708154fbb212c6c0ae3413276902c30",
+   "focus": "none"
+  },
+  {
+   "label": "tab4",
+   "png": "molecules-secondarymenu--dropdown-menu-example__mobile__tab4.png",
+   "dom": "28397a49c8f4d4f6bd27b19654736750d708154fbb212c6c0ae3413276902c30",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-surface border-border-base text-foreground-emphasis shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-full disabled:text-foreground-disabled disabled:bg-surface-muted disabled:border-separator disabled:shadow-none disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" type=\"button\" id=\"radix-_r_0_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text="
+  },
+  {
+   "label": "tab5",
+   "png": "molecules-secondarymenu--dropdown-menu-example__mobile__tab5.png",
+   "dom": "28397a49c8f4d4f6bd27b19654736750d708154fbb212c6c0ae3413276902c30",
+   "focus": "none"
+  },
+  {
+   "label": "hover0",
+   "png": "molecules-secondarymenu--dropdown-menu-example__mobile__hover0.png",
+   "dom": "28397a49c8f4d4f6bd27b19654736750d708154fbb212c6c0ae3413276902c30",
+   "focus": "none"
+  },
+  {
+   "label": "t0-open",
+   "png": "molecules-secondarymenu--dropdown-menu-example__mobile__t0-open.png",
+   "dom": "da0f4fc4b4f558e90fa07f7c2d40cc6f430eb94d477fecee3702054260ec827b",
+   "focus": "<div data-side=\"right\" data-align=\"start\" role=\"menu\" aria-orientation=\"vertical\" data-state=\"open\" data-radix-menu-content=\"\" dir=\"ltr\" id=\"radix-_r_1_\" aria-labelledby=\"radix-_r_0_\" class=\"z-10 rounded-xl border bg-surface p-1 shadow-md\" tabindex=\"-1\" data-orientation=\"vertical\" style=\"outline: none; --radix-dropdown-menu-content-transform-origin: var(--radix-popper-transform-origin); --radix-dropdown-menu-content-available-width: var(--radix-popper-available-width); --radix-dropdown-menu-content-available-height: var(--radix-popper-available-height); --radix-dropdown-menu-trigger-width: var(--radix-popper-anchor-width); --radix-dropdown-menu-trigger-height: var(--radix-popper-anchor-height); pointer-events: auto;\"></div> text=CopyOpen agentDelete"
+  },
+  {
+   "label": "t0-down1",
+   "png": "molecules-secondarymenu--dropdown-menu-example__mobile__t0-down1.png",
+   "dom": "1591a5271d0d74f5bd4eb86bb2da0e2f057a7750e901243ef7e3b2657d8b15df",
+   "focus": "<div role=\"menuitem\" class=\"flex cursor-pointer items-center rounded-md px-3 py-2 hover:bg-gray-100\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Copy"
+  },
+  {
+   "label": "t0-down2",
+   "png": "molecules-secondarymenu--dropdown-menu-example__mobile__t0-down2.png",
+   "dom": "0aef7bde0e4d9b602c1b06a2b55cdd61a476b5669c7b54fd192fe1291efec677",
+   "focus": "<div role=\"menuitem\" class=\"flex cursor-pointer items-center rounded-md px-3 py-2 hover:bg-gray-100\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Open agent"
+  },
+  {
+   "label": "t0-esc",
+   "png": "molecules-secondarymenu--dropdown-menu-example__mobile__t0-esc.png",
+   "dom": "e10ef1ebabf96bbae35abe4b8c41fe574aed2025f6859bc4593a275ca0b18e15",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-surface border-border-base text-foreground-emphasis shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-full disabled:text-foreground-disabled disabled:bg-surface-muted disabled:border-separator disabled:shadow-none disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" type=\"button\" id=\"radix-_r_0_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text="
+  },
+  {
+   "label": "ctx-open",
+   "png": "molecules-secondarymenu--dropdown-menu-example__mobile__ctx-open.png",
+   "dom": "28397a49c8f4d4f6bd27b19654736750d708154fbb212c6c0ae3413276902c30",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-surface border-border-base text-foreground-emphasis shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-full disabled:text-foreground-disabled disabled:bg-surface-muted disabled:border-separator disabled:shadow-none disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" type=\"button\" id=\"radix-_r_0_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text="
+  },
+  {
+   "label": "ctx-down1",
+   "png": "molecules-secondarymenu--dropdown-menu-example__mobile__ctx-down1.png",
+   "dom": "588e78b76e2cf5b899d5e39af40eb5de11718a8d7b850ea8f4af3df6cd43ac8e",
+   "focus": "<div role=\"menuitem\" class=\"flex cursor-pointer items-center rounded-md px-3 py-2 hover:bg-gray-100\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Copy"
+  },
+  {
+   "label": "ctx-esc",
+   "png": "molecules-secondarymenu--dropdown-menu-example__mobile__ctx-esc.png",
+   "dom": "e10ef1ebabf96bbae35abe4b8c41fe574aed2025f6859bc4593a275ca0b18e15",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-surface border-border-base text-foreground-emphasis shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-full disabled:text-foreground-disabled disabled:bg-surface-muted disabled:border-separator disabled:shadow-none disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" type=\"button\" id=\"radix-_r_0_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text="
+  }
+ ],
+ "molecules-tabsline--default__mobile": [
+  {
+   "label": "initial",
+   "png": "molecules-tabsline--default__mobile__initial.png",
+   "dom": "6b708e98ab00c1e4bdfd0720a55b3c7ce3595261fb620903ceb30f66aae34d32",
+   "focus": "none"
+  },
+  {
+   "label": "tab0",
+   "png": "molecules-tabsline--default__mobile__tab0.png",
+   "dom": "534e7ff244dd9a020ce930c3cff0320eab69b32535a9516fcb9c95d6880943cc",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab1\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab1\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Account"
+  },
+  {
+   "label": "tab1",
+   "png": "molecules-tabsline--default__mobile__tab1.png",
+   "dom": "534e7ff244dd9a020ce930c3cff0320eab69b32535a9516fcb9c95d6880943cc",
+   "focus": "<div data-state=\"active\" data-orientation=\"horizontal\" role=\"tabpanel\" aria-labelledby=\"radix-_r_0_-trigger-tab1\" id=\"radix-_r_0_-content-tab1\" tabindex=\"0\" class=\"mt-4 data-[state=inactive]:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:ring-offset-2\" style=\"animation-duration: 0s;\"></div> text=Make changes to your account here. Click save when you're do"
+  },
+  {
+   "label": "tab2",
+   "png": "molecules-tabsline--default__mobile__tab2.png",
+   "dom": "0db166a936ce74070e09722fedf8ac55549c41416dcb7e2eaee697687dee1abb",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_4_-content-overview\" data-state=\"active\" id=\"radix-_r_4_-trigger-overview\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Overview"
+  },
+  {
+   "label": "tab3",
+   "png": "molecules-tabsline--default__mobile__tab3.png",
+   "dom": "0db166a936ce74070e09722fedf8ac55549c41416dcb7e2eaee697687dee1abb",
+   "focus": "<div data-state=\"active\" data-orientation=\"horizontal\" role=\"tabpanel\" aria-labelledby=\"radix-_r_4_-trigger-overview\" id=\"radix-_r_4_-content-overview\" tabindex=\"0\" class=\"mt-4 data-[state=inactive]:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:ring-offset-2\" style=\"animation-duration: 0s;\"></div> text=Dashboard overview with key metrics and recent activity."
+  },
+  {
+   "label": "tab4",
+   "png": "molecules-tabsline--default__mobile__tab4.png",
+   "dom": "5e448f5b2b6e6a37fee2ac38cea9caddf8357c9607ec4d2167472c330c185739",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_b_-content-active1\" data-state=\"active\" id=\"radix-_r_b_-trigger-active1\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Active Tab"
+  },
+  {
+   "label": "tab5",
+   "png": "molecules-tabsline--default__mobile__tab5.png",
+   "dom": "5e448f5b2b6e6a37fee2ac38cea9caddf8357c9607ec4d2167472c330c185739",
+   "focus": "<div data-state=\"active\" data-orientation=\"horizontal\" role=\"tabpanel\" aria-labelledby=\"radix-_r_b_-trigger-active1\" id=\"radix-_r_b_-content-active1\" tabindex=\"0\" class=\"mt-4 data-[state=inactive]:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:ring-offset-2\" style=\"animation-duration: 0s;\"></div> text=This is an active tab that you can interact with."
+  },
+  {
+   "label": "hover0",
+   "png": "molecules-tabsline--default__mobile__hover0.png",
+   "dom": "9c3c07ae58fbd3d62a41a3bfbc6b18a7d8163ceaeabac89311a5a7b35c827a2b",
+   "focus": "none"
+  },
+  {
+   "label": "hover1",
+   "png": "molecules-tabsline--default__mobile__hover1.png",
+   "dom": "9c3c07ae58fbd3d62a41a3bfbc6b18a7d8163ceaeabac89311a5a7b35c827a2b",
+   "focus": "none"
+  },
+  {
+   "label": "hover2",
+   "png": "molecules-tabsline--default__mobile__hover2.png",
+   "dom": "9c3c07ae58fbd3d62a41a3bfbc6b18a7d8163ceaeabac89311a5a7b35c827a2b",
+   "focus": "none"
+  },
+  {
+   "label": "hover3",
+   "png": "molecules-tabsline--default__mobile__hover3.png",
+   "dom": "9c3c07ae58fbd3d62a41a3bfbc6b18a7d8163ceaeabac89311a5a7b35c827a2b",
+   "focus": "none"
+  },
+  {
+   "label": "hover4",
+   "png": "molecules-tabsline--default__mobile__hover4.png",
+   "dom": "9c3c07ae58fbd3d62a41a3bfbc6b18a7d8163ceaeabac89311a5a7b35c827a2b",
+   "focus": "none"
+  },
+  {
+   "label": "t0-open",
+   "png": "molecules-tabsline--default__mobile__t0-open.png",
+   "dom": "758dfffc56243afc1c3a0e5a3dbcf5200cf8eecbf5f886cd7bd93986c0ebe3ac",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab1\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab1\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Account"
+  },
+  {
+   "label": "t0-down1",
+   "png": "molecules-tabsline--default__mobile__t0-down1.png",
+   "dom": "758dfffc56243afc1c3a0e5a3dbcf5200cf8eecbf5f886cd7bd93986c0ebe3ac",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab1\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab1\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Account"
+  },
+  {
+   "label": "t0-down2",
+   "png": "molecules-tabsline--default__mobile__t0-down2.png",
+   "dom": "758dfffc56243afc1c3a0e5a3dbcf5200cf8eecbf5f886cd7bd93986c0ebe3ac",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab1\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab1\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Account"
+  },
+  {
+   "label": "t0-esc",
+   "png": "molecules-tabsline--default__mobile__t0-esc.png",
+   "dom": "758dfffc56243afc1c3a0e5a3dbcf5200cf8eecbf5f886cd7bd93986c0ebe3ac",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab1\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab1\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Account"
+  },
+  {
+   "label": "t1-open",
+   "png": "molecules-tabsline--default__mobile__t1-open.png",
+   "dom": "34d07b0b96668ddf03229f3aa8f3abfa70a207e71bc34ffa9622e0686d1378a3",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab2\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab2\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Password"
+  },
+  {
+   "label": "t1-down1",
+   "png": "molecules-tabsline--default__mobile__t1-down1.png",
+   "dom": "34d07b0b96668ddf03229f3aa8f3abfa70a207e71bc34ffa9622e0686d1378a3",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab2\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab2\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Password"
+  },
+  {
+   "label": "t1-down2",
+   "png": "molecules-tabsline--default__mobile__t1-down2.png",
+   "dom": "34d07b0b96668ddf03229f3aa8f3abfa70a207e71bc34ffa9622e0686d1378a3",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab2\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab2\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Password"
+  },
+  {
+   "label": "t1-esc",
+   "png": "molecules-tabsline--default__mobile__t1-esc.png",
+   "dom": "34d07b0b96668ddf03229f3aa8f3abfa70a207e71bc34ffa9622e0686d1378a3",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab2\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab2\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Password"
+  },
+  {
+   "label": "t2-open",
+   "png": "molecules-tabsline--default__mobile__t2-open.png",
+   "dom": "2b5689e4f0d7798013cc473feb40d2379692d1c1367323b9324e703a14791641",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab3\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab3\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Settings"
+  },
+  {
+   "label": "t2-down1",
+   "png": "molecules-tabsline--default__mobile__t2-down1.png",
+   "dom": "2b5689e4f0d7798013cc473feb40d2379692d1c1367323b9324e703a14791641",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab3\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab3\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Settings"
+  },
+  {
+   "label": "t2-down2",
+   "png": "molecules-tabsline--default__mobile__t2-down2.png",
+   "dom": "2b5689e4f0d7798013cc473feb40d2379692d1c1367323b9324e703a14791641",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab3\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab3\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Settings"
+  },
+  {
+   "label": "t2-esc",
+   "png": "molecules-tabsline--default__mobile__t2-esc.png",
+   "dom": "2b5689e4f0d7798013cc473feb40d2379692d1c1367323b9324e703a14791641",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-tab3\" data-state=\"active\" id=\"radix-_r_0_-trigger-tab3\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Settings"
+  }
+ ],
+ "molecules-tabsline--many-tabs__mobile": [
+  {
+   "label": "initial",
+   "png": "molecules-tabsline--many-tabs__mobile__initial.png",
+   "dom": "a68910df2f8713832f0b14f4720c3bbfa2f3283270d234633600b2d250d06d87",
+   "focus": "none"
+  },
+  {
+   "label": "tab0",
+   "png": "molecules-tabsline--many-tabs__mobile__tab0.png",
+   "dom": "a11a7cff08ae2f4c1eb3da02721cc0a166c7b144b361cb4f9633d332b019f78b",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-home\" data-state=\"active\" id=\"radix-_r_0_-trigger-home\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Home"
+  },
+  {
+   "label": "tab1",
+   "png": "molecules-tabsline--many-tabs__mobile__tab1.png",
+   "dom": "a11a7cff08ae2f4c1eb3da02721cc0a166c7b144b361cb4f9633d332b019f78b",
+   "focus": "<div data-state=\"active\" data-orientation=\"horizontal\" role=\"tabpanel\" aria-labelledby=\"radix-_r_0_-trigger-home\" id=\"radix-_r_0_-content-home\" tabindex=\"0\" class=\"mt-4 data-[state=inactive]:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:ring-offset-2\" style=\"animation-duration: 0s;\"></div> text=Welcome to our homepage!"
+  },
+  {
+   "label": "tab2",
+   "png": "molecules-tabsline--many-tabs__mobile__tab2.png",
+   "dom": "a11a7cff08ae2f4c1eb3da02721cc0a166c7b144b361cb4f9633d332b019f78b",
+   "focus": "none"
+  },
+  {
+   "label": "tab3",
+   "png": "molecules-tabsline--many-tabs__mobile__tab3.png",
+   "dom": "a11a7cff08ae2f4c1eb3da02721cc0a166c7b144b361cb4f9633d332b019f78b",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-home\" data-state=\"active\" id=\"radix-_r_0_-trigger-home\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Home"
+  },
+  {
+   "label": "tab4",
+   "png": "molecules-tabsline--many-tabs__mobile__tab4.png",
+   "dom": "a11a7cff08ae2f4c1eb3da02721cc0a166c7b144b361cb4f9633d332b019f78b",
+   "focus": "<div data-state=\"active\" data-orientation=\"horizontal\" role=\"tabpanel\" aria-labelledby=\"radix-_r_0_-trigger-home\" id=\"radix-_r_0_-content-home\" tabindex=\"0\" class=\"mt-4 data-[state=inactive]:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:ring-offset-2\" style=\"animation-duration: 0s;\"></div> text=Welcome to our homepage!"
+  },
+  {
+   "label": "tab5",
+   "png": "molecules-tabsline--many-tabs__mobile__tab5.png",
+   "dom": "a11a7cff08ae2f4c1eb3da02721cc0a166c7b144b361cb4f9633d332b019f78b",
+   "focus": "none"
+  },
+  {
+   "label": "hover0",
+   "png": "molecules-tabsline--many-tabs__mobile__hover0.png",
+   "dom": "a2fb03c3dab4f59b9d93ef4fffe81b6d6a4bd2dc99f7d07b24d3a42af9bfd105",
+   "focus": "none"
+  },
+  {
+   "label": "hover1",
+   "png": "molecules-tabsline--many-tabs__mobile__hover1.png",
+   "dom": "a2fb03c3dab4f59b9d93ef4fffe81b6d6a4bd2dc99f7d07b24d3a42af9bfd105",
+   "focus": "none"
+  },
+  {
+   "label": "hover2",
+   "png": "molecules-tabsline--many-tabs__mobile__hover2.png",
+   "dom": "a2fb03c3dab4f59b9d93ef4fffe81b6d6a4bd2dc99f7d07b24d3a42af9bfd105",
+   "focus": "none"
+  },
+  {
+   "label": "hover3",
+   "png": "molecules-tabsline--many-tabs__mobile__hover3.png",
+   "dom": "a2fb03c3dab4f59b9d93ef4fffe81b6d6a4bd2dc99f7d07b24d3a42af9bfd105",
+   "focus": "none"
+  },
+  {
+   "label": "hover4",
+   "png": "molecules-tabsline--many-tabs__mobile__hover4.png",
+   "dom": "a2fb03c3dab4f59b9d93ef4fffe81b6d6a4bd2dc99f7d07b24d3a42af9bfd105",
+   "focus": "none"
+  },
+  {
+   "label": "t0-open",
+   "png": "molecules-tabsline--many-tabs__mobile__t0-open.png",
+   "dom": "d53e2672678e7e891753a155a67384b656c1ceb3d8ef1087e3168dcb6236093c",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-home\" data-state=\"active\" id=\"radix-_r_0_-trigger-home\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Home"
+  },
+  {
+   "label": "t0-down1",
+   "png": "molecules-tabsline--many-tabs__mobile__t0-down1.png",
+   "dom": "d53e2672678e7e891753a155a67384b656c1ceb3d8ef1087e3168dcb6236093c",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-home\" data-state=\"active\" id=\"radix-_r_0_-trigger-home\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Home"
+  },
+  {
+   "label": "t0-down2",
+   "png": "molecules-tabsline--many-tabs__mobile__t0-down2.png",
+   "dom": "d53e2672678e7e891753a155a67384b656c1ceb3d8ef1087e3168dcb6236093c",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-home\" data-state=\"active\" id=\"radix-_r_0_-trigger-home\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Home"
+  },
+  {
+   "label": "t0-esc",
+   "png": "molecules-tabsline--many-tabs__mobile__t0-esc.png",
+   "dom": "d53e2672678e7e891753a155a67384b656c1ceb3d8ef1087e3168dcb6236093c",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-home\" data-state=\"active\" id=\"radix-_r_0_-trigger-home\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Home"
+  },
+  {
+   "label": "t1-open",
+   "png": "molecules-tabsline--many-tabs__mobile__t1-open.png",
+   "dom": "0083d898849497ea17ae1a5791b516c4cb13583385d2c3493cac338336b0e9d5",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-about\" data-state=\"active\" id=\"radix-_r_0_-trigger-about\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=About"
+  },
+  {
+   "label": "t1-down1",
+   "png": "molecules-tabsline--many-tabs__mobile__t1-down1.png",
+   "dom": "0083d898849497ea17ae1a5791b516c4cb13583385d2c3493cac338336b0e9d5",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-about\" data-state=\"active\" id=\"radix-_r_0_-trigger-about\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=About"
+  },
+  {
+   "label": "t1-down2",
+   "png": "molecules-tabsline--many-tabs__mobile__t1-down2.png",
+   "dom": "0083d898849497ea17ae1a5791b516c4cb13583385d2c3493cac338336b0e9d5",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-about\" data-state=\"active\" id=\"radix-_r_0_-trigger-about\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=About"
+  },
+  {
+   "label": "t1-esc",
+   "png": "molecules-tabsline--many-tabs__mobile__t1-esc.png",
+   "dom": "0083d898849497ea17ae1a5791b516c4cb13583385d2c3493cac338336b0e9d5",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-about\" data-state=\"active\" id=\"radix-_r_0_-trigger-about\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=About"
+  },
+  {
+   "label": "t2-open",
+   "png": "molecules-tabsline--many-tabs__mobile__t2-open.png",
+   "dom": "ff69c16b4c3cd4d6057d56104c90ebde58c10282d7a9901dc6ede995bc9ed54a",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-services\" data-state=\"active\" id=\"radix-_r_0_-trigger-services\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Services"
+  },
+  {
+   "label": "t2-down1",
+   "png": "molecules-tabsline--many-tabs__mobile__t2-down1.png",
+   "dom": "ff69c16b4c3cd4d6057d56104c90ebde58c10282d7a9901dc6ede995bc9ed54a",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-services\" data-state=\"active\" id=\"radix-_r_0_-trigger-services\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Services"
+  },
+  {
+   "label": "t2-down2",
+   "png": "molecules-tabsline--many-tabs__mobile__t2-down2.png",
+   "dom": "ff69c16b4c3cd4d6057d56104c90ebde58c10282d7a9901dc6ede995bc9ed54a",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-services\" data-state=\"active\" id=\"radix-_r_0_-trigger-services\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Services"
+  },
+  {
+   "label": "t2-esc",
+   "png": "molecules-tabsline--many-tabs__mobile__t2-esc.png",
+   "dom": "ff69c16b4c3cd4d6057d56104c90ebde58c10282d7a9901dc6ede995bc9ed54a",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_r_0_-content-services\" data-state=\"active\" id=\"radix-_r_0_-trigger-services\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Services"
+  }
+ ],
+ "molecules-typingtext--default__mobile": [
+  {
+   "label": "initial",
+   "png": "molecules-typingtext--default__mobile__initial.png",
+   "dom": "df78888c5e625c13a80c1a69b785fde52a08fd92e815f94e92561bef8f7484b8",
+   "focus": "none"
+  },
+  {
+   "label": "tab0",
+   "png": "molecules-typingtext--default__mobile__tab0.png",
+   "dom": "965e07c490cabf27b4f9903b54c2003f822cc65ced882e5473192a6e61de0e31",
+   "focus": "none"
+  },
+  {
+   "label": "tab1",
+   "png": "molecules-typingtext--default__mobile__tab1.png",
+   "dom": "965e07c490cabf27b4f9903b54c2003f822cc65ced882e5473192a6e61de0e31",
+   "focus": "none"
+  },
+  {
+   "label": "tab2",
+   "png": "molecules-typingtext--default__mobile__tab2.png",
+   "dom": "965e07c490cabf27b4f9903b54c2003f822cc65ced882e5473192a6e61de0e31",
+   "focus": "none"
+  },
+  {
+   "label": "tab3",
+   "png": "molecules-typingtext--default__mobile__tab3.png",
+   "dom": "965e07c490cabf27b4f9903b54c2003f822cc65ced882e5473192a6e61de0e31",
+   "focus": "none"
+  },
+  {
+   "label": "tab4",
+   "png": "molecules-typingtext--default__mobile__tab4.png",
+   "dom": "965e07c490cabf27b4f9903b54c2003f822cc65ced882e5473192a6e61de0e31",
+   "focus": "none"
+  },
+  {
+   "label": "tab5",
+   "png": "molecules-typingtext--default__mobile__tab5.png",
+   "dom": "965e07c490cabf27b4f9903b54c2003f822cc65ced882e5473192a6e61de0e31",
+   "focus": "none"
+  }
+ ],
+ "molecules-typingtext--slow__mobile": [
+  {
+   "label": "initial",
+   "png": "molecules-typingtext--slow__mobile__initial.png",
+   "dom": "7cd08c26e208a7070bfc8ac99a0a47be05fe1ef947886631576e3774ce81eb24",
+   "focus": "none"
+  },
+  {
+   "label": "tab0",
+   "png": "molecules-typingtext--slow__mobile__tab0.png",
+   "dom": "630d7f2cd1a65d4f5bb7a516f83f4e73728150b72cd21cb11e328d945185acd6",
+   "focus": "none"
+  },
+  {
+   "label": "tab1",
+   "png": "molecules-typingtext--slow__mobile__tab1.png",
+   "dom": "3f9014d3df4ce0ef67fc9fe230c9125f33dcfd2cc2a96fbe94cff8cab0a3f90e",
+   "focus": "none"
+  },
+  {
+   "label": "tab2",
+   "png": "molecules-typingtext--slow__mobile__tab2.png",
+   "dom": "18fe7d9df5ff128147ef59eba48c7bf7d084550ba9f313f9601efb0fde1d2ad5",
+   "focus": "none"
+  },
+  {
+   "label": "tab3",
+   "png": "molecules-typingtext--slow__mobile__tab3.png",
+   "dom": "d7c166b088ed12a39b2f30cc4bd673879e4e9eb6aaea90574f90ff84455f8638",
+   "focus": "none"
+  },
+  {
+   "label": "tab4",
+   "png": "molecules-typingtext--slow__mobile__tab4.png",
+   "dom": "5495b0a49c344c04c13364c2697a2f6cbc52de59d6d93438ada6c88341fd1e50",
+   "focus": "none"
+  },
+  {
+   "label": "tab5",
+   "png": "molecules-typingtext--slow__mobile__tab5.png",
+   "dom": "5495b0a49c344c04c13364c2697a2f6cbc52de59d6d93438ada6c88341fd1e50",
+   "focus": "none"
+  }
+ ]
+}

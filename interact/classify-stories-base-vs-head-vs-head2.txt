@@ -1,0 +1,77 @@
+{"steps":3726,"identical":3634,"matchesOtherHeadRun":16,"nondeterministic":55,"real":21,"missing":0}
+varies-between-head-runs molecules-confetti--basic-cannon__desktop t0-open
+varies-between-head-runs molecules-confetti--basic-cannon__desktop t0-down1
+varies-between-head-runs molecules-confetti--basic-cannon__desktop t0-down2
+varies-between-head-runs molecules-confetti--basic-cannon__desktop t0-esc
+varies-between-head-runs molecules-confetti--basic-cannon__mobile t0-open
+varies-between-head-runs molecules-confetti--basic-cannon__mobile t0-down1
+varies-between-head-runs molecules-confetti--basic-cannon__mobile t0-down2
+varies-between-head-runs molecules-confetti--basic-cannon__mobile t0-esc
+varies-between-head-runs molecules-confetti--celebration__desktop t0-open
+varies-between-head-runs molecules-confetti--celebration__desktop t0-down1
+varies-between-head-runs molecules-confetti--celebration__desktop t0-down2
+varies-between-head-runs molecules-confetti--celebration__desktop t0-esc
+varies-between-head-runs molecules-confetti--celebration__mobile t0-open
+varies-between-head-runs molecules-confetti--celebration__mobile t0-down1
+varies-between-head-runs molecules-confetti--celebration__mobile t0-down2
+varies-between-head-runs molecules-confetti--celebration__mobile t0-esc
+varies-between-head-runs molecules-confetti--fireworks__desktop t0-open
+varies-between-head-runs molecules-confetti--fireworks__desktop t0-down1
+varies-between-head-runs molecules-confetti--fireworks__desktop t0-down2
+varies-between-head-runs molecules-confetti--fireworks__desktop t0-esc
+varies-between-head-runs molecules-confetti--fireworks__mobile t0-open
+varies-between-head-runs molecules-confetti--fireworks__mobile t0-down1
+varies-between-head-runs molecules-confetti--fireworks__mobile t0-down2
+varies-between-head-runs molecules-confetti--fireworks__mobile t0-esc
+varies-between-head-runs molecules-confetti--full-screen-shower__desktop t0-open
+varies-between-head-runs molecules-confetti--full-screen-shower__desktop t0-down1
+varies-between-head-runs molecules-confetti--full-screen-shower__desktop t0-down2
+varies-between-head-runs molecules-confetti--full-screen-shower__desktop t0-esc
+varies-between-head-runs molecules-confetti--full-screen-shower__mobile t0-open
+varies-between-head-runs molecules-confetti--full-screen-shower__mobile t0-down1
+varies-between-head-runs molecules-confetti--full-screen-shower__mobile t0-down2
+varies-between-head-runs molecules-confetti--full-screen-shower__mobile t0-esc
+varies-between-head-runs molecules-confetti--random-direction__desktop t0-open
+varies-between-head-runs molecules-confetti--random-direction__desktop t0-down1
+varies-between-head-runs molecules-confetti--random-direction__desktop t0-down2
+varies-between-head-runs molecules-confetti--random-direction__desktop t0-esc
+varies-between-head-runs molecules-confetti--random-direction__mobile t0-open
+varies-between-head-runs molecules-confetti--side-cannons__desktop t0-open
+varies-between-head-runs molecules-confetti--side-cannons__desktop t0-down1
+varies-between-head-runs molecules-confetti--side-cannons__desktop t0-down2
+varies-between-head-runs molecules-confetti--side-cannons__desktop t0-esc
+varies-between-head-runs molecules-confetti--side-cannons__mobile t0-open
+varies-between-head-runs molecules-confetti--side-cannons__mobile t0-down1
+varies-between-head-runs molecules-confetti--side-cannons__mobile t0-down2
+varies-between-head-runs molecules-confetti--side-cannons__mobile t0-esc
+varies-between-head-runs molecules-confetti--stars__desktop t0-open
+varies-between-head-runs molecules-confetti--stars__desktop t0-down1
+varies-between-head-runs molecules-confetti--stars__desktop t0-down2
+varies-between-head-runs molecules-confetti--stars__desktop t0-esc
+varies-between-head-runs molecules-confetti--stars__mobile t0-open
+varies-between-head-runs molecules-confetti--stars__mobile t0-down1
+varies-between-head-runs molecules-confetti--stars__mobile t0-down2
+varies-between-head-runs molecules-confetti--stars__mobile t0-esc
+REAL molecules-dialog--controlled__mobile t0-open: px=0 dom=differs focus=same
+REAL molecules-dialog--controlled__mobile t0-down1: px=0 dom=differs focus=same
+REAL molecules-dialog--controlled__mobile t0-down2: px=0 dom=differs focus=same
+REAL molecules-dialog--custom-styling__mobile t0-open: px=0 dom=differs focus=same
+REAL molecules-dialog--custom-styling__mobile t0-down1: px=0 dom=differs focus=same
+REAL molecules-dialog--custom-styling__mobile t0-down2: px=0 dom=differs focus=same
+REAL molecules-dialog--without-title__desktop t0-open: px=0 dom=differs focus=same
+REAL molecules-dialog--without-title__desktop t0-down1: px=0 dom=differs focus=same
+REAL molecules-dialog--without-title__desktop t0-down2: px=0 dom=differs focus=same
+REAL molecules-secondarymenu--dropdown-menu-example__desktop ctx-down1: px=0 dom=differs focus=same
+REAL molecules-tabsline--default__desktop t0-open: px=6 dom=differs focus=same
+REAL molecules-tabsline--default__desktop t0-down1: px=6 dom=differs focus=same
+REAL molecules-tabsline--default__desktop t0-down2: px=6 dom=differs focus=same
+REAL molecules-tabsline--default__desktop t0-esc: px=6 dom=differs focus=same
+REAL molecules-tabsline--many-tabs__desktop t0-open: px=2 dom=differs focus=same
+REAL molecules-tabsline--many-tabs__desktop t0-down1: px=2 dom=differs focus=same
+REAL molecules-tabsline--many-tabs__desktop t0-down2: px=2 dom=differs focus=same
+REAL molecules-tabsline--many-tabs__desktop t0-esc: px=2 dom=differs focus=same
+varies-between-head-runs molecules-typingtext--default__desktop initial
+REAL molecules-typingtext--default__mobile initial: px=2188 dom=differs focus=same
+REAL molecules-typingtext--default__mobile tab0: px=0 dom=differs focus=same
+REAL molecules-typingtext--slow__mobile initial: px=1323 dom=same focus=same
+varies-between-head-runs molecules-typingtext--slow__mobile tab1

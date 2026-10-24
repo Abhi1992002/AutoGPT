@@ -1,0 +1,988 @@
+{
+ "page_admin_users__desktop": [
+  {
+   "label": "tab0",
+   "png": "page_admin_users__desktop__tab0.png",
+   "dom": "7f8850f67c3395f0b38d5cd7046a7e7dd1c5fb0a977989b37e4581b09ccadf6f",
+   "focus": "none"
+  },
+  {
+   "label": "tab1",
+   "png": "page_admin_users__desktop__tab1.png",
+   "dom": "7f8850f67c3395f0b38d5cd7046a7e7dd1c5fb0a977989b37e4581b09ccadf6f",
+   "focus": "<a aria-label=\"Back to home\" class=\"mb-[16px] flex w-fit items-center gap-2 rounded-[8px] px-4 py-1 text-foreground-body transition-colors hover:text-[#1F1F20]\" href=\"/copilot\"></a> text=Back"
+  },
+  {
+   "label": "tab2",
+   "png": "page_admin_users__desktop__tab2.png",
+   "dom": "7f8850f67c3395f0b38d5cd7046a7e7dd1c5fb0a977989b37e4581b09ccadf6f",
+   "focus": "<a aria-current=\"page\" class=\"flex h-[38px] w-full items-center gap-2 rounded-[8px] px-3 text-foreground-body transition-colors bg-surface-hover\" href=\"/admin/users\"></a> text=Users"
+  },
+  {
+   "label": "tab3",
+   "png": "page_admin_users__desktop__tab3.png",
+   "dom": "7f8850f67c3395f0b38d5cd7046a7e7dd1c5fb0a977989b37e4581b09ccadf6f",
+   "focus": "<a class=\"flex h-[38px] w-full items-center gap-2 rounded-[8px] px-3 text-foreground-body transition-colors hover:bg-[#F5F5F6]\" href=\"/admin/marketplace\"></a> text=Marketplace Management"
+  },
+  {
+   "label": "tab4",
+   "png": "page_admin_users__desktop__tab4.png",
+   "dom": "7f8850f67c3395f0b38d5cd7046a7e7dd1c5fb0a977989b37e4581b09ccadf6f",
+   "focus": "<a class=\"flex h-[38px] w-full items-center gap-2 rounded-[8px] px-3 text-foreground-body transition-colors hover:bg-[#F5F5F6]\" href=\"/admin/spending\"></a> text=User Spending"
+  },
+  {
+   "label": "tab5",
+   "png": "page_admin_users__desktop__tab5.png",
+   "dom": "7f8850f67c3395f0b38d5cd7046a7e7dd1c5fb0a977989b37e4581b09ccadf6f",
+   "focus": "<a class=\"flex h-[38px] w-full items-center gap-2 rounded-[8px] px-3 text-foreground-body transition-colors hover:bg-[#F5F5F6]\" href=\"/admin/diagnostics\"></a> text=System Diagnostics"
+  }
+ ],
+ "page_artifacts__desktop": [
+  {
+   "label": "tab0",
+   "png": "page_artifacts__desktop__tab0.png",
+   "dom": "3913bd502003cff3b6c0302633184cf8cb0918dce7b790dd1d81c0957ec78518",
+   "focus": "<button type=\"button\" aria-label=\"Expand sidebar\" class=\"size-8 shrink-0 items-center justify-center rounded-md transition-colors hover:bg-surface-active max-md:size-10 absolute inset-0 hidden group-focus-within:flex group-hover:flex\" data-state=\"instant-open\" aria-describedby=\"radix-_R_4ljciulanb_\"></button> text="
+  },
+  {
+   "label": "tab1",
+   "png": "page_artifacts__desktop__tab1.png",
+   "dom": "f87075276cad1acd5d898fbf5bf91b5c046010602fc7fb3af849cd342eb4f707",
+   "focus": "<button type=\"button\" aria-label=\"Search\" class=\"flex size-8 shrink-0 items-center justify-center rounded-md transition-colors hover:bg-surface-active max-md:size-10\" data-state=\"instant-open\" aria-describedby=\"radix-_R_35jciulanb_\"></button> text="
+  },
+  {
+   "label": "tab2",
+   "png": "page_artifacts__desktop__tab2.png",
+   "dom": "e23cfbad8dc73148e3187d735f0ee2b017ee8f0d67f7cb6f5f935835b0c21c6e",
+   "focus": "<a data-sidebar=\"menu-button\" data-size=\"default\" data-active=\"false\" class=\"peer/menu-button flex w-full items-center gap-2 overflow-hidden text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-sm h-auto rounded-xl p-2 pl-3 font-normal data-[active=true]:font-normal group-data-[collapsible=icon]:!p-1.5 hover:!bg-surface-hover [&amp;&gt;svg]:size-4 group-data-[collapsible=icon]:[&amp;&gt;svg]:size-4.5 max-md:gap-3 max-md:py-2.5 max-md:text-base max-md:[&amp;&gt;svg]:size-5 data-[active=true]:!bg-surface-active data-[active=true]:hover:!bg-surface-active\" data-state=\"instant-open\" href=\"/home\" aria-describedby=\"radix-_R_1j9jciulanb_\"></a> text=HomeCtrl⇧O"
+  },
+  {
+   "label": "tab3",
+   "png": "page_artifacts__desktop__tab3.png",
+   "dom": "84c0fc6a03dd43bc63a1de01a7c25352a8221b9c96de87e622e8603bbb2def94",
+   "focus": "<a data-sidebar=\"menu-button\" data-size=\"default\" data-active=\"false\" class=\"peer/menu-button flex w-full items-center gap-2 overflow-hidden text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-sm h-auto rounded-xl p-2 pl-3 font-normal data-[active=true]:font-normal group-data-[collapsible=icon]:!p-1.5 hover:!bg-surface-hover [&amp;&gt;svg]:size-4 group-data-[collapsible=icon]:[&amp;&gt;svg]:size-4.5 max-md:gap-3 max-md:py-2.5 max-md:text-base max-md:[&amp;&gt;svg]:size-5 data-[active=true]:!bg-surface-active data-[active=true]:hover:!bg-surface-active\" data-state=\"instant-open\" href=\"/marketplace\" aria-describedby=\"radix-_R_6j9jciulanb_\"></a> text=Marketplace"
+  },
+  {
+   "label": "tab4",
+   "png": "page_artifacts__desktop__tab4.png",
+   "dom": "b9bd213cb55b8cb3c1578f0addfd6c1978696f4ff99ec63d6f80f3f9892c57f8",
+   "focus": "<a data-sidebar=\"menu-button\" data-size=\"default\" data-active=\"false\" class=\"peer/menu-button flex w-full items-center gap-2 overflow-hidden text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-sm h-auto rounded-xl p-2 pl-3 font-normal data-[active=true]:font-normal group-data-[collapsible=icon]:!p-1.5 hover:!bg-surface-hover [&amp;&gt;svg]:size-4 group-data-[collapsible=icon]:[&amp;&gt;svg]:size-4.5 max-md:gap-3 max-md:py-2.5 max-md:text-base max-md:[&amp;&gt;svg]:size-5 data-[active=true]:!bg-surface-active data-[active=true]:hover:!bg-surface-active\" data-state=\"instant-open\" href=\"/build\" aria-describedby=\"radix-_R_aj9jciulanb_\"></a> text=Build"
+  },
+  {
+   "label": "tab5",
+   "png": "page_artifacts__desktop__tab5.png",
+   "dom": "88b916fc2fd32774933ef2e3a421e896aa3e1e9a1cce593da35f36554c92eaec",
+   "focus": "<a data-sidebar=\"menu-button\" data-size=\"default\" data-active=\"false\" class=\"peer/menu-button flex w-full items-center gap-2 overflow-hidden text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-sm h-auto rounded-xl p-2 pl-3 font-normal data-[active=true]:font-normal group-data-[collapsible=icon]:!p-1.5 hover:!bg-surface-hover [&amp;&gt;svg]:size-4 group-data-[collapsible=icon]:[&amp;&gt;svg]:size-4.5 max-md:gap-3 max-md:py-2.5 max-md:text-base max-md:[&amp;&gt;svg]:size-5 data-[active=true]:!bg-surface-active data-[active=true]:hover:!bg-surface-active\" data-state=\"instant-open\" href=\"/team\" aria-describedby=\"radix-_R_1ll9jciulanb_\"></a> text=Team"
+  },
+  {
+   "label": "t0-open",
+   "png": "page_artifacts__desktop__t0-open.png",
+   "dom": "3be03a9210496ba6dfcd50d7c3a5afe6bf973bf71b10b5519e18f5953ffbfeb1",
+   "focus": "<div data-side=\"bottom\" data-align=\"end\" role=\"menu\" aria-orientation=\"vertical\" data-state=\"open\" data-radix-menu-content=\"\" dir=\"ltr\" id=\"radix-_R_6kanpfb5ciulanbH1_\" aria-labelledby=\"radix-_R_6kanpfb5ciulanb_\" class=\"z-50 min-w-[8rem] overflow-hidden rounded-md border border-neutral-200 bg-surface p-1 text-neutral-950 shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 w-44\" tabindex=\"-1\" data-orientation=\"vertical\" style=\"outline: none; --radix-dropdown-menu-content-transform-origin: var(--radix-popper-transform-origin); --radix-dropdown-menu-content-available-width: var(--radix-popper-available-width); --radix-dropdown-menu-content-available-height: var(--radix-popper-available-height); --radix-dropdown-menu-trigger-width: var(--radix-popper-anchor-width); --radix-dropdown-menu-trigger-height: var(--radix-popper-anchor-height); pointer-events: auto;\"></div> text=Upload fileNew folder"
+  },
+  {
+   "label": "t0-down1",
+   "png": "page_artifacts__desktop__t0-down1.png",
+   "dom": "a86b0f6ed7ce89b12c44c9194ed717bcc70b32e9465771cc3e6d5d147d7eee2f",
+   "focus": "<div role=\"menuitem\" class=\"relative flex cursor-pointer select-none items-center rounded-sm px-2 py-1.5 text-body leading-5 outline-none transition-colors data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-neutral-100 focus:text-neutral-900 [@media(pointer:coarse)]:py-3\" data-testid=\"artifacts-upload-file\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Upload file"
+  },
+  {
+   "label": "t0-esc",
+   "png": "page_artifacts__desktop__t0-esc.png",
+   "dom": "68f14cdc0688e7e474375178dc946c61b19ea68bc62c3bcfef4233144ab78978",
+   "focus": "<button type=\"button\" class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-3 py-2 text-body leading-5 h-9 min-w-0 gap-1.5 pl-4 pr-3\" data-testid=\"artifacts-new-menu\" id=\"radix-_R_6kanpfb5ciulanb_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text=New"
+  }
+ ],
+ "page_home__desktop": [
+  {
+   "label": "tab0",
+   "png": "page_home__desktop__tab0.png",
+   "dom": "7d0471bd21cace8efee216a22f7d61bb3243af1938d73797d8fa996cd481bc0b",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] border disabled:shadow-none disabled:opacity-1 !min-w-0 size-9 rounded-full border-transparent bg-zinc-950/[0.06] p-0 text-zinc-900 shadow-none transition-[background-color,transform] hover:border-transparent hover:bg-zinc-950/10 hover:text-zinc-900 active:scale-[0.98] aria-expanded:bg-zinc-950/[0.12]\" type=\"button\" aria-label=\"Start recording\" data-state=\"instant-open\" aria-describedby=\"radix-_r_1a_\"></button> text="
+  },
+  {
+   "label": "tab1",
+   "png": "page_home__desktop__tab1.png",
+   "dom": "030b8b59352398ff4098b0782568e922e4e8311a24c0a202dd61341dbad6d238",
+   "focus": "none"
+  },
+  {
+   "label": "tab2",
+   "png": "page_home__desktop__tab2.png",
+   "dom": "4b6e647134871c64ed37655b7f934ad6d29465c0f0748ead7ae003f116095787",
+   "focus": "<button type=\"button\" aria-label=\"Expand sidebar\" class=\"size-8 shrink-0 items-center justify-center rounded-md transition-colors hover:bg-surface-active max-md:size-10 absolute inset-0 hidden group-focus-within:flex group-hover:flex\" data-state=\"instant-open\" aria-describedby=\"radix-_R_4ljciulanb_\"></button> text="
+  },
+  {
+   "label": "tab3",
+   "png": "page_home__desktop__tab3.png",
+   "dom": "a765c142565941a211f53d1e447d0e965104783acb614ce9e74e5a1b315a3b42",
+   "focus": "<button type=\"button\" aria-label=\"Search\" class=\"flex size-8 shrink-0 items-center justify-center rounded-md transition-colors hover:bg-surface-active max-md:size-10\" data-state=\"instant-open\" aria-describedby=\"radix-_R_35jciulanb_\"></button> text="
+  },
+  {
+   "label": "tab4",
+   "png": "page_home__desktop__tab4.png",
+   "dom": "0e3644609ea06c4e8714a7554da67985fe40c30cc02fdafd5b607dcc49d7e70d",
+   "focus": "<a data-sidebar=\"menu-button\" data-size=\"default\" data-active=\"true\" class=\"peer/menu-button flex w-full items-center gap-2 overflow-hidden text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-sm h-auto rounded-xl p-2 pl-3 font-normal data-[active=true]:font-normal group-data-[collapsible=icon]:!p-1.5 hover:!bg-surface-hover [&amp;&gt;svg]:size-4 group-data-[collapsible=icon]:[&amp;&gt;svg]:size-4.5 max-md:gap-3 max-md:py-2.5 max-md:text-base max-md:[&amp;&gt;svg]:size-5 data-[active=true]:!bg-surface-active data-[active=true]:hover:!bg-surface-active\" data-state=\"instant-open\" href=\"/home\" aria-describedby=\"radix-_R_1j9jciulanb_\"></a> text=HomeCtrl⇧O"
+  },
+  {
+   "label": "tab5",
+   "png": "page_home__desktop__tab5.png",
+   "dom": "e68b28566c4e7ce7305af04a00bcd4fd016e551b6845118bcb8cc4fced3eaa8b",
+   "focus": "<a data-sidebar=\"menu-button\" data-size=\"default\" data-active=\"false\" class=\"peer/menu-button flex w-full items-center gap-2 overflow-hidden text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-sm h-auto rounded-xl p-2 pl-3 font-normal data-[active=true]:font-normal group-data-[collapsible=icon]:!p-1.5 hover:!bg-surface-hover [&amp;&gt;svg]:size-4 group-data-[collapsible=icon]:[&amp;&gt;svg]:size-4.5 max-md:gap-3 max-md:py-2.5 max-md:text-base max-md:[&amp;&gt;svg]:size-5 data-[active=true]:!bg-surface-active data-[active=true]:hover:!bg-surface-active\" data-state=\"instant-open\" href=\"/marketplace\" aria-describedby=\"radix-_R_6j9jciulanb_\"></a> text=Marketplace"
+  },
+  {
+   "label": "t0-open",
+   "png": "page_home__desktop__t0-open.png",
+   "dom": "af70eb182009f7d0bf930614c1b6193cc187174ce7fa6627f19e44f113998a81",
+   "focus": "<div data-side=\"bottom\" data-align=\"start\" role=\"menu\" aria-orientation=\"vertical\" data-state=\"open\" data-radix-menu-content=\"\" dir=\"ltr\" id=\"radix-_r_15_\" aria-labelledby=\"radix-_r_14_\" class=\"z-50 overflow-hidden rounded-md border border-neutral-200 bg-surface p-1 text-neutral-950 shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 min-w-[14rem]\" tabindex=\"-1\" data-orientation=\"vertical\" style=\"outline: none; --radix-dropdown-menu-content-transform-origin: var(--radix-popper-transform-origin); --radix-dropdown-menu-content-available-width: var(--radix-popper-available-width); --radix-dropdown-menu-content-available-height: var(--radix-popper-available-height); --radix-dropdown-menu-trigger-width: var(--radix-popper-anchor-width); --radix-dropdown-menu-trigger-height: var(--radix-popper-anchor-height); pointer-events: auto;\"></div> text=Attach fileConnect serviceSkillsScheduled"
+  },
+  {
+   "label": "t0-down1",
+   "png": "page_home__desktop__t0-down1.png",
+   "dom": "8a40030b8b23381f06492a02c6303ee4db2f6087f4bb0e1e4e81c7b39c358532",
+   "focus": "<div role=\"menuitem\" class=\"relative flex cursor-pointer select-none items-center rounded-sm px-2 py-1.5 text-body leading-5 outline-none transition-colors data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-neutral-100 focus:text-neutral-900 [@media(pointer:coarse)]:py-3\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Attach file"
+  },
+  {
+   "label": "t0-esc",
+   "png": "page_home__desktop__t0-esc.png",
+   "dom": "c5a17c8da3ee2ec7c76e25811e346a71216f07846e534493dd12142f1da9b344",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] border disabled:shadow-none disabled:opacity-1 !min-w-0 size-9 rounded-full border-transparent bg-zinc-950/[0.06] p-0 text-zinc-900 shadow-none transition-[background-color,transform] hover:border-transparent hover:bg-zinc-950/10 hover:text-zinc-900 active:scale-[0.98] aria-expanded:bg-zinc-950/[0.12] [&amp;[aria-expanded=true]_svg]:rotate-45 [&amp;_svg]:transition-transform [&amp;_svg]:duration-200\" type=\"button\" aria-label=\"Add files and more\" data-testid=\"composer-plus-button\" id=\"radix-_r_14_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\" aria-describedby=\"radix-_r_16_\"></button> text="
+  },
+  {
+   "label": "t1-open",
+   "png": "page_home__desktop__t1-open.png",
+   "dom": "78fee4dadd507e1dbfc721cc5ca75af8210aaa48bc48112a598cee959e669e0d",
+   "focus": "<div data-side=\"bottom\" data-align=\"start\" role=\"menu\" aria-orientation=\"vertical\" data-state=\"open\" data-radix-menu-content=\"\" dir=\"ltr\" id=\"radix-_r_18_\" aria-labelledby=\"radix-_r_17_\" class=\"z-50 min-w-[8rem] overflow-hidden rounded-md border border-neutral-200 bg-surface p-1 text-neutral-950 shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2\" tabindex=\"-1\" data-orientation=\"vertical\" style=\"outline: none; --radix-dropdown-menu-content-transform-origin: var(--radix-popper-transform-origin); --radix-dropdown-menu-content-available-width: var(--radix-popper-available-width); --radix-dropdown-menu-content-available-height: var(--radix-popper-available-height); --radix-dropdown-menu-trigger-width: var(--radix-popper-anchor-width); --radix-dropdown-menu-trigger-height: var(--radix-popper-anchor-height); pointer-events: auto;\"></div> text=Otto"
+  },
+  {
+   "label": "t1-down1",
+   "png": "page_home__desktop__t1-down1.png",
+   "dom": "ce56dd0a1b3c88682e330ccaf01737257b3d6368a02436ec54644ee71c04bd2b",
+   "focus": "<div role=\"menuitem\" class=\"relative flex cursor-pointer select-none items-center rounded-sm px-2 py-1.5 text-body leading-5 outline-none transition-colors data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-neutral-100 focus:text-neutral-900 [@media(pointer:coarse)]:py-3 gap-2 bg-zinc-100\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Otto"
+  },
+  {
+   "label": "t1-esc",
+   "png": "page_home__desktop__t1-esc.png",
+   "dom": "1a6d7c88dec868134bf68c7030dea50b2302813dd553b9fdf2c268fab75dc785",
+   "focus": "<button type=\"button\" aria-label=\"Sending to Otto — change recipient\" class=\"ml-2 inline-flex h-9 items-center gap-1.5 rounded-2xl border border-neutral-200 bg-white pl-1.5 pr-2 text-sm font-medium text-zinc-700 shadow-sm group transition-colors hover:bg-neutral-50\" id=\"radix-_r_17_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text=Otto"
+  }
+ ],
+ "page_login__desktop": [
+  {
+   "label": "tab0",
+   "png": "page_login__desktop__tab0.png",
+   "dom": "6e8faf5ef8c760bd2dba60bbb0ce083b5e6e00827aaa8702d82183f357ceef4f",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] border disabled:shadow-none disabled:opacity-1 !min-w-0 size-9 rounded-full border-transparent bg-zinc-950/[0.06] p-0 text-zinc-900 shadow-none transition-[background-color,transform] hover:border-transparent hover:bg-zinc-950/10 hover:text-zinc-900 active:scale-[0.98] aria-expanded:bg-zinc-950/[0.12]\" type=\"button\" aria-label=\"Start recording\" data-state=\"instant-open\" aria-describedby=\"radix-_r_1u_\"></button> text="
+  },
+  {
+   "label": "tab1",
+   "png": "page_login__desktop__tab1.png",
+   "dom": "561780c6c459008845f6b84c12a91170a151ef59095c7a953b860d3809ce63b0",
+   "focus": "none"
+  },
+  {
+   "label": "tab2",
+   "png": "page_login__desktop__tab2.png",
+   "dom": "65628dbd429be883ea97882d645b624d530a95a9b191669d07fef7f7af399b0a",
+   "focus": "<button type=\"button\" aria-label=\"Expand sidebar\" class=\"size-8 shrink-0 items-center justify-center rounded-md transition-colors hover:bg-surface-active max-md:size-10 absolute inset-0 hidden group-focus-within:flex group-hover:flex\" data-state=\"instant-open\" aria-describedby=\"radix-_r_1_\"></button> text="
+  },
+  {
+   "label": "tab3",
+   "png": "page_login__desktop__tab3.png",
+   "dom": "c46eacd79f66893a9c00dadfbc6209acc0ff70d1c3d0ccacd49c1bd435db9213",
+   "focus": "<button type=\"button\" aria-label=\"Search\" class=\"flex size-8 shrink-0 items-center justify-center rounded-md transition-colors hover:bg-surface-active max-md:size-10\" data-state=\"instant-open\" aria-describedby=\"radix-_r_2_\"></button> text="
+  },
+  {
+   "label": "tab4",
+   "png": "page_login__desktop__tab4.png",
+   "dom": "169fe1e395219e38d0c6196419119383d740d4c0f2df2e3a9612a989da8ed36e",
+   "focus": "<a data-sidebar=\"menu-button\" data-size=\"default\" data-active=\"true\" class=\"peer/menu-button flex w-full items-center gap-2 overflow-hidden text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-sm h-auto rounded-xl p-2 pl-3 font-normal data-[active=true]:font-normal group-data-[collapsible=icon]:!p-1.5 hover:!bg-surface-hover [&amp;&gt;svg]:size-4 group-data-[collapsible=icon]:[&amp;&gt;svg]:size-4.5 max-md:gap-3 max-md:py-2.5 max-md:text-base max-md:[&amp;&gt;svg]:size-5 data-[active=true]:!bg-surface-active data-[active=true]:hover:!bg-surface-active\" data-state=\"instant-open\" href=\"/home\" aria-describedby=\"radix-_r_3_\"></a> text=HomeCtrl⇧O"
+  },
+  {
+   "label": "tab5",
+   "png": "page_login__desktop__tab5.png",
+   "dom": "1aa40317543164395dbff0d08871a298bfdf5f6506cba91e8431b965ecffcd9c",
+   "focus": "<a data-sidebar=\"menu-button\" data-size=\"default\" data-active=\"false\" class=\"peer/menu-button flex w-full items-center gap-2 overflow-hidden text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-sm h-auto rounded-xl p-2 pl-3 font-normal data-[active=true]:font-normal group-data-[collapsible=icon]:!p-1.5 hover:!bg-surface-hover [&amp;&gt;svg]:size-4 group-data-[collapsible=icon]:[&amp;&gt;svg]:size-4.5 max-md:gap-3 max-md:py-2.5 max-md:text-base max-md:[&amp;&gt;svg]:size-5 data-[active=true]:!bg-surface-active data-[active=true]:hover:!bg-surface-active\" data-state=\"instant-open\" href=\"/marketplace\" aria-describedby=\"radix-_r_4_\"></a> text=Marketplace"
+  },
+  {
+   "label": "t0-open",
+   "png": "page_login__desktop__t0-open.png",
+   "dom": "63cf035ff7ce225cad8e3ff9903e15ded07194fd36fb4090d57fd628af406c39",
+   "focus": "<div data-side=\"bottom\" data-align=\"start\" role=\"menu\" aria-orientation=\"vertical\" data-state=\"open\" data-radix-menu-content=\"\" dir=\"ltr\" id=\"radix-_r_1p_\" aria-labelledby=\"radix-_r_1o_\" class=\"z-50 overflow-hidden rounded-md border border-neutral-200 bg-surface p-1 text-neutral-950 shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 min-w-[14rem]\" tabindex=\"-1\" data-orientation=\"vertical\" style=\"outline: none; --radix-dropdown-menu-content-transform-origin: var(--radix-popper-transform-origin); --radix-dropdown-menu-content-available-width: var(--radix-popper-available-width); --radix-dropdown-menu-content-available-height: var(--radix-popper-available-height); --radix-dropdown-menu-trigger-width: var(--radix-popper-anchor-width); --radix-dropdown-menu-trigger-height: var(--radix-popper-anchor-height); pointer-events: auto;\"></div> text=Attach fileConnect serviceSkillsScheduled"
+  },
+  {
+   "label": "t0-down1",
+   "png": "page_login__desktop__t0-down1.png",
+   "dom": "2917eb8f3a69796c0d2436b62f8ce8880e43b405dff9e48611d5b43de6f04c1e",
+   "focus": "<div role=\"menuitem\" class=\"relative flex cursor-pointer select-none items-center rounded-sm px-2 py-1.5 text-body leading-5 outline-none transition-colors data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-neutral-100 focus:text-neutral-900 [@media(pointer:coarse)]:py-3\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Attach file"
+  },
+  {
+   "label": "t0-esc",
+   "png": "page_login__desktop__t0-esc.png",
+   "dom": "51dc045099b7a4c2c057fc6792653ce562366f75c13d2ca49ca18cff39a30c5c",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] border disabled:shadow-none disabled:opacity-1 !min-w-0 size-9 rounded-full border-transparent bg-zinc-950/[0.06] p-0 text-zinc-900 shadow-none transition-[background-color,transform] hover:border-transparent hover:bg-zinc-950/10 hover:text-zinc-900 active:scale-[0.98] aria-expanded:bg-zinc-950/[0.12] [&amp;[aria-expanded=true]_svg]:rotate-45 [&amp;_svg]:transition-transform [&amp;_svg]:duration-200\" type=\"button\" aria-label=\"Add files and more\" data-testid=\"composer-plus-button\" id=\"radix-_r_1o_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\" aria-describedby=\"radix-_r_1q_\"></button> text="
+  },
+  {
+   "label": "t1-open",
+   "png": "page_login__desktop__t1-open.png",
+   "dom": "4a0588bf43f35e9e254f78c058d9af3202c3ec576c759d8db339fe18bb76cde9",
+   "focus": "<div data-side=\"bottom\" data-align=\"start\" role=\"menu\" aria-orientation=\"vertical\" data-state=\"open\" data-radix-menu-content=\"\" dir=\"ltr\" id=\"radix-_r_1v_\" aria-labelledby=\"radix-_r_1u_\" class=\"z-50 min-w-[8rem] overflow-hidden rounded-md border border-neutral-200 bg-surface p-1 text-neutral-950 shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2\" tabindex=\"-1\" data-orientation=\"vertical\" style=\"outline: none; --radix-dropdown-menu-content-transform-origin: var(--radix-popper-transform-origin); --radix-dropdown-menu-content-available-width: var(--radix-popper-available-width); --radix-dropdown-menu-content-available-height: var(--radix-popper-available-height); --radix-dropdown-menu-trigger-width: var(--radix-popper-anchor-width); --radix-dropdown-menu-trigger-height: var(--radix-popper-anchor-height); pointer-events: auto;\"></div> text=Otto"
+  },
+  {
+   "label": "t1-down1",
+   "png": "page_login__desktop__t1-down1.png",
+   "dom": "1af33cacd8da246af83feab67dd628f3082de158fd82a337a576816b0ec93cce",
+   "focus": "<div role=\"menuitem\" class=\"relative flex cursor-pointer select-none items-center rounded-sm px-2 py-1.5 text-body leading-5 outline-none transition-colors data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-neutral-100 focus:text-neutral-900 [@media(pointer:coarse)]:py-3 gap-2 bg-zinc-100\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Otto"
+  },
+  {
+   "label": "t1-esc",
+   "png": "page_login__desktop__t1-esc.png",
+   "dom": "eb647f68ab6b95bea0a755267cd4a878e6959be9064e36d82bfd64ca24fca4fe",
+   "focus": "<button type=\"button\" aria-label=\"Sending to Otto — change recipient\" class=\"ml-2 inline-flex h-9 items-center gap-1.5 rounded-2xl border border-neutral-200 bg-white pl-1.5 pr-2 text-sm font-medium text-zinc-700 shadow-sm group transition-colors hover:bg-neutral-50\" id=\"radix-_r_1u_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text=Otto"
+  }
+ ],
+ "page_marketplace__desktop": [
+  {
+   "label": "tab0",
+   "png": "page_marketplace__desktop__tab0.png",
+   "dom": "5a19a3eea2eb1c806b96ad7e09e004025ad70d0dc47ddd02ef10b04b602d193a",
+   "focus": "<button type=\"button\" aria-label=\"Expand sidebar\" class=\"size-8 shrink-0 items-center justify-center rounded-md transition-colors hover:bg-surface-active max-md:size-10 absolute inset-0 hidden group-focus-within:flex group-hover:flex\" data-state=\"instant-open\" aria-describedby=\"radix-_R_4ljciulanb_\"></button> text="
+  },
+  {
+   "label": "tab1",
+   "png": "page_marketplace__desktop__tab1.png",
+   "dom": "0eae0b344d4b879bfdaf9433740822d4911162c6f4c83c7dcf1a0aecdee85c22",
+   "focus": "<button type=\"button\" aria-label=\"Search\" class=\"flex size-8 shrink-0 items-center justify-center rounded-md transition-colors hover:bg-surface-active max-md:size-10\" data-state=\"instant-open\" aria-describedby=\"radix-_R_35jciulanb_\"></button> text="
+  },
+  {
+   "label": "tab2",
+   "png": "page_marketplace__desktop__tab2.png",
+   "dom": "27f156c819457210ca8b7a779df59dfac4ccb8c81f04f56257dd174d66e2c87c",
+   "focus": "<a data-sidebar=\"menu-button\" data-size=\"default\" data-active=\"false\" class=\"peer/menu-button flex w-full items-center gap-2 overflow-hidden text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-sm h-auto rounded-xl p-2 pl-3 font-normal data-[active=true]:font-normal group-data-[collapsible=icon]:!p-1.5 hover:!bg-surface-hover [&amp;&gt;svg]:size-4 group-data-[collapsible=icon]:[&amp;&gt;svg]:size-4.5 max-md:gap-3 max-md:py-2.5 max-md:text-base max-md:[&amp;&gt;svg]:size-5 data-[active=true]:!bg-surface-active data-[active=true]:hover:!bg-surface-active\" data-state=\"instant-open\" href=\"/home\" aria-describedby=\"radix-_R_1j9jciulanb_\"></a> text=HomeCtrl⇧O"
+  },
+  {
+   "label": "tab3",
+   "png": "page_marketplace__desktop__tab3.png",
+   "dom": "ffd8ffff7edd5c7cbcd40be501129dafd0e5cad5f49b929ca39589c10b95e80f",
+   "focus": "<a data-sidebar=\"menu-button\" data-size=\"default\" data-active=\"true\" class=\"peer/menu-button flex w-full items-center gap-2 overflow-hidden text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-sm h-auto rounded-xl p-2 pl-3 font-normal data-[active=true]:font-normal group-data-[collapsible=icon]:!p-1.5 hover:!bg-surface-hover [&amp;&gt;svg]:size-4 group-data-[collapsible=icon]:[&amp;&gt;svg]:size-4.5 max-md:gap-3 max-md:py-2.5 max-md:text-base max-md:[&amp;&gt;svg]:size-5 data-[active=true]:!bg-surface-active data-[active=true]:hover:!bg-surface-active\" data-state=\"instant-open\" href=\"/marketplace\" aria-describedby=\"radix-_R_6j9jciulanb_\"></a> text=Marketplace"
+  },
+  {
+   "label": "tab4",
+   "png": "page_marketplace__desktop__tab4.png",
+   "dom": "5e1ed78442cb0dcc7a395ab37a4a85c71ec4259d88e5e11bfd5e71973bfe002f",
+   "focus": "<a data-sidebar=\"menu-button\" data-size=\"default\" data-active=\"false\" class=\"peer/menu-button flex w-full items-center gap-2 overflow-hidden text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-sm h-auto rounded-xl p-2 pl-3 font-normal data-[active=true]:font-normal group-data-[collapsible=icon]:!p-1.5 hover:!bg-surface-hover [&amp;&gt;svg]:size-4 group-data-[collapsible=icon]:[&amp;&gt;svg]:size-4.5 max-md:gap-3 max-md:py-2.5 max-md:text-base max-md:[&amp;&gt;svg]:size-5 data-[active=true]:!bg-surface-active data-[active=true]:hover:!bg-surface-active\" data-state=\"instant-open\" href=\"/build\" aria-describedby=\"radix-_R_aj9jciulanb_\"></a> text=Build"
+  },
+  {
+   "label": "tab5",
+   "png": "page_marketplace__desktop__tab5.png",
+   "dom": "169b209980abc9bebbde74bbf3b9a3d44546f2f953d62d56e2c067654ef30173",
+   "focus": "<a data-sidebar=\"menu-button\" data-size=\"default\" data-active=\"false\" class=\"peer/menu-button flex w-full items-center gap-2 overflow-hidden text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-sm h-auto rounded-xl p-2 pl-3 font-normal data-[active=true]:font-normal group-data-[collapsible=icon]:!p-1.5 hover:!bg-surface-hover [&amp;&gt;svg]:size-4 group-data-[collapsible=icon]:[&amp;&gt;svg]:size-4.5 max-md:gap-3 max-md:py-2.5 max-md:text-base max-md:[&amp;&gt;svg]:size-5 data-[active=true]:!bg-surface-active data-[active=true]:hover:!bg-surface-active\" data-state=\"instant-open\" href=\"/team\" aria-describedby=\"radix-_R_1ll9jciulanb_\"></a> text=Team"
+  },
+  {
+   "label": "t0-open",
+   "png": "page_marketplace__desktop__t0-open.png",
+   "dom": "ea8e2d86f2be60ca358656a7104ec7cd4219917144b9e435a731f5c99341f996",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" aria-expanded=\"true\"></button> text=Show fewer"
+  },
+  {
+   "label": "t0-down1",
+   "png": "page_marketplace__desktop__t0-down1.png",
+   "dom": "ea8e2d86f2be60ca358656a7104ec7cd4219917144b9e435a731f5c99341f996",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" aria-expanded=\"true\"></button> text=Show fewer"
+  },
+  {
+   "label": "t0-esc",
+   "png": "page_marketplace__desktop__t0-esc.png",
+   "dom": "ea8e2d86f2be60ca358656a7104ec7cd4219917144b9e435a731f5c99341f996",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" aria-expanded=\"true\"></button> text=Show fewer"
+  }
+ ],
+ "page_profile_api-keys__desktop": [
+  {
+   "label": "tab0",
+   "png": "page_profile_api-keys__desktop__tab0.png",
+   "dom": "f3b8d5254d79c74c99d6d4b82e25121a62a70f13491d196bbcbbf5024006d0eb",
+   "focus": "<a aria-label=\"Back to home\" class=\"mb-[16px] flex w-fit items-center gap-2 rounded-[8px] px-4 py-1 text-foreground-body transition-colors hover:text-[#1F1F20]\" href=\"/copilot\"></a> text=Back"
+  },
+  {
+   "label": "tab1",
+   "png": "page_profile_api-keys__desktop__tab1.png",
+   "dom": "f3b8d5254d79c74c99d6d4b82e25121a62a70f13491d196bbcbbf5024006d0eb",
+   "focus": "<a class=\"flex h-[38px] w-full items-center gap-2 rounded-[8px] px-3 text-foreground-body transition-colors hover:bg-[#F5F5F6]\" href=\"/settings/profile\"></a> text=Profile"
+  },
+  {
+   "label": "tab2",
+   "png": "page_profile_api-keys__desktop__tab2.png",
+   "dom": "f3b8d5254d79c74c99d6d4b82e25121a62a70f13491d196bbcbbf5024006d0eb",
+   "focus": "<a class=\"flex h-[38px] w-full items-center gap-2 rounded-[8px] px-3 text-foreground-body transition-colors hover:bg-[#F5F5F6]\" href=\"/settings/account\"></a> text=Account"
+  },
+  {
+   "label": "tab3",
+   "png": "page_profile_api-keys__desktop__tab3.png",
+   "dom": "f3b8d5254d79c74c99d6d4b82e25121a62a70f13491d196bbcbbf5024006d0eb",
+   "focus": "<a class=\"flex h-[38px] w-full items-center gap-2 rounded-[8px] px-3 text-foreground-body transition-colors hover:bg-[#F5F5F6]\" href=\"/settings/memory\"></a> text=Memory"
+  },
+  {
+   "label": "tab4",
+   "png": "page_profile_api-keys__desktop__tab4.png",
+   "dom": "f3b8d5254d79c74c99d6d4b82e25121a62a70f13491d196bbcbbf5024006d0eb",
+   "focus": "<a class=\"flex h-[38px] w-full items-center gap-2 rounded-[8px] px-3 text-foreground-body transition-colors hover:bg-[#F5F5F6]\" href=\"/settings/integrations\"></a> text=Integrations"
+  },
+  {
+   "label": "tab5",
+   "png": "page_profile_api-keys__desktop__tab5.png",
+   "dom": "f3b8d5254d79c74c99d6d4b82e25121a62a70f13491d196bbcbbf5024006d0eb",
+   "focus": "<a class=\"flex h-[38px] w-full items-center gap-2 rounded-[8px] px-3 text-foreground-body transition-colors hover:bg-[#F5F5F6]\" href=\"/settings/bots\"></a> text=Bots"
+  }
+ ],
+ "page_settings_account__desktop": [
+  {
+   "label": "tab0",
+   "png": "page_settings_account__desktop__tab0.png",
+   "dom": "f2178aa4b7c2b1617d3d0e66d4a6801fc0609556559ddef8c14c67978851aca1",
+   "focus": "<a aria-label=\"Back to home\" class=\"mb-[16px] flex w-fit items-center gap-2 rounded-[8px] px-4 py-1 text-foreground-body transition-colors hover:text-[#1F1F20]\" href=\"/copilot\"></a> text=Back"
+  },
+  {
+   "label": "tab1",
+   "png": "page_settings_account__desktop__tab1.png",
+   "dom": "f2178aa4b7c2b1617d3d0e66d4a6801fc0609556559ddef8c14c67978851aca1",
+   "focus": "<a class=\"flex h-[38px] w-full items-center gap-2 rounded-[8px] px-3 text-foreground-body transition-colors hover:bg-[#F5F5F6]\" href=\"/settings/profile\"></a> text=Profile"
+  },
+  {
+   "label": "tab2",
+   "png": "page_settings_account__desktop__tab2.png",
+   "dom": "f2178aa4b7c2b1617d3d0e66d4a6801fc0609556559ddef8c14c67978851aca1",
+   "focus": "<a aria-current=\"page\" class=\"flex h-[38px] w-full items-center gap-2 rounded-[8px] px-3 text-foreground-body transition-colors bg-surface-hover\" href=\"/settings/account\"></a> text=Account"
+  },
+  {
+   "label": "tab3",
+   "png": "page_settings_account__desktop__tab3.png",
+   "dom": "f2178aa4b7c2b1617d3d0e66d4a6801fc0609556559ddef8c14c67978851aca1",
+   "focus": "<a class=\"flex h-[38px] w-full items-center gap-2 rounded-[8px] px-3 text-foreground-body transition-colors hover:bg-[#F5F5F6]\" href=\"/settings/memory\"></a> text=Memory"
+  },
+  {
+   "label": "tab4",
+   "png": "page_settings_account__desktop__tab4.png",
+   "dom": "f2178aa4b7c2b1617d3d0e66d4a6801fc0609556559ddef8c14c67978851aca1",
+   "focus": "<a class=\"flex h-[38px] w-full items-center gap-2 rounded-[8px] px-3 text-foreground-body transition-colors hover:bg-[#F5F5F6]\" href=\"/settings/integrations\"></a> text=Integrations"
+  },
+  {
+   "label": "tab5",
+   "png": "page_settings_account__desktop__tab5.png",
+   "dom": "f2178aa4b7c2b1617d3d0e66d4a6801fc0609556559ddef8c14c67978851aca1",
+   "focus": "<a class=\"flex h-[38px] w-full items-center gap-2 rounded-[8px] px-3 text-foreground-body transition-colors hover:bg-[#F5F5F6]\" href=\"/settings/bots\"></a> text=Bots"
+  },
+  {
+   "label": "t0-open",
+   "png": "page_settings_account__desktop__t0-open.png",
+   "dom": "914ab402d1326f6ff09ded5bedef1c27e01f5b2ab999ee978590130a5a86edd2",
+   "focus": "<div role=\"option\" aria-labelledby=\"radix-_r_25_\" aria-selected=\"true\" data-state=\"checked\" tabindex=\"-1\" class=\"relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-2 pr-8 text-sm outline-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-neutral-100 focus:text-neutral-900 dark:focus:bg-neutral-800 dark:focus:text-neutral-50\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=UTC (Coordinated Universal Time)"
+  },
+  {
+   "label": "t0-down1",
+   "png": "page_settings_account__desktop__t0-down1.png",
+   "dom": "da978b7c969f3c286c26c4f3658d45bacb2f3b2b282de5f5d7c99e5d8bcd1bb4",
+   "focus": "<div role=\"option\" aria-labelledby=\"radix-_r_26_\" aria-selected=\"false\" data-state=\"unchecked\" tabindex=\"-1\" class=\"relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-2 pr-8 text-sm outline-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-neutral-100 focus:text-neutral-900 dark:focus:bg-neutral-800 dark:focus:text-neutral-50\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Los Angeles (US - Pacific)"
+  },
+  {
+   "label": "t0-esc",
+   "png": "page_settings_account__desktop__t0-esc.png",
+   "dom": "2294615877bdd7f5cc06d0c1f564d5c68e52382fa638de32c8e59c3ed724868d",
+   "focus": "<button type=\"button\" role=\"combobox\" aria-controls=\"radix-_r_7_\" aria-expanded=\"false\" aria-autocomplete=\"none\" dir=\"ltr\" data-state=\"closed\" class=\"agpt-border-input agpt-shadow-input flex items-center justify-between whitespace-nowrap ring-offset-white placeholder:text-neutral-500 data-[state=open]:border-gray-400 disabled:cursor-not-allowed disabled:opacity-50 dark:placeholder:text-neutral-400 [&amp;&gt;span]:line-clamp-1 rounded-xl border border-border-base bg-surface px-4 shadow-none font-normal text-foreground-base w-full placeholder:font-normal !placeholder:text-placeholder focus:border-foreground-subtle focus:shadow-none focus:outline-none focus:ring-1 focus:ring-foreground-subtle focus:ring-offset-0 h-9 py-2 text-body placeholder:text-body [&amp;[data-placeholder]&gt;span]:text-foreground-subtle [&amp;[data-placeholder]&gt;span]:font-normal\" aria-label=\"Timezone\" id=\"timezone\"></button> text=UTC (Coordinated Universal Time)"
+  }
+ ],
+ "page_signup__desktop": [
+  {
+   "label": "tab0",
+   "png": "page_signup__desktop__tab0.png",
+   "dom": "2d8cd643e81cd4a2a65f3fb618a1114e0cfc7fcae6ad43fcf52ff96c196e7622",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] border disabled:shadow-none disabled:opacity-1 !min-w-0 size-9 rounded-full border-transparent bg-zinc-950/[0.06] p-0 text-zinc-900 shadow-none transition-[background-color,transform] hover:border-transparent hover:bg-zinc-950/10 hover:text-zinc-900 active:scale-[0.98] aria-expanded:bg-zinc-950/[0.12]\" type=\"button\" aria-label=\"Start recording\" data-state=\"instant-open\" aria-describedby=\"radix-_r_1u_\"></button> text="
+  },
+  {
+   "label": "tab1",
+   "png": "page_signup__desktop__tab1.png",
+   "dom": "660f998b292d66ea710806d51cb02375f8d5b0266c16daa80c7e9bf5f089c6d8",
+   "focus": "none"
+  },
+  {
+   "label": "tab2",
+   "png": "page_signup__desktop__tab2.png",
+   "dom": "8ddcd2947af322a4dc476a91f9e024bf95636da8f8fe1526dbc41acf80096f3c",
+   "focus": "<button type=\"button\" aria-label=\"Expand sidebar\" class=\"size-8 shrink-0 items-center justify-center rounded-md transition-colors hover:bg-surface-active max-md:size-10 absolute inset-0 hidden group-focus-within:flex group-hover:flex\" data-state=\"instant-open\" aria-describedby=\"radix-_r_1_\"></button> text="
+  },
+  {
+   "label": "tab3",
+   "png": "page_signup__desktop__tab3.png",
+   "dom": "4cc5e6de28c4701921ad91c39c2903d5fed1690c375c18550b857ff236f99bc8",
+   "focus": "<button type=\"button\" aria-label=\"Search\" class=\"flex size-8 shrink-0 items-center justify-center rounded-md transition-colors hover:bg-surface-active max-md:size-10\" data-state=\"instant-open\" aria-describedby=\"radix-_r_2_\"></button> text="
+  },
+  {
+   "label": "tab4",
+   "png": "page_signup__desktop__tab4.png",
+   "dom": "1bdbc8c23dfd7f5986a161161c1d20471cf10cee2c72e52ea826c1db04438709",
+   "focus": "<a data-sidebar=\"menu-button\" data-size=\"default\" data-active=\"true\" class=\"peer/menu-button flex w-full items-center gap-2 overflow-hidden text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-sm h-auto rounded-xl p-2 pl-3 font-normal data-[active=true]:font-normal group-data-[collapsible=icon]:!p-1.5 hover:!bg-surface-hover [&amp;&gt;svg]:size-4 group-data-[collapsible=icon]:[&amp;&gt;svg]:size-4.5 max-md:gap-3 max-md:py-2.5 max-md:text-base max-md:[&amp;&gt;svg]:size-5 data-[active=true]:!bg-surface-active data-[active=true]:hover:!bg-surface-active\" data-state=\"instant-open\" href=\"/home\" aria-describedby=\"radix-_r_3_\"></a> text=HomeCtrl⇧O"
+  },
+  {
+   "label": "tab5",
+   "png": "page_signup__desktop__tab5.png",
+   "dom": "e1875a312667f8a00f61409cbe2557a8707ef2276ba2d66b6c7af809bce4cdbc",
+   "focus": "<a data-sidebar=\"menu-button\" data-size=\"default\" data-active=\"false\" class=\"peer/menu-button flex w-full items-center gap-2 overflow-hidden text-left outline-none ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-[[data-sidebar=menu-action]]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:bg-sidebar-accent data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:!size-8 [&amp;&gt;span:last-child]:truncate [&amp;&gt;svg]:shrink-0 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground text-sm h-auto rounded-xl p-2 pl-3 font-normal data-[active=true]:font-normal group-data-[collapsible=icon]:!p-1.5 hover:!bg-surface-hover [&amp;&gt;svg]:size-4 group-data-[collapsible=icon]:[&amp;&gt;svg]:size-4.5 max-md:gap-3 max-md:py-2.5 max-md:text-base max-md:[&amp;&gt;svg]:size-5 data-[active=true]:!bg-surface-active data-[active=true]:hover:!bg-surface-active\" data-state=\"instant-open\" href=\"/marketplace\" aria-describedby=\"radix-_r_4_\"></a> text=Marketplace"
+  },
+  {
+   "label": "t0-open",
+   "png": "page_signup__desktop__t0-open.png",
+   "dom": "63cf035ff7ce225cad8e3ff9903e15ded07194fd36fb4090d57fd628af406c39",
+   "focus": "<div data-side=\"bottom\" data-align=\"start\" role=\"menu\" aria-orientation=\"vertical\" data-state=\"open\" data-radix-menu-content=\"\" dir=\"ltr\" id=\"radix-_r_1p_\" aria-labelledby=\"radix-_r_1o_\" class=\"z-50 overflow-hidden rounded-md border border-neutral-200 bg-surface p-1 text-neutral-950 shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 min-w-[14rem]\" tabindex=\"-1\" data-orientation=\"vertical\" style=\"outline: none; --radix-dropdown-menu-content-transform-origin: var(--radix-popper-transform-origin); --radix-dropdown-menu-content-available-width: var(--radix-popper-available-width); --radix-dropdown-menu-content-available-height: var(--radix-popper-available-height); --radix-dropdown-menu-trigger-width: var(--radix-popper-anchor-width); --radix-dropdown-menu-trigger-height: var(--radix-popper-anchor-height); pointer-events: auto;\"></div> text=Attach fileConnect serviceSkillsScheduled"
+  },
+  {
+   "label": "t0-down1",
+   "png": "page_signup__desktop__t0-down1.png",
+   "dom": "2917eb8f3a69796c0d2436b62f8ce8880e43b405dff9e48611d5b43de6f04c1e",
+   "focus": "<div role=\"menuitem\" class=\"relative flex cursor-pointer select-none items-center rounded-sm px-2 py-1.5 text-body leading-5 outline-none transition-colors data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-neutral-100 focus:text-neutral-900 [@media(pointer:coarse)]:py-3\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Attach file"
+  },
+  {
+   "label": "t0-esc",
+   "png": "page_signup__desktop__t0-esc.png",
+   "dom": "51dc045099b7a4c2c057fc6792653ce562366f75c13d2ca49ca18cff39a30c5c",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] border disabled:shadow-none disabled:opacity-1 !min-w-0 size-9 rounded-full border-transparent bg-zinc-950/[0.06] p-0 text-zinc-900 shadow-none transition-[background-color,transform] hover:border-transparent hover:bg-zinc-950/10 hover:text-zinc-900 active:scale-[0.98] aria-expanded:bg-zinc-950/[0.12] [&amp;[aria-expanded=true]_svg]:rotate-45 [&amp;_svg]:transition-transform [&amp;_svg]:duration-200\" type=\"button\" aria-label=\"Add files and more\" data-testid=\"composer-plus-button\" id=\"radix-_r_1o_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\" aria-describedby=\"radix-_r_1q_\"></button> text="
+  },
+  {
+   "label": "t1-open",
+   "png": "page_signup__desktop__t1-open.png",
+   "dom": "307b616e41b51cb905e5d81bb575aa4e3744e7ba4045a04a6391c67d25cfb5f5",
+   "focus": "<div data-side=\"bottom\" data-align=\"start\" role=\"menu\" aria-orientation=\"vertical\" data-state=\"open\" data-radix-menu-content=\"\" dir=\"ltr\" id=\"radix-_r_1s_\" aria-labelledby=\"radix-_r_1r_\" class=\"z-50 min-w-[8rem] overflow-hidden rounded-md border border-neutral-200 bg-surface p-1 text-neutral-950 shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2\" tabindex=\"-1\" data-orientation=\"vertical\" style=\"outline: none; --radix-dropdown-menu-content-transform-origin: var(--radix-popper-transform-origin); --radix-dropdown-menu-content-available-width: var(--radix-popper-available-width); --radix-dropdown-menu-content-available-height: var(--radix-popper-available-height); --radix-dropdown-menu-trigger-width: var(--radix-popper-anchor-width); --radix-dropdown-menu-trigger-height: var(--radix-popper-anchor-height); pointer-events: auto;\"></div> text=Otto"
+  },
+  {
+   "label": "t1-down1",
+   "png": "page_signup__desktop__t1-down1.png",
+   "dom": "069af39068d6c0f87683e7ff9c09c0d83667088543fb85277d4efe2293a09e21",
+   "focus": "<div role=\"menuitem\" class=\"relative flex cursor-pointer select-none items-center rounded-sm px-2 py-1.5 text-body leading-5 outline-none transition-colors data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-neutral-100 focus:text-neutral-900 [@media(pointer:coarse)]:py-3 gap-2 bg-zinc-100\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Otto"
+  },
+  {
+   "label": "t1-esc",
+   "png": "page_signup__desktop__t1-esc.png",
+   "dom": "51cfcfd657653e64d4a7bed1d515d2b19c01c66a563112f0a31d471bfcfedd63",
+   "focus": "<button type=\"button\" aria-label=\"Sending to Otto — change recipient\" class=\"ml-2 inline-flex h-9 items-center gap-1.5 rounded-2xl border border-neutral-200 bg-white pl-1.5 pr-2 text-sm font-medium text-zinc-700 shadow-sm group transition-colors hover:bg-neutral-50\" id=\"radix-_r_1r_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text=Otto"
+  }
+ ],
+ "page_admin_users__mobile": [
+  {
+   "label": "tab0",
+   "png": "page_admin_users__mobile__tab0.png",
+   "dom": "18658796985a3d43a9b1dd17bc67f4c884cdfcb943d61f9805c9647de080636c",
+   "focus": "none"
+  },
+  {
+   "label": "tab1",
+   "png": "page_admin_users__mobile__tab1.png",
+   "dom": "18658796985a3d43a9b1dd17bc67f4c884cdfcb943d61f9805c9647de080636c",
+   "focus": "<a aria-label=\"Back to home\" class=\"flex items-center gap-1 rounded-[8px] py-1 pr-2 text-foreground-body transition-colors hover:text-[#1F1F20]\" href=\"/copilot\"></a> text="
+  },
+  {
+   "label": "tab2",
+   "png": "page_admin_users__mobile__tab2.png",
+   "dom": "18658796985a3d43a9b1dd17bc67f4c884cdfcb943d61f9805c9647de080636c",
+   "focus": "<button type=\"button\" class=\"flex w-fit items-center gap-2 rounded-full border border-border-base bg-surface px-3 py-2 outline-none focus-visible:ring-2 focus-visible:ring-[#3E3E43]\" aria-label=\"Admin navigation, current: Users\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_R_16iunciulanb_\" data-state=\"closed\"></button> text=Users"
+  },
+  {
+   "label": "tab3",
+   "png": "page_admin_users__mobile__tab3.png",
+   "dom": "43e2a65eb5f3b27789e3d2a6e0e96bab45b82f50b9eebe3c950da642695ab0bf",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" aria-controls=\"radix-_R_2lfiv8qiunciulanb_-content-lookup\" data-state=\"active\" id=\"radix-_R_2lfiv8qiunciulanb_-trigger-lookup\" class=\"relative inline-flex items-center justify-center whitespace-nowrap px-3 py-3 font-sans text-body font-medium leading-6 text-foreground-body transition-all data-[state=active]:text-brand-hover focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 gap-1.5\" tabindex=\"0\" data-orientation=\"horizontal\" data-radix-collection-item=\"\"></button> text=Lookup"
+  },
+  {
+   "label": "tab4",
+   "png": "page_admin_users__mobile__tab4.png",
+   "dom": "43e2a65eb5f3b27789e3d2a6e0e96bab45b82f50b9eebe3c950da642695ab0bf",
+   "focus": "<div data-state=\"active\" data-orientation=\"horizontal\" role=\"tabpanel\" aria-labelledby=\"radix-_R_2lfiv8qiunciulanb_-trigger-lookup\" id=\"radix-_R_2lfiv8qiunciulanb_-content-lookup\" tabindex=\"0\" class=\"data-[state=inactive]:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-stone-400 focus-visible:ring-offset-2 mt-4\" style=\"animation-duration:0s\"></div> text=Look up an account by ID or email to inspect it, limit it, o"
+  },
+  {
+   "label": "tab5",
+   "png": "page_admin_users__mobile__tab5.png",
+   "dom": "43e2a65eb5f3b27789e3d2a6e0e96bab45b82f50b9eebe3c950da642695ab0bf",
+   "focus": "<input type=\"search\" placeholder=\"User ID or email…\" aria-label=\"User ID or email\" autocomplete=\"off\" spellcheck=\"false\" class=\"w-full rounded-xl border border-input bg-background text-foreground placeholder:text-muted-foreground focus:border-ring focus:outline-none focus:ring-1 focus:ring-ring disabled:cursor-not-allowed disabled:opacity-60 h-[36px] pl-10 pr-9 text-body leading-5.5 [&amp;::-webkit-search-cancel-button]:appearance-none\" name=\"user\" value=\"\" style=\"\"> text="
+  },
+  {
+   "label": "t0-open",
+   "png": "page_admin_users__mobile__t0-open.png",
+   "dom": "aabfde78e622f6fc71b2913e1ae18766274db5f8e3f918ab370284d6b8a8bd76",
+   "focus": "<div data-side=\"bottom\" data-align=\"start\" data-state=\"open\" role=\"dialog\" id=\"radix-_R_16iunciulanb_\" class=\"z-50 rounded-lg border border-border-base bg-surface text-foreground-strong shadow-md outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 w-[calc(100vw-32px)] max-w-sm p-2\" tabindex=\"-1\" style=\"--radix-popover-content-transform-origin: var(--radix-popper-transform-origin); --radix-popover-content-available-width: var(--radix-popper-available-width); --radix-popover-content-available-height: var(--radix-popper-available-height); --radix-popover-trigger-width: var(--radix-popper-anchor-width); --radix-popover-trigger-height: var(--radix-popper-anchor-height);\"></div> text=UsersMarketplace ManagementUser SpendingSystem DiagnosticsPl"
+  },
+  {
+   "label": "t0-down1",
+   "png": "page_admin_users__mobile__t0-down1.png",
+   "dom": "aabfde78e622f6fc71b2913e1ae18766274db5f8e3f918ab370284d6b8a8bd76",
+   "focus": "<div data-side=\"bottom\" data-align=\"start\" data-state=\"open\" role=\"dialog\" id=\"radix-_R_16iunciulanb_\" class=\"z-50 rounded-lg border border-border-base bg-surface text-foreground-strong shadow-md outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 w-[calc(100vw-32px)] max-w-sm p-2\" tabindex=\"-1\" style=\"--radix-popover-content-transform-origin: var(--radix-popper-transform-origin); --radix-popover-content-available-width: var(--radix-popper-available-width); --radix-popover-content-available-height: var(--radix-popper-available-height); --radix-popover-trigger-width: var(--radix-popper-anchor-width); --radix-popover-trigger-height: var(--radix-popper-anchor-height);\"></div> text=UsersMarketplace ManagementUser SpendingSystem DiagnosticsPl"
+  },
+  {
+   "label": "t0-esc",
+   "png": "page_admin_users__mobile__t0-esc.png",
+   "dom": "7f8850f67c3395f0b38d5cd7046a7e7dd1c5fb0a977989b37e4581b09ccadf6f",
+   "focus": "<button type=\"button\" class=\"flex w-fit items-center gap-2 rounded-full border border-border-base bg-surface px-3 py-2 outline-none focus-visible:ring-2 focus-visible:ring-[#3E3E43]\" aria-label=\"Admin navigation, current: Users\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_R_16iunciulanb_\" data-state=\"closed\"></button> text=Users"
+  }
+ ],
+ "page_artifacts__mobile": [
+  {
+   "label": "tab0",
+   "png": "page_artifacts__mobile__tab0.png",
+   "dom": "d6a8af638d255747dd7abba282f7aaa6921c7f517d5cd34b4bf4070d4e2b68c7",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug border bg-transparent border-transparent hover:bg-surface-muted hover:border-surface-muted disabled:text-surface-active disabled:opacity-1 size-8 min-w-0 rounded-lg p-0 -mr-1 -mt-1 text-muted-foreground hover:text-foreground\" type=\"button\" aria-label=\"Dismiss changelog\"></button> text="
+  },
+  {
+   "label": "tab1",
+   "png": "page_artifacts__mobile__tab1.png",
+   "dom": "d6a8af638d255747dd7abba282f7aaa6921c7f517d5cd34b4bf4070d4e2b68c7",
+   "focus": "<a href=\"https://agpt.co/docs/platform/changelog/changelog/october-8-october-14-2026\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"font-sans text-body font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-info focus:ring-offset-2 rounded-sm inline-flex items-center gap-1.5 text-foreground\"></a> text=View changelog"
+  },
+  {
+   "label": "tab2",
+   "png": "page_artifacts__mobile__tab2.png",
+   "dom": "d6a8af638d255747dd7abba282f7aaa6921c7f517d5cd34b4bf4070d4e2b68c7",
+   "focus": "<button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-neutral-950 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 dark:focus-visible:ring-neutral-300 hover:text-neutral-900 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 h-9 w-9 rounded-full border border-[#DADADC] bg-white shadow-md hover:bg-[#F5F5F6]\" data-sidebar=\"trigger\"></button> text=Toggle Sidebar"
+  },
+  {
+   "label": "tab3",
+   "png": "page_artifacts__mobile__tab3.png",
+   "dom": "d6a8af638d255747dd7abba282f7aaa6921c7f517d5cd34b4bf4070d4e2b68c7",
+   "focus": "<input type=\"text\" class=\"agpt-border-input agpt-shadow-input flex transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:cursor-not-allowed disabled:opacity-50 dark:placeholder:text-gray-400 border border-border-base bg-surface px-4 shadow-none w-full font-normal text-foreground-base placeholder:font-normal placeholder:text-placeholder focus:border-purple-400 focus:shadow-none focus:outline-none focus:ring-1 focus:ring-purple-400 focus:ring-offset-0 min-w-[16rem] rounded-full pl-10 lg:min-w-[20rem] h-9 py-2 text-body placeholder:text-body\" placeholder=\"Search\" aria-label=\"Search files\" id=\"artifacts-search-bar\" data-testid=\"artifacts-search-input\" value=\"\" style=\"\"> text="
+  },
+  {
+   "label": "tab4",
+   "png": "page_artifacts__mobile__tab4.png",
+   "dom": "d6a8af638d255747dd7abba282f7aaa6921c7f517d5cd34b4bf4070d4e2b68c7",
+   "focus": "<button type=\"button\" class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-3 py-2 text-body leading-5 h-9 min-w-0 gap-1.5 pl-4 pr-3\" data-testid=\"artifacts-new-menu\" id=\"radix-_R_6kanpfb5ciulanb_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text=New"
+  },
+  {
+   "label": "tab5",
+   "png": "page_artifacts__mobile__tab5.png",
+   "dom": "d6a8af638d255747dd7abba282f7aaa6921c7f517d5cd34b4bf4070d4e2b68c7",
+   "focus": "<button type=\"button\" role=\"tab\" aria-selected=\"true\" class=\"relative rounded-full px-4 py-2 text-sm font-medium outline-none transition-colors focus-visible:ring-2 focus-visible:ring-zinc-400 text-zinc-900\" data-testid=\"artifacts-origin-filter-all\"></button> text=All"
+  },
+  {
+   "label": "t0-open",
+   "png": "page_artifacts__mobile__t0-open.png",
+   "dom": "1bf5d62a8b9487bc7d2d6c61039978a01adabd2cedf48987e2ee67c1df1ad2f2",
+   "focus": "<div data-side=\"bottom\" data-align=\"end\" role=\"menu\" aria-orientation=\"vertical\" data-state=\"open\" data-radix-menu-content=\"\" dir=\"ltr\" id=\"radix-_R_6kanpfb5ciulanbH1_\" aria-labelledby=\"radix-_R_6kanpfb5ciulanb_\" class=\"z-50 min-w-[8rem] overflow-hidden rounded-md border border-neutral-200 bg-surface p-1 text-neutral-950 shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 w-44\" tabindex=\"-1\" data-orientation=\"vertical\" style=\"outline: none; --radix-dropdown-menu-content-transform-origin: var(--radix-popper-transform-origin); --radix-dropdown-menu-content-available-width: var(--radix-popper-available-width); --radix-dropdown-menu-content-available-height: var(--radix-popper-available-height); --radix-dropdown-menu-trigger-width: var(--radix-popper-anchor-width); --radix-dropdown-menu-trigger-height: var(--radix-popper-anchor-height); pointer-events: auto;\"></div> text=Upload fileNew folder"
+  },
+  {
+   "label": "t0-down1",
+   "png": "page_artifacts__mobile__t0-down1.png",
+   "dom": "897c69cc157cf9897946996c0ffb3af25c20e8f12c3173f8b8b8ee38bf561a85",
+   "focus": "<div role=\"menuitem\" class=\"relative flex cursor-pointer select-none items-center rounded-sm px-2 py-1.5 text-body leading-5 outline-none transition-colors data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-neutral-100 focus:text-neutral-900 [@media(pointer:coarse)]:py-3\" data-testid=\"artifacts-upload-file\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Upload file"
+  },
+  {
+   "label": "t0-esc",
+   "png": "page_artifacts__mobile__t0-esc.png",
+   "dom": "26e11d7123fab710ae9c692790205f08c7b7d0f3070021440e1ecc7820c7ecd0",
+   "focus": "<button type=\"button\" class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-3 py-2 text-body leading-5 h-9 min-w-0 gap-1.5 pl-4 pr-3\" data-testid=\"artifacts-new-menu\" id=\"radix-_R_6kanpfb5ciulanb_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text=New"
+  }
+ ],
+ "page_home__mobile": [
+  {
+   "label": "tab0",
+   "png": "page_home__mobile__tab0.png",
+   "dom": "56a8f920380a0ac8a299a16e5154d4a85d8eb099cc416e33f1f1c0e1ad2e5822",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] border disabled:shadow-none disabled:opacity-1 !min-w-0 size-9 rounded-full border-transparent bg-zinc-950/[0.06] p-0 text-zinc-900 shadow-none transition-[background-color,transform] hover:border-transparent hover:bg-zinc-950/10 hover:text-zinc-900 active:scale-[0.98] aria-expanded:bg-zinc-950/[0.12]\" type=\"button\" aria-label=\"Start recording\" data-state=\"closed\"></button> text="
+  },
+  {
+   "label": "tab1",
+   "png": "page_home__mobile__tab1.png",
+   "dom": "56a8f920380a0ac8a299a16e5154d4a85d8eb099cc416e33f1f1c0e1ad2e5822",
+   "focus": "none"
+  },
+  {
+   "label": "tab2",
+   "png": "page_home__mobile__tab2.png",
+   "dom": "56a8f920380a0ac8a299a16e5154d4a85d8eb099cc416e33f1f1c0e1ad2e5822",
+   "focus": "<button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-neutral-950 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 dark:focus-visible:ring-neutral-300 hover:text-neutral-900 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 h-9 w-9 rounded-full border border-[#DADADC] bg-white shadow-md hover:bg-[#F5F5F6]\" data-sidebar=\"trigger\"></button> text=Toggle Sidebar"
+  },
+  {
+   "label": "tab3",
+   "png": "page_home__mobile__tab3.png",
+   "dom": "56a8f920380a0ac8a299a16e5154d4a85d8eb099cc416e33f1f1c0e1ad2e5822",
+   "focus": "<a aria-label=\"Set up an AI connection\" class=\"inline-flex h-9 items-center gap-1.5 rounded-full border border-border bg-muted px-2.5 text-xs font-medium text-foreground transition-colors hover:bg-muted/80 ml-0\" href=\"/settings/integrations\"></a> text=Set up AI connection"
+  },
+  {
+   "label": "tab4",
+   "png": "page_home__mobile__tab4.png",
+   "dom": "56a8f920380a0ac8a299a16e5154d4a85d8eb099cc416e33f1f1c0e1ad2e5822",
+   "focus": "<button type=\"button\" class=\"flex min-w-0 flex-1 items-center gap-3 px-4 py-3 text-left cursor-pointer disabled:cursor-default disabled:opacity-60\"></button> text=Build a workflow that drafts your Monday status report befor"
+  },
+  {
+   "label": "tab5",
+   "png": "page_home__mobile__tab5.png",
+   "dom": "56a8f920380a0ac8a299a16e5154d4a85d8eb099cc416e33f1f1c0e1ad2e5822",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug border bg-transparent border-transparent hover:bg-surface-muted hover:border-surface-muted disabled:text-surface-active disabled:opacity-1 size-7 min-w-0 rounded-md p-0 mr-2 shrink-0 text-zinc-400 opacity-0 transition-opacity duration-150 group-hover/row:opacity-100 hover:text-zinc-700 focus-visible:opacity-100 [@media(hover:none)]:opacity-100\" type=\"button\" aria-label=\"Hide: Build a workflow that drafts your Monday status report before you wake up\"></button> text="
+  },
+  {
+   "label": "t0-open",
+   "png": "page_home__mobile__t0-open.png",
+   "dom": "7310624be5e0c5521c32871897ea73bbac3389f3d608433d70a03b5510ca3d32",
+   "focus": "<div data-side=\"top\" data-align=\"start\" role=\"menu\" aria-orientation=\"vertical\" data-state=\"open\" data-radix-menu-content=\"\" dir=\"ltr\" id=\"radix-_r_1v_\" aria-labelledby=\"radix-_r_1u_\" class=\"z-50 overflow-hidden rounded-md border border-neutral-200 bg-surface p-1 text-neutral-950 shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 min-w-[14rem]\" tabindex=\"-1\" data-orientation=\"vertical\" style=\"outline: none; --radix-dropdown-menu-content-transform-origin: var(--radix-popper-transform-origin); --radix-dropdown-menu-content-available-width: var(--radix-popper-available-width); --radix-dropdown-menu-content-available-height: var(--radix-popper-available-height); --radix-dropdown-menu-trigger-width: var(--radix-popper-anchor-width); --radix-dropdown-menu-trigger-height: var(--radix-popper-anchor-height); pointer-events: auto;\"></div> text=Attach fileConnect serviceSkillsScheduled"
+  },
+  {
+   "label": "t0-down1",
+   "png": "page_home__mobile__t0-down1.png",
+   "dom": "5cb892ec392cae6dab00ce17e08f11450a22dea328a8ffa8ffcae9537656417a",
+   "focus": "<div role=\"menuitem\" class=\"relative flex cursor-pointer select-none items-center rounded-sm px-2 py-1.5 text-body leading-5 outline-none transition-colors data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-neutral-100 focus:text-neutral-900 [@media(pointer:coarse)]:py-3\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Attach file"
+  },
+  {
+   "label": "t0-esc",
+   "png": "page_home__mobile__t0-esc.png",
+   "dom": "f2bcc17ac84473fc44d2ec54fbdee95917db27dc789b8daac8fbc119c1df368a",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] border disabled:shadow-none disabled:opacity-1 !min-w-0 size-9 rounded-full border-transparent bg-zinc-950/[0.06] p-0 text-zinc-900 shadow-none transition-[background-color,transform] hover:border-transparent hover:bg-zinc-950/10 hover:text-zinc-900 active:scale-[0.98] aria-expanded:bg-zinc-950/[0.12] [&amp;[aria-expanded=true]_svg]:rotate-45 [&amp;_svg]:transition-transform [&amp;_svg]:duration-200\" type=\"button\" aria-label=\"Add files and more\" data-testid=\"composer-plus-button\" id=\"radix-_r_1u_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\" aria-describedby=\"radix-_r_20_\"></button> text="
+  },
+  {
+   "label": "t1-open",
+   "png": "page_home__mobile__t1-open.png",
+   "dom": "c7973fb49172591ff7138f535a73834036b29f434dc4e1109b83b5e900190378",
+   "focus": "<div data-side=\"bottom\" data-align=\"start\" role=\"menu\" aria-orientation=\"vertical\" data-state=\"open\" data-radix-menu-content=\"\" dir=\"ltr\" id=\"radix-_r_22_\" aria-labelledby=\"radix-_r_21_\" class=\"z-50 min-w-[8rem] overflow-hidden rounded-md border border-neutral-200 bg-surface p-1 text-neutral-950 shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2\" tabindex=\"-1\" data-orientation=\"vertical\" style=\"outline: none; --radix-dropdown-menu-content-transform-origin: var(--radix-popper-transform-origin); --radix-dropdown-menu-content-available-width: var(--radix-popper-available-width); --radix-dropdown-menu-content-available-height: var(--radix-popper-available-height); --radix-dropdown-menu-trigger-width: var(--radix-popper-anchor-width); --radix-dropdown-menu-trigger-height: var(--radix-popper-anchor-height); pointer-events: auto;\"></div> text=Otto"
+  },
+  {
+   "label": "t1-down1",
+   "png": "page_home__mobile__t1-down1.png",
+   "dom": "48157afa1762a0d5ab733bb1e7da5ace4667bc52bf1e0fc0262286453ef94054",
+   "focus": "<div role=\"menuitem\" class=\"relative flex cursor-pointer select-none items-center rounded-sm px-2 py-1.5 text-body leading-5 outline-none transition-colors data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-neutral-100 focus:text-neutral-900 [@media(pointer:coarse)]:py-3 gap-2 bg-zinc-100\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Otto"
+  },
+  {
+   "label": "t1-esc",
+   "png": "page_home__mobile__t1-esc.png",
+   "dom": "b2431e9ddf28ecb91e0182702edec7196343f45d70362a708a0d48b1f4ad15a3",
+   "focus": "<button type=\"button\" aria-label=\"Sending to Otto — change recipient\" class=\"ml-2 inline-flex h-9 items-center gap-1.5 rounded-2xl border border-neutral-200 bg-white pl-1.5 pr-2 text-sm font-medium text-zinc-700 shadow-sm group transition-colors hover:bg-neutral-50\" id=\"radix-_r_21_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text=Otto"
+  }
+ ],
+ "page_login__mobile": [
+  {
+   "label": "tab0",
+   "png": "page_login__mobile__tab0.png",
+   "dom": "1e5cea7a1a95fcc73c185aa958df1dcce9352cb4a7d22938e1329d808fd84dfd",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] border disabled:shadow-none disabled:opacity-1 !min-w-0 size-9 rounded-full border-transparent bg-zinc-950/[0.06] p-0 text-zinc-900 shadow-none transition-[background-color,transform] hover:border-transparent hover:bg-zinc-950/10 hover:text-zinc-900 active:scale-[0.98] aria-expanded:bg-zinc-950/[0.12]\" type=\"button\" aria-label=\"Start recording\" data-state=\"closed\"></button> text="
+  },
+  {
+   "label": "tab1",
+   "png": "page_login__mobile__tab1.png",
+   "dom": "1e5cea7a1a95fcc73c185aa958df1dcce9352cb4a7d22938e1329d808fd84dfd",
+   "focus": "none"
+  },
+  {
+   "label": "tab2",
+   "png": "page_login__mobile__tab2.png",
+   "dom": "1e5cea7a1a95fcc73c185aa958df1dcce9352cb4a7d22938e1329d808fd84dfd",
+   "focus": "<button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-neutral-950 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 dark:focus-visible:ring-neutral-300 hover:text-neutral-900 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 h-9 w-9 rounded-full border border-[#DADADC] bg-white shadow-md hover:bg-[#F5F5F6]\" data-sidebar=\"trigger\"></button> text=Toggle Sidebar"
+  },
+  {
+   "label": "tab3",
+   "png": "page_login__mobile__tab3.png",
+   "dom": "1e5cea7a1a95fcc73c185aa958df1dcce9352cb4a7d22938e1329d808fd84dfd",
+   "focus": "<a aria-label=\"Set up an AI connection\" class=\"inline-flex h-9 items-center gap-1.5 rounded-full border border-border bg-muted px-2.5 text-xs font-medium text-foreground transition-colors hover:bg-muted/80 ml-0\" href=\"/settings/integrations\"></a> text=Set up AI connection"
+  },
+  {
+   "label": "tab4",
+   "png": "page_login__mobile__tab4.png",
+   "dom": "1e5cea7a1a95fcc73c185aa958df1dcce9352cb4a7d22938e1329d808fd84dfd",
+   "focus": "<button type=\"button\" class=\"flex min-w-0 flex-1 items-center gap-3 px-4 py-3 text-left cursor-pointer disabled:cursor-default disabled:opacity-60\"></button> text=Build a workflow that drafts your Monday status report befor"
+  },
+  {
+   "label": "tab5",
+   "png": "page_login__mobile__tab5.png",
+   "dom": "1e5cea7a1a95fcc73c185aa958df1dcce9352cb4a7d22938e1329d808fd84dfd",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug border bg-transparent border-transparent hover:bg-surface-muted hover:border-surface-muted disabled:text-surface-active disabled:opacity-1 size-7 min-w-0 rounded-md p-0 mr-2 shrink-0 text-zinc-400 opacity-0 transition-opacity duration-150 group-hover/row:opacity-100 hover:text-zinc-700 focus-visible:opacity-100 [@media(hover:none)]:opacity-100\" type=\"button\" aria-label=\"Hide: Build a workflow that drafts your Monday status report before you wake up\"></button> text="
+  },
+  {
+   "label": "t0-open",
+   "png": "page_login__mobile__t0-open.png",
+   "dom": "be87e7080e296bd71739519bc53b98659b8e8c7b29d42e0e1a9e8966922a8c40",
+   "focus": "<div data-side=\"top\" data-align=\"start\" role=\"menu\" aria-orientation=\"vertical\" data-state=\"open\" data-radix-menu-content=\"\" dir=\"ltr\" id=\"radix-_r_2k_\" aria-labelledby=\"radix-_r_2j_\" class=\"z-50 overflow-hidden rounded-md border border-neutral-200 bg-surface p-1 text-neutral-950 shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 min-w-[14rem]\" tabindex=\"-1\" data-orientation=\"vertical\" style=\"outline: none; --radix-dropdown-menu-content-transform-origin: var(--radix-popper-transform-origin); --radix-dropdown-menu-content-available-width: var(--radix-popper-available-width); --radix-dropdown-menu-content-available-height: var(--radix-popper-available-height); --radix-dropdown-menu-trigger-width: var(--radix-popper-anchor-width); --radix-dropdown-menu-trigger-height: var(--radix-popper-anchor-height); pointer-events: auto;\"></div> text=Attach fileConnect serviceSkillsScheduled"
+  },
+  {
+   "label": "t0-down1",
+   "png": "page_login__mobile__t0-down1.png",
+   "dom": "30b419600fed81c9cc911c138a1db233c5f5ac7f7c5f1f55b13d8cff8d1524b2",
+   "focus": "<div role=\"menuitem\" class=\"relative flex cursor-pointer select-none items-center rounded-sm px-2 py-1.5 text-body leading-5 outline-none transition-colors data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-neutral-100 focus:text-neutral-900 [@media(pointer:coarse)]:py-3\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Attach file"
+  },
+  {
+   "label": "t0-esc",
+   "png": "page_login__mobile__t0-esc.png",
+   "dom": "7960f04a0bc1aa465f10e4412f388eca1a35a63e6c4668b6d5d757ce0ab76a2e",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] border disabled:shadow-none disabled:opacity-1 !min-w-0 size-9 rounded-full border-transparent bg-zinc-950/[0.06] p-0 text-zinc-900 shadow-none transition-[background-color,transform] hover:border-transparent hover:bg-zinc-950/10 hover:text-zinc-900 active:scale-[0.98] aria-expanded:bg-zinc-950/[0.12] [&amp;[aria-expanded=true]_svg]:rotate-45 [&amp;_svg]:transition-transform [&amp;_svg]:duration-200\" type=\"button\" aria-label=\"Add files and more\" data-testid=\"composer-plus-button\" id=\"radix-_r_2j_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\" aria-describedby=\"radix-_r_2l_\"></button> text="
+  },
+  {
+   "label": "t1-open",
+   "png": "page_login__mobile__t1-open.png",
+   "dom": "ee772527be40ddd811d0f4d6728309e80aa47c289bce57ce010754d4b8404aca",
+   "focus": "<div data-side=\"bottom\" data-align=\"start\" role=\"menu\" aria-orientation=\"vertical\" data-state=\"open\" data-radix-menu-content=\"\" dir=\"ltr\" id=\"radix-_r_2n_\" aria-labelledby=\"radix-_r_2m_\" class=\"z-50 min-w-[8rem] overflow-hidden rounded-md border border-neutral-200 bg-surface p-1 text-neutral-950 shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2\" tabindex=\"-1\" data-orientation=\"vertical\" style=\"outline: none; --radix-dropdown-menu-content-transform-origin: var(--radix-popper-transform-origin); --radix-dropdown-menu-content-available-width: var(--radix-popper-available-width); --radix-dropdown-menu-content-available-height: var(--radix-popper-available-height); --radix-dropdown-menu-trigger-width: var(--radix-popper-anchor-width); --radix-dropdown-menu-trigger-height: var(--radix-popper-anchor-height); pointer-events: auto;\"></div> text=Otto"
+  },
+  {
+   "label": "t1-down1",
+   "png": "page_login__mobile__t1-down1.png",
+   "dom": "6082dacc1f0bed4d96240be5ddf6efe2ac28131a83decf5bb06b4a1778458c95",
+   "focus": "<div role=\"menuitem\" class=\"relative flex cursor-pointer select-none items-center rounded-sm px-2 py-1.5 text-body leading-5 outline-none transition-colors data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-neutral-100 focus:text-neutral-900 [@media(pointer:coarse)]:py-3 gap-2 bg-zinc-100\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Otto"
+  },
+  {
+   "label": "t1-esc",
+   "png": "page_login__mobile__t1-esc.png",
+   "dom": "19b4ca63b9bdc366e50beca52fe4363ff9e3699841d0aca6bb8269f1babda607",
+   "focus": "<button type=\"button\" aria-label=\"Sending to Otto — change recipient\" class=\"ml-2 inline-flex h-9 items-center gap-1.5 rounded-2xl border border-neutral-200 bg-white pl-1.5 pr-2 text-sm font-medium text-zinc-700 shadow-sm group transition-colors hover:bg-neutral-50\" id=\"radix-_r_2m_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text=Otto"
+  }
+ ],
+ "page_marketplace__mobile": [
+  {
+   "label": "tab0",
+   "png": "page_marketplace__mobile__tab0.png",
+   "dom": "26be8334c87ccd37632ab50fb9193158e47140ee39d92f16de69aac77c433b63",
+   "focus": "<button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-neutral-950 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 dark:focus-visible:ring-neutral-300 hover:text-neutral-900 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 h-9 w-9 rounded-full border border-[#DADADC] bg-white shadow-md hover:bg-[#F5F5F6]\" data-sidebar=\"trigger\"></button> text=Toggle Sidebar"
+  },
+  {
+   "label": "tab1",
+   "png": "page_marketplace__mobile__tab1.png",
+   "dom": "26be8334c87ccd37632ab50fb9193158e47140ee39d92f16de69aac77c433b63",
+   "focus": "<input type=\"text\" aria-label=\"Search for tasks like &quot;optimise SEO&quot;\" placeholder=\"Search for tasks like &quot;optimise SEO&quot;\" class=\"flex-grow border-none bg-transparent text-base font-normal text-foreground-base placeholder:text-base placeholder:font-normal placeholder:text-foreground-subtle focus:outline-none md:text-lg md:placeholder:text-lg\" data-testid=\"store-search-input\" value=\"\" style=\"\"> text="
+  },
+  {
+   "label": "tab2",
+   "png": "page_marketplace__mobile__tab2.png",
+   "dom": "26be8334c87ccd37632ab50fb9193158e47140ee39d92f16de69aac77c433b63",
+   "focus": "<button class=\"justify-center whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans hover:bg-surface-hover disabled:border-border-base disabled:text-surface-active disabled:opacity-1 py-2 min-w-0 inline-flex items-center rounded-full border bg-transparent font-medium h-9 gap-1.5 px-3.5 text-sm bg-gradient-to-b shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_1px_2px_rgba(16,24,40,0.05)] border-border-base from-surface to-surface-muted text-foreground-body hover:border-border-strong hover:from-surface hover:to-surface-hover\" aria-pressed=\"false\"></button> text=Marketing"
+  },
+  {
+   "label": "tab3",
+   "png": "page_marketplace__mobile__tab3.png",
+   "dom": "26be8334c87ccd37632ab50fb9193158e47140ee39d92f16de69aac77c433b63",
+   "focus": "<button class=\"justify-center whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans hover:bg-surface-hover disabled:border-border-base disabled:text-surface-active disabled:opacity-1 py-2 min-w-0 inline-flex items-center rounded-full border bg-transparent font-medium h-9 gap-1.5 px-3.5 text-sm bg-gradient-to-b shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_1px_2px_rgba(16,24,40,0.05)] border-border-base from-surface to-surface-muted text-foreground-body hover:border-border-strong hover:from-surface hover:to-surface-hover\" aria-pressed=\"false\"></button> text=SEO"
+  },
+  {
+   "label": "tab4",
+   "png": "page_marketplace__mobile__tab4.png",
+   "dom": "26be8334c87ccd37632ab50fb9193158e47140ee39d92f16de69aac77c433b63",
+   "focus": "<button class=\"justify-center whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans hover:bg-surface-hover disabled:border-border-base disabled:text-surface-active disabled:opacity-1 py-2 min-w-0 inline-flex items-center rounded-full border bg-transparent font-medium h-9 gap-1.5 px-3.5 text-sm bg-gradient-to-b shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_1px_2px_rgba(16,24,40,0.05)] border-border-base from-surface to-surface-muted text-foreground-body hover:border-border-strong hover:from-surface hover:to-surface-hover\" aria-pressed=\"false\"></button> text=Content Creation"
+  },
+  {
+   "label": "tab5",
+   "png": "page_marketplace__mobile__tab5.png",
+   "dom": "26be8334c87ccd37632ab50fb9193158e47140ee39d92f16de69aac77c433b63",
+   "focus": "<button class=\"justify-center whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans hover:bg-surface-hover disabled:border-border-base disabled:text-surface-active disabled:opacity-1 py-2 min-w-0 inline-flex items-center rounded-full border bg-transparent font-medium h-9 gap-1.5 px-3.5 text-sm bg-gradient-to-b shadow-[inset_0_1px_0_rgba(255,255,255,0.9),0_1px_2px_rgba(16,24,40,0.05)] border-border-base from-surface to-surface-muted text-foreground-body hover:border-border-strong hover:from-surface hover:to-surface-hover\" aria-pressed=\"false\"></button> text=Automation"
+  },
+  {
+   "label": "t0-open",
+   "png": "page_marketplace__mobile__t0-open.png",
+   "dom": "8cf358b11b8823e88e5dd5891aeb2f83a45a6278463dcc2df0a9abb744604223",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" aria-expanded=\"true\"></button> text=Show fewer"
+  },
+  {
+   "label": "t0-down1",
+   "png": "page_marketplace__mobile__t0-down1.png",
+   "dom": "8cf358b11b8823e88e5dd5891aeb2f83a45a6278463dcc2df0a9abb744604223",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" aria-expanded=\"true\"></button> text=Show fewer"
+  },
+  {
+   "label": "t0-esc",
+   "png": "page_marketplace__mobile__t0-esc.png",
+   "dom": "8cf358b11b8823e88e5dd5891aeb2f83a45a6278463dcc2df0a9abb744604223",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" aria-expanded=\"true\"></button> text=Show fewer"
+  }
+ ],
+ "page_profile_api-keys__mobile": [
+  {
+   "label": "tab0",
+   "png": "page_profile_api-keys__mobile__tab0.png",
+   "dom": "23d4d00833794366605dd3492ecd2035139f871a0a3ca1c15313ad5b5075d529",
+   "focus": "<button type=\"button\" class=\"flex w-fit items-center gap-2 rounded-full border border-border-base bg-surface px-3 py-2 outline-none focus-visible:ring-2 focus-visible:ring-[#3E3E43]\" aria-label=\"Settings navigation, current: AutoGPT API Keys\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_r_j_\" data-state=\"closed\"></button> text=AutoGPT API Keys"
+  },
+  {
+   "label": "tab1",
+   "png": "page_profile_api-keys__mobile__tab1.png",
+   "dom": "23d4d00833794366605dd3492ecd2035139f871a0a3ca1c15313ad5b5075d529",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem] sm:hidden\"></button> text=Create Key"
+  },
+  {
+   "label": "tab2",
+   "png": "page_profile_api-keys__mobile__tab2.png",
+   "dom": "23d4d00833794366605dd3492ecd2035139f871a0a3ca1c15313ad5b5075d529",
+   "focus": "<button type=\"button\" role=\"checkbox\" aria-checked=\"false\" aria-label=\"Select evidence key\" class=\"shrink-0 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-action text-foreground-tertiary hover:text-foreground-body\"></button> text="
+  },
+  {
+   "label": "tab3",
+   "png": "page_profile_api-keys__mobile__tab3.png",
+   "dom": "77eb111704d241b90aa6b1ca218ab4a918d56938864c9636de24983b092a9fd0",
+   "focus": "<button type=\"button\" aria-label=\"View details for evidence key\" class=\"shrink-0 rounded text-foreground-tertiary transition-colors hover:text-foreground-body focus:outline-none focus-visible:ring-2 focus-visible:ring-action\" data-state=\"instant-open\" aria-describedby=\"radix-_r_13_\"></button> text="
+  },
+  {
+   "label": "tab4",
+   "png": "page_profile_api-keys__mobile__tab4.png",
+   "dom": "23d4d00833794366605dd3492ecd2035139f871a0a3ca1c15313ad5b5075d529",
+   "focus": "<button type=\"button\" aria-label=\"Delete evidence key\" class=\"shrink-0 rounded text-foreground-tertiary transition-colors hover:text-foreground-body focus:outline-none focus-visible:ring-2 focus-visible:ring-action\"></button> text="
+  },
+  {
+   "label": "tab5",
+   "png": "page_profile_api-keys__mobile__tab5.png",
+   "dom": "23d4d00833794366605dd3492ecd2035139f871a0a3ca1c15313ad5b5075d529",
+   "focus": "none"
+  },
+  {
+   "label": "t0-open",
+   "png": "page_profile_api-keys__mobile__t0-open.png",
+   "dom": "28028bf1cfb40bee6caae24f051ee7f773c762fe1d2ff10ada94e9af15356587",
+   "focus": "<div data-side=\"bottom\" data-align=\"start\" data-state=\"open\" role=\"dialog\" id=\"radix-_r_j_\" class=\"z-50 rounded-lg border border-border-base bg-surface text-foreground-strong shadow-md outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 w-[calc(100vw-32px)] max-w-sm p-2\" tabindex=\"-1\" style=\"--radix-popover-content-transform-origin: var(--radix-popper-transform-origin); --radix-popover-content-available-width: var(--radix-popper-available-width); --radix-popover-content-available-height: var(--radix-popper-available-height); --radix-popover-trigger-width: var(--radix-popper-anchor-width); --radix-popover-trigger-height: var(--radix-popper-anchor-height);\"></div> text=ProfileAccountMemoryIntegrationsBotsAutoGPT API KeysCreator "
+  },
+  {
+   "label": "t0-down1",
+   "png": "page_profile_api-keys__mobile__t0-down1.png",
+   "dom": "28028bf1cfb40bee6caae24f051ee7f773c762fe1d2ff10ada94e9af15356587",
+   "focus": "<div data-side=\"bottom\" data-align=\"start\" data-state=\"open\" role=\"dialog\" id=\"radix-_r_j_\" class=\"z-50 rounded-lg border border-border-base bg-surface text-foreground-strong shadow-md outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 w-[calc(100vw-32px)] max-w-sm p-2\" tabindex=\"-1\" style=\"--radix-popover-content-transform-origin: var(--radix-popper-transform-origin); --radix-popover-content-available-width: var(--radix-popper-available-width); --radix-popover-content-available-height: var(--radix-popper-available-height); --radix-popover-trigger-width: var(--radix-popper-anchor-width); --radix-popover-trigger-height: var(--radix-popper-anchor-height);\"></div> text=ProfileAccountMemoryIntegrationsBotsAutoGPT API KeysCreator "
+  },
+  {
+   "label": "t0-esc",
+   "png": "page_profile_api-keys__mobile__t0-esc.png",
+   "dom": "23d4d00833794366605dd3492ecd2035139f871a0a3ca1c15313ad5b5075d529",
+   "focus": "<button type=\"button\" class=\"flex w-fit items-center gap-2 rounded-full border border-border-base bg-surface px-3 py-2 outline-none focus-visible:ring-2 focus-visible:ring-[#3E3E43]\" aria-label=\"Settings navigation, current: AutoGPT API Keys\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_r_j_\" data-state=\"closed\"></button> text=AutoGPT API Keys"
+  }
+ ],
+ "page_settings_account__mobile": [
+  {
+   "label": "tab0",
+   "png": "page_settings_account__mobile__tab0.png",
+   "dom": "01d913841023205babaff279dc37211829d46ea3ddb06731de521e3f82b0228b",
+   "focus": "<button type=\"button\" class=\"flex w-fit items-center gap-2 rounded-full border border-border-base bg-surface px-3 py-2 outline-none focus-visible:ring-2 focus-visible:ring-[#3E3E43]\" aria-label=\"Settings navigation, current: Account\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_R_16iunciulanb_\" data-state=\"closed\"></button> text=Account"
+  },
+  {
+   "label": "tab1",
+   "png": "page_settings_account__mobile__tab1.png",
+   "dom": "01d913841023205babaff279dc37211829d46ea3ddb06731de521e3f82b0228b",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-surface border-border-base text-foreground-emphasis shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-full disabled:text-foreground-disabled disabled:bg-surface-muted disabled:border-separator disabled:shadow-none disabled:opacity-1 text-body leading-5 gap-1.5 cursor-pointer h-7 min-w-0 px-1.5 py-0.5\" aria-label=\"Edit email\"></button> text="
+  },
+  {
+   "label": "tab2",
+   "png": "page_settings_account__mobile__tab2.png",
+   "dom": "01d913841023205babaff279dc37211829d46ea3ddb06731de521e3f82b0228b",
+   "focus": "<a class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border bg-surface border-border-base text-foreground-emphasis shadow-sm hover:bg-surface-muted hover:border-border-strong rounded-full disabled:text-foreground-disabled disabled:bg-surface-muted disabled:border-separator disabled:shadow-none disabled:opacity-1 px-3 py-2 text-body leading-5 gap-1.5 h-9 min-w-[5.5rem]\" aria-disabled=\"false\" href=\"/reset-password\"></a> text=Reset password"
+  },
+  {
+   "label": "tab3",
+   "png": "page_settings_account__mobile__tab3.png",
+   "dom": "845d871b8d37de42f2a5eff4bf860281a90053f0ffb12f76daca99f795f6e171",
+   "focus": "<button type=\"button\" aria-label=\"Time zone info\" class=\"flex items-center text-foreground-subtle transition-colors hover:text-foreground-secondary focus-visible:text-foreground-secondary focus-visible:outline-none\" data-state=\"instant-open\" aria-describedby=\"radix-_r_f_\"></button> text="
+  },
+  {
+   "label": "tab4",
+   "png": "page_settings_account__mobile__tab4.png",
+   "dom": "01d913841023205babaff279dc37211829d46ea3ddb06731de521e3f82b0228b",
+   "focus": "<button type=\"button\" role=\"combobox\" aria-controls=\"radix-_r_g_\" aria-expanded=\"false\" aria-autocomplete=\"none\" dir=\"ltr\" data-state=\"closed\" class=\"agpt-border-input agpt-shadow-input flex items-center justify-between whitespace-nowrap ring-offset-white placeholder:text-neutral-500 data-[state=open]:border-gray-400 disabled:cursor-not-allowed disabled:opacity-50 dark:placeholder:text-neutral-400 [&amp;&gt;span]:line-clamp-1 rounded-xl border border-border-base bg-surface px-4 shadow-none font-normal text-foreground-base w-full placeholder:font-normal !placeholder:text-placeholder focus:border-foreground-subtle focus:shadow-none focus:outline-none focus:ring-1 focus:ring-foreground-subtle focus:ring-offset-0 h-9 py-2 text-body placeholder:text-body [&amp;[data-placeholder]&gt;span]:text-foreground-subtle [&amp;[data-placeholder]&gt;span]:font-normal\" aria-label=\"Timezone\" id=\"timezone\"></button> text=UTC (Coordinated Universal Time)"
+  },
+  {
+   "label": "tab5",
+   "png": "page_settings_account__mobile__tab5.png",
+   "dom": "01d913841023205babaff279dc37211829d46ea3ddb06731de521e3f82b0228b",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans border min-w-[7.7rem] bg-action border-action text-action-foreground hover:bg-action-hover hover:border-action-hover rounded-full disabled:text-action-foreground disabled:bg-surface-active disabled:border-border-base disabled:opacity-1 px-4 py-2.5 text-body leading-5 gap-2 h-[2.875rem]\"></button> text=Save changes"
+  },
+  {
+   "label": "t0-open",
+   "png": "page_settings_account__mobile__t0-open.png",
+   "dom": "4b68d66f9f36d8a7b55ccf5d8b6efec449f20923d7e8da1457e75ef2b5abf447",
+   "focus": "<div data-side=\"bottom\" data-align=\"start\" data-state=\"open\" role=\"dialog\" id=\"radix-_R_16iunciulanb_\" class=\"z-50 rounded-lg border border-border-base bg-surface text-foreground-strong shadow-md outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 w-[calc(100vw-32px)] max-w-sm p-2\" tabindex=\"-1\" style=\"--radix-popover-content-transform-origin: var(--radix-popper-transform-origin); --radix-popover-content-available-width: var(--radix-popper-available-width); --radix-popover-content-available-height: var(--radix-popper-available-height); --radix-popover-trigger-width: var(--radix-popper-anchor-width); --radix-popover-trigger-height: var(--radix-popper-anchor-height);\"></div> text=ProfileAccountMemoryIntegrationsBotsAutoGPT API KeysCreator "
+  },
+  {
+   "label": "t0-down1",
+   "png": "page_settings_account__mobile__t0-down1.png",
+   "dom": "4b68d66f9f36d8a7b55ccf5d8b6efec449f20923d7e8da1457e75ef2b5abf447",
+   "focus": "<div data-side=\"bottom\" data-align=\"start\" data-state=\"open\" role=\"dialog\" id=\"radix-_R_16iunciulanb_\" class=\"z-50 rounded-lg border border-border-base bg-surface text-foreground-strong shadow-md outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 w-[calc(100vw-32px)] max-w-sm p-2\" tabindex=\"-1\" style=\"--radix-popover-content-transform-origin: var(--radix-popper-transform-origin); --radix-popover-content-available-width: var(--radix-popper-available-width); --radix-popover-content-available-height: var(--radix-popper-available-height); --radix-popover-trigger-width: var(--radix-popper-anchor-width); --radix-popover-trigger-height: var(--radix-popper-anchor-height);\"></div> text=ProfileAccountMemoryIntegrationsBotsAutoGPT API KeysCreator "
+  },
+  {
+   "label": "t0-esc",
+   "png": "page_settings_account__mobile__t0-esc.png",
+   "dom": "301847eda8cdefcb9fa21ed587924668a74f7148f30e805ffd805fcdf01cc4c8",
+   "focus": "<button type=\"button\" class=\"flex w-fit items-center gap-2 rounded-full border border-border-base bg-surface px-3 py-2 outline-none focus-visible:ring-2 focus-visible:ring-[#3E3E43]\" aria-label=\"Settings navigation, current: Account\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_R_16iunciulanb_\" data-state=\"closed\"></button> text=Account"
+  },
+  {
+   "label": "t1-open",
+   "png": "page_settings_account__mobile__t1-open.png",
+   "dom": "5061263abdded5d2eb4beb14d4186aa425a631a8310381b90fd0bccd4975addd",
+   "focus": "<div role=\"option\" aria-labelledby=\"radix-_r_2h_\" aria-selected=\"true\" data-state=\"checked\" tabindex=\"-1\" class=\"relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-2 pr-8 text-sm outline-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-neutral-100 focus:text-neutral-900 dark:focus:bg-neutral-800 dark:focus:text-neutral-50\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=UTC (Coordinated Universal Time)"
+  },
+  {
+   "label": "t1-down1",
+   "png": "page_settings_account__mobile__t1-down1.png",
+   "dom": "6d5776cda1d42aefa71ebbb323541524becc7e0f263d3c4e710fd321a953401c",
+   "focus": "<div role=\"option\" aria-labelledby=\"radix-_r_2i_\" aria-selected=\"false\" data-state=\"unchecked\" tabindex=\"-1\" class=\"relative flex w-full cursor-default select-none items-center rounded-sm py-1.5 pl-2 pr-8 text-sm outline-none data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-neutral-100 focus:text-neutral-900 dark:focus:bg-neutral-800 dark:focus:text-neutral-50\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Los Angeles (US - Pacific)"
+  },
+  {
+   "label": "t1-esc",
+   "png": "page_settings_account__mobile__t1-esc.png",
+   "dom": "27e3d3e2ec9e361f2f9102e325d3dcfad2f731648d5051427032c7ed4737f073",
+   "focus": "<button type=\"button\" role=\"combobox\" aria-controls=\"radix-_r_g_\" aria-expanded=\"false\" aria-autocomplete=\"none\" dir=\"ltr\" data-state=\"closed\" class=\"agpt-border-input agpt-shadow-input flex items-center justify-between whitespace-nowrap ring-offset-white placeholder:text-neutral-500 data-[state=open]:border-gray-400 disabled:cursor-not-allowed disabled:opacity-50 dark:placeholder:text-neutral-400 [&amp;&gt;span]:line-clamp-1 rounded-xl border border-border-base bg-surface px-4 shadow-none font-normal text-foreground-base w-full placeholder:font-normal !placeholder:text-placeholder focus:border-foreground-subtle focus:shadow-none focus:outline-none focus:ring-1 focus:ring-foreground-subtle focus:ring-offset-0 h-9 py-2 text-body placeholder:text-body [&amp;[data-placeholder]&gt;span]:text-foreground-subtle [&amp;[data-placeholder]&gt;span]:font-normal\" aria-label=\"Timezone\" id=\"timezone\"></button> text=UTC (Coordinated Universal Time)"
+  }
+ ],
+ "page_signup__mobile": [
+  {
+   "label": "tab0",
+   "png": "page_signup__mobile__tab0.png",
+   "dom": "1e5cea7a1a95fcc73c185aa958df1dcce9352cb4a7d22938e1329d808fd84dfd",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] border disabled:shadow-none disabled:opacity-1 !min-w-0 size-9 rounded-full border-transparent bg-zinc-950/[0.06] p-0 text-zinc-900 shadow-none transition-[background-color,transform] hover:border-transparent hover:bg-zinc-950/10 hover:text-zinc-900 active:scale-[0.98] aria-expanded:bg-zinc-950/[0.12]\" type=\"button\" aria-label=\"Start recording\" data-state=\"closed\"></button> text="
+  },
+  {
+   "label": "tab1",
+   "png": "page_signup__mobile__tab1.png",
+   "dom": "1e5cea7a1a95fcc73c185aa958df1dcce9352cb4a7d22938e1329d808fd84dfd",
+   "focus": "none"
+  },
+  {
+   "label": "tab2",
+   "png": "page_signup__mobile__tab2.png",
+   "dom": "1e5cea7a1a95fcc73c185aa958df1dcce9352cb4a7d22938e1329d808fd84dfd",
+   "focus": "<button class=\"inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-neutral-950 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 dark:focus-visible:ring-neutral-300 hover:text-neutral-900 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 h-9 w-9 rounded-full border border-[#DADADC] bg-white shadow-md hover:bg-[#F5F5F6]\" data-sidebar=\"trigger\"></button> text=Toggle Sidebar"
+  },
+  {
+   "label": "tab3",
+   "png": "page_signup__mobile__tab3.png",
+   "dom": "1e5cea7a1a95fcc73c185aa958df1dcce9352cb4a7d22938e1329d808fd84dfd",
+   "focus": "<a aria-label=\"Set up an AI connection\" class=\"inline-flex h-9 items-center gap-1.5 rounded-full border border-border bg-muted px-2.5 text-xs font-medium text-foreground transition-colors hover:bg-muted/80 ml-0\" href=\"/settings/integrations\"></a> text=Set up AI connection"
+  },
+  {
+   "label": "tab4",
+   "png": "page_signup__mobile__tab4.png",
+   "dom": "1e5cea7a1a95fcc73c185aa958df1dcce9352cb4a7d22938e1329d808fd84dfd",
+   "focus": "<button type=\"button\" class=\"flex min-w-0 flex-1 items-center gap-3 px-4 py-3 text-left cursor-pointer disabled:cursor-default disabled:opacity-60\"></button> text=Build a workflow that drafts your Monday status report befor"
+  },
+  {
+   "label": "tab5",
+   "png": "page_signup__mobile__tab5.png",
+   "dom": "1e5cea7a1a95fcc73c185aa958df1dcce9352cb4a7d22938e1329d808fd84dfd",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug border bg-transparent border-transparent hover:bg-surface-muted hover:border-surface-muted disabled:text-surface-active disabled:opacity-1 size-7 min-w-0 rounded-md p-0 mr-2 shrink-0 text-zinc-400 opacity-0 transition-opacity duration-150 group-hover/row:opacity-100 hover:text-zinc-700 focus-visible:opacity-100 [@media(hover:none)]:opacity-100\" type=\"button\" aria-label=\"Hide: Build a workflow that drafts your Monday status report before you wake up\"></button> text="
+  },
+  {
+   "label": "t0-open",
+   "png": "page_signup__mobile__t0-open.png",
+   "dom": "be87e7080e296bd71739519bc53b98659b8e8c7b29d42e0e1a9e8966922a8c40",
+   "focus": "<div data-side=\"top\" data-align=\"start\" role=\"menu\" aria-orientation=\"vertical\" data-state=\"open\" data-radix-menu-content=\"\" dir=\"ltr\" id=\"radix-_r_2k_\" aria-labelledby=\"radix-_r_2j_\" class=\"z-50 overflow-hidden rounded-md border border-neutral-200 bg-surface p-1 text-neutral-950 shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 min-w-[14rem]\" tabindex=\"-1\" data-orientation=\"vertical\" style=\"outline: none; --radix-dropdown-menu-content-transform-origin: var(--radix-popper-transform-origin); --radix-dropdown-menu-content-available-width: var(--radix-popper-available-width); --radix-dropdown-menu-content-available-height: var(--radix-popper-available-height); --radix-dropdown-menu-trigger-width: var(--radix-popper-anchor-width); --radix-dropdown-menu-trigger-height: var(--radix-popper-anchor-height); pointer-events: auto;\"></div> text=Attach fileConnect serviceSkillsScheduled"
+  },
+  {
+   "label": "t0-down1",
+   "png": "page_signup__mobile__t0-down1.png",
+   "dom": "30b419600fed81c9cc911c138a1db233c5f5ac7f7c5f1f55b13d8cff8d1524b2",
+   "focus": "<div role=\"menuitem\" class=\"relative flex cursor-pointer select-none items-center rounded-sm px-2 py-1.5 text-body leading-5 outline-none transition-colors data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-neutral-100 focus:text-neutral-900 [@media(pointer:coarse)]:py-3\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Attach file"
+  },
+  {
+   "label": "t0-esc",
+   "png": "page_signup__mobile__t0-esc.png",
+   "dom": "7960f04a0bc1aa465f10e4412f388eca1a35a63e6c4668b6d5d757ce0ab76a2e",
+   "focus": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-focus disabled:pointer-events-none font-sans leading-snug min-w-[7.7rem] border disabled:shadow-none disabled:opacity-1 !min-w-0 size-9 rounded-full border-transparent bg-zinc-950/[0.06] p-0 text-zinc-900 shadow-none transition-[background-color,transform] hover:border-transparent hover:bg-zinc-950/10 hover:text-zinc-900 active:scale-[0.98] aria-expanded:bg-zinc-950/[0.12] [&amp;[aria-expanded=true]_svg]:rotate-45 [&amp;_svg]:transition-transform [&amp;_svg]:duration-200\" type=\"button\" aria-label=\"Add files and more\" data-testid=\"composer-plus-button\" id=\"radix-_r_2j_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\" aria-describedby=\"radix-_r_2l_\"></button> text="
+  },
+  {
+   "label": "t1-open",
+   "png": "page_signup__mobile__t1-open.png",
+   "dom": "ee772527be40ddd811d0f4d6728309e80aa47c289bce57ce010754d4b8404aca",
+   "focus": "<div data-side=\"bottom\" data-align=\"start\" role=\"menu\" aria-orientation=\"vertical\" data-state=\"open\" data-radix-menu-content=\"\" dir=\"ltr\" id=\"radix-_r_2n_\" aria-labelledby=\"radix-_r_2m_\" class=\"z-50 min-w-[8rem] overflow-hidden rounded-md border border-neutral-200 bg-surface p-1 text-neutral-950 shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2\" tabindex=\"-1\" data-orientation=\"vertical\" style=\"outline: none; --radix-dropdown-menu-content-transform-origin: var(--radix-popper-transform-origin); --radix-dropdown-menu-content-available-width: var(--radix-popper-available-width); --radix-dropdown-menu-content-available-height: var(--radix-popper-available-height); --radix-dropdown-menu-trigger-width: var(--radix-popper-anchor-width); --radix-dropdown-menu-trigger-height: var(--radix-popper-anchor-height); pointer-events: auto;\"></div> text=Otto"
+  },
+  {
+   "label": "t1-down1",
+   "png": "page_signup__mobile__t1-down1.png",
+   "dom": "6082dacc1f0bed4d96240be5ddf6efe2ac28131a83decf5bb06b4a1778458c95",
+   "focus": "<div role=\"menuitem\" class=\"relative flex cursor-pointer select-none items-center rounded-sm px-2 py-1.5 text-body leading-5 outline-none transition-colors data-[disabled]:pointer-events-none data-[disabled]:opacity-50 focus:bg-neutral-100 focus:text-neutral-900 [@media(pointer:coarse)]:py-3 gap-2 bg-zinc-100\" tabindex=\"0\" data-orientation=\"vertical\" data-radix-collection-item=\"\" data-highlighted=\"\"></div> text=Otto"
+  },
+  {
+   "label": "t1-esc",
+   "png": "page_signup__mobile__t1-esc.png",
+   "dom": "19b4ca63b9bdc366e50beca52fe4363ff9e3699841d0aca6bb8269f1babda607",
+   "focus": "<button type=\"button\" aria-label=\"Sending to Otto — change recipient\" class=\"ml-2 inline-flex h-9 items-center gap-1.5 rounded-2xl border border-neutral-200 bg-white pl-1.5 pr-2 text-sm font-medium text-zinc-700 shadow-sm group transition-colors hover:bg-neutral-50\" id=\"radix-_r_2m_\" aria-haspopup=\"menu\" aria-expanded=\"false\" data-state=\"closed\"></button> text=Otto"
+  }
+ ]
+}

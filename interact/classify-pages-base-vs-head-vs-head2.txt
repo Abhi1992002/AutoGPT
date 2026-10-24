@@ -1,0 +1,61 @@
+{"steps":468,"identical":366,"matchesOtherHeadRun":42,"nondeterministic":21,"real":39,"missing":0}
+REAL page_admin_users__desktop tab0: px=0 dom=differs focus=same
+REAL page_admin_users__desktop tab1: px=0 dom=differs focus=same
+REAL page_admin_users__desktop tab2: px=0 dom=differs focus=same
+REAL page_admin_users__desktop tab3: px=0 dom=differs focus=same
+REAL page_admin_users__desktop tab4: px=0 dom=differs focus=same
+REAL page_admin_users__desktop tab5: px=0 dom=differs focus=same
+REAL page_artifacts__mobile t0-open: px=0 dom=differs focus=same
+REAL page_artifacts__mobile t0-down1: px=0 dom=differs focus=same
+REAL page_artifacts__mobile t0-esc: px=0 dom=differs focus=same
+REAL page_home__desktop t1-open: px=7812 dom=differs focus=same
+REAL page_home__desktop t1-down1: px=7812 dom=differs focus=same
+REAL page_home__desktop t1-esc: px=7812 dom=differs focus=same
+varies-between-head-runs page_library__desktop tab0
+varies-between-head-runs page_library__desktop tab1
+varies-between-head-runs page_library__desktop tab2
+varies-between-head-runs page_library__desktop tab3
+varies-between-head-runs page_library__desktop tab4
+varies-between-head-runs page_library__desktop tab5
+varies-between-head-runs page_library__desktop t1-open
+varies-between-head-runs page_library__desktop t1-down1
+varies-between-head-runs page_library__desktop t1-esc
+varies-between-head-runs page_library__mobile t0-open
+varies-between-head-runs page_library__mobile t0-down1
+varies-between-head-runs page_library__mobile t0-esc
+varies-between-head-runs page_library_agents_96926461-f6e7-4112-9e1f-ad4dccdb7168__desktop tab0
+varies-between-head-runs page_library_agents_96926461-f6e7-4112-9e1f-ad4dccdb7168__desktop tab1
+varies-between-head-runs page_library_agents_96926461-f6e7-4112-9e1f-ad4dccdb7168__desktop tab2
+varies-between-head-runs page_library_agents_96926461-f6e7-4112-9e1f-ad4dccdb7168__desktop tab3
+varies-between-head-runs page_library_agents_96926461-f6e7-4112-9e1f-ad4dccdb7168__desktop tab4
+varies-between-head-runs page_library_agents_96926461-f6e7-4112-9e1f-ad4dccdb7168__desktop tab5
+REAL page_login__desktop tab0: px=7812 dom=differs focus=same
+REAL page_login__desktop tab1: px=7812 dom=differs focus=same
+REAL page_login__desktop tab2: px=7812 dom=differs focus=same
+REAL page_login__desktop tab3: px=7812 dom=differs focus=same
+REAL page_login__desktop tab4: px=7812 dom=differs focus=same
+REAL page_login__desktop tab5: px=7812 dom=differs focus=same
+varies-between-head-runs page_login__desktop t1-open
+varies-between-head-runs page_login__desktop t1-down1
+varies-between-head-runs page_login__desktop t1-esc
+REAL page_marketplace__desktop tab0: px=0 dom=differs focus=same
+REAL page_marketplace__desktop tab1: px=0 dom=differs focus=same
+REAL page_marketplace__desktop tab2: px=0 dom=differs focus=same
+REAL page_marketplace__desktop tab3: px=0 dom=differs focus=same
+REAL page_marketplace__desktop tab4: px=0 dom=differs focus=same
+REAL page_marketplace__desktop tab5: px=0 dom=differs focus=same
+REAL page_marketplace__mobile t0-open: px=0 dom=differs focus=same
+REAL page_marketplace__mobile t0-down1: px=0 dom=differs focus=same
+REAL page_marketplace__mobile t0-esc: px=0 dom=differs focus=same
+REAL page_profile_api-keys__desktop tab0: px=0 dom=differs focus=same
+REAL page_profile_api-keys__desktop tab1: px=0 dom=differs focus=same
+REAL page_profile_api-keys__desktop tab2: px=0 dom=differs focus=same
+REAL page_profile_api-keys__desktop tab3: px=0 dom=differs focus=same
+REAL page_profile_api-keys__desktop tab4: px=0 dom=differs focus=same
+REAL page_profile_api-keys__desktop tab5: px=0 dom=differs focus=same
+REAL page_settings_account__mobile t0-open: px=0 dom=differs focus=same
+REAL page_settings_account__mobile t0-down1: px=0 dom=differs focus=same
+REAL page_settings_account__mobile t0-esc: px=0 dom=differs focus=same
+REAL page_signup__mobile t0-open: px=0 dom=differs focus=same
+REAL page_signup__mobile t0-down1: px=0 dom=differs focus=same
+REAL page_signup__mobile t0-esc: px=0 dom=differs focus=same

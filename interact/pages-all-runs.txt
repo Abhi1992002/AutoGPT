@@ -1,0 +1,1 @@
+468 steps; 468 with an identical base/head outcome (pixels byte-identical, DOM, focus); 0 without
