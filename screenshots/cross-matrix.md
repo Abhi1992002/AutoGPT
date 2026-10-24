@@ -1,160 +1,160 @@
-| screenshot | base vs a-head-a | base vs a-head-b | base vs a-head-r1 | base vs a-head-r2 | base vs a-head-r3 | base vs b-head-a | base vs b-head-b | base vs b-head-r1 | base vs b-head-r2 | base vs b-head-r3 | 0-px pair |
+| screenshot | dev a vs head a | dev a vs head b | dev a vs head r1 | dev a vs head r2 | dev a vs head r3 | dev b vs head a | dev b vs head b | dev b vs head r1 | dev b vs head r2 | dev b vs head r3 | 0-px pair |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| app__build__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__build__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__copilot__desktop.png | 7812 | 0 | 0 | 0 | 0 | 7812 | 0 | 0 | 0 | 0 | base-a-head-b |
-| app__copilot__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__home__desktop.png | 0 | 0 | 0 | 7812 | 0 | 0 | 0 | 0 | 7812 | 0 | base-a-head-a |
-| app__home__mobile.png | 4562 | 4562 | 0 | 0 | 4562 | 4562 | 4562 | 0 | 0 | 4562 | base-a-head-r1 |
-| app__library__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__library__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__login__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__login__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__marketplace__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__marketplace__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
+| app__build__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__build__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__copilot__desktop.png | 7812 | 0 | 0 | 0 | 0 | 7812 | 0 | 0 | 0 | 0 | dev a vs head b |
+| app__copilot__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__home__desktop.png | 0 | 0 | 0 | 7812 | 0 | 0 | 0 | 0 | 7812 | 0 | dev a vs head a |
+| app__home__mobile.png | 4562 | 4562 | 0 | 0 | 4562 | 4562 | 4562 | 0 | 0 | 4562 | dev a vs head r1 |
+| app__library__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__library__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__login__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__login__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__marketplace__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__marketplace__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
 | app__raise__desktop.png | 23428 | 53732 | 57036 | 37005 | 16032 | 62933 | 18745 | 5686 | 67332 | 54615 | NONE |
 | app__raise__mobile.png | 4691 | 4773 | 4724 | 4769 | 4759 | 4736 | 4779 | 4731 | 4782 | 4782 | NONE |
-| app__reset-password__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__reset-password__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__settings_account__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__settings_account__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__settings_api-keys__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__settings_api-keys__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__settings_billing__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__settings_billing__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__settings_integrations__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__settings_integrations__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__settings_memory__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__settings_memory__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__settings_profile__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__settings_profile__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__signup__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__signup__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__team__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__team__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__team_autopilot__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| app__team_autopilot__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | base-a-head-a |
-| story__atoms-button--action-buttons__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--action-buttons__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--all-variants__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--all-variants__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--contextual-loading-examples__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--contextual-loading-examples__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--destructive__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--destructive__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--disabled__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--disabled__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--ghost__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--ghost__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--icon-buttons__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--icon-buttons__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--icon-only__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--icon-only__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--large-buttons__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--large-buttons__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--link-variant__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--link-variant__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--loading-ghost__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--loading-ghost__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--loading-link__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--loading-link__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--loading__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--loading__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--outline__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--outline__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--primary__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--primary__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--secondary__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--secondary__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--small-buttons__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--small-buttons__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--toggle-buttons__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--toggle-buttons__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--variant-matrix__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--variant-matrix__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--with-left-icon__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--with-left-icon__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--with-right-icon__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-button--with-right-icon__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-text--all-tones__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-text--all-tones__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-text--all-variants__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-text--all-variants__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-text--body-text__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-text--body-text__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-text--custom-element__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-text--custom-element__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-text--headings__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-text--headings__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-text--playground__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-text--playground__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-text--text-roles__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-text--text-roles__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-text--tones__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__atoms-text--tones__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-searchcommandmodal--empty__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-searchcommandmodal--empty__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-searchcommandmodal--error-state__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-searchcommandmodal--error-state__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-searchcommandmodal--loading__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-searchcommandmodal--loading__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-searchcommandmodal--no-matches__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-searchcommandmodal--no-matches__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-searchcommandmodal--single-bucket__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-searchcommandmodal--single-bucket__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-searchcommandmodal--with-results__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-searchcommandmodal--with-results__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-subscriptionplans--highlighted-max__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-subscriptionplans--highlighted-max__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-subscriptionplans--monthly-trial__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-subscriptionplans--monthly-trial__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-subscriptionplans--no-trial__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-subscriptionplans--no-trial__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-subscriptionplans--paid-checkout__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-subscriptionplans--paid-checkout__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-subscriptionplans--starting-trial__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-subscriptionplans--starting-trial__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-subscriptionplans--trial-error__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-subscriptionplans--trial-error__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-subscriptionplans--yearly-yen-trial__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-subscriptionplans--yearly-yen-trial__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-subscriptionplans--yearly__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-subscriptionplans--yearly__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-trialcanceleddialog--days-left__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-trialcanceleddialog--days-left__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-trialcanceleddialog--resuming__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-trialcanceleddialog--resuming__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-trialcanceleddialog--under-a-day__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-trialcanceleddialog--under-a-day__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-trialstatus--active__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-trialstatus--active__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-trialstatus--cancel-pending__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-trialstatus--cancel-pending__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-trialstatus--canceled__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-trialstatus--canceled__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-trialstatus--card-verification-failed__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-trialstatus--card-verification-failed__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-trialstatus--introductory-offer-used__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-trialstatus--introductory-offer-used__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-usageexperience-planoffer--accepted-yearly-offer__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-usageexperience-planoffer--accepted-yearly-offer__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-usageexperience-planoffer--pro-to-max__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-usageexperience-planoffer--pro-to-max__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-usageexperience-planoffer--trial-to-pro__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__organisms-usageexperience-planoffer--trial-to-pro__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__tokens-border-radius--all-variants__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__tokens-border-radius--all-variants__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__tokens-colors--all-variants__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__tokens-colors--all-variants__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__tokens-colors--roles__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__tokens-colors--roles__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__tokens-icons--all-variants__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__tokens-icons--all-variants__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__tokens-spacing--all-variants__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__tokens-spacing--all-variants__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__tokens-text-tokens--all-tokens__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__tokens-text-tokens--all-tokens__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__tokens-typography--all-variants__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
-| story__tokens-typography--all-variants__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | base-a-head-a |
+| app__reset-password__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__reset-password__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__settings_account__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__settings_account__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__settings_api-keys__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__settings_api-keys__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__settings_billing__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__settings_billing__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__settings_integrations__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__settings_integrations__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__settings_memory__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__settings_memory__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__settings_profile__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__settings_profile__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__signup__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__signup__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__team__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__team__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__team_autopilot__desktop.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| app__team_autopilot__mobile.png | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | dev a vs head a |
+| story__atoms-button--action-buttons__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--action-buttons__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--all-variants__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--all-variants__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--contextual-loading-examples__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--contextual-loading-examples__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--destructive__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--destructive__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--disabled__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--disabled__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--ghost__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--ghost__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--icon-buttons__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--icon-buttons__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--icon-only__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--icon-only__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--large-buttons__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--large-buttons__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--link-variant__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--link-variant__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--loading-ghost__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--loading-ghost__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--loading-link__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--loading-link__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--loading__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--loading__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--outline__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--outline__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--primary__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--primary__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--secondary__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--secondary__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--small-buttons__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--small-buttons__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--toggle-buttons__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--toggle-buttons__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--variant-matrix__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--variant-matrix__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--with-left-icon__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--with-left-icon__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--with-right-icon__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-button--with-right-icon__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-text--all-tones__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-text--all-tones__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-text--all-variants__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-text--all-variants__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-text--body-text__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-text--body-text__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-text--custom-element__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-text--custom-element__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-text--headings__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-text--headings__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-text--playground__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-text--playground__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-text--text-roles__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-text--text-roles__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-text--tones__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__atoms-text--tones__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-searchcommandmodal--empty__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-searchcommandmodal--empty__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-searchcommandmodal--error-state__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-searchcommandmodal--error-state__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-searchcommandmodal--loading__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-searchcommandmodal--loading__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-searchcommandmodal--no-matches__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-searchcommandmodal--no-matches__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-searchcommandmodal--single-bucket__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-searchcommandmodal--single-bucket__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-searchcommandmodal--with-results__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-searchcommandmodal--with-results__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-subscriptionplans--highlighted-max__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-subscriptionplans--highlighted-max__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-subscriptionplans--monthly-trial__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-subscriptionplans--monthly-trial__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-subscriptionplans--no-trial__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-subscriptionplans--no-trial__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-subscriptionplans--paid-checkout__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-subscriptionplans--paid-checkout__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-subscriptionplans--starting-trial__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-subscriptionplans--starting-trial__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-subscriptionplans--trial-error__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-subscriptionplans--trial-error__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-subscriptionplans--yearly-yen-trial__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-subscriptionplans--yearly-yen-trial__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-subscriptionplans--yearly__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-subscriptionplans--yearly__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-trialcanceleddialog--days-left__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-trialcanceleddialog--days-left__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-trialcanceleddialog--resuming__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-trialcanceleddialog--resuming__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-trialcanceleddialog--under-a-day__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-trialcanceleddialog--under-a-day__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-trialstatus--active__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-trialstatus--active__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-trialstatus--cancel-pending__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-trialstatus--cancel-pending__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-trialstatus--canceled__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-trialstatus--canceled__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-trialstatus--card-verification-failed__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-trialstatus--card-verification-failed__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-trialstatus--introductory-offer-used__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-trialstatus--introductory-offer-used__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-usageexperience-planoffer--accepted-yearly-offer__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-usageexperience-planoffer--accepted-yearly-offer__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-usageexperience-planoffer--pro-to-max__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-usageexperience-planoffer--pro-to-max__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-usageexperience-planoffer--trial-to-pro__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__organisms-usageexperience-planoffer--trial-to-pro__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__tokens-border-radius--all-variants__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__tokens-border-radius--all-variants__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__tokens-colors--all-variants__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__tokens-colors--all-variants__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__tokens-colors--roles__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__tokens-colors--roles__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__tokens-icons--all-variants__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__tokens-icons--all-variants__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__tokens-spacing--all-variants__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__tokens-spacing--all-variants__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__tokens-text-tokens--all-tokens__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__tokens-text-tokens--all-tokens__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__tokens-typography--all-variants__desktop.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
+| story__tokens-typography--all-variants__mobile.png | 0 | 0 | - | - | - | 0 | 0 | - | - | - | dev a vs head a |
 
 156 screenshots; without a 0-px base/head pair: app__raise__desktop.png, app__raise__mobile.png

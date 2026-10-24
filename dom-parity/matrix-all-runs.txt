@@ -1,0 +1,90 @@
+files=79 tests=896 final DOM matched (dev run == head run)=684 unmatched, nondeterministic on one commit=212 unmatched and repeatable=0
+  NOISY src__app__(no-navbar)__onboarding__steps____tests____SubscriptionStep.test.tsx.json :: subscription pricing experiment helpers > defaults to monthly billing with no highlighted plan (matches the paywall)
+  NOISY src__app__(no-navbar)__onboarding__steps____tests____SubscriptionStep.test.tsx.json :: subscription pricing experiment helpers > highlights no plan when highlightedPlan is null
+  NOISY src__app__(no-navbar)__onboarding__steps____tests____SubscriptionStep.test.tsx.json :: subscription pricing experiment helpers > maps PostHog variants to billing and highlighted plan config
+  NOISY src__app__(no-navbar)__onboarding__steps____tests____SubscriptionStep.test.tsx.json :: subscription pricing experiment helpers > moves the highlighted styling from Max to Pro
+  NOISY src__app__(no-navbar)__onboarding__steps____tests____SubscriptionStep.test.tsx.json :: subscription pricing experiment helpers > reports a pricing arm only once PostHog has assigned a real one
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > covers every chat that renders the shared thread
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > keeps a single message renderer, with no second copy of the card switch
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > has a fixture for every card the main chat renders
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-run_agent on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-schedule_agent on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-view_agent_output on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-create_agent on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-customize_agent on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-edit_agent on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-run_sub_session on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-get_sub_session_result on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-delegate_to_expert on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-handoff_to_expert on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-consult_teammate on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-find_agent on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-find_library_agent on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-find_block on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-find_capability on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-run_block on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-continue_run_block on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-describe_capability on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-run_capability on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-resume_capability on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-connect_integration on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-decompose_goal on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-validate_agent_graph on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-fix_agent_graph on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-ask_question on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-list_schedules on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-schedule_followup on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-list_folders on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-create_folder on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-update_folder on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-move_folder on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-list_workspace_files on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-search_docs on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-get_doc_page on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-setup_agent_webhook_trigger on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-search_feature_requests on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-create_feature_request on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-run_mcp_tool on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-store_skill on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-read_skill on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-delete_skill on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-list_skills on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-list_chat_platform_channels on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-web_search on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-bash_exec on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-start_desktop on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-TodoWrite on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-read_workspace_file on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-write_workspace_file on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-delete_workspace_file on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-Read on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-Write on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-context_compaction on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-expert_onboarding on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-hire_expert on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-raise_expert on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-update_expert on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-confirm_expert_change on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-update_expert_soul on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____chat-surface-parity.test.tsx.json :: chat surface parity > renders tool-confirm_expert_soul_update on every other chat as the main chat does
+  NOISY src__app__(platform)__copilot____tests____expert-threads.test.tsx.json :: useChatSession — expert sessions > creates a session with expert_id when visiting /copilot?expertId=expert-maria
+  NOISY src__app__(platform)__copilot____tests____expert-threads.test.tsx.json :: useChatSession — expert sessions > does not emit expert_thread_created for an Autopilot session
+  NOISY src__app__(platform)__copilot____tests____expert-threads.test.tsx.json :: useChatSession — expert sessions > opens the expert's latest thread when one already exists
+  NOISY src__app__(platform)__copilot____tests____expert-threads.test.tsx.json :: useChatSession — expert sessions > keeps a fresh thread addressed to the expert when the link carries new=1
+  NOISY src__app__(platform)__copilot____tests____expert-threads.test.tsx.json :: useChatSession — expert sessions > opens a fresh expert page from the sidebar + while that expert's chat is running, and again after
+  NOISY src__app__(platform)__copilot____tests____expert-threads.test.tsx.json :: useChatSession — expert sessions > stays on a fresh session after New Chat instead of re-adopting the expert's thread
+  NOISY src__app__(platform)__copilot____tests____expert-threads.test.tsx.json :: groupSessionsByExpert > partitions sessions by expert_id with the Otto group first
+  NOISY src__app__(platform)__copilot____tests____expert-threads.test.tsx.json :: ChatMessagesContainer — expert identity > shows the expert name and avatar in the thread header only
+  NOISY src__app__(platform)__copilot____tests____expert-threads.test.tsx.json :: ChatMessagesContainer — expert identity > keeps the chip a passive label with no file counter
+  NOISY src__app__(platform)__copilot____tests____expert-threads.test.tsx.json :: ChatMessagesContainer — expert identity > wears the Otto identity on plain sessions
+  NOISY src__app__(platform)__copilot____tests____expert-threads.test.tsx.json :: ChatMessagesContainer — expert identity > keeps the passive chip keyboard-reachable with its area
+  NOISY src__app__(platform)__copilot____tests____expert-threads.test.tsx.json :: ChatMessagesContainer — expert identity > does not rewrite a job title that matches a special area
+  NOISY src__app__(platform)__copilot____tests____expert-threads.test.tsx.json :: ChatMessagesContainer — expert identity > falls back to the default role when an expert has no title or area
+  NOISY src__app__(platform)__copilot____tests____expert-threads.test.tsx.json :: recipient picker > does not look up or adopt the expert's latest thread when the recipient is picked after mount
+  NOISY src__app__(platform)__copilot____tests____expert-threads.test.tsx.json :: recipient picker > RecipientChip shows a placeholder instead of Otto while experts load
+  NOISY src__app__(platform)__copilot____tests____expert-threads.test.tsx.json :: recipient picker > RecipientChip lists the team and reports the selection
+  NOISY src__app__(platform)__copilot____tests____expert-threads.test.tsx.json :: recipient picker > clears an unresolved expert recipient after the identity query errors
+  NOISY src__app__(platform)__copilot____tests____expert-threads.test.tsx.json :: recipient picker > clears an archived expert recipient after identities load
+  NOISY src__app__(platform)__copilot__components__ChatMessagesContainer____tests____ChatMessagesContainer.test.tsx.json :: ChatMessagesContainer — assistant rendering > shares saved answers with read-only viewers without activating question forms
+  NOISY src__app__(platform)__copilot__components__ChatMessagesContainer____tests____ChatMessagesContainer.test.tsx.json :: ChatMessagesContainer — assistant rendering > renders assistant messages through the chain renderer
+  NOISY 

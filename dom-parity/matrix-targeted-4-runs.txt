@@ -1,0 +1,58 @@
+files=79 tests=896 matched base/head final DOM=839 unmatched but non-repeating on one commit=56 unmatched and repeatable (real difference)=1
+  REAL src__app__(platform)__components__GlobalSearchModal____tests____GlobalSearchModal.test.tsx.json :: GlobalSearchModal > hoists navigation above search results on an exact name match
+  NOISY src__app__(platform)__copilot__components__RateLimitResetDialog____tests____RateLimitResetDialog.test.tsx.json :: Usage limit dialog > leads a top-tier plan with the reset, the meters and Send at reset
+  NOISY src__app__(platform)__copilot__components__RateLimitResetDialog____tests____RateLimitResetDialog.test.tsx.json :: Usage limit dialog > keeps the upgrade as the lead for other plans and names the reset once
+  NOISY src__app__(platform)__home____tests____held-calls.test.tsx.json :: a held call with inputs the row does not show can only be reviewed
+  NOISY src__app__(platform)__home____tests____held-calls.test.tsx.json :: a held call with an irreversible effect can only be reviewed
+  NOISY src__app__(platform)__home____tests____held-calls.test.tsx.json :: a held read with a short passage is released from the row only when it is shown whole
+  NOISY src__app__(platform)__home____tests____held-calls.test.tsx.json :: a held read with a clamped passage is released from the row only when it is shown whole
+  NOISY src__app__(platform)__home____tests____held-calls.test.tsx.json :: a decided row stays as a receipt after the refetch drops it, and the count falls
+  NOISY src__app__(platform)__home____tests____held-calls.test.tsx.json :: after an inline decision focus skips a setup row to the next held call
+  NOISY src__app__(platform)__home____tests____held-calls.test.tsx.json :: a held read with a four-line passage under the threshold is quoted whole exactly when it can be released from the row
+  NOISY src__app__(platform)__home____tests____held-calls.test.tsx.json :: a held read with a passage over the threshold is quoted whole exactly when it can be released from the row
+  NOISY src__app__(platform)__home____tests____held-calls.test.tsx.json :: a call decided here that the chat asks again under the same id is live again
+  NOISY src__app__(platform)__home____tests____held-calls.test.tsx.json :: a call answered elsewhere that the chat asks again under the same id is live again
+  NOISY src__app__(platform)__home____tests____held-calls.test.tsx.json :: a failed answer stays on its row with the card's error
+  NOISY src__app__(platform)__home____tests____held-calls.test.tsx.json :: a mode-held call wears its mode and no reason; a subject-held call the reverse
+  NOISY src__app__(platform)__home____tests____held-dialog.test.tsx.json :: a row's headline opens the dialog at that item, the sidebar in the list's order, focus on the headline
+  NOISY src__app__(platform)__home____tests____held-dialog.test.tsx.json :: the arrows and ‹ › move through the items without deciding any
+  NOISY src__app__(platform)__home____tests____held-dialog.test.tsx.json :: a decision advances to the next undecided item, wrapping, and moves focus to it
+  NOISY src__app__(platform)__home____tests____held-dialog.test.tsx.json :: the sidebar jumps to an item
+  NOISY src__app__(platform)__home____tests____held-dialog.test.tsx.json :: a current item answered elsewhere shows as such, and › moves on from it
+  NOISY src__app__(platform)__home____tests____held-dialog.test.tsx.json :: a call arriving on the poll joins the end of the sidebar tagged new, and the pane stays put
+  NOISY src__app__(platform)__home____tests____held-dialog.test.tsx.json :: closing returns focus to the Review button that opened it
+  NOISY src__app__(platform)__home____tests____held-dialog.test.tsx.json :: the narrow layout's list button opens the sidebar as a sheet that jumps and closes
+  NOISY src__app__(platform)__home____tests____held-dialog.test.tsx.json :: the decision footer sits outside the scrolling body, with Open chat beside the buttons
+  NOISY src__app__(platform)__home____tests____held-dialog.test.tsx.json :: a long held passage scrolls inside the body while the footer keeps the decision
+  NOISY src__app__(platform)__home____tests____held-dialog.test.tsx.json :: a rule scope picked on one call does not carry to the next
+  NOISY src__app__(platform)__raise____tests____main.test.tsx.json :: drops the skills beat and raises from the marketplace step when there is nothing to add
+  NOISY src__app__(platform)__settings__billing____tests____trial-checkout-return.test.tsx.json :: returning from a plan Checkout while the trial is cancel-pending > offers no second purchase until the new plan replaces the trial
+  NOISY src__app__(platform)__settings__billing____tests____trial-pending-plan.test.tsx.json :: does not mount the paid plan while initial trial status is pending
+  NOISY src__app__(platform)__settings__billing____tests____trial-pending-plan.test.tsx.json :: retains the paid plan fallback when trial status fails
+  NOISY src__app__(platform)__settings__memory____tests____forget-topic-chat.test.tsx.json :: Forget a topic chat > renders Otto's question card so the user can pick what to forget
+  NOISY src__app__(platform)__settings__memory____tests____main.test.tsx.json :: Settings memory page > opens the summary chat in-pane and auto-sends the seeded prompt
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > opens the Soul panel from Basics
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > lists the expert's workflows in the create schedule dialog
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > toggles the Soul panel closed from the header button
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > lists the expert's schedules with edit and delete actions
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > deletes a schedule after confirmation
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > previews an uploaded avatar and saves it after confirmation
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > the avatar dialog offers one regenerate control and no catalog
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > a failed avatar upload leaves the expert untouched
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > paused expert offers one-click resume
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > fires the expert from the settings tab and returns to the team page
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > opens a fresh inline chat from the header Chat button
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > starts a new thread for the expert with the first message
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > asks about a workflow in the inline chat with the prompt sent first
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > edits the weekly budget from the pencil next to the title
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > opening the chat closes the Soul panel and vice versa
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > surfaces only this expert's attention items above the tabs
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > a held read's card gives its reason in plain words and quotes the passage
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > leaves setup items to the Team page's Setup needed card
+  NOISY src__app__(platform)__team__[expertId]____tests____main.test.tsx.json :: ExpertDetailPage > hides the Needs you block when nothing is waiting on the user
+  NOISY src__app__(platform)__team__[expertId]__components__ExpertNeedsYouSection____tests____ExpertNeedsYouSection.test.tsx.json :: an Expert's page reviews its held calls with Home's row and dialog
+  NOISY src__app__(platform)__team____tests____soul-learned-notes.test.tsx.json :: Soul drawer — what I've learned > lists the expert's own memories, newest first, with a link to the rest
+  NOISY src__app__(platform)__team____tests____soul-learned-notes.test.tsx.json :: Soul drawer — what I've learned > keeps the empty state for an expert that has learned nothing
+  NOISY src__app__(platform)__team____tests____soul-learned-notes.test.tsx.json :: Soul drawer — what I've learned > forgetting a memory calls the scoped delete, refetches, and leaves the Soul unsaved
+  NOISY src__app__(platform)__team____tests____soul-learned-notes.test.tsx.json :: Soul drawer — what I've learned > says so when the memories cannot be loaded, instead of claiming there are none
+  NOISY src__app__(platform)__team____tests____soul-learned-notes.test.tsx.json :: Soul drawer — what I've learned > loads private memories only after opening the expert's Soul
