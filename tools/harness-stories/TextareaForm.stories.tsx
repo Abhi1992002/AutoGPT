@@ -556,7 +556,7 @@ export const SaveControl: Story = {
   decorators: [
     (Story) => (
       <NuqsTestingAdapter searchParams="?flowID=graph-1&flowVersion=3">
-        <div className="pl-2 pt-2">
+        <div className="w-12 pl-2 pt-2">
           <Story />
         </div>
       </NuqsTestingAdapter>
