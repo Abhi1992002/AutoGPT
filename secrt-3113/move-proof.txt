@@ -1,0 +1,35 @@
+
+ RUN  v4.1.11 /home/vercel-sandbox/autogpt/autogpt_platform/frontend
+
+ ❯ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts (18 tests | 1 failed) 2859ms
+     × src/components/organisms/Conversation/Conversation.tsx 16ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > src/components/organisms/Conversation/Conversation.tsx
+AssertionError: expected [ 'function handleScrollToBottom(' ] to deeply equal []
+
+- Expected
++ Received
+
+- []
++ [
++   "function handleScrollToBottom(",
++ ]
+
+ ❯ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts:146:22
+    144|     });
+    145|
+    146|     expect(uncached).toEqual([]);
+       |                      ^
+    147|   });
+    148| });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 1 passed (2)
+      Tests  1 failed | 21 passed (22)
+   Start at  05:00:08
+   Duration  17.49s (transform 2.92s, setup 4.19s, import 15.47s, tests 2.89s, environment 616ms)
+
