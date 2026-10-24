@@ -1,0 +1,13 @@
+- img "Ana, AI Expert"
+- link "Approve outreach email Ana · Lead Finder":
+  - /url: /library/agents/lib-1?activeTab=runs&activeItem=run-1
+  - paragraph: Approve outreach email
+  - paragraph: Ana · Lead Finder
+- 'button "Approve: Approve outreach email"': Approve
+- 'button "Decline: Approve outreach email"': Decline
+- img "Expert, AI Expert"
+- link "A very long review title that has to truncate before it reaches the approve and decline buttons on narrow screens":
+  - /url: /library/agents/lib-1?activeTab=runs&activeItem=run-1
+  - paragraph: A very long review title that has to truncate before it reaches the approve and decline buttons on narrow screens
+- 'button "Approve: A very long review title that has to truncate before it reaches the approve and decline buttons on narrow screens" [disabled]': Approve
+- 'button "Decline: A very long review title that has to truncate before it reaches the approve and decline buttons on narrow screens" [disabled]': Decline

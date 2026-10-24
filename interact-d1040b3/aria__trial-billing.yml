@@ -1,0 +1,7 @@
+- region "AutoGPT trial":
+  - text: Free trial
+  - heading "Try AutoGPT Pro for 7 days" [level=2]
+  - text: No charge today
+  - paragraph: Card required. No subscription charge today. Then $20.00 / month, plus applicable tax, unless you cancel before the trial ends.
+  - paragraph: Trial usage is limited. If you cancel, you keep access until the trial ends. You can manage your plan in billing.
+  - button "Start 7-day trial"

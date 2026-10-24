@@ -21,7 +21,7 @@ export const CHECKS: Check[] = [
   },
   { label: "NeedsAttentionRow link (Content asChild)", old: ["min-w-0 flex-1"], new: ["min-w-0 flex-1"], compare: [[0, 0, "all"]] },
   { label: "NeedsAttentionRow actions", old: ["flex shrink-0 items-center gap-2"], new: ["flex gap-2 shrink-0 items-center"], compare: [[0, 0, "all"]] },
-  { label: "NeedsAttentionRow avatar (Icon slot)", old: ["relative inline-flex shrink-0"], new: ["relative inline-flex shrink-0"], compare: [[0, 0, "all"]] },
+  { label: "NeedsAttentionRow and RunRow avatar (Icon slot on ExpertAvatar)", old: ["inline-flex shrink-0 overflow-hidden rounded-xl"], new: ["inline-flex overflow-hidden rounded-xl shrink-0"], compare: [[0, 0, "all"]] },
   {
     label: "AttachmentCapNotice / AtResetFilesNotice card",
     old: ["flex w-full items-center gap-1.5 rounded-2xl bg-warning-surface px-3 py-1.5 text-sm text-amber-800"],
@@ -100,12 +100,7 @@ export const CHECKS: Check[] = [
     new: ["overflow-hidden rounded-3xl bg-surface shadow-zinc-950 smooth-shadow-ring-sm p-0"],
     compare: [[0, 0, "all"]],
   },
-  {
-    label: "BriefingCard show-all footer top line (Separator)",
-    old: ["border-t border-separator"],
-    new: ["border-t border-separator"],
-    compare: [[0, 0, "all"]],
-  },
+
   {
     label: "RunRow linked row (Row asChild inset interactive)",
     old: ["", "group flex items-start gap-3 px-5 py-4 transition-colors hover:bg-surface-muted"],

@@ -16,3 +16,9 @@ PR head `d3c00d5434b939cbe9447e474fd7351d3358362c`, base dev `995df0deeed4c6e171
 - `stories/m-sb-before` (dev f040a0c Storybook + consumer stories), `stories/m-sb-after`, `m-sb-after2` (head); `stories/compare-m-*.md` + `stories/diff-m-*`.
 - `interact-54b93af/`: rule 17 (b) states, ARIA snapshots, Tab order.
 - `equivalence/equivalence-54b93af-vs-f040a0c.md` (pairs in `pairs.ts`; the pre-merge pairs against 995df0d in `pairs-995df0d.ts`).
+
+## Head 9ed333b / d1040b3 (merge of dev 0d5ac32) — current evidence
+- `routes/n-pages-base` (dev 0d5ac32), `routes/n-pages-head-1`, `-2` (head d1040b3; 9ed333b is whitespace-only on top), `routes/diff-n-*`.
+- `stories/n-sb-before` (dev 0d5ac32 + consumer stories), `stories/n-sb-after`, `-2` (head), `stories/diff-n-*`; `stories/naq-*`: approval-queue re-takes (base x2, head x2), 0 px.
+- `interact-d1040b3/`: rule 17 (b), 82 states + 11 keyboard/aria checks, 0 differing.
+- `equivalence/equivalence-d1040b3-vs-0d5ac32.md` (33 strings, 48 comparisons, 0 failing); `classcheck.ts` (all 40 "new" strings rendered verbatim in the head DOM).
