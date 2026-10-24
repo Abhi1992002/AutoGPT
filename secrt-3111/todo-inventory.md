@@ -68,6 +68,7 @@
 | `shadow-[0_1px_2px_rgba(0,0,0,0.04),0_4px_20px_rgba(0,0,0,0.08)]` | rgba(0,0,0,0.04) rgba(0,0,0,0.08) |
 | `shadow-[0_1px_2px_rgba(0,0,0,0.04)]` | rgba(0,0,0,0.04) |
 | `shadow-[0_1px_2px_rgba(0,0,0,0.05),0_2px_4px_rgba(0,0,0,0.02)]` | rgba(0,0,0,0.05) rgba(0,0,0,0.02) |
+| `text-[#00a656]` | #00A656 |
 | `text-amber-400` | #FBBF24 |
 | `text-amber-600` | #D97706 |
 | `text-amber-800` | #92400E |
