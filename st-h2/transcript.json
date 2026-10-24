@@ -108,10 +108,10 @@
  ],
  "atoms-select--with-icons-and-separators": [
   "focus-visible: button | combobox | false | null | null | closed | Rich",
-  "open: div | option | null | false | null | unchecked | ✅Your Google account",
+  "open: div | option | null | false | null | unchecked | \u2705Your Google account",
   "listbox: div [data-side=bottom data-state=open role=listbox tabindex=-1]",
   "options: div [aria-selected=false data-highlighted= data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1] ; div [aria-selected=false data-state=unchecked role=option tabindex=-1]",
-  "ArrowDown: div | option | null | false | null | unchecked | 🔐Sign in with Google",
+  "ArrowDown: div | option | null | false | null | unchecked | \ud83d\udd10Sign in with Google",
   "Escape -> focus: button | combobox | false | null | null | closed | Rich",
   "trigger after Escape: button [aria-autocomplete=none aria-expanded=false aria-label=Rich data-state=closed role=combobox type=button]"
  ],
@@ -135,12 +135,6 @@
   "ArrowRight: button | tab | null | true | null | active | Work",
   "tabs: div [aria-orientation=horizontal role=tablist tabindex=0] ; button [aria-selected=false data-state=inactive role=tab tabindex=-1 type=button] ; button [aria-selected=true data-state=active role=tab tabindex=0 type=button] ; button [aria-selected=false data-state=inactive role=tab tabindex=-1 type=button] ; button [aria-selected=false data-state=inactive role=tab tabindex=-1 type=button] ; div [data-state=inactive role=tabpanel tabindex=0] ; div [data-state=active role=tabpanel tabindex=0] ; div [data-state=inactive role=tabpanel tabindex=0]",
   "Tab: div | tabpanel | null | null | null | active | Work panel"
- ],
- "evidence-wallettabs--top-up": [
-  "ERROR locator.waitFor: Timeout 10000ms exceeded."
- ],
- "evidence-wallettabs--auto-refill": [
-  "ERROR locator.waitFor: Timeout 10000ms exceeded."
  ],
  "molecules-dialog--basic": [
   "open -> focus: button | null | null | null | null | null | Close",
