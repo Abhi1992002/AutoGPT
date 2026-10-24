@@ -1,0 +1,10 @@
+{
+ "pairs": [
+  {
+   "file": "molecules/PaginationControls/PaginationControls.tsx",
+   "old": "text-sm",
+   "new": "text-body leading-5",
+   "tag": "span"
+  }
+ ]
+}

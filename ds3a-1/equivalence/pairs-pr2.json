@@ -1,0 +1,108 @@
+{
+ "pairs": [
+  {
+   "file": "atoms/Calendar/Calendar.tsx",
+   "old": "flex  items-center justify-center text-sm font-medium",
+   "new": "flex  items-center justify-center text-body leading-5 font-medium",
+   "tag": null
+  },
+  {
+   "file": "atoms/Calendar/Calendar.tsx",
+   "old": "text-neutral-500 rounded-md w-8 font-normal text-[0.8rem] dark:text-neutral-400",
+   "new": "text-neutral-500 rounded-md w-8 font-normal text-[0.8rem]",
+   "tag": null
+  },
+  {
+   "file": "atoms/Calendar/Calendar.tsx",
+   "old": "relative p-0 text-center text-sm focus-within:relative focus-within:z-20 [&:has([aria-selected])]:bg-neutral-100 [&:has([aria-selected].day-outside)]:bg-neutral-100/50 [&:has([aria-selected].day-range-end)]:rounded-r-md dark:[&:has([aria-selected])]:bg-neutral-800 dark:[&:has([aria-selected].day-outside)]:bg-neutral-800/50 [&:has([aria-selected])]:rounded-md",
+   "new": "relative p-0 text-center text-body leading-5 focus-within:relative focus-within:z-20 [&:has([aria-selected])]:bg-neutral-100 [&:has([aria-selected].day-outside)]:bg-neutral-100/50 [&:has([aria-selected].day-range-end)]:rounded-r-md [&:has([aria-selected])]:rounded-md",
+   "tag": null
+  },
+  {
+   "file": "atoms/Calendar/Calendar.tsx",
+   "old": "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 hover:bg-neutral-100 hover:text-neutral-900 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 h-8 w-8 p-0 font-normal aria-selected:opacity-100",
+   "new": "inline-flex items-center justify-center whitespace-nowrap rounded-md text-body leading-5 transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 hover:bg-neutral-100 hover:text-neutral-900 h-8 w-8 p-0 font-normal aria-selected:opacity-100",
+   "tag": null
+  },
+  {
+   "file": "atoms/Calendar/Calendar.tsx",
+   "old": "bg-neutral-900 text-neutral-100 hover:bg-neutral-900 hover:text-neutral-50 focus:bg-neutral-700 focus:text-neutral-50 dark:bg-neutral-50 dark:text-neutral-900 dark:hover:bg-neutral-50 dark:hover:text-neutral-900 dark:focus:bg-neutral-50 dark:focus:text-neutral-900",
+   "new": "bg-neutral-900 text-neutral-100 hover:bg-neutral-900 hover:text-primary-foreground focus:bg-neutral-700 focus:text-primary-foreground",
+   "tag": null
+  },
+  {
+   "file": "atoms/Calendar/Calendar.tsx",
+   "old": "bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-50",
+   "new": "bg-neutral-100 text-neutral-900",
+   "tag": null
+  },
+  {
+   "file": "atoms/Calendar/Calendar.tsx",
+   "old": "day-outside text-neutral-500 opacity-50  aria-selected:bg-neutral-100/50 aria-selected:text-neutral-500 aria-selected:opacity-30 dark:text-neutral-400 dark:aria-selected:bg-neutral-800/50 dark:aria-selected:text-neutral-400",
+   "new": "day-outside text-neutral-500 opacity-50  aria-selected:bg-neutral-100/50 aria-selected:text-neutral-500 aria-selected:opacity-30",
+   "tag": null
+  },
+  {
+   "file": "atoms/Calendar/Calendar.tsx",
+   "old": "text-neutral-500 opacity-50 dark:text-neutral-400",
+   "new": "text-neutral-500 opacity-50",
+   "tag": null
+  },
+  {
+   "file": "atoms/Calendar/Calendar.tsx",
+   "old": "aria-selected:bg-neutral-100 aria-selected:text-neutral-900 dark:aria-selected:bg-neutral-800 dark:aria-selected:text-neutral-50",
+   "new": "aria-selected:bg-neutral-100 aria-selected:text-neutral-900",
+   "tag": null
+  },
+  {
+   "file": "atoms/Calendar/Calendar.tsx",
+   "old": "w-[120px] space-x-2 bg-white text-sm",
+   "new": "w-[120px] space-x-2 bg-surface text-body leading-5",
+   "tag": "SelectTrigger",
+   "extra": [
+    {
+     "real": "<SelectTrigger> (legacy select)",
+     "oldCls": "agpt-border-input agpt-shadow-input flex h-9 items-center justify-between whitespace-nowrap rounded-md border px-3 py-2 ring-offset-surface placeholder:text-neutral-500 data-[state=open]:border-gray-400 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:placeholder:text-neutral-400 [&>span]:line-clamp-1 w-[120px] space-x-2 bg-white text-sm",
+     "newCls": "agpt-border-input agpt-shadow-input flex h-9 items-center justify-between whitespace-nowrap rounded-md border px-3 py-2 ring-offset-surface placeholder:text-neutral-500 data-[state=open]:border-gray-400 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:placeholder:text-neutral-400 [&>span]:line-clamp-1 w-[120px] space-x-2 bg-surface text-body leading-5"
+    }
+   ]
+  },
+  {
+   "file": "atoms/Calendar/Calendar.tsx",
+   "old": "bg-white",
+   "new": "bg-surface",
+   "tag": "SelectContent",
+   "extra": [
+    {
+     "real": "<SelectContent> (legacy select)",
+     "oldCls": "relative z-50 max-h-96 min-w-[8rem] overflow-hidden rounded-md border border-neutral-200 text-neutral-950 shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50 data-[side=bottom]:translate-y-1 data-[side=left]:-translate-x-1 data-[side=right]:translate-x-1 data-[side=top]:-translate-y-1 bg-white",
+     "newCls": "relative z-50 max-h-96 min-w-[8rem] overflow-hidden rounded-md border border-neutral-200 text-neutral-950 shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50 data-[side=bottom]:translate-y-1 data-[side=left]:-translate-x-1 data-[side=right]:translate-x-1 data-[side=top]:-translate-y-1 bg-surface"
+    }
+   ]
+  },
+  {
+   "file": "molecules/ScrollArea/ScrollArea.tsx",
+   "old": "relative flex-1 rounded-full bg-neutral-200 dark:bg-neutral-800",
+   "new": "relative flex-1 rounded-full bg-neutral-200",
+   "tag": null
+  },
+  {
+   "file": "atoms/LoadingSpinner (MCPToolDialog, NodeExecutionBadge)",
+   "old": "animate-spin size-4",
+   "new": "animate-spin text-inherit size-4",
+   "tag": "svg"
+  },
+  {
+   "file": "atoms/LoadingSpinner (reset-password fallback)",
+   "old": "size-16 animate-spin",
+   "new": "animate-spin text-inherit size-16",
+   "tag": "svg"
+  },
+  {
+   "file": "reset-password/page.tsx (fallback wrapper)",
+   "old": "flex items-center justify-center h-[80vh]",
+   "new": "flex h-[80vh] items-center justify-center",
+   "tag": "div"
+  }
+ ]
+}

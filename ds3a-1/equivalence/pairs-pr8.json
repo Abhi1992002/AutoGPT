@@ -1,0 +1,53 @@
+{
+ "pairs": [
+  {
+   "file": "atoms/Separator (horizontal)",
+   "old": "shrink-0 bg-neutral-200 dark:bg-neutral-800 h-[1px] w-full",
+   "new": "shrink-0 bg-neutral-200 h-px w-full",
+   "tag": "div",
+   "extra": [
+    {
+     "real": "<Separator className=\"\">",
+     "oldCls": "shrink-0 bg-neutral-200 dark:bg-neutral-800 h-[1px] w-full",
+     "newCls": "shrink-0 bg-neutral-200 h-px w-full"
+    },
+    {
+     "real": "<Separator className=\"h-full w-[1px] text-zinc-300\">",
+     "oldCls": "shrink-0 bg-neutral-200 dark:bg-neutral-800 h-full w-[1px] text-zinc-300",
+     "newCls": "shrink-0 bg-neutral-200 h-full w-[1px] text-zinc-300"
+    },
+    {
+     "real": "<Separator className=\"my-6 bg-transparent\">",
+     "oldCls": "shrink-0 dark:bg-neutral-800 h-[1px] w-full my-6 bg-transparent",
+     "newCls": "shrink-0 h-px w-full my-6 bg-transparent"
+    },
+    {
+     "real": "<Separator className=\"mb-[25px] mt-[60px] bg-transparent\">",
+     "oldCls": "shrink-0 dark:bg-neutral-800 h-[1px] w-full mb-[25px] mt-[60px] bg-transparent",
+     "newCls": "shrink-0 h-px w-full mb-[25px] mt-[60px] bg-transparent"
+    },
+    {
+     "real": "<Separator className=\"h-[1px] w-full text-zinc-300\">",
+     "oldCls": "shrink-0 bg-neutral-200 dark:bg-neutral-800 h-[1px] w-full text-zinc-300",
+     "newCls": "shrink-0 bg-neutral-200 h-[1px] w-full text-zinc-300"
+    },
+    {
+     "real": "<Separator className=\"mb-8\">",
+     "oldCls": "shrink-0 bg-neutral-200 dark:bg-neutral-800 h-[1px] w-full mb-8",
+     "newCls": "shrink-0 bg-neutral-200 h-px w-full mb-8"
+    },
+    {
+     "real": "<Separator className=\"text-[#E1E1E1]\">",
+     "oldCls": "shrink-0 bg-neutral-200 dark:bg-neutral-800 h-[1px] w-full text-[#E1E1E1]",
+     "newCls": "shrink-0 bg-neutral-200 h-px w-full text-[#E1E1E1]"
+    }
+   ]
+  },
+  {
+   "file": "atoms/Separator (vertical)",
+   "old": "shrink-0 bg-neutral-200 dark:bg-neutral-800 h-full w-[1px]",
+   "new": "shrink-0 bg-neutral-200 h-full w-px",
+   "tag": "div"
+  }
+ ]
+}

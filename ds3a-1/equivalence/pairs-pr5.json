@@ -1,0 +1,88 @@
+{
+ "pairs": [
+  {
+   "file": "atoms/Card CardDescription",
+   "old": "text-sm text-neutral-500 dark:text-neutral-400",
+   "new": "text-body leading-5 text-neutral-500",
+   "tag": "p"
+  },
+  {
+   "file": "atoms/Card variant=outlined",
+   "old": "agpt-card text-neutral-950 border-none dark:bg-slate-900",
+   "new": "agpt-card text-neutral-950 border-none dark:bg-slate-900",
+   "tag": "div",
+   "extra": [
+    {
+     "real": "<Card variant=\"outlined\" className=\"border-none dark:bg-slate-900\">",
+     "oldCls": "agpt-card text-neutral-950 border-none dark:bg-slate-900",
+     "newCls": "agpt-card text-neutral-950 border-none dark:bg-slate-900"
+    }
+   ]
+  },
+  {
+   "file": "atoms/Card variant=outlined",
+   "old": "agpt-card text-neutral-950 border-dashed",
+   "new": "agpt-card text-neutral-950 border-dashed",
+   "tag": "div",
+   "extra": [
+    {
+     "real": "<Card variant=\"outlined\" className=\"border-dashed\">",
+     "oldCls": "agpt-card text-neutral-950 border-dashed",
+     "newCls": "agpt-card text-neutral-950 border-dashed"
+    }
+   ]
+  },
+  {
+   "file": "atoms/Card variant=outlined",
+   "old": "agpt-card text-neutral-950 mb-6",
+   "new": "agpt-card text-neutral-950 mb-6",
+   "tag": "div",
+   "extra": [
+    {
+     "real": "<Card variant=\"outlined\" className=\"mb-6\">",
+     "oldCls": "agpt-card text-neutral-950 mb-6",
+     "newCls": "agpt-card text-neutral-950 mb-6"
+    }
+   ]
+  },
+  {
+   "file": "atoms/Card variant=outlined",
+   "old": "agpt-card text-neutral-950",
+   "new": "agpt-card text-neutral-950",
+   "tag": "div",
+   "extra": [
+    {
+     "real": "<Card variant=\"outlined\" className=\"\">",
+     "oldCls": "agpt-card text-neutral-950",
+     "newCls": "agpt-card text-neutral-950"
+    }
+   ]
+  },
+  {
+   "file": "atoms/Card variant=outlined",
+   "old": "agpt-card text-neutral-950 overflow-hidden rounded-lg border border-slate-200 bg-surface shadow-sm",
+   "new": "agpt-card text-neutral-950 overflow-hidden rounded-lg border border-slate-200 bg-surface shadow-sm",
+   "tag": "div",
+   "extra": [
+    {
+     "real": "<Card variant=\"outlined\" className=\"overflow-hidden rounded-lg border border-slate-200 bg-surface shadow-sm\">",
+     "oldCls": "agpt-card text-neutral-950 overflow-hidden rounded-lg border border-slate-200 bg-surface shadow-sm",
+     "newCls": "agpt-card text-neutral-950 overflow-hidden rounded-lg border border-slate-200 bg-surface shadow-sm"
+    }
+   ]
+  },
+  {
+   "file": "atoms/Card variant=outlined",
+   "old": "agpt-card text-neutral-950 w-full overflow-hidden rounded-lg border border-slate-200 bg-surface shadow-sm",
+   "new": "agpt-card text-neutral-950 w-full overflow-hidden rounded-lg border border-slate-200 bg-surface shadow-sm",
+   "tag": "div",
+   "extra": [
+    {
+     "real": "<Card variant=\"outlined\" className=\"w-full overflow-hidden rounded-lg border border-slate-200 bg-surface shadow-sm\">",
+     "oldCls": "agpt-card text-neutral-950 w-full overflow-hidden rounded-lg border border-slate-200 bg-surface shadow-sm",
+     "newCls": "agpt-card text-neutral-950 w-full overflow-hidden rounded-lg border border-slate-200 bg-surface shadow-sm"
+    }
+   ]
+  }
+ ]
+}

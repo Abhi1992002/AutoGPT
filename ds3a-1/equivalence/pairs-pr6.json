@@ -1,0 +1,47 @@
+{
+ "pairs": [
+  {
+   "file": "atoms/Label/Label.tsx",
+   "old": "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
+   "new": "text-body font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
+   "tag": "label",
+   "extra": [
+    {
+     "real": "<Label className=\"\">",
+     "oldCls": "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
+     "newCls": "text-body font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+    },
+    {
+     "real": "<Label className=\"text-base font-semibold\">",
+     "oldCls": "peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-base font-semibold",
+     "newCls": "peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-base font-semibold"
+    },
+    {
+     "real": "<Label className=\"mt-1 block text-sm text-gray-600\">",
+     "oldCls": "font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 mt-1 block text-sm text-gray-600",
+     "newCls": "font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 mt-1 block text-sm text-gray-600"
+    },
+    {
+     "real": "<Label className=\"text-base font-medium\">",
+     "oldCls": "peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-base font-medium",
+     "newCls": "peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-base font-medium"
+    },
+    {
+     "real": "<Label className=\"pt-2\">",
+     "oldCls": "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 pt-2",
+     "newCls": "text-body font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 pt-2"
+    },
+    {
+     "real": "<Label className=\"text-sm\">",
+     "oldCls": "font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-sm",
+     "newCls": "font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-sm"
+    },
+    {
+     "real": "<Label className=\"text-red-500 dark:text-red-900\">",
+     "oldCls": "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-red-500 dark:text-red-900",
+     "newCls": "text-body font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-red-500 dark:text-red-900"
+    }
+   ]
+  }
+ ]
+}

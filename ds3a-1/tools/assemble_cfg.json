@@ -1,0 +1,37 @@
+{
+ "screen_intro": "DS1's `scripts/screenshot-pages.ts` (unedited) against the running app: infra and backend in docker (rest, database manager, websocket, db, redis, rabbitmq), the frontend as a production build with `NEXT_PUBLIC_PW_TEST=true` (`next build --no-lint` then `next start`; lint runs separately), base from a `git worktree` of the PR's base (PR 1: `dev` at `0d5ac323f`), head from this branch; Storybook built per commit and served static. Signed-in admin user, the 17 store agents and `make test-data`. agpt.co blocked for every run (the changelog popup). **22 routes** (DS1's 14 defaults incl. `/settings/profile` and `/team/autopilot`, plus `/profile/settings`, `/marketplace/agent/autogpt/personalized-morning-coffee-newsletter`, `/marketplace/creator/autogpt`, `/marketplace/search?searchTerm=newsletter`, `/admin/marketplace`, `/admin/spending`, `/admin/diagnostics`, `/admin/execution-analytics`) and **50 stories** (`tokens-`, `atoms-button--`, `atoms-text--`, `atoms-loadingspinner--`, `molecules-collapsible--`, the FormRenderer date, date-time, multi-select and enum-list stories, `marketplace-`), each at 1440x900 and 390x844, plus the interactive states below (same determinism: fixed viewports, device scale 1, software raster, reduced motion, animations off, fixed clock, UTC/en-US, retaken until 3 identical). The same set is captured for base and head ({prev} \u2192 {curr}); the only standing skip is `atoms-progress--live` (not in the set).",
+ "interact_list": "block menu open, save popover open (both also opened by keyboard: Tab to the trigger, Enter, Esc closes, focus back on the trigger), date and date-time pickers open by mouse and keyboard (arrow keys move the day), multiselect list open and navigated with ArrowDown/Enter, collapsible opened by keyboard, marketplace carousel focused and moved with ArrowRight, admin Add Dollars and Approve dialogs, admin diagnostics, the login error help card after a failed sign-in, focus-visible and hover on every trigger. For each keyboard path the Tab order (25 stops), the focused element after open and after Esc, and a full ARIA snapshot of the page are recorded; base and head must be identical. At 390 px the builder's control panel is hidden, so the four builder steps are recorded as skipped at that width on every commit (same on base and head).",
+ "checks": "on `{head}`: `pnpm types` \u2713, `pnpm lint` \u2713, `pnpm format` (no diff) \u2713, production `next build` of every PR head \u2713 (they are the builds the screenshots ran on), full `vitest` suite \u2713 (see CI).",
+ "ds1": "1827 opacity swatches, 0 differing pixels; 215 text class lists x 12 cases, 0 failing; 6 cn() checks, 0 failing; 124 token pairs against base `0d5ac323f`, 2 failing: DS1's own two sidebar pairs (`shadow-[0_0_0_1px_hsl(var(--sidebar-border))]`, `\u2026--sidebar-accent\u2026`), which fail the same way on plain `dev` with nothing applied; no class this stack writes",
+ "glyph": "38 elements, 114 renders, 0 differing pixels",
+ "determinism": "stories: 100/100 identical, 0 px. App routes and interactive states: 121 compared, 7 non-zero, every one of them one of three causes that are not code (the same three explain every non-zero line above): the diagnostics page's \"Last updated\" time (4 captures), the 390px top-of-page band on `/copilot` and `/home` (4562 px at the same box, 2), and the sidebar's entrance animation caught mid-fade or settled (6014 px in the 46px sidebar column, 1). The keyboard/ARIA record differs only in the \"Last updated\" text. Each non-zero capture is matched to its cause by pixel count and bounding box ([`classify.py`]({TREE}/tools/classify.py)); anything else would be reported as unexplained, and nothing is.",
+ "grep": {
+  "1": "git grep -nE \"__legacy__/(ui/)?(carousel|collapsible|pagination-controls)['\\\"]\" -- src",
+  "2": "git grep -nE \"__legacy__/(ui/)?(calendar|loading|scroll-area)['\\\"]\" -- src",
+  "3": "git grep -nE \"__legacy__/(ui/)?(command|multiselect)['\\\"]\" -- src",
+  "4": "git grep -nE \"__legacy__/(ui/)?(popover)['\\\"]\" -- src",
+  "5": "git grep -nE \"__legacy__/(ui/)?(card)['\\\"]\" -- src",
+  "6": "git grep -nE \"__legacy__/(ui/)?(label)['\\\"]\" -- src",
+  "7": "git grep -nE \"__legacy__/(ui/)?(icons)['\\\"]\" -- src",
+  "8": "git grep -nE \"__legacy__/(ui/)?(separator)['\\\"]\" -- src"
+ },
+ "e_line": {},
+ "kb": {
+  "1": "33 keyboard paths (Tab order to the trigger, focus after open and after Esc, arrow-key moves) and full-page ARIA snapshots: identical to base apart from the diagnostics page's \"Last updated\" text."
+ },
+ "merge_line": {
+  "1": "**Merges cleanly with the latest `dev`:** `git merge-tree --write-tree origin/dev f024901e3` with `origin/dev` at `0d5ac323f` exits 0 with no conflicts; this branch is rebased directly on that commit, and every capture below was taken against it."
+ },
+ "shots": {
+  "1": [
+   "app__marketplace__mobile.png",
+   "interact__kb-marketplace-carousel-keys__mobile.png",
+   "app__admin_marketplace__desktop.png",
+   "app__admin_spending__desktop.png",
+   "story__molecules-collapsible--default-open__desktop.png"
+  ]
+ },
+ "take_note": {
+  "1": "the app routes and interactive states were captured twice on this head. The first take ([`p1-take1`]({TREE}/p1-take1), [compare]({TREE}/diff-base-vs-p1-take1)) also caught a \"Failed to initialize onboarding\" error toast on `/admin/diagnostics` at 390px (the onboarding check's client request failed while a build and the unit tests loaded the machine; the backend logged no error) and two tooltip `data-state` timings in the builder's keyboard paths. None of these comes from this diff, and the second take, used above, has none of them."
+ }
+}

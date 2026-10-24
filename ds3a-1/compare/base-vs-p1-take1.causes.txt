@@ -1,0 +1,14 @@
+app__admin_diagnostics__desktop.png	817	(534, 591, 955, 652)	T
+app__admin_diagnostics__mobile.png	25640	(6, 639, 383, 1200)	UNEXPLAINED
+app__copilot__desktop.png	7812	(295, 43, 392, 140)	O
+app__copilot__mobile.png	4562	(8, 12, 358, 120)	O
+app__home__mobile.png	4562	(8, 12, 358, 120)	O
+app__marketplace_search_searchTerm_newsletter__desktop.png	6014	(0, 103, 46, 293)	S
+app__profile_settings__desktop.png	5339	(4, 103, 41, 293)	S
+interact__admin-diagnostics__desktop.png	773	(534, 591, 952, 652)	T
+interact__admin-diagnostics__mobile.png	682	(258, 639, 312, 1200)	T
+interact__kb-marketplace-carousel-after-esc__desktop.png	6014	(0, 133, 46, 323)	S
+interact__kb-marketplace-carousel-hover__desktop.png	6014	(0, 133, 46, 323)	S
+interact__kb-marketplace-carousel-kb-open__desktop.png	6014	(0, 133, 46, 323)	S
+interact__kb-marketplace-carousel-keys__desktop.png	6014	(0, 133, 46, 323)	S
+SUMMARY base-vs-p1-take1: 121 compared, 13 non-zero, 1 unexplained

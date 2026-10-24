@@ -1,0 +1,40 @@
+{
+ "pairs": [
+  {
+   "file": "StoreCard stars",
+   "old": "size-4 text-black dark:text-yellow-500",
+   "new": "size-4 text-foreground-base",
+   "tag": "svg"
+  },
+  {
+   "file": "error.tsx",
+   "old": "size-10",
+   "new": "size-10",
+   "tag": "svg"
+  },
+  {
+   "file": "RunSummary",
+   "old": "size-4 cursor-help text-neutral-400 hover:text-neutral-600",
+   "new": "size-4 cursor-help text-neutral-400 hover:text-neutral-600",
+   "tag": "svg"
+  },
+  {
+   "file": "AgentTableCard more",
+   "old": "size-4 h-5 w-5 text-neutral-800 dark:text-neutral-200",
+   "new": "h-5 w-5 text-neutral-800 dark:text-neutral-200",
+   "tag": "svg"
+  },
+  {
+   "file": "AgentTableCard star",
+   "old": "size-4 h-4 w-4 text-neutral-800 dark:text-neutral-200",
+   "new": "h-4 w-4 text-neutral-800 dark:text-neutral-200",
+   "tag": "svg"
+  },
+  {
+   "file": "__legacy__/Sidebar",
+   "old": "size-4 h-6 w-6",
+   "new": "h-6 w-6",
+   "tag": "svg"
+  }
+ ]
+}
