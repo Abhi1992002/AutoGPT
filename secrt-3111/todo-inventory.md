@@ -2,7 +2,6 @@
 | --- | --- |
 | `!text-amber-800` | #92400E |
 | `!text-purple-900` | #321567 |
-| `#A1A1AA` | #A1A1AA |
 | `after:[box-shadow:calc(var(--spacing))_0_0_#a1a1aa]` | #A1A1AA |
 | `before:bg-[#a1a1aa]` | #A1A1AA |
 | `bg-[rgb(224,237,255)]` | rgb(224,237,255) |
@@ -104,9 +103,9 @@
 | `text-violet-500` | #8B5CF6 |
 | `text-violet-600` | #7C3AED |
 | `text-violet-800/70` | #5B21B6 |
-| `the raw colours and font stacks in this` | ? |
 | `to-violet-300` | #C4B5FD |
 | `via-violet-200` | #DDD6FE |
+| `reactArtifactPreview.ts`: the sandboxed artifact iframe's own document (one TODO) | #F8FAFC, #18181B, #FECACA, #FFF1F2, #991B1B and two system font stacks |
 
 | class | value | role holding it (kind) |
 | --- | --- | --- |
