@@ -1,0 +1,42 @@
+npm warn Unknown project config "minimum-release-age". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+| scenario | pixels | facts |
+| --- | --- | --- |
+| sb-legacy-focus-00__desktop | 0 px | identical |
+| sb-legacy-focus-01__desktop | 0 px | identical |
+| sb-legacy-focus-02__desktop | 0 px | identical |
+| sb-legacy-focus-03__desktop | 0 px | identical |
+| sb-legacy-focus-04__desktop | 0 px | identical |
+| sb-legacy-focus-05__desktop | 0 px | identical |
+| sb-legacy-focus-06__desktop | 0 px | identical |
+| sb-legacy-focus-07__desktop | 0 px | identical |
+| sb-legacy-focus-08__desktop | 0 px | identical |
+| sb-legacy-focus-09__desktop | 0 px | identical |
+| sb-legacy-focus-10__desktop | 0 px | identical |
+| sb-legacy-focus-11__desktop | 0 px | identical |
+| sb-legacy-focus-12__desktop | 0 px | identical |
+| sb-legacy-focus-13__desktop | 0 px | identical |
+| sb-legacy-focus-14__desktop | 0 px | identical |
+| sb-legacy-hover-00__desktop | 0 px | identical |
+| sb-legacy-hover-01__desktop | 0 px | identical |
+| sb-legacy-hover-02__desktop | 0 px | identical |
+| sb-legacy-hover-03__desktop | 0 px | identical |
+| sb-legacy-hover-04__desktop | 0 px | identical |
+| sb-legacy-hover-05__desktop | 0 px | identical |
+| sb-legacy-hover-06__desktop | 0 px | identical |
+| sb-legacy-hover-07__desktop | 0 px | identical |
+| sb-legacy-hover-08__desktop | 0 px | identical |
+| sb-legacy-hover-09__desktop | 0 px | identical |
+| sb-legacy-hover-10__desktop | 0 px | identical |
+| sb-legacy-hover-11__desktop | 0 px | identical |
+| sb-legacy-hover-12__desktop | 0 px | identical |
+| sb-legacy-hover-13__desktop | 0 px | identical |
+| sb-legacy-hover-14__desktop | 0 px | identical |
+| sb-legacy-hover-15__desktop | 0 px | identical |
+| sb-legacy-hover-16__desktop | 0 px | identical |
+| sb-legacy-hover-17__desktop | 0 px | identical |
+| sb-legacy-hover-18__desktop | 0 px | identical |
+| sb-legacy-hover-19__desktop | 0 px | identical |
+| sb-legacy-tab__desktop | 0 px | identical |
+| sb-legacy-tab__mobile | 0 px | identical |
+
+37 scenario(s), 0 differing

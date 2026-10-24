@@ -1,0 +1,2 @@
+npm warn Unknown project config "minimum-release-age". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+256 screenshot(s) written to /home/vercel-sandbox/autogpt/.context/shots/dev-run1

@@ -1,0 +1,14 @@
+npm warn Unknown project config "minimum-release-age". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+build2-section-suggestion__desktop ok
+build2-section-all_blocks__desktop ok
+build2-section-input_blocks__desktop ok
+build2-section-integrations__desktop ok
+build2-section-my_agents__desktop ok
+build2-section-marketplace_agents__desktop ok
+build2-section-all_blocks-hover-card__desktop ok
+build2-section-all_blocks-focus-card__desktop ok
+build2-integration-open__desktop ok
+build2-search-results__desktop ok
+build2-search-clear-hover__desktop ok
+build2-graph-search-open__desktop ok
+build2-graph-search-typed__desktop ok

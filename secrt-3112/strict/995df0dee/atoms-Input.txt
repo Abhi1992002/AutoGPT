@@ -1,0 +1,3 @@
+[@shadcn/lint] components.json sets tailwind.css to src/app/globals.css, which does not import Tailwind. No stylesheet importing Tailwind was found under the project, so no-unknown-classes is using the grammar bundled with @shadcn/lint until the path is fixed.
+src/components/atoms/Input/Input.tsx:109:5: error shadcn(no-raw-colors): "focus:border-purple-400" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md.
+src/components/atoms/Input/Input.tsx:109:5: error shadcn(no-raw-colors): "focus:ring-purple-400" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md.

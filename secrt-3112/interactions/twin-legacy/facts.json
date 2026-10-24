@@ -1,0 +1,498 @@
+{
+ "sb-legacy-hover-00__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-01__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-02__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-03__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-04__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-05__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-06__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-07__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-08__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-09__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-10__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-11__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-12__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-13__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-14__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-15__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-16__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-17__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-18__desktop": {
+  "stable": true
+ },
+ "sb-legacy-hover-19__desktop": {
+  "stable": true
+ },
+ "sb-legacy-tab__desktop": {
+  "buttons": [
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-default",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-sm",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "Disabled",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-default",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-sm",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "Disabled",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-default",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-sm",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "Disabled",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-default",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-sm",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "Disabled",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-default",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-sm",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "Disabled",
+    "children": ""
+   }
+  ],
+  "tab": [
+   "button[] legacy-default",
+   "button[] legacy-sm",
+   "button[] ",
+   "button[] legacy-default",
+   "button[] legacy-sm",
+   "button[] ",
+   "button[] legacy-default",
+   "button[] legacy-sm",
+   "button[] ",
+   "button[] legacy-default",
+   "button[] legacy-sm",
+   "button[] ",
+   "button[] legacy-default",
+   "button[] legacy-sm",
+   "button[] ",
+   "body"
+  ],
+  "stable": true
+ },
+ "sb-legacy-focus-00__desktop": {
+  "focus": "button[] legacy-default",
+  "stable": true
+ },
+ "sb-legacy-focus-01__desktop": {
+  "focus": "button[] legacy-sm",
+  "stable": true
+ },
+ "sb-legacy-focus-02__desktop": {
+  "focus": "button[] ",
+  "stable": true
+ },
+ "sb-legacy-focus-03__desktop": {
+  "focus": "button[] legacy-default",
+  "stable": true
+ },
+ "sb-legacy-focus-04__desktop": {
+  "focus": "button[] legacy-sm",
+  "stable": true
+ },
+ "sb-legacy-focus-05__desktop": {
+  "focus": "button[] ",
+  "stable": true
+ },
+ "sb-legacy-focus-06__desktop": {
+  "focus": "button[] legacy-default",
+  "stable": true
+ },
+ "sb-legacy-focus-07__desktop": {
+  "focus": "button[] legacy-sm",
+  "stable": true
+ },
+ "sb-legacy-focus-08__desktop": {
+  "focus": "button[] ",
+  "stable": true
+ },
+ "sb-legacy-focus-09__desktop": {
+  "focus": "button[] legacy-default",
+  "stable": true
+ },
+ "sb-legacy-focus-10__desktop": {
+  "focus": "button[] legacy-sm",
+  "stable": true
+ },
+ "sb-legacy-focus-11__desktop": {
+  "focus": "button[] ",
+  "stable": true
+ },
+ "sb-legacy-focus-12__desktop": {
+  "focus": "button[] legacy-default",
+  "stable": true
+ },
+ "sb-legacy-focus-13__desktop": {
+  "focus": "button[] legacy-sm",
+  "stable": true
+ },
+ "sb-legacy-focus-14__desktop": {
+  "focus": "button[] ",
+  "stable": true
+ },
+ "sb-legacy-tab__mobile": {
+  "buttons": [
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-default",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-sm",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "Disabled",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-default",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-sm",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "Disabled",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-default",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-sm",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "Disabled",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-default",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-sm",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "Disabled",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-default",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "legacy-sm",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "Disabled",
+    "children": ""
+   }
+  ],
+  "tab": [
+   "button[] legacy-default",
+   "button[] legacy-sm",
+   "button[] ",
+   "button[] legacy-default",
+   "button[] legacy-sm",
+   "button[] ",
+   "button[] legacy-default",
+   "button[] legacy-sm",
+   "button[] ",
+   "button[] legacy-default",
+   "button[] legacy-sm",
+   "button[] ",
+   "button[] legacy-default",
+   "button[] legacy-sm",
+   "button[] ",
+   "body"
+  ],
+  "stable": true
+ }
+}

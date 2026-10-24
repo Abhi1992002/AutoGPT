@@ -1,0 +1,26 @@
+app dev up 05:58:59 cwd=/home/vercel-sandbox/wt-dev/autogpt_platform/frontend
+probe dev #1 4000 {"rm":true,"items":["1|none|","1|none|","1|none|opacity: 1;"]}
+probe dev #2 4000 {"rm":true,"items":["1|none|","1|none|","1|none|opacity: 1;"]}
+probe dev #3 4000 {"rm":true,"items":["1|none|","1|none|","1|none|opacity: 1;"]}
+probe dev #4 4000 {"rm":true,"items":["1|none|","1|none|","1|none|opacity: 1;"]}
+probe dev #5 4000 {"rm":true,"items":["1|none|","1|none|","1|none|opacity: 1;"]}
+int dev-b2 13 ok, 0 bad
+int dev-fix 4 ok, 0 bad
+app pr1 up 06:02:08 cwd=/home/vercel-sandbox/wt-pr1/autogpt_platform/frontend
+probe pr1 #1 4000 {"rm":true,"items":["1|none|","1|none|","1|blur(4px)|opacity: 1; filter: blur(4px); transform: translateY(8px);"]}
+probe pr1 #2 4000 {"rm":true,"items":["1|none|","1|none|","1|blur(4px)|opacity: 1; filter: blur(4px); transform: translateY(8px);"]}
+probe pr1 #3 4000 {"rm":true,"items":["1|none|","1|none|","1|blur(4px)|opacity: 1; filter: blur(4px); transform: translateY(8px);"]}
+probe pr1 #4 4000 {"rm":true,"items":["1|none|","1|none|","1|blur(4px)|opacity: 1; filter: blur(4px); transform: translateY(8px);"]}
+probe pr1 #5 4000 {"rm":true,"items":["1|none|","1|none|","1|blur(4px)|opacity: 1; filter: blur(4px); transform: translateY(8px);"]}
+int pr1-b2a 13 ok, 0 bad
+int pr1-b2b 13 ok, 0 bad
+app pr2 up 06:06:21 cwd=/home/vercel-sandbox/wt-pr2/autogpt_platform/frontend
+probe pr2 #1 4000 {"rm":true,"items":["1|none|","1|none|","1|blur(4px)|opacity: 1; filter: blur(4px); transform: translateY(8px);"]}
+probe pr2 #2 4000 {"rm":true,"items":["1|none|","1|none|","1|blur(4px)|opacity: 1; filter: blur(4px); transform: translateY(8px);"]}
+probe pr2 #3 4000 {"rm":true,"items":["1|none|","1|none|","1|blur(4px)|opacity: 1; filter: blur(4px); transform: translateY(8px);"]}
+probe pr2 #4 4000 {"rm":true,"items":["1|none|","1|none|","1|blur(4px)|opacity: 1; filter: blur(4px); transform: translateY(8px);"]}
+probe pr2 #5 4000 {"rm":true,"items":["1|none|","1|none|","1|blur(4px)|opacity: 1; filter: blur(4px); transform: translateY(8px);"]}
+int pr2-b2a 13 ok, 0 bad
+int pr2-b2b 13 ok, 0 bad
+ALLDONE 06:10:29
+/home/vercel-sandbox/autogpt/.context/app-runs2.sh: line 8: 240262 Killed                  nohup setsid bash -c 'PORT=3000 pnpm start' > /tmp/start-$1.log 2>&1

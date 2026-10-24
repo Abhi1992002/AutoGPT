@@ -1,0 +1,1946 @@
+{
+ "admin-marketplace-rest__desktop": {
+  "controls": [
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "class": "<class>",
+     "aria-label": "Admin navigation, current: Marketplace Management",
+     "aria-haspopup": "dialog",
+     "aria-expanded": "false",
+     "aria-controls": "<id>",
+     "data-state": "closed"
+    },
+    "text": "Marketplace Management",
+    "children": "span,svg"
+   },
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "placeholder": "Search agents by Name, Creator, or Description...",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "role": "combobox",
+     "aria-controls": "<id>",
+     "aria-expanded": "false",
+     "aria-autocomplete": "none",
+     "dir": "ltr",
+     "data-state": "closed",
+     "class": "<class>"
+    },
+    "text": "All",
+    "children": "span,svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Preview",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Download",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Approve",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Reject",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "Previous",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "Next",
+    "children": ""
+   }
+  ],
+  "tab": [
+   "a[] Back to home",
+   "a[] Users",
+   "a[] Marketplace Management",
+   "a[] User Spending",
+   "a[] System Diagnostics",
+   "a[] Platform Costs",
+   "a[] Execution Analytics",
+   "a[] Bot Analytics",
+   "a[] Block Cost Estimates",
+   "a[] Memory Inspector",
+   "a[] Admin settings",
+   "a[] Test Data",
+   "input[] ",
+   "button[] ",
+   "button[combobox] All",
+   "a[] Preview",
+   "button[] Preview",
+   "button[] Download",
+   "button[] Approve",
+   "button[] Reject"
+  ],
+  "stable": true
+ },
+ "admin-marketplace-typed__desktop": {
+  "focus": "input[] ",
+  "stable": true
+ },
+ "admin-marketplace-search-hover__desktop": {
+  "stable": true
+ },
+ "admin-marketplace-search-focus__desktop": {
+  "focus": "button[] ",
+  "button": {
+   "tag": "BUTTON",
+   "type": null,
+   "aria": null,
+   "focused": true
+  },
+  "stable": true
+ },
+ "admin-marketplace-approve-hover__desktop": {
+  "stable": true
+ },
+ "admin-marketplace-reject-focus__desktop": {
+  "reached": true,
+  "stable": true
+ },
+ "admin-marketplace-approve-open__desktop": {
+  "dialog": [
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "placeholder": "Search agents by Name, Creator, or Description...",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "input",
+    "attrs": {
+     "type": "hidden",
+     "value": "2c4143f2-4931-4444-8c93-e53d2e8486f4",
+     "name": "id"
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "textarea",
+    "attrs": {
+     "class": "<class>",
+     "id": "<id>",
+     "name": "comments",
+     "placeholder": "Add any comments for the agent creator"
+    },
+    "text": "Meets all requirements",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button"
+    },
+    "text": "Cancel",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "submit"
+    },
+    "text": "Approve",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "class": "<class>"
+    },
+    "text": "Close",
+    "children": "svg,span"
+   }
+  ],
+  "focusOnOpen": "textarea[] Meets all requirements",
+  "tabInDialog": [
+   "button[] Cancel",
+   "button[] Approve",
+   "button[] Close",
+   "textarea[] Meets all requirements",
+   "button[] Cancel"
+  ],
+  "stable": true
+ },
+ "admin-marketplace-approve-esc__desktop": {
+  "focusAfterEsc": "body",
+  "stable": true
+ },
+ "admin-marketplace-reject-open__desktop": {
+  "error": "TimeoutError: locator.click: Timeout 30000ms exceeded."
+ },
+ "admin-marketplace-row-open__desktop": {
+  "rowButtons": [
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "placeholder": "Search agents by Name, Creator, or Description...",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Preview",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Download",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Approve",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Reject",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Preview",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Download",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Approve",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Reject",
+    "children": "svg"
+   }
+  ],
+  "stable": true
+ },
+ "admin-marketplace-download-hover__desktop": {
+  "stable": true
+ },
+ "admin-marketplace-pagination-hover__desktop": {
+  "pager": [
+   {
+    "tag": "BUTTON",
+    "disabled": true,
+    "type": null,
+    "aria": null
+   },
+   {
+    "tag": "BUTTON",
+    "disabled": true,
+    "type": null,
+    "aria": null
+   }
+  ],
+  "stable": true
+ },
+ "admin-spending-rest__desktop": {
+  "controls": [
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "class": "<class>",
+     "aria-label": "Admin navigation, current: User Spending",
+     "aria-haspopup": "dialog",
+     "aria-expanded": "false",
+     "aria-controls": "<id>",
+     "data-state": "closed"
+    },
+    "text": "User Spending",
+    "children": "span,svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Export CSV",
+    "children": "svg,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Copilot Usage CSV",
+    "children": "svg,span"
+   },
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "placeholder": "Search users by Name or Email...",
+     "aria-label": "Search users by Name or Email...",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "",
+    "children": "span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "role": "combobox",
+     "aria-controls": "<id>",
+     "aria-expanded": "false",
+     "aria-autocomplete": "none",
+     "dir": "ltr",
+     "data-state": "closed",
+     "class": "<class>"
+    },
+    "text": "All",
+    "children": "span,svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Rate Limits",
+    "children": "span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Add Dollars",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "Previous",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "Next",
+    "children": ""
+   }
+  ],
+  "tab": [
+   "a[] Back to home",
+   "a[] Users",
+   "a[] Marketplace Management",
+   "a[] User Spending",
+   "a[] System Diagnostics",
+   "a[] Platform Costs",
+   "a[] Execution Analytics",
+   "a[] Bot Analytics",
+   "a[] Block Cost Estimates",
+   "a[] Memory Inspector",
+   "a[] Admin settings",
+   "a[] Test Data",
+   "button[] Export CSV",
+   "button[] Copilot Usage CSV",
+   "input[] Search users by Name or Email...",
+   "button[combobox] All",
+   "button[] Rate Limits",
+   "button[] Add Dollars",
+   "body",
+   "a[] Back to home"
+  ],
+  "stable": true
+ },
+ "admin-spending-add-focus__desktop": {
+  "reached": true,
+  "stable": true
+ },
+ "admin-spending-add-cancel-hover__desktop": {
+  "stable": true
+ },
+ "admin-spending-search-typed__desktop": {
+  "stable": true
+ },
+ "admin-spending-add-hover__desktop": {
+  "stable": true
+ },
+ "admin-spending-add-open__desktop": {
+  "error": "TimeoutError: locator.click: Timeout 30000ms exceeded."
+ },
+ "admin-spending-add-esc__desktop": {
+  "focusAfterEsc": "body",
+  "stable": true
+ },
+ "admin-analytics-rest__desktop": {
+  "controls": [
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "class": "<class>",
+     "aria-label": "Admin navigation, current: Execution Analytics",
+     "aria-haspopup": "dialog",
+     "aria-expanded": "false",
+     "aria-controls": "<id>",
+     "data-state": "closed"
+    },
+    "text": "Execution Analytics",
+    "children": "span,svg"
+   },
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "id": "<id>",
+     "placeholder": "Enter graph/agent ID",
+     "required": "",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "id": "<id>",
+     "placeholder": "Optional - leave empty for all versions",
+     "type": "number",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "id": "<id>",
+     "placeholder": "Optional - leave empty for all users",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "id": "<id>",
+     "type": "datetime-local",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "role": "combobox",
+     "aria-controls": "<id>",
+     "aria-expanded": "false",
+     "aria-autocomplete": "none",
+     "dir": "ltr",
+     "data-state": "closed",
+     "class": "<class>"
+    },
+    "text": "Openai: GPT 5.6 Terra (Recommended)",
+    "children": "span,svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "aria-controls": "<id>",
+     "aria-expanded": "false",
+     "data-state": "closed",
+     "class": "<class>"
+    },
+    "text": "Advanced Options",
+    "children": "div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "submit"
+    },
+    "text": "Generate Analytics",
+    "children": "span"
+   }
+  ],
+  "tab": [
+   "a[] Back to home",
+   "a[] Users",
+   "a[] Marketplace Management",
+   "a[] User Spending",
+   "a[] System Diagnostics",
+   "a[] Platform Costs",
+   "a[] Execution Analytics",
+   "a[] Bot Analytics",
+   "a[] Block Cost Estimates",
+   "a[] Memory Inspector",
+   "a[] Admin settings",
+   "a[] Test Data",
+   "input[] ",
+   "input[] ",
+   "input[] ",
+   "input[] ",
+   "input[] ",
+   "input[] ",
+   "input[] ",
+   "input[] "
+  ],
+  "stable": true
+ },
+ "admin-analytics-typed__desktop": {
+  "focus": "input[] ",
+  "stable": true
+ },
+ "admin-analytics-disabled-error__desktop": {
+  "invalid": false,
+  "stable": true
+ },
+ "build-rest__desktop": {
+  "controls": [],
+  "stable": true
+ },
+ "build-blockmenu-open__desktop": {
+  "menu": [
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-suggestion"
+    },
+    "text": "Suggestion",
+    "children": "span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-all_blocks"
+    },
+    "text": "All blocks100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-input_blocks"
+    },
+    "text": "Input blocks25",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-action_blocks"
+    },
+    "text": "Action blocks100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-output_blocks"
+    },
+    "text": "Output blocks1",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-integrations"
+    },
+    "text": "Integrations100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-marketplace_agents"
+    },
+    "text": "Marketplace Workflows0",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-my_agents"
+    },
+    "text": "My Workflows1",
+    "children": "span,span"
+   }
+  ],
+  "cards": [
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-d76bbe4c930e48948469b66775511f71"
+    },
+    "text": "AI Image CustomizerGenerate and edit custom images using Goo",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-ed1ae7a0b7704089b5201f0005fad19a"
+    },
+    "text": "AI Image GeneratorGenerate images using various AI models th",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-44f6c8add75c4ae18209aad1c0326928"
+    },
+    "text": "AI Music GeneratorThis block generates music using Meta's Mu",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-3d71270d599e41489b9571b35d2f44f0"
+    },
+    "text": "Search OrganizationsSearch for organizations in Apollo",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-c2adb3aa5aae488d8a6e4eb8c23e2ed6"
+    },
+    "text": "Search PeopleSearch for people in Apollo",
+    "children": "div,div"
+   }
+  ],
+  "stable": true
+ },
+ "build-blockmenu-typed__desktop": {
+  "search": [
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "placeholder": "Blocks, Workflows, Integrations or Keywords...",
+     "type": "text",
+     "value": "zzzz-no-match"
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "",
+    "children": "svg"
+   }
+  ],
+  "stable": true
+ },
+ "build-blockmenu-hover-item__desktop": {
+  "stable": true
+ },
+ "build-blockmenu-esc__desktop": {
+  "focusAfterEsc": "button[] ",
+  "stable": true
+ },
+ "sb-dateinput-open__desktop": {
+  "trigger": [
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button",
+     "id": "<id>",
+     "aria-label": "Start Date",
+     "aria-labelledby": "<id>",
+     "aria-describedby": "<id>",
+     "aria-haspopup": "dialog",
+     "aria-expanded": "false",
+     "aria-controls": "<id>",
+     "data-state": "closed"
+    },
+    "text": "Pick a date",
+    "children": "svg"
+   }
+  ],
+  "calendar": [
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "class": "<class>",
+     "aria-label": "Go to the Previous Month"
+    },
+    "text": "",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "class": "<class>",
+     "aria-label": "Go to the Next Month"
+    },
+    "text": "",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "role": "combobox",
+     "aria-controls": "<id>",
+     "aria-expanded": "false",
+     "aria-autocomplete": "none",
+     "dir": "ltr",
+     "data-state": "closed",
+     "class": "<class>"
+    },
+    "text": "January",
+    "children": "span,svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "role": "combobox",
+     "aria-controls": "<id>",
+     "aria-expanded": "false",
+     "aria-autocomplete": "none",
+     "dir": "ltr",
+     "data-state": "closed",
+     "class": "<class>"
+    },
+    "text": "2026",
+    "children": "span,svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button",
+     "tabindex": "-1",
+     "aria-label": "Sunday, December 28th, 2025"
+    },
+    "text": "28",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button",
+     "tabindex": "-1",
+     "aria-label": "Monday, December 29th, 2025"
+    },
+    "text": "29",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button",
+     "tabindex": "-1",
+     "aria-label": "Tuesday, December 30th, 2025"
+    },
+    "text": "30",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button",
+     "tabindex": "-1",
+     "aria-label": "Wednesday, December 31st, 2025"
+    },
+    "text": "31",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button",
+     "tabindex": "-1",
+     "aria-label": "Thursday, January 1st, 2026"
+    },
+    "text": "1",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button",
+     "tabindex": "-1",
+     "aria-label": "Friday, January 2nd, 2026"
+    },
+    "text": "2",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button",
+     "tabindex": "-1",
+     "aria-label": "Saturday, January 3rd, 2026"
+    },
+    "text": "3",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button",
+     "tabindex": "-1",
+     "aria-label": "Sunday, January 4th, 2026"
+    },
+    "text": "4",
+    "children": ""
+   }
+  ],
+  "focusOnOpen": "button[combobox] January",
+  "stable": true
+ },
+ "sb-dateinput-hover-day__desktop": {
+  "stable": true
+ },
+ "sb-dateinput-keys__desktop": {
+  "triggerFocus": "button[] Start Date",
+  "afterArrow": "button[combobox] January",
+  "focusAfterEsc": "button[] Start Date",
+  "stable": true
+ },
+ "sb-dateinput-trigger-focus__desktop": {
+  "reached": true,
+  "stable": true
+ },
+ "sb-dateinput-trigger-hover__desktop": {
+  "stable": true
+ },
+ "sb-input-focus__desktop": {
+  "input": [
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "placeholder": "Enter your text",
+     "rows": "3",
+     "type": "text",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   }
+  ],
+  "stable": true
+ },
+ "sb-input-hover__desktop": {
+  "stable": true
+ },
+ "admin-marketplace-rest__mobile": {
+  "controls": [
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "class": "<class>",
+     "aria-label": "Admin navigation, current: Marketplace Management",
+     "aria-haspopup": "dialog",
+     "aria-expanded": "false",
+     "aria-controls": "<id>",
+     "data-state": "closed"
+    },
+    "text": "Marketplace Management",
+    "children": "span,svg"
+   },
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "placeholder": "Search agents by Name, Creator, or Description...",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "role": "combobox",
+     "aria-controls": "<id>",
+     "aria-expanded": "false",
+     "aria-autocomplete": "none",
+     "dir": "ltr",
+     "data-state": "closed",
+     "class": "<class>"
+    },
+    "text": "All",
+    "children": "span,svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Preview",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Download",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Approve",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Reject",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "Previous",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "Next",
+    "children": ""
+   }
+  ],
+  "tab": [
+   "a[] Back to home",
+   "button[] Admin navigation, current: Marketplace M",
+   "input[] ",
+   "button[] ",
+   "button[combobox] All",
+   "a[] Preview",
+   "button[] Preview",
+   "button[] Download",
+   "button[] Approve",
+   "button[] Reject",
+   "body",
+   "a[] Back to home",
+   "button[] Admin navigation, current: Marketplace M",
+   "input[] ",
+   "button[] ",
+   "button[combobox] All",
+   "a[] Preview",
+   "button[] Preview",
+   "button[] Download",
+   "button[] Approve"
+  ],
+  "stable": true
+ },
+ "admin-marketplace-typed__mobile": {
+  "focus": "input[] ",
+  "stable": true
+ },
+ "admin-marketplace-search-hover__mobile": {
+  "stable": true
+ },
+ "admin-marketplace-search-focus__mobile": {
+  "focus": "button[] ",
+  "button": {
+   "tag": "BUTTON",
+   "type": null,
+   "aria": null,
+   "focused": true
+  },
+  "stable": true
+ },
+ "admin-marketplace-approve-hover__mobile": {
+  "stable": true
+ },
+ "admin-marketplace-reject-focus__mobile": {
+  "reached": true,
+  "stable": true
+ },
+ "admin-marketplace-approve-open__mobile": {
+  "dialog": [
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "placeholder": "Search agents by Name, Creator, or Description...",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "input",
+    "attrs": {
+     "type": "hidden",
+     "value": "2c4143f2-4931-4444-8c93-e53d2e8486f4",
+     "name": "id"
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "textarea",
+    "attrs": {
+     "class": "<class>",
+     "id": "<id>",
+     "name": "comments",
+     "placeholder": "Add any comments for the agent creator"
+    },
+    "text": "Meets all requirements",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button"
+    },
+    "text": "Cancel",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "submit"
+    },
+    "text": "Approve",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "class": "<class>"
+    },
+    "text": "Close",
+    "children": "svg,span"
+   }
+  ],
+  "focusOnOpen": "textarea[] Meets all requirements",
+  "tabInDialog": [
+   "button[] Cancel",
+   "button[] Approve",
+   "button[] Close",
+   "textarea[] Meets all requirements",
+   "button[] Cancel"
+  ],
+  "stable": true
+ },
+ "admin-marketplace-approve-esc__mobile": {
+  "focusAfterEsc": "body",
+  "stable": true
+ },
+ "admin-marketplace-reject-open__mobile": {
+  "dialog": [
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "placeholder": "Search agents by Name, Creator, or Description...",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "input",
+    "attrs": {
+     "type": "hidden",
+     "value": "2c4143f2-4931-4444-8c93-e53d2e8486f4",
+     "name": "id"
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "textarea",
+    "attrs": {
+     "class": "<class>",
+     "id": "<id>",
+     "name": "comments",
+     "placeholder": "Provide feedback for the agent creator",
+     "required": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "textarea",
+    "attrs": {
+     "class": "<class>",
+     "id": "<id>",
+     "name": "internal_comments",
+     "placeholder": "Add any internal notes (not visible to creator)"
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button"
+    },
+    "text": "Cancel",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "submit"
+    },
+    "text": "Reject",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "class": "<class>"
+    },
+    "text": "Close",
+    "children": "svg,span"
+   }
+  ],
+  "stable": true
+ },
+ "admin-marketplace-row-open__mobile": {
+  "rowButtons": [
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "placeholder": "Search agents by Name, Creator, or Description...",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Preview",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Download",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Approve",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Reject",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Preview",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Download",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Approve",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Reject",
+    "children": "svg"
+   }
+  ],
+  "stable": true
+ },
+ "admin-marketplace-download-hover__mobile": {
+  "stable": true
+ },
+ "admin-marketplace-pagination-hover__mobile": {
+  "pager": [
+   {
+    "tag": "BUTTON",
+    "disabled": true,
+    "type": null,
+    "aria": null
+   },
+   {
+    "tag": "BUTTON",
+    "disabled": true,
+    "type": null,
+    "aria": null
+   }
+  ],
+  "stable": true
+ },
+ "admin-spending-rest__mobile": {
+  "controls": [
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "class": "<class>",
+     "aria-label": "Admin navigation, current: User Spending",
+     "aria-haspopup": "dialog",
+     "aria-expanded": "false",
+     "aria-controls": "<id>",
+     "data-state": "closed"
+    },
+    "text": "User Spending",
+    "children": "span,svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Export CSV",
+    "children": "svg,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Copilot Usage CSV",
+    "children": "svg,span"
+   },
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "placeholder": "Search users by Name or Email...",
+     "aria-label": "Search users by Name or Email...",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "",
+    "children": "span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "role": "combobox",
+     "aria-controls": "<id>",
+     "aria-expanded": "false",
+     "aria-autocomplete": "none",
+     "dir": "ltr",
+     "data-state": "closed",
+     "class": "<class>"
+    },
+    "text": "All",
+    "children": "span,svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Rate Limits",
+    "children": "span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Add Dollars",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "Previous",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "disabled": ""
+    },
+    "text": "Next",
+    "children": ""
+   }
+  ],
+  "tab": [
+   "a[] Back to home",
+   "button[] Admin navigation, current: User Spending",
+   "button[] Export CSV",
+   "button[] Copilot Usage CSV",
+   "input[] Search users by Name or Email...",
+   "button[combobox] All",
+   "button[] Rate Limits",
+   "button[] Add Dollars",
+   "body",
+   "a[] Back to home",
+   "button[] Admin navigation, current: User Spending",
+   "button[] Export CSV",
+   "button[] Copilot Usage CSV",
+   "input[] Search users by Name or Email...",
+   "button[combobox] All",
+   "button[] Rate Limits",
+   "button[] Add Dollars",
+   "body",
+   "a[] Back to home",
+   "button[] Admin navigation, current: User Spending"
+  ],
+  "stable": true
+ },
+ "admin-spending-add-focus__mobile": {
+  "reached": true,
+  "stable": true
+ },
+ "admin-spending-add-cancel-hover__mobile": {
+  "stable": true
+ },
+ "admin-spending-search-typed__mobile": {
+  "stable": true
+ },
+ "admin-spending-add-hover__mobile": {
+  "stable": true
+ },
+ "admin-spending-add-open__mobile": {
+  "dialog": [
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "placeholder": "Search users by Name or Email...",
+     "aria-label": "Search users by Name or Email...",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "input",
+    "attrs": {
+     "type": "hidden",
+     "value": "ff41bd55-f11e-4871-957b-b96d49466612",
+     "name": "id"
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "input",
+    "attrs": {
+     "type": "hidden",
+     "value": "100",
+     "name": "amount"
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "id": "<id>",
+     "step": "0.01",
+     "placeholder": "0.00",
+     "type": "number",
+     "value": "1.00"
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button"
+    },
+    "text": "Cancel",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "submit"
+    },
+    "text": "Add Dollars",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "class": "<class>"
+    },
+    "text": "Close",
+    "children": "svg,span"
+   }
+  ],
+  "focus": "input[] ",
+  "stable": true
+ },
+ "admin-spending-add-esc__mobile": {
+  "focusAfterEsc": "body",
+  "stable": true
+ },
+ "admin-analytics-rest__mobile": {
+  "controls": [
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "class": "<class>",
+     "aria-label": "Admin navigation, current: Execution Analytics",
+     "aria-haspopup": "dialog",
+     "aria-expanded": "false",
+     "aria-controls": "<id>",
+     "data-state": "closed"
+    },
+    "text": "Execution Analytics",
+    "children": "span,svg"
+   },
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "id": "<id>",
+     "placeholder": "Enter graph/agent ID",
+     "required": "",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "id": "<id>",
+     "placeholder": "Optional - leave empty for all versions",
+     "type": "number",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "id": "<id>",
+     "placeholder": "Optional - leave empty for all users",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "id": "<id>",
+     "type": "datetime-local",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "role": "combobox",
+     "aria-controls": "<id>",
+     "aria-expanded": "false",
+     "aria-autocomplete": "none",
+     "dir": "ltr",
+     "data-state": "closed",
+     "class": "<class>"
+    },
+    "text": "Openai: GPT 5.6 Terra (Recommended)",
+    "children": "span,svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "aria-controls": "<id>",
+     "aria-expanded": "false",
+     "data-state": "closed",
+     "class": "<class>"
+    },
+    "text": "Advanced Options",
+    "children": "div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "submit"
+    },
+    "text": "Generate Analytics",
+    "children": "span"
+   }
+  ],
+  "tab": [
+   "a[] Back to home",
+   "button[] Admin navigation, current: Execution Ana",
+   "input[] ",
+   "input[] ",
+   "input[] ",
+   "input[] ",
+   "input[] ",
+   "input[] ",
+   "input[] ",
+   "input[] ",
+   "input[] ",
+   "input[] ",
+   "button[combobox] Openai: GPT 5.6 Terra (Recommended)",
+   "button[] Advanced Options",
+   "button[] Generate Analytics",
+   "body",
+   "a[] Back to home",
+   "button[] Admin navigation, current: Execution Ana",
+   "input[] ",
+   "input[] "
+  ],
+  "stable": true
+ },
+ "admin-analytics-typed__mobile": {
+  "focus": "input[] ",
+  "stable": true
+ },
+ "admin-analytics-disabled-error__mobile": {
+  "invalid": false,
+  "stable": true
+ },
+ "build-rest__mobile": {
+  "controls": [],
+  "stable": true
+ },
+ "sb-dateinput-open__mobile": {
+  "trigger": [
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button",
+     "id": "<id>",
+     "aria-label": "Start Date",
+     "aria-labelledby": "<id>",
+     "aria-describedby": "<id>",
+     "aria-haspopup": "dialog",
+     "aria-expanded": "false",
+     "aria-controls": "<id>",
+     "data-state": "closed"
+    },
+    "text": "Pick a date",
+    "children": "svg"
+   }
+  ],
+  "calendar": [
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "class": "<class>",
+     "aria-label": "Go to the Previous Month"
+    },
+    "text": "",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "class": "<class>",
+     "aria-label": "Go to the Next Month"
+    },
+    "text": "",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "role": "combobox",
+     "aria-controls": "<id>",
+     "aria-expanded": "false",
+     "aria-autocomplete": "none",
+     "dir": "ltr",
+     "data-state": "closed",
+     "class": "<class>"
+    },
+    "text": "January",
+    "children": "span,svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "type": "button",
+     "role": "combobox",
+     "aria-controls": "<id>",
+     "aria-expanded": "false",
+     "aria-autocomplete": "none",
+     "dir": "ltr",
+     "data-state": "closed",
+     "class": "<class>"
+    },
+    "text": "2026",
+    "children": "span,svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button",
+     "tabindex": "-1",
+     "aria-label": "Sunday, December 28th, 2025"
+    },
+    "text": "28",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button",
+     "tabindex": "-1",
+     "aria-label": "Monday, December 29th, 2025"
+    },
+    "text": "29",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button",
+     "tabindex": "-1",
+     "aria-label": "Tuesday, December 30th, 2025"
+    },
+    "text": "30",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button",
+     "tabindex": "-1",
+     "aria-label": "Wednesday, December 31st, 2025"
+    },
+    "text": "31",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button",
+     "tabindex": "-1",
+     "aria-label": "Thursday, January 1st, 2026"
+    },
+    "text": "1",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button",
+     "tabindex": "-1",
+     "aria-label": "Friday, January 2nd, 2026"
+    },
+    "text": "2",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button",
+     "tabindex": "-1",
+     "aria-label": "Saturday, January 3rd, 2026"
+    },
+    "text": "3",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "type": "button",
+     "tabindex": "-1",
+     "aria-label": "Sunday, January 4th, 2026"
+    },
+    "text": "4",
+    "children": ""
+   }
+  ],
+  "focusOnOpen": "button[combobox] January",
+  "stable": true
+ },
+ "sb-dateinput-hover-day__mobile": {
+  "stable": true
+ },
+ "sb-dateinput-keys__mobile": {
+  "triggerFocus": "button[] Start Date",
+  "afterArrow": "button[combobox] January",
+  "focusAfterEsc": "button[] Start Date",
+  "stable": true
+ },
+ "sb-dateinput-trigger-focus__mobile": {
+  "reached": true,
+  "stable": true
+ },
+ "sb-dateinput-trigger-hover__mobile": {
+  "stable": true
+ },
+ "sb-dialog-drawer-open__mobile": {
+  "close": [
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "aria-label": "Close"
+    },
+    "text": "",
+    "children": "svg"
+   }
+  ],
+  "focusOnOpen": "button[] Open Dialog",
+  "stable": true
+ },
+ "sb-dialog-drawer-close-focus__mobile": {
+  "tab": [
+   "button[] Close",
+   "button[] Close",
+   "button[] Close",
+   "button[] Close"
+  ],
+  "stable": true
+ },
+ "sb-dialog-drawer-esc__mobile": {
+  "focusAfterEsc": "button[] Open Dialog",
+  "stable": true
+ },
+ "sb-input-focus__mobile": {
+  "input": [
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "placeholder": "Enter your text",
+     "rows": "3",
+     "type": "text",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   }
+  ],
+  "stable": true
+ },
+ "sb-input-hover__mobile": {
+  "stable": true
+ }
+}

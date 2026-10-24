@@ -1,0 +1,8 @@
+[@shadcn/lint] components.json sets tailwind.css to src/app/globals.css, which does not import Tailwind. No stylesheet importing Tailwind was found under the project, so no-unknown-classes is using the grammar bundled with @shadcn/lint until the path is fixed.
+src/components/atoms/Button/helpers.ts:27:11: "border-[#a6a6a6]" hardcodes an off-token value. Use a theme token or scale value instead. See docs/engineering/design-system.md. [Error/shadcn(no-arbitrary-values)]
+src/components/atoms/Button/helpers.ts:27:11: "hover:border-[#a6a6a6]" hardcodes an off-token value. Use a theme token or scale value instead. See docs/engineering/design-system.md. [Error/shadcn(no-arbitrary-values)]
+src/components/atoms/Button/helpers.ts:30:15: "rounded-[96px]" hardcodes an off-token value. Nearest on the scale: rounded-4xl (32px), rounded-3xl (24px). See docs/engineering/design-system.md. [Error/shadcn(no-arbitrary-values)]
+src/components/atoms/Button/helpers.ts:55:16: "border-[#a6a6a6]" hardcodes an off-token value. Use a theme token or scale value instead. See docs/engineering/design-system.md. [Error/shadcn(no-arbitrary-values)]
+src/components/atoms/Button/helpers.ts:55:16: "hover:border-[#a6a6a6]" hardcodes an off-token value. Use a theme token or scale value instead. See docs/engineering/design-system.md. [Error/shadcn(no-arbitrary-values)]
+
+5 problems

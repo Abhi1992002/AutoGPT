@@ -1,0 +1,1412 @@
+{
+ "build2-section-suggestion__desktop": {
+  "buttons": [
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-suggestion"
+    },
+    "text": "Suggestion",
+    "children": "span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-all_blocks"
+    },
+    "text": "All blocks100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-input_blocks"
+    },
+    "text": "Input blocks25",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-action_blocks"
+    },
+    "text": "Action blocks100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-output_blocks"
+    },
+    "text": "Output blocks1",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-integrations"
+    },
+    "text": "Integrations100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-marketplace_agents"
+    },
+    "text": "Marketplace Workflows0",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-my_agents"
+    },
+    "text": "My Workflows1",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Twitter",
+    "children": "div,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Github",
+    "children": "div,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Notion",
+    "children": "div,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Google",
+    "children": "div,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Discord",
+    "children": "div,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Google Maps",
+    "children": "div,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-d76bbe4c930e48948469b66775511f71"
+    },
+    "text": "AI Image CustomizerGenerate and edit custom images using Goo",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-ed1ae7a0b7704089b5201f0005fad19a"
+    },
+    "text": "AI Image GeneratorGenerate images using various AI models th",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-44f6c8add75c4ae18209aad1c0326928"
+    },
+    "text": "AI Music GeneratorThis block generates music using Meta's Mu",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-3d71270d599e41489b9571b35d2f44f0"
+    },
+    "text": "Search OrganizationsSearch for organizations in Apollo",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-c2adb3aa5aae488d8a6e4eb8c23e2ed6"
+    },
+    "text": "Search PeopleSearch for people in Apollo",
+    "children": "div,div"
+   }
+  ],
+  "stable": true
+ },
+ "build2-section-all_blocks__desktop": {
+  "buttons": [
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-suggestion"
+    },
+    "text": "Suggestion",
+    "children": "span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-all_blocks"
+    },
+    "text": "All blocks100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-input_blocks"
+    },
+    "text": "Input blocks25",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-action_blocks"
+    },
+    "text": "Action blocks100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-output_blocks"
+    },
+    "text": "Output blocks1",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-integrations"
+    },
+    "text": "Integrations100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-marketplace_agents"
+    },
+    "text": "Marketplace Workflows0",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-my_agents"
+    },
+    "text": "My Workflows1",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-c069dc6bc3ed4c12b6e5d47361e64ce6"
+    },
+    "text": "Auto PilotAutoPilotBlock",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-d76bbe4c930e48948469b66775511f71"
+    },
+    "text": "AI Image CustomizerAIImageCustomizerBlock",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-ed1ae7a0b7704089b5201f0005fad19a"
+    },
+    "text": "AI Image GeneratorAIImageGeneratorBlock",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-44f6c8add75c4ae18209aad1c0326928"
+    },
+    "text": "AI Music GeneratorAIMusicGeneratorBlock",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "see all",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-c0a8e994ebf14a9ca4d889d09c86741b"
+    },
+    "text": "Agent InputAgentInputBlock",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-363ae599353e4804937eb2ee3cef3da4"
+    },
+    "text": "Agent OutputAgentOutputBlock",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-cbb50872625b42f08203a2ae78242d8a"
+    },
+    "text": "File StoreFileStoreBlock",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "see all",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-38997608a57a4e11971cb83a5332e80b"
+    },
+    "text": "Send Email To MeSendEmailToMeBlock",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-a283ffc480874c3d91358f26b86742ec"
+    },
+    "text": "Agent Mail Get Message AttachmentAgentMailGetMessageAttachme",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-06b6a4c49d7149929e9ccf3b352763b5"
+    },
+    "text": "Agent Mail Get Thread AttachmentAgentMailGetThreadAttachment",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "see all",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-8865699f918843c489b079c84cfaa03e"
+    },
+    "text": "Create CampaignCreateCampaignBlock",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-fb8106a41a8f42f9a502f6d07e6fe0ec"
+    },
+    "text": "Add Lead To CampaignAddLeadToCampaignBlock",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-e7d9f41cdc104f3998baa432abd128c0"
+    },
+    "text": "Save Campaign SequencesSaveCampaignSequencesBlock",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "see all",
+    "children": ""
+   }
+  ],
+  "stable": true
+ },
+ "build2-section-input_blocks__desktop": {
+  "buttons": [
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-suggestion"
+    },
+    "text": "Suggestion",
+    "children": "span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-all_blocks"
+    },
+    "text": "All blocks100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-input_blocks"
+    },
+    "text": "Input blocks25",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-action_blocks"
+    },
+    "text": "Action blocks100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-output_blocks"
+    },
+    "text": "Output blocks1",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-integrations"
+    },
+    "text": "Integrations100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-marketplace_agents"
+    },
+    "text": "Marketplace Workflows0",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-my_agents"
+    },
+    "text": "My Workflows1",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-c0a8e994ebf14a9ca4d889d09c86741b"
+    },
+    "text": "Agent InputA block that accepts and processes user input val",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-d0180ce6ccb948c78256b39e93e62801"
+    },
+    "text": "Airtable Webhook TriggerStarts a flow whenever Airtable emit",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-9c2e7b413d684a058f1c6b4d0e9a2f37"
+    },
+    "text": "AllQuiet Incident TriggerTriggers a graph when All Quiet pos",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-9464a020ed1d49e1990f7f2ac924a2b7"
+    },
+    "text": "Compass AI TriggerThis block will output the contents of the",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-8fa8c167200247ceaba897572fc5d387"
+    },
+    "text": "Generic Webhook TriggerThis block will output the contents o",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-6c60ec018128419e988f96a063ee2fea"
+    },
+    "text": "Github Pull Request TriggerThis block triggers on pull reque",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-551e0a35100b49b789b83031322239b6"
+    },
+    "text": "Github Star TriggerThis block triggers on GitHub star events",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-2052dd1b74e146ac9c87c7a0e057b60b"
+    },
+    "text": "Github Release TriggerThis block triggers on GitHub release ",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-b2605464e4864bf4aad3d8a213c8a48a"
+    },
+    "text": "Github Issues TriggerThis block triggers on GitHub issues ev",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-87f847b3d81a424e8e89acadb5c9d52b"
+    },
+    "text": "Github Discussion TriggerThis block triggers on GitHub Discu",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-62db5c4c186e43d38078886b2c29848a"
+    },
+    "text": "RMFG Event TriggerTriggers when an RMFG design, quote, cart ",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-8a74c2ad01044640962f26c6b69e58cd"
+    },
+    "text": "Slant3D Order WebhookThis block triggers on Slant3D order st",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-bc05f7efba6f4cb7a8993913b745ed11"
+    },
+    "text": "Stripe Subscription TriggerTriggers on Stripe subscription e",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-4435e4e0df6e43018f35ad70b12fc9ec"
+    },
+    "text": "Telegram Message TriggerTriggers when a message is received ",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-82525328936849668f0ccd78e80181fd"
+    },
+    "text": "Telegram Message Reaction TriggerTriggers when a reaction to",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-7fcd3bcb8e1b4e69903d32d3d4a92158"
+    },
+    "text": "Agent Short Text InputBlock for short text input (single-lin",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-90a56ffb70244b2bab50e26c5e5ab8ba"
+    },
+    "text": "Agent Long Text InputBlock for long text input (multi-line).",
+    "children": "div,div"
+   }
+  ],
+  "stable": true
+ },
+ "build2-section-integrations__desktop": {
+  "buttons": [
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-suggestion"
+    },
+    "text": "Suggestion",
+    "children": "span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-all_blocks"
+    },
+    "text": "All blocks100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-input_blocks"
+    },
+    "text": "Input blocks25",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-action_blocks"
+    },
+    "text": "Action blocks100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-output_blocks"
+    },
+    "text": "Output blocks1",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-integrations"
+    },
+    "text": "Integrations100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-marketplace_agents"
+    },
+    "text": "Marketplace Workflows0",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-my_agents"
+    },
+    "text": "My Workflows1",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Replicate6",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Apollo3",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "E2b4",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Anthropic11",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "OpenAI11",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Codex2",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Enrichlayer4",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Fal1",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Ideogram1",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Jina5",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Openweathermap1",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Mem04",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Nvidia1",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Ollama10",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Aiml API10",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "V010",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Groq10",
+    "children": "div,div"
+   }
+  ],
+  "stable": true
+ },
+ "build2-section-my_agents__desktop": {
+  "buttons": [
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-suggestion"
+    },
+    "text": "Suggestion",
+    "children": "span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-all_blocks"
+    },
+    "text": "All blocks100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-input_blocks"
+    },
+    "text": "Input blocks25",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-action_blocks"
+    },
+    "text": "Action blocks100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-output_blocks"
+    },
+    "text": "Output blocks1",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-integrations"
+    },
+    "text": "Integrations100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-marketplace_agents"
+    },
+    "text": "Marketplace Workflows0",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-my_agents"
+    },
+    "text": "My Workflows1",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Evidence workflowEdited just now•Version 1Your Workflow",
+    "children": "div,div"
+   }
+  ],
+  "stable": true
+ },
+ "build2-section-marketplace_agents__desktop": {
+  "buttons": [
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-suggestion"
+    },
+    "text": "Suggestion",
+    "children": "span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-all_blocks"
+    },
+    "text": "All blocks100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-input_blocks"
+    },
+    "text": "Input blocks25",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-action_blocks"
+    },
+    "text": "Action blocks100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-output_blocks"
+    },
+    "text": "Output blocks1",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-integrations"
+    },
+    "text": "Integrations100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-marketplace_agents"
+    },
+    "text": "Marketplace Workflows0",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-my_agents"
+    },
+    "text": "My Workflows1",
+    "children": "span,span"
+   }
+  ],
+  "stable": true
+ },
+ "build2-section-all_blocks-hover-card__desktop": {
+  "stable": true
+ },
+ "build2-section-all_blocks-focus-card__desktop": {
+  "focus": "button[] Auto PilotAutoPilotBlock",
+  "stable": true
+ },
+ "build2-integration-open__desktop": {
+  "buttons": [
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-suggestion"
+    },
+    "text": "Suggestion",
+    "children": "span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-all_blocks"
+    },
+    "text": "All blocks100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-input_blocks"
+    },
+    "text": "Input blocks25",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-action_blocks"
+    },
+    "text": "Action blocks100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-output_blocks"
+    },
+    "text": "Output blocks1",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-integrations"
+    },
+    "text": "Integrations100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-marketplace_agents"
+    },
+    "text": "Marketplace Workflows0",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-my_agents"
+    },
+    "text": "My Workflows1",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Integrations",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true"
+    },
+    "text": "AI Image CustomizerGenerate and edit custom images using Goo",
+    "children": "span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true"
+    },
+    "text": "AI Image GeneratorGenerate images using various AI models th",
+    "children": "span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true"
+    },
+    "text": "AI Music GeneratorThis block generates music using Meta's Mu",
+    "children": "span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true"
+    },
+    "text": "AI Image EditorEdit images using Flux Kontext or Google Nano",
+    "children": "span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true"
+    },
+    "text": "Replicate Flux Advanced ModelThis block runs Flux models on ",
+    "children": "span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true"
+    },
+    "text": "Replicate ModelRun Replicate models synchronously",
+    "children": "span"
+   }
+  ],
+  "stable": true
+ },
+ "build2-search-results__desktop": {
+  "buttons": [
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "",
+    "children": "svg"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-suggestion"
+    },
+    "text": "Suggestion",
+    "children": "span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-all_blocks"
+    },
+    "text": "All blocks100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-input_blocks"
+    },
+    "text": "Input blocks25",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-action_blocks"
+    },
+    "text": "Action blocks100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-output_blocks"
+    },
+    "text": "Output blocks1",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-integrations"
+    },
+    "text": "Integrations100+",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-marketplace_agents"
+    },
+    "text": "Marketplace Workflows0",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "data-id": "menu-item-my_agents"
+    },
+    "text": "My Workflows1",
+    "children": "span,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Twitter",
+    "children": "div,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Github",
+    "children": "div,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Notion",
+    "children": "div,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Google",
+    "children": "div,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Discord",
+    "children": "div,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "Google Maps",
+    "children": "div,span"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-d76bbe4c930e48948469b66775511f71"
+    },
+    "text": "AI Image CustomizerGenerate and edit custom images using Goo",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-ed1ae7a0b7704089b5201f0005fad19a"
+    },
+    "text": "AI Image GeneratorGenerate images using various AI models th",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-44f6c8add75c4ae18209aad1c0326928"
+    },
+    "text": "AI Music GeneratorThis block generates music using Meta's Mu",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-3d71270d599e41489b9571b35d2f44f0"
+    },
+    "text": "Search OrganizationsSearch for organizations in Apollo",
+    "children": "div,div"
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>",
+     "draggable": "true",
+     "data-id": "block-card-c2adb3aa5aae488d8a6e4eb8c23e2ed6"
+    },
+    "text": "Search PeopleSearch for people in Apollo",
+    "children": "div,div"
+   }
+  ],
+  "stable": true
+ },
+ "build2-search-clear-hover__desktop": {
+  "stable": true
+ },
+ "build2-graph-search-open__desktop": {
+  "input": [
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "placeholder": "Search this workflow for blocks, inputs, outputs...",
+     "type": "text",
+     "value": ""
+    },
+    "text": "",
+    "children": ""
+   }
+  ],
+  "focus": "input[] ",
+  "stable": true
+ },
+ "build2-graph-search-typed__desktop": {
+  "after": [
+   {
+    "tag": "input",
+    "attrs": {
+     "class": "<class>",
+     "placeholder": "Search this workflow for blocks, inputs, outputs...",
+     "type": "text",
+     "value": "input"
+    },
+    "text": "",
+    "children": ""
+   },
+   {
+    "tag": "button",
+    "attrs": {
+     "class": "<class>"
+    },
+    "text": "",
+    "children": "svg"
+   }
+  ],
+  "focusAfterEsc": "body",
+  "stable": true
+ }
+}

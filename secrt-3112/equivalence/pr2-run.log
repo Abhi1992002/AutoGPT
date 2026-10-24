@@ -1,0 +1,11 @@
+npm warn Unknown project config "minimum-release-age". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+A: width 1280 0/745
+A: width 1280 600/745
+A: width 1280 0/745
+A: width 1280 600/745
+A: width 390 0/745
+A: width 390 600/745
+A: width 390 0/745
+A: width 390 600/745
+A. 978 render cases (745 distinct) x 3 parent line-heights x 2 widths: 14556 element/pseudo-element styles compared on every computed property; 0 differing; 0 structural differences
+B. 91 changed class strings (per variant scope) compared on every emitted property plus font-size, line-height, letter-spacing, font-weight, font-family, text-transform, color: 0 failing
