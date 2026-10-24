@@ -63,6 +63,9 @@ function forceable(css: string) {
 async function measure(page: any, css: string, state: string) {
   await page.setContent(`<html><head><style>${forceable(css)}</style><style>*{transition:none!important;animation-play-state:paused!important;animation-delay:0s!important}</style></head><body style="font-size:16px">${DOM}</body></html>`);
   if (state !== "default") await page.evaluate(`document.querySelectorAll("[id]").forEach((el) => el.classList.add("fs-${state}"))`);
+  // tutorial.css sets `transition: all 150ms !important` at a specificity the
+  // reset above cannot beat, so let every transition finish before reading.
+  await page.waitForTimeout(600);
   return page.evaluate(`(() => {
     const out = {};
     for (const el of document.querySelectorAll("[id]")) {

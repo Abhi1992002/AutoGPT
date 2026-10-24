@@ -1,4 +1,4 @@
-flow.css + tutorial.css: 114498 computed values (every property of every mock element in default/hover/active, plus keyframes) compared base vs head: 54 differences
+flow.css + tutorial.css: 114498 computed values (every property of every mock element in default/hover/active, plus keyframes) compared base vs head: 58 differences
 
 | element property | value at head (computed, 16px root) |
 | --- | --- |
@@ -20,10 +20,10 @@ flow.css + tutorial.css: 114498 computed values (every property of every mock el
 | `sec-top border-top-color` | rgb(244, 244, 245) |
 | `arrow-top::before background-color` | rgb(255, 255, 255) |
 | `keyframe 50% box-shadow` | rgb(255, 255, 255) 0px 0px 0px 4px, rgb(139, 92, 246) 0px 0px 0px 8px, rgba(124, 58, 237, 0.55) 0px 0px 40px 12px |
-| `pri-top:hover background-color` | rgb(39, 39, 42) |
-| `pri-top:hover border-top-color` | rgb(39, 39, 42) |
-| `sec-top:hover background-color` | rgb(244, 244, 245) |
-| `sec-top:hover border-top-color` | rgb(244, 244, 245) |
+| `pri-top:hover background-color` | rgb(9, 9, 11) |
+| `pri-top:hover border-top-color` | rgb(24, 24, 27) |
+| `sec-top:hover background-color` | rgb(228, 228, 231) |
+| `sec-top:hover border-top-color` | rgb(228, 228, 231) |
 
 - DIFF default dot fill: rgb(145, 145, 154) -> rgb(145, 145, 155)
 - DIFF default dot::before fill: rgb(145, 145, 154) -> rgb(145, 145, 155)
@@ -47,18 +47,22 @@ flow.css + tutorial.css: 114498 computed values (every property of every mock el
 - DIFF hover dot::before fill: rgb(145, 145, 154) -> rgb(145, 145, 155)
 - DIFF hover sec-top line-height: 20px -> 22px
 - DIFF hover sec-top::before line-height: 20px -> 22px
+- DIFF hover pri-top background-color: rgb(24, 24, 27) -> rgb(9, 9, 11)
 - DIFF hover pri-top line-height: 20px -> 22px
 - DIFF hover pri-top::before line-height: 20px -> 22px
 - DIFF hover sec-bottom line-height: 20px -> 22px
 - DIFF hover sec-bottom::before line-height: 20px -> 22px
+- DIFF hover pri-bottom background-color: rgb(24, 24, 27) -> rgb(9, 9, 11)
 - DIFF hover pri-bottom line-height: 20px -> 22px
 - DIFF hover pri-bottom::before line-height: 20px -> 22px
 - DIFF hover sec-left line-height: 20px -> 22px
 - DIFF hover sec-left::before line-height: 20px -> 22px
+- DIFF hover pri-left background-color: rgb(24, 24, 27) -> rgb(9, 9, 11)
 - DIFF hover pri-left line-height: 20px -> 22px
 - DIFF hover pri-left::before line-height: 20px -> 22px
 - DIFF hover sec-right line-height: 20px -> 22px
 - DIFF hover sec-right::before line-height: 20px -> 22px
+- DIFF hover pri-right background-color: rgb(24, 24, 27) -> rgb(9, 9, 11)
 - DIFF hover pri-right line-height: 20px -> 22px
 - DIFF hover pri-right::before line-height: 20px -> 22px
 - DIFF active dot fill: rgb(145, 145, 154) -> rgb(145, 145, 155)

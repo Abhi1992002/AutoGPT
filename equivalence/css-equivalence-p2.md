@@ -20,9 +20,9 @@ flow.css + tutorial.css: 114498 computed values (every property of every mock el
 | `sec-top border-top-color` | rgb(244, 244, 245) |
 | `arrow-top::before background-color` | rgb(255, 255, 255) |
 | `keyframe 50% box-shadow` | rgb(255, 255, 255) 0px 0px 0px 4px, rgb(139, 92, 246) 0px 0px 0px 8px, rgba(124, 58, 237, 0.55) 0px 0px 40px 12px |
-| `pri-top:hover background-color` | rgb(39, 39, 42) |
-| `pri-top:hover border-top-color` | rgb(39, 39, 42) |
-| `sec-top:hover background-color` | rgb(244, 244, 245) |
-| `sec-top:hover border-top-color` | rgb(244, 244, 245) |
+| `pri-top:hover background-color` | rgb(24, 24, 27) |
+| `pri-top:hover border-top-color` | rgb(24, 24, 27) |
+| `sec-top:hover background-color` | rgb(228, 228, 231) |
+| `sec-top:hover border-top-color` | rgb(228, 228, 231) |
 
 
