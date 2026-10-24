@@ -64,10 +64,14 @@
 | story__atoms-button--small-buttons__mobile.png | 390x844 | 0 |
 | story__atoms-button--toggle-buttons__desktop.png | 1440x900 | 0 |
 | story__atoms-button--toggle-buttons__mobile.png | 390x844 | 0 |
+| story__atoms-button--variant-matrix__desktop.png | 1440x1000 | 0 |
+| story__atoms-button--variant-matrix__mobile.png | 390x3230 | 0 |
 | story__atoms-button--with-left-icon__desktop.png | 1440x900 | 0 |
 | story__atoms-button--with-left-icon__mobile.png | 390x844 | 0 |
 | story__atoms-button--with-right-icon__desktop.png | 1440x900 | 0 |
 | story__atoms-button--with-right-icon__mobile.png | 390x844 | 0 |
+| story__atoms-text--all-tones__desktop.png | 1440x1530 | 0 |
+| story__atoms-text--all-tones__mobile.png | 390x2900 | 0 |
 | story__atoms-text--all-variants__desktop.png | 1440x1382 | 0 |
 | story__atoms-text--all-variants__mobile.png | 419x1462 | 0 |
 | story__atoms-text--body-text__desktop.png | 1440x900 | 0 |
@@ -293,4 +297,4 @@
 | story__tokens-typography--all-variants__desktop.png | 1440x1603 | 0 |
 | story__tokens-typography--all-variants__mobile.png | 419x2235 | 0 |
 
-292 screenshot(s) compared, 0 with differences
+296 screenshot(s) compared, 0 with differences
