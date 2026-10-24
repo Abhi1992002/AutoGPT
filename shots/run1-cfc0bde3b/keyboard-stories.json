@@ -1,0 +1,7 @@
+{
+ "accordion: after click": "button|||true|open|Is it accessible?",
+ "accordion: ArrowDown moves focus to": "button|||false|closed|Is it styled?",
+ "accordion: Enter on second": "button|||true|open|Is it styled?",
+ "collapsible: Enter opens, state": "button|||true|open|Click to expand",
+ "collapsible: Space closes, state": "button|||false|closed|Click to expand"
+}
