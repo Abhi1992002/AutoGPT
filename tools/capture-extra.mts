@@ -11,7 +11,7 @@ import { join } from "node:path";
 const req = createRequire(join(process.cwd(), "package.json"));
 const { chromium } = req("@playwright/test");
 
-const BASE = "http://localhost:3000";
+const BASE = process.env.APP_URL ?? "http://localhost:3000";
 const [outDir, flowID] = process.argv.slice(2);
 const FIXED_TIME = new Date("2026-01-15T12:00:00.000Z");
 const VIEWPORTS = [

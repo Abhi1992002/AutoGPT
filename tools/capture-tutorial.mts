@@ -13,7 +13,7 @@ import { join } from "node:path";
 const req = createRequire(join(process.cwd(), "package.json"));
 const { chromium } = req("@playwright/test");
 
-const BASE = "http://localhost:3000";
+const BASE = process.env.APP_URL ?? "http://localhost:3000";
 const [stepsFile, outDir] = process.argv.slice(2);
 const steps = JSON.parse(readFileSync(stepsFile, "utf8")) as { id: string; title: string; text: string; buttons: { text: string; classes: string }[] }[];
 const VIEWPORTS = [

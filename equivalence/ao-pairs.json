@@ -1,0 +1,29 @@
+{
+ "pairs": [
+  {
+   "file": "AgentOutputs <Label> (output name)",
+   "old": "peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-base font-semibold",
+   "new": "peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-body-lg font-semibold leading-6",
+   "tag": "merged"
+  },
+  {
+   "file": "AgentOutputs <Label> (output description)",
+   "old": "font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 mt-1 block text-sm text-gray-600",
+   "new": "font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 mt-1 block text-body leading-5 text-gray-600",
+   "tag": "merged"
+  },
+  {
+   "file": "AgentOutputs <SheetTitle>",
+   "old": "font-semibold text-neutral-950 dark:text-neutral-50 text-xl",
+   "new": "font-semibold text-neutral-950 dark:text-neutral-50 text-lead",
+   "tag": "merged"
+  },
+  {
+   "file": "AgentOutputs <SheetDescription>",
+   "old": "dark:text-neutral-400 mt-1 text-sm text-muted-foreground",
+   "new": "dark:text-neutral-400 mt-1 text-body leading-5 text-muted-foreground",
+   "tag": "merged"
+  }
+ ],
+ "unpaired": []
+}
