@@ -11,7 +11,7 @@ All runs are production builds (`NEXT_PUBLIC_PW_TEST=true pnpm build && pnpm sta
 | `diffs/` | diff PNGs for every comparison that had any |
 | `reports/` | every compare report (`compare-*` DS1 compare, `cmp-*` interactions, `match-*` DS2a match-sets, `noise-*` noise boxes), capture logs |
 | `equivalence/` | DS2a render harness output (`pr1/`, `pr2/`), DS1 equivalence script logs, negative check |
-| `strict/` | DS4 1ee6580dc strict oxlint output per SHA (`995df0dee`, `6b5a42e36`, `15a14198a` — `6f67fa0e2` only adds tests) |
+| `strict/` | DS4 1ee6580dc strict oxlint output per SHA (`995df0dee`, `6b5a42e36`, `15a14198a`, `6f67fa0e2`) |
 | `harness/` | collectors, compare scripts, run scripts |
 
 The first dev build (`routes/dev-a`, `interactions/dev-a-int`, `dev-b2`) reused a `.next` cache left by an OOM-killed build and threw during SSR (`Cannot read properties of undefined (reading 'ENABLE_PLATFORM_PAYMENT')`, `(reading 'oauth2')`), so its pages were client-rendered and the sidebar's entrance animation finished; a clean rebuild (`rm -rf .next`) has no SSR errors and matches the PR builds (`reports/app-runs2.log` probes). Comparisons use the clean build (`dev-c`, `dev-d`).
