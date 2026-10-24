@@ -16,6 +16,7 @@ for sha in "$@"; do
   NEXT_SKIP_BUILD_CHECKS=true NEXT_PUBLIC_PW_TEST=true pnpm build >> $LOG 2>&1 || { echo "[$(date +%T)] $sha NEXT BUILD FAILED" >> $LOG; continue; }
   echo "[$(date +%T)] $sha storybook build" >> $LOG
   pnpm build-storybook -o storybook-static --quiet >> $LOG 2>&1 || { echo "[$(date +%T)] $sha SB BUILD FAILED" >> $LOG; continue; }
+  rm -rf .next/cache node_modules/.cache
   touch .done
   echo "[$(date +%T)] $sha done" >> $LOG
 done

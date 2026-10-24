@@ -30,6 +30,8 @@ if [ "$mode" != stories ]; then
   echo "[$(date +%T)] routes done" >> $LOG
   NODE_OPTIONS="$SEED" npx tsx $ROOT/.context/evidence/interact.ts --out $OUT --app-only >> $LOG 2>&1
   echo "[$(date +%T)] interactions done" >> $LOG
+  MISC=1 ONLY="misc-wallet:desktop,misc-wallet:mobile,misc-wallet-esc:desktop,misc-hero:desktop,misc-hero:mobile,misc-expert:desktop,misc-expert:mobile,misc-workout-esc:desktop,misc-workout-esc:mobile,misc-context-esc:mobile" NODE_OPTIONS="$SEED" npx tsx $ROOT/.context/evidence/interact.ts --out $ROOT/.context/evidence/shots/misc-${name#run1-} --app-only >> $LOG 2>&1
+  echo "[$(date +%T)] misc done" >> $LOG
   echo "[$(date +%T)] server errors: $(grep -cE "⨯|TypeError" $LOG.server)" >> $LOG
   ps -eo pid,args | grep -E "[n]ext start|[n]ext-server" | awk '{print $1}' | xargs -r kill; sleep 3
 fi

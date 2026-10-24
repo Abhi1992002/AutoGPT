@@ -36,23 +36,43 @@
 | app__tour__mobile.png | 390x844 | 0 |
 | app__tour_chat__desktop.png | 1440x900 | 0 |
 | app__tour_chat__mobile.png | 390x844 | 0 |
+| interact__build-graph-search-open__desktop.png | 1440x900 | 0 |
+| interact__chats-rail-collapsed__desktop.png | 1440x900 | 0 |
+| interact__chats-rail-focus-visible__desktop.png | 1440x900 | 0 |
+| interact__chats-rail-hover__desktop.png | 1440x900 | 0 |
+| interact__chats-rail-jumped-to-recent__desktop.png | 1440x900 | 0 |
+| interact__context-panel-sheet-open__mobile.png | 390x844 | 0 |
 | interact__copilot-composer-focus-visible__desktop.png | 1440x900 | 0 |
 | interact__copilot-composer-focus-visible__mobile.png | 390x844 | 0 |
 | interact__copilot-composer-send-hover__desktop.png | 1440x900 | 0 |
 | interact__copilot-composer-typed-send-enabled__desktop.png | 1440x900 | 0 |
+| interact__copilot-connect-dialog-open__desktop.png | 1440x900 | 0 |
+| interact__copilot-connect-dialog-open__mobile.png | 390x844 | 15842 |
+| interact__copilot-session-workcard__mobile.png | 390x844 | 0 |
 | interact__copilot-sidebar-sheet-open__mobile.png | 390x844 | 0 |
+| interact__expert-group-closed-again__desktop.png | 1440x900 | 0 |
+| interact__expert-group-closed__desktop.png | 1440x900 | 0 |
+| interact__expert-group-open-focus-visible__desktop.png | 1440x900 | 0 |
+| interact__expert-group-trigger-focus-visible__desktop.png | 1440x900 | 0 |
+| interact__expert-group-trigger-hover__desktop.png | 1440x900 | 0 |
 | interact__home-sidebar-expanded-menu-hover__desktop.png | 1440x900 | 0 |
 | interact__home-sidebar-expanded__desktop.png | 1440x900 | 0 |
 | interact__home-sidebar-navgroup-closed__desktop.png | 1440x900 | 0 |
 | interact__home-sidebar-navgroup-focus-visible__desktop.png | 1440x900 | 0 |
 | interact__home-sidebar-sheet-after-esc__mobile.png | 390x844 | 0 |
 | interact__home-sidebar-sheet-open__mobile.png | 390x844 | 0 |
+| interact__otto-group-all-loaded__desktop.png | 1440x900 | 0 |
+| interact__recent-chat-row-focus-visible__desktop.png | 1440x900 | 0 |
+| interact__recent-chat-row-hover__desktop.png | 1440x900 | 0 |
+| interact__recent-chats-expanded__desktop.png | 1440x900 | 0 |
 | interact__sb-accordion-default-arrowdown-focus-visible__desktop.png | 1440x900 | 0 |
 | interact__sb-accordion-default-first-open__desktop.png | 1440x900 | 0 |
 | interact__sb-accordion-default-second-open-hover__desktop.png | 1440x900 | 0 |
 | interact__sb-collapsible-default-open-focus-visible__desktop.png | 1440x900 | 0 |
-| interact__tour-chat-sidebar-group-closed__desktop.png | 1440x900 | 431 |
+| interact__tour-chat-sidebar-group-closed__desktop.png | 300x900 | 0 |
 | interact__tour-chat-sidebar-sheet-open__mobile.png | 390x844 | 0 |
+| interact__work-output-sheet-open__desktop.png | 1440x900 | 0 |
+| interact__work-output-sheet-open__mobile.png | 390x844 | 0 |
 | story__atoms-button--action-buttons__desktop.png | 1440x900 | 0 |
 | story__atoms-button--action-buttons__mobile.png | 390x844 | 0 |
 | story__atoms-button--all-variants__desktop.png | 1440x1314 | 0 |
@@ -176,10 +196,8 @@
 | story__tokens-typography--all-variants__desktop.png | 1440x1603 | 0 |
 | story__tokens-typography--all-variants__mobile.png | 419x2235 | 0 |
 
-175 screenshot(s) compared, 1 with differences
+195 screenshot(s) compared, 1 with differences
 
 keyboard-app.json identical
 keyboard-stories.json identical
 
-Orb-race substitutions (both states also occur on dev run1 vs run2):
-- app__copilot__desktop.png: after run1 `d834e49d` (orb state) replaced by `retake1-13978761a` `3915febe`

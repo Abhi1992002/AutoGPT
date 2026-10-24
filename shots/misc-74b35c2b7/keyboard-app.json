@@ -1,0 +1,20 @@
+{
+ "wallet: open after Esc": false,
+ "wallet: Esc closes, focus returns to": "button|||false|closed|Usage and credits",
+ "work output sheet desktop: focus after open": "button|||||Close",
+ "work output sheet desktop: open after Esc": false,
+ "work output sheet desktop: Esc closes, focus returns to": "body",
+ "work output sheet mobile: focus after open": "button|||||Close",
+ "work output sheet mobile: open after Esc": false,
+ "work output sheet mobile: Esc closes, focus returns to": "body",
+ "context panel sheet: focus after open": "button|||||Close",
+ "context panel sheet: Tab order inside (5)": [
+  "button|||||Close",
+  "button|||||Close",
+  "button|||||Close",
+  "button|||||Close",
+  "button|||||Close"
+ ],
+ "context panel sheet: open after Esc": false,
+ "context panel sheet: Esc closes, focus returns to": "body"
+}

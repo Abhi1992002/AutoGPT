@@ -4,11 +4,7 @@ import os, shutil, subprocess, json, hashlib
 E = "/home/vercel-sandbox/autogpt/.context/evidence"
 FE = "/home/vercel-sandbox/autogpt/autogpt_platform/frontend"
 S = open(f"{E}/shas.txt").read().split()
-SUBS = {
-  2: [("after", "app__home__desktop.png", "retake3-e07df3d27"), ("after", "app__copilot__mobile.png", "retake3-e07df3d27")],
-  3: [("before", "app__copilot__mobile.png", "retake3-e07df3d27")],
-  7: [("after", "app__copilot__desktop.png", "retake1-13978761a")],
-}
+SUBS = {}  # the greeting orb is masked in every capture (seed-preload.cjs), so no retakes
 md5 = lambda p: hashlib.md5(open(p, "rb").read()).hexdigest()[:8]
 summary = {}
 def run(n, bdir, adir, subs):

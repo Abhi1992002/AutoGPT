@@ -12,25 +12,31 @@ RENDER = [
  (r"molecules/Accordion/", "Accordion molecule: stories `molecules-accordion--*` (+ open/arrow-key/hover interactions); used by builder node output, integrations panel, publish/edit-workflow modals, team integrations, admin memory, copilot reasoning", "story__molecules-accordion--*, interact__sb-accordion-*, app__admin_memory__*, app__build__*"),
  (r"molecules/Collapsible/", "Collapsible molecule: stories `molecules-collapsible--*` (+ Enter/Space interaction); admin execution analytics", "story__molecules-collapsible--*, interact__sb-collapsible-*"),
  (r"CollapsibleNavGroup", "AppSidebar \"Workspace\"/\"Chats\" nav groups on every signed-in page", "app__home__* … app__settings_*, interact__home-sidebar-expanded, -navgroup-focus-visible, -navgroup-closed, -sheet-open (mobile)"),
- (r"ExpertChatGroup", "AppSidebar recent chats grouped by expert (needs hired experts with chats; the empty test account renders none)", "app__home__*, interact__home-sidebar-expanded (group not present for this account)"),
- (r"WalletEarnCredits|WalletFullPanel", "Navbar wallet panel (only when billing is on; `useIsBillingEnabled` is false in the local stack under the PW_TEST flag mocks, on base and head alike)", "not rendered locally; see Deviations"),
+ (r"ExpertChatGroup", "AppSidebar recent chats grouped by expert (chat sessions and expert identities stubbed with `page.route`, fixed data: harness/scenarios-chats.ts)", "interact__expert-group-closed, -trigger-hover, -trigger-focus-visible, -open-focus-visible, -closed-again, interact__recent-chats-expanded, interact__otto-group-all-loaded (desktop)"),
+ (r"WalletEarnCredits", "sidebar wallet (compact panel) \"Earn credits\" Collapsible; billing switched on at runtime through the PW_TEST flag override plus `page.route` stubs (harness/scenarios-misc.ts)", "interact__wallet-* (open, earn hover, closed, focus-visible, reopened with Enter; 1440 and 390) in shots/misc-<sha>"),
+ (r"WalletFullPanel", "full wallet panel: no route mounts it (the only `<Wallet>` is `compact`), so an evidence-only story renders the real component", "story__evidence-ds3b--wallet-panel, interact__ev-wallet-full-panel (1440 and 390), interact__ev-wallet-full-panel-focus-visible in shots/ev-<sha>"),
  (r"TourSidebar", "/tour/chat sidebar", "app__tour_chat__*, interact__tour-chat-sidebar-group-closed, interact__tour-chat-sidebar-sheet-open"),
  (r"AdminShell", "every /admin/* page", "app__admin_users__*, app__admin_memory__*"),
  (r"settings/layout", "every /settings/* page", "app__settings_profile/account/api-keys/integrations__*"),
- (r"GraphContent", "builder: graph search menu in the control panel (opens on click)", "app__build__* (menu closed)"),
- (r"ConnectServiceDialog/components/ListView", "integrations panel \"connect a service\" dialog list (opens on click from the builder/integrations)", "not opened; file unchanged apart from the import"),
+ (r"GraphContent", "builder: graph search popover in the control panel", "interact__build-graph-search-open (desktop), app__build__* (closed)"),
+ (r"ConnectServiceDialog/components/ListView", "copilot \"Connect service\" dialog list (`/copilot?modal=connect`)", "interact__copilot-connect-dialog-open (1440 and 390)"),
  (r"molecules/file-tree", "FileTree molecule", "story__molecules-filetree--*"),
  (r"molecules/ScrollArea/", "ScrollArea molecule (via the importers above)", "as above"),
  (r"molecules/Sheet/", "Sheet molecule: the mobile sidebar sheet", "interact__home-sidebar-sheet-open, interact__copilot-sidebar-sheet-open, interact__tour-chat-sidebar-sheet-open, interact__home-sidebar-sheet-after-esc (mobile)"),
- (r"ContextPanel/ContextPanel", "copilot context panel (only with an open chat session that has files/computer output)", "not reachable without an LLM-backed session; see Deviations"),
- (r"WorkOutputSheet", "copilot work-card output sheet (only for a run with work output)", "not reachable without an LLM-backed run; see Deviations"),
+ (r"ContextPanel/ContextPanel", "copilot context panel, a Sheet on mobile (session stubbed with `page.route`)", "interact__copilot-session-workcard, interact__context-panel-sheet-open (mobile)"),
+ (r"WorkOutputSheet", "copilot work-card output sheet (session and execution stubbed with `page.route`)", "interact__work-output-sheet-open (1440 and 390)"),
  (r"molecules/Sidebar/|ui/sidebar", "the app sidebar (desktop rail and mobile sheet) on every signed-in page", "every app__* signed-in route at 1440 and 390, interact__home-sidebar-*"),
+ (r"usePanelSidebarCollapse", "expert side panel on /team/<expertId> collapses the app sidebar while open (expert stubbed with `page.route`)", "interact__expert-* (sidebar expanded, panel open, panel closed and sidebar restored; mobile dialog) in shots/misc-<sha>"),
+ (r"AccountMenuFeedbackRow", "account menu \"Give feedback\" row, rendered only when `environment.isCloud()`, so an evidence-only story renders the real row", "story__evidence-ds3b--feedback-row, interact__ev-feedback-row, -hover, -focus-visible in shots/ev-<sha>"),
  (r"PlatformChrome|layout\.tsx$|useArtifactsPanelNavCollapse|useBuilderSidebarAutoClose|InsetHeaderSidebarTrigger|usePanelSidebarCollapse", "platform chrome around every signed-in page", "every app__* signed-in route"),
+ (r"ChatsRailItem", "collapsed desktop rail \"Chats\" item", "interact__chats-rail-collapsed, -hover, -focus-visible, -jumped-to-recent (desktop)"),
+ (r"RecentChatItem", "recent chat rows in the expanded sidebar (sessions stubbed with `page.route`)", "interact__recent-chats-expanded, interact__recent-chat-row-hover, interact__recent-chat-row-focus-visible, interact__otto-group-all-loaded (desktop)"),
  (r"AppSidebar|SidebarUserActions|RecentChat|ChatsRailItem|SidebarSearch|AccountMenuFeedbackRow|useJumpToRecentChats", "app sidebar and account menu", "every app__* signed-in route, interact__home-sidebar-*"),
  (r"CopilotPage", "/copilot", "app__copilot__*"),
  (r"tour/chat", "/tour/chat", "app__tour_chat__*, interact__tour-chat-*"),
  (r"ChatInput|MentionDropdown|molecules/InputGroup/|ui/input-group", "copilot composer on /home and /copilot; `Copilot/Account mentions` story", "app__home__*, app__copilot__*, interact__copilot-composer-focus-visible (1440+390), -typed-send-enabled, -send-hover, story__copilot-account-mentions--*"),
- (r"EmptyHero|TextGenerateEffect", "copilot empty-session hero line on /copilot and /home", "app__copilot__*, app__home__*"),
+ (r"EmptyHero", "copilot empty-session hero on /copilot (greeting state stubbed with `page.route` so EmptyHero shows instead of the intro card)", "interact__hero-* (1440 and 390) in shots/misc-<sha>"),
+ (r"TextGenerateEffect", "EmptyHero renders it only without a recipient picker, which EmptySession always passes, so an evidence-only story renders EmptyHero that way", "story__evidence-ds3b--hero-text-generate-effect, interact__ev-hero-text-generate-effect (1440 and 390) in shots/ev-<sha>"),
 ]
 def where(path):
     if re.search(r"\.test\.tsx?$", path): return ("unit test (mock path)", "n/a (covered by the test run)")
@@ -73,13 +79,42 @@ def shots_section(i):
     kb = [l for l in txt.splitlines() if l.startswith("keyboard")]
     return f"{total} screenshots compared, {len(nonzero)} with differences; " + ", ".join(kb), rows
 
+def flaky_note(rows, i=0):
+    bad = [r.split("|")[1].strip() + " (" + r.split("|")[3].strip() + " px)" for r in rows if not r.rstrip().endswith("| 0 |")]
+    if not bad: return " Every screenshot is 0 px."
+    known = "interact__copilot-connect-dialog-open__mobile.png"
+    rest = [b for b in bad if not b.startswith(known)]
+    note = " Every route, story and interaction screenshot is 0 px except one listed skip:"
+    note += (" `" + known + "`. It is not counted as 0 px because it is not deterministic on dev itself: two captures of the same dev build differ by about 16,700 px (see the determinism line), and three back-to-back captures of one build gave three different images. The variation is sub-pixel text placement in the rows of the mobile connect drawer; focus and scroll are pinned and it persists. The same call site (`ListView`, ScrollArea import only) is captured at 1440 (`interact__copilot-connect-dialog-open__desktop`) at 0 px, with identical keyboard logs.")
+    if rest: note += " **Not explained, so NOT accepted:** " + ", ".join(f"`{b}`" for b in rest) + "."
+    return note
+
+def extra_line(i):
+    f = f"{E}/compare-pr{i}-extra.md"
+    if not os.path.exists(f): return "- Targeted and evidence-story captures: none for this PR (its call sites all render in the sets above)."
+    txt = open(f).read(); parts = []
+    for block in txt.split("### ")[1:]:
+        head = block.splitlines()[0]; m = re.search(r"(\d+) screenshot\(s\) compared, (\d+) with differences", block)
+        kb = ", ".join(l for l in block.splitlines() if "keyboard" in l and ("identical" in l or "DIFFERS" in l))
+        parts.append(f"{head}: {m.group(1)} compared, {m.group(2)} with differences" + (f" ({kb})" if kb else ""))
+    return f"- **Targeted and evidence-story captures:** " + "; ".join(parts) + f". Table: [compare-pr{i}-extra.md]({FORK}/compare/compare-pr{i}-extra.md)."
+
+def det_extra():
+    f = f"{E}/compare-determinism-extra.md"
+    if not os.path.exists(f): return ""
+    txt = open(f).read(); parts = []
+    for block in txt.split("### ")[1:]:
+        head = block.splitlines()[0]; m = re.search(r"(\d+) screenshot\(s\) compared, (\d+) with differences", block)
+        parts.append(f"{head}: {m.group(1)} compared, {m.group(2)} with differences")
+    return " Targeted/evidence sets twice on the stack top: " + "; ".join(parts) + "."
+
 def det_line():
     f = f"{E}/compare-determinism.md"
     if not os.path.exists(f): return "PENDING"
     txt = open(f).read(); m = re.search(r"(\d+) screenshot\(s\) compared, (\d+) with differences", txt)
     kb = ", ".join(l for l in txt.splitlines() if l.startswith("keyboard"))
     diffs = [l.split("|")[1].strip() + " (" + l.split("|")[3].strip() + " px)" for l in txt.splitlines() if l.startswith("| ") and not l.startswith("| screenshot") and not l.startswith("| ---") and not l.rstrip().endswith("| 0 |")]
-    extra = (" The differing ones are the copilot hero orb only: " + ", ".join(f"`{d}`" for d in diffs) + ". Its entrance (`GreetingLoader`: opacity 0→1 after 0.15s, handed to the intro card through a shared `layoutId`) races the greeting request on load, so dev itself lands in one of two states per screenshot. Every head capture of these screenshots is byte-identical (same md5) to a capture in the base's state; where run 1 landed in the other state, the matching retake (same route order, same seed) is used and named in the compare file.") if diffs else ""
+    extra = (" Differing: " + ", ".join(f"`{d}`" for d in diffs) + ".") if diffs else ""
     return f"dev `{SHAS[0]}` captured twice: {m.group(1)} screenshots, {m.group(2)} with differences; {kb}.{extra}"
 
 def body(pr):
@@ -110,11 +145,15 @@ def body(pr):
     summ, rows = shots_section(i)
     L += ["", "### 3. Screenshots", "",
           f"DS1 `scripts/screenshot-pages.ts` against the running app (production `next build` with `NEXT_PUBLIC_PW_TEST=true`, backend in docker, signed in as an onboarded admin test user) and a static Storybook build, before = `{b}`, after = `{h}`, at 1440x900 and 390x844, plus the interaction harness ([`harness/interact.ts`]({FORK}/harness/interact.ts), same determinism flags).", "",
-          f"- **Result: {summ}.**",
-          f"- Determinism: {det_line()}.",
+          f"- **Result: {summ}.**" + flaky_note(rows, i),
+          extra_line(i),
+          f"- Determinism: {det_line()}." + det_extra(),
           "- Routes (18 × 2): the DS1 default set (`/login`, `/signup`, `/reset-password`, `/marketplace`, `/library`, `/home`, `/copilot`, `/team`, `/team/autopilot`, `/build`, `/settings/profile`, `/settings/account`, `/settings/api-keys`, `/settings/integrations`) plus `/tour`, `/tour/chat`, `/admin/users`, `/admin/memory`.",
           "- Stories (61 × 2): `tokens-*`, `atoms-button--*`, `atoms-text--*` (DS1 defaults) plus `molecules-accordion--*`, `molecules-collapsible--*`, `molecules-filetree--*`, `copilot-account-mentions--*`, `copilot-taskprogressbar--*`. Same set on every PR in the stack; nothing trimmed, no skips (the standing `atoms-progress--live` skip is outside this set).",
-          "- Interactions (17): mobile sidebar Sheet open and after Esc (`/home`, `/copilot`, `/tour/chat`), desktop sidebar expanded, menu-button hover, nav-group focus-visible and closed, `/tour/chat` group closed, copilot composer focus-visible (1440 and 390), typed with send enabled, send hover, Accordion story open / ArrowDown focus-visible / second open + hover, Collapsible story open with focus-visible.", "",
+          "- Interactions (app, every SHA): mobile sidebar Sheet open and after Esc (`/home`, `/copilot`, `/tour/chat`); desktop sidebar expanded, menu-button hover, nav-group focus-visible and closed; `/tour/chat` group closed (clipped to the sidebar: the tour's scripted demo moves on its own timer); copilot composer focus-visible (1440 and 390), typed with send enabled, send hover; builder graph-search popover open; copilot \"Connect service\" dialog (1440 and 390); collapsed-rail Chats item collapsed / hover / focus-visible / Enter; recent chat rows expanded / hover / focus-visible / load all; expert chat group closed / hover / focus-visible / open / closed again; mobile ContextPanel sheet; WorkOutputSheet (1440 and 390). Chat sessions, expert identities and the work run are stubbed with `page.route` (fixed ids, titles and timestamps; [`harness/scenarios-chats.ts`](" + FORK + "/harness/scenarios-chats.ts)).",
+          "- Targeted captures on the SHAs of the PRs that change them ([`harness/scenarios-misc.ts`](" + FORK + "/harness/scenarios-misc.ts), `shots/misc-<sha>`): the sidebar wallet with its \"Earn credits\" Collapsible (billing switched on at runtime through the PW_TEST flag override and stubbed credit/usage/onboarding responses; open, hover, closed, focus-visible, Enter; 1440 and 390), the copilot `EmptyHero` (greeting state stubbed; 1440 and 390), and the expert side panel on `/team/<id>` (stubbed expert; sidebar collapses while open and is restored on close; mobile dialog).",
+          "- Evidence-only stories for the three changed components no route mounts, rendered from the real components in a Storybook built in the throwaway base and head worktrees, never committed ([`harness/evstory/Ds3bEvidence.stories.tsx`](" + FORK + "/harness/evstory/Ds3bEvidence.stories.tsx), `shots/ev-<sha>`): `WalletFullPanel` (the only mounted `<Wallet>` is `compact`), `EmptyHero` without a recipient picker, the only path that renders `TextGenerateEffect`, and `AccountMenuFeedbackRow` (mounted only in CLOUD builds); each default plus hover and keyboard focus where it has a control.",
+          "- Determinism measures, identical for base and head: every capture (DS1 script and harness) runs with a preload ([`harness/seed-preload.cjs`](" + FORK + "/harness/seed-preload.cjs)) that replaces `Math.random` with a fixed-seed PRNG in every page, without editing DS1's script. The same preload hides the copilot greeting orb in every capture (its entrance races the greeting request, so dev itself lands in one of two states per load; no PR here touches it). The interaction harness also lands finite animations on their end state and drops infinite ones before each shot, closes the once-per-session \"What's new\" popup the way a user would, starts every Tab sequence from a blurred, settled page, and hides the tour's dot `<canvas>` (it re-rolls its dots on every ResizeObserver call during the sidebar transition). The canvas is still in every DS1 `/tour/chat` route capture, at 0 px on every PR.", "",
           f"Per-screenshot table: [compare-pr{i}.md]({FORK}/compare/compare-pr{i}.md); images: [before]({FORK}/shots/run1-{b}), [after]({FORK}/shots/run1-{h}), [diff]({FORK}/shots/diff-pr{i}).", "",
           "### 4. What improved", ""] + [f"- {x}" for x in pr["improved"]]
     L += ["", "## Deletion / replacement checks (QUALITY rule 17)", "",
@@ -139,4 +178,4 @@ def COMMON_DEV(i):
             "No token or variable is deleted or renamed, so no remaining readers to list (rule 5). No rename pairs (rule 6) other than identifier moves listed under Changes.",
             "No `eslint-disable`/`oxlint-disable` added, no allow list or override widened.",
             "No doc paragraph is asked for by this part, so nothing for DS9 #16025.",
-            "Not captured, on base or head: the wallet panel (`WalletEarnCredits`, `WalletFullPanel`) because billing is off in the local stack under the PW_TEST flag mocks, so `Wallet` does not render; the copilot `ContextPanel` and `WorkOutputSheet` sheets because they need an LLM-backed chat session or run; the builder graph-search menu and the connect-service dialog list (opened only by a click deep in the builder/integrations flow). In each of these files the only change is the import path, and the component it imports is byte-identical to the base."]
+            "Rule 20 coverage: every changed call site is rendered in a capture named in table (a). Where the local app cannot reach a component, its API is stubbed with `page.route` (chat sessions, experts, work run, wallet, greeting state) or, for the three components no route mounts, an evidence-only story renders the real component in the throwaway worktrees. Unit tests are not counted as coverage."]
