@@ -2,7 +2,7 @@
 
 Never merged; nothing here is in the PR branches. Visual check: batch diff after merge, per Abhimanyu 25 Oct.
 
-Heads: #16124 merged into dev as 85d7643d5; dev merged into #16125. 85d7643d5 (dev) → 822f3493c (#16125 collapsible) → b6c0e5498 (#16126 scroll-area) → 90e85ba08 (#16127 sheet) → 96b0ebdba (#16128 sidebar) → 70ed220a1 (#16129 input-group) → 7e7e8de1c (#16130 effects).
+Heads: dev e19dee473 (includes #16124 as 85d7643d5, and #16091/#16092) merged into #16125. e19dee473 (dev) → f80bdf56a (#16125 collapsible) → 7bd7ed619 (#16126 scroll-area) → c842713c0 (#16127 sheet) → 5a9ef1e7f (#16128 sidebar) → aaf04f561 (#16129 input-group) → 9065302ea (#16130 effects).
 
 - `counts/`: `oxlint -c .oxlintrc.strict.json -f unix` output per SHA and directory, with DS4's config from #16022 @ 1ee6580dc (never committed to the PRs). `harness/strictdelta.py <base> <head>` lists every hit removed and added between two SHAs by file:line (matched by file, rule, class and element, renames followed), marking hits hidden by a move into `molecules/**`.
 - `equivalence/` (all from `harness/eq/eqall.sh`, log in `eqall.log`):
