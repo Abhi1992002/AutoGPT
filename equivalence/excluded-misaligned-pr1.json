@@ -17,6 +17,50 @@
    "why": "SheetDescription's className without the atom's own text-body leading-5; measured merged (pr1-agentoutputs-merged.md, 0 failing) and as a class set (pr1-merged-sets.md, same set)"
   },
   {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeCost.tsx",
+   "old": "mr-3 flex items-center gap-1 text-base font-light",
+   "new": "mr-3 flex items-center gap-1",
+   "tag": "div",
+   "why": "the cost row's flex container lost type that styled no text of its own (its copy is all <Text>); markup cases 'NodeCost: free row' and 'NodeCost: amount and suffix row'"
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeCost.tsx",
+   "old": "mr-3 flex items-center gap-1 text-base font-light",
+   "new": "mr-3 flex items-center gap-1",
+   "tag": "div",
+   "why": "the cost row's flex container lost type that styled no text of its own (its copy is all <Text>); markup cases 'NodeCost: free row' and 'NodeCost: amount and suffix row'"
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeCost.tsx",
+   "old": "mr-3 flex items-center gap-1 text-base font-light",
+   "new": "mr-3 flex items-center gap-1",
+   "tag": "div",
+   "why": "the cost row's flex container lost type that styled no text of its own (its copy is all <Text>); markup cases 'NodeCost: free row' and 'NodeCost: amount and suffix row'"
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeCost.tsx",
+   "old": "mr-3 flex items-center gap-1 text-base font-light",
+   "new": "mr-3 flex items-center gap-1",
+   "tag": "div",
+   "why": "the cost row's flex container lost type that styled no text of its own (its copy is all <Text>); markup cases 'NodeCost: free row' and 'NodeCost: amount and suffix row'"
+  },
+  {
+   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
+   "old": "text-sm font-medium",
+   "new": "body-medium-tight",
+   "tag": "MCPAuthSchemeField",
+   "variant": null,
+   "why": "MCPAuthSchemeField's dev labelClassName paired with the labelVariant that replaced it; markup case 'MCP: auth scheme label (MCPAuthSchemeField)'"
+  },
+  {
+   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
+   "old": "text-sm",
+   "new": "body-medium-tight",
+   "tag": "MCPAuthSchemeField",
+   "variant": null,
+   "why": "the token Label's dev className paired with the variant of the <Text> it now wraps; markup case 'MCP: token label (legacy Label kept)'"
+  },
+  {
    "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
    "old": "w-full text-xs",
    "new": "w-full",

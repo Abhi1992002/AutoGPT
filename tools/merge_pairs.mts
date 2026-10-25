@@ -31,6 +31,10 @@ const KEPT_RAW: Record<string, string> = {
   "active:bg-surface-hover": "active:bg-zinc-100",
   "!text-brand": "!text-purple-500",
   "!text-info": "!text-blue-500",
+  "ring-border-strong": "ring-zinc-300",
+  "active:ring-border-strong": "active:ring-zinc-300",
+  "text-foreground-disabled": "text-zinc-300",
+  "border-info": "border-blue-500",
 };
 const keptRaw = (list: string) => list.split(/\s+/).map((w) => KEPT_RAW[w] ?? w).join(" ");
 const [pairsFile, textFile, out] = process.argv.slice(2);

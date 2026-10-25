@@ -1,17 +1,18 @@
-66 files: 3 with any difference
+68 files: 4 with any difference
 
 | file | exports & prop types | rendered DOM tags (Text as its tag) | non-styling attributes (ids, aria, role, data-*, refs, handlers, props) |
 | --- | --- | --- | --- |
 | `components/BuilderActions/BuilderActions.tsx` | same (1) | same (5 elements) | same |
-| `components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx` | same (1) | same (29 elements, plus 1 new `<Text>` copy wrapper (<span>) with no other attributes) | same |
-| `components/BuilderActions/components/CronSchedulerDialog/CronSchedulerDialog.tsx` | same (2) | same (16 elements) | same |
+| `components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx` | same (1) | same (29 elements, plus 3 new `<Text>` copy wrappers (<span>, <span>, <span>) with no other attributes) | same |
+| `components/BuilderActions/components/CronSchedulerDialog/CronSchedulerDialog.tsx` | same (2) | same (16 elements, plus 1 new `<Text>` copy wrapper (<span>) with no other attributes) | same |
 | `components/BuilderActions/components/RunGraph/RunGraph.tsx` | same (1) | same (13 elements) | same |
 | `components/BuilderActions/components/RunInputDialog/RunInputDialog.tsx` | same (1) | same (22 elements) | same |
 | `components/BuilderChatPanel/BuilderChatPanel.tsx` | same (2) | same (19 elements, plus 1 new `<Text>` copy wrapper (<span>) with no other attributes) | same |
-| `components/BuilderChatPanel/components/NoModelNotice.tsx` | same (1) | same (5 elements) | same |
+| `components/BuilderChatPanel/components/NoModelNotice.tsx` | same (1) | same (5 elements, plus 1 new `<Text>` copy wrapper (<span>) with no other attributes) | same |
 | `components/BuilderChatPanel/components/PanelHeader.tsx` | same (2) | same (9 elements) | same |
 | `components/DraftRecoveryDialog/DraftRecoveryPopup.tsx` | same (2) | same (21 elements) | same |
 | `components/FloatingSafeModeToogle.tsx` | same (3) | same (14 elements) | same |
+| `components/FlowEditor/Flow/components/TriggerAgentBanner.tsx` | same (1) | same (5 elements, plus 1 new `<Text>` copy wrapper (<span>) with no other attributes) | same |
 | `components/FlowEditor/nodes/CustomNode/CustomNode.tsx` | same (3) | same (12 elements) | same |
 | `components/FlowEditor/nodes/CustomNode/components/NodeAdvancedToggle.tsx` | same (2) | same (4 elements) | same |
 | `components/FlowEditor/nodes/CustomNode/components/NodeBadges.tsx` | same (1) | same (1 elements) | same |
@@ -29,11 +30,11 @@
 | `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/SubAgentUpdateFeature.tsx` | same (3) | same (14 elements, plus 1 new `<Text>` copy wrapper (<span>) with no other attributes) | same |
 | `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx` | same (4) | same (46 elements) | same |
 | `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx` | same (2) | same (29 elements) | same |
-| `components/FlowEditor/nodes/CustomNode/components/WebhookDisclaimer.tsx` | same (1) | same (6 elements) | same |
+| `components/FlowEditor/nodes/CustomNode/components/WebhookDisclaimer.tsx` | same (1) | same (6 elements, plus 1 new `<Text>` copy wrapper (<span>) with no other attributes) | same |
 | `components/FlowEditor/nodes/CustomNode/helpers.ts` | same (4) | same (0 elements) | same |
 | `components/FlowEditor/nodes/OutputHandler.tsx` | same (1) | same (19 elements) | same |
 | `components/FlowEditor/nodes/helpers.ts` | same (4) | same (0 elements) | same |
-| `components/MCPToolDialog.tsx` | same (4) | same (50 elements, plus 6 new `<Text>` copy wrappers (<span>, <span>, <span>, <span>, <span>, <span>) with no other attributes) | same |
+| `components/MCPToolDialog.tsx` | same (4) | same (50 elements, plus 7 new `<Text>` copy wrappers (<span>, <span>, <span>, <span>, <span>, <span>, <span>) with no other attributes) | same |
 | `components/MobileWarning/MobileWarning.tsx` | same (1) | same (8 elements) | same |
 | `components/NewControlPanel/ControlPanelButton.tsx` | same (2) | same (1 elements) | same |
 | `components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx` | same (1) | same (16 elements, plus 1 new `<Text>` copy wrapper (<span>) with no other attributes) | same |
@@ -56,6 +57,7 @@
 | `components/NewControlPanel/NewBlockMenu/SearchHistoryChip.tsx` | same (3) | same (4 elements) | same |
 | `components/NewControlPanel/NewBlockMenu/SuggestionContent/SuggestionContent.tsx` | same (1) | same (19 elements) | same |
 | `components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx` | same (3) | same (21 elements) | same |
+| `components/NewControlPanel/NewBlockMenu/helpers.tsx` | **DIFFERS** | same (1 elements, plus 1 new `<Text>` copy wrapper (<span>) with no other attributes) | same |
 | `components/NewControlPanel/NewBlockMenu/style.ts` | **DIFFERS** | same (0 elements) | same |
 | `components/NewControlPanel/NewControlPanel.tsx` | same (2) | same (10 elements) | same |
 | `components/NewControlPanel/NewSaveControl/NewSaveControl.tsx` | same (1) | same (20 elements) | same |

@@ -36,9 +36,9 @@ add("MCP: auth scheme label (MCPAuthSchemeField)", "MCPToolDialog.tsx:446", dlg(
   tag("div", "flex flex-col gap-2", tag("label", "text-sm font-medium", "Authentication type") + selOld, true),
   tag("div", "flex flex-col gap-2", tag("label", T("body-medium-tight", "inherit"), "Authentication type") + selNew, true));
 const legacyLabel = "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70";
-add("MCP: token label", "MCPToolDialog.tsx:458", dlg(`<div class="flex flex-col gap-2">{X}<input class="h-10"></div>`),
+add("MCP: token label (legacy Label kept)", "MCPToolDialog.tsx:461", dlg(`<div class="flex flex-col gap-2">{X}<input class="h-10"></div>`),
   tag("label", cn(legacyLabel, "text-sm"), "API token", true),
-  tag("label", T("body-medium-tight", "inherit"), "API token", true));
+  tag("label", cn(legacyLabel), tag("span", T("body-medium-tight", "inherit"), "API token"), true));
 
 // 5-6. MCP tool card: parameter table and the details toggle
 const card = "group flex flex-col rounded-lg border text-left transition-colors border-gray-200 hover:border-gray-300 hover:bg-gray-50";
@@ -93,9 +93,9 @@ const hdr = (x: string) => BODY(`<div class="w-[600px]"><div class="flex flex-co
 add("AgentOutputs: sheet title and description", "AgentOutputs.tsx:115", hdr("{X}"),
   tag("div", "", tag("h2", cn(sheetTitle, "text-xl"), "Run Outputs") + tag("p", cn(sheetDescOld, "mt-1 text-sm text-muted-foreground"), tag("span", "inline-flex items-center gap-1.5", tag("span", "rounded-md bg-yellow-100 px-2 py-0.5 text-xs font-medium text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400", "Beta") + "<span>This feature is in beta and may contain bugs</span>")), true),
   tag("div", "", tag("h2", cn(sheetTitle), tag("span", T("lead-semibold", "inherit", "block"), "Run Outputs")) + tag("p", cn(sheetDescOld, "mt-1 text-muted-foreground"), tag("span", "inline-flex items-center gap-1.5", tag("span", T("small-medium-tight", undefined, "rounded-md bg-yellow-100 px-2 py-0.5 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400"), "Beta") + tag("span", T("body-tight", "inherit"), "This feature is in beta and may contain bugs"))), true));
-add("AgentOutputs: output group name and description", "AgentOutputs.tsx:140", BODY(`<div class="w-[560px] space-y-2">{X}</div>`),
+add("AgentOutputs: output group name and description (legacy Label kept)", "AgentOutputs.tsx:150/162", BODY(`<div class="w-[560px] space-y-2">{X}</div>`),
   tag("div", "", tag("label", cn(legacyLabel, "text-base font-semibold"), "Unnamed Output") + tag("label", cn(legacyLabel, "mt-1 block text-sm text-gray-600"), "What this output holds"), true),
-  tag("div", "", tag("label", T("large-semibold-tight", "inherit"), "Unnamed Output") + tag("label", T("body-medium-tight", undefined, "mt-1 block text-gray-600"), "What this output holds"), true));
+  tag("div", "", tag("label", cn(legacyLabel), tag("span", T("large-semibold-tight", "inherit"), "Unnamed Output")) + tag("label", cn(legacyLabel, "mt-1 block text-gray-600"), tag("span", T("body-medium-tight", "inherit"), "What this output holds")), true));
 
 // 10. Tooltips (TooltipContent's own classes are unchanged by this PR)
 const tip = "z-50 max-w-xs overflow-hidden rounded-md bg-action-hover px-3 py-1.5 text-caption font-normal leading-normal text-surface-muted";
@@ -125,5 +125,35 @@ const lb = (bg: string) => cn(buttonVariants({}), `group flex h-[4.375rem] w-ful
 add("Block menu: • separators", "MarketplaceAgentBlock.tsx:89/101, UGCAgentBlock.tsx:87", BODY(`<div class="w-[400px]">{X}</div>`),
   tag("button", lb("bg-zinc-50"), metaOld, true),
   tag("button", lb("bg-surface-muted"), metaNew, true));
+// 13. Links and the search match: decoration stays on the owning element, the
+// copy moves into a <Text> matching the sentence around it. NodeCost's flex
+// rows lose type that styles no text of their own. Dev's own Text variants.
+const devV = (await import("/home/vercel-sandbox/wt-base/autogpt_platform/frontend/src/components/atoms/Text/helpers.ts")).variants;
+const Tdev = (v: string, cls?: string) => cn(devV[v], cls);
+add("NoModelNotice: setup guide link", "NoModelNotice.tsx:27", BODY(`<div class="flex w-[360px] flex-1 items-center justify-center px-4 py-6">{X}</div>`),
+  tag("div", "flex w-full items-start gap-2 rounded-2xl bg-amber-50 px-3 py-2 text-left text-sm text-amber-900", ICON("mt-0.5 h-4 w-4 shrink-0") + tag("span", "min-w-0 flex-1", "No AI model is connected, so the builder chat can't answer yet. Whoever runs this server can add a model API key or a local model " + tag("a", "font-medium underline underline-offset-2", "(setup guide)", false, ' href="#"') + "."), true),
+  tag("div", T("body-tight", undefined, "flex w-full items-start gap-2 rounded-2xl bg-warning-surface px-3 py-2 text-left text-amber-900"), ICON("mt-0.5 h-4 w-4 shrink-0") + tag("span", "min-w-0 flex-1", "No AI model is connected, so the builder chat can't answer yet. Whoever runs this server can add a model API key or a local model " + tag("a", "underline underline-offset-2", tag("span", T("body-medium-tight", "inherit"), "(setup guide)"), false, ' href="#"') + "."), true));
+add("CronSchedulerDialog: set your timezone", "CronSchedulerDialog.tsx:81", BODY(`<div class="w-[420px]"><div class="flex items-center gap-2">{X}</div></div>`),
+  tag("p", Tdev("body", "text-amber-800"), "No timezone set. Schedule will run in UTC." + tag("a", "ml-1 underline", "Set your timezone", false, ' href="#"'), true),
+  tag("p", T("body", undefined, "text-amber-800"), "No timezone set. Schedule will run in UTC." + tag("a", "ml-1 underline", tag("span", T("body", "inherit"), "Set your timezone"), false, ' href="#"'), true));
+const alertCls = "relative w-full rounded-lg border border-border-base px-4 py-3 text-body leading-5 bg-surface text-foreground-emphasis absolute bottom-4 left-1/2 z-20 w-auto -translate-x-1/2 select-none rounded-xlarge";
+add("TriggerAgentBanner: Workflow Library link", "TriggerAgentBanner.tsx:37", BODY(`<div class="relative h-[200px] w-[900px]"><div class="${alertCls}"><h5 class="mb-1 font-medium leading-none tracking-tight">You are building a Trigger Workflow</h5>{X}</div></div>`),
+  tag("div", "text-body leading-5 [&_p]:leading-relaxed", "Your workflow will listen for its trigger and will run when the time is right.<br>You can view its activity in your " + tag("a", "underline", "Workflow Library", false, ' href="#"') + ".", true),
+  tag("div", "text-body leading-5 [&_p]:leading-relaxed", "Your workflow will listen for its trigger and will run when the time is right.<br>You can view its activity in your " + tag("a", "underline", tag("span", T("body-tight", "inherit"), "Workflow Library"), false, ' href="#"') + ".", true));
+add("WebhookDisclaimer: Workflow Library link", "WebhookDisclaimer.tsx:37", BODY(`<div class="w-[300px] px-4 pt-4"><div class="relative w-full rounded-lg border border-border-base px-4 py-3 text-body leading-5 bg-surface text-foreground-emphasis mb-3 rounded-xlarge"><div class="text-body leading-5 [&_p]:leading-relaxed">{X}</div></div></div>`),
+  tag("p", Tdev("small-medium"), "You can set up and manage this trigger in your " + tag("a", "underline", "Workflow Library", false, ' href="#"') + " (after saving the workflow).", true),
+  tag("p", T("small-medium"), "You can set up and manage this trigger in your " + tag("a", "underline", tag("span", T("small-medium-inherit", "inherit"), "Workflow Library"), false, ' href="#"') + " (after saving the workflow).", true));
+const nodeHead = (x: string) => BODY(`<div class="flex w-[350px] items-center justify-between rounded-t-xl bg-surface p-4">${x}</div>`);
+add("NodeCost: free row", "NodeCost.tsx:133", nodeHead("{X}"),
+  tag("div", "mr-3 flex items-center gap-1 text-base font-light", ICON("h-3 w-3") + tag("p", Tdev("small", "!font-medium"), "Free"), true),
+  tag("div", "mr-3 flex items-center gap-1", ICON("h-3 w-3") + tag("p", T("small-medium"), "Free"), true));
+add("NodeCost: amount and suffix row", "NodeCost.tsx:168", nodeHead("{X}"),
+  tag("div", "mr-3 flex items-center gap-1 text-base font-light", ICON("h-3 w-3") + tag("p", Tdev("small", "!font-medium"), "12") + tag("p", Tdev("small"), " /run"), true),
+  tag("div", "mr-3 flex items-center gap-1", ICON("h-3 w-3") + tag("p", T("small-medium"), "12") + tag("p", T("small"), " /run"), true));
+const matchOld = (c: string) => `Calcu${tag("mark", "bg-transparent font-bold", "lat")}or ${c}`;
+const matchNew = (v: string, c: string) => `Calcu${tag("mark", "bg-transparent", tag("span", T(v, "inherit"), "lat"))}or ${c}`;
+add("Block menu: search match in a title and a description", "helpers.tsx:22 (Block, IntergrationBlock, MarketplaceAgentBlock, UGCAgentBlock)", BODY(`<div class="w-[400px]"><div class="flex flex-1 flex-col items-start gap-0.5">{X}</div></div>`),
+  tag("div", "", tag("span", "line-clamp-1 font-sans text-sm font-medium leading-[1.375rem] text-zinc-800", matchOld("block")) + tag("span", "line-clamp-1 font-sans text-xs font-normal leading-5 text-zinc-500", matchOld("adds two numbers")), true),
+  tag("div", "", tag("span", T("body-medium", "emphasis", "line-clamp-1"), matchNew("body-bold", "block")) + tag("span", T("small-loose", "muted", "line-clamp-1"), matchNew("small-bold-loose", "adds two numbers")), true));
 writeFileSync(process.argv[2], JSON.stringify(cases, null, 1));
 console.log(cases.length, "cases");

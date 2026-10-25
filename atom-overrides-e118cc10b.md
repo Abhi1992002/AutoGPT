@@ -1,84 +1,85 @@
-297 overriding classes on 174 atom elements (base: 230 on 130)
+296 overriding classes on 173 atom elements (base: 230 on 130)
 
 | atom | elements |
 | --- | --- |
-| `<Text>` | 83 |
+| `<Text>` | 82 |
 | `<Icon>` | 59 |
 | `<Button>` | 22 |
 | `<Separator>` | 4 |
 | `<Alert>` | 2 |
-| `<SheetDescription>` | 1 |
 | `<AccordionItem>` | 1 |
 | `<AccordionTrigger>` | 1 |
+| `<SheetDescription>` | 1 |
 | `<PopoverContent>` | 1 |
 
 | class | uses |
 | --- | --- |
 | `group-disabled:text-foreground-subtle` | 15 |
-| `border` | 9 |
 | `transition-transform` | 9 |
+| `border` | 9 |
 | `text-error` | 8 |
-| `text-slate-600` | 8 |
 | `text-foreground-base` | 8 |
+| `text-slate-600` | 8 |
 | `rounded-full` | 7 |
-| `text-slate-700` | 6 |
 | `text-zinc-50` | 6 |
+| `text-slate-700` | 6 |
 | `dark:text-gray-400` | 5 |
 | `text-gray-500` | 5 |
 | `text-success` | 5 |
 | `text-foreground-secondary` | 5 |
-| `text-amber-600` | 4 |
-| `text-warning` | 4 |
-| `text-gray-400` | 4 |
-| `rounded` | 4 |
 | `opacity-100` | 4 |
-| `text-foreground-body` | 4 |
+| `text-warning` | 4 |
+| `rounded` | 4 |
+| `text-gray-400` | 4 |
 | `dark:text-gray-100` | 4 |
+| `text-amber-600` | 4 |
 | `border-border-base` | 4 |
 | `hover:text-slate-900` | 4 |
+| `text-foreground-body` | 4 |
+| `animate-spin` | 4 |
 | `duration-200` | 4 |
 | `ease-out` | 4 |
-| `animate-spin` | 4 |
-| `text-slate-800` | 3 |
-| `text-gray-600` | 3 |
 | `text-gray-700` | 3 |
 | `dark:text-gray-300` | 3 |
-| `text-blue-700` | 3 |
+| `text-slate-800` | 3 |
 | `dark:text-red-400` | 3 |
-| `text-slate-500` | 3 |
-| `border-gray-300` | 3 |
-| `bg-gray-50` | 3 |
+| `text-blue-700` | 3 |
 | `border-green-400` | 3 |
 | `bg-green-100` | 3 |
 | `hover:border-green-400` | 3 |
 | `hover:bg-green-200` | 3 |
+| `border-gray-300` | 3 |
+| `bg-gray-50` | 3 |
 | `rounded-[0.75rem]` | 3 |
+| `text-slate-500` | 3 |
 | `text-[#E1E1E1]` | 3 |
-| `text-muted-foreground` | 2 |
-| `dark:text-amber-400` | 2 |
+| `text-gray-600` | 2 |
 | `text-green-500` | 2 |
 | `text-error-foreground` | 2 |
 | `dark:text-gray-500` | 2 |
-| `text-amber-900` | 2 |
+| `rounded-[8px]` | 2 |
+| `dark:text-amber-400` | 2 |
 | `hover:bg-warning-surface` | 2 |
-| `text-slate-900` | 2 |
-| `border-none` | 2 |
-| `bg-surface-muted` | 2 |
-| `bg-zinc-200` | 2 |
 | `hover:border-transparent` | 2 |
 | `hover:bg-transparent` | 2 |
-| `text-gray-900` | 2 |
+| `bg-surface-muted` | 2 |
+| `border-none` | 2 |
 | `rounded-xlarge` | 2 |
-| `text-handle` | 2 |
+| `text-muted-foreground` | 2 |
+| `text-slate-900` | 2 |
+| `bg-zinc-200` | 2 |
 | `rounded-[1.25rem]` | 2 |
 | `bg-[#f0f0f0]` | 2 |
-| `rounded-[8px]` | 2 |
+| `text-handle` | 2 |
 | `bg-zinc-700` | 2 |
 | `text-action-foreground` | 2 |
 | `drop-shadow` | 2 |
-| `text-zinc-200` | 1 |
-| `dark:text-amber-300` | 1 |
-| `text-violet-600` | 1 |
+| `text-amber-900` | 2 |
+| `text-gray-900` | 2 |
+| `transition-opacity` | 1 |
+| `bg-error` | 1 |
+| `hover:bg-error-hover` | 1 |
+| `opacity-0` | 1 |
 | `border-amber-700` | 1 |
 | `bg-amber-600` | 1 |
 | `hover:bg-amber-700` | 1 |
@@ -92,60 +93,58 @@
 | `list-disc` | 1 |
 | `bg-gray-100` | 1 |
 | `dark:bg-gray-800` | 1 |
-| `rounded-2xl` | 1 |
-| `bg-warning-surface` | 1 |
-| `transition-opacity` | 1 |
-| `bg-error` | 1 |
-| `hover:bg-error-hover` | 1 |
-| `opacity-0` | 1 |
+| `text-foreground-emphasis` | 1 |
+| `hover:text-foreground-secondary` | 1 |
+| `dark:text-amber-300` | 1 |
+| `group-hover:text-foreground-secondary` | 1 |
+| `text-accent-strong` | 1 |
+| `text-amber-800` | 1 |
 | `text-info-foreground` | 1 |
 | `dark:text-blue-400` | 1 |
 | `dark:text-blue-300` | 1 |
 | `border-warning` | 1 |
-| `rounded-md` | 1 |
-| `bg-yellow-100` | 1 |
-| `text-yellow-800` | 1 |
-| `dark:bg-yellow-900/30` | 1 |
-| `dark:text-yellow-400` | 1 |
-| `!text-slate-500` | 1 |
 | `hover:no-underline` | 1 |
-| `border-slate-300` | 1 |
-| `bg-slate-100` | 1 |
-| `text-amber-800` | 1 |
-| `text-foreground-disabled` | 1 |
-| `bg-zinc-100` | 1 |
-| `rounded-[1rem]` | 1 |
-| `shadow-[0_2px_6px_0_rgba(0,0,0,0.05)]` | 1 |
-| `!text-error` | 1 |
-| `dark:bg-slate-700` | 1 |
-| `dark:text-slate-100` | 1 |
-| `dark:hover:bg-slate-800` | 1 |
 | `dark:text-white` | 1 |
 | `border-gray-100` | 1 |
 | `bg-gray-50/50` | 1 |
 | `dark:border-slate-700` | 1 |
 | `dark:bg-slate-800/50` | 1 |
+| `rounded-md` | 1 |
+| `bg-yellow-100` | 1 |
+| `text-yellow-800` | 1 |
+| `dark:bg-yellow-900/30` | 1 |
+| `dark:text-yellow-400` | 1 |
+| `bg-zinc-100` | 1 |
+| `border-slate-300` | 1 |
+| `bg-slate-100` | 1 |
+| `hover:text-warning-foreground` | 1 |
+| `text-zinc-200` | 1 |
+| `text-foreground-subtle` | 1 |
+| `!text-slate-500` | 1 |
+| `dark:bg-slate-700` | 1 |
+| `dark:text-slate-100` | 1 |
+| `dark:hover:bg-slate-800` | 1 |
+| `text-zinc-300` | 1 |
+| `rounded-[1rem]` | 1 |
+| `shadow-[0_2px_6px_0_rgba(0,0,0,0.05)]` | 1 |
 | `dark:text-amber-100` | 1 |
 | `text-warning-foreground` | 1 |
-| `hover:text-warning-foreground` | 1 |
+| `text-violet-600` | 1 |
 | `shadow-none` | 1 |
 | `hover:bg-surface-hover` | 1 |
 | `focus:ring-0` | 1 |
 | `active:bg-zinc-100` | 1 |
 | `active:ring-1` | 1 |
-| `active:ring-border-strong` | 1 |
+| `active:ring-zinc-300` | 1 |
+| `rounded-2xl` | 1 |
+| `bg-warning-surface` | 1 |
+| `!text-error` | 1 |
 | `!text-purple-700` | 1 |
-| `text-foreground-emphasis` | 1 |
-| `hover:text-foreground-secondary` | 1 |
-| `text-foreground-subtle` | 1 |
-| `group-hover:text-foreground-secondary` | 1 |
-| `text-accent-strong` | 1 |
 
 | element | atom | classes it overrides |
 | --- | --- | --- |
-| `components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx:124` | `<SheetDescription>` | `text-muted-foreground` |
-| `components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx:130` | `<Text>` | `rounded-md` `bg-yellow-100` `text-yellow-800` `dark:bg-yellow-900/30` `dark:text-yellow-400` |
-| `components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx:162` | `<Text>` | `text-gray-600` |
+| `components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx:125` | `<SheetDescription>` | `text-muted-foreground` |
+| `components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx:131` | `<Text>` | `rounded-md` `bg-yellow-100` `text-yellow-800` `dark:bg-yellow-900/30` `dark:text-yellow-400` |
 | `components/BuilderActions/components/CronSchedulerDialog/CronSchedulerDialog.tsx:78` | `<Text>` | `text-amber-800` |
 | `components/BuilderActions/components/RunGraph/RunGraph.tsx:40` | `<Icon>` | `transition-transform` `duration-200` `ease-out` `transition-transform` `duration-200` `ease-out` `transition-transform` `duration-200` `ease-out` |
 | `components/BuilderActions/components/RunGraph/RunGraph.tsx:46` | `<Icon>` | `animate-spin` |
@@ -172,7 +171,7 @@
 | `components/FlowEditor/Flow/components/CustomControl.tsx:86` | `<Icon>` | `animate-spin` `text-foreground-secondary` |
 | `components/FlowEditor/Flow/components/CustomControl.tsx:91` | `<Icon>` | `text-foreground-secondary` |
 | `components/FlowEditor/Flow/components/CustomControl.tsx:105` | `<Icon>` | `text-foreground-secondary` |
-| `components/FlowEditor/Flow/components/TriggerAgentBanner.tsx:30` | `<Alert>` | `rounded-xlarge` |
+| `components/FlowEditor/Flow/components/TriggerAgentBanner.tsx:31` | `<Alert>` | `rounded-xlarge` |
 | `components/FlowEditor/edges/CustomEdge.tsx:104` | `<Button>` | `transition-opacity` |
 | `components/FlowEditor/edges/CustomEdge.tsx:106` | `<Button>` | `bg-error` `opacity-100` `hover:bg-error-hover` |
 | `components/FlowEditor/edges/CustomEdge.tsx:108` | `<Button>` | `opacity-100` |
@@ -257,21 +256,21 @@
 | `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx:127` | `<Icon>` | `text-warning` |
 | `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx:144` | `<Text>` | `text-gray-400` |
 | `components/FlowEditor/nodes/CustomNode/components/WebhookDisclaimer.tsx:33` | `<Alert>` | `rounded-xlarge` |
-| `components/FlowEditor/nodes/CustomNode/components/WebhookDisclaimer.tsx:56` | `<Text>` | `!text-purple-700` |
+| `components/FlowEditor/nodes/CustomNode/components/WebhookDisclaimer.tsx:58` | `<Text>` | `!text-purple-700` |
 | `components/FlowEditor/nodes/OutputHandler.tsx:139` | `<Text>` | `text-slate-700` |
 | `components/FlowEditor/nodes/OutputHandler.tsx:140` | `<Text>` | `text-error` |
 | `components/FlowEditor/nodes/OutputHandler.tsx:148` | `<Text>` | `!text-error` |
 | `components/FlowEditor/nodes/OutputHandler.tsx:182` | `<Button>` | `hover:border-transparent` `hover:bg-transparent` |
 | `components/FlowEditor/nodes/OutputHandler.tsx:188` | `<Text>` | `text-slate-700` |
 | `components/FlowEditor/nodes/OutputHandler.tsx:194` | `<Icon>` | `transition-transform` |
-| `components/MCPToolDialog.tsx:488` | `<Text>` | `text-gray-500` |
-| `components/MCPToolDialog.tsx:501` | `<Text>` | `text-error-foreground` `dark:text-red-400` |
-| `components/MCPToolDialog.tsx:640` | `<Text>` | `dark:text-white` |
-| `components/MCPToolDialog.tsx:656` | `<Text>` | `text-gray-500` `dark:text-gray-400` |
-| `components/MCPToolDialog.tsx:700` | `<Text>` | `rounded` `border` `border-gray-100` `bg-gray-50/50` `dark:border-slate-700` `dark:bg-slate-800/50` |
-| `components/MCPToolDialog.tsx:800` | `<Icon>` | `transition-transform` |
+| `components/MCPToolDialog.tsx:485` | `<Text>` | `text-gray-500` |
+| `components/MCPToolDialog.tsx:498` | `<Text>` | `text-error-foreground` `dark:text-red-400` |
+| `components/MCPToolDialog.tsx:638` | `<Text>` | `dark:text-white` |
+| `components/MCPToolDialog.tsx:654` | `<Text>` | `text-gray-500` `dark:text-gray-400` |
+| `components/MCPToolDialog.tsx:698` | `<Text>` | `rounded` `border` `border-gray-100` `bg-gray-50/50` `dark:border-slate-700` `dark:bg-slate-800/50` |
+| `components/MCPToolDialog.tsx:798` | `<Icon>` | `transition-transform` |
 | `components/MobileWarning/MobileWarning.tsx:28` | `<Icon>` | `text-amber-600` |
-| `components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx:71` | `<Text>` | `rounded-full` `bg-zinc-100` |
+| `components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx:74` | `<Text>` | `rounded-full` `bg-zinc-100` |
 | `components/NewControlPanel/NewBlockMenu/Block.tsx:142` | `<Text>` | `group-disabled:text-foreground-subtle` |
 | `components/NewControlPanel/NewBlockMenu/Block.tsx:157` | `<Text>` | `group-disabled:text-foreground-subtle` |
 | `components/NewControlPanel/NewBlockMenu/Block.tsx:173` | `<Icon>` | `text-zinc-50` |
@@ -280,17 +279,17 @@
 | `components/NewControlPanel/NewBlockMenu/FilterChip.tsx:44` | `<Text>` | `group-hover:text-foreground-secondary` `group-disabled:text-foreground-subtle` |
 | `components/NewControlPanel/NewBlockMenu/FilterChip.tsx:46` | `<Text>` | `text-zinc-50` |
 | `components/NewControlPanel/NewBlockMenu/FilterChip.tsx:62` | `<Icon>` | `text-accent-strong` |
-| `components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx:131` | `<Button>` | `text-foreground-emphasis` `hover:text-foreground-secondary` |
-| `components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx:147` | `<Button>` | `rounded-[8px]` |
-| `components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx:156` | `<Button>` | `rounded-[8px]` |
+| `components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx:134` | `<Button>` | `text-foreground-emphasis` `hover:text-foreground-secondary` |
+| `components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx:150` | `<Button>` | `rounded-[8px]` |
+| `components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx:159` | `<Button>` | `rounded-[8px]` |
 | `components/NewControlPanel/NewBlockMenu/HorizontalScroll.tsx:90` | `<Icon>` | `rounded-full` `bg-zinc-700` `text-action-foreground` `drop-shadow` |
 | `components/NewControlPanel/NewBlockMenu/HorizontalScroll.tsx:105` | `<Icon>` | `rounded-full` `bg-zinc-700` `text-action-foreground` `drop-shadow` |
-| `components/NewControlPanel/NewBlockMenu/Integration.tsx:54` | `<Text>` | `group-disabled:text-foreground-subtle` |
-| `components/NewControlPanel/NewBlockMenu/Integration.tsx:64` | `<Text>` | `rounded-[1.25rem]` `bg-[#f0f0f0]` `group-disabled:text-foreground-subtle` |
-| `components/NewControlPanel/NewBlockMenu/Integration.tsx:73` | `<Text>` | `group-disabled:text-foreground-subtle` |
+| `components/NewControlPanel/NewBlockMenu/Integration.tsx:55` | `<Text>` | `group-disabled:text-foreground-subtle` |
+| `components/NewControlPanel/NewBlockMenu/Integration.tsx:65` | `<Text>` | `rounded-[1.25rem]` `bg-[#f0f0f0]` `group-disabled:text-foreground-subtle` |
+| `components/NewControlPanel/NewBlockMenu/Integration.tsx:74` | `<Text>` | `group-disabled:text-foreground-subtle` |
 | `components/NewControlPanel/NewBlockMenu/IntegrationBlocks/IntegrationBlocks.tsx:101` | `<Text>` | `rounded-[1.25rem]` `bg-[#f0f0f0]` `group-disabled:text-foreground-subtle` |
 | `components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx:69` | `<Button>` | `rounded-[0.75rem]` `bg-surface-muted` `shadow-none` |
-| `components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx:71` | `<Button>` | `hover:bg-surface-hover` `focus:ring-0` `active:bg-zinc-100` `active:ring-1` `active:ring-border-strong` |
+| `components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx:71` | `<Button>` | `hover:bg-surface-hover` `focus:ring-0` `active:bg-zinc-100` `active:ring-1` `active:ring-zinc-300` |
 | `components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx:95` | `<Text>` | `group-disabled:text-foreground-subtle` |
 | `components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx:108` | `<Text>` | `group-disabled:text-foreground-subtle` |
 | `components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx:74` | `<Text>` | `group-disabled:text-foreground-subtle` |
@@ -312,8 +311,8 @@
 | `components/NewControlPanel/NewControlPanel.tsx:44` | `<Separator>` | `text-[#E1E1E1]` |
 | `components/NewControlPanel/NewSaveControl/NewSaveControl.tsx:123` | `<Button>` | `dark:bg-slate-700` `dark:text-slate-100` `dark:hover:bg-slate-800` |
 | `components/NewControlPanel/NewSearchGraph/GraphMenu/GraphMenu.tsx:82` | `<PopoverContent>` | `rounded-[1rem]` `border-none` `shadow-[0_2px_6px_0_rgba(0,0,0,0.05)]` |
-| `components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:43` | `<Separator>` | `text-foreground-disabled` |
-| `components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:122` | `<Text>` | `rounded-[0.75rem]` `bg-zinc-200` |
-| `components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:146` | `<Icon>` | `text-zinc-50` |
+| `components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:45` | `<Separator>` | `text-zinc-300` |
+| `components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:126` | `<Text>` | `rounded-[0.75rem]` `bg-zinc-200` |
+| `components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:150` | `<Icon>` | `text-zinc-50` |
 | `components/NewControlPanel/NewSearchGraph/GraphMenuSearchBar/GraphMenuSearchBar.tsx:36` | `<Icon>` | `text-foreground-body` |
 | `components/NewControlPanel/NewSearchGraph/GraphMenuSearchBar/GraphMenuSearchBar.tsx:62` | `<Icon>` | `text-foreground-body` |

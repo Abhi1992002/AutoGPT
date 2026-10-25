@@ -4,4 +4,4 @@ UNCOVERED autogpt_platform/frontend/src/app/(platform)/build/components/FlowEdit
 UNCOVERED autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:35: ['#8b5cf6']  | 0 0 0 8px #8b5cf6,
 UNCOVERED autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:36: ['rgba(1']  | 0 0 40px 12px rgba(124, 58, 237, 0.55);
 UNCOVERED autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:135: ['#27272a', '#27272A']  | #27272a #27272A. */
-349 lines with a raw colour; 6 without a TODO(tokens)
+364 lines with a raw colour; 6 without a TODO(tokens)

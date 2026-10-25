@@ -16,7 +16,9 @@ const { variants, tones } = await import(join(process.cwd(), "src/components/ato
 const { extendedButtonVariants } = await import(join(process.cwd(), "src/components/atoms/Button/helpers.ts"));
 const { buttonVariants } = await import(join(process.cwd(), "src/components/__legacy__/ui/button.tsx"));
 const [base, head, out] = process.argv.slice(2);
-const KEPT_RAW: Record<string, string> = { "bg-surface-active": "bg-zinc-200", "bg-surface-hover": "bg-zinc-100", "active:bg-surface-hover": "active:bg-zinc-100", "!text-brand": "!text-purple-500", "!text-info": "!text-blue-500" };
+const KEPT_RAW: Record<string, string> = { "bg-surface-active": "bg-zinc-200", "bg-surface-hover": "bg-zinc-100", "active:bg-surface-hover": "active:bg-zinc-100", "!text-brand": "!text-purple-500", "!text-info": "!text-blue-500", "ring-border-strong": "ring-zinc-300", "active:ring-border-strong": "active:ring-zinc-300", "text-foreground-disabled": "text-zinc-300", "border-info": "border-blue-500", "bg-info-surface": "bg-blue-50" };
+// Type on a flex row whose copy is all <Text>: it styled no text of its own.
+const INERT_TYPE: Record<string, string[]> = { "NodeCost.tsx": ["text-body-lg", "font-light", "leading-6"] };
 interface El { tag: string; variant?: string; tone?: string; labelVariant?: string; toks: string[]; line: number; text: string; legacyButton: boolean; atomButton: boolean; btnVariant?: string; btnSize?: string; parentIdx: number }
 function elements(src: string, f: string) {
   const sf = ts.createSourceFile(f, src, ts.ScriptTarget.Latest, true, ts.ScriptKind.TSX);
@@ -80,6 +82,8 @@ for (const f of files) {
         if (child?.tone && tones[child.tone] === t) return `\`${t}\` → that \`<Text>\`'s tone \`${child.tone}\``;
         const par = y.parentIdx >= 0 ? b[y.parentIdx] : undefined;
         if (par?.tag === "Text" && par.variant && variants[par.variant]?.split(" ").includes(bare)) return `\`${t}\` → the \`<Text variant="${par.variant}">\` around it (inherited)`;
+        if (child && !child.variant && child.text && ["body-bold", "small-bold-loose"].every((v) => variants[v].split(" ").includes(bare))) return `\`${t}\` → the \`<Text variant={variant}>\` it wraps (\`body-bold\` or \`small-bold-loose\`, both carry it)`;
+        if (INERT_TYPE[f.split("/").pop()!]?.includes(t) && y.tag === "div") return `\`${t}\` → removed: the row styled no text of its own (every child is an \`Icon\` or a \`<Text>\`; markup check identical)`;
         if (KEPT_RAW[t] && y.toks.includes(KEPT_RAW[t])) return `\`${t}\` → kept raw as \`${KEPT_RAW[t]}\` (QUALITY 41)`;
         const atomCls = y.atomButton ? cn(extendedButtonVariants({ variant: y.btnVariant as any, size: y.btnSize as any })) : y.legacyButton ? cn(buttonVariants({ variant: y.btnVariant as any, size: y.btnSize as any })) : ATOM[y.tag] ?? (x.tag !== y.tag && ATOM[x.tag] ? "" : "");
         if (atomCls.split(" ").includes(t)) return `\`${t}\` → the ${y.legacyButton ? "legacy " : ""}\`<${y.tag}${y.btnVariant ? ` variant="${y.btnVariant}"` : ""}>\`'s own classes`;

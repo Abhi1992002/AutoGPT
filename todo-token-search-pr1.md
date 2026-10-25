@@ -1,6 +1,6 @@
-84 hex values named in TODO(tokens) comments in build/** at 3bbd77fa6; 67 held by no DS1 colour role; 17 held by a role of another kind (each such TODO says "no fitting role" and names it); 0 contradictions
+85 hex values named in TODO(tokens) comments in build/** at bb3184951; 67 held by no DS1 colour role; 18 held by a role of another kind (each such TODO says "no fitting role" and names it); 0 contradictions
 
-DS1 roles searched: 74 `--color-*` light values (`:root`) in `globals.css` at 3bbd77fa6.
+DS1 roles searched: 74 `--color-*` light values (`:root`) in `globals.css` at bb3184951.
 
 | hex | search | roles holding it | TODO says | files |
 | --- | --- | --- | --- | --- |
@@ -18,7 +18,7 @@ DS1 roles searched: 74 `--color-*` light values (`:root`) in `globals.css` at 3b
 | #27272A | `39 39 42` in `:root` → 0 | (none) | no exact role | 1 |
 | #2A313A | `42 49 58` in `:root` → 0 | (none) | no exact role | 4 |
 | #374151 | `55 65 81` in `:root` → 0 | (none) | no exact role | 2 |
-| #3B82F6 | `59 130 246` in `:root` → 2 | `info`, `sidebar-ring` | no fitting role | 1 |
+| #3B82F6 | `59 130 246` in `:root` → 2 | `info`, `sidebar-ring` | no fitting role | 2 |
 | #45B56E | `69 181 110` in `:root` → 0 | (none) | no exact role | 3 |
 | #475263 | `71 82 99` in `:root` → 0 | (none) | no exact role | 10 |
 | #4B5563 | `75 85 99` in `:root` → 0 | (none) | no exact role | 4 |
@@ -54,7 +54,7 @@ DS1 roles searched: 74 `--color-*` light values (`:root`) in `globals.css` at 3b
 | #B8BFCA | `184 191 202` in `:root` → 0 | (none) | no exact role | 3 |
 | #BFDBFE | `191 219 254` in `:root` → 0 | (none) | no exact role | 1 |
 | #C0A1FA | `192 161 250` in `:root` → 0 | (none) | no exact role | 1 |
-| #C5C5C9 | `197 197 201` in `:root` → 2 | `foreground-disabled`, `border-strong` | no fitting role | 1 |
+| #C5C5C9 | `197 197 201` in `:root` → 2 | `foreground-disabled`, `border-strong` | no fitting role | 13 |
 | #CFD4DB | `207 212 219` in `:root` → 2 | `node-border`, `node-selected` | no fitting role | 3 |
 | #D1D5DB | `209 213 219` in `:root` → 0 | (none) | no exact role | 4 |
 | #D4D4D4 | `212 212 212` in `:root` → 0 | (none) | no exact role | 1 |
@@ -65,6 +65,7 @@ DS1 roles searched: 74 `--color-*` light values (`:root`) in `globals.css` at 3b
 | #EAB308 | `234 179 8` in `:root` → 0 | (none) | no exact role | 1 |
 | #EFEFF0 | `239 239 240` in `:root` → 2 | `surface-hover`, `separator` | no fitting role | 11 |
 | #EFF1F4 | `239 241 244` in `:root` → 0 | (none) | no exact role | 5 |
+| #EFF6FF | `239 246 255` in `:root` → 1 | `info-surface` | no fitting role | 1 |
 | #F0F0F0 | `240 240 240` in `:root` → 0 | (none) | no exact role | 2 |
 | #F26969 | `242 105 105` in `:root` → 0 | (none) | no exact role | 4 |
 | #F3F4F6 | `243 244 246` in `:root` → 0 | (none) | no exact role | 4 |

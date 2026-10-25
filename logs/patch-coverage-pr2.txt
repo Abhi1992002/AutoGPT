@@ -1,4 +1,4 @@
 patch: 18/19 = 94.7%
-   1/2    components/FlowEditor/tutorial/steps/connections.ts  [48]
+   1/2    components/FlowEditor/tutorial/steps/connections.ts  [49]
    0/9    components/FlowEditor/tutorial/steps/configure-calculator.ts  []
    0/8    components/FlowEditor/tutorial/steps/second-calculator.ts  []

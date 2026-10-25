@@ -21,8 +21,12 @@ npx tsx $T/text_pairs.mts 772559324 $P1 /tmp/text-pairs-push.json > /tmp/ev-text
 python3 - <<'PY'
 import json
 push=json.load(open("/tmp/text-pairs-push.json"))["pairs"]
-colour={("AllBlocksContent.tsx",66),("UGCAgentBlock.tsx",100),("GraphContent.tsx",117)}
-struct={(p["file"],p["line"]) for p in push if (p["file"].split("/")[-1],p["line"]) not in colour}
+# A Text pair this push changed only by putting a state-role fill back to raw
+# stays in the string check; every other one moved copy and is measured by
+# markup_eq.
+FILLS={"bg-surface-hover","bg-zinc-100","bg-surface-active","bg-zinc-200"}
+colour_only=lambda p: set(p["old"].split())^set(p["new"].split())<=FILLS and set(p["old"].split())!=set(p["new"].split())
+struct={(p["file"],p["line"]) for p in push if not colour_only(p)}
 t=json.load(open("/tmp/text-pairs-p1.json")); dyn=json.load(open("/tmp/dyn-pairs.json"))["pairs"]
 dl={(p["file"],p["line"]) for p in dyn}
 keep=[p for p in t["pairs"] if (p["file"],p["line"]) not in struct and (p["file"],p["line"]) not in dl]+dyn
@@ -38,17 +42,23 @@ import json
 d=json.load(open('/tmp/all-pairs-p1.json')); d['pairs']=[p for p in d['pairs'] if not p.get('structural')]; json.dump(d,open('/tmp/all-pairs-p1.json','w'))"
 python3 $T/post_pairs.py /tmp/all-pairs-p1.json /tmp/all-pairs-p2.json > /tmp/ev-post.log 2>&1
 python3 $T/drop_misaligned.py /tmp/all-pairs-p1.json $E/equivalence/excluded-misaligned-pr1.json >> /tmp/ev-post.log 2>&1
+python3 $T/template_pairs.py $P1 $P2 /tmp/all-pairs-p2.json >> /tmp/ev-post.log 2>&1
+python3 -c "
+import json
+d=json.load(open('/tmp/all-pairs-p2.json')); n=[p for p in d['pairs'] if not p.get('template')]
+st=[{'file':f,'old':'text-sm','new':'text-body leading-5','tag':'div','template-static':True} for f in ('src/app/(platform)/build/components/FlowEditor/tutorial/styles.ts','src/app/(platform)/build/components/FlowEditor/tutorial/steps/connections.ts')]
+json.dump({'pairs':n+st,'unpaired':[]},open('/tmp/all-pairs-p2-swaps.json','w'))"
 cp /tmp/pairs-p1.json $E/equivalence/pairs-pr1.json; cp /tmp/pairs-p2.json $E/equivalence/pairs-pr2.json
-cp /tmp/all-pairs-p1.json $E/equivalence/all-pairs-pr1.json; cp /tmp/all-pairs-p2.json $E/equivalence/all-pairs-pr2.json
 cp /tmp/structural-p1.json $E/equivalence/structural-pr1.json; cp /tmp/dyn-pairs.json /tmp/variant-pairs.json /tmp/ao-pairs.json /tmp/badge-pairs.json /tmp/neg-pairs.json /tmp/neg-parent-pairs.json /tmp/markup-neg.json $E/equivalence/
+cp /tmp/all-pairs-p1.json $E/equivalence/all-pairs-pr1.json; cp /tmp/all-pairs-p2.json $E/equivalence/all-pairs-pr2.json; cp /tmp/all-pairs-p2-swaps.json $E/equivalence/all-pairs-pr2-swaps.json
 log "swaps, dark"
 python3 -c "
 import json
 a=json.load(open('/tmp/all-pairs-p1.json')); s=json.load(open('/tmp/struct-colour-p1.json'))['pairs']
 json.dump({'pairs':a['pairs']+s,'unpaired':[]},open('/tmp/all-pairs-p1-swaps.json','w'))"
 cp /tmp/struct-colour-p1.json $E/equivalence/structural-colour-swaps-pr1.json
-python3 $T/swap_dark_table.py /tmp/all-pairs-p1-swaps.json $P1 $E/swap-dark-pr1.md; python3 $T/swap_dark_table.py /tmp/all-pairs-p2.json $P2 $E/swap-dark-pr2.md
-python3 $T/swap_summary.py /tmp/all-pairs-p1.json > /home/vercel-sandbox/prbody/swaps-p1.md; python3 $T/swap_summary.py /tmp/all-pairs-p2.json > /home/vercel-sandbox/prbody/swaps-p2.md
+python3 $T/swap_dark_table.py /tmp/all-pairs-p1-swaps.json $P1 $E/swap-dark-pr1.md; python3 $T/swap_dark_table.py /tmp/all-pairs-p2-swaps.json $P2 $E/swap-dark-pr2.md
+python3 $T/swap_summary.py /tmp/all-pairs-p1.json > /home/vercel-sandbox/prbody/swaps-p1.md; python3 $T/swap_summary.py /tmp/all-pairs-p2-swaps.json > /home/vercel-sandbox/prbody/swaps-p2.md
 python3 $T/dark_check.py $DEV $P1 > $E/dark-check-pr1.txt; python3 $T/dark_check.py $P1 $P2 > $E/dark-check-pr2.txt
 cd $R && rm -f $E/dark-multiset-*.txt && sh $T/dark_multiset.sh $DEV $P1 $P2 && mv dark-multiset-*.txt $E/
 log "todo, atoms, xpr"

@@ -47,5 +47,12 @@
   "ctx": "<div class=\"bg-canvas font-sans text-foreground\"><div class=\"flex w-[360px] items-center justify-between gap-1\">{X}<span>/</span></div></div>",
   "old": "<button data-eq-root class=\"inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 underline-offset-4 hover:underline dark:text-neutral-50 h-9 py-2 px-0 font-sans text-sm leading-[1.375rem] text-zinc-600 underline hover:text-zinc-800\">see all</button>",
   "new": "<button data-eq-root class=\"inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 underline-offset-4 hover:underline dark:text-neutral-50 h-9 py-2 px-0 text-foreground-secondary hover:text-foreground-emphasis\"><span class=\"font-sans text-body font-medium text-inherit\">see all</span></button>"
+ },
+ {
+  "name": "NEG link copy at its own line height, not the paragraph's",
+  "where": "WebhookDisclaimer.tsx:37",
+  "ctx": "<div class=\"bg-canvas font-sans text-foreground\"><div class=\"w-[300px] px-4 pt-4\"><div class=\"relative w-full rounded-lg border border-border-base px-4 py-3 text-body leading-5 bg-surface text-foreground-emphasis mb-3 rounded-xlarge\"><div class=\"text-body leading-5 [&_p]:leading-relaxed\">{X}</div></div></div></div>",
+  "old": "<p data-eq-root class=\"font-sans text-caption font-medium text-foreground-base\">You can set up and manage this trigger in your <a class=\"underline\" href=\"#\">Workflow Library</a> (after saving the workflow).</p>",
+  "new": "<p data-eq-root class=\"font-sans text-caption font-medium text-foreground-base\">You can set up and manage this trigger in your <a class=\"underline\" href=\"#\"><span class=\"font-sans text-caption font-medium leading-[18px] text-inherit\">Workflow Library</span></a> (after saving the workflow).</p>"
  }
 ]

@@ -1,5 +1,8 @@
 npm warn Unknown project config "minimum-release-age". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
 HUNK build/components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx
+  - 
+  + Label } from "@/components/__legacy__/ui/label" ; import {
+HUNK build/components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx
   - Label } from "@/components/__legacy__/ui/label" ; import {
   + 
 HUNK build/components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx
@@ -12,11 +15,44 @@ HUNK build/components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx
   - "span" , null
   + Text , { variant : "body-tight" , as : "span" , tone : "inherit" }
 HUNK build/components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx
-  - Label , { className : "text-base font-semibold"
-  + Text , { variant : "large-semibold-tight" , as : "label" , tone : "inherit"
+  - { className : "text-base font-semibold"
+  + null , React . createElement ( Text , { variant : "large-semibold-tight" , as : "span" , tone : "inherit"
 HUNK build/components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx
-  - Label , { className : "mt-1 block text-sm text-gray-600"
-  + Text , { variant : "body-medium-tight" , as : "label" , className : "mt-1 block text-gray-600"
+  - "mt-1 block text-sm text-gray-600"
+  + "mt-1 block text-gray-600" } , React . createElement ( Text , { variant : "body-medium-tight" , as : "span" , tone : "inherit"
+HUNK build/components/BuilderActions/components/CronSchedulerDialog/CronSchedulerDialog.tsx
+  - "Set your timezone" ) ) ) ) : (
+  + 
+HUNK build/components/BuilderActions/components/CronSchedulerDialog/CronSchedulerDialog.tsx
+  - "div" , { className : "flex items-center gap-2 rounded-xlarge bg-muted/50 p-3" } , React . createElement ( InfoIcon , { className : "h-4 w-4 text-muted-foreground" } ) , React . createElement (
+  + 
+HUNK build/components/BuilderActions/components/CronSchedulerDialog/CronSchedulerDialog.tsx
+  - } , "Schedule will run in your timezone:" , " " , React . createElement ( Text , { variant : "body-medium"
+  + 
+HUNK build/components/BuilderActions/components/CronSchedulerDialog/CronSchedulerDialog.tsx
+  - } , timezoneDisplay
+  + , tone : "inherit" } , "Set your timezone"
+HUNK build/components/BuilderActions/components/CronSchedulerDialog/CronSchedulerDialog.tsx
+  - ,
+  + : (
+HUNK build/components/BuilderActions/components/CronSchedulerDialog/CronSchedulerDialog.tsx
+  - Button
+  + InfoIcon , { className : "h-4 w-4 text-muted-foreground" } ) , React . createElement ( Text
+HUNK build/components/BuilderActions/components/CronSchedulerDialog/CronSchedulerDialog.tsx
+  - "outline" , onClick : ( ) = > setOpen ( false ) , className : "h-fit" } , "Cancel" )
+  + "body" } , "Schedule will run in your timezone:" , " "
+HUNK build/components/BuilderActions/components/CronSchedulerDialog/CronSchedulerDialog.tsx
+  - 
+  + Text , { variant : "body-medium" , as : "span" } , timezoneDisplay ) ) ) ) ) , React . createElement ( "div" , { className : "mt-8 flex justify-end space-x-2" } , React . createElement (
+HUNK build/components/BuilderActions/components/CronSchedulerDialog/CronSchedulerDialog.tsx
+  - loading : isCreatingSchedule , disabled : isCreatingSchedule
+  + variant : "outline"
+HUNK build/components/BuilderActions/components/CronSchedulerDialog/CronSchedulerDialog.tsx
+  - handleCreateSchedule
+  + ( ) = > setOpen ( false )
+HUNK build/components/BuilderActions/components/CronSchedulerDialog/CronSchedulerDialog.tsx
+  - 
+  + "Cancel" ) , React . createElement ( Button , { loading : isCreatingSchedule , disabled : isCreatingSchedule , onClick : handleCreateSchedule , className : "h-fit" } ,
 HUNK build/components/BuilderActions/components/RunInputDialog/RunInputDialog.tsx
   - "span" , { className : "font-semibold"
   + Text , { variant : "body-semibold-tight" , as : "span" , tone : "inherit"
@@ -44,12 +80,21 @@ HUNK build/components/BuilderChatPanel/BuilderChatPanel.tsx
 HUNK build/components/BuilderChatPanel/components/NoModelNotice.tsx
   - "div" , {
   + Text , { variant : "body-tight" , as : "div" ,
+HUNK build/components/BuilderChatPanel/components/NoModelNotice.tsx
+  - "font-medium underline underline-offset-2"
+  + "underline underline-offset-2" } , React . createElement ( Text , { variant : "body-medium-tight" , as : "span" , tone : "inherit"
 HUNK build/components/FloatingSafeModeToogle.tsx
   - className : "text-zinc-600"
   + tone : "secondary"
 HUNK build/components/FloatingSafeModeToogle.tsx
   - "div" , { className : "font-medium"
   + Text , { variant : "small-medium-lh-normal" , as : "div" , tone : "inherit"
+HUNK build/components/FlowEditor/Flow/components/TriggerAgentBanner.tsx
+  - 
+  + Text } from "@/components/atoms/Text/Text" ; import {
+HUNK build/components/FlowEditor/Flow/components/TriggerAgentBanner.tsx
+  - "Workflow Library"
+  + React . createElement ( Text , { variant : "body-tight" , as : "span" , tone : "inherit" } , "Workflow Library" )
 HUNK build/components/FlowEditor/nodes/CustomNode/components/NodeCost.tsx
   - "small" , className : "!font-medium"
   + "small-medium"
@@ -163,6 +208,15 @@ HUNK build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/comp
   - "div" , { className : "text-xs"
   + Text , { variant : "small-tight" , tone : "inherit" , as : "div"
 NEW FILE autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/__tests__/IncompatibleUpdateDialog.test.tsx
+HUNK build/components/FlowEditor/nodes/CustomNode/components/WebhookDisclaimer.tsx
+  - "Workflow Library" ) , ! isNodeSaved & & " (after saving the workflow)" , "." ) ) ) ) ,
+  + 
+HUNK build/components/FlowEditor/nodes/CustomNode/components/WebhookDisclaimer.tsx
+  - "small" , className : "mb-4 ml-6 !text-purple-700" } , "Below inputs are only for display purposes and cannot be edited."
+  + "small-medium-inherit" , as : "span" , tone : "inherit" } , "Workflow Library" ) ) , ! isNodeSaved & & " (after saving the workflow)" , "."
+HUNK build/components/FlowEditor/nodes/CustomNode/components/WebhookDisclaimer.tsx
+  - 
+  + ) , React . createElement ( Text , { variant : "small" , className : "mb-4 ml-6 !text-purple-700" } , "Below inputs are only for display purposes and cannot be edited." ) ) )
 HUNK build/components/FlowEditor/nodes/OutputHandler.tsx
   - 
   + isBroken ? "body-line-through" :
@@ -179,11 +233,11 @@ HUNK build/components/MCPToolDialog.tsx
   - labelClassName : "text-sm font-medium"
   + labelVariant : "body-medium-tight"
 HUNK build/components/MCPToolDialog.tsx
-  - Label , {
-  + Text , { variant : "body-medium-tight" , as : "label" , tone : "inherit" ,
+  - , className : "text-sm" } , mcpAuthTokenLabel ( manualAuthScheme ) )
+  + }
 HUNK build/components/MCPToolDialog.tsx
-  - , className : "text-sm"
-  + 
+  - 
+  + Text , { variant : "body-medium-tight" , as : "span" , tone : "inherit" } , mcpAuthTokenLabel ( manualAuthScheme ) ) ) , React . createElement (
 HUNK build/components/MCPToolDialog.tsx
   - "p" , {
   + Text , { variant : "small-tight" ,
@@ -229,9 +283,6 @@ HUNK build/components/MCPToolDialog.tsx
 HUNK build/components/MobileWarning/MobileWarning.tsx
   - className : "text-zinc-700"
   + tone : "body"
-HUNK build/components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx
-  - "h-[1px] w-full text-zinc-300" }
-  + "h-[1px] w-full text-foreground-disabled" } )
 HUNK build/components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx
   - "p" , { className : "font-sans text-sm font-medium leading-[1.375rem] text-zinc-800"
   + Text , { variant : "body-medium" , tone : "emphasis"
@@ -368,6 +419,12 @@ HUNK build/components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx
   - "span" , {
   + Text , { variant : "small-medium-loose" , as : "span" , tone : "muted" ,
 NEW FILE autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/__tests__/block-drag-preview.test.tsx
+HUNK build/components/NewControlPanel/NewBlockMenu/helpers.tsx
+  - 
+  + , variant = "body-bold"
+HUNK build/components/NewControlPanel/NewBlockMenu/helpers.tsx
+  - "bg-transparent font-bold"
+  + "bg-transparent" } , React . createElement ( Text , { variant : variant , as : "span" , tone : "inherit"
 HUNK build/components/NewControlPanel/NewBlockMenu/style.ts
   - blockDragPreviewStyle = `
     padding: 0.625rem 0.875rem;
@@ -395,9 +452,6 @@ HUNK build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphConte
   - "div" , { className : "flex h-32 items-center justify-center text-sm text-zinc-500"
   + Text , { variant : "body-tight" , as : "div" , tone : "muted" , className : "flex h-32 items-center justify-center"
 HUNK build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx
-  - "bg-zinc-100 ring-1 ring-zinc-300" : "hover:bg-zinc-100"
-  + "bg-zinc-100 ring-1 ring-border-strong" : "hover:bg-surface-hover"
-HUNK build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx
   - "span" , { className : "line-clamp-1 font-sans text-sm font-medium leading-[1.375rem] text-zinc-800"
   + Text , { variant : "body-medium" , as : "span" , tone : "emphasis" , className : "line-clamp-1"
 HUNK build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx
@@ -417,7 +471,7 @@ HUNK autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
   + "large-medium-tight" : "font-sans text-body-lg font-medium leading-6 text-foreground-base" , "large-semibold-tight" : "font-sans text-body-lg font-semibold leading-6 text-foreground-base" ,
 HUNK autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
   - 
-  + "body-tight" : "font-sans text-body font-normal leading-5 text-foreground-base" , "body-medium-tight" : "font-sans text-body font-medium leading-5 text-foreground-base" , "body-semibold" : "font-sans text-body font-semibold text-foreground-base" , "body-line-through" : "font-sans text-body font-norm
+  + "body-tight" : "font-sans text-body font-normal leading-5 text-foreground-base" , "body-medium-tight" : "font-sans text-body font-medium leading-5 text-foreground-base" , "body-semibold" : "font-sans text-body font-semibold text-foreground-base" , "body-bold" : "font-sans text-body font-bold text-fo
 HUNK autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
   - 
   + "small-semibold" : "font-sans text-caption font-semibold text-foreground-base" , "small-semibold-tight" : "font-sans text-caption font-semibold leading-4 text-foreground-base" , "small-medium-lh-normal" : "font-sans text-caption font-medium leading-normal text-foreground-base" , "small-semibold-lh-n
@@ -435,10 +489,10 @@ HUNK autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
   + body
 HUNK autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
   - label
-  + "body-tight" : "p" , "body-semibold" : "p" , "body-line-through" : "p" , "body-tight-italic" : "p" , "body-medium-tight" : "p" , "body-semibold-tight" : "p" , small : "p" , "small-medium" : "p" , "small-tight" : "p" , "small-tight-underline" : "p" , "small-semibold" : "p" , "small-semibold-tight" : 
+  + "body-tight" : "p" , "body-semibold" : "p" , "body-bold" : "p" , "body-line-through" : "p" , "body-tight-italic" : "p" , "body-medium-tight" : "p" , "body-semibold-tight" : "p" , small : "p" , "small-medium" : "p" , "small-tight" : "p" , "small-tight-underline" : "p" , "small-semibold" : "p" , "smal
 HUNK autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
   - 
-  + "caption-sm-mono-inherit" : "span" , label : "span" ,
+  + "tiny-inherit" : "span" , "caption-sm-mono-inherit" : "span" , label : "span" ,
 HUNK autogpt_platform/frontend/src/components/contextual/MCPAuthSchemeField/MCPAuthSchemeField.tsx
   - 
   + labelVariant ,
@@ -458,4 +512,4 @@ HUNK autogpt_platform/frontend/src/components/contextual/MCPAuthSchemeField/MCPA
   - 
   + className : labelClassName } , "Authentication type" ) ) , React . createElement ( "select" , { id : id ,
 NEW FILE autogpt_platform/frontend/src/components/contextual/MCPAuthSchemeField/__tests__/MCPAuthSchemeField.test.tsx
-71 files compiled; 160 string-literal hunks (class strings); 43 Text-atom hunks; 146 other hunks
+73 files compiled; 165 string-literal hunks (class strings); 44 Text-atom hunks; 164 other hunks

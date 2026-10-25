@@ -1,4 +1,4 @@
-26 unique class strings (26 occurrences), 52 cases (as written, cn() contexts), 2496 measurements (2 widths x 6 states x 2 parent line-heights x plain/profile-tabs): 0 failing cases
+29 unique class strings (29 occurrences), 58 cases (as written, cn() contexts), 2784 measurements (2 widths x 6 states x 2 parent line-heights x plain/profile-tabs): 0 failing cases
 
 | # | old class string | new class string | value of the new class (computed, 16px root, in a leading-[30px] parent, 1440px, variant stripped, with the ring/divide/gradient helper that makes a colour visible) | result |
 | --- | --- | --- | --- | --- |
@@ -26,7 +26,10 @@
 | 22 | `font-sans text-caption text-foreground-base font-semibold leading-normal` | `font-sans text-caption font-semibold leading-normal text-foreground-base` | (no colour or type property: see result) | identical (96 measurements) |
 | 23 | `font-sans text-body-lg font-semibold text-foreground-base leading-6` | `font-sans text-body-lg font-semibold leading-6 text-foreground-base` | (no colour or type property: see result) | identical (96 measurements) |
 | 24 | `font-sans font-normal text-foreground-base text-tiny leading-inherit` | `font-sans text-tiny font-normal leading-inherit text-foreground-base` | (no colour or type property: see result) | identical (96 measurements) |
-| 25 | `font-normal text-foreground-base font-mono text-caption-sm leading-inherit` | `font-mono text-caption-sm font-normal leading-inherit text-foreground-base` | (no colour or type property: see result) | identical (96 measurements) |
-| 26 | `font-sans text-caption font-normal text-inherit` | `font-sans text-caption font-normal text-inherit` | (no colour or type property: see result) | identical (96 measurements) |
+| 25 | `font-sans text-caption font-medium text-foreground-base leading-inherit` | `font-sans text-caption font-medium leading-inherit text-foreground-base` | (no colour or type property: see result) | identical (96 measurements) |
+| 26 | `font-sans text-body text-foreground-base font-bold` | `font-sans text-body font-bold text-foreground-base` | (no colour or type property: see result) | identical (96 measurements) |
+| 27 | `font-sans text-caption text-foreground-base font-bold leading-5` | `font-sans text-caption font-bold leading-5 text-foreground-base` | (no colour or type property: see result) | identical (96 measurements) |
+| 28 | `font-normal text-foreground-base font-mono text-caption-sm leading-inherit` | `font-mono text-caption-sm font-normal leading-inherit text-foreground-base` | (no colour or type property: see result) | identical (96 measurements) |
+| 29 | `font-sans text-caption font-normal text-inherit` | `font-sans text-caption font-normal text-inherit` | (no colour or type property: see result) | identical (96 measurements) |
 
 

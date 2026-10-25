@@ -1,4 +1,4 @@
-lint, types and full vitest on 8e515a5ba (contains #16099's 3bbd77fa6)
+lint, types and full vitest on e118cc10b (contains #16099's bb3184951)
 
 All matched files use Prettier code style!
 lint 0

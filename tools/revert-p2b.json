@@ -1,0 +1,4 @@
+[
+ ["ring-warning-border", "ring-amber-200", "no fitting role for ring-amber-200 #FDE68A; #FDE68A is warning-border (a border colour), and this is a ring (QUALITY 41(b))"],
+ ["ring-border-base", "ring-zinc-200", "no fitting role for ring-zinc-200 #DADADC; #DADADC is border-base (a border colour) and surface-active (an active-state fill), and this is a ring (QUALITY 41(b))"]
+]

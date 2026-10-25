@@ -157,7 +157,7 @@
   {
    "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeCost.tsx",
    "old": "mr-3 flex items-center gap-1 text-base font-light",
-   "new": "mr-3 flex items-center gap-1 text-body-lg font-light leading-6",
+   "new": "mr-3 flex items-center gap-1",
    "tag": "div"
   },
   {
@@ -170,7 +170,7 @@
   {
    "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeCost.tsx",
    "old": "mr-3 flex items-center gap-1 text-base font-light",
-   "new": "mr-3 flex items-center gap-1 text-body-lg font-light leading-6",
+   "new": "mr-3 flex items-center gap-1",
    "tag": "div"
   },
   {
@@ -183,13 +183,13 @@
   {
    "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeCost.tsx",
    "old": "mr-3 flex items-center gap-1 text-base font-light",
-   "new": "mr-3 flex items-center gap-1 text-body-lg font-light leading-6",
+   "new": "mr-3 flex items-center gap-1",
    "tag": "div"
   },
   {
    "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeCost.tsx",
    "old": "mr-3 flex items-center gap-1 text-base font-light",
-   "new": "mr-3 flex items-center gap-1 text-body-lg font-light leading-6",
+   "new": "mr-3 flex items-center gap-1",
    "tag": "div"
   },
   {
@@ -575,16 +575,31 @@
   },
   {
    "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
+   "old": "text-sm font-medium",
+   "new": "body-medium-tight",
+   "tag": "MCPAuthSchemeField",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
+   "old": "h-10 rounded-md border border-input bg-background px-3 text-sm",
+   "new": "h-10 rounded-md border border-input bg-background px-3 text-body leading-5",
+   "tag": "MCPAuthSchemeField",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
+   "old": "text-sm",
+   "new": "body-medium-tight",
+   "tag": "MCPAuthSchemeField",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
    "old": "text-sm text-red-700 dark:text-red-400",
    "new": "text-error-foreground dark:text-red-400",
    "tag": "Text",
    "variant": "body-tight"
-  },
-  {
-   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": "border-blue-500 bg-blue-50 dark:border-blue-400 dark:bg-blue-950",
-   "new": "border-info bg-info-surface dark:border-blue-400 dark:bg-blue-950",
-   "tag": "button"
   },
   {
    "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
@@ -622,13 +637,6 @@
   },
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx",
-   "old": "h-[1px] w-full text-zinc-300",
-   "new": "h-[1px] w-full text-foreground-disabled",
-   "tag": "Separator",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx",
    "old": "font-sans text-sm font-medium leading-[1.375rem] text-zinc-800",
    "new": "body-medium",
    "tag": "Text",
@@ -651,22 +659,8 @@
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/Block.tsx",
    "old": "hover:cursor-default hover:bg-zinc-100 focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300 disabled:cursor-not-allowed",
-   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-border-strong disabled:cursor-not-allowed",
+   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300 disabled:cursor-not-allowed",
    "tag": "Button",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/BlockMenuContent/BlockMenuContent.tsx",
-   "old": "h-[1px] w-full text-zinc-300",
-   "new": "h-[1px] w-full text-foreground-disabled",
-   "tag": "Separator",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/BlockMenuDefault/BlockMenuDefault.tsx",
-   "old": "h-full w-[1px] text-zinc-300",
-   "new": "h-full w-[1px] text-foreground-disabled",
-   "tag": "Separator",
    "variant": null
   },
   {
@@ -722,13 +716,6 @@
    "old": "absolute bottom-2 left-2 top-2 z-20 w-3/4 max-w-[22.5rem] space-y-4 overflow-hidden rounded-[0.75rem] bg-white pb-4 shadow-[0_4px_12px_2px_rgba(0,0,0,0.1)]",
    "new": "absolute bottom-2 left-2 top-2 z-20 w-3/4 max-w-[22.5rem] space-y-4 overflow-hidden rounded-[0.75rem] bg-surface pb-4 shadow-[0_4px_12px_2px_rgba(0,0,0,0.1)]",
    "tag": "motion.div"
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx",
-   "old": "h-[1px] w-full text-zinc-300",
-   "new": "h-[1px] w-full text-foreground-disabled",
-   "tag": "Separator",
-   "variant": null
   },
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx",
@@ -788,7 +775,7 @@
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/Integration.tsx",
    "old": "hover:cursor-default hover:bg-zinc-100 focus:ring-0 active:bg-zinc-50 active:ring-1 active:ring-zinc-300 disabled:pointer-events-none",
-   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-surface-muted active:ring-1 active:ring-border-strong disabled:pointer-events-none",
+   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-surface-muted active:ring-1 active:ring-zinc-300 disabled:pointer-events-none",
    "tag": "Button",
    "variant": null
   },
@@ -808,7 +795,7 @@
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntegrationChip.tsx",
    "old": "hover:cursor-default hover:bg-zinc-100 focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300",
-   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-border-strong",
+   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300",
    "tag": "Button",
    "variant": null
   },
@@ -822,7 +809,7 @@
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx",
    "old": "hover:cursor-default hover:bg-zinc-100 focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300 disabled:cursor-not-allowed",
-   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-border-strong disabled:cursor-not-allowed",
+   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300 disabled:cursor-not-allowed",
    "tag": "Button",
    "variant": null
   },
@@ -842,7 +829,7 @@
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
    "old": "hover:cursor-default hover:bg-zinc-100 focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300 disabled:pointer-events-none",
-   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-border-strong disabled:pointer-events-none",
+   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300 disabled:pointer-events-none",
    "tag": "Button",
    "variant": null
   },
@@ -897,7 +884,7 @@
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx",
    "old": "hover:cursor-default hover:bg-zinc-100 focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300 disabled:cursor-not-allowed",
-   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-border-strong disabled:cursor-not-allowed",
+   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300 disabled:cursor-not-allowed",
    "tag": "Button",
    "variant": null
   },
@@ -915,21 +902,8 @@
   },
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx",
-   "old": "h-[1px] w-full text-zinc-300",
-   "new": "h-[1px] w-full text-foreground-disabled",
-   "tag": "Separator",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx",
    "old": "flex h-16 w-full cursor-pointer items-center gap-3 rounded-[0.75rem] bg-zinc-50 px-[0.875rem] py-[0.625rem]",
    "new": "flex h-16 w-full cursor-pointer items-center gap-3 rounded-[0.75rem] bg-surface-muted px-[0.875rem] py-[0.625rem]",
-   "tag": "div"
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx",
-   "old": "bg-zinc-100 ring-1 ring-zinc-300",
-   "new": "bg-zinc-100 ring-1 ring-border-strong",
    "tag": "div"
   },
   {
@@ -1000,8 +974,8 @@
    ],
    "new": [
     "large-semibold-tight",
-    "body-medium-tight",
-    "mt-1 block text-gray-600"
+    "mt-1 block text-gray-600",
+    "body-medium-tight"
    ]
   },
   {
@@ -1049,6 +1023,16 @@
    ]
   },
   {
+   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/BuilderChatPanel/components/NoModelNotice.tsx",
+   "old": [
+    "font-medium underline underline-offset-2"
+   ],
+   "new": [
+    "underline underline-offset-2",
+    "body-medium-tight"
+   ]
+  },
+  {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/BuilderChatPanel/components/PanelHeader.tsx",
    "old": [
     "text-sm font-semibold text-slate-800"
@@ -1075,6 +1059,13 @@
     "small-medium-lh-normal",
     "small-tight",
     "mt-1 text-muted-foreground"
+   ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/Flow/components/TriggerAgentBanner.tsx",
+   "old": [],
+   "new": [
+    "body-tight"
    ]
   },
   {
@@ -1324,6 +1315,13 @@
    ]
   },
   {
+   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/WebhookDisclaimer.tsx",
+   "old": [],
+   "new": [
+    "small-medium-inherit"
+   ]
+  },
+  {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/nodes/OutputHandler.tsx",
    "old": [],
    "new": [
@@ -1363,25 +1361,6 @@
     "text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200",
     "small-tight-underline"
    ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": [
-    "text-sm font-medium",
-    "h-10 rounded-md border border-input bg-background px-3 text-sm"
-   ],
-   "new": [
-    "body-medium-tight",
-    "h-10 rounded-md border border-input bg-background px-3 text-body leading-5",
-    "body-medium-tight"
-   ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": [
-    "text-sm"
-   ],
-   "new": []
   },
   {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
@@ -1485,7 +1464,8 @@
     "body-medium",
     "line-clamp-1 group-disabled:text-foreground-subtle",
     "small-loose",
-    "line-clamp-1 group-disabled:text-foreground-subtle"
+    "line-clamp-1 group-disabled:text-foreground-subtle",
+    "small-bold-loose"
    ]
   },
   {
@@ -1557,7 +1537,8 @@
     "body-medium",
     "line-clamp-1 group-disabled:text-foreground-subtle",
     "small-loose",
-    "line-clamp-1 group-disabled:text-foreground-subtle"
+    "line-clamp-1 group-disabled:text-foreground-subtle",
+    "small-bold-loose"
    ]
   },
   {
@@ -1627,7 +1608,7 @@
    ],
    "new": [
     "my-[1px] h-[2.25rem] space-x-1 rounded-[1.5rem] bg-surface-muted p-[0.375rem] pr-[0.625rem] shadow-none",
-    "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-border-strong",
+    "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300",
     "h-6 w-6 text-foreground-tertiary"
    ]
   },
@@ -1666,6 +1647,16 @@
     "@/tests/integrations/test-utils",
     "b1ab9b19-67a6-406d-abf5-2dba76d00c79",
     "text-body font-medium leading-inherit"
+   ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/helpers.tsx",
+   "old": [
+    "bg-transparent font-bold"
+   ],
+   "new": [
+    "body-bold",
+    "bg-transparent"
    ]
   },
   {
@@ -1739,6 +1730,8 @@
     "font-sans text-body font-medium leading-5 text-foreground-base",
     "body-semibold",
     "font-sans text-body font-semibold text-foreground-base",
+    "body-bold",
+    "font-sans text-body font-bold text-foreground-base",
     "body-line-through",
     "font-sans text-body font-normal line-through text-foreground-base",
     "body-tight-italic",
@@ -1773,12 +1766,16 @@
     "font-mono text-caption font-medium leading-4 text-foreground-base",
     "small-loose",
     "font-sans text-caption font-normal leading-5 text-foreground-base",
+    "small-bold-loose",
+    "font-sans text-caption font-bold leading-5 text-foreground-base",
     "small-medium-loose",
     "font-sans text-caption font-medium leading-5 text-foreground-base",
     "small-medium-loose-underline",
     "font-sans text-caption font-medium leading-5 underline text-foreground-base",
     "small-relaxed",
     "font-sans text-caption font-normal leading-relaxed text-foreground-base",
+    "small-medium-inherit",
+    "font-sans text-caption font-medium leading-inherit text-foreground-base",
     "tiny-inherit",
     "font-sans text-tiny font-normal leading-inherit text-foreground-base",
     "caption-sm-mono-inherit",
@@ -1807,6 +1804,7 @@
    "new": [
     "body-tight",
     "body-semibold",
+    "body-bold",
     "body-line-through",
     "body-tight-italic",
     "body-medium-tight",
@@ -1829,8 +1827,10 @@
     "small-mono-tight",
     "small-medium-mono-tight",
     "small-loose",
+    "small-bold-loose",
     "small-medium-loose",
     "small-relaxed",
+    "small-medium-inherit",
     "tiny-inherit",
     "caption-sm-mono-inherit"
    ]

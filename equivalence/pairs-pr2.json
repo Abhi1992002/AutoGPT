@@ -245,7 +245,7 @@
   {
    "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/block-menu.ts",
    "old": "bg-zinc-100 ring-1 ring-zinc-200 rounded-2xl p-2 px-4 mt-2 flex items-start gap-2 text-sm font-medium text-zinc-600",
-   "new": "bg-zinc-100 ring-1 ring-border-base rounded-2xl p-2 px-4 mt-2 flex items-start gap-2 text-body leading-5 font-medium text-foreground-secondary",
+   "new": "bg-zinc-100 ring-1 ring-zinc-200 rounded-2xl p-2 px-4 mt-2 flex items-start gap-2 text-body leading-5 font-medium text-foreground-secondary",
    "tag": "div"
   },
   {
@@ -287,7 +287,7 @@
   {
    "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/configure-calculator.ts",
    "old": "mt-3 p-3 bg-amber-50 ring-1 ring-amber-200 rounded-2xl",
-   "new": "mt-3 p-3 bg-warning-surface ring-1 ring-warning-border rounded-2xl",
+   "new": "mt-3 p-3 bg-warning-surface ring-1 ring-amber-200 rounded-2xl",
    "tag": "div"
   },
   {
@@ -306,12 +306,6 @@
    "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/configure-calculator.ts",
    "old": "bg-amber-50",
    "new": "bg-warning-surface",
-   "tag": "div"
-  },
-  {
-   "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/configure-calculator.ts",
-   "old": "ring-amber-200",
-   "new": "ring-warning-border",
    "tag": "div"
   },
   {
@@ -336,12 +330,6 @@
    "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/configure-calculator.ts",
    "old": "bg-amber-50",
    "new": "bg-warning-surface",
-   "tag": "div"
-  },
-  {
-   "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/configure-calculator.ts",
-   "old": "ring-amber-200",
-   "new": "ring-warning-border",
    "tag": "div"
   },
   {
@@ -389,7 +377,7 @@
   {
    "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/connections.ts",
    "old": "bg-amber-50 ring-1 ring-amber-200",
-   "new": "bg-warning-surface ring-1 ring-warning-border",
+   "new": "bg-warning-surface ring-1 ring-amber-200",
    "tag": "div"
   },
   {
@@ -402,12 +390,6 @@
    "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/connections.ts",
    "old": "bg-amber-50",
    "new": "bg-warning-surface",
-   "tag": "div"
-  },
-  {
-   "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/connections.ts",
-   "old": "ring-amber-200",
-   "new": "ring-warning-border",
    "tag": "div"
   },
   {
@@ -438,12 +420,6 @@
    "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/connections.ts",
    "old": "bg-amber-50",
    "new": "bg-warning-surface",
-   "tag": "div"
-  },
-  {
-   "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/connections.ts",
-   "old": "ring-amber-200",
-   "new": "ring-warning-border",
    "tag": "div"
   },
   {
@@ -586,12 +562,6 @@
   },
   {
    "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/run.ts",
-   "old": "mt-2 p-2 bg-zinc-100 ring-1 ring-zinc-200 rounded-xl",
-   "new": "mt-2 p-2 bg-zinc-100 ring-1 ring-border-base rounded-xl",
-   "tag": "div"
-  },
-  {
-   "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/run.ts",
    "old": "text-[0.8125rem] text-zinc-600 m-0",
    "new": "text-body-sm leading-inherit text-foreground-secondary m-0",
    "tag": "p"
@@ -635,7 +605,7 @@
   {
    "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/second-calculator.ts",
    "old": "mt-3 p-3 bg-amber-50 ring-1 ring-amber-200 rounded-2xl",
-   "new": "mt-3 p-3 bg-warning-surface ring-1 ring-warning-border rounded-2xl",
+   "new": "mt-3 p-3 bg-warning-surface ring-1 ring-amber-200 rounded-2xl",
    "tag": "div"
   },
   {
@@ -664,12 +634,6 @@
   },
   {
    "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/second-calculator.ts",
-   "old": "ring-amber-200",
-   "new": "ring-warning-border",
-   "tag": "div"
-  },
-  {
-   "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/second-calculator.ts",
    "old": "bg-green-50",
    "new": "bg-success-surface",
    "tag": null
@@ -690,12 +654,6 @@
    "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/second-calculator.ts",
    "old": "bg-amber-50",
    "new": "bg-warning-surface",
-   "tag": "div"
-  },
-  {
-   "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/second-calculator.ts",
-   "old": "ring-amber-200",
-   "new": "ring-warning-border",
    "tag": "div"
   },
   {
@@ -850,12 +808,6 @@
   },
   {
    "file": "src/app/(platform)/build/components/FlowEditor/tutorial/styles.ts",
-   "old": "ring-amber-200",
-   "new": "ring-warning-border",
-   "tag": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/FlowEditor/tutorial/styles.ts",
    "old": "bg-green-50",
    "new": "bg-success-surface",
    "tag": null
@@ -889,7 +841,7 @@
     "text-success",
     "#requirements-box",
     "bg-warning-surface",
-    "ring-warning-border",
+    "ring-amber-200",
     "#requirements-title",
     "text-amber-600",
     "configure-second-calculator",
@@ -900,7 +852,7 @@
     "text-success",
     "#second-calc-requirements-box",
     "bg-warning-surface",
-    "ring-warning-border",
+    "ring-amber-200",
     "connect-blocks-output",
     "#connection-status-output",
     "bg-success-surface",

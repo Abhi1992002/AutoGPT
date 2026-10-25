@@ -1,0 +1,26 @@
+"""Drops the aligned pairs extract_pairs mis-aligns where copy moved into a
+<Text>: a string literal of one element paired with another element's string or
+with a variant name. Each dropped pair is written out with the check that
+measures the real element instead.
+  python3 drop_misaligned.py <all-pairs.json> <out excluded.json>"""
+import json, sys
+DROP = {
+  ("AgentOutputs.tsx", "text-xl", "lead-semibold"): "SheetTitle's className paired with the variant of the <Text> it now wraps; markup case 'AgentOutputs: sheet title and description'",
+  ("AgentOutputs.tsx", "mt-1 text-sm text-muted-foreground", "mt-1 text-muted-foreground"): "SheetDescription's className without the atom's own text-body leading-5; measured merged (pr1-agentoutputs-merged.md, 0 failing) and as a class set (pr1-merged-sets.md, same set)",
+  ("MCPToolDialog.tsx", "w-full text-xs", "w-full"): "the table's type moved to the <Text variant=\"small-tight\" as=\"div\"> around it; markup case 'MCP: parameter table'",
+  ("FilterSheet.tsx", "font-sans text-sm leading-[1.375rem] text-zinc-600", "m-0 p-0 text-foreground-emphasis hover:text-foreground-secondary"): "a creator label's dev string paired with the More/Less link Button; the label is a Text row, the link is markup case 'FilterSheet: More/Less'",
+  ("FilterSheet.tsx", "m-0 p-0 font-sans text-sm font-medium leading-[1.375rem] text-zinc-800 underline hover:text-zinc-600", "body-medium"): "the More/Less link's dev string paired with the variant of the <Text> it now wraps; markup case 'FilterSheet: More/Less'",
+  ("NodeCost.tsx", "mr-3 flex items-center gap-1 text-base font-light", "mr-3 flex items-center gap-1"): "the cost row's flex container lost type that styled no text of its own (its copy is all <Text>); markup cases 'NodeCost: free row' and 'NodeCost: amount and suffix row'",
+  ("helpers.tsx", "bg-transparent font-bold", "bg-transparent"): "the search match keeps its <mark>; its weight moved into the <Text variant=\"body-bold\"|\"small-bold-loose\"> inside it; markup case 'Block menu: search match in a title and a description'",
+  ("NoModelNotice.tsx", "font-medium underline underline-offset-2", "underline underline-offset-2"): "the link keeps its underline; its weight moved into the <Text variant=\"body-medium-tight\"> inside it; markup case 'NoModelNotice: setup guide link'",
+  ("MCPToolDialog.tsx", "text-sm font-medium", "body-medium-tight"): "MCPAuthSchemeField's dev labelClassName paired with the labelVariant that replaced it; markup case 'MCP: auth scheme label (MCPAuthSchemeField)'",
+  ("MCPToolDialog.tsx", "text-sm", "body-medium-tight"): "the token Label's dev className paired with the variant of the <Text> it now wraps; markup case 'MCP: token label (legacy Label kept)'",
+}
+d = json.load(open(sys.argv[1])); keep, out = [], []
+for p in d["pairs"]:
+    k = (p["file"].split("/")[-1], p["old"], p["new"])
+    if p.get("tag") != "Text-merged" and k in DROP: out.append({**p, "why": DROP[k]})
+    else: keep.append(p)
+d["pairs"] = keep; json.dump(d, open(sys.argv[1], "w"))
+json.dump({"excluded": out}, open(sys.argv[2], "w"), indent=1)
+print(len(out), "mis-aligned pairs excluded;", len(keep), "kept")

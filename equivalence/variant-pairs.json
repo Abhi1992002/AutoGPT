@@ -145,6 +145,24 @@
    "tag": null
   },
   {
+   "file": "<Text variant=\"small-medium-inherit\"> vs <Text variant=\"small-medium\" className=\"leading-inherit\">",
+   "old": "font-sans text-caption font-medium text-foreground-base leading-inherit",
+   "new": "font-sans text-caption font-medium leading-inherit text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"body-bold\"> vs <Text variant=\"body\" className=\"font-bold\">",
+   "old": "font-sans text-body text-foreground-base font-bold",
+   "new": "font-sans text-body font-bold text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"small-bold-loose\"> vs <Text variant=\"small\" className=\"font-bold leading-5\">",
+   "old": "font-sans text-caption text-foreground-base font-bold leading-5",
+   "new": "font-sans text-caption font-bold leading-5 text-foreground-base",
+   "tag": null
+  },
+  {
    "file": "<Text variant=\"caption-sm-mono-inherit\"> vs <Text variant=\"small\" className=\"font-mono text-caption-sm leading-inherit\">",
    "old": "font-normal text-foreground-base font-mono text-caption-sm leading-inherit",
    "new": "font-mono text-caption-sm font-normal leading-inherit text-foreground-base",
