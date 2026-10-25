@@ -4,8 +4,10 @@ Evidence-only branch: never merged, not part of any PR branch.
 
 Current set, on the PR heads:
 - base: dev `4bf85fe86` (#16099 merged it)
-- #16099 `88ed81a79`
-- #16103 `0e7c0ccda`
+- #16099 `772559324`
+- #16103 `351577a41`
+
+Rule 43 (25 Oct 09:42 IST): every `dark:` class is kept, and every colour swap's token renders the same `.dark` value as the old class.
 
 Screenshots: per Abhimanyu (25 Oct 08:57 IST), the visual check is the orchestrator's batch diff of dev before vs after the merges, so no per-PR screenshots are kept here. Earlier capture sets remain in this branch's history.
 
@@ -18,6 +20,9 @@ Screenshots: per Abhimanyu (25 Oct 08:57 IST), the visual check is the orchestra
 | `todo-token-search-pr*.md` | every hex a `TODO(tokens)` names, searched in DS1's `:root` roles |
 | `todo-audit.txt` | raw colours without a `TODO(tokens)` |
 | `atom-overrides-*.md` | every atom `className` override at each head (strict `no-restyle`) |
+| `dark-check-pr*.txt` | `git diff <base>...<head> \| grep -E '^-.*dark:'`, and whether each removed `dark:` class is back on an added code line |
+| `dark-multiset-*.txt` | every `dark:` class in `build/**` code at dev and at each head (identical) |
+| `swap-dark-pr*.md` | every colour swap, with the new token's `:root` and `.dark` values |
 | `parity-pr*.md` | exports and prop types, rendered DOM tags and non-styling attributes, base vs head |
-| `logs/` | lint, types and full vitest on `0e7c0ccda`; patch coverage |
+| `logs/` | lint, types and full vitest on `351577a41`; patch coverage |
 | `tools/` | every script used |

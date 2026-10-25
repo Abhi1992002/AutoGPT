@@ -3,5 +3,5 @@ UNCOVERED src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:3
 UNCOVERED src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:34: ['white']  | 0 0 0 4px white,
 UNCOVERED src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:35: ['#8b5cf6']  | 0 0 0 8px #8b5cf6,
 UNCOVERED src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:36: ['rgba(1']  | 0 0 40px 12px rgba(124, 58, 237, 0.55);
-UNCOVERED src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:131: ['#27272a', '#27272A']  | #27272a #27272A. */
-256 lines with a raw colour; 6 without a TODO(tokens)
+UNCOVERED src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:135: ['#27272a', '#27272A']  | #27272a #27272A. */
+297 lines with a raw colour; 6 without a TODO(tokens)

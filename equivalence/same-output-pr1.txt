@@ -8,15 +8,6 @@ HUNK build/components/BuilderChatPanel/components/NoModelNotice.tsx
 HUNK build/components/FloatingSafeModeToogle.tsx
   - className : "text-zinc-600"
   + tone : "secondary"
-HUNK build/components/FlowEditor/nodes/CustomNode/components/NodeContextMenu.tsx
-  - { className : "dark:text-gray-100" }
-  + null
-HUNK build/components/FlowEditor/nodes/CustomNode/components/NodeContextMenu.tsx
-  - { className : "dark:text-gray-100" }
-  + null
-HUNK build/components/FlowEditor/nodes/CustomNode/components/NodeContextMenu.tsx
-  - { className : "dark:text-red-400" }
-  + null
 HUNK build/components/FlowEditor/nodes/CustomNode/components/NodeCost.tsx
   - "small" , className : "!font-medium"
   + "small-medium"
@@ -39,36 +30,30 @@ HUNK build/components/FlowEditor/nodes/CustomNode/components/NodeOutput/componen
   - "body-medium"
   + "small-medium-mono-tight" , as : "p"
 NEW FILE autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeOutput/components/__tests__/ContentRenderer.test.tsx
-HUNK build/components/FlowEditor/nodes/CustomNode/components/NodeRightClickMenu.tsx
-  - { className : "dark:text-gray-100" }
-  + null
-HUNK build/components/FlowEditor/nodes/CustomNode/components/NodeRightClickMenu.tsx
-  - { className : "dark:text-gray-100" }
-  + null
-HUNK build/components/FlowEditor/nodes/CustomNode/components/NodeRightClickMenu.tsx
-  - { className : "dark:text-red-400" }
-  + null
 HUNK build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx
   - "li" , {
   + Text , { variant : "body-tight" , as : "li" ,
 HUNK build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx
   - "code" , { className : "rounded bg-red-50 px-1 py-0.5 font-mono text-xs text-red-700 dark:bg-red-900/30 dark:text-red-300"
-  + Text , { variant : "small-mono-tight" , as : "code" , className : "rounded bg-error-surface px-1 py-0.5 text-error-foreground"
+  + Text , { variant : "small-mono-tight" , as : "code" , className : "rounded bg-error-surface px-1 py-0.5 text-error-foreground dark:bg-red-900/30 dark:text-red-300"
 HUNK build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx
   - "li" , {
   + Text , { variant : "body-tight" , as : "li" ,
 HUNK build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx
   - "code" , { className : "rounded bg-green-50 px-1 py-0.5 font-mono text-xs text-green-700 dark:bg-green-900/30 dark:text-green-300"
-  + Text , { variant : "small-mono-tight" , as : "code" , className : "rounded bg-success-surface px-1 py-0.5 text-success-foreground"
+  + Text , { variant : "small-mono-tight" , as : "code" , className : "rounded bg-success-surface px-1 py-0.5 text-success-foreground dark:bg-green-900/30 dark:text-green-300"
 HUNK build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx
   - "li" , {
   + Text , { variant : "body-tight" , as : "li" ,
 HUNK build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx
   - "code" , { className : "rounded bg-gray-100 px-1 py-0.5 font-mono text-xs dark:bg-gray-800"
-  + Text , { variant : "small-mono-tight" , tone : "inherit" , as : "code" , className : "rounded bg-gray-100 px-1 py-0.5"
+  + Text , { variant : "small-mono-tight" , tone : "inherit" , as : "code" , className : "rounded bg-gray-100 px-1 py-0.5 dark:bg-gray-800"
 HUNK build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx
-  - "span" , { className : "text-sm text-amber-700 dark:text-amber-300"
-  + Text , { variant : "body-tight" , tone : "warning" , as : "span"
+  - "span"
+  + Text
+HUNK build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx
+  - "text-sm text-amber-700 dark:text-amber-300"
+  + "dark:text-amber-300" , variant : "body-tight" , tone : "warning" , as : "span"
 HUNK build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx
   - "div" , { className : "text-xs"
   + Text , { variant : "small-tight" , tone : "inherit" , as : "div"
@@ -87,7 +72,7 @@ HUNK build/components/MCPToolDialog.tsx
   + Text , { variant : "body-tight" ,
 HUNK build/components/MCPToolDialog.tsx
   - "span" , { className : "flex-1 text-sm font-semibold dark:text-white"
-  + Text , { variant : "body-semibold-tight" , tone : "inherit" , as : "span" , className : "flex-1"
+  + Text , { variant : "body-semibold-tight" , tone : "inherit" , as : "span" , className : "flex-1 dark:text-white"
 HUNK build/components/MobileWarning/MobileWarning.tsx
   - className : "text-zinc-700"
   + tone : "body"
@@ -223,11 +208,12 @@ HUNK build/components/NewControlPanel/NewBlockMenu/style.ts
   `
   + blockDragPreviewClassName = "text-body font-medium leading-inherit" ; export const blockDragPreviewStyle = `
     padding: 0.625rem 0.875rem;
-    background: rgb(var(--color-muted));
+    background: #f4f4f5;
     border-radius: 0.75rem;
     color: #27272a;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-    position: absol
+    position: absolute;
+    top: -9
 HUNK build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx
   - "div" , { className : "px-4 pt-3 text-xs text-zinc-500"
   + Text , { variant : "small-tight" , as : "div" , tone : "muted" , className : "px-4 pt-3"
@@ -279,4 +265,4 @@ HUNK autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
 HUNK autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
   - 
   + "body-semibold" : "p" , "body-line-through" : "p" , "body-tight-italic" : "p" , "body-medium-tight" : "p" , "body-semibold-tight" : "p" , small : "p" , "small-medium" : "p" , "small-tight" : "p" , "small-semibold" : "p" , "small-line-through" : "p" , "small-medium-loose-underline" : "p" , "small-med
-69 files compiled; 222 string-literal hunks (class strings); 42 Text-atom hunks; 87 other hunks
+69 files compiled; 204 string-literal hunks (class strings); 42 Text-atom hunks; 82 other hunks

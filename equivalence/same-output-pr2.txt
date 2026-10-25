@@ -9,4 +9,4 @@ HUNK build/components/FlowEditor/Flow/components/CustomControl.tsx
   - "size-3.5 text-zinc-600" }
   + "size-3.5 text-foreground-secondary" } )
 NEW FILE autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/tutorial/steps/__tests__/statusUpdates.test.ts
-19 files compiled; 72 string-literal hunks (class strings); 0 Text-atom hunks; 3 other hunks
+19 files compiled; 71 string-literal hunks (class strings); 0 Text-atom hunks; 3 other hunks

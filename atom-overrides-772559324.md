@@ -1,137 +1,158 @@
-265 overriding classes on 167 atom elements (base: 230 on 130)
+299 overriding classes on 174 atom elements (base: 230 on 130)
 
 | atom | elements |
 | --- | --- |
-| `<Text>` | 77 |
-| `<Icon>` | 56 |
-| `<Button>` | 23 |
+| `<Text>` | 79 |
+| `<Icon>` | 60 |
+| `<Button>` | 24 |
 | `<Separator>` | 4 |
 | `<Alert>` | 2 |
-| `<AccordionItem>` | 1 |
-| `<AccordionTrigger>` | 1 |
-| `<PopoverContent>` | 1 |
 | `<SheetTitle>` | 1 |
 | `<SheetDescription>` | 1 |
+| `<PopoverContent>` | 1 |
+| `<AccordionItem>` | 1 |
+| `<AccordionTrigger>` | 1 |
 
 | class | uses |
 | --- | --- |
 | `group-disabled:text-foreground-subtle` | 15 |
 | `transition-transform` | 9 |
-| `text-slate-600` | 8 |
 | `border` | 8 |
 | `text-foreground-base` | 8 |
+| `text-slate-600` | 8 |
 | `rounded-full` | 7 |
-| `text-gray-400` | 6 |
-| `text-error` | 6 |
-| `text-slate-700` | 6 |
 | `text-zinc-50` | 6 |
+| `text-slate-700` | 6 |
+| `text-error` | 6 |
+| `text-gray-400` | 6 |
+| `dark:text-gray-400` | 5 |
 | `text-gray-500` | 5 |
 | `text-success` | 5 |
 | `text-zinc-600` | 5 |
+| `text-foreground-body` | 4 |
 | `text-amber-600` | 4 |
 | `text-warning` | 4 |
-| `text-foreground-body` | 4 |
+| `dark:text-gray-100` | 4 |
 | `border-border-base` | 4 |
 | `hover:text-slate-900` | 4 |
-| `animate-spin` | 4 |
 | `opacity-100` | 4 |
+| `animate-spin` | 4 |
 | `duration-200` | 4 |
 | `ease-out` | 4 |
-| `text-[#E1E1E1]` | 3 |
+| `rounded-[0.75rem]` | 3 |
 | `text-gray-700` | 3 |
+| `dark:text-gray-300` | 3 |
 | `rounded` | 3 |
 | `text-blue-700` | 3 |
-| `border-gray-300` | 3 |
-| `bg-gray-50` | 3 |
+| `text-[#E1E1E1]` | 3 |
+| `dark:text-red-400` | 3 |
 | `border-green-400` | 3 |
 | `bg-green-100` | 3 |
 | `hover:border-green-400` | 3 |
 | `hover:bg-green-200` | 3 |
-| `rounded-[0.75rem]` | 3 |
-| `text-gray-600` | 2 |
-| `text-green-500` | 2 |
-| `text-error-foreground` | 2 |
-| `hover:bg-warning-surface` | 2 |
-| `text-slate-800` | 2 |
-| `text-slate-900` | 2 |
+| `border-gray-300` | 3 |
+| `bg-gray-50` | 3 |
+| `text-body` | 2 |
+| `text-muted-foreground` | 2 |
 | `bg-surface-active` | 2 |
-| `bg-surface-muted` | 2 |
-| `border-none` | 2 |
-| `rounded-[1.25rem]` | 2 |
-| `bg-[#f0f0f0]` | 2 |
 | `hover:border-transparent` | 2 |
 | `hover:bg-transparent` | 2 |
-| `text-body` | 2 |
-| `rounded-[8px]` | 2 |
+| `rounded-[1.25rem]` | 2 |
+| `bg-[#f0f0f0]` | 2 |
+| `rounded-xlarge` | 2 |
+| `border-none` | 2 |
+| `dark:text-amber-400` | 2 |
 | `bg-zinc-700` | 2 |
 | `text-action-foreground` | 2 |
 | `drop-shadow` | 2 |
-| `text-red-500` | 2 |
-| `rounded-xlarge` | 2 |
-| `text-muted-foreground` | 2 |
+| `text-gray-600` | 2 |
+| `text-green-500` | 2 |
+| `text-error-foreground` | 2 |
+| `dark:text-gray-500` | 2 |
+| `hover:bg-warning-surface` | 2 |
+| `text-slate-800` | 2 |
+| `rounded-[8px]` | 2 |
+| `bg-surface-muted` | 2 |
+| `text-slate-900` | 2 |
 | `text-amber-900` | 2 |
-| `text-gray-900` | 2 |
+| `text-red-500` | 2 |
 | `text-slate-500` | 2 |
+| `text-gray-900` | 2 |
+| `text-amber-800` | 1 |
+| `text-lead` | 1 |
+| `leading-5` | 1 |
+| `rounded-md` | 1 |
+| `bg-yellow-100` | 1 |
+| `text-yellow-800` | 1 |
+| `dark:bg-yellow-900/30` | 1 |
+| `dark:text-yellow-400` | 1 |
+| `text-foreground-disabled` | 1 |
+| `!text-error` | 1 |
+| `!text-purple-700` | 1 |
+| `rounded-[1rem]` | 1 |
+| `shadow-[0_2px_6px_0_rgba(0,0,0,0.05)]` | 1 |
+| `dark:text-amber-300` | 1 |
 | `border-amber-700` | 1 |
 | `bg-amber-600` | 1 |
 | `hover:bg-amber-700` | 1 |
 | `bg-error-surface` | 1 |
+| `dark:bg-red-900/30` | 1 |
+| `dark:text-red-300` | 1 |
 | `bg-success-surface` | 1 |
 | `text-success-foreground` | 1 |
+| `dark:bg-green-900/30` | 1 |
+| `dark:text-green-300` | 1 |
 | `list-disc` | 1 |
 | `bg-gray-100` | 1 |
+| `dark:bg-gray-800` | 1 |
+| `dark:bg-slate-700` | 1 |
+| `dark:text-slate-100` | 1 |
+| `dark:hover:bg-slate-800` | 1 |
 | `text-info-foreground` | 1 |
+| `dark:text-blue-400` | 1 |
+| `dark:text-blue-300` | 1 |
 | `text-caption` | 1 |
 | `leading-4` | 1 |
 | `border-warning` | 1 |
-| `!text-caption` | 1 |
-| `!leading-4` | 1 |
+| `font-sans` | 1 |
+| `font-medium` | 1 |
+| `text-foreground-emphasis` | 1 |
+| `underline` | 1 |
+| `hover:text-foreground-secondary` | 1 |
+| `group-hover:text-foreground-secondary` | 1 |
+| `text-accent-strong` | 1 |
+| `hover:no-underline` | 1 |
+| `bg-surface-hover` | 1 |
+| `text-foreground-subtle` | 1 |
 | `border-slate-300` | 1 |
 | `bg-slate-100` | 1 |
-| `hover:no-underline` | 1 |
 | `!text-slate-500` | 1 |
+| `!text-caption` | 1 |
+| `!leading-4` | 1 |
+| `dark:text-white` | 1 |
+| `text-zinc-200` | 1 |
+| `dark:text-amber-100` | 1 |
+| `text-warning-foreground` | 1 |
 | `shadow-none` | 1 |
 | `hover:bg-surface-hover` | 1 |
 | `focus:ring-0` | 1 |
 | `active:bg-surface-hover` | 1 |
 | `active:ring-1` | 1 |
 | `active:ring-border-strong` | 1 |
-| `bg-surface-hover` | 1 |
-| `group-hover:text-foreground-secondary` | 1 |
-| `text-accent-strong` | 1 |
-| `font-sans` | 1 |
-| `font-medium` | 1 |
-| `text-foreground-emphasis` | 1 |
-| `underline` | 1 |
-| `hover:text-foreground-secondary` | 1 |
-| `!text-error` | 1 |
-| `text-foreground-disabled` | 1 |
-| `rounded-[1rem]` | 1 |
-| `shadow-[0_2px_6px_0_rgba(0,0,0,0.05)]` | 1 |
-| `text-foreground-subtle` | 1 |
-| `!text-purple-700` | 1 |
-| `hover:text-warning-foreground` | 1 |
 | `transition-opacity` | 1 |
 | `bg-red-500` | 1 |
 | `hover:bg-red-600` | 1 |
 | `opacity-0` | 1 |
 | `text-violet-600` | 1 |
-| `text-zinc-200` | 1 |
-| `text-warning-foreground` | 1 |
 | `rounded-2xl` | 1 |
 | `bg-warning-surface` | 1 |
-| `text-lead` | 1 |
-| `leading-5` | 1 |
-| `rounded-md` | 1 |
-| `bg-yellow-100` | 1 |
-| `text-yellow-800` | 1 |
-| `text-amber-800` | 1 |
+| `hover:text-warning-foreground` | 1 |
 
 | element | atom | classes it overrides |
 | --- | --- | --- |
 | `components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx:115` | `<SheetTitle>` | `text-lead` |
 | `components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx:116` | `<SheetDescription>` | `text-body` `leading-5` `text-muted-foreground` |
-| `components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx:122` | `<Text>` | `rounded-md` `bg-yellow-100` `text-yellow-800` |
+| `components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx:122` | `<Text>` | `rounded-md` `bg-yellow-100` `text-yellow-800` `dark:bg-yellow-900/30` `dark:text-yellow-400` |
 | `components/BuilderActions/components/CronSchedulerDialog/CronSchedulerDialog.tsx:78` | `<Text>` | `text-amber-800` |
 | `components/BuilderActions/components/RunGraph/RunGraph.tsx:40` | `<Icon>` | `transition-transform` `duration-200` `ease-out` `transition-transform` `duration-200` `ease-out` `transition-transform` `duration-200` `ease-out` |
 | `components/BuilderActions/components/RunGraph/RunGraph.tsx:46` | `<Icon>` | `animate-spin` |
@@ -147,8 +168,8 @@
 | `components/BuilderChatPanel/components/NoModelNotice.tsx:17` | `<Text>` | `rounded-2xl` `bg-warning-surface` `text-amber-900` |
 | `components/BuilderChatPanel/components/PanelHeader.tsx:33` | `<Icon>` | `text-violet-600` |
 | `components/BuilderChatPanel/components/PanelHeader.tsx:39` | `<Text>` | `text-slate-800` |
-| `components/DraftRecoveryDialog/DraftRecoveryPopup.tsx:112` | `<Text>` | `text-amber-900` |
-| `components/DraftRecoveryDialog/DraftRecoveryPopup.tsx:116` | `<Text>` | `text-warning-foreground` |
+| `components/DraftRecoveryDialog/DraftRecoveryPopup.tsx:115` | `<Text>` | `text-amber-900` `dark:text-amber-100` |
+| `components/DraftRecoveryDialog/DraftRecoveryPopup.tsx:122` | `<Text>` | `text-warning-foreground` `dark:text-amber-400` |
 | `components/FloatingSafeModeToogle.tsx:57` | `<Text>` | `text-zinc-200` |
 | `components/FloatingSafeModeToogle.tsx:80` | `<Text>` | `text-muted-foreground` |
 | `components/FlowEditor/Flow/components/CustomControl.tsx:59` | `<Icon>` | `text-zinc-600` |
@@ -168,7 +189,9 @@
 | `components/FlowEditor/nodes/CustomNode/components/NodeAdvancedToggle.tsx:35` | `<Button>` | `hover:border-transparent` `hover:bg-transparent` |
 | `components/FlowEditor/nodes/CustomNode/components/NodeAdvancedToggle.tsx:43` | `<Text>` | `text-slate-700` |
 | `components/FlowEditor/nodes/CustomNode/components/NodeAdvancedToggle.tsx:49` | `<Icon>` | `transition-transform` |
-| `components/FlowEditor/nodes/CustomNode/components/NodeContextMenu.tsx:70` | `<Icon>` | `text-error` |
+| `components/FlowEditor/nodes/CustomNode/components/NodeContextMenu.tsx:56` | `<Icon>` | `dark:text-gray-100` |
+| `components/FlowEditor/nodes/CustomNode/components/NodeContextMenu.tsx:76` | `<Icon>` | `dark:text-gray-100` |
+| `components/FlowEditor/nodes/CustomNode/components/NodeContextMenu.tsx:94` | `<Icon>` | `text-error` `dark:text-red-400` |
 | `components/FlowEditor/nodes/CustomNode/components/NodeHeader.tsx:105` | `<Text>` | `!text-slate-500` |
 | `components/FlowEditor/nodes/CustomNode/components/NodeOutput/NodeOutput.tsx:36` | `<AccordionItem>` | `border-none` |
 | `components/FlowEditor/nodes/CustomNode/components/NodeOutput/NodeOutput.tsx:37` | `<AccordionTrigger>` | `hover:no-underline` |
@@ -207,16 +230,18 @@
 | `components/FlowEditor/nodes/CustomNode/components/NodeOutput/components/ViewMoreData.tsx:171` | `<Button>` | `border` `border-border-base` `text-foreground-base` `hover:text-slate-900` |
 | `components/FlowEditor/nodes/CustomNode/components/NodeOutput/components/ViewMoreData.tsx:175` | `<Button>` | `border-green-400` `bg-green-100` `hover:border-green-400` `hover:bg-green-200` |
 | `components/FlowEditor/nodes/CustomNode/components/NodeOutput/components/ViewMoreData.tsx:183` | `<Icon>` | `text-success` |
-| `components/FlowEditor/nodes/CustomNode/components/NodeRightClickMenu.tsx:97` | `<Icon>` | `text-error` |
+| `components/FlowEditor/nodes/CustomNode/components/NodeRightClickMenu.tsx:83` | `<Icon>` | `dark:text-gray-100` |
+| `components/FlowEditor/nodes/CustomNode/components/NodeRightClickMenu.tsx:103` | `<Icon>` | `dark:text-gray-100` |
+| `components/FlowEditor/nodes/CustomNode/components/NodeRightClickMenu.tsx:121` | `<Icon>` | `text-error` `dark:text-red-400` |
 | `components/FlowEditor/nodes/CustomNode/components/StickyNoteBlock.tsx:55` | `<Text>` | `text-slate-800` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/SubAgentUpdateFeature.tsx:89` | `<Icon>` | `text-info-foreground` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/SubAgentUpdateFeature.tsx:94` | `<Text>` | `text-blue-700` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/SubAgentUpdateFeature.tsx:101` | `<Icon>` | `text-warning` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/SubAgentUpdateFeature.tsx:108` | `<Text>` | `text-gray-400` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/SubAgentUpdateFeature.tsx:121` | `<Button>` | `text-caption` `leading-4` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/SubAgentUpdateFeature.tsx:124` | `<Button>` | `border-warning` `text-amber-600` `hover:bg-warning-surface` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/SubAgentUpdateFeature.tsx:95` | `<Icon>` | `text-info-foreground` `dark:text-blue-400` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/SubAgentUpdateFeature.tsx:101` | `<Text>` | `text-blue-700` `dark:text-blue-300` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/SubAgentUpdateFeature.tsx:108` | `<Icon>` | `text-warning` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/SubAgentUpdateFeature.tsx:115` | `<Text>` | `text-gray-400` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/SubAgentUpdateFeature.tsx:128` | `<Button>` | `text-caption` `leading-4` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/SubAgentUpdateFeature.tsx:131` | `<Button>` | `border-warning` `text-amber-600` `hover:bg-warning-surface` |
 | `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:48` | `<Icon>` | `text-warning` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:66` | `<Text>` | `text-gray-600` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:66` | `<Text>` | `text-gray-600` `dark:text-gray-400` |
 | `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:77` | `<Icon>` | `text-error` |
 | `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:85` | `<Icon>` | `text-green-500` |
 | `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:98` | `<Icon>` | `text-error` |
@@ -224,20 +249,21 @@
 | `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:117` | `<Icon>` | `text-error` |
 | `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:132` | `<Icon>` | `text-warning` |
 | `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:157` | `<Button>` | `border-amber-700` `bg-amber-600` `hover:bg-amber-700` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:197` | `<Text>` | `text-gray-500` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:210` | `<Text>` | `text-gray-700` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:215` | `<Text>` | `rounded` `bg-error-surface` `text-error-foreground` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:226` | `<Text>` | `text-gray-400` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:240` | `<Text>` | `text-gray-500` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:253` | `<Text>` | `text-gray-700` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:258` | `<Text>` | `rounded` `bg-success-surface` `text-success-foreground` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:269` | `<Text>` | `text-gray-400` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:303` | `<Text>` | `text-gray-500` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:314` | `<Text>` | `list-disc` `text-gray-700` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:321` | `<Text>` | `rounded` `bg-gray-100` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx:93` | `<Icon>` | `text-amber-600` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx:102` | `<Icon>` | `text-warning` |
-| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx:113` | `<Text>` | `text-gray-400` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:200` | `<Text>` | `text-gray-500` `dark:text-gray-400` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:213` | `<Text>` | `text-gray-700` `dark:text-gray-300` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:219` | `<Text>` | `rounded` `bg-error-surface` `text-error-foreground` `dark:bg-red-900/30` `dark:text-red-300` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:230` | `<Text>` | `text-gray-400` `dark:text-gray-500` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:244` | `<Text>` | `text-gray-500` `dark:text-gray-400` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:257` | `<Text>` | `text-gray-700` `dark:text-gray-300` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:263` | `<Text>` | `rounded` `bg-success-surface` `text-success-foreground` `dark:bg-green-900/30` `dark:text-green-300` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:274` | `<Text>` | `text-gray-400` `dark:text-gray-500` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:311` | `<Text>` | `text-gray-500` `dark:text-gray-400` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:322` | `<Text>` | `list-disc` `text-gray-700` `dark:text-gray-300` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx:329` | `<Text>` | `rounded` `bg-gray-100` `dark:bg-gray-800` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx:96` | `<Icon>` | `text-amber-600` `dark:text-amber-400` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx:100` | `<Text>` | `dark:text-amber-300` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx:111` | `<Icon>` | `text-warning` |
+| `components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx:122` | `<Text>` | `text-gray-400` |
 | `components/FlowEditor/nodes/CustomNode/components/WebhookDisclaimer.tsx:33` | `<Alert>` | `rounded-xlarge` |
 | `components/FlowEditor/nodes/CustomNode/components/WebhookDisclaimer.tsx:56` | `<Text>` | `!text-purple-700` |
 | `components/FlowEditor/nodes/OutputHandler.tsx:139` | `<Text>` | `text-slate-700` |
@@ -247,9 +273,10 @@
 | `components/FlowEditor/nodes/OutputHandler.tsx:188` | `<Text>` | `text-slate-700` |
 | `components/FlowEditor/nodes/OutputHandler.tsx:194` | `<Icon>` | `transition-transform` |
 | `components/MCPToolDialog.tsx:476` | `<Text>` | `text-gray-500` |
-| `components/MCPToolDialog.tsx:488` | `<Text>` | `text-error-foreground` |
-| `components/MCPToolDialog.tsx:640` | `<Text>` | `text-gray-500` |
-| `components/MCPToolDialog.tsx:766` | `<Icon>` | `transition-transform` |
+| `components/MCPToolDialog.tsx:489` | `<Text>` | `text-error-foreground` `dark:text-red-400` |
+| `components/MCPToolDialog.tsx:630` | `<Text>` | `dark:text-white` |
+| `components/MCPToolDialog.tsx:646` | `<Text>` | `text-gray-500` `dark:text-gray-400` |
+| `components/MCPToolDialog.tsx:772` | `<Icon>` | `transition-transform` |
 | `components/MobileWarning/MobileWarning.tsx:28` | `<Icon>` | `text-amber-600` |
 | `components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx:70` | `<Text>` | `rounded-full` `bg-surface-hover` |
 | `components/NewControlPanel/NewBlockMenu/Block.tsx:141` | `<Text>` | `group-disabled:text-foreground-subtle` |
@@ -290,6 +317,7 @@
 | `components/NewControlPanel/NewControlPanel.tsx:34` | `<Separator>` | `text-[#E1E1E1]` |
 | `components/NewControlPanel/NewControlPanel.tsx:39` | `<Separator>` | `text-[#E1E1E1]` |
 | `components/NewControlPanel/NewControlPanel.tsx:44` | `<Separator>` | `text-[#E1E1E1]` |
+| `components/NewControlPanel/NewSaveControl/NewSaveControl.tsx:123` | `<Button>` | `dark:bg-slate-700` `dark:text-slate-100` `dark:hover:bg-slate-800` |
 | `components/NewControlPanel/NewSearchGraph/GraphMenu/GraphMenu.tsx:82` | `<PopoverContent>` | `rounded-[1rem]` `border-none` `shadow-[0_2px_6px_0_rgba(0,0,0,0.05)]` |
 | `components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:43` | `<Separator>` | `text-foreground-disabled` |
 | `components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:120` | `<Text>` | `rounded-[0.75rem]` `bg-surface-active` |
