@@ -13,7 +13,7 @@ const ROOT = "/home/vercel-sandbox/autogpt";
 const req = createRequire(join(process.cwd(), "package.json"));
 const ts = req("typescript");
 const [base, spec] = process.argv.slice(2);
-const files = execSync(`git diff --name-only ${base} -- '${spec}'`, { cwd: ROOT }).toString().split("\n").filter((f) => /\.(ts|tsx)$/.test(f));
+const files = execSync(`git diff --name-only ${base} ${process.env.HEAD_SHA ?? ""} -- '${spec}'`, { cwd: ROOT }).toString().split("\n").filter((f) => /\.(ts|tsx)$/.test(f));
 const compile = (src: string, f: string) =>
   ts.transpileModule(src, { fileName: f, compilerOptions: { jsx: ts.JsxEmit.React, removeComments: true, target: ts.ScriptTarget.ES2022, module: ts.ModuleKind.ESNext } }).outputText;
 function toks(code: string) {
@@ -61,7 +61,7 @@ let other = 0, classOnly = 0, textConv = 0;
 for (const f of files) {
   let oldSrc = "";
   try { oldSrc = execSync(`git show "${base}:${f}"`, { cwd: ROOT, stdio: ["pipe", "pipe", "ignore"] }).toString(); } catch { console.log(`NEW FILE ${f}`); continue; }
-  const newSrc = readFileSync(join(ROOT, f), "utf8");
+  const newSrc = process.env.HEAD_SHA ? execSync(`git show "${process.env.HEAD_SHA}:${f}"`, { cwd: ROOT }).toString() : readFileSync(join(ROOT, f), "utf8");
   const hs = hunks(toks(compile(oldSrc, f)), toks(compile(newSrc, f)));
   for (const h of hs) {
     const isStr = (t: string[]) => t.every((x) => /^["'`]/.test(x) || ["+", ",", "(", ")"].includes(x));

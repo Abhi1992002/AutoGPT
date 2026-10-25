@@ -1,0 +1,119 @@
+{
+ "pairs": [
+  {
+   "file": "<Text variant=\"body-tight\"> vs <Text variant=\"body\" className=\"leading-5\">",
+   "old": "font-sans text-body font-normal text-foreground-base leading-5",
+   "new": "font-sans text-body font-normal leading-5 text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"body-medium-tight\"> vs <Text variant=\"body-medium\" className=\"leading-5\">",
+   "old": "font-sans text-body font-medium text-foreground-base leading-5",
+   "new": "font-sans text-body font-medium leading-5 text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"body-semibold-tight\"> vs <Text variant=\"body\" className=\"font-semibold leading-5\">",
+   "old": "font-sans text-body text-foreground-base font-semibold leading-5",
+   "new": "font-sans text-body font-semibold leading-5 text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"small-tight\"> vs <Text variant=\"small\" className=\"leading-4\">",
+   "old": "font-sans text-caption font-normal text-foreground-base leading-4",
+   "new": "font-sans text-caption font-normal leading-4 text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"small-medium-tight\"> vs <Text variant=\"small-medium\" className=\"leading-4\">",
+   "old": "font-sans text-caption font-medium text-foreground-base leading-4",
+   "new": "font-sans text-caption font-medium leading-4 text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"small-mono-tight\"> vs <Text variant=\"small\" className=\"font-mono leading-4\">",
+   "old": "text-caption font-normal text-foreground-base font-mono leading-4",
+   "new": "font-mono text-caption font-normal leading-4 text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"small-medium-mono-tight\"> vs <Text variant=\"body-medium\" className=\"font-mono text-caption leading-4\">",
+   "old": "font-medium text-foreground-base font-mono text-caption leading-4",
+   "new": "font-mono text-caption font-medium leading-4 text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"small-loose\"> vs <Text variant=\"small\" className=\"leading-5\">",
+   "old": "font-sans text-caption font-normal text-foreground-base leading-5",
+   "new": "font-sans text-caption font-normal leading-5 text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"small-medium-loose\"> vs <Text variant=\"small-medium\" className=\"leading-5\">",
+   "old": "font-sans text-caption font-medium text-foreground-base leading-5",
+   "new": "font-sans text-caption font-medium leading-5 text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"small-relaxed\"> vs <Text variant=\"small\" className=\"leading-relaxed\">",
+   "old": "font-sans text-caption font-normal text-foreground-base leading-relaxed",
+   "new": "font-sans text-caption font-normal leading-relaxed text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"large-medium-tight\"> vs <Text variant=\"large-medium\" className=\"leading-6\">",
+   "old": "font-sans text-body-lg font-medium text-foreground-base leading-6",
+   "new": "font-sans text-body-lg font-medium leading-6 text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"h3-tracking-tight\"> vs <Text variant=\"h3\" className=\"tracking-tight\">",
+   "old": "font-poppins text-heading font-medium text-foreground-base tracking-tight",
+   "new": "font-poppins text-heading font-medium text-foreground-base tracking-tight",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"body-semibold\"> vs <Text variant=\"body\" className=\"font-semibold\">",
+   "old": "font-sans text-body text-foreground-base font-semibold",
+   "new": "font-sans text-body font-semibold text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"small-semibold\"> vs <Text variant=\"small\" className=\"font-semibold\">",
+   "old": "font-sans text-caption text-foreground-base font-semibold",
+   "new": "font-sans text-caption font-semibold text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"body-line-through\"> vs <Text variant=\"body\" className=\"line-through\">",
+   "old": "font-sans text-body font-normal text-foreground-base line-through",
+   "new": "font-sans text-body font-normal line-through text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"small-line-through\"> vs <Text variant=\"small\" className=\"line-through\">",
+   "old": "font-sans text-caption font-normal text-foreground-base line-through",
+   "new": "font-sans text-caption font-normal line-through text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"body-tight-italic\"> vs <Text variant=\"body\" className=\"italic leading-5\">",
+   "old": "font-sans text-body font-normal text-foreground-base italic leading-5",
+   "new": "font-sans text-body font-normal italic leading-5 text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"small-medium-loose-underline\"> vs <Text variant=\"small-medium\" className=\"leading-5 underline\">",
+   "old": "font-sans text-caption font-medium text-foreground-base leading-5 underline",
+   "new": "font-sans text-caption font-medium leading-5 underline text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "tone=\"inherit\" vs className=\"text-inherit\"",
+   "old": "font-sans text-caption font-normal text-inherit",
+   "new": "font-sans text-caption font-normal text-inherit",
+   "tag": null
+  }
+ ],
+ "unpaired": []
+}

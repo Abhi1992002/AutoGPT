@@ -1,2 +1,14 @@
+autogpt_platform/frontend/src/app/globals.css:268:  font-size: 1.1em;
 autogpt_platform/frontend/src/app/globals.css:275:[data-profile-tabs] [role="tabpanel"] .text-sm,
 autogpt_platform/frontend/src/app/globals.css:277:[data-profile-tabs] [role="tabpanel"] [class*="text-[0.875rem]"] {
+autogpt_platform/frontend/src/app/globals.css:278:  font-size: 15px;
+autogpt_platform/frontend/src/components/atoms/Text/helpers.ts:39:  // TODO(tokens): no role is 1rem/1.5rem (text-base); body-lg plus leading-6.
+autogpt_platform/frontend/src/components/atoms/Text/helpers.ts:44:  // TODO(tokens): no role is 0.875rem/1.25rem (text-sm); body plus leading-5.
+autogpt_platform/frontend/src/components/atoms/Text/helpers.ts:47:  // TODO(tokens): no role is 0.875rem/1.25rem (text-sm); body plus leading-5.
+autogpt_platform/frontend/src/components/atoms/Text/helpers.ts:54:  // TODO(tokens): no role is 0.875rem/1.25rem (text-sm); body plus leading-5.
+autogpt_platform/frontend/src/components/atoms/Text/helpers.ts:57:  // TODO(tokens): no role is 0.875rem/1.25rem (text-sm); body plus leading-5.
+autogpt_platform/frontend/src/components/atoms/Text/helpers.ts:66:  // TODO(tokens): no role is 0.75rem/1rem (text-xs); caption plus leading-4.
+autogpt_platform/frontend/src/components/atoms/Text/helpers.ts:69:  // TODO(tokens): no role is 0.75rem/1rem (text-xs); caption plus leading-4.
+autogpt_platform/frontend/src/components/atoms/Text/helpers.ts:72:  // TODO(tokens): no role is 0.75rem/1rem (text-xs); caption plus leading-4.
+autogpt_platform/frontend/src/components/atoms/Text/helpers.ts:75:  // TODO(tokens): no role is 0.75rem/1rem (text-xs); caption plus leading-4.
+autogpt_platform/frontend/src/components/atoms/Text/helpers.ts:93:    "font-sans text-[0.6785rem] font-medium uppercase leading-5 tracking-[0.06785rem] text-foreground-base",

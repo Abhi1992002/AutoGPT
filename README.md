@@ -1,23 +1,23 @@
 # Evidence for SECRT-3118 (DS5h): the flow editor (`build/**`) onto colour and text tokens
 
-Evidence-only branch. Never merged; not part of any PR branch.
+Evidence-only branch: never merged, not part of any PR branch.
 
-Current set, captured on the merged heads in one session:
-- `f0`/`tf0`/`sf0`/`sbf0`: dev `0d5ac323f` (base of #16099)
-- `f1`/`tf1`/`sf1`/`sbf1`: #16099 `d36d8655a`
-- `f2`/`tf2`/`sf2`: #16103 `1d2382531`
+Current set, on the PR heads:
+- base: dev `4bf85fe86` (#16099 merged it)
+- #16099 `88ed81a79`
+- #16103 `0e7c0ccda`
+
+Screenshots: per Abhimanyu (25 Oct 08:57 IST), the visual check is the orchestrator's batch diff of dev before vs after the merges, so no per-PR screenshots are kept here. Earlier capture sets remain in this branch's history.
 
 | path | what |
 | --- | --- |
-| `counts/` | `pnpm exec oxlint -c .oxlintrc.strict.json "src/app/(platform)/build"` (`| wc -l`, `-f unix`) per SHA, strict config from DS4 `1ee6580dc` overlaid in a throwaway worktree |
-| `equivalence/` | DS1's `check-token-equivalence.ts`, every exact class string per PR (`pr1-equivalence.md`, `pr2-equivalence.md`), `cn()`-merged rows on the real Text/Button/Badge/Label/Sheet (`pr1-*-merged.md`), `flow.css`/`tutorial.css` computed styles, negative controls, compiled-output checks |
-| `manifest-p1.md`, `manifest-p2.md` | every changed file -> the capture(s) that render it (rule 20) |
-| `rule15-pr*.txt` | the rule-15 grep over every file each PR touches |
-| `screenshots/f*-run*` | DS1's `screenshot-pages.ts` (15 routes x 2 viewports) + `tools/capture-extra.mts` (7 builder states), 3 runs per commit; `lib-f*-run*` extra `/library`-only runs |
-| `screenshots/tf*-run*` | all 20 tutorial steps x 2 viewports (`tools/capture-tutorial.mts`), 3 runs |
-| `screenshots/sf*-run*` | 41 call-site scenes (`tools/capture-sites.mts`), 3 runs |
-| `screenshots/sbf*-run*` | DS1's harness on Storybook (`tokens-`, `atoms-button--`, `atoms-text--`), 2 runs |
-| `screenshots/cross-*.md`, `compare/`, `diff-*` | exact RGBA matrices, DS1 compare tables, diff images |
+| `counts/` | `pnpm exec oxlint -c .oxlintrc.strict.json "src/app/(platform)/build"` (`| wc -l`, `-f unix`) per SHA; the strict config is DS4's head `1ee6580dc`, overlaid in a throwaway worktree |
+| `equivalence/` | every exact class string per PR (`pr1-equivalence.md`, `pr2-equivalence.md`), the new Text variants (`pr1-text-variants.md`), `cn()`-merged rows on the real Button/Badge/Label/Sheet, `flow.css`/`tutorial.css` computed styles, negative controls, DS1's `check-token-equivalence.ts` (head and dev), compiled-output checks, and the pair lists they ran |
+| `rule15-pr*.txt` | raw-size grep (incl. inline `font-size`) over every file each PR touches |
+| `rule32-all-pr*.txt` | typography classes on any `<Text>` in `build/**` (empty) |
+| `todo-token-search-pr*.md` | every hex a `TODO(tokens)` names, searched in DS1's `:root` roles |
+| `todo-audit.txt` | raw colours without a `TODO(tokens)` |
+| `atom-overrides-*.md` | every atom `className` override at each head (strict `no-restyle`) |
+| `parity-pr*.md` | exports and prop types, rendered DOM tags and non-styling attributes, base vs head |
+| `logs/` | lint, types and full vitest on `0e7c0ccda`; patch coverage |
 | `tools/` | every script used |
-
-Earlier sets (on `995df0dee`/`cbb6ef5b2`/`0d59f5c2d`) are in this branch's history.

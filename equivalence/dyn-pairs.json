@@ -1,0 +1,40 @@
+{
+ "pairs": [
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/OutputHandler.tsx",
+   "line": 135,
+   "tag": "Text-merged",
+   "variant": "body",
+   "state": "connected",
+   "old": "font-sans text-body font-normal text-slate-700",
+   "new": "font-sans text-body font-normal text-slate-700"
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/OutputHandler.tsx",
+   "line": 145,
+   "tag": "Text-merged",
+   "variant": "small",
+   "state": "connected",
+   "old": "font-sans text-caption font-normal text-foreground-base !text-info",
+   "new": "font-sans text-caption font-normal text-foreground-base !text-info"
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/OutputHandler.tsx",
+   "line": 135,
+   "tag": "Text-merged",
+   "variant": "body-line-through",
+   "state": "broken",
+   "old": "font-sans text-body font-normal text-red-500 line-through",
+   "new": "font-sans text-body font-normal line-through text-error"
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/OutputHandler.tsx",
+   "line": 145,
+   "tag": "Text-merged",
+   "variant": "small-line-through",
+   "state": "broken",
+   "old": "font-sans text-caption font-normal text-foreground-base !text-red-500 line-through",
+   "new": "font-sans text-caption font-normal line-through text-foreground-base !text-error"
+  }
+ ]
+}

@@ -1,4 +1,4 @@
-UNCOVERED src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:23: ['#8b5cf6', '#8B5CF6', 'rgba(1', '#7C3AED']  | #8b5cf6 #8B5CF6 and rgba(124, 58, 237) #7C3AED. */
+UNCOVERED src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:23: ['#7C3BED', '#8b5cf6', '#8B5CF6', 'rgba(1']  | (accent is #7C3BED), #8b5cf6 #8B5CF6 and rgba(124, 58, 237) #7C3AED. */
 UNCOVERED src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:30: ['rgba(1']  | 0 0 30px 8px rgba(124, 58, 237, 0.4);
 UNCOVERED src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:34: ['white']  | 0 0 0 4px white,
 UNCOVERED src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:35: ['#8b5cf6']  | 0 0 0 8px #8b5cf6,
