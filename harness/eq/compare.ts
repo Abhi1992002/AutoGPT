@@ -15,10 +15,12 @@ const pairs: { old: string; new: string }[] = JSON.parse(readFileSync(pairsFile,
 const unescape = (s: string) => s.replace(/&amp;/g, "&").replace(/&gt;/g, ">").replace(/&lt;/g, "<").replace(/&quot;/g, '"');
 const split = (s: string) => { const i = s.indexOf("|"); return { tag: s.slice(0, i), cls: unescape(s.slice(i + 1)) }; };
 
-const PARENTS = ["leading-[1.5]", "leading-[30px]", "leading-[normal]"];
+const PARENTS = ["leading-[1.5]", "leading-[30px]", "leading-[normal]", "leading-[1.5]"];
+// The fourth parent is 13px, so anything that inherits its size shows up.
+const PARENT_FS = ["16px", "16px", "16px", "13px"];
 // What each parent must compute to at a 16px root; asserted before measuring,
 // so a parent class missing from the generated CSS fails the run.
-const PARENT_LH = ["24px", "30px", "normal"];
+const PARENT_LH = ["24px", "30px", "normal", "19.5px"];
 
 async function css(dir: string, classes: string[]) {
   const config = loadConfig(join(dir, "tailwind.config.ts"));
@@ -34,7 +36,7 @@ const MODES = ["", "dark-mode"];
 
 async function measure(browser: any, mode: string, cssText: string, items: { tag: string; cls: string }[], width: number) {
   const page = await browser.newPage({ viewport: { width, height: 800 } });
-  const body = items.flatMap((it, i) => PARENTS.map((p, j) => `<div class="${p}" style="font-size:16px"><${it.tag} data-i="${i}-${j}" class="${it.cls.replace(/"/g, "&quot;")}"><span>Ab</span> text</${it.tag}></div>`)).join("");
+  const body = items.flatMap((it, i) => PARENTS.map((p, j) => `<div class="${p}" style="font-size:${PARENT_FS[j]}"><${it.tag} data-i="${i}-${j}" class="${it.cls.replace(/"/g, "&quot;")}"><span>Ab</span> text</${it.tag}></div>`)).join("");
   await page.setContent(`<html class="${mode}"><head><style>${cssText}</style></head><body><i id="dark-probe" class="dark:text-[#010203]"></i>${body}</body></html>`);
   if ((await page.evaluate(() => getComputedStyle(document.documentElement).fontSize)) !== "16px") throw new Error("root not 16px");
   const probe = await page.evaluate(() => getComputedStyle(document.getElementById("dark-probe")!).color);
@@ -75,7 +77,7 @@ async function measure(browser: any, mode: string, cssText: string, items: { tag
       else if (!mode && w === 1280 && key.endsWith("-1")) {
         const i = Number(key.split("-")[0]);
         const v = b[key];
-        rows.push(`| \`${olds[i].tag}\` | font-size ${v["font-size"]}; line-height ${v["line-height"]}; weight ${v["font-weight"]}; color ${v["color"]} (dark: DARK${key}); background ${v["background-color"]}; border ${v["border-top-color"]} | identical (${Object.keys(v).length} props x 3 parents x 2 widths x light/dark) |`);
+        rows.push(`| \`${olds[i].tag}\` | font-size ${v["font-size"]}; line-height ${v["line-height"]}; weight ${v["font-weight"]}; color ${v["color"]} (dark: DARK${key}); background ${v["background-color"]}; border ${v["border-top-color"]} | identical (${Object.keys(v).length} props x 4 parents x 2 widths x light/dark) |`);
       }
     }
   }

@@ -18,9 +18,11 @@ const { chromium } = R("@playwright/test");
 const [baseDir, headDir, casesFile, outFile] = process.argv.slice(2);
 type Case = { name: string; old: string; new: string };
 const cases: Case[] = JSON.parse(readFileSync(casesFile, "utf8"));
-const PARENTS = ["leading-[1.5]", "leading-[30px]", "leading-[normal]"];
+const PARENTS = ["leading-[1.5]", "leading-[30px]", "leading-[normal]", "leading-[1.5]"];
+// The fourth parent is 13px, so anything that inherits its size shows up.
+const PARENT_FS = ["16px", "16px", "16px", "13px"];
 // What each parent must compute to at a 16px root; asserted before measuring.
-const PARENT_LH = ["24px", "30px", "normal"];
+const PARENT_LH = ["24px", "30px", "normal", "19.5px"];
 const WIDTHS = [1280, 390];
 // Light, and dark as tailwind.config.ts defines it (darkMode: ["class", ".dark-mode"]),
 // so every `dark:` class is exercised; the root class is asserted to switch it.
@@ -36,7 +38,7 @@ async function css(dir: string, html: string[]) {
 
 async function measure(browser: any, mode: string, cssText: string, frags: string[], width: number) {
   const page = await browser.newPage({ viewport: { width, height: 900 } });
-  const body = frags.flatMap((f, i) => PARENTS.map((p, j) => `<div class="${p}" style="font-size:16px;width:280px" data-case="${i}-${j}">${f}</div>`)).join("");
+  const body = frags.flatMap((f, i) => PARENTS.map((p, j) => `<div class="${p}" style="font-size:${PARENT_FS[j]};width:280px" data-case="${i}-${j}">${f}</div>`)).join("");
   await page.setContent(`<html class="${mode}"><head><style>${cssText}</style></head><body><i id="dark-probe" class="dark:text-[#010203]"></i>${body}</body></html>`);
   const probe = await page.evaluate(() => getComputedStyle(document.getElementById("dark-probe")!).color);
   if ((probe === "rgb(1, 2, 3)") !== (mode === "dark-mode")) throw new Error(`dark mode switch not applied (mode "${mode}", probe ${probe})`);
@@ -88,7 +90,7 @@ async function measure(browser: any, mode: string, cssText: string, frags: strin
       if (sa !== sb) { fail++; rows.push(`FAIL ${mode || "light"} w=${w} ${cases[i].name} parent=${PARENTS[Number(k.split("-")[1])]}\n  old ${sa}\n  new ${sb}`); }
       else if (!mode && w === 1280 && k.endsWith("-0")) {
         const runs = a[k].runs.map((r: any) => `"${r.text}" ${r.fontSize} ${r.fontWeight} ${r.color} at (${r.x}, ${r.y})`).join("; ");
-        rows.push(`| ${cases[i].name} | box ${a[k].box.join("x")}; ${runs}; dark-mode colours: DARK${k} | identical (glyph boxes, font, weight, colour, letter-spacing, box; 3 parents x 2 widths x light/dark) |`);
+        rows.push(`| ${cases[i].name} | box ${a[k].box.join("x")}; ${runs}; dark-mode colours: DARK${k} | identical (glyph boxes, font, weight, colour, letter-spacing, box; 4 parents x 2 widths x light/dark) |`);
       }
     }
   }

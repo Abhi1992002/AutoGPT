@@ -18,6 +18,10 @@ const LABEL4 = "flex h-8 shrink-0 items-center rounded-md px-2 text-caption font
 
 const expertKids = `<span class="relative inline-flex shrink-0 rounded-full" style="width:32px;height:32px"><span class="absolute inset-0 flex items-center justify-center rounded-full bg-transparent text-lg text-neutral-600"><span class="text-body leading-5">M</span></span></span><span class="flex min-w-0 flex-col text-left gap-0"><span class="flex min-w-0 gap-2 items-center"><span class="${text("body-medium", "primary", "min-w-0 truncate leading-4.5")}">Maya</span><span class="shrink-0 rounded-full bg-surface-active/70 px-1.5 text-caption-sm font-medium tabular-nums leading-4.5 text-foreground-secondary">2</span></span></span>`;
 
+// ManagedExpertImage when both image formats fail: a span with its own colour
+// but no size or weight, so it takes both from the trigger.
+const managedFallback = `<span role="img" style="width:32px;height:32px" class="inline-flex shrink-0 overflow-hidden rounded-xl items-center justify-center bg-muted text-foreground">MA</span><span class="flex min-w-0 flex-col text-left gap-0"><span class="${text("body-medium", "primary", "min-w-0 truncate leading-4.5")}">Maya</span></span>`;
+
 const CASES: Record<number, { name: string; old: string; new: string }[]> = {
   2: [
     {
@@ -33,7 +37,12 @@ const CASES: Record<number, { name: string; old: string; new: string }[]> = {
     {
       name: "ExpertChatGroup.tsx trigger (avatar initial, name, count), incl. max-md",
       old: `<button class="flex min-w-0 flex-1 items-center gap-2 rounded-md px-2 py-1 text-left text-sm font-medium text-foreground-strong max-md:py-2 max-md:text-base">${expertKids}</button>`,
-      new: `<button class="flex min-w-0 flex-1 items-center gap-2 rounded-md px-2 py-1 text-left font-medium max-md:py-2">${expertKids}</button>`,
+      new: `<button class="flex min-w-0 flex-1 items-center gap-2 rounded-md px-2 py-1 text-left text-body font-medium leading-5 max-md:py-2 max-md:text-body-lg max-md:leading-6">${expertKids}</button>`,
+    },
+    {
+      name: "ExpertChatGroup.tsx trigger with a managed avatar whose images failed (ManagedExpertImage fallback initials), incl. max-md",
+      old: `<button class="flex min-w-0 flex-1 items-center gap-2 rounded-md px-2 py-1 text-left text-sm font-medium text-foreground-strong max-md:py-2 max-md:text-base">${managedFallback}</button>`,
+      new: `<button class="flex min-w-0 flex-1 items-center gap-2 rounded-md px-2 py-1 text-left text-body font-medium leading-5 max-md:py-2 max-md:text-body-lg max-md:leading-6">${managedFallback}</button>`,
     },
     {
       name: "ExpertChatGroup.tsx Load all / Load more button, incl. max-md",

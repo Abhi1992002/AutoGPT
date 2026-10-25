@@ -40,7 +40,7 @@
   ],
   "new": [
    {
-    "lit": "flex min-w-0 flex-1 items-center gap-2 rounded-md px-2 py-1 text-left font-medium max-md:py-2"
+    "lit": "flex min-w-0 flex-1 items-center gap-2 rounded-md px-2 py-1 text-left text-body font-medium leading-5 max-md:py-2 max-md:text-body-lg max-md:leading-6"
    },
    {
     "lit": "mt-0.5 w-full rounded-md px-2 py-1 text-left text-foreground-tertiary hover:bg-surface-hover hover:text-foreground-emphasis max-md:py-2.5"

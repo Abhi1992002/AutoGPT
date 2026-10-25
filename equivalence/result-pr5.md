@@ -1,2 +1,2 @@
-| `p` | font-size 14px; line-height 20px; weight 400; color rgb(115, 115, 115) (dark: rgb(115, 115, 115)); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths x light/dark) |
-| `input` | font-size 14px; line-height 20px; weight 400; color rgb(62, 62, 67) (dark: rgb(62, 62, 67)); background rgb(254, 254, 254); border rgb(197, 197, 201) | identical (406 props x 3 parents x 2 widths x light/dark) |
+| `p` | font-size 14px; line-height 20px; weight 400; color rgb(115, 115, 115) (dark: rgb(115, 115, 115)); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 4 parents x 2 widths x light/dark) |
+| `input` | font-size 14px; line-height 20px; weight 400; color rgb(62, 62, 67) (dark: rgb(62, 62, 67)); background rgb(254, 254, 254); border rgb(197, 197, 201) | identical (406 props x 4 parents x 2 widths x light/dark) |

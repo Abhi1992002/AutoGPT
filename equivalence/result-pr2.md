@@ -1,2 +1,2 @@
-| `span` | font-size 14px; line-height 20px; weight 400; color rgb(131, 131, 140) (dark: rgb(131, 131, 140)); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths x light/dark) |
-| `span` | font-size 14px; line-height 20px; weight 400; color rgb(131, 131, 140) (dark: rgb(131, 131, 140)); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths x light/dark) |
+| `span` | font-size 14px; line-height 20px; weight 400; color rgb(131, 131, 140) (dark: rgb(131, 131, 140)); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 4 parents x 2 widths x light/dark) |
+| `span` | font-size 14px; line-height 20px; weight 400; color rgb(131, 131, 140) (dark: rgb(131, 131, 140)); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 4 parents x 2 widths x light/dark) |

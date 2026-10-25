@@ -1,12 +1,12 @@
-PR2 85d7643d5..68f4cd976: 2 pairs generated; 7 restructure hunks covered by nested cases; 0 uncovered
-PR2 85d7643d5..68f4cd976: pairs: 2 pairs, 24 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal) | nested: 4 restructures, 48 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal)
-PR3 68f4cd976..e9f28cc50: 9 pairs generated; 2 restructure hunks covered by nested cases; 0 uncovered
-PR3 68f4cd976..e9f28cc50: pairs: 9 pairs, 108 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal) | nested: 1 restructures, 12 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal)
-PR4 e9f28cc50..078e2241c: 12 pairs generated; 7 restructure hunks covered by nested cases; 0 uncovered
-PR4 e9f28cc50..078e2241c: pairs: 12 pairs, 144 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal) | nested: 5 restructures, 60 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal)
-PR5 078e2241c..ac5bd13be: 2 pairs generated; 6 restructure hunks covered by nested cases; 0 uncovered
-PR5 078e2241c..ac5bd13be: pairs: 2 pairs, 24 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal) | nested: 4 restructures, 48 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal)
-PR6 ac5bd13be..c6b3b6d1a: 12 pairs generated; 0 restructure hunks covered by nested cases; 0 uncovered
-PR6 ac5bd13be..c6b3b6d1a: pairs: 12 pairs, 144 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal) | nested: 0 restructures, 0 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal)
-PR7 c6b3b6d1a..c642aa24b: 0 pairs generated; 0 restructure hunks covered by nested cases; 0 uncovered
-PR7 c6b3b6d1a..c642aa24b: pairs: 0 pairs, 0 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal) | nested: 0 restructures, 0 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal)
+PR2 85d7643d5..822f3493c: 2 pairs generated; 7 restructure hunks covered by nested cases; 0 uncovered
+PR2 85d7643d5..822f3493c: pairs: 2 pairs, 32 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal, 19.5px) | nested: 5 restructures, 80 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal, 19.5px)
+PR3 822f3493c..b6c0e5498: 9 pairs generated; 2 restructure hunks covered by nested cases; 0 uncovered
+PR3 822f3493c..b6c0e5498: pairs: 9 pairs, 144 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal, 19.5px) | nested: 1 restructures, 16 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal, 19.5px)
+PR4 b6c0e5498..90e85ba08: 12 pairs generated; 7 restructure hunks covered by nested cases; 0 uncovered
+PR4 b6c0e5498..90e85ba08: pairs: 12 pairs, 192 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal, 19.5px) | nested: 5 restructures, 80 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal, 19.5px)
+PR5 90e85ba08..96b0ebdba: 2 pairs generated; 6 restructure hunks covered by nested cases; 0 uncovered
+PR5 90e85ba08..96b0ebdba: pairs: 2 pairs, 32 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal, 19.5px) | nested: 4 restructures, 64 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal, 19.5px)
+PR6 96b0ebdba..70ed220a1: 12 pairs generated; 0 restructure hunks covered by nested cases; 0 uncovered
+PR6 96b0ebdba..70ed220a1: pairs: 12 pairs, 192 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal, 19.5px) | nested: 0 restructures, 0 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal, 19.5px)
+PR7 70ed220a1..7e7e8de1c: 0 pairs generated; 0 restructure hunks covered by nested cases; 0 uncovered
+PR7 70ed220a1..7e7e8de1c: pairs: 0 pairs, 0 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal, 19.5px) | nested: 0 restructures, 0 cases, 0 failing (light and dark-mode; parent line-heights asserted: 24px, 30px, normal, 19.5px)
