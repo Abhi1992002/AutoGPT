@@ -1724,10 +1724,6 @@
    "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
    "old": [],
    "new": [
-    "body-tight",
-    "font-sans text-body font-normal leading-5 text-foreground-base",
-    "body-medium-tight",
-    "font-sans text-body font-medium leading-5 text-foreground-base",
     "body-semibold",
     "font-sans text-body font-semibold text-foreground-base",
     "body-bold",
@@ -1786,7 +1782,6 @@
    "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
    "old": [],
    "new": [
-    "text-inherit",
     "h3-tracking-tight"
    ]
   },
@@ -1802,12 +1797,16 @@
    "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
    "old": [],
    "new": [
-    "body-tight",
     "body-semibold",
     "body-bold",
     "body-line-through",
-    "body-tight-italic",
-    "body-medium-tight",
+    "body-tight-italic"
+   ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
+   "old": [],
+   "new": [
     "body-semibold-tight"
    ]
   },

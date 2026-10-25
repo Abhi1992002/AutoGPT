@@ -471,13 +471,10 @@ HUNK autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
   + "large-medium-tight" : "font-sans text-body-lg font-medium leading-6 text-foreground-base" , "large-semibold-tight" : "font-sans text-body-lg font-semibold leading-6 text-foreground-base" ,
 HUNK autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
   - 
-  + "body-tight" : "font-sans text-body font-normal leading-5 text-foreground-base" , "body-medium-tight" : "font-sans text-body font-medium leading-5 text-foreground-base" , "body-semibold" : "font-sans text-body font-semibold text-foreground-base" , "body-bold" : "font-sans text-body font-bold text-fo
+  + "body-semibold" : "font-sans text-body font-semibold text-foreground-base" , "body-bold" : "font-sans text-body font-bold text-foreground-base" , "body-line-through" : "font-sans text-body font-normal line-through text-foreground-base" , "body-tight-italic" : "font-sans text-body font-normal italic 
 HUNK autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
   - 
   + "small-semibold" : "font-sans text-caption font-semibold text-foreground-base" , "small-semibold-tight" : "font-sans text-caption font-semibold leading-4 text-foreground-base" , "small-medium-lh-normal" : "font-sans text-caption font-medium leading-normal text-foreground-base" , "small-semibold-lh-n
-HUNK autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
-  - 
-  + , inherit : "text-inherit"
 HUNK autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
   - 
   + "h3-tracking-tight" : "h3" ,
@@ -485,11 +482,14 @@ HUNK autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
   - body
   + "large-medium-tight"
 HUNK autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
-  - small
+  - "body-tight"
   + body
 HUNK autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
+  - small
+  + "body-tight"
+HUNK autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
   - label
-  + "body-tight" : "p" , "body-semibold" : "p" , "body-bold" : "p" , "body-line-through" : "p" , "body-tight-italic" : "p" , "body-medium-tight" : "p" , "body-semibold-tight" : "p" , small : "p" , "small-medium" : "p" , "small-tight" : "p" , "small-tight-underline" : "p" , "small-semibold" : "p" , "smal
+  + "body-line-through" : "p" , "body-tight-italic" : "p" , "body-medium-tight" : "p" , "body-semibold-tight" : "p" , small : "p" , "small-medium" : "p" , "small-mono" : "p" , "small-tight" : "p" , "small-tight-underline" : "p" , "small-semibold" : "p" , "small-semibold-tight" : "p" , "small-medium-lh-n
 HUNK autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
   - 
   + "tiny-inherit" : "span" , "caption-sm-mono-inherit" : "span" , label : "span" ,
@@ -512,4 +512,4 @@ HUNK autogpt_platform/frontend/src/components/contextual/MCPAuthSchemeField/MCPA
   - 
   + className : labelClassName } , "Authentication type" ) ) , React . createElement ( "select" , { id : id ,
 NEW FILE autogpt_platform/frontend/src/components/contextual/MCPAuthSchemeField/__tests__/MCPAuthSchemeField.test.tsx
-73 files compiled; 165 string-literal hunks (class strings); 44 Text-atom hunks; 164 other hunks
+73 files compiled; 167 string-literal hunks (class strings); 44 Text-atom hunks; 164 other hunks

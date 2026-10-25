@@ -4,6 +4,7 @@ import json, re, subprocess, sys
 from collections import Counter
 from pathlib import Path
 EV, P1, P2, VITEST = sys.argv[1:5]
+DEV = __import__("os").environ.get("DEV", "4bf85fe86")
 E = Path("/home/vercel-sandbox/evidence"); P = Path("/home/vercel-sandbox/prbody"); T = Path("/home/vercel-sandbox/tools")
 EVT = f"https://github.com/Abhi1992002/AutoGPT/tree/{EV}"; EVB = f"https://github.com/Abhi1992002/AutoGPT/blob/{EV}"
 first = lambda f: (E / f).read_text().splitlines()[0]
@@ -13,7 +14,7 @@ def counts(sha):
     n = int(re.search(r"(\d+) problems", u).group(1)); lines = len((E / "counts" / f"head-{sha}.txt").read_text().splitlines())
     rules = Counter(re.findall(r"\[Error/shadcn\(([a-z-]+)\)\]", u))
     return n, lines, rules
-dev, p1, p2, prev = counts("4bf85fe86"), counts(P1), counts(P2), counts("772559324")
+dev, p1, p2, prev = counts(DEV), counts(P1), counts(P2), counts("772559324")
 raw_d, rs_d = p1[2]["no-raw-colors"] - prev[2]["no-raw-colors"], p1[2]["no-restyle"] - prev[2]["no-restyle"]
 assert prev[0] + raw_d + rs_d == p1[0] and raw_d == 56, (prev[0], raw_d, rs_d, p1[0])
 C1DELTA = f"no-raw-colors {prev[2]['no-raw-colors']} → {p1[2]['no-raw-colors']} (+56: the 41 state fills, 8 rings, 5 dividers and 2 selected-card classes kept raw under QUALITY 41) and no-restyle {prev[2]['no-restyle']} → {p1[2]['no-restyle']} ({rs_d}: the type overrides on `Button`, `Sheet` and `Label` that moved into `<Text>`, net of the colour classes now on `<Text>`); {prev[0]} + 56 {rs_d} = {p1[0]}"
@@ -32,7 +33,7 @@ def r43(n, base, head, extra):
     for l in tab[2:]:
         if l.startswith("|"):
             c = l.rstrip().rstrip("|").rstrip().split(" | "); rows.append(" | ".join(c[:-1]) + " |")
-    multi = f"Across the whole of `build/**`, the code (comments and TODO lines excluded) holds the same multiset of `dark:` classes at dev `4bf85fe86`, at `{P1}` and at `{P2}`: **71 = 71 = 71, `cmp` identical** ([`dark_multiset.sh`]({EVT}/tools/dark_multiset.sh), [`dark-multiset-{head}.txt`]({EVB}/dark-multiset-{head}.txt))."
+    multi = f"Across the whole of `build/**`, the code (comments and TODO lines excluded) holds the same multiset of `dark:` classes at dev `{DEV}`, at `{P1}` and at `{P2}`: **71 = 71 = 71, `cmp` identical** ([`dark_multiset.sh`]({EVT}/tools/dark_multiset.sh), [`dark-multiset-{head}.txt`]({EVB}/dark-multiset-{head}.txt))."
     lead = "56 of the 66 `dark:` classes this branch had removed sit on lines the PR still changes; the other 10 are back on lines now identical to dev, so the diff no longer shows them. " if n == "1" else ""
     return f"""**Rule 43, `dark:` classes and dark-safe tokens.** Base `{base}`, head `{head}`.
 
@@ -60,7 +61,7 @@ def xpr():
     def parse(t):
         m = re.search(r"export const variants = \{(.*?)\n\} as const;", t, re.S); body = re.sub(r"//[^\n]*", "", m.group(1)) if m else ""
         return {a or b: c for a, b, c in re.findall(r'(?:"([^"]+)"|(\w+))\s*:\s*\n?\s*"([^"]*)"', body)}
-    head, dev = parse(src(P1)), parse(src("4bf85fe86"))
+    head, dev = parse(src(P1)), parse(src(DEV))
     others = {}
     for line in open("/tmp/abhi-prs.txt").read().split("\n")[1:]:
         if not line.strip(): continue
@@ -136,8 +137,8 @@ def type_swaps():
 def fill(tmpl, outname, vals):
     s = (P / tmpl).read_text()
     for k, v in vals.items(): s = s.replace("{TBD:" + k + "}", v)
-    s = s.replace("{P1}", P1).replace("{P2}", P2).replace("{EVT}", EVT).replace("{EVB}", EVB).replace("{EVS}", EV[:7])
-    left = re.findall(r"\{TBD:[A-Z0-9]+\}|\{EV[TBS]\}|\{P[12]\}", s)
+    s = s.replace("{P1}", P1).replace("{P2}", P2).replace("{DEV}", DEV).replace("{EVT}", EVT).replace("{EVB}", EVB).replace("{EVS}", EV[:7])
+    left = re.findall(r"\{TBD:[A-Z0-9]+\}|\{EV[TBS]\}|\{P[12]\}|\{DEV\}|4bf85fe86", s)
     if left: raise SystemExit(f"{outname}: unfilled {sorted(set(left))}")
     (P / outname).write_text(s); print(outname, len(s), "chars")
     if len(s) > 65536: print("  OVER THE 65,536 LIMIT")
@@ -156,11 +157,11 @@ ntt = (E / "rule31-non-text-pr1.txt").read_text().strip().splitlines()
 r32 = (P / "r32-p1.md").read_text().strip()
 r32 = re.sub(r"Output at `[0-9a-f]+`", f"Output at `{P1}`", r32)
 r32 = re.sub(r"(\*\*Rule 40, DS1 token search for every colour `TODO\(tokens\)`:\*\* )[^.]*?contradictions", lambda mm: mm.group(1) + first("todo-token-search-pr1.md"), r32)
-nfiles = len(subprocess.run(["git", "diff", "--name-only", "4bf85fe86", P1, "--", "autogpt_platform/frontend"], capture_output=True, text=True, cwd="/home/vercel-sandbox/autogpt").stdout.split())
+nfiles = len(subprocess.run(["git", "diff", "--name-only", DEV, P1, "--", "autogpt_platform/frontend"], capture_output=True, text=True, cwd="/home/vercel-sandbox/autogpt").stdout.split())
 fill("p1.v6.tmpl.md", "p1.final.md", {
-    "C1L": str(p1[1]), "C1": str(p1[0]), "C2": str(p2[0]), "C1RULES": rules_txt(dev, p1), "C1RAW": str(p1[2]["no-raw-colors"]), "C1RESTYLE": str(p1[2]["no-restyle"]),
+    "DS1TEXT": re.search(r"(\d+) text class lists x 12 cases.*?: 0 failing", (E / "equivalence/ds1-check-token-equivalence-pr1.txt").read_text()).group(1), "C0L": str(dev[1]), "C0": str(dev[0]), "C0RAW": str(dev[2]["no-raw-colors"]), "NEXCL": str(len(json.load(open(E / "equivalence/excluded-misaligned-pr1.json"))["excluded"])), "C1L": str(p1[1]), "C1": str(p1[0]), "C2": str(p2[0]), "C1RULES": rules_txt(dev, p1), "C1RAW": str(p1[2]["no-raw-colors"]), "C1RESTYLE": str(p1[2]["no-restyle"]),
     "NFILES": str(nfiles), "R15": r15,
-    "R43": r43("1", "4bf85fe86", P1, f"It includes the {len(json.load(open('/tmp/struct-colour-p1.json'))['pairs'])} swaps on elements whose copy moved into a `<Text>` (Retry's `bg-white`, the link Buttons' and Update's colours, the `•` separators), which the markup check measures. The CSS side: the drag preview's inline style keeps `#f4f4f5`, and no CSS in this PR reads a role variable."),
+    "R43": r43("1", DEV, P1, f"It includes the {len(json.load(open('/tmp/struct-colour-p1.json'))['pairs'])} swaps on elements whose copy moved into a `<Text>` (Retry's `bg-white`, the link Buttons' and Update's colours, the `•` separators), which the markup check measures. The CSS side: the drag preview's inline style keeps `#f4f4f5`, and no CSS in this PR reads a role variable."),
     "R32": r32,
     "R31": f"**Rule 31 sweep** ([`non_text_typo.mts`]({EVT}/tools/non_text_typo.mts), every element other than `<Text>` in `build/**` whose `className` carries a size, line-height, weight, family, tracking or decoration class): {len(ntt)} at `{P1}`, each listed by file:line with its reason under Deviations ([`rule31-non-text-pr1.txt`]({EVB}/rule31-non-text-pr1.txt)). Every other copy element in `build/**` renders through `<Text>`.",
     "XPR": xpr(), "R46": r46(),
@@ -179,7 +180,7 @@ fill("p1.v6.tmpl.md", "p1.final.md", {
 r40 = (P / "r40-p2.md").read_text().strip()
 r40 = re.sub(r"(\*\*Rule 40, DS1 token search for every colour `TODO\(tokens\)`:\*\* )[^.]*?contradictions", lambda mm: mm.group(1) + first("todo-token-search-pr2.md"), r40)
 fill("p2.v6.tmpl.md", "p2.final.md", {
-    "C1L": str(p1[1]), "C1": str(p1[0]), "C2L": str(p2[1]), "C2": str(p2[0]), "C2RULES": rules_txt(p1, p2),
+    "C0": str(dev[0]), "C1L": str(p1[1]), "C1": str(p1[0]), "C2L": str(p2[1]), "C2": str(p2[0]), "C2RULES": rules_txt(p1, p2),
     "R43": r43("2", P1, P2, "The CSS side: `flow.css` reads only `--color-builder-grid`, which `.dark` doesn't redefine, and `tutorial.css` reads no role variable (its colours stay raw, see Changes)."),
     "R40": r40, "EQ2": eqline("equivalence/pr2-equivalence.md"),
     "PARN": (E / "parity-pr2.md").read_text().split()[0], "SWAPS": (P / "swaps-p2.md").read_text().strip(), "VITEST": VITEST,

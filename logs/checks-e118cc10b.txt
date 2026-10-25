@@ -1,8 +1,0 @@
-lint, types and full vitest on e118cc10b (contains #16099's bb3184951)
-
-All matched files use Prettier code style!
-lint 0
-types 0
- Test Files  1087 passed (1087)
-      Tests  11802 passed | 4 expected fail (11806)
-exit 0

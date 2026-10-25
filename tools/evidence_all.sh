@@ -3,7 +3,7 @@
 #   bash evidence_all.sh <p1 head> <p2 head>     (dev base 4bf85fe86)
 # Checkouts: wt-base = dev, wt-p1 = #16099 head, main checkout = #16103 head.
 set -u
-P1=$1 P2=$2 DEV=4bf85fe86
+P1=$1 P2=$2 DEV=${DEV:-4bf85fe86}
 R=/home/vercel-sandbox/autogpt E=/home/vercel-sandbox/evidence T=/home/vercel-sandbox/tools
 F1=/home/vercel-sandbox/wt-p1/autogpt_platform/frontend F2=$R/autogpt_platform/frontend
 log() { echo "[$(date -u +%T)] $*"; }
@@ -80,7 +80,9 @@ for spec in "pr1 $F1 $DEV $P1" "pr2 $F2 $P1 $P2"; do
   HEAD_SHA=$4 npx tsx $T/same_output.mts $3 'autogpt_platform/frontend/src' > $E/equivalence/same-output-$1.txt 2>&1
   npx tsx $T/parity.mts $3 $4 'autogpt_platform/frontend/src' $E/parity-$1.md > /dev/null 2>&1
 done
-cd $F1 && npx tsx $T/removed_tokens.mts 772559324 $P1 $E/removed-tokens-pr1.md > /dev/null 2>&1
+cd $F1 && RT_SPEC="src/app/(platform)/build src/components/atoms/Text src/components/contextual/MCPAuthSchemeField" npx tsx $T/removed_tokens.mts 772559324 $P1 $E/removed-tokens-pr1.md > /dev/null 2>&1
+log "ds1 on dev"
+(cd /home/vercel-sandbox/wt-base/autogpt_platform/frontend && timeout 1500 npx tsx scripts/check-token-equivalence.ts > $E/equivalence/ds1-check-on-dev-$DEV.txt 2>&1)
 log equivalence
 bash $T/eq6.sh
 log done

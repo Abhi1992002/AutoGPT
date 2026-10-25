@@ -1,6 +1,6 @@
-99 hex values named in TODO(tokens) comments in build/** at e118cc10b; 76 held by no DS1 colour role; 23 held by a role of another kind (each such TODO says "no fitting role" and names it); 0 contradictions
+99 hex values named in TODO(tokens) comments in build/** at 316bc1e4d; 76 held by no DS1 colour role; 23 held by a role of another kind (each such TODO says "no fitting role" and names it); 0 contradictions
 
-DS1 roles searched: 74 `--color-*` light values (`:root`) in `globals.css` at e118cc10b.
+DS1 roles searched: 74 `--color-*` light values (`:root`) in `globals.css` at 316bc1e4d.
 
 | hex | search | roles holding it | TODO says | files |
 | --- | --- | --- | --- | --- |

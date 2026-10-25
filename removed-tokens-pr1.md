@@ -1,4 +1,4 @@
-128 class tokens removed from 88 elements between `772559324` and `bb3184951`: 128 come from somewhere else now, 0 dropped
+128 class tokens removed from 88 elements between `772559324` and `27ab38e75`: 128 come from somewhere else now, 0 dropped
 
 | element (head) | element | each removed token → where it comes from now |
 | --- | --- | --- |

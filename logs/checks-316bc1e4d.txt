@@ -1,0 +1,8 @@
+lint, types and full vitest on 316bc1e4d (contains #16099's 27ab38e75)
+
+All matched files use Prettier code style!
+lint 0
+types 0
+ Test Files  1088 passed (1088)
+      Tests  11809 passed | 4 expected fail (11813)
+exit 0

@@ -49,7 +49,8 @@ const ATOM: Record<string, string> = {
   SheetTitle: "text-lg font-semibold text-neutral-950 dark:text-neutral-50",
   Label: "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
 };
-const files = execSync(`git diff --name-only ${base}..${head} -- '${FE}src'`, { cwd: ROOT }).toString().split("\n").filter((f) => f.endsWith(".tsx"));
+const spec = (process.env.RT_SPEC ?? "src").split(" ").map((x) => `'${FE}${x}'`).join(" ");
+const files = execSync(`git diff --name-only ${base}..${head} -- ${spec}`, { cwd: ROOT }).toString().split("\n").filter((f) => f.endsWith(".tsx"));
 const rows: string[] = []; let dropped = 0, total = 0;
 for (const f of files) {
   let a: El[];

@@ -315,6 +315,20 @@ npm warn Unknown project config "minimum-release-age". This will stop working in
 | Text `body-medium` + `tracking-tight` | `font-sans text-body font-medium text-foreground-base tracking-tight` | `font-sans text-body font-medium text-foreground-base tracking-tight` | 14px | 22px / 22px / 22px | identical (12 cases) |
 | Text `body-medium` + `font-normal` | `font-sans text-body text-foreground-base font-normal` | `font-sans text-body text-foreground-base font-normal` | 14px | 22px / 22px / 22px | identical (12 cases) |
 | Text `body-medium` + `text-zinc-500` | `font-sans text-body font-medium text-zinc-500` | `font-sans text-body font-medium text-zinc-500` | 14px | 22px / 22px / 22px | identical (12 cases) |
+| Text `body-tight` | `font-sans text-body font-normal leading-5 text-foreground-base` | `font-sans text-body font-normal leading-5 text-foreground-base` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `body-tight` + `text-sm` | `font-sans font-normal text-foreground-base text-sm` | `font-sans font-normal text-foreground-base text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `body-tight` + `text-[13px]` | `font-sans font-normal text-foreground-base text-[13px]` | `font-sans font-normal text-foreground-base text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `body-tight` + `leading-6` | `font-sans text-body font-normal text-foreground-base leading-6` | `font-sans text-body font-normal text-foreground-base leading-6` | 14px | 24px / 24px / 24px | identical (12 cases) |
+| Text `body-tight` + `tracking-tight` | `font-sans text-body font-normal leading-5 text-foreground-base tracking-tight` | `font-sans text-body font-normal leading-5 text-foreground-base tracking-tight` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `body-tight` + `font-normal` | `font-sans text-body leading-5 text-foreground-base font-normal` | `font-sans text-body leading-5 text-foreground-base font-normal` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `body-tight` + `text-zinc-500` | `font-sans text-body font-normal leading-5 text-zinc-500` | `font-sans text-body font-normal leading-5 text-zinc-500` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `body-medium-tight` | `font-sans text-body font-medium leading-5 text-foreground-base` | `font-sans text-body font-medium leading-5 text-foreground-base` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `body-medium-tight` + `text-sm` | `font-sans font-medium text-foreground-base text-sm` | `font-sans font-medium text-foreground-base text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `body-medium-tight` + `text-[13px]` | `font-sans font-medium text-foreground-base text-[13px]` | `font-sans font-medium text-foreground-base text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `body-medium-tight` + `leading-6` | `font-sans text-body font-medium text-foreground-base leading-6` | `font-sans text-body font-medium text-foreground-base leading-6` | 14px | 24px / 24px / 24px | identical (12 cases) |
+| Text `body-medium-tight` + `tracking-tight` | `font-sans text-body font-medium leading-5 text-foreground-base tracking-tight` | `font-sans text-body font-medium leading-5 text-foreground-base tracking-tight` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `body-medium-tight` + `font-normal` | `font-sans text-body leading-5 text-foreground-base font-normal` | `font-sans text-body leading-5 text-foreground-base font-normal` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `body-medium-tight` + `text-zinc-500` | `font-sans text-body font-medium leading-5 text-zinc-500` | `font-sans text-body font-medium leading-5 text-zinc-500` | 14px | 20px / 20px / 20px | identical (12 cases) |
 | Text `small` | `font-sans text-caption font-normal text-foreground-base` | `font-sans text-caption font-normal text-foreground-base` | 12px | 18px / 18px / 18px | identical (12 cases) |
 | Text `small` + `text-sm` | `font-sans font-normal text-foreground-base text-sm` | `font-sans font-normal text-foreground-base text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
 | Text `small` + `text-[13px]` | `font-sans font-normal text-foreground-base text-[13px]` | `font-sans font-normal text-foreground-base text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
@@ -329,6 +343,13 @@ npm warn Unknown project config "minimum-release-age". This will stop working in
 | Text `small-medium` + `tracking-tight` | `font-sans text-caption font-medium text-foreground-base tracking-tight` | `font-sans text-caption font-medium text-foreground-base tracking-tight` | 12px | 18px / 18px / 18px | identical (12 cases) |
 | Text `small-medium` + `font-normal` | `font-sans text-caption text-foreground-base font-normal` | `font-sans text-caption text-foreground-base font-normal` | 12px | 18px / 18px / 18px | identical (12 cases) |
 | Text `small-medium` + `text-zinc-500` | `font-sans text-caption font-medium text-zinc-500` | `font-sans text-caption font-medium text-zinc-500` | 12px | 18px / 18px / 18px | identical (12 cases) |
+| Text `small-mono` | `font-mono text-caption font-normal text-foreground-base` | `font-mono text-caption font-normal text-foreground-base` | 12px | 18px / 18px / 18px | identical (12 cases) |
+| Text `small-mono` + `text-sm` | `font-mono font-normal text-foreground-base text-sm` | `font-mono font-normal text-foreground-base text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
+| Text `small-mono` + `text-[13px]` | `font-mono font-normal text-foreground-base text-[13px]` | `font-mono font-normal text-foreground-base text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
+| Text `small-mono` + `leading-6` | `font-mono text-caption font-normal text-foreground-base leading-6` | `font-mono text-caption font-normal text-foreground-base leading-6` | 12px | 24px / 24px / 24px | identical (12 cases) |
+| Text `small-mono` + `tracking-tight` | `font-mono text-caption font-normal text-foreground-base tracking-tight` | `font-mono text-caption font-normal text-foreground-base tracking-tight` | 12px | 18px / 18px / 18px | identical (12 cases) |
+| Text `small-mono` + `font-normal` | `font-mono text-caption text-foreground-base font-normal` | `font-mono text-caption text-foreground-base font-normal` | 12px | 18px / 18px / 18px | identical (12 cases) |
+| Text `small-mono` + `text-zinc-500` | `font-mono text-caption font-normal text-zinc-500` | `font-mono text-caption font-normal text-zinc-500` | 12px | 18px / 18px / 18px | identical (12 cases) |
 | Text `label` | `font-sans text-[0.6785rem] font-medium uppercase leading-5 tracking-[0.06785rem] text-foreground-base` | `font-sans text-[0.6785rem] font-medium uppercase leading-5 tracking-[0.06785rem] text-foreground-base` | 10.856px | 20px / 20px / 20px | identical (12 cases) |
 | Text `label` + `text-sm` | `font-sans font-medium uppercase tracking-[0.06785rem] text-foreground-base text-sm` | `font-sans font-medium uppercase tracking-[0.06785rem] text-foreground-base text-sm` | 14px | 20px / 20px / 20px | identical (12 cases) |
 | Text `label` + `text-[13px]` | `font-sans font-medium uppercase tracking-[0.06785rem] text-foreground-base text-[13px]` | `font-sans font-medium uppercase tracking-[0.06785rem] text-foreground-base text-[13px]` | 13px | 19.5px / 30px / 19.5px | identical (12 cases) |
@@ -346,5 +367,5 @@ npm warn Unknown project config "minimum-release-age". This will stop working in
 
 Opacity swatches: 87 colour pairs x 21 steps (0-100%) = 1827 swatches, 0 differing pixels
 124 pairs checked against /home/vercel-sandbox/wt-base/autogpt_platform/frontend: 2 failing
-215 text class lists x 12 cases (viewport, parent line-height, as written | cn()): 0 failing
+236 text class lists x 12 cases (viewport, parent line-height, as written | cn()): 0 failing
 6 cn() checks: 0 failing
