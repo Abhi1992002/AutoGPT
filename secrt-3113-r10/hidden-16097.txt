@@ -1,0 +1,25 @@
+# DS4 strict config (1ee6580dc) on d6adf3739's ButtonGroup.tsx + Message.tsx, linted at a path outside organisms/** (the override that turns no-restyle off)
+organisms/Message/components/ButtonGroup.tsx:53:9: "shadow-xs" not allowed on <Text>: owns its effects
+organisms/Message/components/ButtonGroup.tsx:53:9: Use a Text size: . Margin here or gap on the parent (gap-2)
+organisms/Message/components/ButtonGroup.tsx:53:9: "rounded-md" not allowed on <Text>: owns its shape
+organisms/Message/components/ButtonGroup.tsx:53:9: "border" not allowed on <Text>: owns its shape
+organisms/Message/components/ButtonGroup.tsx:53:9: "border-neutral-200" not allowed on <Text>: owns its color
+organisms/Message/components/ButtonGroup.tsx:53:9: "bg-neutral-100" not allowed on <Text>: owns its color
+organisms/Message/components/ButtonGroup.tsx:53:9: Use a Text size: . Margin here or gap on the parent (px-4)
+organisms/Message/components/ButtonGroup.tsx:53:9: "dark:border-neutral-800" not allowed on <Text>: owns its color
+organisms/Message/components/ButtonGroup.tsx:53:9: "dark:bg-neutral-800" not allowed on <Text>: owns its color
+organisms/Message/Message.tsx:244:9: "[&>*:not(:first-child)]:rounded-l-md" not allowed on <ButtonGroup>: owns its shape
+organisms/Message/Message.tsx:244:9: "[&>*:not(:last-child)]:rounded-r-md" not allowed on <ButtonGroup>: owns its shape
+organisms/Message/Message.tsx:311:9: "border-none" not allowed on <ButtonGroupText>: owns its shape
+organisms/Message/Message.tsx:311:9: "bg-transparent" not allowed on <ButtonGroupText>: owns its color
+organisms/Message/Message.tsx:311:9: "text-neutral-500" not allowed on <ButtonGroupText>: owns its color
+organisms/Message/Message.tsx:311:9: "shadow-none" not allowed on <ButtonGroupText>: owns its effects
+# base 0d5ac323f, ui/button-group.tsx (8 problems)
+ui/button-group.tsx:52:9: "border-neutral-200" raw colour
+ui/button-group.tsx:52:9: "bg-neutral-100" raw colour
+ui/button-group.tsx:52:9: "dark:border-neutral-800" raw colour
+ui/button-group.tsx:52:9: "dark:bg-neutral-800" raw colour
+ui/button-group.tsx:70:9: "bg-neutral-200" not allowed on <Separator>: owns its color
+ui/button-group.tsx:70:9: "dark:bg-neutral-800" not allowed on <Separator>: owns its color
+ui/button-group.tsx:70:9: "bg-neutral-200" raw colour
+ui/button-group.tsx:70:9: "dark:bg-neutral-800" raw colour
