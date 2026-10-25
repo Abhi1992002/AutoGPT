@@ -1,3 +1,4 @@
+import re
 LEGACY_DEP = "SECRT-3112 (the DS3a parts that move `button` and `badge`)"
 
 COMMON_DEV = [
@@ -254,3 +255,155 @@ PRS[2]["what"] = PRS[2]["what"] + "\n- The new atom and molecule carry DS7 `data
 PRS[3]["what"] = PRS[3]["what"] + "\n- Every element `molecules/MultiSelect` and its `Command` parts render carries a DS7-2 `data-slot` (see Deviations)."
 
 PRS[4]["what"] = PRS[4]["what"] + "\n- `DateInput` / `DateTimeInput` keep DS7-1's popup slots; BlockMenu's comment no longer mentions the `rounded-[1rem]` that #16108 removed on `dev` (see Deviations)."
+
+_w = PRS[4]["what"].split("\n")
+_w[1] = "- `BlockMenu` renders the legacy popover's 12px corner (`rounded-medium`; #16108 removed the `rounded-[1rem]` it used to pass), so it now passes `rounded-medium` to the molecule. It also passes `border-neutral-200` so even the hidden border (`border-none`) computes the same colour."
+_w[3] = "- `DateInput` / `DateTimeInput` keep DS7-1's popup slots (see Deviations)."
+PRS[4]["what"] = "\n".join(_w)
+PRS[4]["deviations"] = [d for d in PRS[4]["deviations"] if not d.startswith("**Radius names and tailwind-merge (SECRT-3155):**")]
+
+
+# ---- every changed call site names its captures (QUALITY 24/25). `*` = both viewports (`__desktop`, `__mobile`).
+EV = "story__evidence-"
+B390 = "at 390px the builder hides its control panel on every commit, which `app__build__mobile` shows identically on both sides"
+CAPTURED = {
+ 1: [
+  "`story__molecules-collapsible--default__*`, `--default-open__*`, `--multiple-collapsibles__*`, `interact__kb-story-collapsible-{focus-visible,hover,kb-open,after-esc}__*`: these stories render this molecule itself (the only file that changed) closed, open and stacked, and opened by keyboard; every app caller renders this same molecule",
+  "`app__marketplace__mobile`, `interact__kb-marketplace-carousel-{focus-visible,hover,keys,kb-open,after-esc}__*` (the strip is `md:hidden`: `app__marketplace__desktop` shows it absent on both sides), `app__marketplace_creator_autogpt__*`, `app__marketplace_agent_autogpt_personalized-morning-coffee-newsletter__*`",
+  "`app__admin_marketplace__*`, `interact__admin-marketplace-approve__*`",
+  "`app__admin_spending__*`, `interact__admin-spending-adddollars__*`",
+ ],
+ 2: [
+  "`story__renderers-formrenderer-primitive-fields--date-field__*`, `interact__story-datefield-open__*`, `interact__kb-story-datefield-{focus-visible,hover,kb-open,keys,after-esc}__*`",
+  "`story__renderers-formrenderer-primitive-fields--date-time-field__*`, `interact__story-datetimefield-open__*`, `interact__kb-story-datetimefield-{focus-visible,hover,kb-open,keys,after-esc}__*`",
+  f"`{EV}mcptooldialog--connecting__*` (the circle spinner in \"Connecting...\"), `--tools__*`, `--tools-scrolled__*`, `--tool-hovered__*` (the `ScrollArea` of tools, scrolled to the end), `--url-step__*`, `--error-state__*`, `--manual-credential__*`: the real dialog with the MCP discovery and OAuth endpoints stubbed",
+  f"`{EV}noderun--badge-running__*` (the circle spinner), `--badge-queued__*`: the real badge for a node seeded in the builder's node store",
+  f"`{EV}resetpasswordfallback--fallback__*`: the Suspense fallback element exactly as `page.tsx` writes it at each commit (the page renders it only while it suspends); `app__reset-password__*` for the page itself",
+  f"`{EV}noderun--view-more-open__*`, `--view-more-scrolled__*`: the real output dialog for a node seeded with three long results, its `ScrollArea` unscrolled and scrolled",
+  f"`{EV}noderun--outputs-sheet__*`, `--outputs-sheet-scrolled__*` (the real sheet opened, output node seeded), `interact__build-agentoutputs-open__desktop`, `app__build__*`",
+ ],
+ 3: [
+  "`story__renderers-formrenderer-array-fields--list-of-enums__*`",
+  "`story__renderers-formrenderer-complex-schemas--multi-select-field__*`, `interact__story-multiselect-open__*`, `interact__kb-story-multiselect-{focus-visible,hover,kb-open,keys,after-esc}__*`",
+  "the unit tests (`FormRenderer.test.tsx`, `SelectWidget.test.tsx`) in the full `vitest` run",
+  "deleted; its replacement is the `MultiSelect` row above",
+ ],
+ 4: [
+  f"`interact__build-blockmenu-open__desktop`, `interact__kb-build-blockmenu-{{focus-visible,hover,kb-open,after-esc}}__desktop`; {B390}",
+  f"`interact__build-savecontrol-open__desktop`, `interact__kb-build-savecontrol-{{focus-visible,hover,kb-open,after-esc}}__desktop`; {B390}",
+  "`interact__story-datefield-open__*`, `interact__kb-story-datefield-{kb-open,keys,after-esc}__*`",
+  "`interact__story-datetimefield-open__*`, `interact__kb-story-datetimefield-{kb-open,keys,after-esc}__*`",
+ ],
+ 5: [
+  "`app__profile_settings__*`",
+  "`interact__login-error-help__*`",
+  f"`interact__build-savecontrol-open__desktop`; {B390}",
+  "`app__admin_diagnostics__*`, `interact__admin-diagnostics__*`",
+  f"`{EV}pages--profile-api-keys__*`, `--profile-api-keys-create-open__*`: the page component itself with the key list stubbed (in the app `/profile/api-keys` redirects to `/settings/api-keys` on mount; Storybook's router does not navigate)",
+  f"`{EV}pages--share-loaded__*`, `--share-not-found__*`: the real page with the shared-run endpoint stubbed (a run with outputs, and an unknown token)",
+ ],
+ 6: [
+  "`app__admin_execution-analytics__*`",
+  "`interact__admin-marketplace-approve__*`",
+  "`interact__admin-spending-adddollars__*`",
+  f"`{EV}noderun--outputs-sheet__*`, `--outputs-sheet-scrolled__*` (each output's name and description is a `Label`), `interact__build-agentoutputs-open__desktop`",
+  f"`{EV}mcptooldialog--url-step__*` (\"Server URL\"), `--manual-credential__*` (the token label), plus the other `mcptooldialog` states",
+  f"`{EV}pages--profile-api-keys-create-open__*`: the create-key dialog opened on the real page",
+  f"`{EV}pages--cron-daily__*`, `--cron-weekly__*`, `--cron-monthly__*`, `--cron-custom__*`: the real scheduler in each repeat mode (each shows its own labels)",
+  "`interact__build-savecontrol-open__desktop`, `interact__admin-spending-adddollars__*`, `interact__admin-marketplace-approve__*` (legacy `Form` fields)",
+ ],
+ 7: [
+  "`app__marketplace__*`, `app__marketplace_creator_autogpt__*`, `app__marketplace_agent_autogpt_personalized-morning-coffee-newsletter__*`, `app__marketplace_search_searchTerm_newsletter__*`",
+  f"`{EV}pages--run-summary-high__*`, `--run-summary-mid__*`, `--run-summary-low__*`, `--run-summary-icon-hover__*`: the real summary for a run with an AI activity summary, its alert icon hovered",
+  f"`{EV}pages--dashboard-agent-table__*`, `--dashboard-agent-menu-hover__*`: the real table and cards with three submissions (approved, pending, rejected)",
+  f"`{EV}pages--app-error-page__*`: the real error boundary page",
+  "`app__profile_settings__*` (the profile layout's sidebar)",
+  f"`{EV}accountmenu--user-open__*`, `--admin-open__*`, `--admin-open-item-hover__*`: the real menu opened with the repo's own AccountMenu story args at each commit (that story folder is outside Storybook's globs); every signed-in `app__*` capture shows the navbar",
+ ],
+ 8: [
+  f"`interact__build-blockmenu-open__desktop`, `interact__kb-build-blockmenu-kb-open__desktop`; {B390}",
+  f"`{EV}pages--block-menu-filter-sheet__*`: the real filter sheet opened (the app's filter step times out reaching it, on base and head)",
+  f"`app__build__desktop`; {B390}",
+  "`app__marketplace_agent_autogpt_personalized-morning-coffee-newsletter__*`",
+  f"`app__profile_settings__*`, `{EV}pages--settings-loading-skeleton__*` (the real `loading.tsx`)",
+  f"`{EV}pages--dashboard-page__*`: the real dashboard page (in the app `/profile/dashboard` redirects on mount)",
+ ],
+}
+for _k, _rows in CAPTURED.items():
+    _imp = PRS[_k]["importers"]
+    assert len(_imp) == len(_rows), (_k, len(_imp), len(_rows))
+    PRS[_k]["importers"] = [(f, c, w) for (f, c, _), w in zip(_imp, _rows)]
+for _k in PRS:
+    PRS[_k]["deviations"] = [d for d in PRS[_k]["deviations"] if not re.match(r"\*\*Not capturable", d)]
+
+
+# ---- parity corrections after Astra's review (2026-10-24) ----
+def _fix(k, old, new):
+    assert PRS[k]["parity"].count(old) == 1, (k, old[:60])
+    PRS[k]["parity"] = PRS[k]["parity"].replace(old, new)
+_p1 = PRS[1]["parity"]
+for _old, _new in [
+    ("| not forwarded (no caller passes one; legacy forwarded to the root div) |", "| forwarded to the region div, as legacy (`ref` is a prop in React 19; typed via `React.ComponentProps<\"div\">`) |"),
+    ("| embla viewport ref on the outer div (as before); inner div ref not forwarded (no caller) |", "| embla viewport ref on the outer div; the caller's ref on the inner slide track, as legacy |"),
+    ("| not forwarded (no caller) |", "| forwarded to the slide div, as legacy |"),
+]:
+    _fix(1, _old, _new)
+_fix(2, "| every DayPicker prop passed through; showOutsideDays (`true`), captionLayout `dropdown`, start 1900-01 / end 2100-01, `components.Chevron`, `components.Dropdown` (`atoms/Select`'s `SelectPrimitives`, where DS3a-4 moved the legacy `select`) | none (none before) |",
+        "| used by the callers: `mode`, `selected`, `onSelect`, `modifiersClassNames`; every other DayPicker prop passed through; showOutsideDays (`true`), captionLayout `dropdown`, start 1900-01 / end 2100-01, `components.Chevron`, `components.Dropdown` (`atoms/Select`'s `SelectPrimitives`, where DS3a-4 moved the legacy `select`); `data-slot` on every part (DS7) | none (none before) |")
+_fix(2, "| className (`size-4` / `size-16`) | svg (HugeiconsIcon forwardRef; legacy lucide forwardRef) |",
+        "| className (`size-4` / `size-16`); the default size differs (atom `medium` = 24px, legacy 64px) but every caller passes its size, so none renders at a default | none: neither the legacy spinner nor the atom forwards a ref |")
+_fix(2, "| `ScrollArea` | className, orientation (`vertical`) | Radix root | Radix ScrollArea | Radix | Radix | identical code |",
+        "| `ScrollArea` | children, className, orientation (`vertical`) | Radix root ref | Radix ScrollArea | Radix | Radix | same code and Radix structure; adds `data-slot`s (DS7); drops the `dark:` thumb class (no dark theme) and the unused `ScrollBar` export (0 importers) |")
+_fix(3, "| values, onValuesChange, loop (`false`), dir, className, children |",
+        "| `MultiSelector`: values, onValuesChange, loop (`false`), dir, label, className, children; `MultiSelectorInput`: placeholder, aria-label, aria-describedby; `MultiSelectorItem`: value, title, disabled, children |")
+_fix(4, "| Radix `aria-haspopup=\"dialog\"`, `aria-expanded`, `aria-controls` | Radix | the same Radix exports |",
+        "| Radix `aria-haspopup=\"dialog\"`, `aria-expanded`, `aria-controls` | Radix | Root is the same Radix export; the molecule's `PopoverTrigger` is a `forwardRef` wrapper (DS7-2) that adds `data-slot=\"popover-trigger\"` and passes everything else through, ref included |")
+
+
+# ---- call-site rows name the harness captures (QUALITY 24/25/27). `*` = `__desktop` and `__mobile`.
+CAPTURED2 = {
+ 1: [
+  "`pr1-collapsible-{default,default-open,multiple-collapsibles}--{rest,hover,focus-visible,keyboard-toggled}__*` and `--clicked-open__*` / `--clicked-closed__*`: the stories render this molecule itself (the only file changed) closed, open and stacked; Enter, Space and a click each toggle it, asserted",
+  "`pr1-carousel-{creator,agent}--{rest,hover,focus-visible,arrow-right}__mobile` (the real strip on `/marketplace/creator/autogpt` and the agent page; Tab into a card, ArrowRight moves the slides, ArrowLeft back, asserted) and `--desktop-hidden__desktop` (the strip is `md:hidden`, asserted hidden at 1440)",
+  "`pr1-pagination-admin-marketplace--{first-page,next-hover,next-focus-visible,page-2,last-page}__*`: 33 real pages; Previous disabled on page 1, Tab to Next + Enter goes to page 2, Previous goes back, Next disabled on page 33, asserted",
+  "`pr1-pagination-admin-spending--{first-page,next-hover,next-focus-visible,page-2,last-page}__*`: 7 real pages, the same steps asserted",
+ ],
+ 2: [
+  "`pr2-date-field--{rest,hover,focus-visible,open,day-focused,day-arrow-right,picked,open-with-selection,month-dropdown}__*` and `pr2-date-{filled,disabled,read-only,error}--*__*`: Tab to the trigger, Enter opens the Calendar, Tab to today's day, ArrowRight to the 16th, Escape closes with focus back on the trigger, Enter picks the day, the month dropdown opens; disabled/read-only asserted not to open",
+  "`pr2-date-time-field--{rest,hover,focus-visible,open,day-focused,day-arrow-right,picked,open-with-selection,month-dropdown}__*` and `pr2-date-time-{filled,disabled,read-only,error}--*__*`: the same steps asserted",
+  "`pr2-mcp-{url-step,connecting,tools,error-state,manual-credential}--*__*`: the real dialog with the MCP endpoints stubbed: the circle spinner in \"Connecting...\" (`--state`), the tool `ScrollArea` at the top, hovered and scrolled to the last tool (`pr2-mcp-tools--{top,tool-hover,scrolled}`), Escape closes it",
+  "`pr2-node-badge-{running,queued}--rest__*`: the real badge for a node seeded RUNNING (circle spinner asserted visible) and QUEUED",
+  "`pr2-reset-password-suspended--fallback__*`: the real page with its Suspense boundary suspended (in production it never suspends); `pr2-reset-password-app--rest__*` for the page itself",
+  "`pr2-view-more--{closed,trigger-focus-visible,open,scrolled}__*`: Tab to View More, Enter opens the output dialog, its content scrolled, Escape closes it",
+  "`pr2-outputs-sheet--{closed,trigger-focus-visible,open,scrolled}__*`: Tab to the outputs button, Enter opens the sheet, scrolled, Escape closes it",
+ ],
+ 3: [
+  "`pr3-selectwidget-multi--*__*` and `pr3-selectwidget-multi-empty--*__*`: SelectWidget's multi-select branch (an array of enum values with `uniqueItems`) through the real FormRenderer, with and without values: open on focus, ArrowDown highlights, Enter toggles, the empty result, Backspace removes the last chip, Escape closes",
+  "`pr3-multiselect-field--{rest,open,option-highlighted,after-enter,empty,closed}__*`: the same steps asserted",
+  "the unit tests (`FormRenderer.test.tsx`, `SelectWidget.test.tsx`) in the full `vitest` run",
+  "deleted; its replacement is the `MultiSelect` molecule, also captured with a disabled option (`pr3-multiselect-disabled-option--{open,disabled-option-hover}__*`, asserted `aria-disabled`)",
+ ],
+ 4: [
+  "`pr4-blockmenu-app--{closed,trigger-hover,trigger-focus-visible,open,open-mouse}__desktop` (the builder hides its control panel at 390 on every commit) and `pr4-blockmenu-story--*__*` (the real menu mounted at both widths): Tab to the trigger, Enter opens, Escape closes with focus back on the trigger, a click opens",
+  "`pr4-savecontrol-app--*__desktop` and `pr4-savecontrol-story--*__*`: the same steps asserted",
+  "`pr2-date-field--{open,open-with-selection,month-dropdown}__*` (the PopoverContent holding the Calendar)",
+  "`pr2-date-time-field--{open,open-with-selection,month-dropdown}__*`",
+ ],
+}
+for _k, _rows in CAPTURED2.items():
+    _imp = PRS[_k]["importers"]
+    assert len(_imp) == len(_rows), (_k, len(_imp), len(_rows))
+    PRS[_k]["importers"] = [(f, c, w) for (f, c, _), w in zip(_imp, _rows)]
+
+
+# ---- rule 32 (2026-10-25): Text classNames hold no typography; the variants carry it
+PRS[1]["what"] = PRS[1]["what"].replace(
+    "- `pagination-controls` (2 admin importers) becomes `molecules/PaginationControls` at today's markup; its `text-sm` label is `text-body leading-5` (14px/20px, same value).",
+    "- `pagination-controls` (2 admin importers) becomes `molecules/PaginationControls` at today's markup. Its `text-sm` label is `<Text variant=\"body-tight\" tone=\"inherit\" as=\"span\">` (14px/20px, the inherited colour): `atoms/Text` gains the `body-tight` variant (`text-body leading-5`) and the `inherit` tone, with the names and strings DS7-1 #16134 uses.")
+PRS[1]["what"] += "\n- Carousel, CarouselContent and CarouselItem take a `ref` on the elements the legacy versions forwarded it to. Tests cover the three molecules."
+PRS[3]["what"] = PRS[3]["what"].replace(
+    "- `text-sm` → `text-body leading-5`, `text-xs` → `text-caption leading-4` (same values), `bg-white` → `bg-surface`, dead `dark:` classes dropped.",
+    "- `text-sm` → `text-body leading-5` on the trigger container, `bg-white` → `bg-surface`, dead `dark:` classes dropped. Each chip label is `<Text variant=\"small-semibold-tight\" tone=\"inherit\" as=\"span\">`: `atoms/Text` gains `small-semibold-tight` (`text-caption leading-4` at 600, the badge's weight; no role holds that pair, so a `TODO(tokens)` line).")
+PRS[3]["what"] += "\n- Tests cover the option list: open/close, picking and un-picking, the remove button, the empty result, disabled options and removing the highlighted chip."
+PRS[3]["deviations"] = PRS[3]["deviations"] + [
+    "**Rule 31, one hit kept:** `MultiSelect.tsx` `MultiSelectorTrigger`'s `<div>` carries `text-body leading-5` (was `text-sm`). It is the flex container of the chips and the cmdk input, not text: the class sets the 14px/20px the input inherits, and `<Text>` would render a `p` around a form control. Owner: SECRT-3112 follow-up (the input's own size, once the Input atom covers cmdk)."]

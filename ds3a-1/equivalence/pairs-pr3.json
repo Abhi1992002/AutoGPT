@@ -56,10 +56,11 @@
    ]
   },
   {
-   "file": "MultiSelect/MultiSelect.tsx",
-   "old": "text-xs",
-   "new": "text-caption leading-4",
-   "tag": "span"
+   "file": "MultiSelect/MultiSelect.tsx (<Text variant=\"small-semibold-tight\" tone=\"inherit\" as=span>; the old span's font-semibold is the weight it inherited from the legacy Badge)",
+   "old": "text-xs font-semibold",
+   "new": "font-sans text-caption font-semibold leading-4 text-inherit",
+   "tag": "span",
+   "atomOwnsBase": true
   },
   {
    "file": "MultiSelect/MultiSelect.tsx",
@@ -73,6 +74,20 @@
      "newCls": "max-h-[300px] overflow-y-auto overflow-x-hidden absolute top-0 z-10 flex w-full flex-col gap-2 rounded-md border border-muted bg-background p-2 shadow-md transition-colors scrollbar-thin scrollbar-track-transparent scrollbar-thumb-muted-foreground scrollbar-thumb-rounded-lg"
     }
    ]
+  },
+  {
+   "file": "molecules/MultiSelect chip (<Badge variant=\"secondary\">, was the legacy secondary Badge), with the chip's own className",
+   "old": "border py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default border-transparent bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-50 flex items-center gap-1 rounded-xl px-1 pl-2",
+   "new": "cursor-default border py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 border-transparent bg-neutral-100 text-neutral-900 flex items-center gap-1 rounded-xl px-1 pl-2",
+   "tag": "div",
+   "atomOwnsBase": true
+  },
+  {
+   "file": "the same chip, highlighted (activeIndex)",
+   "old": "border py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-neutral-950 focus:ring-offset-2 dark:border-neutral-800 dark:focus:ring-neutral-300 cursor-default border-transparent bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-50 flex items-center gap-1 rounded-xl px-1 pl-2 ring-2 ring-muted-foreground",
+   "new": "cursor-default border py-0.5 text-caption font-semibold leading-4 transition-colors focus:outline-none focus:ring-2 focus:ring-focus focus:ring-offset-2 border-transparent bg-neutral-100 text-neutral-900 flex items-center gap-1 rounded-xl px-1 pl-2 ring-2 ring-muted-foreground",
+   "tag": "div",
+   "atomOwnsBase": true
   }
  ]
 }

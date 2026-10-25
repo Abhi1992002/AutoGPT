@@ -10,6 +10,7 @@ mkdir -p $FE/src/app/api/__generated__ && cp -r $MAIN/autogpt_platform/frontend/
 cd $FE
 pnpm install --frozen-lockfile > /tmp/wt-$L-install.log 2>&1
 rm -rf .next; NEXT_PUBLIC_PW_TEST=true pnpm build --no-lint > /tmp/wt-$L-build.log 2>&1 || { echo "BUILD FAIL $L"; exit 1; }
+rm -rf src/components/organisms/__evidence__  # the repo's Storybook only: evidence stories build separately (evbuild.sh)
 pnpm build-storybook --quiet -o storybook-static > /tmp/wt-$L-sb.log 2>&1
 rm -rf .next/cache node_modules/.cache/storybook
-echo "$L $C built: app=$(test -f .next/BUILD_ID && echo ok) sb=$(test -f storybook-static/index.html && echo ok)"
+echo "$L $C built: app=$(test -f .next/BUILD_ID && echo ok) sb=$(test -f storybook-static/iframe.html && echo ok)"

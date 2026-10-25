@@ -1,0 +1,5905 @@
+[
+ {
+  "id": "pr1-collapsible-default",
+  "viewport": "desktop",
+  "callSite": "molecules/Collapsible/Collapsible.tsx (Radix Root/Trigger/Content, was __legacy__/ui/collapsible)",
+  "files": [
+   "pr1-collapsible-default--rest__desktop.png",
+   "pr1-collapsible-default--hover__desktop.png",
+   "pr1-collapsible-default--focus-visible__desktop.png",
+   "pr1-collapsible-default--keyboard-toggled__desktop.png",
+   "pr1-collapsible-default--clicked-open__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the collapsible trigger",
+    "ok": true,
+    "detail": "649,438 142x24"
+   },
+   {
+    "step": "starts aria-expanded=false",
+    "ok": true,
+    "detail": "false"
+   },
+   {
+    "step": "Tab reaches the trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-expanded=false data-slot=collapsible-trigger \"Click to expand\""
+   },
+   {
+    "step": "Enter: toggles the panel",
+    "ok": true,
+    "detail": "true"
+   },
+   {
+    "step": "focus stays on the trigger",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Space: toggles it back",
+    "ok": true,
+    "detail": "false"
+   },
+   {
+    "step": "visible: the open panel",
+    "ok": true,
+    "detail": "478,430 485x64"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr1-collapsible-default",
+  "viewport": "mobile",
+  "callSite": "molecules/Collapsible/Collapsible.tsx (Radix Root/Trigger/Content, was __legacy__/ui/collapsible)",
+  "files": [
+   "pr1-collapsible-default--rest__mobile.png",
+   "pr1-collapsible-default--hover__mobile.png",
+   "pr1-collapsible-default--focus-visible__mobile.png",
+   "pr1-collapsible-default--keyboard-toggled__mobile.png",
+   "pr1-collapsible-default--clicked-open__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the collapsible trigger",
+    "ok": true,
+    "detail": "124,410 142x24"
+   },
+   {
+    "step": "starts aria-expanded=false",
+    "ok": true,
+    "detail": "false"
+   },
+   {
+    "step": "Tab reaches the trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-expanded=false data-slot=collapsible-trigger \"Click to expand\""
+   },
+   {
+    "step": "Enter: toggles the panel",
+    "ok": true,
+    "detail": "true"
+   },
+   {
+    "step": "focus stays on the trigger",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Space: toggles it back",
+    "ok": true,
+    "detail": "false"
+   },
+   {
+    "step": "visible: the open panel",
+    "ok": true,
+    "detail": "48,390 294x88"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr1-collapsible-default-open",
+  "viewport": "desktop",
+  "callSite": "molecules/Collapsible/Collapsible.tsx (Radix Root/Trigger/Content, was __legacy__/ui/collapsible)",
+  "files": [
+   "pr1-collapsible-default-open--rest__desktop.png",
+   "pr1-collapsible-default-open--hover__desktop.png",
+   "pr1-collapsible-default-open--focus-visible__desktop.png",
+   "pr1-collapsible-default-open--keyboard-toggled__desktop.png",
+   "pr1-collapsible-default-open--clicked-closed__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the collapsible trigger",
+    "ok": true,
+    "detail": "518,406 405x24"
+   },
+   {
+    "step": "starts aria-expanded=true",
+    "ok": true,
+    "detail": "true"
+   },
+   {
+    "step": "Tab reaches the trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-expanded=true data-slot=collapsible-trigger \"Already expanded\""
+   },
+   {
+    "step": "Enter: toggles the panel",
+    "ok": true,
+    "detail": "false"
+   },
+   {
+    "step": "focus stays on the trigger",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Space: toggles it back",
+    "ok": true,
+    "detail": "true"
+   },
+   {
+    "step": "a click closes it",
+    "ok": true,
+    "detail": ""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr1-collapsible-default-open",
+  "viewport": "mobile",
+  "callSite": "molecules/Collapsible/Collapsible.tsx (Radix Root/Trigger/Content, was __legacy__/ui/collapsible)",
+  "files": [
+   "pr1-collapsible-default-open--rest__mobile.png",
+   "pr1-collapsible-default-open--hover__mobile.png",
+   "pr1-collapsible-default-open--focus-visible__mobile.png",
+   "pr1-collapsible-default-open--keyboard-toggled__mobile.png",
+   "pr1-collapsible-default-open--clicked-closed__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the collapsible trigger",
+    "ok": true,
+    "detail": "48,354 294x24"
+   },
+   {
+    "step": "starts aria-expanded=true",
+    "ok": true,
+    "detail": "true"
+   },
+   {
+    "step": "Tab reaches the trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-expanded=true data-slot=collapsible-trigger \"Already expanded\""
+   },
+   {
+    "step": "Enter: toggles the panel",
+    "ok": true,
+    "detail": "false"
+   },
+   {
+    "step": "focus stays on the trigger",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Space: toggles it back",
+    "ok": true,
+    "detail": "true"
+   },
+   {
+    "step": "a click closes it",
+    "ok": true,
+    "detail": ""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr1-collapsible-multiple-collapsibles",
+  "viewport": "desktop",
+  "callSite": "molecules/Collapsible/Collapsible.tsx (Radix Root/Trigger/Content, was __legacy__/ui/collapsible)",
+  "files": [
+   "pr1-collapsible-multiple-collapsibles--rest__desktop.png",
+   "pr1-collapsible-multiple-collapsibles--hover__desktop.png",
+   "pr1-collapsible-multiple-collapsibles--focus-visible__desktop.png",
+   "pr1-collapsible-multiple-collapsibles--keyboard-toggled__desktop.png",
+   "pr1-collapsible-multiple-collapsibles--clicked-open__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the collapsible trigger",
+    "ok": true,
+    "detail": "540,346 360x24"
+   },
+   {
+    "step": "starts aria-expanded=false",
+    "ok": true,
+    "detail": "false"
+   },
+   {
+    "step": "Tab reaches the trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-expanded=false data-slot=collapsible-trigger \"Section 1\""
+   },
+   {
+    "step": "Enter: toggles the panel",
+    "ok": true,
+    "detail": "true"
+   },
+   {
+    "step": "focus stays on the trigger",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Space: toggles it back",
+    "ok": true,
+    "detail": "false"
+   },
+   {
+    "step": "visible: the open panel",
+    "ok": true,
+    "detail": "540,354 360x32"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr1-collapsible-multiple-collapsibles",
+  "viewport": "mobile",
+  "callSite": "molecules/Collapsible/Collapsible.tsx (Radix Root/Trigger/Content, was __legacy__/ui/collapsible)",
+  "files": [
+   "pr1-collapsible-multiple-collapsibles--rest__mobile.png",
+   "pr1-collapsible-multiple-collapsibles--hover__mobile.png",
+   "pr1-collapsible-multiple-collapsibles--focus-visible__mobile.png",
+   "pr1-collapsible-multiple-collapsibles--keyboard-toggled__mobile.png",
+   "pr1-collapsible-multiple-collapsibles--clicked-open__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the collapsible trigger",
+    "ok": true,
+    "detail": "60,318 360x24"
+   },
+   {
+    "step": "starts aria-expanded=false",
+    "ok": true,
+    "detail": "false"
+   },
+   {
+    "step": "Tab reaches the trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-expanded=false data-slot=collapsible-trigger \"Section 1\""
+   },
+   {
+    "step": "Enter: toggles the panel",
+    "ok": true,
+    "detail": "true"
+   },
+   {
+    "step": "focus stays on the trigger",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Space: toggles it back",
+    "ok": true,
+    "detail": "false"
+   },
+   {
+    "step": "visible: the open panel",
+    "ok": true,
+    "detail": "30,326 360x32"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr1-carousel-creator",
+  "viewport": "desktop",
+  "callSite": "marketplace/components/AgentsSection/AgentsSection.tsx (molecules/Carousel, was __legacy__/ui/carousel)",
+  "files": [
+   "pr1-carousel-creator--desktop-hidden__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "the carousel is md:hidden at 1440 (the desktop grid shows these cards)",
+    "ok": true,
+    "detail": "present, display:none"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr1-carousel-creator",
+  "viewport": "mobile",
+  "callSite": "marketplace/components/AgentsSection/AgentsSection.tsx (molecules/Carousel, was __legacy__/ui/carousel)",
+  "files": [
+   "pr1-carousel-creator--rest__mobile.png",
+   "pr1-carousel-creator--hover__mobile.png",
+   "pr1-carousel-creator--focus-visible__mobile.png",
+   "pr1-carousel-creator--arrow-right__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the workflow carousel",
+    "ok": true,
+    "detail": "0,420 390x424"
+   },
+   {
+    "step": "visible: its first slide",
+    "ok": true,
+    "detail": "45,420 284x416"
+   },
+   {
+    "step": "Tab reaches the first card inside the carousel",
+    "ok": true,
+    "detail": "4 Tab presses -> div role=button aria-label=Decision Maker Lead Finder workflow card data-testid=store-card \"Decision Maker Lead Finder\n\nFind the key\""
+   },
+   {
+    "step": "ArrowRight: moves the slides one card to the left",
+    "ok": true,
+    "detail": "first slide x 45 -> -239"
+   },
+   {
+    "step": "ArrowLeft: moves them back",
+    "ok": true,
+    "detail": "first slide x 45"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr1-carousel-agent",
+  "viewport": "desktop",
+  "callSite": "marketplace/components/AgentsSection/AgentsSection.tsx (molecules/Carousel, was __legacy__/ui/carousel)",
+  "files": [
+   "pr1-carousel-agent--desktop-hidden__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "the carousel is md:hidden at 1440 (the desktop grid shows these cards)",
+    "ok": true,
+    "detail": "present, display:none"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr1-carousel-agent",
+  "viewport": "mobile",
+  "callSite": "marketplace/components/AgentsSection/AgentsSection.tsx (molecules/Carousel, was __legacy__/ui/carousel)",
+  "files": [
+   "pr1-carousel-agent--rest__mobile.png",
+   "pr1-carousel-agent--hover__mobile.png",
+   "pr1-carousel-agent--focus-visible__mobile.png",
+   "pr1-carousel-agent--arrow-right__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the workflow carousel",
+    "ok": true,
+    "detail": "0,210 390x424"
+   },
+   {
+    "step": "visible: its first slide",
+    "ok": true,
+    "detail": "45,210 284x416"
+   },
+   {
+    "step": "Tab reaches the first card inside the carousel",
+    "ok": true,
+    "detail": "7 Tab presses -> div role=button aria-label=Decision Maker Lead Finder workflow card data-testid=store-card \"Decision Maker Lead Finder\nby autogpt\n\nF\""
+   },
+   {
+    "step": "ArrowRight: moves the slides one card to the left",
+    "ok": true,
+    "detail": "first slide x 45 -> -239"
+   },
+   {
+    "step": "ArrowLeft: moves them back",
+    "ok": true,
+    "detail": "first slide x 45"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr1-pagination-admin-marketplace",
+  "viewport": "desktop",
+  "callSite": "admin/marketplace/components/AdminAgentsDataTable.tsx (molecules/PaginationControls, was __legacy__/ui/pagination-controls)",
+  "files": [
+   "pr1-pagination-admin-marketplace--first-page__desktop.png",
+   "pr1-pagination-admin-marketplace--next-hover__desktop.png",
+   "pr1-pagination-admin-marketplace--next-focus-visible__desktop.png",
+   "pr1-pagination-admin-marketplace--page-2__desktop.png",
+   "pr1-pagination-admin-marketplace--last-page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the page label",
+    "ok": true,
+    "detail": "827,880 79x20"
+   },
+   {
+    "step": "first page: Previous disabled, Next enabled",
+    "ok": true,
+    "detail": "Page 1 of 33"
+   },
+   {
+    "step": "Tab reaches Next",
+    "ok": true,
+    "detail": "1 Tab presses -> button  \"Next\""
+   },
+   {
+    "step": "Enter: goes to page 2",
+    "ok": true,
+    "detail": "Page 2 of 33 at ?page=2"
+   },
+   {
+    "step": "both buttons enabled on a middle page",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Shift+Tab: moves focus from Next to Previous",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Enter on Previous requests page 1",
+    "ok": true,
+    "detail": "/admin/marketplace?page=1&_rsc=8gEADVHMIkebqOz2"
+   },
+   {
+    "step": "last page: Next disabled, Previous enabled",
+    "ok": true,
+    "detail": "Page 33 of 33"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr1-pagination-admin-marketplace",
+  "viewport": "mobile",
+  "callSite": "admin/marketplace/components/AdminAgentsDataTable.tsx (molecules/PaginationControls, was __legacy__/ui/pagination-controls)",
+  "files": [
+   "pr1-pagination-admin-marketplace--first-page__mobile.png",
+   "pr1-pagination-admin-marketplace--next-hover__mobile.png",
+   "pr1-pagination-admin-marketplace--next-focus-visible__mobile.png",
+   "pr1-pagination-admin-marketplace--page-2__mobile.png",
+   "pr1-pagination-admin-marketplace--last-page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the page label",
+    "ok": true,
+    "detail": "311,824 79x20"
+   },
+   {
+    "step": "first page: Previous disabled, Next enabled",
+    "ok": true,
+    "detail": "Page 1 of 33"
+   },
+   {
+    "step": "Tab reaches Next",
+    "ok": true,
+    "detail": "1 Tab presses -> button  \"Next\""
+   },
+   {
+    "step": "Enter: goes to page 2",
+    "ok": true,
+    "detail": "Page 2 of 33 at ?page=2"
+   },
+   {
+    "step": "both buttons enabled on a middle page",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Shift+Tab: moves focus from Next to Previous",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Enter on Previous requests page 1",
+    "ok": true,
+    "detail": "/admin/marketplace?page=1&_rsc=8gEADVHMIkebqOz2"
+   },
+   {
+    "step": "last page: Next disabled, Previous enabled",
+    "ok": true,
+    "detail": "Page 33 of 33"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr1-pagination-admin-spending",
+  "viewport": "desktop",
+  "callSite": "admin/spending/components/AdminUserGrantHistory.tsx (molecules/PaginationControls, was __legacy__/ui/pagination-controls)",
+  "files": [
+   "pr1-pagination-admin-spending--first-page__desktop.png",
+   "pr1-pagination-admin-spending--next-hover__desktop.png",
+   "pr1-pagination-admin-spending--next-focus-visible__desktop.png",
+   "pr1-pagination-admin-spending--page-2__desktop.png",
+   "pr1-pagination-admin-spending--last-page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the page label",
+    "ok": true,
+    "detail": "832,880 70x20"
+   },
+   {
+    "step": "first page: Previous disabled, Next enabled",
+    "ok": true,
+    "detail": "Page 1 of 7"
+   },
+   {
+    "step": "Tab reaches Next",
+    "ok": true,
+    "detail": "1 Tab presses -> button  \"Next\""
+   },
+   {
+    "step": "Enter: goes to page 2",
+    "ok": true,
+    "detail": "Page 2 of 7 at ?page=2"
+   },
+   {
+    "step": "both buttons enabled on a middle page",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Shift+Tab: moves focus from Next to Previous",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Enter on Previous requests page 1",
+    "ok": true,
+    "detail": "/admin/spending?page=1&_rsc=nf9ReOXZguWGK2qa"
+   },
+   {
+    "step": "last page: Next disabled, Previous enabled",
+    "ok": true,
+    "detail": "Page 7 of 7"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr1-pagination-admin-spending",
+  "viewport": "mobile",
+  "callSite": "admin/spending/components/AdminUserGrantHistory.tsx (molecules/PaginationControls, was __legacy__/ui/pagination-controls)",
+  "files": [
+   "pr1-pagination-admin-spending--first-page__mobile.png",
+   "pr1-pagination-admin-spending--next-hover__mobile.png",
+   "pr1-pagination-admin-spending--next-focus-visible__mobile.png",
+   "pr1-pagination-admin-spending--page-2__mobile.png",
+   "pr1-pagination-admin-spending--last-page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the page label",
+    "ok": true,
+    "detail": "320,824 70x20"
+   },
+   {
+    "step": "first page: Previous disabled, Next enabled",
+    "ok": true,
+    "detail": "Page 1 of 7"
+   },
+   {
+    "step": "Tab reaches Next",
+    "ok": true,
+    "detail": "1 Tab presses -> button  \"Next\""
+   },
+   {
+    "step": "Enter: goes to page 2",
+    "ok": true,
+    "detail": "Page 2 of 7 at ?page=2"
+   },
+   {
+    "step": "both buttons enabled on a middle page",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Shift+Tab: moves focus from Next to Previous",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Enter on Previous requests page 1",
+    "ok": true,
+    "detail": "/admin/spending?page=1&_rsc=nf9ReOXZguWGK2qa"
+   },
+   {
+    "step": "last page: Next disabled, Previous enabled",
+    "ok": true,
+    "detail": "Page 7 of 7"
+   }
+  ],
+  "observed": {},
+  "attempts": 2,
+  "ok": true,
+  "error": "locator.waitFor: Timeout 90000ms exceeded.\nCall log:\n  - waiting for getByText(/^Page \\d+ of \\d+$/).first() to be visible\n"
+ },
+ {
+  "id": "pr2-date-field",
+  "viewport": "desktop",
+  "callSite": "atoms/DateInput/DateInput.tsx (atoms/Calendar; molecules/Popover from part 4)",
+  "files": [
+   "pr2-date-field--rest__desktop.png",
+   "pr2-date-field--hover__desktop.png",
+   "pr2-date-field--focus-visible__desktop.png",
+   "pr2-date-field--open__desktop.png",
+   "pr2-date-field--day-focused__desktop.png",
+   "pr2-date-field--day-arrow-right__desktop.png",
+   "pr2-date-field--picked__desktop.png",
+   "pr2-date-field--open-with-selection__desktop.png",
+   "pr2-date-field--month-dropdown__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "520,439 400x36"
+   },
+   {
+    "step": "Tab reaches the picker trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-label=Start Date aria-expanded=false data-slot=date-input-trigger \"Pick a date\""
+   },
+   {
+    "step": "Enter: opens the calendar",
+    "ok": true,
+    "detail": "button role=combobox aria-expanded=false \"January\""
+   },
+   {
+    "step": "visible: the Calendar month grid",
+    "ok": true,
+    "detail": "600,550 256x221"
+   },
+   {
+    "step": "Tab: to today's day button",
+    "ok": true,
+    "detail": "button aria-label=Today, Thursday, January 15th, 2026 \"15\""
+   },
+   {
+    "step": "ArrowRight: moves to the next day",
+    "ok": true,
+    "detail": "button aria-label=Friday, January 16th, 2026 \"16\""
+   },
+   {
+    "step": "Escape: closes the calendar",
+    "ok": true,
+    "detail": "popup visible=false"
+   },
+   {
+    "step": "focus returns to the trigger",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Enter: reopens it",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Enter: picks the 16th",
+    "ok": true,
+    "detail": "Jan 16, 2026"
+   },
+   {
+    "step": "visible: the selected day",
+    "ok": true,
+    "detail": "760,659 32x32"
+   },
+   {
+    "step": "visible: the month list",
+    "ok": true,
+    "detail": "602,108 128x384"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-field",
+  "viewport": "mobile",
+  "callSite": "atoms/DateInput/DateInput.tsx (atoms/Calendar; molecules/Popover from part 4)",
+  "files": [
+   "pr2-date-field--rest__mobile.png",
+   "pr2-date-field--hover__mobile.png",
+   "pr2-date-field--focus-visible__mobile.png",
+   "pr2-date-field--open__mobile.png",
+   "pr2-date-field--day-focused__mobile.png",
+   "pr2-date-field--day-arrow-right__mobile.png",
+   "pr2-date-field--picked__mobile.png",
+   "pr2-date-field--open-with-selection__mobile.png",
+   "pr2-date-field--month-dropdown__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "48,411 400x36"
+   },
+   {
+    "step": "Tab reaches the picker trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-label=Start Date aria-expanded=false data-slot=date-input-trigger \"Pick a date\""
+   },
+   {
+    "step": "Enter: opens the calendar",
+    "ok": true,
+    "detail": "button role=combobox aria-expanded=false \"January\""
+   },
+   {
+    "step": "visible: the Calendar month grid",
+    "ok": true,
+    "detail": "72,538 256x221"
+   },
+   {
+    "step": "Tab: to today's day button",
+    "ok": true,
+    "detail": "button aria-label=Today, Thursday, January 15th, 2026 \"15\""
+   },
+   {
+    "step": "ArrowRight: moves to the next day",
+    "ok": true,
+    "detail": "button aria-label=Friday, January 16th, 2026 \"16\""
+   },
+   {
+    "step": "Escape: closes the calendar",
+    "ok": true,
+    "detail": "popup visible=false"
+   },
+   {
+    "step": "focus returns to the trigger",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Enter: reopens it",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Enter: picks the 16th",
+    "ok": true,
+    "detail": "Jan 16, 2026"
+   },
+   {
+    "step": "visible: the selected day",
+    "ok": true,
+    "detail": "232,647 32x32"
+   },
+   {
+    "step": "visible: the month list",
+    "ok": true,
+    "detail": "74,96 128x384"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-time-field",
+  "viewport": "desktop",
+  "callSite": "atoms/DateTimeInput/DateTimeInput.tsx (atoms/Calendar; molecules/Popover from part 4)",
+  "files": [
+   "pr2-date-time-field--rest__desktop.png",
+   "pr2-date-time-field--hover__desktop.png",
+   "pr2-date-time-field--focus-visible__desktop.png",
+   "pr2-date-time-field--open__desktop.png",
+   "pr2-date-time-field--day-focused__desktop.png",
+   "pr2-date-time-field--day-arrow-right__desktop.png",
+   "pr2-date-time-field--picked__desktop.png",
+   "pr2-date-time-field--open-with-selection__desktop.png",
+   "pr2-date-time-field--month-dropdown__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "520,434 400x46"
+   },
+   {
+    "step": "Tab reaches the picker trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-label=Scheduled At aria-expanded=false data-slot=date-time-input-trigger \"Pick date and time\""
+   },
+   {
+    "step": "Enter: opens the calendar",
+    "ok": true,
+    "detail": "button role=combobox aria-expanded=false \"January\""
+   },
+   {
+    "step": "visible: the Calendar month grid",
+    "ok": true,
+    "detail": "600,93 256x221"
+   },
+   {
+    "step": "Tab: to today's day button",
+    "ok": true,
+    "detail": "button aria-label=Today, Thursday, January 15th, 2026 \"15\""
+   },
+   {
+    "step": "ArrowRight: moves to the next day",
+    "ok": true,
+    "detail": "button aria-label=Friday, January 16th, 2026 \"16\""
+   },
+   {
+    "step": "Escape: closes the calendar",
+    "ok": true,
+    "detail": "popup visible=false"
+   },
+   {
+    "step": "focus returns to the trigger",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Enter: reopens it",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Enter: picks the 16th",
+    "ok": true,
+    "detail": "Jan 16, 2026 12:00 AM"
+   },
+   {
+    "step": "visible: the selected day",
+    "ok": true,
+    "detail": "760,202 32x32"
+   },
+   {
+    "step": "visible: the month list",
+    "ok": true,
+    "detail": "602,79 128x384"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-time-field",
+  "viewport": "mobile",
+  "callSite": "atoms/DateTimeInput/DateTimeInput.tsx (atoms/Calendar; molecules/Popover from part 4)",
+  "files": [
+   "pr2-date-time-field--rest__mobile.png",
+   "pr2-date-time-field--hover__mobile.png",
+   "pr2-date-time-field--focus-visible__mobile.png",
+   "pr2-date-time-field--open__mobile.png",
+   "pr2-date-time-field--day-focused__mobile.png",
+   "pr2-date-time-field--day-arrow-right__mobile.png",
+   "pr2-date-time-field--picked__mobile.png",
+   "pr2-date-time-field--open-with-selection__mobile.png",
+   "pr2-date-time-field--month-dropdown__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "48,406 400x46"
+   },
+   {
+    "step": "Tab reaches the picker trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-label=Scheduled At aria-expanded=false data-slot=date-time-input-trigger \"Pick date and time\""
+   },
+   {
+    "step": "Enter: opens the calendar",
+    "ok": true,
+    "detail": "button role=combobox aria-expanded=false \"January\""
+   },
+   {
+    "step": "visible: the Calendar month grid",
+    "ok": true,
+    "detail": "72,65 256x221"
+   },
+   {
+    "step": "Tab: to today's day button",
+    "ok": true,
+    "detail": "button aria-label=Today, Thursday, January 15th, 2026 \"15\""
+   },
+   {
+    "step": "ArrowRight: moves to the next day",
+    "ok": true,
+    "detail": "button aria-label=Friday, January 16th, 2026 \"16\""
+   },
+   {
+    "step": "Escape: closes the calendar",
+    "ok": true,
+    "detail": "popup visible=false"
+   },
+   {
+    "step": "focus returns to the trigger",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Enter: reopens it",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Enter: picks the 16th",
+    "ok": true,
+    "detail": "Jan 16, 2026 12:00 AM"
+   },
+   {
+    "step": "visible: the selected day",
+    "ok": true,
+    "detail": "232,174 32x32"
+   },
+   {
+    "step": "visible: the month list",
+    "ok": true,
+    "detail": "74,51 128x384"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-filled",
+  "viewport": "desktop",
+  "callSite": "atoms/DateInput/DateInput.tsx",
+  "files": [
+   "pr2-date-filled--rest__desktop.png",
+   "pr2-date-filled--hover__desktop.png",
+   "pr2-date-filled--focus-visible__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "48,72 360x46"
+   },
+   {
+    "step": "Tab reaches the picker trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-expanded=false data-slot=date-input-trigger \"Jan 20, 2026\""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-filled",
+  "viewport": "mobile",
+  "callSite": "atoms/DateInput/DateInput.tsx",
+  "files": [
+   "pr2-date-filled--rest__mobile.png",
+   "pr2-date-filled--hover__mobile.png",
+   "pr2-date-filled--focus-visible__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "48,72 360x46"
+   },
+   {
+    "step": "Tab reaches the picker trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-expanded=false data-slot=date-input-trigger \"Jan 20, 2026\""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-disabled",
+  "viewport": "desktop",
+  "callSite": "atoms/DateInput/DateInput.tsx",
+  "files": [
+   "pr2-date-disabled--rest__desktop.png",
+   "pr2-date-disabled--hover__desktop.png",
+   "pr2-date-disabled--after-click__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "48,72 360x46"
+   },
+   {
+    "step": "the trigger is disabled",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "a click does not open the calendar",
+    "ok": true,
+    "detail": ""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-disabled",
+  "viewport": "mobile",
+  "callSite": "atoms/DateInput/DateInput.tsx",
+  "files": [
+   "pr2-date-disabled--rest__mobile.png",
+   "pr2-date-disabled--hover__mobile.png",
+   "pr2-date-disabled--after-click__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "48,72 360x46"
+   },
+   {
+    "step": "the trigger is disabled",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "a click does not open the calendar",
+    "ok": true,
+    "detail": ""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-read-only",
+  "viewport": "desktop",
+  "callSite": "atoms/DateInput/DateInput.tsx",
+  "files": [
+   "pr2-date-read-only--rest__desktop.png",
+   "pr2-date-read-only--hover__desktop.png",
+   "pr2-date-read-only--after-click__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "48,72 360x46"
+   },
+   {
+    "step": "the trigger is disabled",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "a click does not open the calendar",
+    "ok": true,
+    "detail": ""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-read-only",
+  "viewport": "mobile",
+  "callSite": "atoms/DateInput/DateInput.tsx",
+  "files": [
+   "pr2-date-read-only--rest__mobile.png",
+   "pr2-date-read-only--hover__mobile.png",
+   "pr2-date-read-only--after-click__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "48,72 360x46"
+   },
+   {
+    "step": "the trigger is disabled",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "a click does not open the calendar",
+    "ok": true,
+    "detail": ""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-error",
+  "viewport": "desktop",
+  "callSite": "atoms/DateInput/DateInput.tsx",
+  "files": [
+   "pr2-date-error--rest__desktop.png",
+   "pr2-date-error--hover__desktop.png",
+   "pr2-date-error--focus-visible__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "48,72 360x46"
+   },
+   {
+    "step": "Tab reaches the picker trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-expanded=false data-slot=date-input-trigger \"Pick a date\""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-error",
+  "viewport": "mobile",
+  "callSite": "atoms/DateInput/DateInput.tsx",
+  "files": [
+   "pr2-date-error--rest__mobile.png",
+   "pr2-date-error--hover__mobile.png",
+   "pr2-date-error--focus-visible__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "48,72 360x46"
+   },
+   {
+    "step": "Tab reaches the picker trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-expanded=false data-slot=date-input-trigger \"Pick a date\""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-time-filled",
+  "viewport": "desktop",
+  "callSite": "atoms/DateTimeInput/DateTimeInput.tsx",
+  "files": [
+   "pr2-date-time-filled--rest__desktop.png",
+   "pr2-date-time-filled--hover__desktop.png",
+   "pr2-date-time-filled--focus-visible__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "48,78 360x46"
+   },
+   {
+    "step": "Tab reaches the picker trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-expanded=false data-slot=date-time-input-trigger \"Jan 20, 2026 09:30 AM\""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-time-filled",
+  "viewport": "mobile",
+  "callSite": "atoms/DateTimeInput/DateTimeInput.tsx",
+  "files": [
+   "pr2-date-time-filled--rest__mobile.png",
+   "pr2-date-time-filled--hover__mobile.png",
+   "pr2-date-time-filled--focus-visible__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "48,78 360x46"
+   },
+   {
+    "step": "Tab reaches the picker trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-expanded=false data-slot=date-time-input-trigger \"Jan 20, 2026 09:30 AM\""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-time-disabled",
+  "viewport": "desktop",
+  "callSite": "atoms/DateTimeInput/DateTimeInput.tsx",
+  "files": [
+   "pr2-date-time-disabled--rest__desktop.png",
+   "pr2-date-time-disabled--hover__desktop.png",
+   "pr2-date-time-disabled--after-click__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "48,78 360x46"
+   },
+   {
+    "step": "the trigger is disabled",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "a click does not open the calendar",
+    "ok": true,
+    "detail": ""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-time-disabled",
+  "viewport": "mobile",
+  "callSite": "atoms/DateTimeInput/DateTimeInput.tsx",
+  "files": [
+   "pr2-date-time-disabled--rest__mobile.png",
+   "pr2-date-time-disabled--hover__mobile.png",
+   "pr2-date-time-disabled--after-click__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "48,78 360x46"
+   },
+   {
+    "step": "the trigger is disabled",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "a click does not open the calendar",
+    "ok": true,
+    "detail": ""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-time-read-only",
+  "viewport": "desktop",
+  "callSite": "atoms/DateTimeInput/DateTimeInput.tsx",
+  "files": [
+   "pr2-date-time-read-only--rest__desktop.png",
+   "pr2-date-time-read-only--hover__desktop.png",
+   "pr2-date-time-read-only--after-click__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "48,78 360x46"
+   },
+   {
+    "step": "the trigger is disabled",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "a click does not open the calendar",
+    "ok": true,
+    "detail": ""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-time-read-only",
+  "viewport": "mobile",
+  "callSite": "atoms/DateTimeInput/DateTimeInput.tsx",
+  "files": [
+   "pr2-date-time-read-only--rest__mobile.png",
+   "pr2-date-time-read-only--hover__mobile.png",
+   "pr2-date-time-read-only--after-click__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "48,78 360x46"
+   },
+   {
+    "step": "the trigger is disabled",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "a click does not open the calendar",
+    "ok": true,
+    "detail": ""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-time-error",
+  "viewport": "desktop",
+  "callSite": "atoms/DateTimeInput/DateTimeInput.tsx",
+  "files": [
+   "pr2-date-time-error--rest__desktop.png",
+   "pr2-date-time-error--hover__desktop.png",
+   "pr2-date-time-error--focus-visible__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "48,78 360x46"
+   },
+   {
+    "step": "Tab reaches the picker trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-expanded=false data-slot=date-time-input-trigger \"Pick date and time\""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-date-time-error",
+  "viewport": "mobile",
+  "callSite": "atoms/DateTimeInput/DateTimeInput.tsx",
+  "files": [
+   "pr2-date-time-error--rest__mobile.png",
+   "pr2-date-time-error--hover__mobile.png",
+   "pr2-date-time-error--focus-visible__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the picker trigger",
+    "ok": true,
+    "detail": "48,78 360x46"
+   },
+   {
+    "step": "Tab reaches the picker trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-expanded=false data-slot=date-time-input-trigger \"Pick date and time\""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-mcp-url-step",
+  "viewport": "desktop",
+  "callSite": "build/components/MCPToolDialog.tsx (circle LoadingSpinner and molecules/ScrollArea, Label from part 6)",
+  "files": [
+   "pr2-mcp-url-step--rest__desktop.png",
+   "pr2-mcp-url-step--typed__desktop.png",
+   "pr2-mcp-url-step--discover-hover__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the MCP dialog",
+    "ok": true,
+    "detail": "464,330 512x240"
+   },
+   {
+    "step": "visible: the Server URL field and its label",
+    "ok": true,
+    "detail": "491,447 462x36"
+   },
+   {
+    "step": "the URL field has focus (autoFocus)",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Escape: closes the dialog",
+    "ok": true,
+    "detail": "visible=false"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-mcp-url-step",
+  "viewport": "mobile",
+  "callSite": "build/components/MCPToolDialog.tsx (circle LoadingSpinner and molecules/ScrollArea, Label from part 6)",
+  "files": [
+   "pr2-mcp-url-step--rest__mobile.png",
+   "pr2-mcp-url-step--typed__mobile.png",
+   "pr2-mcp-url-step--discover-hover__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the MCP dialog",
+    "ok": true,
+    "detail": "0,270 390x304"
+   },
+   {
+    "step": "visible: the Server URL field and its label",
+    "ok": true,
+    "detail": "27,407 340x36"
+   },
+   {
+    "step": "the URL field has focus (autoFocus)",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "Escape: closes the dialog",
+    "ok": true,
+    "detail": "visible=false"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-mcp-connecting",
+  "viewport": "desktop",
+  "callSite": "build/components/MCPToolDialog.tsx (circle LoadingSpinner and molecules/ScrollArea, Label from part 6)",
+  "files": [
+   "pr2-mcp-connecting--state__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the MCP dialog",
+    "ok": true,
+    "detail": "464,330 512x240"
+   },
+   {
+    "step": "visible: the circle spinner in Connecting...",
+    "ok": true,
+    "detail": "823,516 23x23"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-mcp-connecting",
+  "viewport": "mobile",
+  "callSite": "build/components/MCPToolDialog.tsx (circle LoadingSpinner and molecules/ScrollArea, Label from part 6)",
+  "files": [
+   "pr2-mcp-connecting--state__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the MCP dialog",
+    "ok": true,
+    "detail": "0,270 390x304"
+   },
+   {
+    "step": "visible: the circle spinner in Connecting...",
+    "ok": true,
+    "detail": "137,476 22x22"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-mcp-tools",
+  "viewport": "desktop",
+  "callSite": "build/components/MCPToolDialog.tsx (circle LoadingSpinner and molecules/ScrollArea, Label from part 6)",
+  "files": [
+   "pr2-mcp-tools--top__desktop.png",
+   "pr2-mcp-tools--tool-hover__desktop.png",
+   "pr2-mcp-tools--scrolled__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the MCP dialog",
+    "ok": true,
+    "detail": "464,144 512x612"
+   },
+   {
+    "step": "visible: the ScrollArea of tools",
+    "ok": true,
+    "detail": "489,237 462x434"
+   },
+   {
+    "step": "the ScrollArea scrolls to the last tool",
+    "ok": true,
+    "detail": "scrollTop=1616"
+   },
+   {
+    "step": "visible: the vertical scrollbar thumb track",
+    "ok": true,
+    "detail": "941,229 10x450"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-mcp-tools",
+  "viewport": "mobile",
+  "callSite": "build/components/MCPToolDialog.tsx (circle LoadingSpinner and molecules/ScrollArea, Label from part 6)",
+  "files": [
+   "pr2-mcp-tools--top__mobile.png",
+   "pr2-mcp-tools--tool-hover__mobile.png",
+   "pr2-mcp-tools--scrolled__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the MCP dialog",
+    "ok": true,
+    "detail": "0,86 390x672"
+   },
+   {
+    "step": "visible: the ScrollArea of tools",
+    "ok": true,
+    "detail": "25,179 340x406"
+   },
+   {
+    "step": "the ScrollArea scrolls to the last tool",
+    "ok": true,
+    "detail": "scrollTop=1917"
+   },
+   {
+    "step": "visible: the vertical scrollbar thumb track",
+    "ok": true,
+    "detail": "355,171 10x422"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-mcp-error-state",
+  "viewport": "desktop",
+  "callSite": "build/components/MCPToolDialog.tsx (circle LoadingSpinner and molecules/ScrollArea, Label from part 6)",
+  "files": [
+   "pr2-mcp-error-state--state__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the MCP dialog",
+    "ok": true,
+    "detail": "464,312 512x276"
+   },
+   {
+    "step": "visible: the connection error",
+    "ok": true,
+    "detail": "489,483 462x20"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-mcp-error-state",
+  "viewport": "mobile",
+  "callSite": "build/components/MCPToolDialog.tsx (circle LoadingSpinner and molecules/ScrollArea, Label from part 6)",
+  "files": [
+   "pr2-mcp-error-state--state__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the MCP dialog",
+    "ok": true,
+    "detail": "0,252 390x340"
+   },
+   {
+    "step": "visible: the connection error",
+    "ok": true,
+    "detail": "25,443 340x20"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-mcp-manual-credential",
+  "viewport": "desktop",
+  "callSite": "build/components/MCPToolDialog.tsx (circle LoadingSpinner and molecules/ScrollArea, Label from part 6)",
+  "files": [
+   "pr2-mcp-manual-credential--state__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the MCP dialog",
+    "ok": true,
+    "detail": "464,220 512x460"
+   },
+   {
+    "step": "visible: the credential field and its label",
+    "ok": true,
+    "detail": "491,497 462x36"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-mcp-manual-credential",
+  "viewport": "mobile",
+  "callSite": "build/components/MCPToolDialog.tsx (circle LoadingSpinner and molecules/ScrollArea, Label from part 6)",
+  "files": [
+   "pr2-mcp-manual-credential--state__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the MCP dialog",
+    "ok": true,
+    "detail": "0,152 390x540"
+   },
+   {
+    "step": "visible: the credential field and its label",
+    "ok": true,
+    "detail": "27,449 340x36"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-node-badge-running",
+  "viewport": "desktop",
+  "callSite": "build/.../CustomNode/components/NodeExecutionBadge.tsx (circle LoadingSpinner)",
+  "files": [
+   "pr2-node-badge-running--rest__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the RUNNING badge",
+    "ok": true,
+    "detail": "1275,56 101x22"
+   },
+   {
+    "step": "visible: the circle spinner in the badge",
+    "ok": true,
+    "detail": "1347,57 20x20"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-node-badge-running",
+  "viewport": "mobile",
+  "callSite": "build/.../CustomNode/components/NodeExecutionBadge.tsx (circle LoadingSpinner)",
+  "files": [
+   "pr2-node-badge-running--rest__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the RUNNING badge",
+    "ok": true,
+    "detail": "225,56 101x22"
+   },
+   {
+    "step": "visible: the circle spinner in the badge",
+    "ok": true,
+    "detail": "297,57 20x20"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-node-badge-queued",
+  "viewport": "desktop",
+  "callSite": "build/.../CustomNode/components/NodeExecutionBadge.tsx (circle LoadingSpinner)",
+  "files": [
+   "pr2-node-badge-queued--rest__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the QUEUED badge",
+    "ok": true,
+    "detail": "1305,56 71x22"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-node-badge-queued",
+  "viewport": "mobile",
+  "callSite": "build/.../CustomNode/components/NodeExecutionBadge.tsx (circle LoadingSpinner)",
+  "files": [
+   "pr2-node-badge-queued--rest__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the QUEUED badge",
+    "ok": true,
+    "detail": "255,56 71x22"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-view-more",
+  "viewport": "desktop",
+  "callSite": "build/.../NodeOutput/components/ViewMoreData.tsx (molecules/ScrollArea)",
+  "files": [
+   "pr2-view-more--closed__desktop.png",
+   "pr2-view-more--trigger-focus-visible__desktop.png",
+   "pr2-view-more--open__desktop.png",
+   "pr2-view-more--scrolled__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the trigger",
+    "ok": true,
+    "detail": "48,48 86x34"
+   },
+   {
+    "step": "Tab reaches the trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button data-slot=dialog-trigger \"View More\""
+   },
+   {
+    "step": "Enter: opens it",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "visible: the ScrollArea",
+    "ok": true,
+    "detail": "452,139 544x851"
+   },
+   {
+    "step": "Escape: closes it",
+    "ok": true,
+    "detail": "visible=false"
+   }
+  ],
+  "observed": {
+   "scrolls": "div around it scrollTop=136",
+   "focus after Escape": "body"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-view-more",
+  "viewport": "mobile",
+  "callSite": "build/.../NodeOutput/components/ViewMoreData.tsx (molecules/ScrollArea)",
+  "files": [
+   "pr2-view-more--closed__mobile.png",
+   "pr2-view-more--trigger-focus-visible__mobile.png",
+   "pr2-view-more--open__mobile.png",
+   "pr2-view-more--scrolled__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the trigger",
+    "ok": true,
+    "detail": "48,48 86x34"
+   },
+   {
+    "step": "Tab reaches the trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button data-slot=dialog-trigger \"View More\""
+   },
+   {
+    "step": "Enter: opens it",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "visible: the ScrollArea",
+    "ok": true,
+    "detail": "40,208 342x851"
+   },
+   {
+    "step": "Escape: closes it",
+    "ok": true,
+    "detail": "visible=false"
+   }
+  ],
+  "observed": {
+   "scrolls": "div around it scrollTop=239",
+   "focus after Escape": "button data-slot=dialog-trigger \"View More\""
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-outputs-sheet",
+  "viewport": "desktop",
+  "callSite": "build/components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx (molecules/ScrollArea, Label from part 6)",
+  "files": [
+   "pr2-outputs-sheet--closed__desktop.png",
+   "pr2-outputs-sheet--trigger-focus-visible__desktop.png",
+   "pr2-outputs-sheet--open__desktop.png",
+   "pr2-outputs-sheet--scrolled__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the trigger",
+    "ok": true,
+    "detail": "48,48 42x42"
+   },
+   {
+    "step": "Tab reaches the trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-expanded=false data-slot=button data-id=agent-outputs-button \"\""
+   },
+   {
+    "step": "Enter: opens it",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "visible: the ScrollArea",
+    "ok": true,
+    "detail": "873,117 519x751"
+   },
+   {
+    "step": "Escape: closes it",
+    "ok": true,
+    "detail": "visible=false"
+   }
+  ],
+  "observed": {
+   "scrolls": "ScrollArea viewport scrollTop=308",
+   "focus after Escape": "button aria-expanded=false data-slot=button data-id=agent-outputs-button \"\""
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-outputs-sheet",
+  "viewport": "mobile",
+  "callSite": "build/components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx (molecules/ScrollArea, Label from part 6)",
+  "files": [
+   "pr2-outputs-sheet--closed__mobile.png",
+   "pr2-outputs-sheet--trigger-focus-visible__mobile.png",
+   "pr2-outputs-sheet--open__mobile.png",
+   "pr2-outputs-sheet--scrolled__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the trigger",
+    "ok": true,
+    "detail": "48,48 42x42"
+   },
+   {
+    "step": "Tab reaches the trigger",
+    "ok": true,
+    "detail": "1 Tab presses -> button aria-expanded=false data-slot=button data-id=agent-outputs-button \"\""
+   },
+   {
+    "step": "Enter: opens it",
+    "ok": true,
+    "detail": ""
+   },
+   {
+    "step": "visible: the ScrollArea",
+    "ok": true,
+    "detail": "33,136 309x676"
+   },
+   {
+    "step": "Escape: closes it",
+    "ok": true,
+    "detail": "visible=false"
+   }
+  ],
+  "observed": {
+   "scrolls": "ScrollArea viewport scrollTop=1043",
+   "focus after Escape": "button aria-expanded=false data-slot=button data-id=agent-outputs-button \"\""
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-reset-password-suspended",
+  "viewport": "desktop",
+  "callSite": "reset-password/page.tsx (Suspense fallback: circle LoadingSpinner, was __legacy__/ui/loading)",
+  "files": [
+   "pr2-reset-password-suspended--fallback__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the fallback spinner",
+    "ok": true,
+    "detail": "685,373 70x70"
+   },
+   {
+    "step": "the page content has not rendered",
+    "ok": true,
+    "detail": ""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-reset-password-suspended",
+  "viewport": "mobile",
+  "callSite": "reset-password/page.tsx (Suspense fallback: circle LoadingSpinner, was __legacy__/ui/loading)",
+  "files": [
+   "pr2-reset-password-suspended--fallback__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the fallback spinner",
+    "ok": true,
+    "detail": "157,348 76x76"
+   },
+   {
+    "step": "the page content has not rendered",
+    "ok": true,
+    "detail": ""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-reset-password-app",
+  "viewport": "desktop",
+  "callSite": "reset-password/page.tsx (Suspense fallback: circle LoadingSpinner, was __legacy__/ui/loading)",
+  "files": [
+   "pr2-reset-password-app--rest__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the page content",
+    "ok": true,
+    "detail": "488,537 464x46"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr2-reset-password-app",
+  "viewport": "mobile",
+  "callSite": "reset-password/page.tsx (Suspense fallback: circle LoadingSpinner, was __legacy__/ui/loading)",
+  "files": [
+   "pr2-reset-password-app--rest__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the page content",
+    "ok": true,
+    "detail": "24,509 342x46"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr3-multiselect-field",
+  "viewport": "desktop",
+  "callSite": "renderers/.../custom/MultiSelectField/MultiSelectField.tsx (molecules/MultiSelect)",
+  "files": [
+   "pr3-multiselect-field--rest__desktop.png",
+   "pr3-multiselect-field--open__desktop.png",
+   "pr3-multiselect-field--option-highlighted__desktop.png",
+   "pr3-multiselect-field--after-enter__desktop.png",
+   "pr3-multiselect-field--empty__desktop.png",
+   "pr3-multiselect-field--closed__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the multiselect input",
+    "ok": true,
+    "detail": "539,443 370x20"
+   },
+   {
+    "step": "starts with 0 chip(s)",
+    "ok": true,
+    "detail": "0"
+   },
+   {
+    "step": "Tab reaches the input",
+    "ok": true,
+    "detail": "1 Tab presses -> input role=combobox aria-expanded=true \"\""
+   },
+   {
+    "step": "visible: the open option list",
+    "ok": true,
+    "detail": "520,482 400x270"
+   },
+   {
+    "step": "ArrowDown: highlights an option",
+    "ok": true,
+    "detail": "Author Id"
+   },
+   {
+    "step": "Enter: toggles the highlighted option",
+    "ok": true,
+    "detail": "0 -> 1"
+   },
+   {
+    "step": "visible: the empty result",
+    "ok": true,
+    "detail": "666,518 107x16"
+   },
+   {
+    "step": "Backspace: removes the last chip",
+    "ok": true,
+    "detail": "1 -> 0"
+   },
+   {
+    "step": "Escape: closes the list",
+    "ok": true,
+    "detail": "listbox hidden"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr3-multiselect-field",
+  "viewport": "mobile",
+  "callSite": "renderers/.../custom/MultiSelectField/MultiSelectField.tsx (molecules/MultiSelect)",
+  "files": [
+   "pr3-multiselect-field--rest__mobile.png",
+   "pr3-multiselect-field--open__mobile.png",
+   "pr3-multiselect-field--option-highlighted__mobile.png",
+   "pr3-multiselect-field--after-enter__mobile.png",
+   "pr3-multiselect-field--empty__mobile.png",
+   "pr3-multiselect-field--closed__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the multiselect input",
+    "ok": true,
+    "detail": "67,415 370x20"
+   },
+   {
+    "step": "starts with 0 chip(s)",
+    "ok": true,
+    "detail": "0"
+   },
+   {
+    "step": "Tab reaches the input",
+    "ok": true,
+    "detail": "1 Tab presses -> input role=combobox aria-expanded=true \"\""
+   },
+   {
+    "step": "visible: the open option list",
+    "ok": true,
+    "detail": "1,454 400x270"
+   },
+   {
+    "step": "ArrowDown: highlights an option",
+    "ok": true,
+    "detail": "Author Id"
+   },
+   {
+    "step": "Enter: toggles the highlighted option",
+    "ok": true,
+    "detail": "0 -> 1"
+   },
+   {
+    "step": "visible: the empty result",
+    "ok": true,
+    "detail": "145,490 107x16"
+   },
+   {
+    "step": "Backspace: removes the last chip",
+    "ok": true,
+    "detail": "1 -> 0"
+   },
+   {
+    "step": "Escape: closes the list",
+    "ok": true,
+    "detail": "listbox hidden"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr3-selectwidget-multi",
+  "viewport": "desktop",
+  "callSite": "renderers/.../widgets/SelectInput/SelectWidget.tsx, multi-select branch (molecules/MultiSelect)",
+  "files": [
+   "pr3-selectwidget-multi--rest__desktop.png",
+   "pr3-selectwidget-multi--remove-hover__desktop.png",
+   "pr3-selectwidget-multi--open__desktop.png",
+   "pr3-selectwidget-multi--option-highlighted__desktop.png",
+   "pr3-selectwidget-multi--after-enter__desktop.png",
+   "pr3-selectwidget-multi--empty__desktop.png",
+   "pr3-selectwidget-multi--closed__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the multiselect input",
+    "ok": true,
+    "detail": "229,121 204x22"
+   },
+   {
+    "step": "starts with 2 chip(s)",
+    "ok": true,
+    "detail": "2"
+   },
+   {
+    "step": "Tab reaches the input",
+    "ok": true,
+    "detail": "3 Tab presses -> input role=combobox aria-expanded=true \"\""
+   },
+   {
+    "step": "visible: the open option list",
+    "ok": true,
+    "detail": "48,162 400x158"
+   },
+   {
+    "step": "ArrowDown: highlights an option",
+    "ok": true,
+    "detail": "Bananas"
+   },
+   {
+    "step": "Enter: toggles the highlighted option",
+    "ok": true,
+    "detail": "2 -> 3"
+   },
+   {
+    "step": "visible: the empty result",
+    "ok": true,
+    "detail": "194,221 107x16"
+   },
+   {
+    "step": "Backspace: removes the last chip",
+    "ok": true,
+    "detail": "3 -> 2"
+   },
+   {
+    "step": "Escape: closes the list",
+    "ok": true,
+    "detail": "listbox hidden"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr3-selectwidget-multi",
+  "viewport": "mobile",
+  "callSite": "renderers/.../widgets/SelectInput/SelectWidget.tsx, multi-select branch (molecules/MultiSelect)",
+  "files": [
+   "pr3-selectwidget-multi--rest__mobile.png",
+   "pr3-selectwidget-multi--remove-hover__mobile.png",
+   "pr3-selectwidget-multi--open__mobile.png",
+   "pr3-selectwidget-multi--option-highlighted__mobile.png",
+   "pr3-selectwidget-multi--after-enter__mobile.png",
+   "pr3-selectwidget-multi--empty__mobile.png",
+   "pr3-selectwidget-multi--closed__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the multiselect input",
+    "ok": true,
+    "detail": "229,121 204x22"
+   },
+   {
+    "step": "starts with 2 chip(s)",
+    "ok": true,
+    "detail": "2"
+   },
+   {
+    "step": "Tab reaches the input",
+    "ok": true,
+    "detail": "3 Tab presses -> input role=combobox aria-expanded=true \"\""
+   },
+   {
+    "step": "visible: the open option list",
+    "ok": true,
+    "detail": "5,162 400x158"
+   },
+   {
+    "step": "ArrowDown: highlights an option",
+    "ok": true,
+    "detail": "Bananas"
+   },
+   {
+    "step": "Enter: toggles the highlighted option",
+    "ok": true,
+    "detail": "2 -> 3"
+   },
+   {
+    "step": "visible: the empty result",
+    "ok": true,
+    "detail": "145,221 107x16"
+   },
+   {
+    "step": "Backspace: removes the last chip",
+    "ok": true,
+    "detail": "3 -> 2"
+   },
+   {
+    "step": "Escape: closes the list",
+    "ok": true,
+    "detail": "listbox hidden"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr3-selectwidget-multi-empty",
+  "viewport": "desktop",
+  "callSite": "renderers/.../widgets/SelectInput/SelectWidget.tsx, multi-select branch (molecules/MultiSelect)",
+  "files": [
+   "pr3-selectwidget-multi-empty--rest__desktop.png",
+   "pr3-selectwidget-multi-empty--open__desktop.png",
+   "pr3-selectwidget-multi-empty--option-highlighted__desktop.png",
+   "pr3-selectwidget-multi-empty--after-enter__desktop.png",
+   "pr3-selectwidget-multi-empty--empty__desktop.png",
+   "pr3-selectwidget-multi-empty--closed__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the multiselect input",
+    "ok": true,
+    "detail": "63,121 370x20"
+   },
+   {
+    "step": "starts with 0 chip(s)",
+    "ok": true,
+    "detail": "0"
+   },
+   {
+    "step": "Tab reaches the input",
+    "ok": true,
+    "detail": "1 Tab presses -> input role=combobox aria-expanded=true \"\""
+   },
+   {
+    "step": "visible: the open option list",
+    "ok": true,
+    "detail": "48,160 400x158"
+   },
+   {
+    "step": "ArrowDown: highlights an option",
+    "ok": true,
+    "detail": "Bananas"
+   },
+   {
+    "step": "Enter: toggles the highlighted option",
+    "ok": true,
+    "detail": "0 -> 1"
+   },
+   {
+    "step": "visible: the empty result",
+    "ok": true,
+    "detail": "194,197 107x16"
+   },
+   {
+    "step": "Backspace: removes the last chip",
+    "ok": true,
+    "detail": "1 -> 0"
+   },
+   {
+    "step": "Escape: closes the list",
+    "ok": true,
+    "detail": "listbox hidden"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr3-selectwidget-multi-empty",
+  "viewport": "mobile",
+  "callSite": "renderers/.../widgets/SelectInput/SelectWidget.tsx, multi-select branch (molecules/MultiSelect)",
+  "files": [
+   "pr3-selectwidget-multi-empty--rest__mobile.png",
+   "pr3-selectwidget-multi-empty--open__mobile.png",
+   "pr3-selectwidget-multi-empty--option-highlighted__mobile.png",
+   "pr3-selectwidget-multi-empty--after-enter__mobile.png",
+   "pr3-selectwidget-multi-empty--empty__mobile.png",
+   "pr3-selectwidget-multi-empty--closed__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the multiselect input",
+    "ok": true,
+    "detail": "63,121 370x20"
+   },
+   {
+    "step": "starts with 0 chip(s)",
+    "ok": true,
+    "detail": "0"
+   },
+   {
+    "step": "Tab reaches the input",
+    "ok": true,
+    "detail": "1 Tab presses -> input role=combobox aria-expanded=true \"\""
+   },
+   {
+    "step": "visible: the open option list",
+    "ok": true,
+    "detail": "5,160 400x158"
+   },
+   {
+    "step": "ArrowDown: highlights an option",
+    "ok": true,
+    "detail": "Bananas"
+   },
+   {
+    "step": "Enter: toggles the highlighted option",
+    "ok": true,
+    "detail": "0 -> 1"
+   },
+   {
+    "step": "visible: the empty result",
+    "ok": true,
+    "detail": "145,197 107x16"
+   },
+   {
+    "step": "Backspace: removes the last chip",
+    "ok": true,
+    "detail": "1 -> 0"
+   },
+   {
+    "step": "Escape: closes the list",
+    "ok": true,
+    "detail": "listbox hidden"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr3-multiselect-disabled-option",
+  "viewport": "desktop",
+  "callSite": "molecules/MultiSelect/MultiSelect.tsx (MultiSelectorItem disabled, internal Command parts)",
+  "files": [
+   "pr3-multiselect-disabled-option--open__desktop.png",
+   "pr3-multiselect-disabled-option--disabled-option-hover__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the input",
+    "ok": true,
+    "detail": "142,59 251x22"
+   },
+   {
+    "step": "Tab reaches the input",
+    "ok": true,
+    "detail": "2 Tab presses -> input role=combobox aria-label=Fruit aria-expanded=true \"\""
+   },
+   {
+    "step": "visible: the disabled option",
+    "ok": true,
+    "detail": "57,165 342x28"
+   },
+   {
+    "step": "the option is aria-disabled",
+    "ok": true,
+    "detail": ""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr3-multiselect-disabled-option",
+  "viewport": "mobile",
+  "callSite": "molecules/MultiSelect/MultiSelect.tsx (MultiSelectorItem disabled, internal Command parts)",
+  "files": [
+   "pr3-multiselect-disabled-option--open__mobile.png",
+   "pr3-multiselect-disabled-option--disabled-option-hover__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the input",
+    "ok": true,
+    "detail": "142,59 251x22"
+   },
+   {
+    "step": "Tab reaches the input",
+    "ok": true,
+    "detail": "2 Tab presses -> input role=combobox aria-label=Fruit aria-expanded=true \"\""
+   },
+   {
+    "step": "visible: the disabled option",
+    "ok": true,
+    "detail": "54,165 342x28"
+   },
+   {
+    "step": "the option is aria-disabled",
+    "ok": true,
+    "detail": ""
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr4-blockmenu-app",
+  "viewport": "desktop",
+  "callSite": "build/.../NewBlockMenu/BlockMenu/BlockMenu.tsx (molecules/Popover)",
+  "files": [
+   "pr4-blockmenu-app--closed__desktop.png",
+   "pr4-blockmenu-app--trigger-hover__desktop.png",
+   "pr4-blockmenu-app--open__desktop.png",
+   "pr4-blockmenu-app--open-hover__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the trigger",
+    "ok": true,
+    "detail": "64,40 52x52"
+   },
+   {
+    "step": "visible: the PopoverContent",
+    "ok": true,
+    "detail": "132,40 746x720"
+   },
+   {
+    "step": "Escape: closes it",
+    "ok": true,
+    "detail": "visible=false"
+   },
+   {
+    "step": "visible: the PopoverContent reopened",
+    "ok": true,
+    "detail": "132,40 746x720"
+   },
+   {
+    "step": "an outside click closes it",
+    "ok": true,
+    "detail": "visible=false"
+   }
+  ],
+  "observed": {
+   "trigger in the Tab order": "div role=button tabIndex=-1",
+   "focus after Escape": "button aria-expanded=false \"\""
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr4-savecontrol-app",
+  "viewport": "desktop",
+  "callSite": "build/.../NewSaveControl/NewSaveControl.tsx (molecules/Popover)",
+  "files": [
+   "pr4-savecontrol-app--closed__desktop.png",
+   "pr4-savecontrol-app--trigger-hover__desktop.png",
+   "pr4-savecontrol-app--open__desktop.png",
+   "pr4-savecontrol-app--open-hover__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the trigger",
+    "ok": true,
+    "detail": "64,146 52x52"
+   },
+   {
+    "step": "visible: the PopoverContent",
+    "ok": true,
+    "detail": "131,146 384x244"
+   },
+   {
+    "step": "Escape: closes it",
+    "ok": true,
+    "detail": "visible=false"
+   },
+   {
+    "step": "visible: the PopoverContent reopened",
+    "ok": true,
+    "detail": "131,146 384x244"
+   },
+   {
+    "step": "an outside click closes it",
+    "ok": true,
+    "detail": "visible=false"
+   }
+  ],
+  "observed": {
+   "trigger in the Tab order": "div role=button tabIndex=-1",
+   "focus after Escape": "body"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr4-blockmenu-story",
+  "viewport": "desktop",
+  "callSite": "build/.../NewBlockMenu/BlockMenu/BlockMenu.tsx (molecules/Popover)",
+  "files": [
+   "pr4-blockmenu-story--closed__desktop.png",
+   "pr4-blockmenu-story--trigger-hover__desktop.png",
+   "pr4-blockmenu-story--open__desktop.png",
+   "pr4-blockmenu-story--open-hover__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the trigger",
+    "ok": true,
+    "detail": "64,64 52x52"
+   },
+   {
+    "step": "visible: the PopoverContent",
+    "ok": true,
+    "detail": "132,64 746x720"
+   },
+   {
+    "step": "Escape: closes it",
+    "ok": true,
+    "detail": "visible=false"
+   },
+   {
+    "step": "visible: the PopoverContent reopened",
+    "ok": true,
+    "detail": "132,64 746x720"
+   },
+   {
+    "step": "an outside click closes it",
+    "ok": true,
+    "detail": "visible=false"
+   }
+  ],
+  "observed": {
+   "trigger in the Tab order": "div role=button tabIndex=-1",
+   "focus after Escape": "button aria-expanded=false \"\""
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr4-blockmenu-story",
+  "viewport": "mobile",
+  "callSite": "build/.../NewBlockMenu/BlockMenu/BlockMenu.tsx (molecules/Popover)",
+  "files": [
+   "pr4-blockmenu-story--closed__mobile.png",
+   "pr4-blockmenu-story--trigger-hover__mobile.png",
+   "pr4-blockmenu-story--open__mobile.png",
+   "pr4-blockmenu-story--open-hover__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the trigger",
+    "ok": true,
+    "detail": "64,64 52x52"
+   },
+   {
+    "step": "visible: the PopoverContent",
+    "ok": true,
+    "detail": "132,64 746x675"
+   },
+   {
+    "step": "Escape: closes it",
+    "ok": true,
+    "detail": "visible=false"
+   },
+   {
+    "step": "visible: the PopoverContent reopened",
+    "ok": true,
+    "detail": "132,64 746x675"
+   },
+   {
+    "step": "an outside click closes it",
+    "ok": true,
+    "detail": "visible=false"
+   }
+  ],
+  "observed": {
+   "trigger in the Tab order": "div role=button tabIndex=-1",
+   "focus after Escape": "button aria-expanded=false \"\""
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr4-savecontrol-story",
+  "viewport": "desktop",
+  "callSite": "build/.../NewSaveControl/NewSaveControl.tsx (molecules/Popover)",
+  "files": [
+   "pr4-savecontrol-story--closed__desktop.png",
+   "pr4-savecontrol-story--trigger-hover__desktop.png",
+   "pr4-savecontrol-story--open__desktop.png",
+   "pr4-savecontrol-story--open-hover__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the trigger",
+    "ok": true,
+    "detail": "64,64 52x52"
+   },
+   {
+    "step": "visible: the PopoverContent",
+    "ok": true,
+    "detail": "131,64 384x244"
+   },
+   {
+    "step": "Escape: closes it",
+    "ok": true,
+    "detail": "visible=false"
+   },
+   {
+    "step": "visible: the PopoverContent reopened",
+    "ok": true,
+    "detail": "131,64 384x244"
+   },
+   {
+    "step": "an outside click closes it",
+    "ok": true,
+    "detail": "visible=false"
+   }
+  ],
+  "observed": {
+   "trigger in the Tab order": "div role=button tabIndex=-1",
+   "focus after Escape": "body"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "pr4-savecontrol-story",
+  "viewport": "mobile",
+  "callSite": "build/.../NewSaveControl/NewSaveControl.tsx (molecules/Popover)",
+  "files": [
+   "pr4-savecontrol-story--closed__mobile.png",
+   "pr4-savecontrol-story--trigger-hover__mobile.png",
+   "pr4-savecontrol-story--open__mobile.png",
+   "pr4-savecontrol-story--open-hover__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the trigger",
+    "ok": true,
+    "detail": "64,64 52x52"
+   },
+   {
+    "step": "visible: the PopoverContent",
+    "ok": true,
+    "detail": "131,64 384x244"
+   },
+   {
+    "step": "Escape: closes it",
+    "ok": true,
+    "detail": "visible=false"
+   },
+   {
+    "step": "visible: the PopoverContent reopened",
+    "ok": true,
+    "detail": "131,64 384x244"
+   },
+   {
+    "step": "an outside click closes it",
+    "ok": true,
+    "detail": "visible=false"
+   }
+  ],
+  "observed": {
+   "trigger in the Tab order": "div role=button tabIndex=-1",
+   "focus after Escape": "body"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-login",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-login--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /login",
+    "ok": true,
+    "detail": "/login"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x900"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-login",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-login--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /login",
+    "ok": true,
+    "detail": "/login"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x844"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-signup",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-signup--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /signup",
+    "ok": true,
+    "detail": "/signup"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x900"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-signup",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-signup--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /signup",
+    "ok": true,
+    "detail": "/signup"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x898"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-reset-password",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-reset-password--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /reset-password",
+    "ok": true,
+    "detail": "/reset-password"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x900"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-reset-password",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-reset-password--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /reset-password",
+    "ok": true,
+    "detail": "/reset-password"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x844"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-marketplace",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-marketplace--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /marketplace",
+    "ok": true,
+    "detail": "/marketplace"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x1058"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-marketplace",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-marketplace--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /marketplace",
+    "ok": true,
+    "detail": "/marketplace"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x1969"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-library_sort_updatedAt",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-library_sort_updatedAt--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /library?sort=updatedAt",
+    "ok": true,
+    "detail": "/library?sort=updatedAt"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x900"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-library_sort_updatedAt",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-library_sort_updatedAt--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /library?sort=updatedAt",
+    "ok": true,
+    "detail": "/library?sort=updatedAt"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x1131"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-home",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-home--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /home",
+    "ok": true,
+    "detail": "/home"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x900"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-home",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-home--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /home",
+    "ok": true,
+    "detail": "/home"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x844"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-team",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-team--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /team",
+    "ok": true,
+    "detail": "/team"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x900"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-team",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-team--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /team",
+    "ok": true,
+    "detail": "/team"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x1082"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-team_autopilot",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-team_autopilot--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /team/autopilot",
+    "ok": true,
+    "detail": "/team/autopilot"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x900"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-team_autopilot",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-team_autopilot--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /team/autopilot",
+    "ok": true,
+    "detail": "/team/autopilot"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x920"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-build",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-build--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /build",
+    "ok": true,
+    "detail": "/build"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x900"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-build",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-build--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /build",
+    "ok": true,
+    "detail": "/build"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x844"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-settings_profile",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-settings_profile--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /settings/profile",
+    "ok": true,
+    "detail": "/settings/profile"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x900"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-settings_profile",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-settings_profile--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /settings/profile",
+    "ok": true,
+    "detail": "/settings/profile"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x844"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-settings_account",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-settings_account--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /settings/account",
+    "ok": true,
+    "detail": "/settings/account"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x900"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-settings_account",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-settings_account--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /settings/account",
+    "ok": true,
+    "detail": "/settings/account"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x844"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-settings_api-keys",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-settings_api-keys--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /settings/api-keys",
+    "ok": true,
+    "detail": "/settings/api-keys"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x900"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-settings_api-keys",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-settings_api-keys--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /settings/api-keys",
+    "ok": true,
+    "detail": "/settings/api-keys"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x844"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-settings_integrations",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-settings_integrations--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /settings/integrations",
+    "ok": true,
+    "detail": "/settings/integrations"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x900"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-settings_integrations",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-settings_integrations--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /settings/integrations",
+    "ok": true,
+    "detail": "/settings/integrations"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x844"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-profile_settings",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-profile_settings--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /profile/settings",
+    "ok": true,
+    "detail": "/profile/settings"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x1176"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-profile_settings",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-profile_settings--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /profile/settings",
+    "ok": true,
+    "detail": "/profile/settings"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x1388"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-marketplace_agent_autogpt_personalized-morning-coffee-newsletter",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-marketplace_agent_autogpt_personalized-morning-coffee-newsletter--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /marketplace/agent/autogpt/personalized-morning-coffee-newsletter",
+    "ok": true,
+    "detail": "/marketplace/agent/autogpt/personalized-morning-coffee-newsletter"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x4617"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-marketplace_agent_autogpt_personalized-morning-coffee-newsletter",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-marketplace_agent_autogpt_personalized-morning-coffee-newsletter--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /marketplace/agent/autogpt/personalized-morning-coffee-newsletter",
+    "ok": true,
+    "detail": "/marketplace/agent/autogpt/personalized-morning-coffee-newsletter"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x2999"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-marketplace_creator_autogpt",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-marketplace_creator_autogpt--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /marketplace/creator/autogpt",
+    "ok": true,
+    "detail": "/marketplace/creator/autogpt"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x3335"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-marketplace_creator_autogpt",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-marketplace_creator_autogpt--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /marketplace/creator/autogpt",
+    "ok": true,
+    "detail": "/marketplace/creator/autogpt"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x1199"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-marketplace_search_searchTerm_newsletter",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-marketplace_search_searchTerm_newsletter--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /marketplace/search?searchTerm=newsletter",
+    "ok": true,
+    "detail": "/marketplace/search?searchTerm=newsletter"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x920"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-marketplace_search_searchTerm_newsletter",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-marketplace_search_searchTerm_newsletter--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /marketplace/search?searchTerm=newsletter",
+    "ok": true,
+    "detail": "/marketplace/search?searchTerm=newsletter"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x940"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-admin_marketplace",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-admin_marketplace--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /admin/marketplace",
+    "ok": true,
+    "detail": "/admin/marketplace"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x900"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-admin_marketplace",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-admin_marketplace--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /admin/marketplace",
+    "ok": true,
+    "detail": "/admin/marketplace"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x844"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-admin_spending",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-admin_spending--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /admin/spending",
+    "ok": true,
+    "detail": "/admin/spending"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x900"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-admin_spending",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-admin_spending--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /admin/spending",
+    "ok": true,
+    "detail": "/admin/spending"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x844"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-admin_diagnostics",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-admin_diagnostics--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /admin/diagnostics",
+    "ok": true,
+    "detail": "/admin/diagnostics"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x900"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-admin_diagnostics",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-admin_diagnostics--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /admin/diagnostics",
+    "ok": true,
+    "detail": "/admin/diagnostics"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x844"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-admin_execution-analytics",
+  "viewport": "desktop",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-admin_execution-analytics--page__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /admin/execution-analytics",
+    "ok": true,
+    "detail": "/admin/execution-analytics"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 1440x900"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-route-admin_execution-analytics",
+  "viewport": "mobile",
+  "callSite": "page sweep (every call site this stack changes that renders on it)",
+  "files": [
+   "sweep-route-admin_execution-analytics--page__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "no redirect: the page is /admin/execution-analytics",
+    "ok": true,
+    "detail": "/admin/execution-analytics"
+   },
+   {
+    "step": "visible: the page",
+    "ok": true,
+    "detail": "0,0 390x844"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-carousel--default",
+  "viewport": "desktop",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-carousel--default",
+  "viewport": "mobile",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-carousel--looping",
+  "viewport": "desktop",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-carousel--looping",
+  "viewport": "mobile",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-carousel--vertical",
+  "viewport": "desktop",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-carousel--vertical",
+  "viewport": "mobile",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-paginationcontrols--first-page",
+  "viewport": "desktop",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-paginationcontrols--first-page",
+  "viewport": "mobile",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-paginationcontrols--middle-page",
+  "viewport": "desktop",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-paginationcontrols--middle-page",
+  "viewport": "mobile",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-paginationcontrols--last-page",
+  "viewport": "desktop",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-paginationcontrols--last-page",
+  "viewport": "mobile",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-paginationcontrols--single-page",
+  "viewport": "desktop",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-paginationcontrols--single-page",
+  "viewport": "mobile",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-atoms-calendar--default",
+  "viewport": "desktop",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-atoms-calendar--default",
+  "viewport": "mobile",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-atoms-calendar--with-selection",
+  "viewport": "desktop",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-atoms-calendar--with-selection",
+  "viewport": "mobile",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-atoms-calendar--range",
+  "viewport": "desktop",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-atoms-calendar--range",
+  "viewport": "mobile",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-atoms-calendar--with-disabled-days",
+  "viewport": "desktop",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-atoms-calendar--with-disabled-days",
+  "viewport": "mobile",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-scrollarea--vertical",
+  "viewport": "desktop",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-scrollarea--vertical",
+  "viewport": "mobile",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-scrollarea--horizontal",
+  "viewport": "desktop",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-scrollarea--horizontal",
+  "viewport": "mobile",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-multiselect--empty",
+  "viewport": "desktop",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-multiselect--empty",
+  "viewport": "mobile",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-multiselect--with-values",
+  "viewport": "desktop",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-multiselect--with-values",
+  "viewport": "mobile",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-multiselect--with-disabled-option",
+  "viewport": "desktop",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-newstory-molecules-multiselect--with-disabled-option",
+  "viewport": "mobile",
+  "callSite": "a story this stack adds",
+  "files": [],
+  "checks": [],
+  "observed": {
+   "story in this commit": "absent"
+  },
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--action-buttons",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--action-buttons--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "464,352 511x196"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--action-buttons",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--action-buttons--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "16,288 358x268"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--all-variants",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--all-variants--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "188,16 1064x1282"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--all-variants",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--all-variants--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "16,16 419x3626"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--contextual-loading-examples",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--contextual-loading-examples--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "86,306 1267x288"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--contextual-loading-examples",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--contextual-loading-examples--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "16,91 358x662"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--destructive",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--destructive--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "626,395 187x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--destructive",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--destructive--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "101,367 187x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--disabled",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--disabled--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "274,395 893x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--disabled",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--disabled--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "16,243 358x358"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--ghost",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--ghost--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "626,395 187x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--ghost",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--ghost--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "101,367 187x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--icon-buttons",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--icon-buttons--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "620,360 200x180"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--icon-buttons",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--icon-buttons--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "95,332 200x180"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--icon-only",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--icon-only--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "667,397 106x106"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--icon-only",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--icon-only--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "142,369 106x106"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--large-buttons",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--large-buttons--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "348,395 744x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--large-buttons",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--large-buttons--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "16,305 358x234"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--link-variant",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--link-variant--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "602,395 235x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--link-variant",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--link-variant--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "77,367 235x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--loading",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--loading--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "626,395 187x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--loading",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--loading--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "101,367 187x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--loading-ghost",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--loading-ghost--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "609,395 223x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--loading-ghost",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--loading-ghost--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "84,367 223x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--loading-link",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--loading-link--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "620,395 200x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--loading-link",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--loading-link--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "95,367 200x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--outline",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--outline--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "623,395 194x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--outline",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--outline--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "98,367 194x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--primary",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--primary--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "622,395 197x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--primary",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--primary--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "97,367 197x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--secondary",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--secondary--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "612,395 217x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--secondary",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--secondary--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "87,367 217x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--small-buttons",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--small-buttons--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "431,400 577x100"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--small-buttons",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--small-buttons--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "16,320 358x204"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--toggle-buttons",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--toggle-buttons--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "528,404 383x92"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--toggle-buttons",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--toggle-buttons--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "16,354 358x136"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--variant-matrix",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--variant-matrix--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "54,16 1333x968"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--variant-matrix",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--variant-matrix--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "16,16 358x3198"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--with-left-icon",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--with-left-icon--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "626,395 187x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--with-left-icon",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--with-left-icon--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "101,367 187x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--with-right-icon",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--with-right-icon--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "626,395 187x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-button--with-right-icon",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-button--with-right-icon--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "101,367 187x110"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-loadingspinner--all-sizes",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-loadingspinner--all-sizes--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "598,386 244x128"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-loadingspinner--all-sizes",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-loadingspinner--all-sizes--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "73,358 244x128"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-loadingspinner--cover",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-loadingspinner--cover--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "688,418 64x64"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-loadingspinner--cover",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-loadingspinner--cover--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "163,390 64x64"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-loadingspinner--custom-color",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-loadingspinner--custom-color--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "676,406 88x88"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-loadingspinner--custom-color",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-loadingspinner--custom-color--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "151,378 88x88"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-loadingspinner--default",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-loadingspinner--default--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "676,406 88x88"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-loadingspinner--default",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-loadingspinner--default--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "151,378 88x88"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-loadingspinner--large",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-loadingspinner--large--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "668,398 104x104"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-loadingspinner--large",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-loadingspinner--large--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "143,370 104x104"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-loadingspinner--small",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-loadingspinner--small--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "680,410 80x80"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-loadingspinner--small",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-loadingspinner--small--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "155,382 80x80"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-text--all-tones",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-text--all-tones--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 1440x1530"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-text--all-tones",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-text--all-tones--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 390x2900"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-text--all-variants",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-text--all-variants--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 1440x1382"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-text--all-variants",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-text--all-variants--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 390x1462"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-text--body-text",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-text--body-text--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 1440x594"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-text--body-text",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-text--body-text--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 390x594"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-text--custom-element",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-text--custom-element--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 1440x158"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-text--custom-element",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-text--custom-element--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 390x158"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-text--headings",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-text--headings--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 1440x376"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-text--headings",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-text--headings--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 390x376"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-text--playground",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-text--playground--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 1440x86"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-text--playground",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-text--playground--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 390x108"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-text--text-roles",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-text--text-roles--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 1440x458"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-text--text-roles",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-text--text-roles--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 390x458"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-text--tones",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-text--tones--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 1440x440"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-atoms-text--tones",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-atoms-text--tones--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 390x462"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-marketplace-categorycolors--experts",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-marketplace-categorycolors--experts--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "16,16 1408x3276"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-marketplace-categorycolors--experts",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-marketplace-categorycolors--experts--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "16,16 358x9656"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-molecules-collapsible--default",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-molecules-collapsible--default--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "617,406 206x88"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-molecules-collapsible--default",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-molecules-collapsible--default--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "92,378 206x88"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-molecules-collapsible--default-open",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-molecules-collapsible--default-open--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "486,374 469x152"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-molecules-collapsible--default-open",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-molecules-collapsible--default-open--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "16,322 358x200"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-molecules-collapsible--multiple-collapsibles",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-molecules-collapsible--multiple-collapsibles--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "496,302 448x296"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-molecules-collapsible--multiple-collapsibles",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-molecules-collapsible--multiple-collapsibles--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "16,274 448x296"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-renderers-formrenderer-array-fields--list-of-enums",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-renderers-formrenderer-array-fields--list-of-enums--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "488,201 464x498"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-renderers-formrenderer-array-fields--list-of-enums",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-renderers-formrenderer-array-fields--list-of-enums--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "16,173 464x498"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-renderers-formrenderer-complex-schemas--multi-select-field",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-renderers-formrenderer-complex-schemas--multi-select-field--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "488,338 464x224"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-renderers-formrenderer-complex-schemas--multi-select-field",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-renderers-formrenderer-complex-schemas--multi-select-field--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "16,310 464x224"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-renderers-formrenderer-primitive-fields--date-field",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-renderers-formrenderer-primitive-fields--date-field--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "488,345 464x210"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-renderers-formrenderer-primitive-fields--date-field",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-renderers-formrenderer-primitive-fields--date-field--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "16,317 464x210"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-renderers-formrenderer-primitive-fields--date-time-field",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-renderers-formrenderer-primitive-fields--date-time-field--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "488,340 464x220"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-renderers-formrenderer-primitive-fields--date-time-field",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-renderers-formrenderer-primitive-fields--date-time-field--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "16,312 464x220"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-tokens-border-radius--all-variants",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-tokens-border-radius--all-variants--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 1440x2026"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-tokens-border-radius--all-variants",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-tokens-border-radius--all-variants--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 390x2720"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-tokens-colors--all-variants",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-tokens-colors--all-variants--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 1440x7132"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-tokens-colors--all-variants",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-tokens-colors--all-variants--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 390x24296"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-tokens-colors--roles",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-tokens-colors--roles--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 1440x2438"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-tokens-colors--roles",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-tokens-colors--roles--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 390x6556"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-tokens-icons--all-variants",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-tokens-icons--all-variants--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 1440x3308"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-tokens-icons--all-variants",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-tokens-icons--all-variants--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 390x5266"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-tokens-spacing--all-variants",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-tokens-spacing--all-variants--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 1440x4232"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-tokens-spacing--all-variants",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-tokens-spacing--all-variants--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 390x4918"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-tokens-text-tokens--all-tokens",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-tokens-text-tokens--all-tokens--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 1440x1792"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-tokens-text-tokens--all-tokens",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-tokens-text-tokens--all-tokens--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 390x3048"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-tokens-typography--all-variants",
+  "viewport": "desktop",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-tokens-typography--all-variants--story__desktop.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 1440x1603"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ },
+ {
+  "id": "sweep-story-tokens-typography--all-variants",
+  "viewport": "mobile",
+  "callSite": "story sweep",
+  "files": [
+   "sweep-story-tokens-typography--all-variants--story__mobile.png"
+  ],
+  "checks": [
+   {
+    "step": "visible: the story",
+    "ok": true,
+    "detail": "0,0 390x2235"
+   }
+  ],
+  "observed": {},
+  "attempts": 1,
+  "ok": true
+ }
+]

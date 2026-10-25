@@ -1,10 +1,18 @@
 {
  "pairs": [
   {
-   "file": "molecules/PaginationControls/PaginationControls.tsx",
+   "file": "molecules/PaginationControls/PaginationControls.tsx (<Text variant=\"body-tight\" tone=\"inherit\" as=span>)",
    "old": "text-sm",
-   "new": "text-body leading-5",
-   "tag": "span"
+   "new": "font-sans text-body font-normal leading-5 text-inherit",
+   "tag": "span",
+   "atomOwnsBase": true
+  },
+  {
+   "file": "molecules/PaginationControls: Previous / Next (<Button variant=\"legacy-outline\">, was the legacy outline Button)",
+   "old": "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 border border-neutral-200 bg-white shadow-sm hover:bg-neutral-100 hover:text-neutral-900 dark:border-neutral-800 dark:bg-neutral-950 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 h-9 px-4 py-2",
+   "new": "inline-flex items-center justify-center whitespace-nowrap rounded-md text-body leading-5 font-medium transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 border border-neutral-200 bg-surface shadow-sm hover:bg-neutral-100 hover:text-neutral-900 dark:border-neutral-800 dark:bg-neutral-950 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 h-9 px-4 py-2",
+   "tag": "button",
+   "atomOwnsBase": true
   }
  ]
 }

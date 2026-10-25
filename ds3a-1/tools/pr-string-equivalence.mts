@@ -41,6 +41,9 @@ interface Pair {
   tag: string | null;
   variant?: string | null;
   extra?: { real: string; oldCls: string; newCls: string }[];
+  // the new string is an atom's whole class list (Text's variant merged with the caller's className): no caller
+  // classes can be merged in front of it, so the generic-base case does not model this element
+  atomOwnsBase?: boolean;
 }
 const allPairs = (JSON.parse(readFileSync(pairsFile, "utf8")).pairs as Pair[]).map(
   (p) => ({ ...p, new: p.new === "(removed)" ? "" : p.new }),
@@ -119,7 +122,7 @@ async function buildCases() {
     for (const e of p.extra ?? []) {
       cases.push({ pair: i, real: e.real, context: `real ${e.real}`, oldCls: e.oldCls, newCls: e.newCls });
     }
-    cases.push({ pair: i, context: "cn(generic base)", oldCls: cn(GENERIC, p.old), newCls: cn(GENERIC, p.new) });
+    if (!p.atomOwnsBase) cases.push({ pair: i, context: "cn(generic base)", oldCls: cn(GENERIC, p.old), newCls: cn(GENERIC, p.new) });
     const extra = companions(p.old);
     if (extra) {
       cases.push({ pair: i, context: `with ${extra}`, oldCls: `${p.old} ${extra}`, newCls: `${p.new} ${extra}` });

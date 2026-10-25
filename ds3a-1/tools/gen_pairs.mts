@@ -3,12 +3,21 @@
 import { writeFileSync } from "node:fs";
 const { cn } = await import("/home/vercel-sandbox/autogpt/autogpt_platform/frontend/src/lib/utils.ts");
 type Extra = { real: string; oldCls: string; newCls: string };
-type P = { file: string; old: string; new: string; tag: string | null; extra?: Extra[] };
+type P = { file: string; old: string; new: string; tag: string | null; extra?: Extra[]; atomOwnsBase?: boolean };
 const out: Record<string, P[]> = {};
 const add = (pr: string, p: P) => (out[pr] ??= []).push(p);
 
 // ---- PR1 pagination-controls
-add("pr1", { file: "molecules/PaginationControls/PaginationControls.tsx", old: "text-sm", new: "text-body leading-5", tag: "span" });
+// Text-first: the label is <Text variant="body" as="span" className="leading-5 text-inherit">, i.e. Text's body classes merged with the override
+const { variants: TEXT, tones: TONES } = await import("/home/vercel-sandbox/autogpt/autogpt_platform/frontend/src/components/atoms/Text/helpers.ts");
+add("pr1", { file: "molecules/PaginationControls/PaginationControls.tsx (<Text variant=\"body-tight\" tone=\"inherit\" as=span>)", old: "text-sm", new: cn(TEXT["body-tight"], TONES.inherit), tag: "span", atomOwnsBase: true });
+
+// ---- PR1 pagination buttons: legacy outline Button -> atoms/Button variant="legacy-outline" (DS3a-3 #16092's strings)
+{
+  const { buttonVariants: LEGACY_BTN } = await import("/home/vercel-sandbox/autogpt/autogpt_platform/frontend/src/components/__legacy__/ui/button.tsx");
+  const { legacyButtonVariants } = await import("/home/vercel-sandbox/autogpt/autogpt_platform/frontend/src/components/atoms/Button/helpers.ts");
+  add("pr1", { file: "molecules/PaginationControls: Previous / Next (<Button variant=\"legacy-outline\">, was the legacy outline Button)", old: cn(LEGACY_BTN({ variant: "outline", size: "default" })), new: cn(legacyButtonVariants({ variant: "legacy-outline", size: "legacy-default" })), tag: "button", atomOwnsBase: true });
+}
 
 // ---- PR2 calendar
 const GHOST = "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 hover:bg-neutral-100 hover:text-neutral-900 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 h-9 px-4 py-2";
@@ -54,10 +63,21 @@ const TR_OLD = "agpt-border-input agpt-shadow-input flex flex-wrap gap-1 rounded
 const TR_NEW = "agpt-border-input agpt-shadow-input flex flex-wrap gap-1 rounded-lg bg-background px-3 py-2 pl-1 text-body leading-5";
 add("pr3", { file: "MultiSelect/MultiSelect.tsx", old: TR_OLD, new: TR_NEW, tag: null, extra: [
   { real: "<MultiSelectorTrigger> (MultiSelectField)", oldCls: cn(TR_OLD, "rounded-3xl border border-border-base bg-surface px-2 shadow-none"), newCls: cn(TR_NEW, "rounded-3xl border border-border-base bg-surface px-2 shadow-none") }] });
-add("pr3", { file: "MultiSelect/MultiSelect.tsx", old: "text-xs", new: "text-caption leading-4", tag: "span" });
+add("pr3", { file: "MultiSelect/MultiSelect.tsx (<Text variant=\"small-semibold-tight\" tone=\"inherit\" as=span>; the old span's font-semibold is the weight it inherited from the legacy Badge)", old: "text-xs font-semibold", new: cn(TEXT["small-semibold-tight"], TONES.inherit), tag: "span", atomOwnsBase: true });
 const LIST = "absolute top-0 z-10 flex w-full flex-col gap-2 rounded-md border border-muted bg-background p-2 shadow-md transition-colors scrollbar-thin scrollbar-track-transparent scrollbar-thumb-muted-foreground scrollbar-thumb-rounded-lg";
 add("pr3", { file: "MultiSelect/MultiSelect.tsx", old: `${LIST} dark:scrollbar-thumb-muted`, new: LIST, tag: null, extra: [
   { real: "<CommandList> under <MultiSelectorList>", oldCls: cn("max-h-[300px] overflow-y-auto overflow-x-hidden", cn(`${LIST} dark:scrollbar-thumb-muted`, undefined)), newCls: cn("max-h-[300px] overflow-y-auto overflow-x-hidden", cn(LIST, undefined)) }] });
+
+// ---- PR3 multiselect chips: legacy secondary Badge -> atoms/Badge variant="secondary" (DS3a-2 #16118's chip strings)
+{
+  const { badgeVariants: LEGACY_BADGE } = await import("/home/vercel-sandbox/autogpt/autogpt_platform/frontend/src/components/__legacy__/ui/badge.tsx");
+  const src = (await import("node:fs")).readFileSync("/home/vercel-sandbox/autogpt/autogpt_platform/frontend/src/components/atoms/Badge/Badge.tsx", "utf8");
+  const chipBase = src.match(/const chipBase =\s*"([^"]+)"/)![1];
+  const chipSecondary = src.match(/secondary: "([^"]+)"/)![1];
+  const CHIP_CLS = "flex items-center gap-1 rounded-xl px-1 pl-2";
+  add("pr3", { file: "molecules/MultiSelect chip (<Badge variant=\"secondary\">, was the legacy secondary Badge), with the chip's own className", old: cn(LEGACY_BADGE({ variant: "secondary" }), CHIP_CLS), new: cn(chipBase, chipSecondary, CHIP_CLS), tag: "div", atomOwnsBase: true });
+  add("pr3", { file: "the same chip, highlighted (activeIndex)", old: cn(LEGACY_BADGE({ variant: "secondary" }), CHIP_CLS, "ring-2 ring-muted-foreground"), new: cn(chipBase, chipSecondary, CHIP_CLS, "ring-2 ring-muted-foreground"), tag: "div", atomOwnsBase: true });
+}
 
 // ---- PR4 popover
 const POP_OLD = "z-50 w-72 rounded-medium border border-neutral-200 bg-white p-4 text-neutral-950 shadow-md outline-none data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50";

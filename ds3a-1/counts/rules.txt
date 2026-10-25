@@ -1,74 +1,39 @@
 ### PR1
-== 0d5ac323f
+== 4bf85fe86
      22 shadcn(no-restyle)]
      11 shadcn(no-raw-colors)]
-      1 shadcn(no-arbitrary-values)]
-== f024901e3
+      6 shadcn(no-arbitrary-values)]
+== c556d84da
+     30 shadcn(no-raw-colors)]
      24 shadcn(no-restyle)]
-      7 shadcn(no-raw-colors)]
+      5 shadcn(no-arbitrary-values)]
 ### PR2
-== f024901e3
+== c556d84da
     104 shadcn(no-raw-colors)]
-     33 shadcn(no-restyle)]
+     38 shadcn(no-restyle)]
       6 shadcn(no-arbitrary-values)]
       2 shadcn(require-static-classes)]
-== e529500de
+== 764069394
      88 shadcn(no-raw-colors)]
-     31 shadcn(no-restyle)]
+     36 shadcn(no-restyle)]
       9 shadcn(no-arbitrary-values)]
       2 shadcn(require-static-classes)]
       2 shadcn(no-inline-styles)]
 ### PR3
-== e529500de
+== 764069394
      19 shadcn(no-raw-colors)]
       1 shadcn(require-static-classes)]
       1 shadcn(no-restyle)]
-== d45ba7cbe
+== 847cb297f
       8 shadcn(no-restyle)]
       3 shadcn(no-raw-colors)]
       1 shadcn(require-static-classes)]
 ### PR4
-== d45ba7cbe
+== 847cb297f
      11 shadcn(no-raw-colors)]
       3 shadcn(no-restyle)]
       1 shadcn(no-arbitrary-values)]
-== 1ec2c4fba
+== af15a0446
      14 shadcn(no-raw-colors)]
      12 shadcn(no-restyle)]
       1 shadcn(no-arbitrary-values)]
-### PR5
-== 1ec2c4fba
-    140 shadcn(no-raw-colors)]
-     62 shadcn(no-restyle)]
-== caa5c8e90
-    138 shadcn(no-raw-colors)]
-     97 shadcn(no-restyle)]
-### PR6
-== caa5c8e90
-     78 shadcn(no-raw-colors)]
-      7 shadcn(no-arbitrary-values)]
-      5 shadcn(no-restyle)]
-== dedeb3ae9
-     78 shadcn(no-raw-colors)]
-     17 shadcn(no-restyle)]
-      7 shadcn(no-arbitrary-values)]
-### PR7
-== dedeb3ae9
-     47 shadcn(no-raw-colors)]
-      2 shadcn(no-inline-styles)]
-      2 shadcn(no-arbitrary-values)]
-      1 shadcn(no-restyle)]
-== e30a62786
-     45 shadcn(no-raw-colors)]
-      8 shadcn(no-restyle)]
-      2 shadcn(no-inline-styles)]
-      2 shadcn(no-arbitrary-values)]
-### PR8
-== e30a62786
-     23 shadcn(no-raw-colors)]
-     19 shadcn(no-restyle)]
-     14 shadcn(no-arbitrary-values)]
-== 88d8ad6de
-     26 shadcn(no-restyle)]
-     22 shadcn(no-raw-colors)]
-     14 shadcn(no-arbitrary-values)]
