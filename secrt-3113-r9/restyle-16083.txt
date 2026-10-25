@@ -1,0 +1,25 @@
+src/components/ai-elements/prompt-input.tsx:263:9: "text-body-lg" on <InputGroupTextarea>: <InputGroupTextarea> owns its color
+src/components/ai-elements/prompt-input.tsx:263:9: "leading-6" on <InputGroupTextarea>: <InputGroupTextarea> owns its typography
+src/components/ai-elements/prompt-input.tsx:263:9: "md:text-body-lg" on <InputGroupTextarea>: <InputGroupTextarea> owns its color
+src/components/ai-elements/prompt-input.tsx:263:9: "md:leading-6" on <InputGroupTextarea>: <InputGroupTextarea> owns its typography
+src/components/ai-elements/prompt-input.tsx:381:9: "rounded-full" on <InputGroupButton>: <InputGroupButton> owns its shape
+src/components/ai-elements/prompt-input.tsx:381:9: "border-action" on <InputGroupButton>: <InputGroupButton> owns its color
+src/components/ai-elements/prompt-input.tsx:381:9: "bg-action" on <InputGroupButton>: <InputGroupButton> owns its color
+src/components/ai-elements/prompt-input.tsx:381:9: "text-action-foreground" on <InputGroupButton>: <InputGroupButton> owns its color
+src/components/ai-elements/prompt-input.tsx:381:9: "hover:border-action-hover" on <InputGroupButton>: <InputGroupButton> owns its color
+src/components/ai-elements/prompt-input.tsx:381:9: "hover:bg-action-hover" on <InputGroupButton>: <InputGroupButton> owns its color
+src/components/ai-elements/prompt-input.tsx:381:9: "disabled:border-border-base" on <InputGroupButton>: <InputGroupButton> owns its color
+src/components/ai-elements/prompt-input.tsx:381:9: "disabled:bg-surface-active" on <InputGroupButton>: <InputGroupButton> owns its color
+src/components/ai-elements/prompt-input.tsx:381:9: "disabled:text-action-foreground" on <InputGroupButton>: <InputGroupButton> owns its color
+src/components/ai-elements/prompt-input.tsx:381:9: "disabled:opacity-100" on <InputGroupButton>: <InputGroupButton> owns its effects
+src/components/ai-elements/message.tsx:244:9: "[&>*:not(:first-child)]:rounded-l-md" on <ButtonGroup>: <ButtonGroup> owns its shape
+src/components/ai-elements/message.tsx:244:9: "[&>*:not(:last-child)]:rounded-r-md" on <ButtonGroup>: <ButtonGroup> owns its shape
+src/components/ai-elements/message.tsx:311:9: "border-none" on <ButtonGroupText>: <ButtonGroupText> owns its shape
+src/components/ai-elements/message.tsx:311:9: "bg-transparent" on <ButtonGroupText>: <ButtonGroupText> owns its color
+src/components/ai-elements/message.tsx:311:9: "text-neutral-500" on <ButtonGroupText>: <ButtonGroupText> owns its color
+src/components/ai-elements/message.tsx:311:9: "shadow-none" on <ButtonGroupText>: <ButtonGroupText> owns its effects
+src/components/ai-elements/message.tsx:356:21: "rounded-md" on <Text>: <Text> owns its shape
+src/components/ai-elements/message.tsx:356:21: "bg-neutral-100" on <Text>: <Text> owns its color
+src/components/ai-elements/message.tsx:356:21: Use a Text size: . Margin here or gap on the parent for space around it. See docs/engineering/design-system.md. [Error/shadcn(no-restyle)]
+src/components/ai-elements/conversation.tsx:75:57: "text-neutral-500" on <Text>: <Text> owns its color
+src/components/ai-elements/conversation.tsx:101:11: "rounded-full" on <Button>: <Button> owns its shape

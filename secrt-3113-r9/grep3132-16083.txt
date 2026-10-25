@@ -1,0 +1,10 @@
+$ git diff -U0 0d5ac323f f22a4b034 -- 'autogpt_platform/frontend/src/**/*.tsx' | grep '^+' | <join each added JSX element> | rule 32: <Text … className="…(text-(tiny|caption-sm|caption|body-sm|body-md|body-lg|body|lead|heading-sm|heading|title|display|xs|sm|base|lg|[0-9]?xl|\[[0-9.]+(px|rem)\])|leading-[a-z0-9\[]|font-(thin|extralight|light|normal|medium|semibold|bold|extrabold|black|sans|mono|poppins)|tracking-|uppercase)…">
+rule 32 hits: 0
+rule 31 hits: 0
+rule 31 (any added string literal outside <Text>, incl. cn() arguments):
+   src/components/ai-elements/message.tsx: leading-5 text-body
+   src/components/ai-elements/message.tsx: [&_table]:leading-i [&_table]:text-body-sm
+   src/components/ai-elements/message.tsx: [&_table_td]:text-body-sm [&_table_td_code]:leading-5 [&_table_td_code]:text-caption [&_table_th]:leading-5 [&_table_th]:text-caption-sm
+   src/components/ai-elements/message.tsx: [&_th]:font-medium [&_th]:tracking- [&_th]:uppercase
+   src/components/ai-elements/message.tsx: [&_td_strong]:font-medium
+   src/components/ai-elements/prompt-input.tsx: leading-6 md:leading-6 md:text-body-lg text-body-lg

@@ -1,0 +1,28 @@
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > src/app/(platform)/copilot/useChatSession.ts
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > src/app/(platform)/copilot/useCopilotPage.ts
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > src/app/(platform)/copilot/useCopilotRuntimeStream.ts
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > src/app/(platform)/copilot/useCopilotPendingChips.ts
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > src/app/(platform)/copilot/components/ChatContainer/ChatContainer.tsx
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > src/app/(platform)/copilot/components/ChatInput/useVoiceRecording.ts
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > src/app/(platform)/copilot/components/ChatMessagesContainer/ChatMessagesContainer.tsx
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > src/app/(platform)/copilot/components/ChatMessagesContainer/components/PendingAnswerContexts.tsx
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > src/app/(platform)/copilot/components/ChatMessagesContainer/components/useTTSButton.ts
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > src/app/(platform)/copilot/components/ChatMessagesContainer/components/MessagePartRenderer.tsx
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > src/app/(platform)/copilot/components/ContextPanel/components/FilesTab/useSessionFiles.ts
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > src/app/(platform)/copilot/components/CopilotChatActionsProvider/CopilotChatActionsProvider.tsx
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > src/app/(platform)/copilot/components/CopilotPendingReviews/CopilotPendingReviews.tsx
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > src/app/(platform)/copilot/components/SetupRequirementsCard/SetupRequirementsCard.tsx
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > src/app/(platform)/copilot/components/WorkspaceFileCards/useExpertDocuments.ts
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > src/app/(platform)/copilot/components/WorkspaceFileCards/useSessionActivity.ts
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > <Conversation>
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler-caching.test.ts > React Compiler caching in the copilot > <PromptInput>
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler.test.ts > React Compiler on the copilot > compiles every copilot component and hook
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler.test.ts > React Compiler on the copilot > still reports the expected bailouts, so stale entries get removed
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler.test.ts > React Compiler on the copilot > memoises the page and stream hooks
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler.test.ts > React Compiler on the copilot > only imports React APIs the React that Next ships has
+ ✓ src/app/(platform)/copilot/__tests__/react-compiler.test.ts > React Compiler on the copilot > leaves files outside the copilot uncompiled
+ ✓ src/reactCompilerCoverage.test.ts > React Compiler coverage > finds the compiled folders
+ ✓ src/reactCompilerCoverage.test.ts > React Compiler coverage > reports no bailout that is not in KNOWN_BAILOUTS
+ ✓ src/reactCompilerCoverage.test.ts > React Compiler coverage > lists only bailouts that still happen, so the list can only shrink
+ ✓ src/reactCompilerCoverage.test.ts > React Compiler coverage > catches a try/finally that lint does not flag
+      Tests  27 passed (27)

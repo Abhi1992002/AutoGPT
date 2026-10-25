@@ -1,0 +1,394 @@
+[
+  {
+    "viewport": "desktop",
+    "step": "Enter on the link opens the dialog",
+    "expected": "dialog visible",
+    "actual": "dialog visible",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "focus moves into the dialog on open",
+    "expected": "focus inside dialog",
+    "actual": "button[aria-label=Close] (inside)",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "Tab 1 inside the open dialog",
+    "expected": "focus stays inside dialog",
+    "actual": "button \"Cancel\" (inside)",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "Tab 2 inside the open dialog",
+    "expected": "focus stays inside dialog",
+    "actual": "button \"Open link\" (inside)",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "Tab 3 inside the open dialog",
+    "expected": "focus stays inside dialog",
+    "actual": "button[aria-label=Close] (inside)",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "Tab 4 inside the open dialog",
+    "expected": "focus stays inside dialog",
+    "actual": "button \"Cancel\" (inside)",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "Esc closes the dialog",
+    "expected": "dialog hidden",
+    "actual": "dialog hidden",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "focus returns to the trigger after Esc",
+    "expected": "button[data-streamdown=link] \"link to the docs\"",
+    "actual": "body",
+    "pass": false
+  },
+  {
+    "viewport": "desktop",
+    "step": "composer textarea focused",
+    "expected": "textarea[aria-label=Chat message input]",
+    "actual": "textarea[aria-label=Chat message input]",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "Tab from the textarea reaches Submit within 3 presses",
+    "expected": "button[aria-label=Submit] focused",
+    "actual": "button[aria-label=Submit]",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "Submit shows focus-visible when reached by keyboard",
+    "expected": ":focus-visible",
+    "actual": ":focus-visible",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "chatinput-default: Shift+Tab then Tab returns to Submit",
+    "expected": "button \"Submit\" focused",
+    "actual": "button[aria-label=Submit]",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "chatinput-reset: Shift+Tab then Tab returns to Send at reset",
+    "expected": "button \"Send at reset\" focused",
+    "actual": "button[aria-label=Send at reset] \"Send at reset\"",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "chatinput-compact: Shift+Tab then Tab returns to Submit",
+    "expected": "button \"Submit\" focused",
+    "actual": "button[aria-label=Submit]",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "action group: Tab 0 lands on Previous branch with focus-visible",
+    "expected": "Previous branch focused, :focus-visible",
+    "actual": "button[aria-label=Previous branch] :focus-visible",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "action group: Tab 1 lands on Next branch with focus-visible",
+    "expected": "Next branch focused, :focus-visible",
+    "actual": "button[aria-label=Next branch] :focus-visible",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "action group: Tab 2 lands on Retry with focus-visible",
+    "expected": "Retry focused, :focus-visible",
+    "actual": "button \"↻ Retry\" :focus-visible",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "action group: Tab 3 lands on Copy with focus-visible",
+    "expected": "Copy focused, :focus-visible",
+    "actual": "button \"Copy\" :focus-visible",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "action group: Tab 4 lands on Read aloud with focus-visible",
+    "expected": "Read aloud focused, :focus-visible",
+    "actual": "button \"Read aloud\" :focus-visible",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "sheet: focus moves into the sheet on open",
+    "expected": "focus inside sheet",
+    "actual": "button \"Close\" (inside)",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "sheet: Esc closes it",
+    "expected": "sheet hidden",
+    "actual": "sheet hidden",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "sheet: focus returns to the trigger",
+    "expected": "button \"Open work output\"",
+    "actual": "body",
+    "pass": false
+  },
+  {
+    "viewport": "desktop",
+    "step": "prompt-input: StopButton is disabled before it arms (t < 1s)",
+    "expected": "disabled",
+    "actual": "disabled",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "prompt-input: StopButton is enabled after 1s",
+    "expected": "enabled",
+    "actual": "enabled",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "chatinput-streaming: StopButton is disabled before it arms (t < 1s)",
+    "expected": "disabled",
+    "actual": "disabled",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "chatinput-streaming: StopButton is enabled after 1s",
+    "expected": "enabled",
+    "actual": "enabled",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "story: Esc closes the dialog",
+    "expected": "dialog hidden",
+    "actual": "dialog hidden",
+    "pass": true
+  },
+  {
+    "viewport": "desktop",
+    "step": "story: focus returns to the trigger",
+    "expected": "button[data-streamdown=link] \"Example Site\"",
+    "actual": "body",
+    "pass": false
+  },
+  {
+    "viewport": "mobile",
+    "step": "Enter on the link opens the dialog",
+    "expected": "dialog visible",
+    "actual": "dialog visible",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "focus moves into the dialog on open",
+    "expected": "focus inside dialog",
+    "actual": "button[data-streamdown=link] \"link to the docs\" (outside)",
+    "pass": false
+  },
+  {
+    "viewport": "mobile",
+    "step": "Tab 1 inside the open dialog",
+    "expected": "focus stays inside dialog",
+    "actual": "button[data-streamdown=link] \"settings\" (outside)",
+    "pass": false
+  },
+  {
+    "viewport": "mobile",
+    "step": "Tab 2 inside the open dialog",
+    "expected": "focus stays inside dialog",
+    "actual": "button[data-streamdown=code-block-download-button] (outside)",
+    "pass": false
+  },
+  {
+    "viewport": "mobile",
+    "step": "Tab 3 inside the open dialog",
+    "expected": "focus stays inside dialog",
+    "actual": "button[data-streamdown=code-block-copy-button] (outside)",
+    "pass": false
+  },
+  {
+    "viewport": "mobile",
+    "step": "Tab 4 inside the open dialog",
+    "expected": "focus stays inside dialog",
+    "actual": "pre[data-streamdown=code-block-body] \"def total(turns): return sum(t\" (outside)",
+    "pass": false
+  },
+  {
+    "viewport": "mobile",
+    "step": "Esc closes the dialog",
+    "expected": "dialog hidden",
+    "actual": "dialog hidden",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "focus returns to the trigger after Esc",
+    "expected": "button[data-streamdown=link] \"link to the docs\"",
+    "actual": "pre[data-streamdown=code-block-body] \"def total(turns): return sum(t\"",
+    "pass": false
+  },
+  {
+    "viewport": "mobile",
+    "step": "composer textarea focused",
+    "expected": "textarea[aria-label=Chat message input]",
+    "actual": "textarea[aria-label=Chat message input]",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "Tab from the textarea reaches Submit within 3 presses",
+    "expected": "button[aria-label=Submit] focused",
+    "actual": "button[aria-label=Submit]",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "Submit shows focus-visible when reached by keyboard",
+    "expected": ":focus-visible",
+    "actual": ":focus-visible",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "chatinput-default: Shift+Tab then Tab returns to Submit",
+    "expected": "button \"Submit\" focused",
+    "actual": "button[aria-label=Submit]",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "chatinput-reset: Shift+Tab then Tab returns to Send at reset",
+    "expected": "button \"Send at reset\" focused",
+    "actual": "button[aria-label=Send at reset] \"Send at reset\"",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "chatinput-compact: Shift+Tab then Tab returns to Submit",
+    "expected": "button \"Submit\" focused",
+    "actual": "button[aria-label=Submit]",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "action group: Tab 0 lands on Previous branch with focus-visible",
+    "expected": "Previous branch focused, :focus-visible",
+    "actual": "button[aria-label=Previous branch] :focus-visible",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "action group: Tab 1 lands on Next branch with focus-visible",
+    "expected": "Next branch focused, :focus-visible",
+    "actual": "button[aria-label=Next branch] :focus-visible",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "action group: Tab 2 lands on Retry with focus-visible",
+    "expected": "Retry focused, :focus-visible",
+    "actual": "button \"↻ Retry\" :focus-visible",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "action group: Tab 3 lands on Copy with focus-visible",
+    "expected": "Copy focused, :focus-visible",
+    "actual": "button \"Copy\" :focus-visible",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "action group: Tab 4 lands on Read aloud with focus-visible",
+    "expected": "Read aloud focused, :focus-visible",
+    "actual": "button \"Read aloud\" :focus-visible",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "sheet: focus moves into the sheet on open",
+    "expected": "focus inside sheet",
+    "actual": "button \"Close\" (inside)",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "sheet: Esc closes it",
+    "expected": "sheet hidden",
+    "actual": "sheet hidden",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "sheet: focus returns to the trigger",
+    "expected": "button \"Open work output\"",
+    "actual": "body",
+    "pass": false
+  },
+  {
+    "viewport": "mobile",
+    "step": "prompt-input: StopButton is disabled before it arms (t < 1s)",
+    "expected": "disabled",
+    "actual": "disabled",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "prompt-input: StopButton is enabled after 1s",
+    "expected": "enabled",
+    "actual": "enabled",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "chatinput-streaming: StopButton is disabled before it arms (t < 1s)",
+    "expected": "disabled",
+    "actual": "disabled",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "chatinput-streaming: StopButton is enabled after 1s",
+    "expected": "enabled",
+    "actual": "enabled",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "story: Esc closes the dialog",
+    "expected": "dialog hidden",
+    "actual": "dialog hidden",
+    "pass": true
+  },
+  {
+    "viewport": "mobile",
+    "step": "story: focus returns to the trigger",
+    "expected": "button[data-streamdown=link] \"Example Site\"",
+    "actual": "button[data-streamdown=link] \"Example Site\"",
+    "pass": true
+  }
+]

@@ -1,0 +1,4 @@
+src/components/ai-elements/message.tsx:451:        // line-height their own text-sm gives them.
+src/components/atoms/Text/helpers.ts:38:  // TODO(tokens): no role is 0.875rem/1.25rem (text-sm); body plus leading-5.
+src/components/atoms/Text/helpers.ts:41:  // TODO(tokens): no role is 0.875rem/1.25rem (text-sm); body plus leading-5.
+src/components/atoms/Text/helpers.ts:50:    "font-sans text-[0.6785rem] font-medium uppercase leading-5 tracking-[0.06785rem] text-foreground-base",

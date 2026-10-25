@@ -1,0 +1,12 @@
+src/components/organisms/Conversation/Conversation.tsx:68:33: "text-neutral-500" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+src/components/organisms/Conversation/Conversation.tsx:75:57: "text-neutral-500" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+src/components/organisms/Message/Message.tsx:60:7: "group-[.is-user]:bg-neutral-100" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+src/components/organisms/Message/Message.tsx:60:7: "group-[.is-user]:text-neutral-950" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+src/components/organisms/Message/Message.tsx:61:7: "group-[.is-assistant]:text-neutral-950" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+src/components/organisms/Message/Message.tsx:311:9: "text-neutral-500" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+src/components/organisms/Message/Message.tsx:356:21: "bg-neutral-100" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+src/components/organisms/Message/Message.tsx:454:9: "[&_th]:text-indigo-950/70" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+src/components/organisms/Message/components/ButtonGroup.tsx:52:9: "border-neutral-200" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+src/components/organisms/Message/components/ButtonGroup.tsx:52:9: "bg-neutral-100" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+
+10 problems

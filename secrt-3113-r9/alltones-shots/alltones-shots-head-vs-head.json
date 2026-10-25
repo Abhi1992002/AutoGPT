@@ -1,0 +1,20 @@
+{
+ "desktop": {
+  "baseEntries": 232,
+  "headEntries": 232,
+  "inPlaceAtZero": 232,
+  "isolatedAtZero": 232,
+  "isolatedNonZero": [],
+  "inPlaceNonZeroWithPositions": [],
+  "added": []
+ },
+ "mobile": {
+  "baseEntries": 232,
+  "headEntries": 232,
+  "inPlaceAtZero": 232,
+  "isolatedAtZero": 232,
+  "isolatedNonZero": [],
+  "inPlaceNonZeroWithPositions": [],
+  "added": []
+ }
+}

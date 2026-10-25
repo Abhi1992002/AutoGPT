@@ -1,0 +1,20 @@
+sign-in 200
+same  /marketplace -> /marketplace (HTTP 200)
+REDIRECT /library -> /library?sort=updatedAt (HTTP 200)
+same  /home -> /home (HTTP 200)
+REDIRECT /copilot -> /home (HTTP 200)
+same  /team -> /team (HTTP 200)
+same  /team/autopilot -> /team/autopilot (HTTP 200)
+same  /build -> /build (HTTP 200)
+same  /settings/profile -> /settings/profile (HTTP 200)
+same  /settings/account -> /settings/account (HTTP 200)
+same  /settings/api-keys -> /settings/api-keys (HTTP 200)
+same  /settings/integrations -> /settings/integrations (HTTP 200)
+same  /copilot/styleguide -> /copilot/styleguide (HTTP 200)
+same  /tour/chat -> /tour/chat (HTTP 200)
+same  /ds3b3-harness -> /ds3b3-harness (HTTP 200)
+REDIRECT /copilot?sessionId=5eed7113-0000-4000-8000-000000000001 -> /home?sessionId=5eed7113-0000-4000-8000-000000000001 (HTTP 200)
+REDIRECT /copilot?sessionId=5eed7113-0000-4000-8000-000000000002 -> /home?sessionId=5eed7113-0000-4000-8000-000000000002 (HTTP 200)
+public same  /login -> /login
+public same  /signup -> /signup
+public same  /reset-password -> /reset-password

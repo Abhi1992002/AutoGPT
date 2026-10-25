@@ -1,0 +1,87 @@
+{
+  "allowlistEntries": 10,
+  "misses": 10,
+  "blocking": 0,
+  "gate": [
+    {
+      "viewport": "desktop",
+      "step": "focus returns to the trigger after Esc",
+      "expected": "button[data-streamdown=link] \"link to the docs\"",
+      "actual": "body",
+      "pass": false,
+      "verdict": "pre-existing, equal to base"
+    },
+    {
+      "viewport": "desktop",
+      "step": "sheet: focus returns to the trigger",
+      "expected": "button \"Open work output\"",
+      "actual": "body",
+      "pass": false,
+      "verdict": "pre-existing, equal to base"
+    },
+    {
+      "viewport": "desktop",
+      "step": "story: focus returns to the trigger",
+      "expected": "button[data-streamdown=link] \"Example Site\"",
+      "actual": "body",
+      "pass": false,
+      "verdict": "pre-existing, equal to base"
+    },
+    {
+      "viewport": "mobile",
+      "step": "focus moves into the dialog on open",
+      "expected": "focus inside dialog",
+      "actual": "button[data-streamdown=link] \"link to the docs\" (outside)",
+      "pass": false,
+      "verdict": "pre-existing, equal to base"
+    },
+    {
+      "viewport": "mobile",
+      "step": "Tab 1 inside the open dialog",
+      "expected": "focus stays inside dialog",
+      "actual": "button[data-streamdown=link] \"settings\" (outside)",
+      "pass": false,
+      "verdict": "pre-existing, equal to base"
+    },
+    {
+      "viewport": "mobile",
+      "step": "Tab 2 inside the open dialog",
+      "expected": "focus stays inside dialog",
+      "actual": "button[data-streamdown=code-block-download-button] (outside)",
+      "pass": false,
+      "verdict": "pre-existing, equal to base"
+    },
+    {
+      "viewport": "mobile",
+      "step": "Tab 3 inside the open dialog",
+      "expected": "focus stays inside dialog",
+      "actual": "button[data-streamdown=code-block-copy-button] (outside)",
+      "pass": false,
+      "verdict": "pre-existing, equal to base"
+    },
+    {
+      "viewport": "mobile",
+      "step": "Tab 4 inside the open dialog",
+      "expected": "focus stays inside dialog",
+      "actual": "pre[data-streamdown=code-block-body] \"def total(turns): return sum(t\" (outside)",
+      "pass": false,
+      "verdict": "pre-existing, equal to base"
+    },
+    {
+      "viewport": "mobile",
+      "step": "focus returns to the trigger after Esc",
+      "expected": "button[data-streamdown=link] \"link to the docs\"",
+      "actual": "pre[data-streamdown=code-block-body] \"def total(turns): return sum(t\"",
+      "pass": false,
+      "verdict": "pre-existing, equal to base"
+    },
+    {
+      "viewport": "mobile",
+      "step": "sheet: focus returns to the trigger",
+      "expected": "button \"Open work output\"",
+      "actual": "body",
+      "pass": false,
+      "verdict": "pre-existing, equal to base"
+    }
+  ]
+}

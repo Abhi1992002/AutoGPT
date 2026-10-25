@@ -1,0 +1,922 @@
+[
+  {
+    "file": "session-rest-send-disabled__desktop.png",
+    "callSites": [
+      "ChatMessagesContainer",
+      "MessageRow",
+      "MessageContent",
+      "MessageResponse",
+      "MessageTable",
+      "PromptInputTextarea",
+      "PromptInputSubmit (disabled)"
+    ],
+    "asserted": "Submit button visible (disabled, empty composer)"
+  },
+  {
+    "file": "link-dialog-open__desktop.png",
+    "callSites": [
+      "MessageResponse ExternalLinkModal"
+    ],
+    "asserted": "dialog 'Open external link' visible"
+  },
+  {
+    "file": "link-dialog-closed__desktop.png",
+    "callSites": [
+      "MessageResponse ExternalLinkModal"
+    ],
+    "asserted": "trigger link visible, dialog closed"
+  },
+  {
+    "file": "table-row-hover__desktop.png",
+    "callSites": [
+      "MessageResponse table classes",
+      "MessageTable"
+    ],
+    "asserted": "first body row hovered"
+  },
+  {
+    "file": "copy-tooltip-open__desktop.png",
+    "callSites": [
+      "AssistantRowActions (owned)",
+      "AssistantMessageActions",
+      "CopyButton",
+      "MessageAction"
+    ],
+    "asserted": "tooltip 'Copy' visible"
+  },
+  {
+    "file": "composer-typed-send-enabled__desktop.png",
+    "callSites": [
+      "PromptInputTextarea",
+      "PromptInputSubmit (enabled)"
+    ],
+    "asserted": "Submit visible and enabled"
+  },
+  {
+    "file": "send-hover__desktop.png",
+    "callSites": [
+      "PromptInputSubmit hover:bg-action-hover"
+    ],
+    "asserted": "Submit hovered"
+  },
+  {
+    "file": "send-active__desktop.png",
+    "callSites": [
+      "PromptInputSubmit :active"
+    ],
+    "asserted": "Submit pressed (pointer down)"
+  },
+  {
+    "file": "send-focus-visible__desktop.png",
+    "callSites": [
+      "PromptInputSubmit focus-visible ring"
+    ],
+    "asserted": "Submit focused by keyboard"
+  },
+  {
+    "file": "tour-chat__desktop.png",
+    "callSites": [
+      "TourMessageList: Conversation, ConversationContent, Message, MessageContent"
+    ],
+    "asserted": "conversation log visible (unmodified page, Math.random seeded)"
+  },
+  {
+    "file": "harness-cmc-owned__desktop.png",
+    "callSites": [
+      "ChatMessagesContainer queued row (default)",
+      "MessageRow",
+      "AssistantRowActions (owned)",
+      "UserRowActions",
+      "MessageContent"
+    ],
+    "asserted": "Queued badge row visible"
+  },
+  {
+    "file": "harness-cmc-owned-row-hover__desktop.png",
+    "callSites": [
+      "AssistantRowActions (owned) hover reveal"
+    ],
+    "asserted": "non-last assistant row actions revealed on hover"
+  },
+  {
+    "file": "harness-cmc-owned-compact__desktop.png",
+    "callSites": [
+      "ChatMessagesContainer queued row (compact)"
+    ],
+    "asserted": "compact Queued row visible"
+  },
+  {
+    "file": "harness-cmc-readonly__desktop.png",
+    "callSites": [
+      "AssistantRowActions (readOnly): MessageActions + CopyButton"
+    ],
+    "asserted": "read-only Copy action on the last assistant row"
+  },
+  {
+    "file": "harness-cmc-readonly-row-hover__desktop.png",
+    "callSites": [
+      "AssistantRowActions (readOnly) hover reveal"
+    ],
+    "asserted": "read-only actions revealed on hover"
+  },
+  {
+    "file": "harness-cmc-readonly-copy-tooltip__desktop.png",
+    "callSites": [
+      "AssistantRowActions (readOnly) CopyButton tooltip"
+    ],
+    "asserted": "Copy tooltip visible"
+  },
+  {
+    "file": "harness-cmc-submitted__desktop.png",
+    "callSites": [
+      "ChatMessagesContainer thinking indicator row (MessageContent text-body-lg leading-relaxed)"
+    ],
+    "asserted": "thinking indicator visible"
+  },
+  {
+    "file": "harness-cmc-submitted-compact__desktop.png",
+    "callSites": [
+      "ChatMessagesContainer thinking indicator row, compact"
+    ],
+    "asserted": "thinking indicator visible"
+  },
+  {
+    "file": "harness-cmc-pending__desktop.png",
+    "callSites": [
+      "ChatMessagesContainer > PendingUploadMessage"
+    ],
+    "asserted": "pending upload row visible"
+  },
+  {
+    "file": "harness-chatinput-default__desktop.png",
+    "callSites": [
+      "ChatInput default: PromptInputSubmit (disabled)",
+      "PromptInputTextarea"
+    ],
+    "asserted": "Submit visible"
+  },
+  {
+    "file": "harness-chatinput-default-typed__desktop.png",
+    "callSites": [
+      "ChatInput chatinput-default: PromptInputSubmit enabled"
+    ],
+    "asserted": "Submit enabled"
+  },
+  {
+    "file": "harness-chatinput-default-hover__desktop.png",
+    "callSites": [
+      "ChatInput chatinput-default: PromptInputSubmit hover"
+    ],
+    "asserted": "Submit hovered"
+  },
+  {
+    "file": "harness-chatinput-default-active__desktop.png",
+    "callSites": [
+      "ChatInput chatinput-default: PromptInputSubmit :active"
+    ],
+    "asserted": "Submit pressed"
+  },
+  {
+    "file": "harness-chatinput-default-focus-visible__desktop.png",
+    "callSites": [
+      "ChatInput chatinput-default: PromptInputSubmit focus-visible"
+    ],
+    "asserted": "Submit focused"
+  },
+  {
+    "file": "harness-chatinput-reset__desktop.png",
+    "callSites": [
+      "ChatInput reset: PromptInputSubmit (disabled)",
+      "PromptInputTextarea"
+    ],
+    "asserted": "Send at reset visible"
+  },
+  {
+    "file": "harness-chatinput-reset-typed__desktop.png",
+    "callSites": [
+      "ChatInput chatinput-reset: PromptInputSubmit enabled"
+    ],
+    "asserted": "Send at reset enabled"
+  },
+  {
+    "file": "harness-chatinput-reset-hover__desktop.png",
+    "callSites": [
+      "ChatInput chatinput-reset: PromptInputSubmit hover"
+    ],
+    "asserted": "Send at reset hovered"
+  },
+  {
+    "file": "harness-chatinput-reset-active__desktop.png",
+    "callSites": [
+      "ChatInput chatinput-reset: PromptInputSubmit :active"
+    ],
+    "asserted": "Send at reset pressed"
+  },
+  {
+    "file": "harness-chatinput-reset-focus-visible__desktop.png",
+    "callSites": [
+      "ChatInput chatinput-reset: PromptInputSubmit focus-visible"
+    ],
+    "asserted": "Send at reset focused"
+  },
+  {
+    "file": "harness-chatinput-compact__desktop.png",
+    "callSites": [
+      "ChatInput compact: PromptInputSubmit (disabled)",
+      "PromptInputTextarea"
+    ],
+    "asserted": "Submit visible"
+  },
+  {
+    "file": "harness-chatinput-compact-typed__desktop.png",
+    "callSites": [
+      "ChatInput chatinput-compact: PromptInputSubmit enabled"
+    ],
+    "asserted": "Submit enabled"
+  },
+  {
+    "file": "harness-chatinput-compact-hover__desktop.png",
+    "callSites": [
+      "ChatInput chatinput-compact: PromptInputSubmit hover"
+    ],
+    "asserted": "Submit hovered"
+  },
+  {
+    "file": "harness-chatinput-compact-active__desktop.png",
+    "callSites": [
+      "ChatInput chatinput-compact: PromptInputSubmit :active"
+    ],
+    "asserted": "Submit pressed"
+  },
+  {
+    "file": "harness-chatinput-compact-focus-visible__desktop.png",
+    "callSites": [
+      "ChatInput chatinput-compact: PromptInputSubmit focus-visible"
+    ],
+    "asserted": "Submit focused"
+  },
+  {
+    "file": "harness-chatinput-streaming__desktop.png",
+    "callSites": [
+      "ChatInput streaming: StopButton > PromptInputSubmit (streaming)"
+    ],
+    "asserted": "Stop visible"
+  },
+  {
+    "file": "harness-chatinput-streaming-stop-hover__desktop.png",
+    "callSites": [
+      "StopButton hover + tooltip"
+    ],
+    "asserted": "Stop tooltip visible"
+  },
+  {
+    "file": "harness-chatinput-turn-starting__desktop.png",
+    "callSites": [
+      "ChatInput turn starting: PromptInputSubmit submitted (Spinner)"
+    ],
+    "asserted": "Sending button visible"
+  },
+  {
+    "file": "harness-empty-state__desktop.png",
+    "callSites": [
+      "ConversationEmptyState (Text h3/p)"
+    ],
+    "asserted": "empty-state heading visible"
+  },
+  {
+    "file": "harness-conversation-scroll__desktop.png",
+    "callSites": [
+      "Conversation, ConversationContent, ConversationScrollButton"
+    ],
+    "asserted": "conversation log visible"
+  },
+  {
+    "file": "harness-conversation-scrolled-up__desktop.png",
+    "callSites": [
+      "ConversationScrollButton"
+    ],
+    "asserted": "scroll-to-bottom button visible"
+  },
+  {
+    "file": "harness-conversation-scroll-button-hover__desktop.png",
+    "callSites": [
+      "ConversationScrollButton hover"
+    ],
+    "asserted": "scroll button hovered"
+  },
+  {
+    "file": "harness-branch-toolbar__desktop.png",
+    "callSites": [
+      "MessageBranch*, MessageToolbar, MessageActions, CopyButton, TTSButton, UserRowActions"
+    ],
+    "asserted": "branch page '1 of 2' visible"
+  },
+  {
+    "file": "harness-branch-next-hover__desktop.png",
+    "callSites": [
+      "ButtonGroup (organisms/Message/components) hover"
+    ],
+    "asserted": "Next branch hovered"
+  },
+  {
+    "file": "harness-branch-focus-prev__desktop.png",
+    "callSites": [
+      "ButtonGroup focus-visible ([&>*]:focus-visible:z-10)"
+    ],
+    "asserted": "Previous branch focused"
+  },
+  {
+    "file": "harness-branch-focus-next__desktop.png",
+    "callSites": [
+      "ButtonGroup focus-visible ([&>*]:focus-visible:z-10)"
+    ],
+    "asserted": "Next branch focused"
+  },
+  {
+    "file": "harness-branch-2__desktop.png",
+    "callSites": [
+      "MessageBranchNext, MessageBranchPage"
+    ],
+    "asserted": "'2 of 2' visible"
+  },
+  {
+    "file": "harness-retry-tooltip__desktop.png",
+    "callSites": [
+      "MessageAction tooltip"
+    ],
+    "asserted": "Retry tooltip visible"
+  },
+  {
+    "file": "harness-tts-tooltip__desktop.png",
+    "callSites": [
+      "TTSButton > MessageAction"
+    ],
+    "asserted": "Read aloud tooltip visible"
+  },
+  {
+    "file": "harness-prompt-input__desktop.png",
+    "callSites": [
+      "PromptInput, PromptInputTextarea, PromptInputButton, PromptInputSubmit (ready/disabled/submitted/streaming/compact/card), StopButton"
+    ],
+    "asserted": "submit buttons visible"
+  },
+  {
+    "file": "harness-tool-tooltip__desktop.png",
+    "callSites": [
+      "PromptInputButton tooltip"
+    ],
+    "asserted": "Attach tooltip visible"
+  },
+  {
+    "file": "harness-pending-upload__desktop.png",
+    "callSites": [
+      "PendingUploadMessage (compact and default)"
+    ],
+    "asserted": "pending upload visible"
+  },
+  {
+    "file": "harness-mention-markdown__desktop.png",
+    "callSites": [
+      "CredentialMentionMarkdown > MessageResponse"
+    ],
+    "asserted": "markdown table visible"
+  },
+  {
+    "file": "harness-work-output__desktop.png",
+    "callSites": [
+      "WorkOutputSheet trigger"
+    ],
+    "asserted": "open button visible"
+  },
+  {
+    "file": "harness-work-output-sheet-open__desktop.png",
+    "callSites": [
+      "WorkOutputSheet > MessageResponse (doc)"
+    ],
+    "asserted": "sheet with MessageResponse table visible"
+  },
+  {
+    "file": "harness-work-output-sheet-closed__desktop.png",
+    "callSites": [
+      "WorkOutputSheet closed"
+    ],
+    "asserted": "trigger visible, sheet closed"
+  },
+  {
+    "file": "harness-prompt-input-stop-disarmed__desktop.png",
+    "callSites": [
+      "PromptInput section StopButton (with PromptInputSubmit states) (disarmed)"
+    ],
+    "asserted": "Stop visible, disabled (not yet armed)"
+  },
+  {
+    "file": "harness-prompt-input-stop-armed__desktop.png",
+    "callSites": [
+      "PromptInput section StopButton (with PromptInputSubmit states) (armed)"
+    ],
+    "asserted": "Stop visible, enabled (armed)"
+  },
+  {
+    "file": "harness-chatinput-streaming-stop-disarmed__desktop.png",
+    "callSites": [
+      "ChatInput streaming: StopButton > PromptInputSubmit (streaming) (disarmed)"
+    ],
+    "asserted": "Stop visible, disabled (not yet armed)"
+  },
+  {
+    "file": "harness-chatinput-streaming-stop-armed__desktop.png",
+    "callSites": [
+      "ChatInput streaming: StopButton > PromptInputSubmit (streaming) (armed)"
+    ],
+    "asserted": "Stop visible, enabled (armed)"
+  },
+  {
+    "file": "harness-cmc-restoring-retrieving__desktop.png",
+    "callSites": [
+      "ChatMessagesContainer restore row (Retrieving latest messages)"
+    ],
+    "asserted": "'Retrieving latest messages' visible"
+  },
+  {
+    "file": "harness-cmc-restoring-fallback__desktop.png",
+    "callSites": [
+      "ChatMessagesContainer restore row (6s fallback)"
+    ],
+    "asserted": "'Still syncing the latest progress.' visible"
+  },
+  {
+    "file": "story-with-table-row-hover__desktop.png",
+    "callSites": [
+      "MessageResponse table hover (story)"
+    ],
+    "asserted": "third body row hovered"
+  },
+  {
+    "file": "story-link-dialog-open__desktop.png",
+    "callSites": [
+      "ExternalLinkModal (story)",
+      "story caption <Text as=p>"
+    ],
+    "asserted": "dialog visible"
+  },
+  {
+    "file": "session-rest-send-disabled__mobile.png",
+    "callSites": [
+      "ChatMessagesContainer",
+      "MessageRow",
+      "MessageContent",
+      "MessageResponse",
+      "MessageTable",
+      "PromptInputTextarea",
+      "PromptInputSubmit (disabled)"
+    ],
+    "asserted": "Submit button visible (disabled, empty composer)"
+  },
+  {
+    "file": "link-dialog-open__mobile.png",
+    "callSites": [
+      "MessageResponse ExternalLinkModal"
+    ],
+    "asserted": "dialog 'Open external link' visible"
+  },
+  {
+    "file": "link-dialog-closed__mobile.png",
+    "callSites": [
+      "MessageResponse ExternalLinkModal"
+    ],
+    "asserted": "trigger link visible, dialog closed"
+  },
+  {
+    "file": "table-row-hover__mobile.png",
+    "callSites": [
+      "MessageResponse table classes",
+      "MessageTable"
+    ],
+    "asserted": "first body row hovered"
+  },
+  {
+    "file": "copy-tooltip-open__mobile.png",
+    "callSites": [
+      "AssistantRowActions (owned)",
+      "AssistantMessageActions",
+      "CopyButton",
+      "MessageAction"
+    ],
+    "asserted": "tooltip 'Copy' visible"
+  },
+  {
+    "file": "composer-typed-send-enabled__mobile.png",
+    "callSites": [
+      "PromptInputTextarea",
+      "PromptInputSubmit (enabled)"
+    ],
+    "asserted": "Submit visible and enabled"
+  },
+  {
+    "file": "send-hover__mobile.png",
+    "callSites": [
+      "PromptInputSubmit hover:bg-action-hover"
+    ],
+    "asserted": "Submit hovered"
+  },
+  {
+    "file": "send-active__mobile.png",
+    "callSites": [
+      "PromptInputSubmit :active"
+    ],
+    "asserted": "Submit pressed (pointer down)"
+  },
+  {
+    "file": "send-focus-visible__mobile.png",
+    "callSites": [
+      "PromptInputSubmit focus-visible ring"
+    ],
+    "asserted": "Submit focused by keyboard"
+  },
+  {
+    "file": "tour-chat__mobile.png",
+    "callSites": [
+      "TourMessageList: Conversation, ConversationContent, Message, MessageContent"
+    ],
+    "asserted": "conversation log visible (unmodified page, Math.random seeded)"
+  },
+  {
+    "file": "harness-cmc-owned__mobile.png",
+    "callSites": [
+      "ChatMessagesContainer queued row (default)",
+      "MessageRow",
+      "AssistantRowActions (owned)",
+      "UserRowActions",
+      "MessageContent"
+    ],
+    "asserted": "Queued badge row visible"
+  },
+  {
+    "file": "harness-cmc-owned-row-hover__mobile.png",
+    "callSites": [
+      "AssistantRowActions (owned) hover reveal"
+    ],
+    "asserted": "non-last assistant row actions revealed on hover"
+  },
+  {
+    "file": "harness-cmc-owned-compact__mobile.png",
+    "callSites": [
+      "ChatMessagesContainer queued row (compact)"
+    ],
+    "asserted": "compact Queued row visible"
+  },
+  {
+    "file": "harness-cmc-readonly__mobile.png",
+    "callSites": [
+      "AssistantRowActions (readOnly): MessageActions + CopyButton"
+    ],
+    "asserted": "read-only Copy action on the last assistant row"
+  },
+  {
+    "file": "harness-cmc-readonly-row-hover__mobile.png",
+    "callSites": [
+      "AssistantRowActions (readOnly) hover reveal"
+    ],
+    "asserted": "read-only actions revealed on hover"
+  },
+  {
+    "file": "harness-cmc-readonly-copy-tooltip__mobile.png",
+    "callSites": [
+      "AssistantRowActions (readOnly) CopyButton tooltip"
+    ],
+    "asserted": "Copy tooltip visible"
+  },
+  {
+    "file": "harness-cmc-submitted__mobile.png",
+    "callSites": [
+      "ChatMessagesContainer thinking indicator row (MessageContent text-body-lg leading-relaxed)"
+    ],
+    "asserted": "thinking indicator visible"
+  },
+  {
+    "file": "harness-cmc-submitted-compact__mobile.png",
+    "callSites": [
+      "ChatMessagesContainer thinking indicator row, compact"
+    ],
+    "asserted": "thinking indicator visible"
+  },
+  {
+    "file": "harness-cmc-pending__mobile.png",
+    "callSites": [
+      "ChatMessagesContainer > PendingUploadMessage"
+    ],
+    "asserted": "pending upload row visible"
+  },
+  {
+    "file": "harness-chatinput-default__mobile.png",
+    "callSites": [
+      "ChatInput default: PromptInputSubmit (disabled)",
+      "PromptInputTextarea"
+    ],
+    "asserted": "Submit visible"
+  },
+  {
+    "file": "harness-chatinput-default-typed__mobile.png",
+    "callSites": [
+      "ChatInput chatinput-default: PromptInputSubmit enabled"
+    ],
+    "asserted": "Submit enabled"
+  },
+  {
+    "file": "harness-chatinput-default-hover__mobile.png",
+    "callSites": [
+      "ChatInput chatinput-default: PromptInputSubmit hover"
+    ],
+    "asserted": "Submit hovered"
+  },
+  {
+    "file": "harness-chatinput-default-active__mobile.png",
+    "callSites": [
+      "ChatInput chatinput-default: PromptInputSubmit :active"
+    ],
+    "asserted": "Submit pressed"
+  },
+  {
+    "file": "harness-chatinput-default-focus-visible__mobile.png",
+    "callSites": [
+      "ChatInput chatinput-default: PromptInputSubmit focus-visible"
+    ],
+    "asserted": "Submit focused"
+  },
+  {
+    "file": "harness-chatinput-reset__mobile.png",
+    "callSites": [
+      "ChatInput reset: PromptInputSubmit (disabled)",
+      "PromptInputTextarea"
+    ],
+    "asserted": "Send at reset visible"
+  },
+  {
+    "file": "harness-chatinput-reset-typed__mobile.png",
+    "callSites": [
+      "ChatInput chatinput-reset: PromptInputSubmit enabled"
+    ],
+    "asserted": "Send at reset enabled"
+  },
+  {
+    "file": "harness-chatinput-reset-hover__mobile.png",
+    "callSites": [
+      "ChatInput chatinput-reset: PromptInputSubmit hover"
+    ],
+    "asserted": "Send at reset hovered"
+  },
+  {
+    "file": "harness-chatinput-reset-active__mobile.png",
+    "callSites": [
+      "ChatInput chatinput-reset: PromptInputSubmit :active"
+    ],
+    "asserted": "Send at reset pressed"
+  },
+  {
+    "file": "harness-chatinput-reset-focus-visible__mobile.png",
+    "callSites": [
+      "ChatInput chatinput-reset: PromptInputSubmit focus-visible"
+    ],
+    "asserted": "Send at reset focused"
+  },
+  {
+    "file": "harness-chatinput-compact__mobile.png",
+    "callSites": [
+      "ChatInput compact: PromptInputSubmit (disabled)",
+      "PromptInputTextarea"
+    ],
+    "asserted": "Submit visible"
+  },
+  {
+    "file": "harness-chatinput-compact-typed__mobile.png",
+    "callSites": [
+      "ChatInput chatinput-compact: PromptInputSubmit enabled"
+    ],
+    "asserted": "Submit enabled"
+  },
+  {
+    "file": "harness-chatinput-compact-hover__mobile.png",
+    "callSites": [
+      "ChatInput chatinput-compact: PromptInputSubmit hover"
+    ],
+    "asserted": "Submit hovered"
+  },
+  {
+    "file": "harness-chatinput-compact-active__mobile.png",
+    "callSites": [
+      "ChatInput chatinput-compact: PromptInputSubmit :active"
+    ],
+    "asserted": "Submit pressed"
+  },
+  {
+    "file": "harness-chatinput-compact-focus-visible__mobile.png",
+    "callSites": [
+      "ChatInput chatinput-compact: PromptInputSubmit focus-visible"
+    ],
+    "asserted": "Submit focused"
+  },
+  {
+    "file": "harness-chatinput-streaming__mobile.png",
+    "callSites": [
+      "ChatInput streaming: StopButton > PromptInputSubmit (streaming)"
+    ],
+    "asserted": "Stop visible"
+  },
+  {
+    "file": "harness-chatinput-streaming-stop-hover__mobile.png",
+    "callSites": [
+      "StopButton hover + tooltip"
+    ],
+    "asserted": "Stop tooltip visible"
+  },
+  {
+    "file": "harness-chatinput-turn-starting__mobile.png",
+    "callSites": [
+      "ChatInput turn starting: PromptInputSubmit submitted (Spinner)"
+    ],
+    "asserted": "Sending button visible"
+  },
+  {
+    "file": "harness-empty-state__mobile.png",
+    "callSites": [
+      "ConversationEmptyState (Text h3/p)"
+    ],
+    "asserted": "empty-state heading visible"
+  },
+  {
+    "file": "harness-conversation-scroll__mobile.png",
+    "callSites": [
+      "Conversation, ConversationContent, ConversationScrollButton"
+    ],
+    "asserted": "conversation log visible"
+  },
+  {
+    "file": "harness-conversation-scrolled-up__mobile.png",
+    "callSites": [
+      "ConversationScrollButton"
+    ],
+    "asserted": "scroll-to-bottom button visible"
+  },
+  {
+    "file": "harness-conversation-scroll-button-hover__mobile.png",
+    "callSites": [
+      "ConversationScrollButton hover"
+    ],
+    "asserted": "scroll button hovered"
+  },
+  {
+    "file": "harness-branch-toolbar__mobile.png",
+    "callSites": [
+      "MessageBranch*, MessageToolbar, MessageActions, CopyButton, TTSButton, UserRowActions"
+    ],
+    "asserted": "branch page '1 of 2' visible"
+  },
+  {
+    "file": "harness-branch-next-hover__mobile.png",
+    "callSites": [
+      "ButtonGroup (organisms/Message/components) hover"
+    ],
+    "asserted": "Next branch hovered"
+  },
+  {
+    "file": "harness-branch-focus-prev__mobile.png",
+    "callSites": [
+      "ButtonGroup focus-visible ([&>*]:focus-visible:z-10)"
+    ],
+    "asserted": "Previous branch focused"
+  },
+  {
+    "file": "harness-branch-focus-next__mobile.png",
+    "callSites": [
+      "ButtonGroup focus-visible ([&>*]:focus-visible:z-10)"
+    ],
+    "asserted": "Next branch focused"
+  },
+  {
+    "file": "harness-branch-2__mobile.png",
+    "callSites": [
+      "MessageBranchNext, MessageBranchPage"
+    ],
+    "asserted": "'2 of 2' visible"
+  },
+  {
+    "file": "harness-retry-tooltip__mobile.png",
+    "callSites": [
+      "MessageAction tooltip"
+    ],
+    "asserted": "Retry tooltip visible"
+  },
+  {
+    "file": "harness-tts-tooltip__mobile.png",
+    "callSites": [
+      "TTSButton > MessageAction"
+    ],
+    "asserted": "Read aloud tooltip visible"
+  },
+  {
+    "file": "harness-prompt-input__mobile.png",
+    "callSites": [
+      "PromptInput, PromptInputTextarea, PromptInputButton, PromptInputSubmit (ready/disabled/submitted/streaming/compact/card), StopButton"
+    ],
+    "asserted": "submit buttons visible"
+  },
+  {
+    "file": "harness-tool-tooltip__mobile.png",
+    "callSites": [
+      "PromptInputButton tooltip"
+    ],
+    "asserted": "Attach tooltip visible"
+  },
+  {
+    "file": "harness-pending-upload__mobile.png",
+    "callSites": [
+      "PendingUploadMessage (compact and default)"
+    ],
+    "asserted": "pending upload visible"
+  },
+  {
+    "file": "harness-mention-markdown__mobile.png",
+    "callSites": [
+      "CredentialMentionMarkdown > MessageResponse"
+    ],
+    "asserted": "markdown table visible"
+  },
+  {
+    "file": "harness-work-output__mobile.png",
+    "callSites": [
+      "WorkOutputSheet trigger"
+    ],
+    "asserted": "open button visible"
+  },
+  {
+    "file": "harness-work-output-sheet-open__mobile.png",
+    "callSites": [
+      "WorkOutputSheet > MessageResponse (doc)"
+    ],
+    "asserted": "sheet with MessageResponse table visible"
+  },
+  {
+    "file": "harness-work-output-sheet-closed__mobile.png",
+    "callSites": [
+      "WorkOutputSheet closed"
+    ],
+    "asserted": "trigger visible, sheet closed"
+  },
+  {
+    "file": "harness-prompt-input-stop-disarmed__mobile.png",
+    "callSites": [
+      "PromptInput section StopButton (with PromptInputSubmit states) (disarmed)"
+    ],
+    "asserted": "Stop visible, disabled (not yet armed)"
+  },
+  {
+    "file": "harness-prompt-input-stop-armed__mobile.png",
+    "callSites": [
+      "PromptInput section StopButton (with PromptInputSubmit states) (armed)"
+    ],
+    "asserted": "Stop visible, enabled (armed)"
+  },
+  {
+    "file": "harness-chatinput-streaming-stop-disarmed__mobile.png",
+    "callSites": [
+      "ChatInput streaming: StopButton > PromptInputSubmit (streaming) (disarmed)"
+    ],
+    "asserted": "Stop visible, disabled (not yet armed)"
+  },
+  {
+    "file": "harness-chatinput-streaming-stop-armed__mobile.png",
+    "callSites": [
+      "ChatInput streaming: StopButton > PromptInputSubmit (streaming) (armed)"
+    ],
+    "asserted": "Stop visible, enabled (armed)"
+  },
+  {
+    "file": "harness-cmc-restoring-retrieving__mobile.png",
+    "callSites": [
+      "ChatMessagesContainer restore row (Retrieving latest messages)"
+    ],
+    "asserted": "'Retrieving latest messages' visible"
+  },
+  {
+    "file": "harness-cmc-restoring-fallback__mobile.png",
+    "callSites": [
+      "ChatMessagesContainer restore row (6s fallback)"
+    ],
+    "asserted": "'Still syncing the latest progress.' visible"
+  },
+  {
+    "file": "story-with-table-row-hover__mobile.png",
+    "callSites": [
+      "MessageResponse table hover (story)"
+    ],
+    "asserted": "third body row hovered"
+  },
+  {
+    "file": "story-link-dialog-open__mobile.png",
+    "callSites": [
+      "ExternalLinkModal (story)",
+      "story caption <Text as=p>"
+    ],
+    "asserted": "dialog visible"
+  }
+]

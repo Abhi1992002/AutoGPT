@@ -1,0 +1,5 @@
+#737373 (rgb 115 115 115): roles=[none] literals=[none]
+#F5F5F5 (rgb 245 245 245): roles=[none] literals=[none]
+#0A0A0A (rgb 10 10 10): roles=[--color-focus (globals.css:35) ] literals=[none]
+#1E1B4B (rgb 30 27 75): roles=[none] literals=[none]
+#E5E5E5 (rgb 229 229 229): roles=[none] literals=[none]
