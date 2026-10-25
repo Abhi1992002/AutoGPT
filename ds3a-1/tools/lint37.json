@@ -374,19 +374,19 @@
    "file": "src/components/__legacy__/ui/command.tsx:21",
    "rule": "shadcn(no-raw-colors)",
    "token": "text-neutral-950",
-   "head": "src/components/molecules/MultiSelect/components/Command.tsx:18"
+   "head": "src/components/molecules/MultiSelect/components/Command.tsx:19"
   },
   {
    "file": "src/components/__legacy__/ui/command.tsx:21",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:bg-neutral-950",
-   "head": "src/components/molecules/MultiSelect/components/Command.tsx:18"
+   "head": "src/components/molecules/MultiSelect/components/Command.tsx:19"
   },
   {
    "file": "src/components/__legacy__/ui/command.tsx:21",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:text-neutral-50",
-   "head": "src/components/molecules/MultiSelect/components/Command.tsx:18"
+   "head": "src/components/molecules/MultiSelect/components/Command.tsx:19"
   },
   {
    "file": "src/components/__legacy__/ui/command.tsx:36",
@@ -458,25 +458,25 @@
    "file": "src/components/__legacy__/ui/command.tsx:125",
    "rule": "shadcn(no-raw-colors)",
    "token": "data-[selected=true]:bg-neutral-100",
-   "head": "src/components/molecules/MultiSelect/components/Command.tsx:62"
+   "head": "src/components/molecules/MultiSelect/components/Command.tsx:72"
   },
   {
    "file": "src/components/__legacy__/ui/command.tsx:125",
    "rule": "shadcn(no-raw-colors)",
    "token": "data-[selected=true]:text-neutral-900",
-   "head": "src/components/molecules/MultiSelect/components/Command.tsx:62"
+   "head": "src/components/molecules/MultiSelect/components/Command.tsx:72"
   },
   {
    "file": "src/components/__legacy__/ui/command.tsx:125",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:data-[selected=true]:bg-neutral-800",
-   "head": "src/components/molecules/MultiSelect/components/Command.tsx:62"
+   "head": "src/components/molecules/MultiSelect/components/Command.tsx:72"
   },
   {
    "file": "src/components/__legacy__/ui/command.tsx:125",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:data-[selected=true]:text-neutral-50",
-   "head": "src/components/molecules/MultiSelect/components/Command.tsx:62"
+   "head": "src/components/molecules/MultiSelect/components/Command.tsx:72"
   },
   {
    "file": "src/components/__legacy__/ui/command.tsx:141",
