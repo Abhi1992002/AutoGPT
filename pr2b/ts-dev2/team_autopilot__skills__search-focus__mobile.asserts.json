@@ -1,0 +1,17 @@
+[
+ {
+  "name": "visible weekly-status-digest",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible css=[role=tabpanel] input",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "focused [role=tabpanel] input",
+  "pass": true,
+  "got": "<input class=\"agpt-border-input agpt-shadow-input flex transition-colors file:bo"
+ }
+]

@@ -1,0 +1,198 @@
+[
+ {
+  "viewport": "desktop",
+  "step": "closed",
+  "name": "link visible",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "viewport": "desktop",
+  "step": "closed",
+  "name": "no dialog",
+  "pass": true,
+  "got": "false"
+ },
+ {
+  "viewport": "desktop",
+  "step": "open",
+  "name": "dialog visible after Enter",
+  "pass": true,
+  "got": "true"
+ },
+ {
+  "viewport": "desktop",
+  "step": "open",
+  "name": "title 'Open external link' visible",
+  "pass": true,
+  "got": "true"
+ },
+ {
+  "viewport": "desktop",
+  "step": "open",
+  "name": "'Open link' button visible",
+  "pass": true,
+  "got": ""
+ },
+ {
+  "viewport": "desktop",
+  "step": "open",
+  "name": "'Cancel' button visible",
+  "pass": true,
+  "got": ""
+ },
+ {
+  "viewport": "desktop",
+  "step": "open",
+  "name": "focus inside dialog",
+  "pass": true,
+  "got": "button Close"
+ },
+ {
+  "viewport": "desktop",
+  "step": "tab1",
+  "name": "focus stays inside dialog (trap)",
+  "pass": true,
+  "got": "button Cancel"
+ },
+ {
+  "viewport": "desktop",
+  "step": "tab2",
+  "name": "focus stays inside dialog (trap)",
+  "pass": true,
+  "got": "button Open link"
+ },
+ {
+  "viewport": "desktop",
+  "step": "tab3",
+  "name": "focus stays inside dialog (trap)",
+  "pass": true,
+  "got": "button Close"
+ },
+ {
+  "viewport": "desktop",
+  "step": "tab4",
+  "name": "focus stays inside dialog (trap)",
+  "pass": true,
+  "got": "button Cancel"
+ },
+ {
+  "viewport": "desktop",
+  "step": "tab-order",
+  "name": "Tab cycles Close, Cancel, Open link",
+  "pass": true,
+  "got": "button Cancel > button Open link > button Close > button Cancel"
+ },
+ {
+  "viewport": "desktop",
+  "step": "esc",
+  "name": "Esc closes the dialog",
+  "pass": true,
+  "got": "false"
+ },
+ {
+  "viewport": "desktop",
+  "step": "esc",
+  "name": "focus returns to the link",
+  "pass": false,
+  "got": "body"
+ },
+ {
+  "viewport": "mobile",
+  "step": "closed",
+  "name": "link visible",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "viewport": "mobile",
+  "step": "closed",
+  "name": "no dialog",
+  "pass": true,
+  "got": "false"
+ },
+ {
+  "viewport": "mobile",
+  "step": "open",
+  "name": "dialog visible after Enter",
+  "pass": true,
+  "got": "true"
+ },
+ {
+  "viewport": "mobile",
+  "step": "open",
+  "name": "title 'Open external link' visible",
+  "pass": true,
+  "got": "true"
+ },
+ {
+  "viewport": "mobile",
+  "step": "open",
+  "name": "'Open link' button visible",
+  "pass": true,
+  "got": ""
+ },
+ {
+  "viewport": "mobile",
+  "step": "open",
+  "name": "'Cancel' button visible",
+  "pass": true,
+  "got": ""
+ },
+ {
+  "viewport": "mobile",
+  "step": "open",
+  "name": "focus inside dialog",
+  "pass": false,
+  "got": "button Example Site"
+ },
+ {
+  "viewport": "mobile",
+  "step": "tab1",
+  "name": "focus stays inside dialog (trap)",
+  "pass": true,
+  "got": "button Close"
+ },
+ {
+  "viewport": "mobile",
+  "step": "tab2",
+  "name": "focus stays inside dialog (trap)",
+  "pass": true,
+  "got": "button Cancel"
+ },
+ {
+  "viewport": "mobile",
+  "step": "tab3",
+  "name": "focus stays inside dialog (trap)",
+  "pass": true,
+  "got": "button Open link"
+ },
+ {
+  "viewport": "mobile",
+  "step": "tab4",
+  "name": "focus stays inside dialog (trap)",
+  "pass": true,
+  "got": "button Close"
+ },
+ {
+  "viewport": "mobile",
+  "step": "tab-order",
+  "name": "Tab cycles Close, Cancel, Open link",
+  "pass": true,
+  "got": "button Close > button Cancel > button Open link > button Close"
+ },
+ {
+  "viewport": "mobile",
+  "step": "esc",
+  "name": "Esc closes the dialog",
+  "pass": true,
+  "got": "false"
+ },
+ {
+  "viewport": "mobile",
+  "step": "esc",
+  "name": "focus returns to the link",
+  "pass": false,
+  "got": "body"
+ }
+]

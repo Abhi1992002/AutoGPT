@@ -1,0 +1,27 @@
+[
+ {
+  "name": "visible Create schedule",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible css=[data-testid=schedule-row]",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible css=[role=tabpanel] input",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "focused role menuitemradio",
+  "pass": true,
+  "got": "menuitemradio"
+ },
+ {
+  "name": "menu open=true",
+  "pass": true,
+  "got": "1"
+ }
+]

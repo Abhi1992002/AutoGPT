@@ -1,0 +1,27 @@
+[
+ {
+  "name": "visible Create schedule",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible css=[data-testid=schedule-row]",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible css=[role=tabpanel] input",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "focused label Filter schedules",
+  "pass": true,
+  "got": "Filter schedules: All schedules"
+ },
+ {
+  "name": "menu open=false",
+  "pass": true,
+  "got": "0"
+ }
+]

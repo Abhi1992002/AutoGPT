@@ -1,0 +1,17 @@
+[
+ {
+  "name": "visible Running",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible Screen on",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible /home/user/workspace",
+  "pass": true,
+  "got": "visible"
+ }
+]

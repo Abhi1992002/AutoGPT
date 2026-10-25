@@ -1,0 +1,12 @@
+[
+ {
+  "name": "visible Weekly status digest",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible runs",
+  "pass": true,
+  "got": "visible"
+ }
+]

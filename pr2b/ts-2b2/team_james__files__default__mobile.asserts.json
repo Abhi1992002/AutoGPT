@@ -1,0 +1,12 @@
+[
+ {
+  "name": "visible css=[role=tabpanel] input",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible css=[role=tabpanel] button[aria-label^='Filter files']",
+  "pass": true,
+  "got": "visible"
+ }
+]

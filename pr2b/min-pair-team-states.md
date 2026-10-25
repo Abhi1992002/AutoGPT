@@ -1,0 +1,114 @@
+| screenshot | min dev/head diff | pair | same-commit diffs |
+|---|---|---|---|
+| team_anika__basics__default__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_anika__basics__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_anika__computer__default__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_anika__computer__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_anika__files__default__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_anika__files__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_anika__integrations__default__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_anika__integrations__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_anika__schedules__default__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_anika__schedules__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_anika__settings__default__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_anika__settings__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_anika__skills__default__desktop.png | 10 | ts-dev/ts-2b | 0 |
+| team_anika__skills__default__mobile.png | 2 | ts-dev/ts-2b | 0 |
+| team_anika__soul__default__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_anika__soul__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_anika__workflows__default__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_anika__workflows__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_autopilot__basics__default__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_autopilot__basics__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_autopilot__schedules__default__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_autopilot__schedules__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_autopilot__schedules__no-match__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_autopilot__schedules__no-match__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_autopilot__skills__default__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_autopilot__skills__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_autopilot__skills__no-match__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_autopilot__skills__no-match__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_autopilot__skills__search-focus__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_autopilot__skills__search-focus__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_autopilot__workflows__default__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_autopilot__workflows__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_autopilot__workflows__no-match__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_autopilot__workflows__no-match__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__basics__default__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__basics__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__basics__error__desktop.png | 0 | ts-dev/ts-2b2 | varies on same commit (0/6308) |
+| team_james__basics__error__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__basics__populated__desktop.png | 0 | ts-dev2/ts-2b2 | varies on same commit (1717/51) |
+| team_james__basics__populated__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__computer__default__desktop.png | 0 | ts-dev/ts-2b2 | varies on same commit (0/51) |
+| team_james__computer__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__computer__error__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__computer__error__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__computer__running__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__computer__running__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__computer__stream__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__computer__stream__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__files__default__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__files__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__files__error__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__files__error__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__files__filter-open__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__files__filter-open__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__files__no-match__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__files__no-match__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__files__populated__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__files__populated__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__integrations__accordion-closed__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__integrations__accordion-closed__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__integrations__accordion-keyboard__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__integrations__accordion-keyboard__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__integrations__default__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__integrations__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__integrations__error__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__integrations__error__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__integrations__no-match__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__integrations__no-match__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__schedules__default__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__schedules__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__schedules__filter-arrow__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__schedules__filter-arrow__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__schedules__filter-esc__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__schedules__filter-esc__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__schedules__filter-open__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__schedules__filter-open__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__schedules__no-match__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__schedules__no-match__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__schedules__view-dialog__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__schedules__view-dialog__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__schedules__view-esc__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__schedules__view-esc__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__settings__default__desktop.png | 3 | ts-dev/ts-2b | 0 |
+| team_james__settings__default__mobile.png | 3 | ts-dev/ts-2b | 0 |
+| team_james__settings__mode-confirm-esc__desktop.png | 3 | ts-dev2/ts-2b | varies on same commit (6308/0) |
+| team_james__settings__mode-confirm-esc__mobile.png | 3 | ts-dev/ts-2b | 0 |
+| team_james__settings__mode-confirm__desktop.png | 29 | ts-dev2/ts-2b | varies on same commit (11122/0) |
+| team_james__settings__mode-confirm__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__settings__mode-default__desktop.png | 3 | ts-dev/ts-2b | 0 |
+| team_james__settings__mode-default__mobile.png | 3 | ts-dev/ts-2b | 0 |
+| team_james__settings__mode-focus__desktop.png | 3 | ts-dev/ts-2b2 | varies on same commit (7208/6308) |
+| team_james__settings__mode-focus__mobile.png | 3 | ts-dev/ts-2b | 0 |
+| team_james__settings__preview-error-retry-hover__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__settings__preview-error-retry-hover__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__settings__preview-error__desktop.png | 0 | ts-dev2/ts-2b | varies on same commit (6308/0) |
+| team_james__settings__preview-error__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__skills__default__desktop.png | 5 | ts-dev/ts-2b2 | varies on same commit (0/6308) |
+| team_james__skills__default__mobile.png | 2 | ts-dev/ts-2b | 0 |
+| team_james__skills__no-match__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__skills__no-match__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__soul__default__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__soul__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__workflows__default__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__workflows__default__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__workflows__grid__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__workflows__grid__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__workflows__no-match__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__workflows__no-match__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__workflows__run-focus__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__workflows__run-focus__mobile.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__workflows__search-focus__desktop.png | 0 | ts-dev/ts-2b | 0 |
+| team_james__workflows__search-focus__mobile.png | 0 | ts-dev/ts-2b | 0 |

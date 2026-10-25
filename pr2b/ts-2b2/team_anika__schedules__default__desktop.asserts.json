@@ -1,0 +1,12 @@
+[
+ {
+  "name": "visible No schedules yet",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible Create schedule",
+  "pass": true,
+  "got": "visible"
+ }
+]

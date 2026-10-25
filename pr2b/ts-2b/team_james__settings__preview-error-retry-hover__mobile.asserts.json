@@ -1,0 +1,22 @@
+[
+ {
+  "name": "visible Retry",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "Retry button hovered",
+  "pass": true,
+  "got": "true"
+ },
+ {
+  "name": "Retry text takes the button's hover colour",
+  "pass": true,
+  "got": "text rgb(9, 9, 11), button rgb(9, 9, 11)"
+ },
+ {
+  "name": "Retry underlined",
+  "pass": true,
+  "got": "underline"
+ }
+]

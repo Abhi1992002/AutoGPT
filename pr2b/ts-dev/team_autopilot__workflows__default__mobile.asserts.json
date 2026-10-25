@@ -1,0 +1,17 @@
+[
+ {
+  "name": "visible Vendor follow-up tracker",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible css=[role=tabpanel] button:has-text('Run')",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible css=[role=tabpanel] input",
+  "pass": true,
+  "got": "visible"
+ }
+]

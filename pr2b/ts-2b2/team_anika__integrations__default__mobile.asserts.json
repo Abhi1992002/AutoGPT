@@ -1,0 +1,12 @@
+[
+ {
+  "name": "visible No integrations yet",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible Add integration",
+  "pass": true,
+  "got": "visible"
+ }
+]

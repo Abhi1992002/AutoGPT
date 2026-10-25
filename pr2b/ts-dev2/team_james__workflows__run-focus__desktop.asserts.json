@@ -1,0 +1,22 @@
+[
+ {
+  "name": "visible Weekly status digest",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible Install workflow",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible css=[role=tabpanel] button:has-text('Run')",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "focused text Run",
+  "pass": true,
+  "got": "Run"
+ }
+]

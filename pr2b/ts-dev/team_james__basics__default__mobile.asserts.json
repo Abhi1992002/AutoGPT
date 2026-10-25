@@ -1,0 +1,17 @@
+[
+ {
+  "name": "visible Recent conversations",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible Last 30 days",
+  "pass": true,
+  "got": "visible"
+ },
+ {
+  "name": "visible day streak",
+  "pass": true,
+  "got": "visible"
+ }
+]

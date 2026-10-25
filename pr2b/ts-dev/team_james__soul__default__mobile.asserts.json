@@ -1,0 +1,7 @@
+[
+ {
+  "name": "visible css=[role=tabpanel] dd",
+  "pass": true,
+  "got": "visible"
+ }
+]
