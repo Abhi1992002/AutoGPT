@@ -19,7 +19,7 @@ PRS[1]["what"] = PRS[1]["what"].replace(
     "- `pagination-controls` (2 admin importers) becomes `molecules/PaginationControls` at today's markup.",
     "- `pagination-controls` (2 admin importers) becomes `molecules/PaginationControls` at today's markup. Its two page buttons render "
     "`atoms/Button` with `variant=\"legacy-outline\"`, the variant DS3a-3 #16092 adds at the legacy `outline` Button's look (SECRT-3112 How 2); "
-    f"`atoms/Button` (`Button.tsx`, `helpers.ts`, `LegacyButton.tsx`, its story and tests) is #16092's files at `40b31932f`, byte for byte (#16092's later one-line `dark:` change is being reverted there; table below).")
+    f"`atoms/Button` (`Button.tsx`, `helpers.ts`, `LegacyButton.tsx`, its story and tests) is #16092's files at its head `{B16092}`, byte for byte (QUALITY rule 41; table below).")
 PRS[1]["what"] += "\n- Stories: `molecules/Carousel` (Default, Looping, Vertical) and `molecules/PaginationControls` (FirstPage, MiddlePage, LastPage, SinglePage)."
 drop(1, "**Legacy dependency kept", "**New design-system components without a story")
 # --- PR 2
@@ -81,17 +81,17 @@ def cross(k):
         rows = []
         for f, u in [("Button.tsx", "`variant=\"legacy-outline\"` renders `LegacyButton`"), ("helpers.ts", "`legacyButtonVariants` `legacy-outline` + size `default` (`h-9 px-4 py-2`)"), ("LegacyButton.tsx", "the plain `<button>` with those classes")]:
             p = f"atoms/Button/{f}"
-            rows.append(f"| `src/components/{p}` | yes | {'yes' if same(SH[1], 'refs/pr/16092', p) else 'no: one line, below'} | {u} |")
+            rows.append(f"| `src/components/{p}` | {'yes, byte for byte' if same(SH[1], 'refs/pr/16092', p) else 'no: one line, below'} | {u} |")
         d = subprocess.run(["git", "-C", R, "diff", "-U0", SH[1], "refs/pr/16092", "--", "autogpt_platform/frontend/src/components/atoms/Button/helpers.ts"], capture_output=True, text=True).stdout
         changed = [l for l in d.splitlines() if l[:1] in "+-" and not l.startswith(("+++", "---"))]
         note = ""
         if changed:
             note = (f"\n\n#16092's head `{B16092}` changes one string in `helpers.ts` after `40b31932f` (`legacy-default`'s `dark:bg-neutral-50` → `dark:bg-background`). That change is being reverted on #16092 "
                     "(QUALITY rule 41: a shared copy changes everywhere in one push or nowhere), so this PR keeps the string `dev`'s legacy `button.tsx` has. The `dark:` classes never apply (`forcedTheme=\"light\"`).\n\n```diff\n" + "\n".join(changed) + "\n```")
-        return ("#### Shared with other open PRs (QUALITY rule 41)\n\n| file on this head | the same file on #16092 (DS3a-3) `40b31932f` | on #16092's head `" + B16092 + "` | what this PR uses |\n| --- | --- | --- | --- |\n"
+        return ("#### Shared with other open PRs (QUALITY rule 41)\n\n| file on this head | the same file on #16092 (DS3a-3) head `" + B16092 + "` | what this PR uses |\n| --- | --- | --- |\n"
                 + "\n".join(rows) + note
                 + "\n\nThe legacy `outline` Button's class string and `legacy-outline`'s are pair 2 of table 2 (identical, 48 measurements): `text-sm` → `text-body leading-5` and `bg-white` → `bg-surface`, everything else the same string. "
-                + conflict_line(SH[1], "40b31932f", 16092, "Run against `40b31932f`, the copy #16092 returns to with the revert. `atoms/Text/helpers.ts`: both add variants at the same place (keep both). `PaginationControls.tsx`: #16092 makes the same `legacy-outline` / `body-tight` change to the legacy file this PR moves, and this side adds the DS7 `data-slot`s (take this side). `carousel.tsx`: #16092 edits the legacy file this PR deletes (keep the delete: `molecules/Carousel` does not carry the parts #16092 edited). Whichever PR lands second takes that merge; no rendered value changes."))
+                + conflict_line(SH[1], "refs/pr/16092", 16092, "`atoms/Text/helpers.ts`: both add variants at the same place (keep both). `PaginationControls.tsx`: #16092 makes the same `legacy-outline` / `body-tight` change to the legacy file this PR moves, and this side adds the DS7 `data-slot`s (take this side). `carousel.tsx`: #16092 edits the legacy file this PR deletes (keep the delete: `molecules/Carousel` does not carry the parts #16092 edited). Whichever PR lands second takes that merge; no rendered value changes."))
     if k == 3:
         heads = {n: subprocess.run(["git", "-C", R, "rev-parse", "--short", f"refs/pr/{n}"], capture_output=True, text=True).stdout.strip() for n in (16118, 16119, 16120, 16121, 16122)}
         cells = " | ".join(("yes" if same(SH[3], f"refs/pr/{n}", "atoms/Badge/Badge.tsx") else "no") for n in heads)
@@ -174,7 +174,7 @@ Q39 = """#### SECRT-3112 How items → PR → file (the whole DS3a-1 stack)
 | 3. `atoms/Input` stops wrapping `__legacy__/ui/input` | DS3a-3 #16091 | not in this stack (`atoms/Input/Input.tsx:4` still imports it on these heads) |
 | 4. delete each file once its importers are at zero | #16136, #16137, #16139, #16140 | `__legacy__/ui/{carousel,collapsible,pagination-controls}.tsx`, `{calendar,loading,scroll-area}.tsx`, `{command,multiselect}.tsx` (+ `multiselect.test.tsx`, moved), `popover.tsx` deleted; the importer grep in each PR's (d) returns nothing |
 | 4. delete the folder and the `warn` override | after the last primitive (not this stack's PRs alone) | Deviations: "Warn override" |
-| 5. small PRs, one primitive group each, pixel diff 0 | all four | each PR's section 3: base vs head, base vs base and head vs head, 0 px |
+| 5. small PRs, one primitive group each, pixel diff 0 | all four | Visual check: batch diff after merge, per Abhimanyu 25 Oct |
 """
 
 def extra(k):
@@ -192,3 +192,69 @@ COUNT_NOTE = {
 PRS[4]["deviations"] = PRS[4]["deviations"] + [
     "**`data-slot` on the popover triggers:** `BlockMenu` and `NewSaveControl` now render `molecules/Popover`'s `PopoverTrigger`, which carries DS7's `data-slot=\"popover-trigger\"` on `dev` (`src/components/molecules/Popover/Popover.tsx:14`). "
     "It shows in the harness's record of where focus lands after Escape (`button aria-expanded=false` → the same button with `data-slot=popover-trigger`); the element, its position in the Tab order and every pixel are the same."]
+
+# ===== QUALITY rule 43 (dark: classes kept, colour swaps checked against .dark) =====
+def _rep(k, key, a, b):
+    assert a in PRS[k][key], (k, key, a[:50]); PRS[k][key] = PRS[k][key].replace(a, b)
+_rep(2, "what", "`hover/focus:text-neutral-50` → `text-primary-foreground` (#FAFAFA, a text role), dead `dark:` classes dropped.",
+     "every `dark:` class kept verbatim, including the ghost day button's `dark:hover:` pair; `hover/focus:text-neutral-50` stays raw (`primary-foreground` is #FAFAFA in `:root` but #18181B in `.dark`).")
+_rep(2, "parity", "drops the `dark:` thumb class (no dark theme) and", "keeps the `dark:` thumb class and drops")
+_rep(3, "what", "`bg-white` → `bg-surface`, dead `dark:` classes dropped.", "`bg-white` → `bg-surface`, every `dark:` class of the parts it keeps kept verbatim.")
+PRS[3]["what"] += "\n- Each chip passes the legacy secondary badge's `dark:border-neutral-800 dark:bg-neutral-800 dark:text-neutral-50 dark:focus:ring-neutral-300` at the call site, so its dark colours are `dev`'s while `atoms/Badge` stays #16118's file byte for byte (QUALITY rule 41)."
+PRS[4]["what"] += "\n- Each caller also passes the legacy `PopoverContent`'s `dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50`, so the popovers keep `dev`'s dark colours (QUALITY rule 43)."
+PRS[2]["todos"] = [t.replace("`hover:text-neutral-900`/`text-neutral-900` #171717", "`hover:text-neutral-900`/`text-neutral-900` #171717, `hover/focus:text-neutral-50` #FAFAFA (`primary-foreground` only in `:root`, SECRT-3154)") for t in PRS[2]["todos"]]
+
+KEPT_WHY_DARK = "kept verbatim (QUALITY rule 43: the dark colour stays `dev`'s)"
+COUNT_NOTE[2] = ("**Why the touched files' count rises (150 → 159):** +4 `no-raw-colors` on `src/components/atoms/Calendar/Calendar.tsx` for the legacy ghost Button's `hover:bg-neutral-100 hover:text-neutral-900 dark:hover:bg-neutral-800 dark:hover:text-neutral-50`, which the day button now writes out (they were `__legacy__/ui/button.tsx:22`'s, not the calendar file's); "
+                 "+7 on `molecules/ScrollArea/ScrollArea.tsx`, the same hits `__legacy__/ui/scroll-area.tsx` had, now counted under the moved file's path; +2 `no-restyle` where `AgentOutputs.tsx` and `MCPToolDialog.tsx` pass a `className` to the design-system `ScrollArea` (the rule does not check legacy components); "
+                 "−4 `no-restyle` the legacy calendar's `SelectTrigger`/`SelectContent` had. Every `dark:` class is kept (QUALITY rule 43).")
+COUNT_NOTE[4] = ("**Why the touched files' count rises (15 → 45):** the legacy `PopoverContent`'s colour classes now sit on its four callers, light and `dark:` (QUALITY rule 43): +20 `no-raw-colors` (`border-neutral-200 text-neutral-950 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50` on `BlockMenu.tsx:54`, `NewSaveControl.tsx:58`, `DateInput.tsx:146`, `DateTimeInput.tsx:213`), "
+                 "+15 `no-restyle` because the rule checks a design-system `PopoverContent`'s `className` and never checked the legacy one, −5 for `__legacy__/ui/popover.tsx`'s own hits. A `molecules/Popover` variant at today's look (SECRT-3112 How 2) would move the same classes inside the molecule; it is not added here because `molecules/Popover` is shared by every popover in the app.")
+
+_lint37_orig = lint37
+def lint37(k):
+    out = _lint37_orig(k)
+    out = out.replace("| Deviation: no exact role (`TODO(tokens)`, token search below) |", "| Deviation: no exact role (`TODO(tokens)`, token search below) |")
+    rows = []
+    for line in out.split("\n"):
+        if line.startswith("| `src/") and "| `dark:" in line and "| Deviation:" in line:
+            line = line.rsplit("| Deviation:", 1)[0] + f"| Kept: {KEPT_WHY_DARK} |"
+        rows.append(line)
+    out = "\n".join(rows)
+    if k == 2:
+        out = out.replace("`hover:bg-neutral-100`, `hover:text-neutral-900` come from the legacy", "`hover:bg-neutral-100`, `hover:text-neutral-900`, `dark:hover:bg-neutral-800`, `dark:hover:text-neutral-50` come from the legacy")
+    if k == 3:
+        out += ("\n\nStrict hits on head lines that no moved file carried: the chip's `dark:border-neutral-800`, `dark:bg-neutral-800`, `dark:text-neutral-50`, `dark:focus:ring-neutral-300` "
+                "(`src/components/molecules/MultiSelect/MultiSelect.tsx`, the chip's `className`), the legacy secondary badge's own `dark:` classes (`__legacy__/ui/badge.tsx`), kept so the chip's dark colours stay `dev`'s.")
+    return out
+
+_SWAPS = {
+    1: [("`bg-white`", "`bg-surface`", "`legacy-outline` (#16092's `atoms/Button/helpers.ts`), PaginationControls' two buttons", "#FEFEFE (`white` is `#fefefe` in `styles/colors.ts`)", "#FEFEFE", "not set: #FEFEFE", "`dark:bg-neutral-950` (kept on both)", "surface", "a control's fill"),
+        ("`bg-red-500`, `hover:bg-red-500/90`", "`bg-error`, `hover:bg-error/90`", "`legacy-destructive` (#16092's file; no call site in this PR)", "#EF4444", "#EF4444", "not set: #EF4444", "`dark:bg-red-900` (kept on both)", "status", "a destructive action's fill")],
+    2: [("`bg-white`", "`bg-surface`", "`atoms/Calendar` month/year `SelectTrigger` and `SelectContent`", "#FEFEFE", "#FEFEFE", "not set: #FEFEFE", "trigger: none (#FEFEFE in both modes on both); content: `dark:bg-neutral-950` from the select primitives (kept)", "surface", "a control's fill")],
+    3: [("`bg-white`", "`bg-surface`", "`MultiSelect/components/Command.tsx` root", "#FEFEFE", "#FEFEFE", "not set: #FEFEFE", "`dark:bg-neutral-950` (kept on both)", "surface", "the option list's fill"),
+        ("`focus:ring-neutral-950`", "`focus:ring-focus`", "each chip (`atoms/Badge` `chipBase`, #16118's file)", "#0A0A0A", "#0A0A0A", "not set: #0A0A0A", "`dark:focus:ring-neutral-300` (on the legacy badge; passed at the call site on head)", "focus", "the focus ring")],
+    4: [("`bg-white`", "`bg-surface`", "`molecules/Popover`'s `PopoverContent` (the molecule's own class; the callers do not pass a fill)", "#FEFEFE", "#FEFEFE", "not set: #FEFEFE", "`dark:bg-neutral-950` (legacy; passed by all four callers on head)", "surface", "the popover's fill")],
+}
+
+def rule43(k):
+    b, h = SH[k - 1], SH[k]
+    chk = subprocess.run(["python3", "-I", f"{E}/darkcheck.py", b, h], capture_output=True, text=True).stdout.strip()
+    rows = ["| old class | new token | where | old value (`:root`) | token `:root` | token `.dark` | the element's dark output, old and new | kind | meaning |", "| --- | --- | --- | --- | --- | --- | --- | --- | --- |"]
+    rows += [f"| {' | '.join(r)} |" for r in _SWAPS[k]]
+    extra = ""
+    if k == 2:
+        extra = ("\n\nNot swapped: `hover:text-neutral-50` and `focus:text-neutral-50` on the selected day stay raw. `text-primary-foreground` is #FAFAFA in `:root` but #18181B in `.dark`, so it is not the same colour; "
+                 "`TODO(tokens)` at `src/components/atoms/Calendar/Calendar.tsx:120` names it (Deviation for SECRT-3154).")
+    if k == 3:
+        extra = ("\n\n`atoms/Badge/Badge.tsx` is #16118's file byte for byte (QUALITY rule 41). Its `solid` chip (`text-primary-foreground`: #18181B in `.dark`, where the legacy `default` badge had `dark:text-neutral-900` #171717 and `dark:bg-neutral-50`) "
+                 "and its chips without the legacy `dark:` classes are not rendered by this PR; this PR's only chip is `secondary`, whose legacy `dark:` classes it passes at the call site. The shared file's rule-43 change belongs to #16118 and lands here in the same push when it does.")
+    return ("#### QUALITY rule 43: dark mode\n\n"
+            f"**(1) Removed `dark:` classes** ([`darkcheck.py`]({{TREE}}/tools/darkcheck.py), the `git diff {b}...{h} | grep -E '^-.*dark:'` check with each class matched on the added lines and its component looked up on the head):\n\n```\n{chk}\n```\n\n"
+            "**(2) Every colour swap, with its `.dark` value** (from `src/app/globals.css` on this head: `.dark` sets only shadcn's roles, so `surface`, `error` and `focus` keep their `:root` value in both modes):\n\n" + "\n".join(rows) + extra + "\n\n"
+            "**(3) Strict counts** (section 1) are taken on this head with every `dark:` class in place.\n\n"
+            f"**(4) Equivalence** (table 2) runs from this head `{h}` against this PR's own base `{b}`" + (" (`dev`)." if k == 1 else f" (the head of the PR below it in the stack)."))
+
+_extra_orig = extra
+def extra(k):
+    return rule43(k) + "\n\n" + _extra_orig(k)

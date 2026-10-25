@@ -10,11 +10,12 @@ def item(label, names):
     if not cs: return None
     ok = all(c["state"] in ("SUCCESS", "SKIPPED", "NEUTRAL") for c in cs)
     return f"{label} {'✓' if ok else '(' + ', '.join(sorted({c['state'].lower() for c in cs})) + ')'} ([run]({cs[0]['link']}))", ok
-parts = [item("lint (ESLint + oxlint + Prettier)", ["lint"]),
+parts = [item("production build (Vercel preview of this head)", ["Vercel"]),
+         item("lint (ESLint + oxlint + Prettier)", ["lint"]),
          item("type check", ["check API types", "Analyze (typescript)"]),
          item("full `vitest` suite (integration shards 1-4)", [f"integration_test (shard {i}/4)" for i in range(1, 5)]),
          item("end-to-end smoke and journeys", ["end-to-end tests (smoke)", "end-to-end tests (journeys)"]),
          item("frontend patch coverage", ["codecov/patch/platform-frontend"])]
 parts = [p for p in parts if p]
 pending = [p[0] for p in parts if not p[1]]
-print(json.dumps({"text": f"CI on this head (`{sha}`): " + "; ".join(p[0] for p in parts) + ". Production `next build` of this head ✓ (local, the build every capture ran on, type checking included).", "pending": pending}))
+print(json.dumps({"text": f"CI on this head (`{sha}`): " + "; ".join(p[0] for p in parts) + ".", "pending": pending}))
