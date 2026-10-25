@@ -55,17 +55,10 @@
    "tag": null
   },
   {
-   "file": "atoms/Calendar/Calendar.tsx",
-   "old": "w-[120px] space-x-2 bg-white text-sm",
-   "new": "w-[120px] space-x-2 bg-surface text-body leading-5",
-   "tag": "SelectTrigger",
-   "extra": [
-    {
-     "real": "<SelectTrigger> (legacy select)",
-     "oldCls": "agpt-border-input agpt-shadow-input flex h-9 items-center justify-between whitespace-nowrap rounded-md border px-3 py-2 ring-offset-surface placeholder:text-neutral-500 data-[state=open]:border-gray-400 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:placeholder:text-neutral-400 [&>span]:line-clamp-1 w-[120px] space-x-2 bg-white text-sm",
-     "newCls": "agpt-border-input agpt-shadow-input flex h-9 items-center justify-between whitespace-nowrap rounded-md border px-3 py-2 ring-offset-surface placeholder:text-neutral-500 data-[state=open]:border-gray-400 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:placeholder:text-neutral-400 [&>span]:line-clamp-1 w-[120px] space-x-2 bg-surface text-body leading-5"
-    }
-   ]
+   "file": "atoms/Calendar/Calendar.tsx <SelectTrigger> (the primitive's base + this caller's classes, cn()-merged; the caller no longer repeats the base's text-body leading-5)",
+   "old": "agpt-border-input agpt-shadow-input flex h-9 items-center justify-between whitespace-nowrap rounded-md border px-3 py-2 ring-offset-surface placeholder:text-neutral-500 data-[state=open]:border-gray-400 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:placeholder:text-neutral-400 [&>span]:line-clamp-1 w-[120px] space-x-2 bg-white text-sm",
+   "new": "agpt-border-input agpt-shadow-input flex h-9 items-center justify-between whitespace-nowrap rounded-md border px-3 py-2 text-body leading-5 ring-offset-surface placeholder:text-neutral-500 data-[state=open]:border-gray-400 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:placeholder:text-neutral-400 [&>span]:line-clamp-1 w-[120px] space-x-2 bg-surface",
+   "tag": "SelectTrigger"
   },
   {
    "file": "atoms/Calendar/Calendar.tsx",

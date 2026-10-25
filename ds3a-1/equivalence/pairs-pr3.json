@@ -19,10 +19,11 @@
    ]
   },
   {
-   "file": "MultiSelect/components/Command.tsx",
-   "old": "py-6 text-center text-sm",
-   "new": "py-6 text-center text-body leading-5",
-   "tag": null
+   "file": "MultiSelect empty copy: was <CommandEmpty py-6 text-center text-sm> > <span text-muted-foreground>, now <CommandEmpty py-6 text-center> > <Text variant=\"body-tight\" tone=\"inherit\" className=\"text-muted-foreground\" as=span> (the text node's own styling)",
+   "old": "py-6 text-center text-sm text-muted-foreground",
+   "new": "py-6 text-center font-sans text-body font-normal leading-5 text-muted-foreground",
+   "tag": "span",
+   "atomOwnsBase": true
   },
   {
    "file": "MultiSelect/components/Command.tsx",

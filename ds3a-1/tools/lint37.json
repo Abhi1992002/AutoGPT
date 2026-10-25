@@ -306,43 +306,43 @@
    "file": "src/components/__legacy__/ui/scroll-area.tsx:20",
    "rule": "shadcn(no-arbitrary-values)",
    "token": "rounded-[inherit]",
-   "head": "src/components/molecules/ScrollArea/ScrollArea.tsx:22"
+   "head": "src/components/molecules/ScrollArea/ScrollArea.tsx:54"
   },
   {
    "file": "src/components/__legacy__/ui/scroll-area.tsx:22",
    "rule": "shadcn(no-inline-styles)",
    "token": "Inline style sets overflowX. Style through classes; use CSS ",
-   "head": "src/components/molecules/ScrollArea/ScrollArea.tsx:24"
+   "head": "src/components/molecules/ScrollArea/ScrollArea.tsx:56"
   },
   {
    "file": "src/components/__legacy__/ui/scroll-area.tsx:23",
    "rule": "shadcn(no-inline-styles)",
    "token": "Inline style sets overflowY. Style through classes; use CSS ",
-   "head": "src/components/molecules/ScrollArea/ScrollArea.tsx:25"
+   "head": "src/components/molecules/ScrollArea/ScrollArea.tsx:57"
   },
   {
    "file": "src/components/__legacy__/ui/scroll-area.tsx:45",
    "rule": "shadcn(no-arbitrary-values)",
    "token": "p-[1px]",
-   "head": "src/components/molecules/ScrollArea/ScrollArea.tsx:48"
+   "head": "src/components/molecules/ScrollArea/ScrollArea.tsx:85"
   },
   {
    "file": "src/components/__legacy__/ui/scroll-area.tsx:47",
    "rule": "shadcn(no-arbitrary-values)",
    "token": "p-[1px]",
-   "head": "src/components/molecules/ScrollArea/ScrollArea.tsx:50"
+   "head": "src/components/molecules/ScrollArea/ScrollArea.tsx:87"
   },
   {
    "file": "src/components/__legacy__/ui/scroll-area.tsx:52",
    "rule": "shadcn(no-raw-colors)",
    "token": "bg-neutral-200",
-   "head": "src/components/molecules/ScrollArea/ScrollArea.tsx:58"
+   "head": "src/components/molecules/ScrollArea/ScrollArea.tsx:95"
   },
   {
    "file": "src/components/__legacy__/ui/scroll-area.tsx:52",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:bg-neutral-800",
-   "head": "src/components/molecules/ScrollArea/ScrollArea.tsx:58"
+   "head": "src/components/molecules/ScrollArea/ScrollArea.tsx:95"
   }
  ],
  "3": [

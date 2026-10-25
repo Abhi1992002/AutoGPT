@@ -361,3 +361,46 @@ _SWAPS[1].insert(2, ("`text-neutral-50`", "`text-destructive-foreground`", "`leg
 POST_K.setdefault(1, []).append(("#FAFAFA is shadcn's `background` (and its `*-foreground` pairs), the page background; the `legacy-*` Button uses it only as `text-neutral-50` on dark fills and in its `dark:` classes, all kept raw.",
     "#FAFAFA is `destructive-foreground` in `:root` and `.dark` alike, so `legacy-destructive` uses it; `primary-foreground` (#18181B in `.dark`) and `background` (#09090B in `.dark`) do not hold it in both modes, so `legacy-default` keeps raw `text-neutral-50` (QUALITY rule 43; SECRT-3154 pair, Deviations)."))
 PRS[1]["deviations"] = PRS[1]["deviations"] + ["**Rule 13 pair for SECRT-3154:** `legacy-default`'s `text-neutral-50` #FAFAFA ↔ role `primary-foreground`, which is #FAFAFA in `:root` but #18181B in `.dark` (text on the light `.dark` primary fill), so the raw class stays; `atoms/Button/helpers.ts`'s `TODO(tokens)` says so (#16092's `520bc19e6` wording)."]
+
+# ===== Cursor gates #16137 / #16139 (run1128): tests in (b), rule-31 scan v2 deviations, plugin versions =====
+TESTS = {
+    1: ("`molecules/Carousel/__tests__/Carousel.test.tsx`, `molecules/Collapsible/__tests__/Collapsible.test.tsx`, `molecules/PaginationControls/__tests__/PaginationControls.test.tsx`, `atoms/Button/Button.test.tsx`, `atoms/Button/Button.translation.test.tsx`", "5 files, 40 tests"),
+    2: ("`app/(platform)/build/components/__tests__/MCPToolDialog.test.tsx` (the spinner, scroll area and dialog) and `app/(platform)/reset-password/__tests__/page.test.tsx` (the Suspense fallback)", "2 files, 12 tests"),
+    3: ("`molecules/MultiSelect/__tests__/MultiSelect.test.tsx`, `molecules/MultiSelect/__tests__/MultiSelectList.test.tsx` (open/close, picking and un-picking, the remove button, the empty result, disabled options), `renderers/InputRenderer/__tests__/FormRenderer.test.tsx`, `.../SelectInput/__tests__/SelectWidget.test.tsx`", "4 files, 33 tests"),
+    4: ("`app/(platform)/build/__tests__/NewBlockMenu.test.tsx` and `app/(platform)/build/__tests__/NewSaveControl.test.tsx` (open, Escape, outside click)", "2 files, 41 tests"),
+}
+for _k, (_s, _n) in TESTS.items():
+    POST_K.setdefault(_k, []).append(("the unit tests named in Changes cover open/close, keyboard and selection paths.",
+                                      f"these suites cover them, all passing on this head ({_n}): {_s}."))
+PRS[2]["deviations"] = PRS[2]["deviations"] + [
+    "**Rule 31, `DayPicker` parts:** `src/components/atoms/Calendar/Calendar.tsx:82` passes type classes through `DayPicker`'s `classNames` (`month_caption` `text-body leading-5 font-medium`, `weekday` `font-normal text-[0.8rem]`, `day` `text-body leading-5`, `day_button` `text-body leading-5 font-normal`). "
+    "react-day-picker renders those elements and their text itself (caption, weekday names, day numbers), so there is no element to wrap in `<Text>`; the values are the legacy calendar's (table 2)."]
+PRS[3]["deviations"] = PRS[3]["deviations"] + [
+    "**Rule 31, `CommandItem`:** `src/components/molecules/MultiSelect/components/Command.tsx:66` keeps `text-body leading-5` on the cmdk item wrapper: it is a primitive part whose content comes from its callers (`MultiSelectorItem` passes the option label and the check icon), so there is no single text node to make a `<Text>`; the value is the legacy item's `text-sm` (table 2).",
+    "**Rule 31, `atoms/Badge`:** `src/components/atoms/Badge/Badge.tsx:102` is the atom's own tint `<span>` (`font-sans font-medium`, then its `badgeSizes`); the atom owns its type, and the file is #16118's byte for byte (QUALITY rule 41). The chip's type comes from `chipSizes`. This PR's chip label is `<Text>`."]
+PRS[3]["deviations"] = [d.replace("**Rule 31, one hit kept:**", "**Rule 31, `MultiSelectorTrigger`:**") for d in PRS[3]["deviations"]]
+COUNT_TOOLS = " Linters: oxlint 1.83.0 with `@shadcn/lint` 0.1.5 (a different plugin version can shift every directory total by the same few hits; the deltas are what this PR changes)."
+_xpr_b = xpr
+def xpr(k):
+    out = _xpr_b(k)
+    return out.replace("for `atoms/Text/helpers.ts`, `atoms/Button/helpers.ts` and `atoms/Badge/Badge.tsx`;", f"for `atoms/Text/helpers.ts`, `atoms/Button/helpers.ts` and `atoms/Badge/Badge.tsx`, run on this head `{SH[k]}`;") if out else out
+
+# ===== #16126's canonical ScrollArea f0c1db5de (QUALITY 45, run1157) =====
+SCROLL_HASH = "881b7934fb568668f91691c168cde10213615a6f"
+_rep(2, "what", "- `scroll-area` becomes `molecules/ScrollArea` (identical code; `ScrollBar` is no longer exported, 0 importers).",
+     "- `scroll-area` becomes `molecules/ScrollArea`, the one copy shared with DS3b-2 #16126 (QUALITY rule 45): #16126's `f0c1db5de` file byte for byte, which carries this PR's `data-slot`s and thumb `TODO(tokens)` and adds `showScrollToTop` (off by default; no caller in this PR sets it), the `ScrollBar` export and a viewport ref. Same classes as the legacy file at every call site.")
+_rep(2, "parity", "keeps the `dark:` thumb class and drops the unused `ScrollBar` export (0 importers)", "keeps the `dark:` thumb class and the `ScrollBar` export; adds `showScrollToTop` (default off, unused here) and a viewport ref (#16126's canonical file)")
+COUNT_NOTE[2] = ("**Why the touched files' count rises (157 → 159):** +4 `no-raw-colors` on `src/components/atoms/Calendar/Calendar.tsx` for the legacy ghost Button's `hover:bg-neutral-100 hover:text-neutral-900 dark:hover:bg-neutral-800 dark:hover:text-neutral-50`, which the day button now writes out (they were `__legacy__/ui/button.tsx:22`'s, not the calendar file's); "
+                 "+2 `no-restyle` where `AgentOutputs.tsx` and `MCPToolDialog.tsx` pass a `className` to the design-system `ScrollArea` (the rule does not check legacy components); −4 `no-restyle` the legacy calendar's `SelectTrigger`/`SelectContent` had. "
+                 "`molecules/ScrollArea/ScrollArea.tsx` has the same 7 hits `__legacy__/ui/scroll-area.tsx` had. Every `dark:` class is kept (QUALITY rule 43).")
+_cross_s = cross
+def cross(k):
+    if k != 2: return _cross_s(k)
+    P = "autogpt_platform/frontend/src/components/molecules/ScrollArea/ScrollArea.tsx"
+    h = subprocess.run(["git", "-C", R, "rev-parse", f"{SH[2]}:{P}"], capture_output=True, text=True).stdout.strip()
+    o = subprocess.run(["git", "-C", R, "rev-parse", f"refs/pr/16126:{P}"], capture_output=True, text=True).stdout.strip()
+    oh = subprocess.run(["git", "-C", R, "rev-parse", "--short", "refs/pr/16126"], capture_output=True, text=True).stdout.strip()
+    return ("#### Shared with other open PRs (QUALITY rule 45)\n\n| file on this head | `git hash-object` here | on #16126 (DS3b-2) head `" + oh + "` | what this PR uses |\n| --- | --- | --- | --- |\n"
+            f"| `src/components/molecules/ScrollArea/ScrollArea.tsx` | `{h[:12]}` | {'same, byte for byte' if h == o else 'DIFFERENT: `' + o[:12] + '`'} | `ScrollArea` with its default `orientation=\"vertical\"`; `showScrollToTop` is never set, so the scroll-to-top button does not render |\n\n"
+            "One `ScrollArea` across the open DS PRs: #16126 owns the canonical edit (its `showScrollToTop`, `ScrollBar` export and viewport ref, plus this PR's five `data-slot`s and thumb `TODO(tokens)`); this PR copies it. "
+            "Root, viewport, scrollbar and thumb classes are the legacy file's, so `AgentOutputs`, `ViewMoreData` and `MCPToolDialog` render the same; the button's own classes (`bg-primary` and so on) are #16126's and render only when a caller opts in.")

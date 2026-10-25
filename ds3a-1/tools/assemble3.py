@@ -51,7 +51,7 @@ def counts_section(k):
     rows.append(f"| {lab} | {fc[0][1]} | **{fc[1][1]}** |")
     rb, rh = rules[k].get(b, {}), rules[k].get(h, {})
     by = ", ".join(f"{r} {rb.get(r, 0)} → {rh.get(r, 0)}" for r in sorted(set(rb) | set(rh)))
-    return "\n".join(rows) + f"\n\nTouched files by rule, base → head: {by}. Counted with the strict oxlint config from DS4 `1ee6580dc` overlaid on both SHAs (`oxlint -c .oxlintrc.strict.json -f unix`, never committed)." + (("\n\n" + body_r0616.COUNT_NOTE[k]) if k in body_r0616.COUNT_NOTE else "")
+    return "\n".join(rows) + f"\n\nTouched files by rule, base → head: {by}. Counted with the strict oxlint config from DS4 `1ee6580dc` overlaid on both SHAs (`oxlint -c .oxlintrc.strict.json -f unix`, never committed)." + body_r0616.COUNT_TOOLS + (("\n\n" + body_r0616.COUNT_NOTE[k]) if k in body_r0616.COUNT_NOTE else "")
 
 def keyboard_lines(k, prev, curr):
     rp, rc = results(prev), results(curr)
