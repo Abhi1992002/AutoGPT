@@ -408,3 +408,29 @@ for _i, (_a, _b) in enumerate(POST_K[2]):
     if _a.startswith("the unit tests named in Changes"):
         POST_K[2][_i] = (_a, "these suites cover them, all passing on this head (3 files, 18 tests): `app/(platform)/build/components/__tests__/MCPToolDialog.test.tsx` (the spinner, scroll area and dialog), `app/(platform)/reset-password/__tests__/page.test.tsx` (the Suspense fallback) and `molecules/ScrollArea/__tests__/ScrollArea.test.tsx` (orientations, ref, `showScrollToTop`).")
 PRS[2]["what"] += "\n- `molecules/ScrollArea/__tests__/ScrollArea.test.tsx` covers the default and horizontal/both viewports, the forwarded ref and `showScrollToTop` (hidden by default, shown past 200px, scrolls back to the top)."
+
+# ===== #16125's canonical molecules/Collapsible (QUALITY 45, run1244) =====
+PRS[1]["deviations"] = PRS[1]["deviations"] + [
+    "**`molecules/Collapsible` is #16125's file byte for byte (QUALITY rule 45; orchestrator ruling run1244, 13:38 IST: \"molecules/Collapsible keeps #16125's exported CollapsibleRoot/CollapsibleTrigger/CollapsibleContent API; DS3a-1 (#16136-#16140) aligns its Collapsible.tsx to it byte-for-byte.\")**: "
+    "it exports `CollapsibleRoot`, `CollapsibleTrigger` and `CollapsibleContent` (Radix's `Root`, `CollapsibleTrigger`, `CollapsibleContent`, which are the very same objects as `Root`, `Trigger`, `Content` in `@radix-ui/react-collapsible`), and `Collapsible` renders through them with the same classes and `data-slot`s. "
+    "No visual or behaviour change: same components, same props, same DOM; `molecules/Collapsible/__tests__/Collapsible.test.tsx` passes on this head. No call site in this stack imports the new exports (the tour and app sidebars import `@/components/ui/collapsible`)."]
+_cross_c = cross
+def cross(k):
+    out = _cross_c(k)
+    if k != 1: return out
+    P = "autogpt_platform/frontend/src/components/molecules/Collapsible/Collapsible.tsx"
+    h = subprocess.run(["git", "-C", R, "rev-parse", f"{SH[1]}:{P}"], capture_output=True, text=True).stdout.strip()
+    o = subprocess.run(["git", "-C", R, "rev-parse", f"refs/pr/16125:{P}"], capture_output=True, text=True).stdout.strip()
+    oh = subprocess.run(["git", "-C", R, "rev-parse", "--short", "refs/pr/16125"], capture_output=True, text=True).stdout.strip()
+    return out + (f"\n\n| file on this head | `git hash-object` here | on #16125 (DS3b-2) head `{oh}` | what this PR uses |\n| --- | --- | --- | --- |\n"
+                  f"| `src/components/molecules/Collapsible/Collapsible.tsx` | `{h[:12]}` | {'same, byte for byte' if h == o else 'DIFFERENT: `' + o[:12] + '`'} | `Collapsible` (QUALITY rule 45; Deviations) |")
+
+# ===== dev 44126db0f merged into #16136 (run1345/run1444) =====
+PRS[1]["what"] = PRS[1]["what"].replace(
+    "`atoms/Text` gains the `body-tight` variant (`text-body leading-5`) and the `inherit` tone, with the names and strings DS7-1 #16134 uses.",
+    "`body-tight` (`text-body leading-5`) and the `inherit` tone are `dev`'s: #16083 (merged as `44126db0f`) added them with the same names and strings, so after merging `dev` this PR leaves `atoms/Text/helpers.ts` as `dev` has it.")
+PRS[1]["what"] += "\n- Merges `origin/dev` at `44126db0f` (#16083); the one conflict, `atoms/Text/helpers.ts`, resolves to `dev`'s file."
+COUNT_NOTE[1] = ("**Why the touched files' count rises (39 → 60):** +22 `no-raw-colors` in `src/components/atoms/Button/helpers.ts`, the `legacy-*` variants (#16092's file, byte for byte): their `neutral-*` and `dark:` classes (kept, QUALITY rule 43) are the legacy `button.tsx`'s, which stays in `__legacy__/ui` with its own hits until #16092 deletes it, so until then the same classes count twice. "
+                 "+2 `no-restyle` in `AgentsSection.tsx:83`: the `className` it passes to `CarouselContent` is the same as on base, but the rule checks design-system components and not legacy ones. "
+                 "+2 `require-static-classes` in `molecules/Collapsible/Collapsible.tsx`: #16125's canonical file (QUALITY rule 45) renders through the named `CollapsibleTrigger`/`CollapsibleContent`, so the rule now sees the `cn()` `className`s it could not see on `CollapsiblePrimitive.Trigger`/`.Content`; same classes. "
+                 "−5 for `__legacy__/ui/carousel.tsx`'s own hits. Every class is in table 2 (identical) and rule 37(b).")
