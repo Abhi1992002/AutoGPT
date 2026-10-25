@@ -404,3 +404,7 @@ def cross(k):
             f"| `src/components/molecules/ScrollArea/ScrollArea.tsx` | `{h[:12]}` | {'same, byte for byte' if h == o else 'DIFFERENT: `' + o[:12] + '`'} | `ScrollArea` with its default `orientation=\"vertical\"`; `showScrollToTop` is never set, so the scroll-to-top button does not render |\n\n"
             "One `ScrollArea` across the open DS PRs: #16126 owns the canonical edit (its `showScrollToTop`, `ScrollBar` export and viewport ref, plus this PR's five `data-slot`s and thumb `TODO(tokens)`); this PR copies it. "
             "Root, viewport, scrollbar and thumb classes are the legacy file's, so `AgentOutputs`, `ViewMoreData` and `MCPToolDialog` render the same; the button's own classes (`bg-primary` and so on) are #16126's and render only when a caller opts in.")
+for _i, (_a, _b) in enumerate(POST_K[2]):
+    if _a.startswith("the unit tests named in Changes"):
+        POST_K[2][_i] = (_a, "these suites cover them, all passing on this head (3 files, 18 tests): `app/(platform)/build/components/__tests__/MCPToolDialog.test.tsx` (the spinner, scroll area and dialog), `app/(platform)/reset-password/__tests__/page.test.tsx` (the Suspense fallback) and `molecules/ScrollArea/__tests__/ScrollArea.test.tsx` (orientations, ref, `showScrollToTop`).")
+PRS[2]["what"] += "\n- `molecules/ScrollArea/__tests__/ScrollArea.test.tsx` covers the default and horizontal/both viewports, the forwarded ref and `showScrollToTop` (hidden by default, shown past 200px, scrolls back to the top)."
