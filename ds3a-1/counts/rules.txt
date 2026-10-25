@@ -24,16 +24,16 @@
      19 shadcn(no-raw-colors)]
       1 shadcn(require-static-classes)]
       1 shadcn(no-restyle)]
-== adebd20aa
-     11 shadcn(no-raw-colors)]
+== 766fa6935
+      9 shadcn(no-raw-colors)]
       8 shadcn(no-restyle)]
       1 shadcn(require-static-classes)]
 ### PR4
-== adebd20aa
+== 766fa6935
      11 shadcn(no-raw-colors)]
       3 shadcn(no-restyle)]
       1 shadcn(no-arbitrary-values)]
-== fcdc8c332
+== fe51c217f
      26 shadcn(no-raw-colors)]
      18 shadcn(no-restyle)]
       1 shadcn(no-arbitrary-values)]

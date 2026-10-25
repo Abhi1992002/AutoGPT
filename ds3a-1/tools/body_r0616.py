@@ -283,3 +283,28 @@ POST_K = {2: [("#FAFAFA is shadcn's `background` (and its `*-foreground` pairs),
 def post(k, text):
     for a, b in POST + POST_K.get(k, []): text = text.replace(a, b)
     return text
+
+# ===== #16118's Badge 2d5cc3094 (chips carry the legacy dark: classes; run1046) =====
+PRS[3]["what"] = PRS[3]["what"].replace(
+    "\n- Each chip passes the legacy secondary badge's `dark:border-neutral-800 dark:bg-neutral-800 dark:text-neutral-50 dark:focus:ring-neutral-300` at the call site, so its dark colours are `dev`'s while `atoms/Badge` stays #16118's file byte for byte (QUALITY rule 41).",
+    "\n- `atoms/Badge/Badge.tsx` is #16118's file byte for byte (QUALITY rule 41). Its chips carry the legacy badge's `dark:` classes and keep raw fills where a token's `.dark` value differs, so the multiselect chip's dark colours are `dev`'s with no call-site override.")
+_SWAPS[3][1] = ("`focus:ring-neutral-950`", "`focus:ring-focus`", "each chip (`atoms/Badge` `chipBehaviour`, #16118's file)", "#0A0A0A", "#0A0A0A", "not set: #0A0A0A", "`dark:focus:ring-neutral-300` (legacy badge; in `chipBehaviour` on head)", "focus", "the focus ring")
+_rule43_b = rule43
+def rule43(k):
+    out = _rule43_b(k)
+    if k == 3:
+        a = out.index("\n\n`atoms/Badge/Badge.tsx` is #16118's file byte for byte (QUALITY rule 41). Its `solid` chip")
+        b = out.index("\n\n**(3) Strict counts**")
+        out = out[:a] + ("\n\n`atoms/Badge/Badge.tsx` is #16118's file byte for byte (QUALITY rule 41). Every chip keeps the legacy badge's `dark:` classes, and the `solid` and `destructive` chips keep raw `text-neutral-50` and `bg-red-500` "
+                         "because `primary-foreground` (#18181B) and `destructive` (#7F1D1D) differ in `.dark`; its `TODO(tokens)` lines name both.") + out[b:]
+    return out
+_lint37_b = lint37
+def lint37(k):
+    out = _lint37_b(k)
+    if k == 3:
+        a = out.find("\n\nStrict hits on head lines that no moved file carried: the chip's")
+        if a >= 0: out = out[:a]
+    return out
+POST.append(("`focus:ring-neutral-950` → `focus:ring-focus`; the legacy badge's `dark:` classes, which the chip variants do not carry, are passed at the call site (QUALITY rule 43 above).",
+             "`focus:ring-neutral-950` → `focus:ring-focus`; the legacy badge's `dark:` classes are kept in the chip classes (QUALITY rule 43 above)."))
+drop(3, "**Rule 31 scanner hit on `atoms/Badge`")

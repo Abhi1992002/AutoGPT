@@ -32,7 +32,7 @@ for k in (1, 2, 3, 4):
     g = subprocess.run(["python3", "-I", f"{E}/grep3132.py", b, h], capture_output=True, text=True).stdout.strip()
     c["rule3132"][str(k)] = (f"`python3 grep3132.py {b} {h}` ([script]({{TREE}}/tools/grep3132.py), the stand-in for `conductor/rule32-scan.py`, which is not in this sandbox: a `<Text>` whose className holds a size, line height, weight, family or tracking class is a rule-32 hit; "
                              "a raw `span`/`p`/`div`/`h1-6`/`label` with one is a rule-31 hit; JSX tags read across lines, counted when any of their lines is added), run on this diff before the push:\n\n```\n" + g + "\n```"
-                             + ("\n\nBoth rule-31 hits are Deviation rows below (a form-control container, and the Badge atom's own unchanged span)." if k == 3 else ""))
+                             + ("\n\nThe rule-31 hit is a Deviation row below (a form-control container)." if k == 3 and "rule 31: 1 hit" in g else ""))
     ci = json.loads(subprocess.run(["python3", "-I", f"{E}/ci_line.py", str(PR[k]), h], capture_output=True, text=True).stdout or "{}")
     c["checks"][str(k)] = ci.get("text", "CI line unavailable")
     mt = git("merge-tree", "--write-tree", "origin/dev", h).returncode

@@ -347,30 +347,6 @@
  ],
  "3": [
   {
-   "file": null,
-   "rule": "shadcn(no-raw-colors)",
-   "token": "dark:border-neutral-800",
-   "head": "src/components/molecules/MultiSelect/MultiSelect.tsx:192"
-  },
-  {
-   "file": null,
-   "rule": "shadcn(no-raw-colors)",
-   "token": "dark:bg-neutral-800",
-   "head": "src/components/molecules/MultiSelect/MultiSelect.tsx:192"
-  },
-  {
-   "file": null,
-   "rule": "shadcn(no-raw-colors)",
-   "token": "dark:text-neutral-50",
-   "head": "src/components/molecules/MultiSelect/MultiSelect.tsx:192"
-  },
-  {
-   "file": null,
-   "rule": "shadcn(no-raw-colors)",
-   "token": "dark:focus:ring-neutral-300",
-   "head": "src/components/molecules/MultiSelect/MultiSelect.tsx:192"
-  },
-  {
    "file": "src/components/__legacy__/ui/command.tsx:21",
    "rule": "shadcn(no-raw-colors)",
    "token": "text-neutral-950",

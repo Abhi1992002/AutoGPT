@@ -71,13 +71,13 @@ add("pr3", { file: "MultiSelect/MultiSelect.tsx", old: `${LIST} dark:scrollbar-t
 // ---- PR3 multiselect chips: legacy secondary Badge -> atoms/Badge variant="secondary" (DS3a-2 #16118's chip strings)
 {
   const { badgeVariants: LEGACY_BADGE } = await import("/home/vercel-sandbox/autogpt/autogpt_platform/frontend/src/components/__legacy__/ui/badge.tsx");
-  const src = (await import("node:fs")).readFileSync("/home/vercel-sandbox/autogpt/autogpt_platform/frontend/src/components/atoms/Badge/Badge.tsx", "utf8");
-  const chipBase = src.match(/const chipBase =\s*"([^"]+)"/)![1];
-  const chipSecondary = src.match(/secondary: "([^"]+)"/)![1];
+  const src = (await import("node:child_process")).execSync("git -C /home/vercel-sandbox/autogpt show 766fa6935:autogpt_platform/frontend/src/components/atoms/Badge/Badge.tsx", { encoding: "utf8" });
+  const grab = (re: RegExp) => src.match(re)![1].replace(/"\s*\+?\s*"/g, "");
+  const chipBase = [grab(/const chipLayout =\s*"([^"]+)"/), grab(/default: "([^"]+)"/), grab(/const chipBehaviour =\s*"([^"]+)"/)].join(" ");
+  const chipSecondary = grab(/secondary:\s*"([^"]+)"/);
   const CHIP_CLS = "flex items-center gap-1 rounded-xl px-1 pl-2";
-  const CHIP_DARK = `${CHIP_CLS} dark:border-neutral-800 dark:bg-neutral-800 dark:text-neutral-50 dark:focus:ring-neutral-300`;
-  add("pr3", { file: "molecules/MultiSelect chip (<Badge variant=\"secondary\">, was the legacy secondary Badge), with the chip's own className", old: cn(LEGACY_BADGE({ variant: "secondary" }), CHIP_CLS), new: cn(chipBase, chipSecondary, CHIP_DARK), tag: "div", atomOwnsBase: true });
-  add("pr3", { file: "the same chip, highlighted (activeIndex)", old: cn(LEGACY_BADGE({ variant: "secondary" }), CHIP_CLS, "ring-2 ring-muted-foreground"), new: cn(chipBase, chipSecondary, CHIP_DARK, "ring-2 ring-muted-foreground"), tag: "div", atomOwnsBase: true });
+  add("pr3", { file: "molecules/MultiSelect chip (<Badge variant=\"secondary\">, was the legacy secondary Badge), with the chip's own className", old: cn(LEGACY_BADGE({ variant: "secondary" }), CHIP_CLS), new: cn(chipBase, chipSecondary, CHIP_CLS), tag: "div", atomOwnsBase: true });
+  add("pr3", { file: "the same chip, highlighted (activeIndex)", old: cn(LEGACY_BADGE({ variant: "secondary" }), CHIP_CLS, "ring-2 ring-muted-foreground"), new: cn(chipBase, chipSecondary, CHIP_CLS, "ring-2 ring-muted-foreground"), tag: "div", atomOwnsBase: true });
 }
 
 // ---- PR4 popover
