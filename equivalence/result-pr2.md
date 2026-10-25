@@ -1,5 +1,2 @@
-| `button` | font-size 13px; line-height 19.5px; weight 500; color rgb(9, 9, 11); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
-| `button` | font-size 13px; line-height 19.5px; weight 500; color rgb(131, 131, 140); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
-| `button` | font-size 14px; line-height 20px; weight 500; color rgb(44, 44, 48); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
-| `button` | font-size 12px; line-height 16px; weight 500; color rgb(131, 131, 140); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `span` | font-size 14px; line-height 20px; weight 400; color rgb(131, 131, 140); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
 | `span` | font-size 14px; line-height 20px; weight 400; color rgb(131, 131, 140); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |

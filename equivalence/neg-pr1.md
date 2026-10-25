@@ -1,0 +1,12 @@
+FAIL w=1280 case=0-0: block-size: 52px -> 54px; height: 52px -> 54px; line-height: 20px -> 22px; perspective-origin: 19.0625px 26px -> 19.0625px 27px; transform-origin: 19.0625px 26px -> 19.0625px 27px
+FAIL w=1280 case=0-1: block-size: 52px -> 54px; height: 52px -> 54px; line-height: 20px -> 22px; perspective-origin: 19.0625px 26px -> 19.0625px 27px; transform-origin: 19.0625px 26px -> 19.0625px 27px
+FAIL w=1280 case=0-2: block-size: 52px -> 54px; height: 52px -> 54px; line-height: 20px -> 22px; perspective-origin: 19.0625px 26px -> 19.0625px 27px; transform-origin: 19.0625px 26px -> 19.0625px 27px
+FAIL w=1280 case=1-0: block-size: 20px -> 22px; height: 20px -> 22px; line-height: 20px -> 22px; perspective-origin: 640px 10px -> 640px 11px; transform-origin: 640px 10px -> 640px 11px
+FAIL w=1280 case=1-1: block-size: 20px -> 22px; height: 20px -> 22px; line-height: 20px -> 22px; perspective-origin: 640px 10px -> 640px 11px; transform-origin: 640px 10px -> 640px 11px
+FAIL w=1280 case=1-2: block-size: 20px -> 22px; height: 20px -> 22px; line-height: 20px -> 22px; perspective-origin: 640px 10px -> 640px 11px; transform-origin: 640px 10px -> 640px 11px
+FAIL w=390 case=0-0: block-size: 52px -> 54px; height: 52px -> 54px; line-height: 20px -> 22px; perspective-origin: 19.0625px 26px -> 19.0625px 27px; transform-origin: 19.0625px 26px -> 19.0625px 27px
+FAIL w=390 case=0-1: block-size: 52px -> 54px; height: 52px -> 54px; line-height: 20px -> 22px; perspective-origin: 19.0625px 26px -> 19.0625px 27px; transform-origin: 19.0625px 26px -> 19.0625px 27px
+FAIL w=390 case=0-2: block-size: 52px -> 54px; height: 52px -> 54px; line-height: 20px -> 22px; perspective-origin: 19.0625px 26px -> 19.0625px 27px; transform-origin: 19.0625px 26px -> 19.0625px 27px
+FAIL w=390 case=1-0: block-size: 20px -> 22px; height: 20px -> 22px; line-height: 20px -> 22px; perspective-origin: 195px 10px -> 195px 11px; transform-origin: 195px 10px -> 195px 11px
+FAIL w=390 case=1-1: block-size: 20px -> 22px; height: 20px -> 22px; line-height: 20px -> 22px; perspective-origin: 195px 10px -> 195px 11px; transform-origin: 195px 10px -> 195px 11px
+FAIL w=390 case=1-2: block-size: 20px -> 22px; height: 20px -> 22px; line-height: 20px -> 22px; perspective-origin: 195px 10px -> 195px 11px; transform-origin: 195px 10px -> 195px 11px

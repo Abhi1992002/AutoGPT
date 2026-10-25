@@ -1,0 +1,52 @@
+[
+ {
+  "file": "NEGATIVE app/(platform)/copilot/components/ChatInput/components/MentionDropdown.stories.tsx:43 (Text large-loose, primary)",
+  "old": "div|max-w-full whitespace-pre-wrap rounded-3xl bg-surface-hover px-4 py-2.5 text-base leading-8 text-foreground-strong",
+  "new": "div|font-sans text-body-lg font-normal text-foreground-strong max-w-full whitespace-pre-wrap rounded-3xl bg-surface-hover px-4 py-2.5"
+ },
+ {
+  "file": "NEGATIVE app/(platform)/copilot/components/ChatInput/components/MentionDropdown.stories.tsx:71 (Text body-tight)",
+  "old": "span|rounded-lg bg-surface-hover px-2 py-1 text-sm",
+  "new": "span|font-sans text-body font-normal rounded-lg bg-surface-hover px-2 py-1 text-foreground"
+ },
+ {
+  "file": "NEGATIVE components/molecules/InputGroup/InputGroup.tsx:35 cva() align=inline-start",
+  "old": "div|text-muted-foreground flex h-auto cursor-text items-center justify-center gap-2 py-1.5 text-sm font-medium select-none group-data-[disabled=true]/input-group:opacity-50 order-first pl-3",
+  "new": "div|text-muted-foreground flex h-auto cursor-text items-center justify-center gap-2 py-1.5 text-body font-medium select-none group-data-[disabled=true]/input-group:opacity-50 order-first pl-3"
+ },
+ {
+  "file": "NEGATIVE components/molecules/InputGroup/InputGroup.tsx:35 cva() align=inline-end",
+  "old": "div|text-muted-foreground flex h-auto cursor-text items-center justify-center gap-2 py-1.5 text-sm font-medium select-none group-data-[disabled=true]/input-group:opacity-50 order-last pr-3",
+  "new": "div|text-muted-foreground flex h-auto cursor-text items-center justify-center gap-2 py-1.5 text-body font-medium select-none group-data-[disabled=true]/input-group:opacity-50 order-last pr-3"
+ },
+ {
+  "file": "NEGATIVE components/molecules/InputGroup/InputGroup.tsx:35 cva() align=block-start",
+  "old": "div|text-muted-foreground flex h-auto cursor-text items-center gap-2 py-1.5 text-sm font-medium select-none group-data-[disabled=true]/input-group:opacity-50 order-first w-full justify-start px-3 pt-3",
+  "new": "div|text-muted-foreground flex h-auto cursor-text items-center gap-2 py-1.5 text-body font-medium select-none group-data-[disabled=true]/input-group:opacity-50 order-first w-full justify-start px-3 pt-3"
+ },
+ {
+  "file": "NEGATIVE components/molecules/InputGroup/InputGroup.tsx:35 cva() align=block-end",
+  "old": "div|text-muted-foreground flex h-auto cursor-text items-center gap-2 py-1.5 text-sm font-medium select-none group-data-[disabled=true]/input-group:opacity-50 order-last w-full justify-start px-3 pb-3",
+  "new": "div|text-muted-foreground flex h-auto cursor-text items-center gap-2 py-1.5 text-body font-medium select-none group-data-[disabled=true]/input-group:opacity-50 order-last w-full justify-start px-3 pb-3"
+ },
+ {
+  "file": "NEGATIVE components/molecules/InputGroup/InputGroup.tsx:77 cva() size=xs",
+  "old": "button|text-sm shadow-none flex min-w-0 items-center h-6 gap-1 px-2 rounded-md has-[>svg]:px-2",
+  "new": "button|text-body shadow-none flex min-w-0 items-center h-6 gap-1 px-2 rounded-md has-[>svg]:px-2"
+ },
+ {
+  "file": "NEGATIVE components/molecules/InputGroup/InputGroup.tsx:77 cva() size=sm",
+  "old": "button|text-sm shadow-none flex min-w-0 items-center h-8 px-2.5 gap-1.5 rounded-md has-[>svg]:px-2.5",
+  "new": "button|text-body shadow-none flex min-w-0 items-center h-8 px-2.5 gap-1.5 rounded-md has-[>svg]:px-2.5"
+ },
+ {
+  "file": "NEGATIVE components/molecules/InputGroup/InputGroup.tsx:77 cva() size=icon-xs",
+  "old": "button|text-sm shadow-none flex min-w-0 gap-2 items-center size-6 rounded-md p-0 has-[>svg]:p-0",
+  "new": "button|text-body shadow-none flex min-w-0 gap-2 items-center size-6 rounded-md p-0 has-[>svg]:p-0"
+ },
+ {
+  "file": "NEGATIVE components/molecules/InputGroup/InputGroup.tsx:77 cva() size=icon-sm",
+  "old": "button|text-sm shadow-none flex min-w-0 gap-2 items-center size-8 rounded-md p-0 has-[>svg]:p-0",
+  "new": "button|text-body shadow-none flex min-w-0 gap-2 items-center size-8 rounded-md p-0 has-[>svg]:p-0"
+ }
+]

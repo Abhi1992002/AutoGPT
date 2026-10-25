@@ -1,62 +1,62 @@
 [
  {
-  "file": "InputGroup (root)",
+  "file": "app/(platform)/copilot/components/ChatInput/ChatInput.tsx:560 cn() (base)",
+  "old": "div|max-md:max-h-32",
+  "new": "div|max-md:max-h-32"
+ },
+ {
+  "file": "app/(platform)/copilot/components/ChatInput/components/MentionDropdown.stories.tsx:43 (Text large-loose, primary)",
+  "old": "div|max-w-full whitespace-pre-wrap rounded-3xl bg-surface-hover px-4 py-2.5 text-base leading-8 text-foreground-strong",
+  "new": "div|font-sans text-body-lg font-normal leading-8 text-foreground-strong max-w-full whitespace-pre-wrap rounded-3xl bg-surface-hover px-4 py-2.5"
+ },
+ {
+  "file": "app/(platform)/copilot/components/ChatInput/components/MentionDropdown.stories.tsx:71 (Text body-tight)",
+  "old": "span|rounded-lg bg-surface-hover px-2 py-1 text-sm",
+  "new": "span|font-sans text-body font-normal leading-5 rounded-lg bg-surface-hover px-2 py-1 text-foreground"
+ },
+ {
+  "file": "components/molecules/InputGroup/InputGroup.tsx:15 cn() (base)",
   "old": "div|group/input-group relative flex w-full items-center rounded-xlarge border border-neutral-200 bg-white shadow-sm outline-none transition-[color,box-shadow] min-w-0 has-[>textarea]:h-auto has-[>[data-align=block-start]]:h-auto has-[>[data-align=block-start]]:flex-col has-[>[data-align=block-end]]:h-auto has-[>[data-align=block-end]]:flex-col has-[[data-slot=input-group-control]:focus-visible]:border-zinc-400 has-[[data-slot=input-group-control]:focus-visible]:ring-1 has-[[data-slot=input-group-control]:focus-visible]:ring-zinc-400",
   "new": "div|group/input-group relative flex w-full items-center rounded-xlarge border border-neutral-200 bg-surface shadow-sm outline-none transition-[color,box-shadow] min-w-0 has-[>textarea]:h-auto has-[>[data-align=block-start]]:h-auto has-[>[data-align=block-start]]:flex-col has-[>[data-align=block-end]]:h-auto has-[>[data-align=block-end]]:flex-col has-[[data-slot=input-group-control]:focus-visible]:border-zinc-400 has-[[data-slot=input-group-control]:focus-visible]:ring-1 has-[[data-slot=input-group-control]:focus-visible]:ring-zinc-400"
  },
  {
-  "file": "InputGroupAddon align=inline-start",
+  "file": "components/molecules/InputGroup/InputGroup.tsx:35 cva() align=inline-start",
   "old": "div|text-muted-foreground flex h-auto cursor-text items-center justify-center gap-2 py-1.5 text-sm font-medium select-none group-data-[disabled=true]/input-group:opacity-50 order-first pl-3",
   "new": "div|text-muted-foreground flex h-auto cursor-text items-center justify-center gap-2 py-1.5 text-body font-medium leading-5 select-none group-data-[disabled=true]/input-group:opacity-50 order-first pl-3"
  },
  {
-  "file": "InputGroupAddon align=inline-end",
+  "file": "components/molecules/InputGroup/InputGroup.tsx:35 cva() align=inline-end",
   "old": "div|text-muted-foreground flex h-auto cursor-text items-center justify-center gap-2 py-1.5 text-sm font-medium select-none group-data-[disabled=true]/input-group:opacity-50 order-last pr-3",
   "new": "div|text-muted-foreground flex h-auto cursor-text items-center justify-center gap-2 py-1.5 text-body font-medium leading-5 select-none group-data-[disabled=true]/input-group:opacity-50 order-last pr-3"
  },
  {
-  "file": "InputGroupAddon align=block-start",
+  "file": "components/molecules/InputGroup/InputGroup.tsx:35 cva() align=block-start",
   "old": "div|text-muted-foreground flex h-auto cursor-text items-center gap-2 py-1.5 text-sm font-medium select-none group-data-[disabled=true]/input-group:opacity-50 order-first w-full justify-start px-3 pt-3",
   "new": "div|text-muted-foreground flex h-auto cursor-text items-center gap-2 py-1.5 text-body font-medium leading-5 select-none group-data-[disabled=true]/input-group:opacity-50 order-first w-full justify-start px-3 pt-3"
  },
  {
-  "file": "InputGroupAddon align=block-end",
+  "file": "components/molecules/InputGroup/InputGroup.tsx:35 cva() align=block-end",
   "old": "div|text-muted-foreground flex h-auto cursor-text items-center gap-2 py-1.5 text-sm font-medium select-none group-data-[disabled=true]/input-group:opacity-50 order-last w-full justify-start px-3 pb-3",
   "new": "div|text-muted-foreground flex h-auto cursor-text items-center gap-2 py-1.5 text-body font-medium leading-5 select-none group-data-[disabled=true]/input-group:opacity-50 order-last w-full justify-start px-3 pb-3"
  },
  {
-  "file": "InputGroupButton size=xs",
+  "file": "components/molecules/InputGroup/InputGroup.tsx:77 cva() size=xs",
   "old": "button|text-sm shadow-none flex min-w-0 items-center h-6 gap-1 px-2 rounded-md has-[>svg]:px-2",
   "new": "button|text-body leading-5 shadow-none flex min-w-0 items-center h-6 gap-1 px-2 rounded-md has-[>svg]:px-2"
  },
  {
-  "file": "InputGroupButton size=sm",
+  "file": "components/molecules/InputGroup/InputGroup.tsx:77 cva() size=sm",
   "old": "button|text-sm shadow-none flex min-w-0 items-center h-8 px-2.5 gap-1.5 rounded-md has-[>svg]:px-2.5",
   "new": "button|text-body leading-5 shadow-none flex min-w-0 items-center h-8 px-2.5 gap-1.5 rounded-md has-[>svg]:px-2.5"
  },
  {
-  "file": "InputGroupButton size=icon-xs",
+  "file": "components/molecules/InputGroup/InputGroup.tsx:77 cva() size=icon-xs",
   "old": "button|text-sm shadow-none flex min-w-0 gap-2 items-center size-6 rounded-md p-0 has-[>svg]:p-0",
   "new": "button|text-body leading-5 shadow-none flex min-w-0 gap-2 items-center size-6 rounded-md p-0 has-[>svg]:p-0"
  },
  {
-  "file": "InputGroupButton size=icon-sm",
+  "file": "components/molecules/InputGroup/InputGroup.tsx:77 cva() size=icon-sm",
   "old": "button|text-sm shadow-none flex min-w-0 gap-2 items-center size-8 rounded-md p-0 has-[>svg]:p-0",
   "new": "button|text-body leading-5 shadow-none flex min-w-0 gap-2 items-center size-8 rounded-md p-0 has-[>svg]:p-0"
- },
- {
-  "file": "ChatInput.tsx (compact textarea)",
-  "old": "textarea|text-sm leading-5 md:text-sm",
-  "new": "textarea|text-body leading-5 md:text-body md:leading-5"
- },
- {
-  "file": "MentionDropdown.stories.tsx (sent bubble)",
-  "old": "div|max-w-full whitespace-pre-wrap rounded-3xl bg-surface-hover px-4 py-2.5 text-base leading-8 text-foreground-strong",
-  "new": "div|max-w-full whitespace-pre-wrap rounded-3xl bg-surface-hover px-4 py-2.5 text-body-lg leading-8 text-foreground-strong"
- },
- {
-  "file": "MentionDropdown.stories.tsx (attachment chip)",
-  "old": "span|rounded-lg bg-surface-hover px-2 py-1 text-sm",
-  "new": "span|font-sans text-body font-normal leading-5 rounded-lg bg-surface-hover px-2 py-1 text-foreground"
  }
 ]

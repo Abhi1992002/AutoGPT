@@ -15,20 +15,27 @@ const pairs: { old: string; new: string }[] = JSON.parse(readFileSync(pairsFile,
 const unescape = (s: string) => s.replace(/&amp;/g, "&").replace(/&gt;/g, ">").replace(/&lt;/g, "<").replace(/&quot;/g, '"');
 const split = (s: string) => { const i = s.indexOf("|"); return { tag: s.slice(0, i), cls: unescape(s.slice(i + 1)) }; };
 
+const PARENTS = ["leading-[1.5]", "leading-[30px]", "leading-[normal]"];
+// What each parent must compute to at a 16px root; asserted before measuring,
+// so a parent class missing from the generated CSS fails the run.
+const PARENT_LH = ["24px", "30px", "normal"];
+
 async function css(dir: string, classes: string[]) {
   const config = loadConfig(join(dir, "tailwind.config.ts"));
   const globals = readFileSync(join(dir, "src/app/globals.css"), "utf8");
-  const r = await postcss([tailwindcss({ ...config, content: [{ raw: classes.join(" "), extension: "html" }] })]).process(globals, { from: join(dir, "src/app/globals.css") });
+  const raw = classes.join(" ") + " " + PARENTS.join(" ");
+  const r = await postcss([tailwindcss({ ...config, content: [{ raw, extension: "html" }] })]).process(globals, { from: join(dir, "src/app/globals.css") });
   return r.css as string;
 }
-const PARENTS = ["leading-[1.5]", "leading-[30px]", "leading-normal"];
 const WIDTHS = [1280, 390];
 
 async function measure(browser: any, cssText: string, items: { tag: string; cls: string }[], width: number) {
   const page = await browser.newPage({ viewport: { width, height: 800 } });
   const body = items.flatMap((it, i) => PARENTS.map((p, j) => `<div class="${p}" style="font-size:16px"><${it.tag} data-i="${i}-${j}" class="${it.cls.replace(/"/g, "&quot;")}"><span>Ab</span> text</${it.tag}></div>`)).join("");
-  await page.setContent(`<html><head><style>${cssText}</style><style>${PARENTS.map((p) => "").join("")}</style></head><body>${body}</body></html>`);
+  await page.setContent(`<html><head><style>${cssText}</style></head><body>${body}</body></html>`);
   if ((await page.evaluate(() => getComputedStyle(document.documentElement).fontSize)) !== "16px") throw new Error("root not 16px");
+  const parentLH: string[] = await page.evaluate((n: number) => Array.from(document.querySelectorAll("body > div")).slice(0, n).map((d) => getComputedStyle(d).lineHeight), PARENTS.length);
+  parentLH.forEach((lh, j) => { if (lh !== PARENT_LH[j]) throw new Error(`parent ${PARENTS[j]} computes line-height ${lh}, expected ${PARENT_LH[j]}`); });
   const vals = await page.evaluate(() => {
     const out: Record<string, Record<string, string>> = {};
     document.querySelectorAll("[data-i]").forEach((el) => {
@@ -67,6 +74,6 @@ async function measure(browser: any, cssText: string, items: { tag: string; cls:
   }
   await browser.close();
   writeFileSync(outFile, rows.join("\n"));
-  console.log(`${pairs.length} pairs, ${cases} cases, ${failures} failing`);
+  console.log(`${pairs.length} pairs, ${cases} cases, ${failures} failing (parent line-heights asserted: ${PARENT_LH.join(", ")})`);
   process.exit(failures ? 1 : 0);
 })();

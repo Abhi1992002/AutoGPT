@@ -1,0 +1,1 @@
+| WalletFullPanel.tsx header row (Earn credits pill with semibold amount, close button) | box 280x36; "Earn credits" 14px 400 at (12, 10); "1,250" 14px 600 at (82.75, 10) | identical (glyph boxes, font, weight, colour, letter-spacing, box; 3 parents x 2 widths) |

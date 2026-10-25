@@ -1,0 +1,37 @@
+[
+ {
+  "file": "NEGATIVE app/(platform)/build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:47 (Text small-tight, muted)",
+  "old": "div|px-4 pt-3 text-xs text-zinc-500",
+  "new": "div|font-sans text-caption font-normal text-foreground-tertiary px-4 pt-3"
+ },
+ {
+  "file": "NEGATIVE app/(platform)/build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:60 (Text body-tight, muted)",
+  "old": "div|flex h-32 items-center justify-center text-sm text-zinc-500",
+  "new": "div|font-sans text-body font-normal text-foreground-tertiary flex h-32 items-center justify-center"
+ },
+ {
+  "file": "NEGATIVE app/(platform)/build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:116 (Text small-loose, muted)",
+  "old": "span|shrink-0 rounded-[0.75rem] bg-zinc-200 px-2 font-sans text-xs leading-5 text-zinc-500",
+  "new": "span|font-sans text-caption font-normal text-foreground-tertiary shrink-0 rounded-[0.75rem] bg-zinc-200 px-2"
+ },
+ {
+  "file": "NEGATIVE app/(platform)/build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:128 (Text small-loose, muted)",
+  "old": "span|line-clamp-1 font-sans text-xs font-normal leading-5 text-zinc-500",
+  "new": "span|font-sans text-caption font-normal text-foreground-tertiary line-clamp-1"
+ },
+ {
+  "file": "NEGATIVE components/layout/Navbar/components/Wallet/components/WalletFullPanel.tsx:27 (Text h5-semibold, primary)",
+  "old": "span|font-poppins text-base font-semibold text-foreground-strong",
+  "new": "span|font-poppins text-body-lg font-semibold text-foreground-strong"
+ },
+ {
+  "file": "NEGATIVE components/layout/Navbar/components/Wallet/components/WalletFullPanel.tsx:30 (Text small-tight, muted)",
+  "old": "span|font-sans text-xs text-foreground-tertiary",
+  "new": "span|font-sans text-caption font-normal text-foreground-tertiary"
+ },
+ {
+  "file": "NEGATIVE components/layout/Navbar/components/Wallet/components/WalletFullPanel.tsx:63 (Text small-tight, subtle)",
+  "old": "p|mx-1 my-3 font-sans text-xs font-normal text-foreground-subtle",
+  "new": "p|font-sans text-caption font-normal text-foreground-subtle mx-1 my-3"
+ }
+]

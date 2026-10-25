@@ -1,0 +1,7 @@
+[
+ {
+  "name": "WalletFullPanel.tsx header row (Earn credits pill with semibold amount, close button)",
+  "old": "<div class=\"flex shrink-0 items-center text-sm text-accent-strong\"><div class=\"rounded-lg bg-violet-100 px-3 py-2\">Earn credits <span class=\"font-semibold\">1,250</span></div><button aria-label=\"Close wallet\"><svg class=\"ml-2 h-5 w-5 text-foreground-emphasis hover:text-foreground\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\"><path d=\"M4 8l8 8 8-8\"/></svg></button></div>",
+  "new": "<div class=\"flex shrink-0 items-center text-body leading-5 text-accent-strong\"><div class=\"font-sans text-body font-normal leading-5 rounded-lg bg-violet-100 px-3 py-2 text-accent-strong\">Earn credits <span class=\"font-sans text-body font-semibold leading-5 text-inherit\">1,250</span></div><button aria-label=\"Close wallet\"><svg class=\"ml-2 h-5 w-5 text-foreground-emphasis hover:text-foreground\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\"><path d=\"M4 8l8 8 8-8\"/></svg></button></div>"
+ }
+]

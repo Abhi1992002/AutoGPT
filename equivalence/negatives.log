@@ -1,0 +1,7 @@
+PR1 negative (added leading-* removed from the new strings): 2 pairs, 12 cases, 12 failing (parent line-heights asserted: 24px, 30px, normal)
+PR2 negative (added leading-* removed from the new strings): 2 pairs, 12 cases, 12 failing (parent line-heights asserted: 24px, 30px, normal)
+PR3 negative (added leading-* removed from the new strings): 7 pairs, 42 cases, 42 failing (parent line-heights asserted: 24px, 30px, normal)
+PR4 negative (added leading-* removed from the new strings): 12 pairs, 72 cases, 66 failing (parent line-heights asserted: 24px, 30px, normal)
+PR5 negative (added leading-* removed from the new strings): 2 pairs, 12 cases, 9 failing (parent line-heights asserted: 24px, 30px, normal)
+PR6 negative (added leading-* removed from the new strings): 10 pairs, 60 cases, 60 failing (parent line-heights asserted: 24px, 30px, normal)
+nested negative (#16127/#16128 restructures with a wrong variant or colour): 3 restructures, 18 cases, 18 failing (parent line-heights asserted: 24px, 30px, normal)

@@ -1,26 +1,11 @@
 [
  {
-  "file": "TourSidebar.tsx (Workspace label)",
-  "old": "button|text-[13px] font-medium",
-  "new": "button|text-body-sm font-medium leading-inherit"
+  "file": "components/layout/Navbar/components/Wallet/components/WalletEarnCredits.tsx:132 (Text body-tight, muted)",
+  "old": "span|shrink-0 font-sans text-sm text-foreground-tertiary",
+  "new": "span|font-sans text-body font-normal leading-5 text-foreground-tertiary shrink-0"
  },
  {
-  "file": "CollapsibleNavGroup.tsx (label, max-md)",
-  "old": "button|text-body-sm font-medium leading-inherit text-foreground-tertiary group-data-[collapsible=icon]:hidden max-md:h-11 max-md:text-sm",
-  "new": "button|text-body-sm font-medium leading-inherit text-foreground-tertiary group-data-[collapsible=icon]:hidden max-md:h-11 max-md:text-body max-md:leading-5"
- },
- {
-  "file": "ExpertChatGroup.tsx (trigger)",
-  "old": "button|flex min-w-0 flex-1 items-center gap-2 rounded-md px-2 py-1 text-left text-sm font-medium text-foreground-strong max-md:py-2 max-md:text-base",
-  "new": "button|flex min-w-0 flex-1 items-center gap-2 rounded-md px-2 py-1 text-left text-body font-medium leading-5 text-foreground-strong max-md:py-2 max-md:text-body-lg max-md:leading-6"
- },
- {
-  "file": "ExpertChatGroup.tsx (show more)",
-  "old": "button|mt-0.5 w-full rounded-md px-2 py-1 text-left text-xs font-medium text-foreground-tertiary hover:bg-surface-hover hover:text-foreground-emphasis max-md:py-2.5 max-md:text-sm",
-  "new": "button|mt-0.5 w-full rounded-md px-2 py-1 text-left text-caption font-medium leading-4 text-foreground-tertiary hover:bg-surface-hover hover:text-foreground-emphasis max-md:py-2.5 max-md:text-body max-md:leading-5"
- },
- {
-  "file": "WalletEarnCredits.tsx (group + row amount)",
+  "file": "components/layout/Navbar/components/Wallet/components/WalletEarnCredits.tsx:149 (Text body-tight, muted)",
   "old": "span|shrink-0 font-sans text-sm text-foreground-tertiary",
   "new": "span|font-sans text-body font-normal leading-5 text-foreground-tertiary shrink-0"
  }

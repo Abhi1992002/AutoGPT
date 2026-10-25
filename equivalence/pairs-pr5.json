@@ -1,27 +1,12 @@
 [
  {
-  "file": "RecentChats.tsx (empty state)",
+  "file": "components/layout/AppSidebar/components/RecentChats/RecentChats.tsx:63 (Text body-tight)",
   "old": "p|px-2 py-2 text-sm text-neutral-500",
   "new": "p|font-sans text-body font-normal leading-5 px-2 py-2 text-neutral-500"
  },
  {
-  "file": "RecentChats.tsx (Pinned label; its row used to set 12px medium)",
-  "old": "span|truncate text-xs font-medium text-foreground-tertiary",
-  "new": "span|font-sans text-caption font-medium leading-4 text-foreground-tertiary truncate"
- },
- {
-  "file": "RecentChats.tsx (Load all)",
-  "old": "button|mt-1 flex w-full items-center justify-center gap-2 rounded-md bg-surface-active px-2 py-1.5 text-sm text-foreground-emphasis hover:bg-zinc-300 disabled:opacity-60 max-md:py-3 max-md:text-base",
-  "new": "button|mt-1 flex w-full items-center justify-center gap-2 rounded-md bg-surface-active px-2 py-1.5 text-body leading-5 text-foreground-emphasis hover:bg-zinc-300 disabled:opacity-60 max-md:py-3 max-md:text-body-lg max-md:leading-6"
- },
- {
-  "file": "RecentChatItem.tsx (rename input)",
+  "file": "components/layout/AppSidebar/components/RecentChats/components/RecentChatItem/RecentChatItem.tsx:134",
   "old": "input|w-full rounded-md border border-border-strong bg-surface px-2 py-1 text-sm text-foreground-emphasis outline-none focus:border-brand focus:ring-1 focus:ring-brand max-md:py-2 max-md:text-base",
   "new": "input|w-full rounded-md border border-border-strong bg-surface px-2 py-1 text-body leading-5 text-foreground-emphasis outline-none focus:border-brand focus:ring-1 focus:ring-brand max-md:py-2 max-md:text-body-lg max-md:leading-6"
- },
- {
-  "file": "AccountMenuFeedbackRow.tsx (row)",
-  "old": "button|group relative flex w-full items-center gap-3 rounded-lg py-2 pl-3 pr-2 text-left text-sm font-normal text-neutral-700 outline-none",
-  "new": "button|group relative flex w-full items-center gap-3 rounded-lg py-2 pl-3 pr-2 text-left text-body font-normal leading-5 text-neutral-700 outline-none"
  }
 ]

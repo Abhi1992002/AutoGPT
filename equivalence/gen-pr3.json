@@ -1,0 +1,88 @@
+[
+ {
+  "file": "app/(platform)/build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:47",
+  "tag": "div",
+  "old": "px-4 pt-3 text-xs text-zinc-500",
+  "text": {
+   "variant": "small-tight",
+   "tone": "muted",
+   "className": "px-4 pt-3"
+  }
+ },
+ {
+  "file": "app/(platform)/build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:60",
+  "tag": "div",
+  "old": "flex h-32 items-center justify-center text-sm text-zinc-500",
+  "text": {
+   "variant": "body-tight",
+   "tone": "muted",
+   "className": "flex h-32 items-center justify-center"
+  }
+ },
+ {
+  "file": "app/(platform)/build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:107",
+  "tag": "span",
+  "old": "line-clamp-1 font-sans text-sm font-medium leading-[1.375rem] text-zinc-800",
+  "text": {
+   "variant": "body-medium",
+   "tone": "emphasis",
+   "className": "line-clamp-1"
+  }
+ },
+ {
+  "file": "app/(platform)/build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:116",
+  "tag": "span",
+  "old": "shrink-0 rounded-[0.75rem] bg-zinc-200 px-2 font-sans text-xs leading-5 text-zinc-500",
+  "text": {
+   "variant": "small-loose",
+   "tone": "muted",
+   "className": "shrink-0 rounded-[0.75rem] bg-zinc-200 px-2"
+  }
+ },
+ {
+  "file": "app/(platform)/build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:128",
+  "tag": "span",
+  "old": "line-clamp-1 font-sans text-xs font-normal leading-5 text-zinc-500",
+  "text": {
+   "variant": "small-loose",
+   "tone": "muted",
+   "className": "line-clamp-1"
+  }
+ },
+ {
+  "file": "components/contextual/IntegrationsPanel/components/ConnectServiceDialog/components/ListView.tsx:45",
+  "tag": "input",
+  "old": "h-[46px] w-full rounded-3xl border border-border-base bg-surface pl-12 pr-4 text-sm leading-5.5 text-[#1F1F20] placeholder:text-placeholder focus:border-purple-400 focus:outline-none focus:ring-1 focus:ring-purple-400",
+  "new": "h-[46px] w-full rounded-3xl border border-border-base bg-surface pl-12 pr-4 text-body text-[#1F1F20] placeholder:text-placeholder focus:border-purple-400 focus:outline-none focus:ring-1 focus:ring-purple-400"
+ },
+ {
+  "file": "components/layout/Navbar/components/Wallet/components/WalletFullPanel.tsx:27",
+  "tag": "span",
+  "old": "font-poppins text-base font-semibold text-foreground-strong",
+  "text": {
+   "variant": "h5-semibold",
+   "tone": "primary",
+   "className": null
+  }
+ },
+ {
+  "file": "components/layout/Navbar/components/Wallet/components/WalletFullPanel.tsx:30",
+  "tag": "span",
+  "old": "font-sans text-xs text-foreground-tertiary",
+  "text": {
+   "variant": "small-tight",
+   "tone": "muted",
+   "className": null
+  }
+ },
+ {
+  "file": "components/layout/Navbar/components/Wallet/components/WalletFullPanel.tsx:63",
+  "tag": "p",
+  "old": "mx-1 my-3 font-sans text-xs font-normal text-foreground-subtle",
+  "text": {
+   "variant": "small-tight",
+   "tone": "subtle",
+   "className": "mx-1 my-3"
+  }
+ }
+]

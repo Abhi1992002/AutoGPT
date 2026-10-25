@@ -1,0 +1,14 @@
+PR1 0d5ac323f..6d82822a4: 2 pairs generated; 0 restructure hunks covered by nested cases; 0 uncovered
+PR1 0d5ac323f..6d82822a4: pairs: 2 pairs, 12 cases, 0 failing (parent line-heights asserted: 24px, 30px, normal) | nested: 0 restructures, 0 cases, 0 failing (parent line-heights asserted: 24px, 30px, normal)
+PR2 6d82822a4..c05cf66c6: 2 pairs generated; 7 restructure hunks covered by nested cases; 0 uncovered
+PR2 6d82822a4..c05cf66c6: pairs: 2 pairs, 12 cases, 0 failing (parent line-heights asserted: 24px, 30px, normal) | nested: 4 restructures, 24 cases, 0 failing (parent line-heights asserted: 24px, 30px, normal)
+PR3 c05cf66c6..f0c1db5de: 9 pairs generated; 3 restructure hunks covered by nested cases; 0 uncovered
+PR3 c05cf66c6..f0c1db5de: pairs: 9 pairs, 54 cases, 0 failing (parent line-heights asserted: 24px, 30px, normal) | nested: 1 restructures, 6 cases, 0 failing (parent line-heights asserted: 24px, 30px, normal)
+PR4 f0c1db5de..617b28b08: 12 pairs generated; 7 restructure hunks covered by nested cases; 0 uncovered
+PR4 f0c1db5de..617b28b08: pairs: 12 pairs, 72 cases, 0 failing (parent line-heights asserted: 24px, 30px, normal) | nested: 5 restructures, 30 cases, 0 failing (parent line-heights asserted: 24px, 30px, normal)
+PR5 617b28b08..b634aaf11: 2 pairs generated; 6 restructure hunks covered by nested cases; 0 uncovered
+PR5 617b28b08..b634aaf11: pairs: 2 pairs, 12 cases, 0 failing (parent line-heights asserted: 24px, 30px, normal) | nested: 4 restructures, 24 cases, 0 failing (parent line-heights asserted: 24px, 30px, normal)
+PR6 b634aaf11..c39f1b02e: 12 pairs generated; 0 restructure hunks covered by nested cases; 0 uncovered
+PR6 b634aaf11..c39f1b02e: pairs: 12 pairs, 72 cases, 0 failing (parent line-heights asserted: 24px, 30px, normal) | nested: 0 restructures, 0 cases, 0 failing (parent line-heights asserted: 24px, 30px, normal)
+PR7 c39f1b02e..c6f432e6b: 0 pairs generated; 0 restructure hunks covered by nested cases; 0 uncovered
+PR7 c39f1b02e..c6f432e6b: pairs: 0 pairs, 0 cases, 0 failing (parent line-heights asserted: 24px, 30px, normal) | nested: 0 restructures, 0 cases, 0 failing (parent line-heights asserted: 24px, 30px, normal)

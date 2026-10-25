@@ -1,0 +1,22 @@
+[
+ {
+  "file": "components/layout/Navbar/components/Wallet/components/WalletEarnCredits.tsx:132",
+  "tag": "span",
+  "old": "shrink-0 font-sans text-sm text-foreground-tertiary",
+  "text": {
+   "variant": "body-tight",
+   "tone": "muted",
+   "className": "shrink-0"
+  }
+ },
+ {
+  "file": "components/layout/Navbar/components/Wallet/components/WalletEarnCredits.tsx:149",
+  "tag": "span",
+  "old": "shrink-0 font-sans text-sm text-foreground-tertiary",
+  "text": {
+   "variant": "body-tight",
+   "tone": "muted",
+   "className": "shrink-0"
+  }
+ }
+]

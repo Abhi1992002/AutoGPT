@@ -1,0 +1,18 @@
+[
+ {
+  "file": "components/layout/AppSidebar/components/RecentChats/RecentChats.tsx:63",
+  "tag": "p",
+  "old": "px-2 py-2 text-sm text-neutral-500",
+  "text": {
+   "variant": "body-tight",
+   "tone": null,
+   "className": "px-2 py-2 text-neutral-500"
+  }
+ },
+ {
+  "file": "components/layout/AppSidebar/components/RecentChats/components/RecentChatItem/RecentChatItem.tsx:134",
+  "tag": "input",
+  "old": "w-full rounded-md border border-border-strong bg-surface px-2 py-1 text-sm text-foreground-emphasis outline-none focus:border-brand focus:ring-1 focus:ring-brand max-md:py-2 max-md:text-base",
+  "new": "w-full rounded-md border border-border-strong bg-surface px-2 py-1 text-body leading-5 text-foreground-emphasis outline-none focus:border-brand focus:ring-1 focus:ring-brand max-md:py-2 max-md:text-body-lg max-md:leading-6"
+ }
+]

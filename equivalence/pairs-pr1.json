@@ -1,11 +1,11 @@
 [
  {
-  "file": "molecules/Accordion/Accordion.tsx (trigger)",
+  "file": "components/molecules/Accordion/Accordion.tsx:31 (was components/ui/accordion.tsx:31)",
   "old": "button|flex flex-1 items-center justify-between py-4 text-left text-sm font-medium transition-all hover:underline [&[data-state=open]>svg]:rotate-180",
   "new": "button|flex flex-1 items-center justify-between py-4 text-left text-body font-medium leading-5 transition-all hover:underline [&[data-state=open]>svg]:rotate-180"
  },
  {
-  "file": "molecules/Accordion/Accordion.tsx (content)",
+  "file": "components/molecules/Accordion/Accordion.tsx:49 (was components/ui/accordion.tsx:49)",
   "old": "div|overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down",
   "new": "div|overflow-hidden text-body leading-5 data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
  }

@@ -1,0 +1,12 @@
+FAIL w=1280 case=0-0: line-height: 20px -> 22px
+FAIL w=1280 case=0-1: line-height: 20px -> 22px
+FAIL w=1280 case=0-2: line-height: 20px -> 22px
+FAIL w=1280 case=1-0: line-height: 20px -> 22px
+FAIL w=1280 case=1-1: line-height: 20px -> 22px
+FAIL w=1280 case=1-2: line-height: 20px -> 22px
+FAIL w=390 case=0-0: line-height: 20px -> 22px
+FAIL w=390 case=0-1: line-height: 20px -> 22px
+FAIL w=390 case=0-2: line-height: 20px -> 22px
+FAIL w=390 case=1-0: line-height: 20px -> 22px
+FAIL w=390 case=1-1: line-height: 20px -> 22px
+FAIL w=390 case=1-2: line-height: 20px -> 22px

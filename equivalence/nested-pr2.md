@@ -1,0 +1,4 @@
+| TourSidebar.tsx Workspace label (SidebarGroupLabel > CollapsibleTrigger) | box 89.438x32; "Workspace" 13px 500 at (8, 8.25) | identical (glyph boxes, font, weight, colour, letter-spacing, box; 3 parents x 2 widths) |
+| CollapsibleNavGroup.tsx label (SidebarGroupLabel > CollapsibleTrigger), incl. max-md | box 89.453x32; "Workflows" 13px 500 at (8, 8.25) | identical (glyph boxes, font, weight, colour, letter-spacing, box; 3 parents x 2 widths) |
+| ExpertChatGroup.tsx trigger (avatar initial, name, count), incl. max-md | box 113.391x40; "M" 14px 500 at (17.766, 12); "Maya" 14px 500 at (48, 12); "2" 11px 500 at (93.891, 14) | identical (glyph boxes, font, weight, colour, letter-spacing, box; 3 parents x 2 widths) |
+| ExpertChatGroup.tsx Load all / Load more button, incl. max-md | box 280x24; "Load more" 12px 500 at (8, 5) | identical (glyph boxes, font, weight, colour, letter-spacing, box; 3 parents x 2 widths) |

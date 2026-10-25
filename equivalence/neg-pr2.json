@@ -1,0 +1,12 @@
+[
+ {
+  "file": "NEGATIVE components/layout/Navbar/components/Wallet/components/WalletEarnCredits.tsx:132 (Text body-tight, muted)",
+  "old": "span|shrink-0 font-sans text-sm text-foreground-tertiary",
+  "new": "span|font-sans text-body font-normal text-foreground-tertiary shrink-0"
+ },
+ {
+  "file": "NEGATIVE components/layout/Navbar/components/Wallet/components/WalletEarnCredits.tsx:149 (Text body-tight, muted)",
+  "old": "span|shrink-0 font-sans text-sm text-foreground-tertiary",
+  "new": "span|font-sans text-body font-normal text-foreground-tertiary shrink-0"
+ }
+]
