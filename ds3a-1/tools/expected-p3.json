@@ -1,0 +1,1 @@
+{"sweep-story-atoms-text--all-tones": "the story renders every Text variant in every tone (`textVariants` x `textTones`); this PR adds the `small-semibold-tight` variant, so each tone row gains one entry. The listing is the change itself."}

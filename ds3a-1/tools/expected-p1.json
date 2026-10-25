@@ -1,0 +1,1 @@
+{"sweep-story-atoms-text--all-tones": "the story renders every Text variant in every tone (`textVariants` x `textTones`); this PR adds the `body-tight` variant and the `inherit` tone, so the story gains their rows. The listing is the change itself; no existing row moves except by the added rows above it."}
