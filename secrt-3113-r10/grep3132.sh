@@ -24,6 +24,7 @@ git diff -U0 $B $Hd -- 'autogpt_platform/frontend/src/**/*.tsx' 'autogpt_platfor
 import sys,re
 typo=re.compile(r'(?<![\w\-:\]])$TYPO|(?<=\]:)$TYPO')
 f=None
+n=0
 for l in sys.stdin:
     if l.startswith('+++ '): f=l[6:].strip(); continue
     if not l.startswith('+') or l.startswith('+++'): continue
@@ -31,5 +32,6 @@ for l in sys.stdin:
     if '<Text' in t or 'atoms/Text/helpers' in (f or ''): continue
     for s in re.findall(r'\"([^\"]*)\"', t):
         hits=[m.group(0) for m in re.finditer(r'(?:\[&[^\]]*\]:|md:)?'+r'$TYPO', s)]
-        if hits: print(f'   {f.replace(\"autogpt_platform/frontend/\",\"\")}: {\" \".join(sorted(set(hits)))}')
+        if hits: n+=1; print(f'   {f.replace(\"autogpt_platform/frontend/\",\"\")}: {\" \".join(sorted(set(hits)))}')
+print(f'rule 31 string-literal rows: {n}' + ('' if n else ' (no added string literal carries a size, leading, weight, family or tracking class)'))
 "

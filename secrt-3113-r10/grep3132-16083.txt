@@ -7,3 +7,4 @@ rule 31 (any added string literal outside <Text>, incl. cn() arguments):
    src/components/ai-elements/message.tsx: [&_table_td]:text-body-sm [&_table_td_code]:leading-5 [&_table_td_code]:text-caption [&_table_th]:leading-5 [&_table_th]:text-caption-sm
    src/components/ai-elements/message.tsx: [&_th]:font-medium [&_th]:tracking- [&_th]:uppercase
    src/components/ai-elements/prompt-input.tsx: leading-6 md:leading-6 md:text-body-lg text-body-lg
+rule 31 string-literal rows: 5

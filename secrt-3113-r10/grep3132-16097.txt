@@ -1,4 +1,5 @@
-$ git diff -U0 3cbe095dc 86c1ba3da -- 'autogpt_platform/frontend/src/**/*.tsx' | grep '^+' | <join each added JSX element> | rule 32: <Text … className="…(text-(tiny|caption-sm|caption|body-sm|body-md|body-lg|body|lead|heading-sm|heading|title|display|xs|sm|base|lg|[0-9]?xl|\[[0-9.]+(px|rem)\])|leading-[a-z0-9\[]|font-(thin|extralight|light|normal|medium|semibold|bold|extrabold|black|sans|mono|poppins)|tracking-|uppercase)…">
+$ git diff -U0 3cbe095dc d6adf3739 -- 'autogpt_platform/frontend/src/**/*.tsx' | grep '^+' | <join each added JSX element> | rule 32: <Text … className="…(text-(tiny|caption-sm|caption|body-sm|body-md|body-lg|body|lead|heading-sm|heading|title|display|xs|sm|base|lg|[0-9]?xl|\[[0-9.]+(px|rem)\])|leading-[a-z0-9\[]|font-(thin|extralight|light|normal|medium|semibold|bold|extrabold|black|sans|mono|poppins)|tracking-|uppercase)…">
 rule 32 hits: 0
 rule 31 hits: 0
 rule 31 (any added string literal outside <Text>, incl. cn() arguments):
+rule 31 string-literal rows: 0 (no added string literal carries a size, leading, weight, family or tracking class)

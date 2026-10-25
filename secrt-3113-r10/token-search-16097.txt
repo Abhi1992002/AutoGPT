@@ -1,6 +1,7 @@
 #09090B (rgb 9 9 11): roles=[--color-foreground (globals.css:71) --color-card-foreground (globals.css:73) --color-popover-foreground (globals.css:75) --color-background (globals.css:102) --color-card (globals.css:104) --color-popover (globals.css:106) ] literals=[none]
 #0A0A0A (rgb 10 10 10): roles=[--color-focus (globals.css:35) ] literals=[none]
 #1E1B4B (rgb 30 27 75): roles=[none] literals=[none]
+#262626 (rgb 38 38 38): roles=[none] literals=[none]
 #2C2C30 (rgb 44 44 48): roles=[--color-foreground-strong (globals.css:22) --color-action-hover (globals.css:39) ] literals=[479:    900: "#2C2C30", ]
 #3B82F6 (rgb 59 130 246): roles=[--color-info (globals.css:60) --color-sidebar-ring (globals.css:96) --color-sidebar-ring (globals.css:128) ] literals=[none]
 #3E3E43 (rgb 62 62 67): roles=[--color-foreground-emphasis (globals.css:23) --color-action (globals.css:38) ] literals=[478:    800: "#3E3E43", ]
