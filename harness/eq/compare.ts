@@ -23,17 +23,22 @@ const PARENT_LH = ["24px", "30px", "normal"];
 async function css(dir: string, classes: string[]) {
   const config = loadConfig(join(dir, "tailwind.config.ts"));
   const globals = readFileSync(join(dir, "src/app/globals.css"), "utf8");
-  const raw = classes.join(" ") + " " + PARENTS.join(" ");
+  const raw = classes.join(" ") + " " + PARENTS.join(" ") + " dark:text-[#010203]";
   const r = await postcss([tailwindcss({ ...config, content: [{ raw, extension: "html" }] })]).process(globals, { from: join(dir, "src/app/globals.css") });
   return r.css as string;
 }
 const WIDTHS = [1280, 390];
+// Light, and dark as tailwind.config.ts defines it (darkMode: ["class", ".dark-mode"]),
+// so every `dark:` class is exercised; the root class is asserted to switch it.
+const MODES = ["", "dark-mode"];
 
-async function measure(browser: any, cssText: string, items: { tag: string; cls: string }[], width: number) {
+async function measure(browser: any, mode: string, cssText: string, items: { tag: string; cls: string }[], width: number) {
   const page = await browser.newPage({ viewport: { width, height: 800 } });
   const body = items.flatMap((it, i) => PARENTS.map((p, j) => `<div class="${p}" style="font-size:16px"><${it.tag} data-i="${i}-${j}" class="${it.cls.replace(/"/g, "&quot;")}"><span>Ab</span> text</${it.tag}></div>`)).join("");
-  await page.setContent(`<html><head><style>${cssText}</style></head><body>${body}</body></html>`);
+  await page.setContent(`<html class="${mode}"><head><style>${cssText}</style></head><body><i id="dark-probe" class="dark:text-[#010203]"></i>${body}</body></html>`);
   if ((await page.evaluate(() => getComputedStyle(document.documentElement).fontSize)) !== "16px") throw new Error("root not 16px");
+  const probe = await page.evaluate(() => getComputedStyle(document.getElementById("dark-probe")!).color);
+  if ((probe === "rgb(1, 2, 3)") !== (mode === "dark-mode")) throw new Error(`dark mode switch not applied (mode "${mode}", probe ${probe})`);
   const parentLH: string[] = await page.evaluate((n: number) => Array.from(document.querySelectorAll("body > div")).slice(0, n).map((d) => getComputedStyle(d).lineHeight), PARENTS.length);
   parentLH.forEach((lh, j) => { if (lh !== PARENT_LH[j]) throw new Error(`parent ${PARENTS[j]} computes line-height ${lh}, expected ${PARENT_LH[j]}`); });
   const vals = await page.evaluate(() => {
@@ -58,22 +63,24 @@ async function measure(browser: any, cssText: string, items: { tag: string; cls:
   const browser = await chromium.launch();
   let cases = 0, failures = 0;
   const rows: string[] = [];
-  for (const w of WIDTHS) {
-    const a = await measure(browser, baseCss, olds, w);
-    const b = await measure(browser, headCss, news, w);
+  const darkColor: Record<string, string> = {};
+  for (const mode of MODES) for (const w of WIDTHS) {
+    const a = await measure(browser, mode, baseCss, olds, w);
+    const b = await measure(browser, mode, headCss, news, w);
     for (const key of Object.keys(a)) {
+      if (mode) darkColor[key] = b[key]["color"];
       cases++;
       const diffs = Object.keys(a[key]).filter((p) => a[key][p] !== b[key][p]);
-      if (diffs.length) { failures++; rows.push(`FAIL w=${w} case=${key}: ` + diffs.map((p) => `${p}: ${a[key][p]} -> ${b[key][p]}`).join("; ")); }
-      else if (w === 1280 && key.endsWith("-1")) {
+      if (diffs.length) { failures++; rows.push(`FAIL ${mode || "light"} w=${w} case=${key}: ` + diffs.map((p) => `${p}: ${a[key][p]} -> ${b[key][p]}`).join("; ")); }
+      else if (!mode && w === 1280 && key.endsWith("-1")) {
         const i = Number(key.split("-")[0]);
         const v = b[key];
-        rows.push(`| \`${olds[i].tag}\` | font-size ${v["font-size"]}; line-height ${v["line-height"]}; weight ${v["font-weight"]}; color ${v["color"]}; background ${v["background-color"]}; border ${v["border-top-color"]} | identical (${Object.keys(v).length} props x 3 parents x 2 widths) |`);
+        rows.push(`| \`${olds[i].tag}\` | font-size ${v["font-size"]}; line-height ${v["line-height"]}; weight ${v["font-weight"]}; color ${v["color"]} (dark: DARK${key}); background ${v["background-color"]}; border ${v["border-top-color"]} | identical (${Object.keys(v).length} props x 3 parents x 2 widths x light/dark) |`);
       }
     }
   }
   await browser.close();
-  writeFileSync(outFile, rows.join("\n"));
-  console.log(`${pairs.length} pairs, ${cases} cases, ${failures} failing (parent line-heights asserted: ${PARENT_LH.join(", ")})`);
+  writeFileSync(outFile, rows.map((r) => r.replace(/DARK(\d+-\d+)/, (_, k) => darkColor[k] ?? "?")).join("\n"));
+  console.log(`${pairs.length} pairs, ${cases} cases, ${failures} failing (light and dark-mode; parent line-heights asserted: ${PARENT_LH.join(", ")})`);
   process.exit(failures ? 1 : 0);
 })();

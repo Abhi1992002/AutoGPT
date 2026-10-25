@@ -1,0 +1,28 @@
+{
+ "components/layout/Navbar/components/Wallet/components/WalletFullPanel.tsx": {
+  "old": [
+   "flex shrink-0 items-center text-sm text-accent-strong",
+   "font-semibold"
+  ],
+  "new": [
+   {
+    "lit": "flex shrink-0 items-center text-body leading-5 text-accent-strong"
+   },
+   {
+    "text": {
+     "variant": "body-tight",
+     "as": "div",
+     "tone": "inherit",
+     "className": "rounded-lg bg-violet-100 px-3 py-2"
+    }
+   },
+   {
+    "text": {
+     "as": "span",
+     "variant": "body-semibold-tight",
+     "tone": "inherit"
+    }
+   }
+  ]
+ }
+}

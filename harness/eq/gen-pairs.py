@@ -219,6 +219,8 @@ def covered(file, olds, news):
 
 
 pairs, restructures, uncovered = [], [], []
+# Literal-level detail of every restructure, per file, for the removed-class table.
+rdetail = collections.defaultdict(lambda: {"old": [], "new": []})
 composed = {}
 seen_calls = set()
 pool_old, pool_new = [], []
@@ -268,6 +270,8 @@ for k, h in enumerate(hunks):
     cov = covered(rel, [o[1] for o in olds], [l for l in new_lits if l])
     if cov:
         restructures.append(f"{rel}:{h['n']} -> nested case \"{cov}\"")
+        rdetail[rel]["old"] += [o[1] for o in olds]
+        rdetail[rel]["new"] += [x for _, x in news]
         continue
     if len(olds) != len(news):
         uncovered.append(f"{rel}:{h['n']}: {len(olds)} old literal(s), {len(news)} new item(s), no nested case covers them")
@@ -315,12 +319,14 @@ for x in list(pool_new):
         cov = text_covered(x[0], x[2]["text"])
         if cov:
             restructures.append(f"{x[0]}:{x[1]} (new Text child) -> nested case \"{cov}\"")
+            rdetail[x[0]]["new"].append(x[2])
             pool_new.remove(x)
 for o in list(pool_old):
     if not any(x[0] == o[0] for x in pool_new):
         cov = covered(o[0], [o[2]], [])
         if cov:
             restructures.append(f"{o[0]}:{o[1]} (old literal, copy moved) -> nested case \"{cov}\"")
+            rdetail[o[0]]["old"].append(o[2])
             pool_old.remove(o)
 same = collections.Counter(o[2] for o in pool_old) & collections.Counter(x[2]["lit"] for x in pool_new if "lit" in x[2])
 for lit, k in same.items():
@@ -346,6 +352,7 @@ for cfile, needle, cvaname, key in CALLERS.get(pr, []):
         continue
     pairs.append({"file": f"{cfile} className on SidebarMenuButton ({key})", "tag": "button", "compose_old": base_[0] + [lit], "compose_new": base_[1] + [lit], "old": " ".join(base_[0] + [lit])})
 json.dump(pairs, open(out, "w"), indent=1)
+json.dump(rdetail, open(out.replace(".json", "-restructures.json"), "w"), indent=1)
 print(f"PR{pr} {base}..{head}: {len(pairs)} pairs generated; {len(restructures)} restructure hunks covered by nested cases; {len(uncovered)} uncovered")
 for r in restructures:
     print("  restructure", r)

@@ -1,0 +1,58 @@
+{
+ "app/(platform)/copilot/components/ContextPanel/ContextPanel.tsx": {
+  "old": [
+   "shrink-0 px-6 pb-1 pt-6 text-base font-semibold text-foreground-strong",
+   "text-lg font-semibold text-foreground-strong"
+  ],
+  "new": [
+   {
+    "text": {
+     "variant": "large-semibold-tight",
+     "as": "h2",
+     "tone": "primary",
+     "className": "mx-6 mb-1 mt-6 shrink-0"
+    }
+   },
+   {
+    "text": {
+     "as": "span",
+     "variant": "lg-semibold",
+     "tone": "primary",
+     "className": "dark:text-neutral-50"
+    }
+   }
+  ]
+ },
+ "components/organisms/WorkOutputSheet/WorkOutputSheet.tsx": {
+  "old": [
+   "w-full border-collapse text-sm",
+   "px-3 py-2 font-medium text-foreground-secondary",
+   "px-3 py-2 text-foreground-body"
+  ],
+  "new": [
+   {
+    "lit": "w-full border-collapse"
+   },
+   {
+    "lit": "px-3 py-2 text-foreground-secondary"
+   },
+   {
+    "lit": "px-3 py-2"
+   },
+   {
+    "text": {
+     "as": "div",
+     "variant": "body-medium-tight",
+     "tone": "secondary"
+    }
+   },
+   {
+    "text": {
+     "as": "div",
+     "variant": "body-tight",
+     "tone": "body"
+    }
+   }
+  ]
+ }
+}

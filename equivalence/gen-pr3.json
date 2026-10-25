@@ -76,7 +76,7 @@
   }
  },
  {
-  "file": "components/layout/Navbar/components/Wallet/components/WalletFullPanel.tsx:63",
+  "file": "components/layout/Navbar/components/Wallet/components/WalletFullPanel.tsx:60",
   "tag": "p",
   "old": "mx-1 my-3 font-sans text-xs font-normal text-foreground-subtle",
   "text": {

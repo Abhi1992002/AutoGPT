@@ -22,19 +22,24 @@ const PARENTS = ["leading-[1.5]", "leading-[30px]", "leading-[normal]"];
 // What each parent must compute to at a 16px root; asserted before measuring.
 const PARENT_LH = ["24px", "30px", "normal"];
 const WIDTHS = [1280, 390];
+// Light, and dark as tailwind.config.ts defines it (darkMode: ["class", ".dark-mode"]),
+// so every `dark:` class is exercised; the root class is asserted to switch it.
+const MODES = ["", "dark-mode"];
 
 async function css(dir: string, html: string[]) {
   const config = loadConfig(join(dir, "tailwind.config.ts"));
   const globals = readFileSync(join(dir, "src/app/globals.css"), "utf8");
-  const raw = html.join(" ") + " " + PARENTS.join(" ");
+  const raw = html.join(" ") + " " + PARENTS.join(" ") + " dark:text-[#010203]";
   const r = await postcss([tailwindcss({ ...config, content: [{ raw, extension: "html" }] })]).process(globals, { from: join(dir, "src/app/globals.css") });
   return r.css as string;
 }
 
-async function measure(browser: any, cssText: string, frags: string[], width: number) {
+async function measure(browser: any, mode: string, cssText: string, frags: string[], width: number) {
   const page = await browser.newPage({ viewport: { width, height: 900 } });
   const body = frags.flatMap((f, i) => PARENTS.map((p, j) => `<div class="${p}" style="font-size:16px;width:280px" data-case="${i}-${j}">${f}</div>`)).join("");
-  await page.setContent(`<html><head><style>${cssText}</style></head><body>${body}</body></html>`);
+  await page.setContent(`<html class="${mode}"><head><style>${cssText}</style></head><body><i id="dark-probe" class="dark:text-[#010203]"></i>${body}</body></html>`);
+  const probe = await page.evaluate(() => getComputedStyle(document.getElementById("dark-probe")!).color);
+  if ((probe === "rgb(1, 2, 3)") !== (mode === "dark-mode")) throw new Error(`dark mode switch not applied (mode "${mode}", probe ${probe})`);
   const parentLH: Record<string, string> = await page.evaluate(() => Object.fromEntries(Array.from(document.querySelectorAll("[data-case]")).map((d) => [(d as HTMLElement).dataset.case!, getComputedStyle(d).lineHeight])));
   for (const [k, lh] of Object.entries(parentLH)) { const j = Number(k.split("-")[1]); if (lh !== PARENT_LH[j]) throw new Error(`parent ${PARENTS[j]} computes line-height ${lh}, expected ${PARENT_LH[j]}`); }
   const out = await page.evaluate(() => {
@@ -71,22 +76,24 @@ async function measure(browser: any, cssText: string, frags: string[], width: nu
   const browser = await chromium.launch();
   let total = 0, fail = 0;
   const rows: string[] = [];
-  for (const w of WIDTHS) {
-    const a = await measure(browser, baseCss, cases.map((c) => c.old), w);
-    const b = await measure(browser, headCss, cases.map((c) => c.new), w);
+  const dark: Record<string, string> = {};
+  for (const mode of MODES) for (const w of WIDTHS) {
+    const a = await measure(browser, mode, baseCss, cases.map((c) => c.old), w);
+    const b = await measure(browser, mode, headCss, cases.map((c) => c.new), w);
     for (const k of Object.keys(a)) {
+      if (mode && w === 1280) dark[k] = b[k].runs.map((r: any) => r.color).join(", ");
       total++;
       const sa = JSON.stringify(a[k]), sb = JSON.stringify(b[k]);
       const i = Number(k.split("-")[0]);
-      if (sa !== sb) { fail++; rows.push(`FAIL w=${w} ${cases[i].name} parent=${PARENTS[Number(k.split("-")[1])]}\n  old ${sa}\n  new ${sb}`); }
-      else if (w === 1280 && k.endsWith("-0")) {
-        const runs = a[k].runs.map((r: any) => `"${r.text}" ${r.fontSize} ${r.fontWeight} at (${r.x}, ${r.y})`).join("; ");
-        rows.push(`| ${cases[i].name} | box ${a[k].box.join("x")}; ${runs} | identical (glyph boxes, font, weight, colour, letter-spacing, box; 3 parents x 2 widths) |`);
+      if (sa !== sb) { fail++; rows.push(`FAIL ${mode || "light"} w=${w} ${cases[i].name} parent=${PARENTS[Number(k.split("-")[1])]}\n  old ${sa}\n  new ${sb}`); }
+      else if (!mode && w === 1280 && k.endsWith("-0")) {
+        const runs = a[k].runs.map((r: any) => `"${r.text}" ${r.fontSize} ${r.fontWeight} ${r.color} at (${r.x}, ${r.y})`).join("; ");
+        rows.push(`| ${cases[i].name} | box ${a[k].box.join("x")}; ${runs}; dark-mode colours: DARK${k} | identical (glyph boxes, font, weight, colour, letter-spacing, box; 3 parents x 2 widths x light/dark) |`);
       }
     }
   }
   await browser.close();
-  writeFileSync(outFile, rows.join("\n"));
-  console.log(`${cases.length} restructures, ${total} cases, ${fail} failing (parent line-heights asserted: ${PARENT_LH.join(", ")})`);
+  writeFileSync(outFile, rows.map((r) => r.replace(/DARK(\d+-\d+)/, (_, k) => dark[k] ?? "?")).join("\n"));
+  console.log(`${cases.length} restructures, ${total} cases, ${fail} failing (light and dark-mode; parent line-heights asserted: ${PARENT_LH.join(", ")})`);
   process.exit(fail ? 1 : 0);
 })();

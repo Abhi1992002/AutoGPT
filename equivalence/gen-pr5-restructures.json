@@ -1,0 +1,51 @@
+{
+ "components/layout/AppSidebar/components/RecentChats/RecentChats.tsx": {
+  "old": [
+   "flex items-center gap-1.5 px-2 pb-1.5 text-xs font-medium text-foreground-tertiary",
+   "truncate",
+   "mt-1 flex w-full items-center justify-center gap-2 rounded-md bg-surface-active px-2 py-1.5 text-sm text-foreground-emphasis hover:bg-zinc-300 disabled:opacity-60 max-md:py-3 max-md:text-base"
+  ],
+  "new": [
+   {
+    "lit": "flex items-center gap-1.5 px-2 pb-1.5 text-foreground-tertiary"
+   },
+   {
+    "text": {
+     "variant": "small-medium-tight",
+     "as": "span",
+     "tone": "muted",
+     "className": "truncate"
+    }
+   },
+   {
+    "lit": "mt-1 flex w-full items-center justify-center gap-2 rounded-md bg-surface-active px-2 py-1.5 text-foreground-emphasis hover:bg-zinc-300 disabled:opacity-60 max-md:py-3"
+   },
+   {
+    "text": {
+     "as": "span",
+     "variant": "body-tight-touch",
+     "tone": "inherit"
+    }
+   }
+  ]
+ },
+ "components/layout/Navbar/components/AccountMenu/components/AccountMenuFeedbackRow.tsx": {
+  "old": [
+   "group relative flex w-full items-center gap-3 rounded-lg py-2 pl-3 pr-2 text-left text-sm font-normal text-neutral-700 outline-none transition-colors duration-200 ease-out hover:bg-neutral-100 focus-visible:bg-neutral-100 focus-visible:outline-none",
+   "relative z-10 flex-1 truncate"
+  ],
+  "new": [
+   {
+    "lit": "group relative flex w-full items-center gap-3 rounded-lg py-2 pl-3 pr-2 text-left text-neutral-700 outline-none transition-colors duration-200 ease-out hover:bg-neutral-100 focus-visible:bg-neutral-100 focus-visible:outline-none"
+   },
+   {
+    "text": {
+     "variant": "body-tight",
+     "as": "span",
+     "tone": "inherit",
+     "className": "relative z-10 flex-1 truncate"
+    }
+   }
+  ]
+ }
+}

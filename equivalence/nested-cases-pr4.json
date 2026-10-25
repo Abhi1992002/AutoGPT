@@ -12,7 +12,7 @@
  {
   "name": "ContextPanel.tsx mobile SheetTitle (in SheetHeader)",
   "old": "<div class=\"flex flex-col space-y-2 sm:text-left mt-12 px-6 pb-1 pt-2 text-left\"><h2 class=\"dark:text-neutral-50 text-lg font-semibold text-foreground-strong\">Workspace files</h2></div>",
-  "new": "<div class=\"flex flex-col space-y-2 sm:text-left mt-12 px-6 pb-1 pt-2 text-left\"><h2 class=\"text-lg font-semibold text-neutral-950 dark:text-neutral-50\"><span class=\"font-sans text-lg font-semibold text-foreground-strong\">Workspace files</span></h2></div>"
+  "new": "<div class=\"flex flex-col space-y-2 sm:text-left mt-12 px-6 pb-1 pt-2 text-left\"><h2 class=\"text-lg font-semibold text-neutral-950 dark:text-neutral-50\"><span class=\"font-sans text-lg font-semibold text-foreground-strong dark:text-neutral-50\">Workspace files</span></h2></div>"
  },
  {
   "name": "ContextPanel.tsx desktop title (padding to margin, in the flex column)",

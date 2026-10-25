@@ -13,5 +13,10 @@
   "name": "NEGATIVE: feedback copy without text-inherit (Text default colour)",
   "old": "<button class=\"group relative flex w-full items-center gap-3 rounded-lg py-2 pl-3 pr-2 text-left text-sm font-normal text-neutral-700 outline-none transition-colors duration-200 ease-out hover:bg-neutral-100 focus-visible:bg-neutral-100 focus-visible:outline-none\"><span class=\"absolute left-0 top-1/2 h-5 w-[3px] -translate-y-1/2 rounded-full bg-neutral-900 opacity-0\" aria-hidden=\"true\"></span><span class=\"relative z-10 flex shrink-0 items-center\"><svg class=\"h-[18px] w-[18px] shrink-0\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\"><path d=\"M4 8l8 8 8-8\"/></svg></span><span class=\"relative z-10 flex-1 truncate\">Give feedback</span></button>",
   "new": "<button class=\"group relative flex w-full items-center gap-3 rounded-lg py-2 pl-3 pr-2 text-left text-neutral-700 outline-none transition-colors duration-200 ease-out hover:bg-neutral-100 focus-visible:bg-neutral-100 focus-visible:outline-none\"><span class=\"absolute left-0 top-1/2 h-5 w-[3px] -translate-y-1/2 rounded-full bg-neutral-900 opacity-0\" aria-hidden=\"true\"></span><span class=\"relative z-10 flex shrink-0 items-center\"><svg class=\"h-[18px] w-[18px] shrink-0\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\"><path d=\"M4 8l8 8 8-8\"/></svg></span><span class=\"font-sans text-body font-normal leading-5 text-foreground-base relative z-10 flex-1 truncate\">Give feedback</span></button>"
+ },
+ {
+  "name": "NEGATIVE: mobile title without its dark colour (as on 617b28b08)",
+  "old": "<div class=\"flex flex-col space-y-2 sm:text-left mt-12 px-6 pb-1 pt-2 text-left\"><h2 class=\"dark:text-neutral-50 text-lg font-semibold text-foreground-strong\">Workspace files</h2></div>",
+  "new": "<div class=\"flex flex-col space-y-2 sm:text-left mt-12 px-6 pb-1 pt-2 text-left\"><h2 class=\"text-lg font-semibold text-neutral-950 dark:text-neutral-50\"><span class=\"font-sans text-lg font-semibold text-foreground-strong\">Workspace files</span></h2></div>"
  }
 ]

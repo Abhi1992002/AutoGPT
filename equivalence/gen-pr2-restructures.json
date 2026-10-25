@@ -1,0 +1,58 @@
+{
+ "app/(public)/tour/chat/components/TourSidebar/TourSidebar.tsx": {
+  "old": [
+   "text-[13px] font-medium"
+  ],
+  "new": [
+   {
+    "lit": "leading-inherit"
+   },
+   {
+    "text": {
+     "as": "span",
+     "variant": "body-sm-medium-inherit",
+     "tone": "inherit"
+    }
+   }
+  ]
+ },
+ "components/layout/AppSidebar/components/CollapsibleNavGroup/CollapsibleNavGroup.tsx": {
+  "old": [
+   "text-body-sm font-medium leading-inherit text-foreground-tertiary group-data-[collapsible=icon]:hidden max-md:h-11 max-md:text-sm"
+  ],
+  "new": [
+   {
+    "lit": "leading-inherit text-foreground-tertiary group-data-[collapsible=icon]:hidden max-md:h-11"
+   },
+   {
+    "text": {
+     "as": "span",
+     "variant": "body-sm-medium-inherit-touch",
+     "tone": "inherit"
+    }
+   }
+  ]
+ },
+ "components/layout/AppSidebar/components/RecentChats/components/ExpertChatGroup/ExpertChatGroup.tsx": {
+  "old": [
+   "flex min-w-0 flex-1 items-center gap-2 rounded-md px-2 py-1 text-left text-sm font-medium text-foreground-strong max-md:py-2 max-md:text-base",
+   "mt-0.5 w-full rounded-md px-2 py-1 text-left text-xs font-medium text-foreground-tertiary hover:bg-surface-hover hover:text-foreground-emphasis max-md:py-2.5 max-md:text-sm"
+  ],
+  "new": [
+   {
+    "lit": "flex min-w-0 flex-1 items-center gap-2 rounded-md px-2 py-1 text-left font-medium max-md:py-2"
+   },
+   {
+    "lit": "mt-0.5 w-full rounded-md px-2 py-1 text-left text-foreground-tertiary hover:bg-surface-hover hover:text-foreground-emphasis max-md:py-2.5"
+   },
+   {
+    "text": {
+     "as": "span",
+     "variant": "small-medium-tight-touch",
+     "tone": "inherit",
+     "className": "block"
+    }
+   }
+  ]
+ }
+}

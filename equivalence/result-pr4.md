@@ -1,12 +1,12 @@
-| `p` | font-size 14px; line-height 20px; weight 400; color rgb(115, 115, 115); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
-| `div` | font-size 12px; line-height 16px; weight 500; color rgba(63, 63, 70, 0.7); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
-| `div` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
-| `button` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
-| `button` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11); background rgb(254, 254, 254); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
-| `button` | font-size 12px; line-height 16px; weight 400; color rgb(9, 9, 11); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
-| `button` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
-| `div` | font-size 12px; line-height 16px; weight 500; color rgb(63, 63, 70); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
-| `div` | font-size 12px; line-height 16px; weight 400; color rgb(63, 63, 70); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
-| `div` | font-size 14px; line-height 20px; weight 400; color rgb(63, 63, 70); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
-| `button` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
-| `button` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `p` | font-size 14px; line-height 20px; weight 400; color rgb(115, 115, 115) (dark: rgb(163, 163, 163)); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths x light/dark) |
+| `div` | font-size 12px; line-height 16px; weight 500; color rgba(63, 63, 70, 0.7) (dark: rgba(63, 63, 70, 0.7)); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths x light/dark) |
+| `div` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11) (dark: rgb(9, 9, 11)); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths x light/dark) |
+| `button` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11) (dark: rgb(9, 9, 11)); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths x light/dark) |
+| `button` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11) (dark: rgb(9, 9, 11)); background rgb(254, 254, 254); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths x light/dark) |
+| `button` | font-size 12px; line-height 16px; weight 400; color rgb(9, 9, 11) (dark: rgb(9, 9, 11)); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths x light/dark) |
+| `button` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11) (dark: rgb(9, 9, 11)); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths x light/dark) |
+| `div` | font-size 12px; line-height 16px; weight 500; color rgb(63, 63, 70) (dark: rgb(63, 63, 70)); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths x light/dark) |
+| `div` | font-size 12px; line-height 16px; weight 400; color rgb(63, 63, 70) (dark: rgb(63, 63, 70)); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths x light/dark) |
+| `div` | font-size 14px; line-height 20px; weight 400; color rgb(63, 63, 70) (dark: rgb(63, 63, 70)); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths x light/dark) |
+| `button` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11) (dark: rgb(9, 9, 11)); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths x light/dark) |
+| `button` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11) (dark: rgb(9, 9, 11)); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths x light/dark) |

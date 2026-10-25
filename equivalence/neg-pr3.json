@@ -30,7 +30,7 @@
   "new": "span|font-sans text-caption font-normal text-foreground-tertiary"
  },
  {
-  "file": "NEGATIVE components/layout/Navbar/components/Wallet/components/WalletFullPanel.tsx:63 (Text small-tight, subtle)",
+  "file": "NEGATIVE components/layout/Navbar/components/Wallet/components/WalletFullPanel.tsx:60 (Text small-tight, subtle)",
   "old": "p|mx-1 my-3 font-sans text-xs font-normal text-foreground-subtle",
   "new": "p|font-sans text-caption font-normal text-foreground-subtle mx-1 my-3"
  }
