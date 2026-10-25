@@ -2,7 +2,7 @@
  "pairs": [
   {
    "file": "atoms/Calendar/Calendar.tsx",
-   "old": "flex  items-center justify-center text-sm font-medium",
+   "old": "flex  items-center justify-center text-body font-medium leading-5",
    "new": "flex  items-center justify-center text-body leading-5 font-medium",
    "tag": null
   },
@@ -14,13 +14,13 @@
   },
   {
    "file": "atoms/Calendar/Calendar.tsx",
-   "old": "relative p-0 text-center text-sm focus-within:relative focus-within:z-20 [&:has([aria-selected])]:bg-neutral-100 [&:has([aria-selected].day-outside)]:bg-neutral-100/50 [&:has([aria-selected].day-range-end)]:rounded-r-md dark:[&:has([aria-selected])]:bg-neutral-800 dark:[&:has([aria-selected].day-outside)]:bg-neutral-800/50 [&:has([aria-selected])]:rounded-md",
+   "old": "relative p-0 text-center text-body leading-5 focus-within:relative focus-within:z-20 [&:has([aria-selected])]:bg-neutral-100 [&:has([aria-selected].day-outside)]:bg-neutral-100/50 [&:has([aria-selected].day-range-end)]:rounded-r-md dark:[&:has([aria-selected])]:bg-neutral-800 dark:[&:has([aria-selected].day-outside)]:bg-neutral-800/50 [&:has([aria-selected])]:rounded-md",
    "new": "relative p-0 text-center text-body leading-5 focus-within:relative focus-within:z-20 [&:has([aria-selected])]:bg-neutral-100 [&:has([aria-selected].day-outside)]:bg-neutral-100/50 [&:has([aria-selected].day-range-end)]:rounded-r-md dark:[&:has([aria-selected])]:bg-neutral-800 dark:[&:has([aria-selected].day-outside)]:bg-neutral-800/50 [&:has([aria-selected])]:rounded-md",
    "tag": null
   },
   {
    "file": "atoms/Calendar/Calendar.tsx",
-   "old": "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 hover:bg-neutral-100 hover:text-neutral-900 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 h-8 w-8 p-0 font-normal aria-selected:opacity-100",
+   "old": "inline-flex items-center justify-center whitespace-nowrap rounded-md text-body leading-5 transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 hover:bg-neutral-100 hover:text-neutral-900 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 h-8 w-8 p-0 font-normal aria-selected:opacity-100",
    "new": "inline-flex items-center justify-center whitespace-nowrap rounded-md text-body leading-5 transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 hover:bg-neutral-100 hover:text-neutral-900 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 h-8 w-8 p-0 font-normal aria-selected:opacity-100",
    "tag": null
   },
@@ -56,7 +56,7 @@
   },
   {
    "file": "atoms/Calendar/Calendar.tsx <SelectTrigger> (the primitive's base + this caller's classes, cn()-merged; the caller no longer repeats the base's text-body leading-5)",
-   "old": "agpt-border-input agpt-shadow-input flex h-9 items-center justify-between whitespace-nowrap rounded-md border px-3 py-2 ring-offset-surface placeholder:text-neutral-500 data-[state=open]:border-gray-400 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:placeholder:text-neutral-400 [&>span]:line-clamp-1 w-[120px] space-x-2 bg-white text-sm",
+   "old": "agpt-border-input agpt-shadow-input flex h-9 items-center justify-between whitespace-nowrap rounded-md border px-3 py-2 ring-offset-surface placeholder:text-neutral-500 data-[state=open]:border-gray-400 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:placeholder:text-neutral-400 [&>span]:line-clamp-1 w-[120px] space-x-2 bg-surface text-body leading-5",
    "new": "agpt-border-input agpt-shadow-input flex h-9 items-center justify-between whitespace-nowrap rounded-md border px-3 py-2 text-body leading-5 ring-offset-surface placeholder:text-neutral-500 data-[state=open]:border-gray-400 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:placeholder:text-neutral-400 [&>span]:line-clamp-1 w-[120px] space-x-2 bg-surface",
    "tag": "SelectTrigger"
   },

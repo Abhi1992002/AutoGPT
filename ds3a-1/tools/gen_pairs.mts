@@ -7,27 +7,26 @@ type P = { file: string; old: string; new: string; tag: string | null; extra?: E
 const out: Record<string, P[]> = {};
 const add = (pr: string, p: P) => (out[pr] ??= []).push(p);
 
-// ---- PR1 pagination-controls
-// Text-first: the label is <Text variant="body" as="span" className="leading-5 text-inherit">, i.e. Text's body classes merged with the override
-const { variants: TEXT, tones: TONES } = await import("/home/vercel-sandbox/autogpt/autogpt_platform/frontend/src/components/atoms/Text/helpers.ts");
-add("pr1", { file: "molecules/PaginationControls/PaginationControls.tsx (<Text variant=\"body-tight\" tone=\"inherit\" as=span>)", old: "text-sm", new: cn(TEXT["body-tight"], TONES.inherit), tag: "span", atomOwnsBase: true });
-
-// ---- PR1 pagination buttons: legacy outline Button -> atoms/Button variant="legacy-outline" (DS3a-3 #16092's strings)
+// ---- PR1 pagination-controls: dev's legacy file (since #16092) already has these classes; the moved molecule keeps them
+const { variants: TEXT, tones: TONES } = await import("/home/vercel-sandbox/wt/p1/autogpt_platform/frontend/src/components/atoms/Text/helpers.ts");
 {
-  const { buttonVariants: LEGACY_BTN } = await import("/home/vercel-sandbox/autogpt/autogpt_platform/frontend/src/components/__legacy__/ui/button.tsx");
   const { legacyButtonVariants } = await import("/home/vercel-sandbox/wt/p1/autogpt_platform/frontend/src/components/atoms/Button/helpers.ts");
-  add("pr1", { file: "molecules/PaginationControls: Previous / Next (<Button variant=\"legacy-outline\">, was the legacy outline Button)", old: cn(LEGACY_BTN({ variant: "outline", size: "default" })), new: cn(legacyButtonVariants({ variant: "legacy-outline", size: "legacy-default" })), tag: "button", atomOwnsBase: true });
-  add("pr1", { file: "atoms/Button `legacy-destructive` (#16092's 520bc19e6 string; no call site in this stack)", old: cn(LEGACY_BTN({ variant: "destructive", size: "default" })), new: cn(legacyButtonVariants({ variant: "legacy-destructive", size: "legacy-default" })), tag: "button", atomOwnsBase: true });
+  const label = cn(TEXT["body-tight"], TONES.inherit);
+  add("pr1", { file: "molecules/PaginationControls label (<Text variant=\"body-tight\" tone=\"inherit\" as=span>, as in dev's legacy file since #16092)", old: label, new: label, tag: "span", atomOwnsBase: true });
+  const btn = cn(legacyButtonVariants({ variant: "legacy-outline", size: "legacy-default" }));
+  add("pr1", { file: "molecules/PaginationControls Previous / Next (<Button variant=\"legacy-outline\">, as in dev's legacy file since #16092)", old: btn, new: btn, tag: "button", atomOwnsBase: true });
 }
 
 // ---- PR2 calendar
+const { legacyButtonVariants: LBV } = await import("/home/vercel-sandbox/wt/p2/autogpt_platform/frontend/src/components/atoms/Button/helpers.ts");
+const LEGACY_GHOST = LBV({ variant: "legacy-ghost" });
 const GHOST = "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 hover:bg-neutral-100 hover:text-neutral-900 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 h-9 px-4 py-2";
 const cal: [string, string][] = [
-  ["flex  items-center justify-center text-sm font-medium", "flex  items-center justify-center text-body leading-5 font-medium"],
+  ["flex  items-center justify-center text-body font-medium leading-5", "flex  items-center justify-center text-body leading-5 font-medium"],
   ["text-neutral-500 rounded-md w-8 font-normal text-[0.8rem] dark:text-neutral-400", "text-neutral-500 rounded-md w-8 font-normal text-[0.8rem] dark:text-neutral-400"],
-  [cn("relative p-0 text-center text-sm focus-within:relative focus-within:z-20 [&:has([aria-selected])]:bg-neutral-100 [&:has([aria-selected].day-outside)]:bg-neutral-100/50 [&:has([aria-selected].day-range-end)]:rounded-r-md dark:[&:has([aria-selected])]:bg-neutral-800 dark:[&:has([aria-selected].day-outside)]:bg-neutral-800/50", "[&:has([aria-selected])]:rounded-md"),
+  [cn("relative p-0 text-center text-body leading-5 focus-within:relative focus-within:z-20 [&:has([aria-selected])]:bg-neutral-100 [&:has([aria-selected].day-outside)]:bg-neutral-100/50 [&:has([aria-selected].day-range-end)]:rounded-r-md dark:[&:has([aria-selected])]:bg-neutral-800 dark:[&:has([aria-selected].day-outside)]:bg-neutral-800/50", "[&:has([aria-selected])]:rounded-md"),
    cn("relative p-0 text-center text-body leading-5 focus-within:relative focus-within:z-20 [&:has([aria-selected])]:bg-neutral-100 [&:has([aria-selected].day-outside)]:bg-neutral-100/50 [&:has([aria-selected].day-range-end)]:rounded-r-md dark:[&:has([aria-selected])]:bg-neutral-800 dark:[&:has([aria-selected].day-outside)]:bg-neutral-800/50", "[&:has([aria-selected])]:rounded-md")],
-  [cn(GHOST, "h-8 w-8 p-0 font-normal aria-selected:opacity-100"), "inline-flex items-center justify-center whitespace-nowrap rounded-md text-body leading-5 transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 hover:bg-neutral-100 hover:text-neutral-900 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 h-8 w-8 p-0 font-normal aria-selected:opacity-100"],
+  [cn(LEGACY_GHOST, "h-8 w-8 p-0 font-normal aria-selected:opacity-100"), cn(LEGACY_GHOST, "h-8 w-8 p-0 font-normal aria-selected:opacity-100")],
   ["bg-neutral-900 text-neutral-100 hover:bg-neutral-900 hover:text-neutral-50 focus:bg-neutral-700 focus:text-neutral-50 dark:bg-neutral-50 dark:text-neutral-900 dark:hover:bg-neutral-50 dark:hover:text-neutral-900 dark:focus:bg-neutral-50 dark:focus:text-neutral-900", "bg-neutral-900 text-neutral-100 hover:bg-neutral-900 hover:text-neutral-50 focus:bg-neutral-700 focus:text-neutral-50 dark:bg-neutral-50 dark:text-neutral-900 dark:hover:bg-neutral-50 dark:hover:text-neutral-900 dark:focus:bg-neutral-50 dark:focus:text-neutral-900"],
   ["bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-50", "bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-50"],
   ["day-outside text-neutral-500 opacity-50  aria-selected:bg-neutral-100/50 aria-selected:text-neutral-500 aria-selected:opacity-30 dark:text-neutral-400 dark:aria-selected:bg-neutral-800/50 dark:aria-selected:text-neutral-400", "day-outside text-neutral-500 opacity-50  aria-selected:bg-neutral-100/50 aria-selected:text-neutral-500 aria-selected:opacity-30 dark:text-neutral-400 dark:aria-selected:bg-neutral-800/50 dark:aria-selected:text-neutral-400"],
@@ -36,7 +35,7 @@ const cal: [string, string][] = [
 ];
 for (const [o, n] of cal) add("pr2", { file: "atoms/Calendar/Calendar.tsx", old: o, new: n, tag: null });
 const TRIGGER = "agpt-border-input agpt-shadow-input flex h-9 w-full items-center justify-between whitespace-nowrap rounded-md border bg-transparent px-3 py-2 text-body leading-5 ring-offset-surface placeholder:text-neutral-500 data-[state=open]:border-gray-400 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50 dark:placeholder:text-neutral-400 [&>span]:line-clamp-1";
-add("pr2", { file: "atoms/Calendar/Calendar.tsx <SelectTrigger> (the primitive's base + this caller's classes, cn()-merged; the caller no longer repeats the base's text-body leading-5)", old: cn(TRIGGER, "w-[120px] space-x-2 bg-white text-sm"), new: cn(TRIGGER, "w-[120px] space-x-2 bg-surface"), tag: "SelectTrigger" });
+add("pr2", { file: "atoms/Calendar/Calendar.tsx <SelectTrigger> (the primitive's base + this caller's classes, cn()-merged; the caller no longer repeats the base's text-body leading-5)", old: cn(TRIGGER, "w-[120px] space-x-2 bg-surface text-body leading-5"), new: cn(TRIGGER, "w-[120px] space-x-2 bg-surface"), tag: "SelectTrigger" });
 const SCONTENT = "relative z-50 max-h-96 min-w-[8rem] overflow-hidden rounded-md border border-neutral-200 bg-surface text-neutral-950 shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50 data-[side=bottom]:translate-y-1 data-[side=left]:-translate-x-1 data-[side=right]:translate-x-1 data-[side=top]:-translate-y-1";
 add("pr2", { file: "atoms/Calendar/Calendar.tsx", old: "bg-white", new: "bg-surface", tag: "SelectContent",
   extra: [{ real: "<SelectContent> (legacy select)", oldCls: cn(SCONTENT, "bg-white"), newCls: cn(SCONTENT, "bg-surface") }] });
@@ -45,6 +44,7 @@ add("pr2", { file: "atoms/LoadingSpinner (MCPToolDialog, NodeExecutionBadge)", o
 add("pr2", { file: "atoms/LoadingSpinner (reset-password fallback)", old: cn("size-16 animate-spin", undefined), new: cn("animate-spin text-inherit", "h-6 w-6", "size-16"), tag: "svg" });
 add("pr2", { file: "reset-password/page.tsx (fallback wrapper)", old: cn("flex items-center justify-center", "h-[80vh]"), new: "flex h-[80vh] items-center justify-center", tag: "div" });
 
+const { variants: TEXT3 } = await import("/home/vercel-sandbox/wt/p3/autogpt_platform/frontend/src/components/atoms/Text/helpers.ts");
 // ---- PR3 multiselect + command
 const CMD_OLD = "flex h-full w-full flex-col overflow-hidden rounded-md bg-white text-neutral-950 dark:bg-neutral-950 dark:text-neutral-50";
 const CMD_NEW = "flex h-full w-full flex-col overflow-hidden rounded-md bg-surface text-neutral-950 dark:bg-neutral-950 dark:text-neutral-50";
@@ -52,18 +52,15 @@ const MS = "flex flex-col overflow-visible bg-transparent";
 add("pr3", { file: "MultiSelect/components/Command.tsx", old: CMD_OLD, new: CMD_NEW, tag: null, extra: [
   { real: "<MultiSelector className=\"w-full\"> (SelectWidget)", oldCls: cn(CMD_OLD, cn(MS, "w-full")), newCls: cn(CMD_NEW, cn(MS, "w-full")) },
   { real: "<MultiSelector className=\"nodrag\"> (MultiSelectField)", oldCls: cn(CMD_OLD, cn(MS, "nodrag")), newCls: cn(CMD_NEW, cn(MS, "nodrag")) }] });
-add("pr3", { file: "MultiSelect empty copy: was <CommandEmpty py-6 text-center text-sm> > <span text-muted-foreground>, now <CommandEmpty py-6 text-center> > <Text variant=\"body-tight\" tone=\"inherit\" className=\"text-muted-foreground\" as=span> (the text node's own styling)", old: "py-6 text-center text-sm text-muted-foreground", new: cn("py-6 text-center", cn(TEXT["body-tight"], TONES.inherit, "text-muted-foreground")), tag: "span", atomOwnsBase: true });
 const ITEM_OLD = "relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none data-[disabled=true]:pointer-events-none data-[selected=true]:bg-neutral-100 data-[selected=true]:text-neutral-900 data-[disabled=true]:opacity-50 dark:data-[selected=true]:bg-neutral-800 dark:data-[selected=true]:text-neutral-50";
 const ITEM_NEW = "relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-body leading-5 outline-none data-[disabled=true]:pointer-events-none data-[selected=true]:bg-neutral-100 data-[selected=true]:text-neutral-900 data-[disabled=true]:opacity-50 dark:data-[selected=true]:bg-neutral-800 dark:data-[selected=true]:text-neutral-50";
 const MSI = (inc: boolean) => cn("flex cursor-pointer justify-between rounded-md px-2 py-1 transition-colors", undefined, inc && "cursor-default opacity-50");
-add("pr3", { file: "MultiSelect/components/Command.tsx", old: ITEM_OLD, new: ITEM_NEW, tag: null, extra: [
-  { real: "<MultiSelectorItem>", oldCls: cn(ITEM_OLD, MSI(false)), newCls: cn(ITEM_NEW, MSI(false)) },
-  { real: "<MultiSelectorItem> (selected)", oldCls: cn(ITEM_OLD, MSI(true)), newCls: cn(ITEM_NEW, MSI(true)) }] });
+
 const TR_OLD = "agpt-border-input agpt-shadow-input flex flex-wrap gap-1 rounded-lg bg-background px-3 py-2 pl-1 text-sm";
 const TR_NEW = "agpt-border-input agpt-shadow-input flex flex-wrap gap-1 rounded-lg bg-background px-3 py-2 pl-1 text-body leading-5";
 add("pr3", { file: "MultiSelect/MultiSelect.tsx", old: TR_OLD, new: TR_NEW, tag: null, extra: [
   { real: "<MultiSelectorTrigger> (MultiSelectField)", oldCls: cn(TR_OLD, "rounded-3xl border border-border-base bg-surface px-2 shadow-none"), newCls: cn(TR_NEW, "rounded-3xl border border-border-base bg-surface px-2 shadow-none") }] });
-add("pr3", { file: "MultiSelect/MultiSelect.tsx (<Text variant=\"small-semibold-tight\" tone=\"inherit\" as=span>; the old span's font-semibold is the weight it inherited from the legacy Badge)", old: "text-xs font-semibold", new: cn(TEXT["small-semibold-tight"], TONES.inherit), tag: "span", atomOwnsBase: true });
+add("pr3", { file: "MultiSelect/MultiSelect.tsx (<Text variant=\"small-semibold-tight\" tone=\"inherit\" as=span>; the old span's font-semibold is the weight it inherited from the legacy Badge)", old: "text-xs font-semibold", new: cn(TEXT3["small-semibold-tight"], TONES.inherit), tag: "span", atomOwnsBase: true });
 const LIST = "absolute top-0 z-10 flex w-full flex-col gap-2 rounded-md border border-muted bg-background p-2 shadow-md transition-colors scrollbar-thin scrollbar-track-transparent scrollbar-thumb-muted-foreground scrollbar-thumb-rounded-lg";
 add("pr3", { file: "MultiSelect/MultiSelect.tsx", old: `${LIST} dark:scrollbar-thumb-muted`, new: `${LIST} dark:scrollbar-thumb-muted`, tag: null, extra: [
   { real: "<CommandList> under <MultiSelectorList>", oldCls: cn("max-h-[300px] overflow-y-auto overflow-x-hidden", cn(`${LIST} dark:scrollbar-thumb-muted`, undefined)), newCls: cn("max-h-[300px] overflow-y-auto overflow-x-hidden", cn(`${LIST} dark:scrollbar-thumb-muted`, undefined)) }] });
@@ -71,12 +68,17 @@ add("pr3", { file: "MultiSelect/MultiSelect.tsx", old: `${LIST} dark:scrollbar-t
 // ---- PR3 multiselect chips: legacy secondary Badge -> atoms/Badge variant="secondary" (DS3a-2 #16118's chip strings)
 {
   const { badgeVariants: LEGACY_BADGE } = await import("/home/vercel-sandbox/autogpt/autogpt_platform/frontend/src/components/__legacy__/ui/badge.tsx");
-  const src = (await import("node:child_process")).execSync("git -C /home/vercel-sandbox/autogpt show 766fa6935:autogpt_platform/frontend/src/components/atoms/Badge/Badge.tsx", { encoding: "utf8" });
+  const src = (await import("node:child_process")).execSync("git -C /home/vercel-sandbox/wt/p3 show HEAD:autogpt_platform/frontend/src/components/atoms/Badge/Badge.tsx", { encoding: "utf8" });
   const grab = (re: RegExp) => src.match(re)![1].replace(/"\s*\+?\s*"/g, "");
   const chipBase = [grab(/const chipLayout =\s*"([^"]+)"/), grab(/default: "([^"]+)"/), grab(/const chipBehaviour =\s*"([^"]+)"/)].join(" ");
   const chipSecondary = grab(/secondary:\s*"([^"]+)"/);
   const CHIP_CLS = "flex items-center gap-1 rounded-xl px-1 pl-2";
   add("pr3", { file: "molecules/MultiSelect chip (<Badge variant=\"secondary\">, was the legacy secondary Badge), with the chip's own className", old: cn(LEGACY_BADGE({ variant: "secondary" }), CHIP_CLS), new: cn(chipBase, chipSecondary, CHIP_CLS), tag: "div", atomOwnsBase: true });
+  const chip = (v: string, size = "default") => cn(grab(/const chipLayout =\s*"([^"]+)"/), grab(new RegExp(`"?${size}"?: "([^"]+)"`)), grab(/const chipBehaviour =\s*"([^"]+)"/), grab(new RegExp(`${v}:\\s*"([^"]+)"`)));
+  for (const [v, legacy] of [["solid", "default"], ["destructive", "destructive"], ["outline", "outline"]] as const)
+    add("pr3", { file: `atoms/Badge chip \`${v}\` (#16118's file; no call site in this PR), was the legacy \`${legacy}\` badge`, old: cn(LEGACY_BADGE({ variant: legacy })), new: chip(v), tag: "div", atomOwnsBase: true });
+  add("pr3", { file: "atoms/Badge chip `secondary` size `tiny` (#16118's file), was the legacy secondary badge with `text-[10px]`", old: cn(LEGACY_BADGE({ variant: "secondary" }), "text-[10px]"), new: chip("secondary", "tiny"), tag: "div", atomOwnsBase: true });
+  add("pr3", { file: "atoms/Badge chip `outline` size `tiny-normal` (#16118's file), was the legacy outline badge with `text-[10px] font-normal`", old: cn(LEGACY_BADGE({ variant: "outline" }), "text-[10px] font-normal"), new: chip("outline", "tiny-normal"), tag: "div", atomOwnsBase: true });
   add("pr3", { file: "the same chip, highlighted (activeIndex)", old: cn(LEGACY_BADGE({ variant: "secondary" }), CHIP_CLS, "ring-2 ring-muted-foreground"), new: cn(chipBase, chipSecondary, CHIP_CLS, "ring-2 ring-muted-foreground"), tag: "div", atomOwnsBase: true });
 }
 
@@ -86,7 +88,8 @@ const POP_NEW = "z-50 w-72 rounded-lg border border-border-base bg-surface p-4 t
 const pops: [string, string, string][] = [
   ["BlockMenu", "absolute h-[80vh] w-[46.625rem] overflow-hidden border-none p-0 shadow-[0_2px_6px_0_rgba(0,0,0,0.05)]", "absolute h-[80vh] w-[46.625rem] overflow-hidden rounded-medium border-none border-neutral-200 p-0 text-neutral-950 shadow-[0_2px_6px_0_rgba(0,0,0,0.05)] dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50"],
   ["NewSaveControl", "w-96 max-w-[400px] rounded-xlarge", "w-96 max-w-[400px] rounded-xlarge border-neutral-200 text-neutral-950 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50"],
-  ["DateInput, DateTimeInput", "w-auto p-0", "w-auto rounded-medium border-neutral-200 p-0 text-neutral-950 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50"],
+  ["DateInput", "w-auto p-0", "w-auto rounded-medium border-neutral-200 p-0 text-neutral-950 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50"],
+  ["DateTimeInput", "w-auto p-0", "w-auto rounded-medium border-neutral-200 p-0 text-neutral-950 dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50"],
 ];
 for (const [where, o, n] of pops) add("pr4", { file: `<PopoverContent> ${where} (component base + caller, cn()-merged)`, old: cn(POP_OLD, o), new: cn(POP_NEW, n), tag: "PopoverContent" });
 

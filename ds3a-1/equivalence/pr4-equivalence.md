@@ -1,4 +1,4 @@
-3 unique class strings (3 occurrences), 6 cases (as written, cn() contexts), 288 measurements (2 widths x 6 states x 2 parent line-heights x plain/profile-tabs): 0 failing cases
+3 unique class strings (4 occurrences), 6 cases (as written, cn() contexts), 288 measurements (2 widths x 6 states x 2 parent line-heights x plain/profile-tabs): 0 failing cases
 
 | # | old class string | new class string | value of the new class (computed, 16px root, in a leading-[30px] parent, 1440px, variant stripped, with the ring/divide/gradient helper that makes a colour visible) | result |
 | --- | --- | --- | --- | --- |

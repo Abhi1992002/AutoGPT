@@ -8,7 +8,7 @@ done
 W=/home/vercel-sandbox/wt/count; FE=$W/autogpt_platform/frontend
 for k in 1 2 3 4; do
   b=${SHAS[$((k-1))]}; h=${SHAS[$k]}
-  files=$(git -C /home/vercel-sandbox/autogpt diff --name-only $b $h -- autogpt_platform/frontend/src | sed 's#autogpt_platform/frontend/##')
+  files=$(git -C /home/vercel-sandbox/autogpt diff --name-only --no-renames $b $h -- autogpt_platform/frontend/src | sed 's#autogpt_platform/frontend/##')
   for side in $b $h; do
     cd $W && git checkout -q -f --detach $side && git clean -qfd autogpt_platform/frontend/src && git checkout -q 1ee6580dc -- autogpt_platform/frontend/.oxlintrc.strict.json; cd $FE
     ex=$(for f in $files; do [ -e "$f" ] && echo "$f"; done)

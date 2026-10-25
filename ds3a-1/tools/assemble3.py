@@ -46,12 +46,12 @@ def counts_section(k):
         rows.append(f"| `{dname}` | {o[1]} | **{n[1]}** |")
     fc = files_counts[k]
     dele = subprocess.run(["git", "-C", "/home/vercel-sandbox/autogpt", "diff", "--name-only", "--diff-filter=D", b, h, "--", "autogpt_platform/frontend/src"], capture_output=True, text=True).stdout.split()
-    nf = max(int(fc[0][2]), int(fc[1][2]))
-    lab = f"the {nf} files this PR touches" + (" (incl. the deleted " + ", ".join(f"`{x.rsplit('/', 1)[-1]}`" for x in dele) + ")" if dele and int(fc[0][2]) > int(fc[1][2]) else "")
+    allf = subprocess.run(["git", "-C", "/home/vercel-sandbox/autogpt", "diff", "--name-only", "--no-renames", b, h, "--", "autogpt_platform/frontend/src"], capture_output=True, text=True).stdout.split()
+    lab = f"the {len(allf)} files this PR changes, counted where they exist ({fc[0][2]} on base, {fc[1][2]} on head; tests and stories included)"
     rows.append(f"| {lab} | {fc[0][1]} | **{fc[1][1]}** |")
     rb, rh = rules[k].get(b, {}), rules[k].get(h, {})
     by = ", ".join(f"{r} {rb.get(r, 0)} → {rh.get(r, 0)}" for r in sorted(set(rb) | set(rh)))
-    return "\n".join(rows) + f"\n\nTouched files by rule, base → head: {by}. Counted with the strict oxlint config from DS4 `1ee6580dc` overlaid on both SHAs (`oxlint -c .oxlintrc.strict.json -f unix`, never committed)." + body_r0616.COUNT_TOOLS + (("\n\n" + body_r0616.COUNT_NOTE[k]) if k in body_r0616.COUNT_NOTE else "")
+    return "\n".join(rows) + f"\n\nTouched files by rule, base → head: {by}. Counted with the strict oxlint config from DS4 `1ee6580dc` overlaid on both SHAs (`oxlint -c .oxlintrc.strict.json -f unix`, never committed)." + body_r0616.COUNT_TOOLS + (("\n\n" + body_r0616.COUNT_NOTE[k]) if body_r0616.COUNT_NOTE.get(k) else "")
 
 def keyboard_lines(k, prev, curr):
     rp, rc = results(prev), results(curr)
@@ -94,7 +94,7 @@ def body(k):
     out.append(f"- **Every exact class string this PR writes**, rendered at a 16px root in parents at `leading-[30px]` and `leading-[1.5]`, plain and inside `[data-profile-tabs] [role=tabpanel]`, at 1440 and 390, in default/hover/focus/focus-visible/focus-within/active, as written and as merged on the real element: {first}. [Negative control]({BLOB}/equivalence/negative-control.md): `text-sm→text-body`, `text-xs→text-caption`, `bg-neutral-200→bg-border-base`, `h-[1px]→h-0.5` all fail.\n")
     out.append(rest + "\n")
     if k == 2:
-        out.append(f"**Glyph check** (the redrawn spinner): the old lucide SVG and its `Icon`-atom render, at 5 sizes and each call site's element, rasterised and compared at threshold 0 in 3 colours: {CFG['glyph']} ([table]({BLOB}/equivalence/glyph-equivalence.md)). Extra evidence: the drawn ring equals the lucide one.\n")
+        out.append(f"**Glyph check** (the redrawn spinner): the old lucide SVG and its `Icon`-atom render, at 5 sizes and each call site's element, rasterised and compared at threshold 0 in 3 colours: 21 spinner renders (the 7 spinner elements x 3 colours), 0 differing pixels; on all 7 the old and new markup carry the same aria attributes (`aria-hidden="true"`, no role or label) ([table]({BLOB}/equivalence/glyph-equivalence.md), rows 6, 12, 18, 24, 30, 37 and 38 of 38; the other rows are icons outside this PR). Extra evidence: the drawn ring equals the lucide one.\n")
     out.append("#### 3. Visual check\n")
     out.append("Visual check: batch diff after merge, per Abhimanyu 25 Oct\n")
     out.append("#### Rule 17: deletion / replacement\n")

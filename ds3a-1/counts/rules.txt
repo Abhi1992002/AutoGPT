@@ -1,41 +1,40 @@
 ### PR1
-== 44126db0f
-     22 shadcn(no-restyle)]
-     11 shadcn(no-raw-colors)]
-      6 shadcn(no-arbitrary-values)]
-== 18e21d55e
-     29 shadcn(no-raw-colors)]
+== e19dee473
      24 shadcn(no-restyle)]
-      5 shadcn(no-arbitrary-values)]
+     11 shadcn(no-raw-colors)]
+      1 shadcn(no-arbitrary-values)]
+== f8c3b6422
+     24 shadcn(no-restyle)]
+      7 shadcn(no-raw-colors)]
       2 shadcn(require-static-classes)]
 ### PR2
-== 18e21d55e
-    106 shadcn(no-raw-colors)]
-     38 shadcn(no-restyle)]
-      9 shadcn(no-arbitrary-values)]
+== f8c3b6422
+     71 shadcn(no-raw-colors)]
+     67 shadcn(no-restyle)]
+      3 shadcn(no-arbitrary-values)]
       2 shadcn(require-static-classes)]
       2 shadcn(no-inline-styles)]
-== 386aad2d8
-    110 shadcn(no-raw-colors)]
-     36 shadcn(no-restyle)]
-      9 shadcn(no-arbitrary-values)]
+== f5b087a61
+    105 shadcn(no-raw-colors)]
+     69 shadcn(no-restyle)]
+      4 shadcn(no-arbitrary-values)]
       2 shadcn(require-static-classes)]
       2 shadcn(no-inline-styles)]
 ### PR3
-== 386aad2d8
+== f5b087a61
      19 shadcn(no-raw-colors)]
       1 shadcn(require-static-classes)]
       1 shadcn(no-restyle)]
-== eb57643b3
+== 2976c8022
       9 shadcn(no-raw-colors)]
       8 shadcn(no-restyle)]
       1 shadcn(require-static-classes)]
 ### PR4
-== eb57643b3
+== 2976c8022
      11 shadcn(no-raw-colors)]
       3 shadcn(no-restyle)]
       1 shadcn(no-arbitrary-values)]
-== 3444a1e8c
+== aa4cacfb9
      26 shadcn(no-raw-colors)]
      18 shadcn(no-restyle)]
       1 shadcn(no-arbitrary-values)]

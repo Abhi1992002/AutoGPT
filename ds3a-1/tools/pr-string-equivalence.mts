@@ -189,7 +189,7 @@ function html(css: string, classes: string[]) {
       }
     }
   });
-  return `<html><head><style>${css}</style><style>*,*::before,*::after,*::placeholder{transition:none!important;animation:none!important}</style></head><body>${cells.join("")}</body></html>`;
+  return `<!DOCTYPE html><html><head><style>${css}</style><style>*,*::before,*::after,*::placeholder{transition:none!important;animation:none!important}</style></head><body>${cells.join("")}</body></html>`;
 }
 
 // Pseudo-classes become plain classes, so a state is switched on for every

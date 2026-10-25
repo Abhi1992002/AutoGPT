@@ -1,31 +1,43 @@
 {
  "1": [
   {
-   "file": "src/components/__legacy__/ui/carousel.tsx:315",
+   "file": "src/components/__legacy__/ui/carousel.tsx:222",
+   "rule": "shadcn(no-restyle)",
+   "token": "rounded-full",
+   "head": null
+  },
+  {
+   "file": "src/components/__legacy__/ui/carousel.tsx:274",
+   "rule": "shadcn(no-restyle)",
+   "token": "rounded-full",
+   "head": null
+  },
+  {
+   "file": "src/components/__legacy__/ui/carousel.tsx:328",
    "rule": "shadcn(no-raw-colors)",
    "token": "bg-neutral-800",
    "head": null
   },
   {
-   "file": "src/components/__legacy__/ui/carousel.tsx:315",
+   "file": "src/components/__legacy__/ui/carousel.tsx:328",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:bg-neutral-200",
    "head": null
   },
   {
-   "file": "src/components/__legacy__/ui/carousel.tsx:316",
+   "file": "src/components/__legacy__/ui/carousel.tsx:329",
    "rule": "shadcn(no-raw-colors)",
    "token": "bg-neutral-300",
    "head": null
   },
   {
-   "file": "src/components/__legacy__/ui/carousel.tsx:316",
+   "file": "src/components/__legacy__/ui/carousel.tsx:329",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:bg-neutral-600",
    "head": null
   },
   {
-   "file": "src/components/__legacy__/ui/carousel.tsx:315",
+   "file": "src/components/__legacy__/ui/carousel.tsx:328",
    "rule": "shadcn(no-arbitrary-values)",
    "token": "rounded-[39px]",
    "head": null
@@ -33,262 +45,244 @@
  ],
  "2": [
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:50",
+   "file": "src/components/__legacy__/ui/calendar.tsx:52",
    "rule": "shadcn(no-raw-colors)",
    "token": "text-neutral-500",
-   "head": "src/components/atoms/Calendar/Calendar.tsx:104"
+   "head": "src/components/atoms/Calendar/Calendar.tsx:105"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:50",
+   "file": "src/components/__legacy__/ui/calendar.tsx:52",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:text-neutral-400",
-   "head": "src/components/atoms/Calendar/Calendar.tsx:104"
+   "head": "src/components/atoms/Calendar/Calendar.tsx:105"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:53",
+   "file": "src/components/__legacy__/ui/calendar.tsx:55",
    "rule": "shadcn(no-raw-colors)",
    "token": "[&:has([aria-selected])]:bg-neutral-100",
-   "head": "src/components/atoms/Calendar/Calendar.tsx:108"
+   "head": "src/components/atoms/Calendar/Calendar.tsx:109"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:53",
+   "file": "src/components/__legacy__/ui/calendar.tsx:55",
    "rule": "shadcn(no-raw-colors)",
    "token": "[&:has([aria-selected].day-outside)]:bg-neutral-100/50",
-   "head": "src/components/atoms/Calendar/Calendar.tsx:108"
+   "head": "src/components/atoms/Calendar/Calendar.tsx:109"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:53",
+   "file": "src/components/__legacy__/ui/calendar.tsx:55",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:[&:has([aria-selected])]:bg-neutral-800",
-   "head": "src/components/atoms/Calendar/Calendar.tsx:108"
+   "head": "src/components/atoms/Calendar/Calendar.tsx:109"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:53",
+   "file": "src/components/__legacy__/ui/calendar.tsx:55",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:[&:has([aria-selected].day-outside)]:bg-neutral-800/50",
-   "head": "src/components/atoms/Calendar/Calendar.tsx:108"
+   "head": "src/components/atoms/Calendar/Calendar.tsx:109"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:65",
+   "file": "src/components/__legacy__/ui/calendar.tsx:67",
    "rule": "shadcn(no-raw-colors)",
    "token": "bg-neutral-900",
    "head": "src/components/atoms/Calendar/Calendar.tsx:125"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:65",
+   "file": "src/components/__legacy__/ui/calendar.tsx:67",
    "rule": "shadcn(no-raw-colors)",
    "token": "text-neutral-100",
    "head": "src/components/atoms/Calendar/Calendar.tsx:125"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:65",
+   "file": "src/components/__legacy__/ui/calendar.tsx:67",
    "rule": "shadcn(no-raw-colors)",
    "token": "hover:bg-neutral-900",
    "head": "src/components/atoms/Calendar/Calendar.tsx:125"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:65",
+   "file": "src/components/__legacy__/ui/calendar.tsx:67",
    "rule": "shadcn(no-raw-colors)",
    "token": "hover:text-neutral-50",
    "head": "src/components/atoms/Calendar/Calendar.tsx:125"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:65",
+   "file": "src/components/__legacy__/ui/calendar.tsx:67",
    "rule": "shadcn(no-raw-colors)",
    "token": "focus:bg-neutral-700",
    "head": "src/components/atoms/Calendar/Calendar.tsx:125"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:65",
+   "file": "src/components/__legacy__/ui/calendar.tsx:67",
    "rule": "shadcn(no-raw-colors)",
    "token": "focus:text-neutral-50",
    "head": "src/components/atoms/Calendar/Calendar.tsx:125"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:65",
+   "file": "src/components/__legacy__/ui/calendar.tsx:67",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:bg-neutral-50",
    "head": "src/components/atoms/Calendar/Calendar.tsx:125"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:65",
+   "file": "src/components/__legacy__/ui/calendar.tsx:67",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:text-neutral-900",
    "head": "src/components/atoms/Calendar/Calendar.tsx:125"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:65",
+   "file": "src/components/__legacy__/ui/calendar.tsx:67",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:hover:bg-neutral-50",
    "head": "src/components/atoms/Calendar/Calendar.tsx:125"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:65",
+   "file": "src/components/__legacy__/ui/calendar.tsx:67",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:hover:text-neutral-900",
    "head": "src/components/atoms/Calendar/Calendar.tsx:125"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:65",
+   "file": "src/components/__legacy__/ui/calendar.tsx:67",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:focus:bg-neutral-50",
    "head": "src/components/atoms/Calendar/Calendar.tsx:125"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:65",
+   "file": "src/components/__legacy__/ui/calendar.tsx:67",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:focus:text-neutral-900",
    "head": "src/components/atoms/Calendar/Calendar.tsx:125"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:67",
+   "file": "src/components/__legacy__/ui/calendar.tsx:69",
    "rule": "shadcn(no-raw-colors)",
    "token": "bg-neutral-100",
    "head": "src/components/atoms/Calendar/Calendar.tsx:129"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:67",
+   "file": "src/components/__legacy__/ui/calendar.tsx:69",
    "rule": "shadcn(no-raw-colors)",
    "token": "text-neutral-900",
    "head": "src/components/atoms/Calendar/Calendar.tsx:129"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:67",
+   "file": "src/components/__legacy__/ui/calendar.tsx:69",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:bg-neutral-800",
    "head": "src/components/atoms/Calendar/Calendar.tsx:129"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:67",
+   "file": "src/components/__legacy__/ui/calendar.tsx:69",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:text-neutral-50",
    "head": "src/components/atoms/Calendar/Calendar.tsx:129"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:69",
+   "file": "src/components/__legacy__/ui/calendar.tsx:71",
    "rule": "shadcn(no-raw-colors)",
    "token": "text-neutral-500",
    "head": "src/components/atoms/Calendar/Calendar.tsx:133"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:69",
+   "file": "src/components/__legacy__/ui/calendar.tsx:71",
    "rule": "shadcn(no-raw-colors)",
    "token": "aria-selected:bg-neutral-100/50",
    "head": "src/components/atoms/Calendar/Calendar.tsx:133"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:69",
+   "file": "src/components/__legacy__/ui/calendar.tsx:71",
    "rule": "shadcn(no-raw-colors)",
    "token": "aria-selected:text-neutral-500",
    "head": "src/components/atoms/Calendar/Calendar.tsx:133"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:69",
+   "file": "src/components/__legacy__/ui/calendar.tsx:71",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:text-neutral-400",
    "head": "src/components/atoms/Calendar/Calendar.tsx:133"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:69",
+   "file": "src/components/__legacy__/ui/calendar.tsx:71",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:aria-selected:bg-neutral-800/50",
    "head": "src/components/atoms/Calendar/Calendar.tsx:133"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:69",
+   "file": "src/components/__legacy__/ui/calendar.tsx:71",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:aria-selected:text-neutral-400",
    "head": "src/components/atoms/Calendar/Calendar.tsx:133"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:70",
+   "file": "src/components/__legacy__/ui/calendar.tsx:72",
    "rule": "shadcn(no-raw-colors)",
    "token": "text-neutral-500",
    "head": "src/components/atoms/Calendar/Calendar.tsx:135"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:70",
+   "file": "src/components/__legacy__/ui/calendar.tsx:72",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:text-neutral-400",
    "head": "src/components/atoms/Calendar/Calendar.tsx:135"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:72",
+   "file": "src/components/__legacy__/ui/calendar.tsx:74",
    "rule": "shadcn(no-raw-colors)",
    "token": "aria-selected:bg-neutral-100",
    "head": "src/components/atoms/Calendar/Calendar.tsx:139"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:72",
+   "file": "src/components/__legacy__/ui/calendar.tsx:74",
    "rule": "shadcn(no-raw-colors)",
    "token": "aria-selected:text-neutral-900",
    "head": "src/components/atoms/Calendar/Calendar.tsx:139"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:72",
+   "file": "src/components/__legacy__/ui/calendar.tsx:74",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:aria-selected:bg-neutral-800",
    "head": "src/components/atoms/Calendar/Calendar.tsx:139"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:72",
+   "file": "src/components/__legacy__/ui/calendar.tsx:74",
    "rule": "shadcn(no-raw-colors)",
    "token": "dark:aria-selected:text-neutral-50",
    "head": "src/components/atoms/Calendar/Calendar.tsx:139"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:50",
+   "file": "src/components/__legacy__/ui/calendar.tsx:52",
    "rule": "shadcn(no-arbitrary-values)",
    "token": "text-[0.8rem]",
-   "head": "src/components/atoms/Calendar/Calendar.tsx:104"
+   "head": "src/components/atoms/Calendar/Calendar.tsx:105"
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:121",
+   "file": "src/components/__legacy__/ui/calendar.tsx:123",
    "rule": "shadcn(no-restyle)",
    "token": "Use a SelectTrigger size: . Margin here or gap on the parent",
    "head": null
   },
   {
-   "file": "src/components/__legacy__/ui/calendar.tsx:121",
+   "file": "src/components/__legacy__/ui/calendar.tsx:123",
+   "rule": "shadcn(no-restyle)",
+   "token": "bg-surface",
+   "head": null
+  },
+  {
+   "file": "src/components/__legacy__/ui/calendar.tsx:123",
+   "rule": "shadcn(no-restyle)",
+   "token": "text-body",
+   "head": null
+  },
+  {
+   "file": "src/components/__legacy__/ui/calendar.tsx:123",
+   "rule": "shadcn(no-restyle)",
+   "token": "leading-5",
+   "head": null
+  },
+  {
+   "file": "src/components/__legacy__/ui/calendar.tsx:126",
    "rule": "shadcn(no-restyle)",
    "token": "bg-white",
    "head": null
-  },
-  {
-   "file": "src/components/__legacy__/ui/calendar.tsx:121",
-   "rule": "shadcn(no-restyle)",
-   "token": "text-sm",
-   "head": null
-  },
-  {
-   "file": "src/components/__legacy__/ui/calendar.tsx:124",
-   "rule": "shadcn(no-restyle)",
-   "token": "bg-white",
-   "head": null
-  },
-  {
-   "file": null,
-   "rule": "shadcn(no-raw-colors)",
-   "token": "hover:bg-neutral-100",
-   "head": "src/components/atoms/Calendar/Calendar.tsx:117"
-  },
-  {
-   "file": null,
-   "rule": "shadcn(no-raw-colors)",
-   "token": "hover:text-neutral-900",
-   "head": "src/components/atoms/Calendar/Calendar.tsx:117"
-  },
-  {
-   "file": null,
-   "rule": "shadcn(no-raw-colors)",
-   "token": "dark:hover:bg-neutral-800",
-   "head": "src/components/atoms/Calendar/Calendar.tsx:117"
-  },
-  {
-   "file": null,
-   "rule": "shadcn(no-raw-colors)",
-   "token": "dark:hover:text-neutral-50",
-   "head": "src/components/atoms/Calendar/Calendar.tsx:117"
   },
   {
    "file": null,

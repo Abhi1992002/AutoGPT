@@ -1,23 +1,16 @@
 {
  "pairs": [
   {
-   "file": "molecules/PaginationControls/PaginationControls.tsx (<Text variant=\"body-tight\" tone=\"inherit\" as=span>)",
-   "old": "text-sm",
+   "file": "molecules/PaginationControls label (<Text variant=\"body-tight\" tone=\"inherit\" as=span>, as in dev's legacy file since #16092)",
+   "old": "font-sans text-body font-normal leading-5 text-inherit",
    "new": "font-sans text-body font-normal leading-5 text-inherit",
    "tag": "span",
    "atomOwnsBase": true
   },
   {
-   "file": "molecules/PaginationControls: Previous / Next (<Button variant=\"legacy-outline\">, was the legacy outline Button)",
-   "old": "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 border border-neutral-200 bg-white shadow-sm hover:bg-neutral-100 hover:text-neutral-900 dark:border-neutral-800 dark:bg-neutral-950 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 h-9 px-4 py-2",
+   "file": "molecules/PaginationControls Previous / Next (<Button variant=\"legacy-outline\">, as in dev's legacy file since #16092)",
+   "old": "inline-flex items-center justify-center whitespace-nowrap rounded-md text-body leading-5 font-medium transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 border border-neutral-200 bg-surface shadow-sm hover:bg-neutral-100 hover:text-neutral-900 dark:border-neutral-800 dark:bg-neutral-950 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 h-9 px-4 py-2",
    "new": "inline-flex items-center justify-center whitespace-nowrap rounded-md text-body leading-5 font-medium transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 border border-neutral-200 bg-surface shadow-sm hover:bg-neutral-100 hover:text-neutral-900 dark:border-neutral-800 dark:bg-neutral-950 dark:hover:bg-neutral-800 dark:hover:text-neutral-50 h-9 px-4 py-2",
-   "tag": "button",
-   "atomOwnsBase": true
-  },
-  {
-   "file": "atoms/Button `legacy-destructive` (#16092's 520bc19e6 string; no call site in this stack)",
-   "old": "inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 bg-red-500 text-neutral-50 shadow-sm hover:bg-red-500/90 dark:bg-red-900 dark:text-neutral-50 dark:hover:bg-red-900/90 h-9 px-4 py-2",
-   "new": "inline-flex items-center justify-center whitespace-nowrap rounded-md text-body leading-5 font-medium transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 bg-error text-destructive-foreground shadow-sm hover:bg-error/90 dark:bg-red-900 dark:text-neutral-50 dark:hover:bg-red-900/90 h-9 px-4 py-2",
    "tag": "button",
    "atomOwnsBase": true
   }
