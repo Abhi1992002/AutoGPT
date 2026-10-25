@@ -258,3 +258,28 @@ def rule43(k):
 _extra_orig = extra
 def extra(k):
     return rule43(k) + "\n\n" + _extra_orig(k)
+
+_lint37_43 = lint37
+def lint37(k):
+    out = _lint37_43(k)
+    if k == 4:
+        out = out.replace("| Fixed: dead `dark:` class dropped (`forcedTheme=\"light\"`) |", f"| Moved, verbatim, to the four callers' `className` (QUALITY rule 43): {POPOVER_AT} |")
+    return out
+
+_tokensearch_43 = tokensearch
+def tokensearch(k):
+    out = _tokensearch_43(k)
+    if k == 2:
+        out = re.sub(r"#FAFAFA is shadcn's `background`[^.]*\.[^.]*classes\.?", "#FAFAFA is `primary-foreground` (and shadcn's `background` family) in `:root`, but `primary-foreground` is #18181B in `.dark`, so the selected day keeps the raw `text-neutral-50` (QUALITY rule 43 above).", out)
+    return out
+
+POST = [
+    ("their `neutral-*` and dead `dark:` classes are the legacy `button.tsx`'s", "their `neutral-*` and `dark:` classes (kept, QUALITY rule 43) are the legacy `button.tsx`'s"),
+    ("the `legacy-*` Button uses it only as `text-neutral-50` on dark fills and in dead `dark:` classes.", "the `legacy-*` Button uses it only as `text-neutral-50` on dark fills and in its `dark:` classes, all kept raw."),
+    ("`focus:ring-neutral-950` → `focus:ring-focus`, dead `dark:` classes dropped.", "`focus:ring-neutral-950` → `focus:ring-focus`; the legacy badge's `dark:` classes, which the chip variants do not carry, are passed at the call site (QUALITY rule 43 above)."),
+]
+POST_K = {2: [("#FAFAFA is shadcn's `background` (and its `*-foreground` pairs), the page background; the `legacy-*` Button uses it only as `text-neutral-50` on dark fills and in its `dark:` classes, all kept raw.",
+               "#FAFAFA is `primary-foreground` (and shadcn's `background` family) in `:root`, but `primary-foreground` is #18181B in `.dark`, so the selected day keeps the raw `text-neutral-50` (QUALITY rule 43 above).")]}
+def post(k, text):
+    for a, b in POST + POST_K.get(k, []): text = text.replace(a, b)
+    return text

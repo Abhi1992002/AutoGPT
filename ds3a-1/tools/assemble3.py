@@ -125,5 +125,5 @@ def body(k):
 
 if __name__ == "__main__":
     for k in [int(a) for a in sys.argv[1:]]:
-        open(f"{E}/body3-pr{k}.md", "w").write(body(k))
+        open(f"{E}/body3-pr{k}.md", "w").write(body_r0616.post(k, body(k)))
     print("ok")
