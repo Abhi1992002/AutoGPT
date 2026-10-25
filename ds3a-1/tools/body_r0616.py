@@ -308,3 +308,5 @@ def lint37(k):
 POST.append(("`focus:ring-neutral-950` → `focus:ring-focus`; the legacy badge's `dark:` classes, which the chip variants do not carry, are passed at the call site (QUALITY rule 43 above).",
              "`focus:ring-neutral-950` → `focus:ring-focus`; the legacy badge's `dark:` classes are kept in the chip classes (QUALITY rule 43 above)."))
 drop(3, "**Rule 31 scanner hit on `atoms/Badge`")
+POST += [("`chipBase` + `chipVariants.secondary`", "`chipLayout` + `chipSizes.default` + `chipBehaviour` + `chipVariants.secondary`"),
+         ("and `chipBase` + `secondary`'s are in table 2", "and the chip's (`chipLayout`, `chipSizes.default`, `chipBehaviour`, `secondary`) are in table 2")]
