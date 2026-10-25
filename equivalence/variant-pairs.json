@@ -109,6 +109,48 @@
    "tag": null
   },
   {
+   "file": "<Text variant=\"small-tight-underline\"> vs <Text variant=\"small\" className=\"leading-4 underline\">",
+   "old": "font-sans text-caption font-normal text-foreground-base leading-4 underline",
+   "new": "font-sans text-caption font-normal leading-4 underline text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"small-semibold-tight\"> vs <Text variant=\"small\" className=\"font-semibold leading-4\">",
+   "old": "font-sans text-caption text-foreground-base font-semibold leading-4",
+   "new": "font-sans text-caption font-semibold leading-4 text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"small-medium-lh-normal\"> vs <Text variant=\"small-medium\" className=\"leading-normal\">",
+   "old": "font-sans text-caption font-medium text-foreground-base leading-normal",
+   "new": "font-sans text-caption font-medium leading-normal text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"small-semibold-lh-normal\"> vs <Text variant=\"small\" className=\"font-semibold leading-normal\">",
+   "old": "font-sans text-caption text-foreground-base font-semibold leading-normal",
+   "new": "font-sans text-caption font-semibold leading-normal text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"large-semibold-tight\"> vs <Text variant=\"large-semibold\" className=\"leading-6\">",
+   "old": "font-sans text-body-lg font-semibold text-foreground-base leading-6",
+   "new": "font-sans text-body-lg font-semibold leading-6 text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"tiny-inherit\"> vs <Text variant=\"small\" className=\"text-tiny leading-inherit\">",
+   "old": "font-sans font-normal text-foreground-base text-tiny leading-inherit",
+   "new": "font-sans text-tiny font-normal leading-inherit text-foreground-base",
+   "tag": null
+  },
+  {
+   "file": "<Text variant=\"caption-sm-mono-inherit\"> vs <Text variant=\"small\" className=\"font-mono text-caption-sm leading-inherit\">",
+   "old": "font-normal text-foreground-base font-mono text-caption-sm leading-inherit",
+   "new": "font-mono text-caption-sm font-normal leading-inherit text-foreground-base",
+   "tag": null
+  },
+  {
    "file": "tone=\"inherit\" vs className=\"text-inherit\"",
    "old": "font-sans text-caption font-normal text-inherit",
    "new": "font-sans text-caption font-normal text-inherit",

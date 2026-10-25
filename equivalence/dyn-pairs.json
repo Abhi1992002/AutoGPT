@@ -15,8 +15,8 @@
    "tag": "Text-merged",
    "variant": "small",
    "state": "connected",
-   "old": "font-sans text-caption font-normal text-foreground-base !text-info",
-   "new": "font-sans text-caption font-normal text-foreground-base !text-info"
+   "old": "font-sans text-caption font-normal text-foreground-base !text-blue-500",
+   "new": "font-sans text-caption font-normal text-foreground-base !text-blue-500"
   },
   {
    "file": "src/app/(platform)/build/components/FlowEditor/nodes/OutputHandler.tsx",

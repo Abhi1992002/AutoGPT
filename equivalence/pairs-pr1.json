@@ -21,29 +21,15 @@
   {
    "file": "src/app/(platform)/build/components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx",
    "old": "text-xl",
-   "new": "text-lead",
-   "tag": "SheetTitle",
-   "variant": null
+   "new": "lead-semibold",
+   "tag": "Text",
+   "variant": "lead-semibold"
   },
   {
    "file": "src/app/(platform)/build/components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx",
    "old": "mt-1 text-sm text-muted-foreground",
-   "new": "mt-1 text-body leading-5 text-muted-foreground",
+   "new": "mt-1 text-muted-foreground",
    "tag": "SheetDescription",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx",
-   "old": "text-base font-semibold",
-   "new": "text-body-lg font-semibold leading-6",
-   "tag": "Label",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx",
-   "old": "mt-1 block text-sm text-gray-600",
-   "new": "mt-1 block text-body leading-5 text-gray-600",
-   "tag": "Label",
    "variant": null
   },
   {
@@ -58,6 +44,20 @@
    "new": "group text-amber-600 hover:bg-warning-surface hover:text-warning-foreground",
    "tag": "Button",
    "variant": null
+  },
+  {
+   "file": "src/app/(platform)/build/components/BuilderActions/components/RunInputDialog/RunInputDialog.tsx",
+   "old": "font-semibold",
+   "new": "body-semibold-tight",
+   "tag": "Text",
+   "variant": "body-semibold-tight"
+  },
+  {
+   "file": "src/app/(platform)/build/components/BuilderActions/components/RunInputDialog/RunInputDialog.tsx",
+   "old": "font-semibold",
+   "new": "body-semibold-tight",
+   "tag": "Text",
+   "variant": "body-semibold-tight"
   },
   {
    "file": "src/app/(platform)/build/components/BuilderChatPanel/BuilderChatPanel.tsx",
@@ -321,6 +321,13 @@
   },
   {
    "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeOutput/components/NodeDataViewer/NodeDataViewer.tsx",
+   "old": "font-semibold",
+   "new": "body-semibold-tight",
+   "tag": "Text",
+   "variant": "body-semibold-tight"
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeOutput/components/NodeDataViewer/NodeDataViewer.tsx",
    "old": "rounded-3xl border border-slate-200 bg-white p-4 shadow-sm",
    "new": "rounded-3xl border border-slate-200 bg-surface p-4 shadow-sm",
    "tag": "div"
@@ -379,13 +386,6 @@
    "old": "size-4 text-black",
    "new": "size-4 text-foreground-base",
    "tag": "Icon",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeOutput/components/ViewMoreData.tsx",
-   "old": "h-fit w-fit min-w-0 !text-xs",
-   "new": "h-fit w-fit min-w-0 !text-caption !leading-4",
-   "tag": "Button",
    "variant": null
   },
   {
@@ -499,6 +499,69 @@
    "variant": null
   },
   {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx",
+   "old": "font-medium",
+   "new": "large-medium-tight",
+   "tag": "Text",
+   "variant": "large-medium-tight"
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
+   "old": "font-semibold",
+   "new": "small-semibold-tight",
+   "tag": "Text",
+   "variant": "small-semibold-tight"
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
+   "old": "font-mono",
+   "new": "small-mono-tight",
+   "tag": "Text",
+   "variant": "small-mono-tight"
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
+   "old": "font-semibold",
+   "new": "small-semibold-tight",
+   "tag": "Text",
+   "variant": "small-semibold-tight"
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
+   "old": "font-mono",
+   "new": "small-mono-tight",
+   "tag": "Text",
+   "variant": "small-mono-tight"
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
+   "old": "font-semibold",
+   "new": "small-semibold-tight",
+   "tag": "Text",
+   "variant": "small-semibold-tight"
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
+   "old": "font-mono",
+   "new": "small-mono-tight",
+   "tag": "Text",
+   "variant": "small-mono-tight"
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
+   "old": "font-semibold",
+   "new": "small-semibold-tight",
+   "tag": "Text",
+   "variant": "small-semibold-tight"
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
+   "old": "font-mono",
+   "new": "small-mono-tight",
+   "tag": "Text",
+   "variant": "small-mono-tight"
+  },
+  {
    "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
    "old": "flex items-center justify-between gap-2 rounded-t-xl bg-amber-50 px-3 py-2 dark:bg-amber-900/30",
    "new": "flex items-center justify-between gap-2 rounded-t-xl bg-warning-surface px-3 py-2 dark:bg-amber-900/30",
@@ -506,72 +569,9 @@
   },
   {
    "file": "src/app/(platform)/build/components/FlowEditor/nodes/helpers.ts",
-   "old": "!text-blue-500",
-   "new": "!text-info",
-   "tag": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/FlowEditor/nodes/helpers.ts",
-   "old": "!text-blue-500",
-   "new": "!text-info",
-   "tag": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/FlowEditor/nodes/helpers.ts",
-   "old": "!text-blue-500",
-   "new": "!text-info",
-   "tag": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/FlowEditor/nodes/helpers.ts",
-   "old": "!text-blue-500",
-   "new": "!text-info",
-   "tag": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/FlowEditor/nodes/helpers.ts",
-   "old": "!text-blue-500",
-   "new": "!text-info",
-   "tag": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/FlowEditor/nodes/helpers.ts",
-   "old": "!text-purple-500",
-   "new": "!text-brand",
-   "tag": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/FlowEditor/nodes/helpers.ts",
    "old": "stroke-zinc-500/50",
    "new": "stroke-edge/50",
    "tag": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": "text-xs text-gray-500 underline hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200",
-   "new": "text-caption leading-4 text-gray-500 underline hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200",
-   "tag": "button"
-  },
-  {
-   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": "text-sm font-medium",
-   "new": "text-body leading-5 font-medium",
-   "tag": "MCPAuthSchemeField",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": "h-10 rounded-md border border-input bg-background px-3 text-sm",
-   "new": "h-10 rounded-md border border-input bg-background px-3 text-body leading-5",
-   "tag": "MCPAuthSchemeField",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": "text-sm",
-   "new": "text-body leading-5",
-   "tag": "MCPAuthSchemeField",
-   "variant": null
   },
   {
    "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
@@ -603,20 +603,8 @@
   {
    "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
    "old": "w-full text-xs",
-   "new": "w-full text-caption leading-4",
+   "new": "w-full",
    "tag": "table"
-  },
-  {
-   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": "px-2 py-1 font-mono text-[11px] text-gray-700 dark:text-gray-300",
-   "new": "px-2 py-1 font-mono text-caption-sm leading-inherit text-gray-700 dark:text-gray-300",
-   "tag": "td"
-  },
-  {
-   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": "flex w-full items-center justify-center gap-1 border-t border-gray-100 py-1.5 text-[10px] text-gray-400 hover:text-gray-600 dark:border-slate-700 dark:text-gray-500 dark:hover:text-gray-300",
-   "new": "flex w-full items-center justify-center gap-1 border-t border-gray-100 py-1.5 text-tiny leading-inherit text-gray-400 hover:text-gray-600 dark:border-slate-700 dark:text-gray-500 dark:hover:text-gray-300",
-   "tag": "button"
   },
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/ControlPanelButton.tsx",
@@ -649,16 +637,9 @@
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx",
    "old": "rounded-full bg-zinc-100 px-[0.375rem] font-sans text-sm leading-[1.375rem] text-zinc-600",
-   "new": "rounded-full bg-surface-hover px-[0.375rem]",
+   "new": "rounded-full bg-zinc-100 px-[0.375rem]",
    "tag": "Text",
    "variant": "body"
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx",
-   "old": "px-0 font-sans text-sm leading-[1.375rem] text-zinc-600 underline hover:text-zinc-800",
-   "new": "px-0 font-sans text-body text-foreground-secondary underline hover:text-foreground-emphasis",
-   "tag": "Button",
-   "variant": null
   },
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/Block.tsx",
@@ -670,36 +651,8 @@
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/Block.tsx",
    "old": "hover:cursor-default hover:bg-zinc-100 focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300 disabled:cursor-not-allowed",
-   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-surface-hover active:ring-1 active:ring-border-strong disabled:cursor-not-allowed",
+   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-border-strong disabled:cursor-not-allowed",
    "tag": "Button",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/Block.tsx",
-   "old": "flex h-16 w-full min-w-[7.5rem] animate-pulse items-center justify-start space-x-3 rounded-[0.75rem] bg-zinc-100 px-[0.875rem] py-[0.625rem]",
-   "new": "flex h-16 w-full min-w-[7.5rem] animate-pulse items-center justify-start space-x-3 rounded-[0.75rem] bg-surface-hover px-[0.875rem] py-[0.625rem]",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/Block.tsx",
-   "old": "h-[1.375rem] w-24 rounded bg-zinc-200",
-   "new": "h-[1.375rem] w-24 rounded bg-surface-active",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/Block.tsx",
-   "old": "h-5 w-32 rounded bg-zinc-200",
-   "new": "h-5 w-32 rounded bg-surface-active",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/Block.tsx",
-   "old": "h-7 w-7 rounded-[0.5rem] bg-zinc-200",
-   "new": "h-7 w-7 rounded-[0.5rem] bg-surface-active",
-   "tag": "Skeleton",
    "variant": null
   },
   {
@@ -785,6 +738,33 @@
    "variant": "large-medium-tight"
   },
   {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx",
+   "old": "border border-[#D4D4D4] shadow-none data-[state=checked]:border-none data-[state=checked]:bg-violet-700 data-[state=checked]:text-white",
+   "new": "border border-[#D4D4D4] shadow-none data-[state=checked]:border-none data-[state=checked]:bg-violet-700 data-[state=checked]:text-action-foreground",
+   "tag": "Checkbox",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx",
+   "old": "font-sans text-sm leading-[1.375rem] text-zinc-600",
+   "new": "m-0 p-0 text-foreground-emphasis hover:text-foreground-secondary",
+   "tag": "Button",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx",
+   "old": "m-0 p-0 font-sans text-sm font-medium leading-[1.375rem] text-zinc-800 underline hover:text-zinc-600",
+   "new": "body-medium",
+   "tag": "Text",
+   "variant": "body-medium"
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx",
+   "old": "fixed bottom-0 flex w-full justify-between gap-3 border-t border-zinc-200 bg-white px-5 py-3",
+   "new": "fixed bottom-0 flex w-full justify-between gap-3 border-t border-border-base bg-surface px-5 py-3",
+   "tag": "div"
+  },
+  {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/HorizontalScroll.tsx",
    "old": "rounded-full bg-zinc-700 p-1 text-white drop-shadow",
    "new": "rounded-full bg-zinc-700 p-1 text-action-foreground drop-shadow",
@@ -819,55 +799,6 @@
    "tag": "div"
   },
   {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/Integration.tsx",
-   "old": "h-[1.375rem] w-24 rounded bg-zinc-200",
-   "new": "h-[1.375rem] w-24 rounded bg-surface-active",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/Integration.tsx",
-   "old": "h-[1.375rem] w-[1.6875rem] rounded-[1.25rem] bg-zinc-200",
-   "new": "h-[1.375rem] w-[1.6875rem] rounded-[1.25rem] bg-surface-active",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/Integration.tsx",
-   "old": "h-5 w-[80%] rounded bg-zinc-200",
-   "new": "h-5 w-[80%] rounded bg-surface-active",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntegrationBlocks/IntegrationBlocks.tsx",
-   "old": "p-0 font-sans text-sm font-medium leading-[1.375rem] text-zinc-800",
-   "new": "p-0 font-sans text-body font-medium text-foreground-emphasis",
-   "tag": "Button",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntegrationBlocks/IntegrationBlocks.tsx",
-   "old": "font-sans text-sm font-medium leading-[1.375rem] text-zinc-800",
-   "new": "body-medium",
-   "tag": "Text",
-   "variant": "body-medium"
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntegrationBlocks/IntegrationBlocks.tsx",
-   "old": "font-sans text-sm font-medium leading-[1.375rem] text-zinc-800",
-   "new": "body-medium",
-   "tag": "Text",
-   "variant": "body-medium"
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntegrationBlocks/IntegrationBlocks.tsx",
-   "old": "flex h-[1.375rem] w-[1.6875rem] items-center justify-center rounded-[1.25rem] bg-[#f0f0f0] p-1.5 font-sans text-sm leading-[1.375rem] text-zinc-500 group-disabled:text-zinc-400",
-   "new": "flex h-[1.375rem] w-[1.6875rem] items-center justify-center rounded-[1.25rem] bg-[#f0f0f0] p-1.5 group-disabled:text-foreground-subtle",
-   "tag": "Text",
-   "variant": "body"
-  },
-  {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntegrationChip.tsx",
    "old": "flex h-[3.25rem] w-full min-w-[7.5rem] justify-start gap-2 whitespace-normal rounded-[0.5rem] bg-zinc-50 p-2 pr-3 shadow-none",
    "new": "flex h-[3.25rem] w-full min-w-[7.5rem] justify-start gap-2 whitespace-normal rounded-[0.5rem] bg-surface-muted p-2 pr-3 shadow-none",
@@ -877,7 +808,7 @@
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntegrationChip.tsx",
    "old": "hover:cursor-default hover:bg-zinc-100 focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300",
-   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-surface-hover active:ring-1 active:ring-border-strong",
+   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-border-strong",
    "tag": "Button",
    "variant": null
   },
@@ -891,7 +822,7 @@
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx",
    "old": "hover:cursor-default hover:bg-zinc-100 focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300 disabled:cursor-not-allowed",
-   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-surface-hover active:ring-1 active:ring-border-strong disabled:cursor-not-allowed",
+   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-border-strong disabled:cursor-not-allowed",
    "tag": "Button",
    "variant": null
   },
@@ -900,41 +831,6 @@
    "old": "relative h-[2.625rem] w-[2.625rem] rounded-[0.5rem] bg-white",
    "new": "relative h-[2.625rem] w-[2.625rem] rounded-[0.5rem] bg-surface",
    "tag": "div"
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx",
-   "old": "flex h-16 w-full min-w-[7.5rem] animate-pulse items-center justify-start gap-3 rounded-[0.75rem] bg-zinc-100 px-[0.875rem] py-[0.625rem]",
-   "new": "flex h-16 w-full min-w-[7.5rem] animate-pulse items-center justify-start gap-3 rounded-[0.75rem] bg-surface-hover px-[0.875rem] py-[0.625rem]",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx",
-   "old": "h-[2.625rem] w-[2.625rem] rounded-[0.5rem] bg-zinc-200",
-   "new": "h-[2.625rem] w-[2.625rem] rounded-[0.5rem] bg-surface-active",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx",
-   "old": "h-[1.375rem] w-24 rounded bg-zinc-200",
-   "new": "h-[1.375rem] w-24 rounded bg-surface-active",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx",
-   "old": "h-5 w-32 rounded bg-zinc-200",
-   "new": "h-5 w-32 rounded bg-surface-active",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx",
-   "old": "h-7 w-7 rounded-[0.5rem] bg-zinc-200",
-   "new": "h-7 w-7 rounded-[0.5rem] bg-surface-active",
-   "tag": "Skeleton",
-   "variant": null
   },
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
@@ -946,7 +842,7 @@
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
    "old": "hover:cursor-default hover:bg-zinc-100 focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300 disabled:pointer-events-none",
-   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-surface-hover active:ring-1 active:ring-border-strong disabled:pointer-events-none",
+   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-border-strong disabled:pointer-events-none",
    "tag": "Button",
    "variant": null
   },
@@ -957,45 +853,10 @@
    "tag": "div"
   },
   {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
-   "old": "flex h-[4.375rem] w-full min-w-[7.5rem] animate-pulse items-center justify-start gap-3 rounded-[0.75rem] bg-zinc-100 p-[0.625rem] pr-[0.875rem]",
-   "new": "flex h-[4.375rem] w-full min-w-[7.5rem] animate-pulse items-center justify-start gap-3 rounded-[0.75rem] bg-surface-hover p-[0.625rem] pr-[0.875rem]",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
-   "old": "h-[3.125rem] w-[5.625rem] rounded-[0.375rem] bg-zinc-200",
-   "new": "h-[3.125rem] w-[5.625rem] rounded-[0.375rem] bg-surface-active",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
-   "old": "h-[1.375rem] w-24 rounded bg-zinc-200",
-   "new": "h-[1.375rem] w-24 rounded bg-surface-active",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
-   "old": "h-5 w-16 rounded bg-zinc-200",
-   "new": "h-5 w-16 rounded bg-surface-active",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
-   "old": "h-5 w-16 rounded bg-zinc-200",
-   "new": "h-5 w-16 rounded bg-surface-active",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
-   "old": "h-7 w-7 rounded-[0.5rem] bg-zinc-200",
-   "new": "h-7 w-7 rounded-[0.5rem] bg-surface-active",
-   "tag": "Skeleton",
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MenuItem.tsx",
+   "old": "hover:cursor-default hover:bg-zinc-100 focus:ring-0",
+   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0",
+   "tag": "Button",
    "variant": null
   },
   {
@@ -1036,7 +897,7 @@
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx",
    "old": "hover:cursor-default hover:bg-zinc-100 focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300 disabled:cursor-not-allowed",
-   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-surface-hover active:ring-1 active:ring-border-strong disabled:cursor-not-allowed",
+   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-border-strong disabled:cursor-not-allowed",
    "tag": "Button",
    "variant": null
   },
@@ -1045,48 +906,6 @@
    "old": "relative h-[3.125rem] w-[5.625rem] overflow-hidden rounded-[0.375rem] bg-white",
    "new": "relative h-[3.125rem] w-[5.625rem] overflow-hidden rounded-[0.375rem] bg-surface",
    "tag": "div"
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx",
-   "old": "flex h-[4.375rem] w-full min-w-[7.5rem] animate-pulse items-center justify-start gap-3 rounded-[0.75rem] bg-zinc-100 p-[0.625rem] pr-[0.875rem]",
-   "new": "flex h-[4.375rem] w-full min-w-[7.5rem] animate-pulse items-center justify-start gap-3 rounded-[0.75rem] bg-surface-hover p-[0.625rem] pr-[0.875rem]",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx",
-   "old": "h-[3.125rem] w-[5.625rem] rounded-[0.375rem] bg-zinc-200",
-   "new": "h-[3.125rem] w-[5.625rem] rounded-[0.375rem] bg-surface-active",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx",
-   "old": "h-[1.375rem] w-24 rounded bg-zinc-200",
-   "new": "h-[1.375rem] w-24 rounded bg-surface-active",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx",
-   "old": "h-5 w-16 rounded bg-zinc-200",
-   "new": "h-5 w-16 rounded bg-surface-active",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx",
-   "old": "h-5 w-16 rounded bg-zinc-200",
-   "new": "h-5 w-16 rounded bg-surface-active",
-   "tag": "Skeleton",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx",
-   "old": "h-7 w-7 rounded-[0.5rem] bg-zinc-200",
-   "new": "h-7 w-7 rounded-[0.5rem] bg-surface-active",
-   "tag": "Skeleton",
-   "variant": null
   },
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewControlPanel.tsx",
@@ -1110,7 +929,7 @@
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx",
    "old": "bg-zinc-100 ring-1 ring-zinc-300",
-   "new": "bg-surface-hover ring-1 ring-border-strong",
+   "new": "bg-zinc-100 ring-1 ring-border-strong",
    "tag": "div"
   },
   {
@@ -1169,17 +988,34 @@
    ],
    "new": [
     "small-medium-tight",
-    "rounded-md bg-yellow-100 px-2 py-0.5 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400"
+    "rounded-md bg-yellow-100 px-2 py-0.5 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400",
+    "body-tight"
+   ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx",
+   "old": [
+    "text-base font-semibold",
+    "mt-1 block text-sm text-gray-600"
+   ],
+   "new": [
+    "large-semibold-tight",
+    "body-medium-tight",
+    "mt-1 block text-gray-600"
    ]
   },
   {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/BuilderChatPanel/BuilderChatPanel.tsx",
    "old": [
-    "flex flex-1 flex-col items-center justify-center gap-3 px-4 py-6 text-center text-sm text-slate-600"
+    "flex flex-1 flex-col items-center justify-center gap-3 px-4 py-6 text-center text-sm text-slate-600",
+    "font-medium text-slate-800"
    ],
    "new": [
     "body-tight",
-    "flex flex-1 flex-col items-center justify-center gap-3 px-4 py-6 text-center text-slate-600"
+    "flex flex-1 flex-col items-center justify-center gap-3 px-4 py-6 text-center text-slate-600",
+    "body-medium-tight",
+    "text-slate-800",
+    "body-tight"
    ]
   },
   {
@@ -1189,7 +1025,8 @@
     "flex flex-1 items-center justify-center px-4 py-6 text-sm text-slate-500"
    ],
    "new": [
-    "rounded-md border border-slate-300 bg-surface px-3 py-1.5 text-body font-medium leading-5 text-slate-700 shadow-sm hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400",
+    "rounded-md border border-slate-300 bg-surface px-3 py-1.5 text-slate-700 shadow-sm hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400",
+    "body-medium-tight",
     "body-tight",
     "flex flex-1 items-center justify-center px-4 py-6 text-slate-500"
    ]
@@ -1231,9 +1068,11 @@
   {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/FloatingSafeModeToogle.tsx",
    "old": [
+    "font-medium",
     "mt-1 text-xs text-muted-foreground"
    ],
    "new": [
+    "small-medium-lh-normal",
     "small-tight",
     "mt-1 text-muted-foreground"
    ]
@@ -1286,13 +1125,25 @@
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeOutput/components/NodeDataViewer/NodeDataViewer.tsx",
    "old": [
     "rounded-full border border-slate-300 bg-slate-100 px-3 py-1.5 text-xs font-medium text-black",
-    "text-sm text-gray-600"
+    "text-sm text-gray-600",
+    "font-semibold"
    ],
    "new": [
     "small-medium-tight",
     "rounded-full border border-slate-300 bg-slate-100 px-3 py-1.5",
     "body-tight",
-    "text-gray-600"
+    "text-gray-600",
+    "body-semibold-tight"
+   ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeOutput/components/ViewMoreData.tsx",
+   "old": [
+    "h-fit w-fit min-w-0 !text-xs"
+   ],
+   "new": [
+    "h-fit w-fit min-w-0",
+    "small-medium-tight"
    ]
   },
   {
@@ -1337,15 +1188,18 @@
   {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/SubAgentUpdateFeature.tsx",
    "old": [
+    "font-medium",
     "text-xs text-gray-400",
     "h-7 text-xs",
     "border-amber-500 text-amber-600 hover:bg-amber-50"
    ],
    "new": [
+    "small-medium-lh-normal",
     "small-tight",
     "text-gray-400",
-    "h-7 text-caption leading-4",
-    "border-warning text-amber-600 hover:bg-warning-surface"
+    "h-7",
+    "border-warning text-amber-600 hover:bg-warning-surface",
+    "small-medium-tight"
    ]
   },
   {
@@ -1413,9 +1267,11 @@
   {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx",
    "old": [
+    "font-medium",
     "mt-1 text-sm text-gray-500 dark:text-gray-400"
    ],
    "new": [
+    "large-medium-tight",
     "body-tight",
     "mt-1 text-gray-500 dark:text-gray-400"
    ]
@@ -1448,10 +1304,13 @@
   {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
    "old": [
+    "mb-2 font-semibold",
     "text-xs",
     "mt-2 text-xs text-gray-400"
    ],
    "new": [
+    "small-semibold-lh-normal",
+    "mb-2",
     "small-tight",
     "small-tight",
     "mt-2 text-gray-400"
@@ -1497,6 +1356,35 @@
   },
   {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
+   "old": [
+    "text-xs text-gray-500 underline hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+   ],
+   "new": [
+    "text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200",
+    "small-tight-underline"
+   ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
+   "old": [
+    "text-sm font-medium",
+    "h-10 rounded-md border border-input bg-background px-3 text-sm"
+   ],
+   "new": [
+    "body-medium-tight",
+    "h-10 rounded-md border border-input bg-background px-3 text-body leading-5",
+    "body-medium-tight"
+   ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
+   "old": [
+    "text-sm"
+   ],
+   "new": []
+  },
+  {
+   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
    "old": [],
    "new": [
     "small-tight"
@@ -1528,11 +1416,64 @@
    ]
   },
   {
+   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
+   "old": [],
+   "new": [
+    "small-tight"
+   ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
+   "old": [
+    "px-2 py-1 text-left font-medium text-gray-500 dark:text-gray-400",
+    "px-2 py-1 text-left font-medium text-gray-500 dark:text-gray-400",
+    "px-2 py-1 text-left font-medium text-gray-500 dark:text-gray-400"
+   ],
+   "new": [
+    "px-2 py-1 text-left text-gray-500 dark:text-gray-400",
+    "small-medium-tight",
+    "px-2 py-1 text-left text-gray-500 dark:text-gray-400",
+    "small-medium-tight",
+    "px-2 py-1 text-left text-gray-500 dark:text-gray-400",
+    "small-medium-tight"
+   ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
+   "old": [
+    "px-2 py-1 font-mono text-[11px] text-gray-700 dark:text-gray-300"
+   ],
+   "new": [
+    "px-2 py-1 text-gray-700 dark:text-gray-300",
+    "caption-sm-mono-inherit"
+   ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
+   "old": [
+    "flex w-full items-center justify-center gap-1 border-t border-gray-100 py-1.5 text-[10px] text-gray-400 hover:text-gray-600 dark:border-slate-700 dark:text-gray-500 dark:hover:text-gray-300"
+   ],
+   "new": [
+    "flex w-full items-center justify-center gap-1 border-t border-gray-100 py-1.5 text-gray-400 hover:text-gray-600 dark:border-slate-700 dark:text-gray-500 dark:hover:text-gray-300",
+    "tiny-inherit"
+   ]
+  },
+  {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MobileWarning/MobileWarning.tsx",
    "old": [
     "text-zinc-700"
    ],
    "new": []
+  },
+  {
+   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx",
+   "old": [
+    "px-0 font-sans text-sm leading-[1.375rem] text-zinc-600 underline hover:text-zinc-800"
+   ],
+   "new": [
+    "px-0 text-foreground-secondary underline hover:text-foreground-emphasis",
+    "body-medium"
+   ]
   },
   {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/Block.tsx",
@@ -1568,27 +1509,11 @@
    ]
   },
   {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx",
-   "old": [
-    "border border-[#D4D4D4] shadow-none data-[state=checked]:border-none data-[state=checked]:bg-violet-700 data-[state=checked]:text-white",
-    "font-sans text-sm leading-[1.375rem] text-zinc-600",
-    "m-0 p-0 font-sans text-sm font-medium leading-[1.375rem] text-zinc-800 underline hover:text-zinc-600",
-    "fixed bottom-0 flex w-full justify-between gap-3 border-t border-zinc-200 bg-white px-5 py-3"
-   ],
-   "new": [
-    "border border-[#D4D4D4] shadow-none data-[state=checked]:border-none data-[state=checked]:bg-violet-700 data-[state=checked]:text-action-foreground",
-    "m-0 p-0 font-sans text-body font-medium text-foreground-emphasis underline hover:text-foreground-secondary",
-    "fixed bottom-0 flex w-full justify-between gap-3 border-t border-border-base bg-surface px-5 py-3"
-   ]
-  },
-  {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/Integration.tsx",
    "old": [
     "line-clamp-1 flex-1 font-sans text-sm font-medium leading-[1.375rem] text-zinc-700 group-disabled:text-zinc-400",
     "flex h-[1.375rem] w-[1.6875rem] items-center justify-center rounded-[1.25rem] bg-[#f0f0f0] p-1.5 font-sans text-sm leading-[1.375rem] text-zinc-500 group-disabled:text-zinc-400",
-    "line-clamp-1 font-sans text-xs font-normal leading-5 text-zinc-500 group-disabled:text-zinc-400",
-    "flex h-16 w-full min-w-[7.5rem] animate-pulse items-center justify-start space-x-3 rounded-[0.75rem] bg-zinc-100 px-[0.875rem] py-[0.625rem]",
-    "h-[2.625rem] w-[2.625rem] rounded-[0.5rem] bg-zinc-200"
+    "line-clamp-1 font-sans text-xs font-normal leading-5 text-zinc-500 group-disabled:text-zinc-400"
    ],
    "new": [
     "body-medium",
@@ -1596,24 +1521,31 @@
     "body-medium",
     "flex h-[1.375rem] w-[1.6875rem] items-center justify-center rounded-[1.25rem] bg-[#f0f0f0] p-1.5 group-disabled:text-foreground-subtle",
     "small-loose",
-    "line-clamp-1 group-disabled:text-foreground-subtle",
-    "flex h-16 w-full min-w-[7.5rem] animate-pulse items-center justify-start space-x-3 rounded-[0.75rem] bg-surface-hover px-[0.875rem] py-[0.625rem]",
-    "h-[2.625rem] w-[2.625rem] rounded-[0.5rem] bg-surface-active"
+    "line-clamp-1 group-disabled:text-foreground-subtle"
+   ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntegrationBlocks/IntegrationBlocks.tsx",
+   "old": [
+    "p-0 font-sans text-sm font-medium leading-[1.375rem] text-zinc-800",
+    "font-sans text-sm font-medium leading-[1.375rem] text-zinc-800",
+    "font-sans text-sm font-medium leading-[1.375rem] text-zinc-800",
+    "flex h-[1.375rem] w-[1.6875rem] items-center justify-center rounded-[1.25rem] bg-[#f0f0f0] p-1.5 font-sans text-sm leading-[1.375rem] text-zinc-500 group-disabled:text-zinc-400"
+   ],
+   "new": [
+    "p-0 text-foreground-emphasis",
+    "body-medium",
+    "body-medium",
+    "body-medium",
+    "flex h-[1.375rem] w-[1.6875rem] items-center justify-center rounded-[1.25rem] bg-[#f0f0f0] p-1.5 group-disabled:text-foreground-subtle"
    ]
   },
   {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntegrationChip.tsx",
    "old": [
-    "truncate font-sans text-sm font-normal leading-[1.375rem] text-zinc-800",
-    "flex h-[3.25rem] w-full min-w-[7.5rem] gap-2 rounded-[0.5rem] bg-zinc-100 p-2 pr-3",
-    "h-9 w-12 rounded-[0.5rem] bg-zinc-200",
-    "h-5 w-24 self-center rounded-sm bg-zinc-200"
+    "truncate font-sans text-sm font-normal leading-[1.375rem] text-zinc-800"
    ],
-   "new": [
-    "flex h-[3.25rem] w-full min-w-[7.5rem] gap-2 rounded-[0.5rem] bg-surface-hover p-2 pr-3",
-    "h-9 w-12 rounded-[0.5rem] bg-surface-active",
-    "h-5 w-24 self-center rounded-sm bg-surface-active"
-   ]
+   "new": []
   },
   {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx",
@@ -1649,10 +1581,10 @@
    "new": [
     "small-loose",
     "truncate group-disabled:text-foreground-subtle",
-    "font-sans text-foreground-subtle",
+    "body-medium-tight",
     "small-loose",
     "truncate group-disabled:text-foreground-subtle",
-    "font-sans text-foreground-subtle"
+    "body-medium-tight"
    ]
   },
   {
@@ -1668,14 +1600,10 @@
   {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MenuItem.tsx",
    "old": [
-    "hover:cursor-default hover:bg-zinc-100 focus:ring-0",
-    "bg-zinc-100",
     "truncate font-sans text-sm font-medium leading-[1.375rem] text-zinc-800",
     "font-sans text-sm font-normal leading-[1.375rem] text-zinc-600"
    ],
    "new": [
-    "hover:cursor-default hover:bg-surface-hover focus:ring-0",
-    "bg-surface-hover",
     "body-medium"
    ]
   },
@@ -1695,14 +1623,12 @@
     "my-[1px] h-[2.25rem] space-x-1 rounded-[1.5rem] bg-zinc-50 p-[0.375rem] pr-[0.625rem] shadow-none",
     "hover:cursor-default hover:bg-zinc-100 focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300",
     "h-6 w-6 text-zinc-500",
-    "font-sans text-sm font-normal leading-[1.375rem] text-zinc-800",
-    "h-[2.25rem] w-32 rounded-[1.5rem] bg-zinc-100"
+    "font-sans text-sm font-normal leading-[1.375rem] text-zinc-800"
    ],
    "new": [
     "my-[1px] h-[2.25rem] space-x-1 rounded-[1.5rem] bg-surface-muted p-[0.375rem] pr-[0.625rem] shadow-none",
-    "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-surface-hover active:ring-1 active:ring-border-strong",
-    "h-6 w-6 text-foreground-tertiary",
-    "h-[2.25rem] w-32 rounded-[1.5rem] bg-surface-hover"
+    "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-border-strong",
+    "h-6 w-6 text-foreground-tertiary"
    ]
   },
   {
@@ -1726,11 +1652,11 @@
    "new": [
     "small-loose",
     "line-clamp-1 group-disabled:text-foreground-subtle",
-    "font-sans text-foreground-subtle",
+    "body-medium-tight",
     "small-loose",
     "line-clamp-1 group-disabled:text-foreground-subtle",
     "small-medium-loose",
-    "rounded-[0.75rem] bg-surface-active px-[0.5rem]"
+    "rounded-[0.75rem] bg-zinc-200 px-[0.5rem]"
    ]
   },
   {
@@ -1780,7 +1706,7 @@
     "body-medium",
     "line-clamp-1",
     "small-loose",
-    "shrink-0 rounded-[0.75rem] bg-surface-active px-2",
+    "shrink-0 rounded-[0.75rem] bg-zinc-200 px-2",
     "small-loose",
     "line-clamp-1"
    ]
@@ -1798,7 +1724,9 @@
    "old": [],
    "new": [
     "large-medium-tight",
-    "font-sans text-body-lg font-medium leading-6 text-foreground-base"
+    "font-sans text-body-lg font-medium leading-6 text-foreground-base",
+    "large-semibold-tight",
+    "font-sans text-body-lg font-semibold leading-6 text-foreground-base"
    ]
   },
   {
@@ -1825,10 +1753,18 @@
    "new": [
     "small-semibold",
     "font-sans text-caption font-semibold text-foreground-base",
+    "small-semibold-tight",
+    "font-sans text-caption font-semibold leading-4 text-foreground-base",
+    "small-medium-lh-normal",
+    "font-sans text-caption font-medium leading-normal text-foreground-base",
+    "small-semibold-lh-normal",
+    "font-sans text-caption font-semibold leading-normal text-foreground-base",
     "small-line-through",
     "font-sans text-caption font-normal line-through text-foreground-base",
     "small-tight",
     "font-sans text-caption font-normal leading-4 text-foreground-base",
+    "small-tight-underline",
+    "font-sans text-caption font-normal leading-4 underline text-foreground-base",
     "small-medium-tight",
     "font-sans text-caption font-medium leading-4 text-foreground-base",
     "small-mono-tight",
@@ -1842,7 +1778,11 @@
     "small-medium-loose-underline",
     "font-sans text-caption font-medium leading-5 underline text-foreground-base",
     "small-relaxed",
-    "font-sans text-caption font-normal leading-relaxed text-foreground-base"
+    "font-sans text-caption font-normal leading-relaxed text-foreground-base",
+    "tiny-inherit",
+    "font-sans text-tiny font-normal leading-inherit text-foreground-base",
+    "caption-sm-mono-inherit",
+    "font-mono text-caption-sm font-normal leading-inherit text-foreground-base"
    ]
   },
   {
@@ -1857,7 +1797,8 @@
    "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
    "old": [],
    "new": [
-    "large-medium-tight"
+    "large-medium-tight",
+    "large-semibold-tight"
    ]
   },
   {
@@ -1877,7 +1818,11 @@
    "old": [],
    "new": [
     "small-tight",
+    "small-tight-underline",
     "small-semibold",
+    "small-semibold-tight",
+    "small-medium-lh-normal",
+    "small-semibold-lh-normal",
     "small-line-through",
     "small-medium-loose-underline",
     "small-medium-tight",
@@ -1885,7 +1830,23 @@
     "small-medium-mono-tight",
     "small-loose",
     "small-medium-loose",
-    "small-relaxed"
+    "small-relaxed",
+    "tiny-inherit",
+    "caption-sm-mono-inherit"
+   ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/components/contextual/MCPAuthSchemeField/__tests__/MCPAuthSchemeField.test.tsx",
+   "old": [],
+   "new": [
+    "@/tests/integrations/test-utils",
+    "mt-1",
+    "data-slot",
+    "mt-1",
+    "body-medium-tight",
+    "data-slot",
+    "font-medium",
+    "text-inherit"
    ]
   }
  ]

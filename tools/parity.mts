@@ -18,7 +18,7 @@ const { variantElementMap } = await import(join(process.cwd(), "src/components/a
 const ROOT = "/home/vercel-sandbox/autogpt";
 const [base, head, spec, out] = process.argv.slice(2);
 const files = execSync(`git diff --name-only ${base} ${head} -- '${spec}'`, { cwd: ROOT }).toString().split("\n").filter((f) => /\.tsx?$/.test(f) && !/__tests__|\.test\./.test(f));
-const STYLE = new Set(["className", "tone", "variant", "as", "key"]);
+const STYLE = new Set(["labelVariant", "className", "tone", "variant", "as", "key"]);
 
 function analyse(raw: string, f: string) {
   const kind = f.endsWith(".tsx") ? ts.ScriptKind.TSX : ts.ScriptKind.TS;
@@ -50,8 +50,16 @@ function analyse(raw: string, f: string) {
         const clean = val.replace(/className=("[^"]*"|\{[^}]*\})/g, "className=…").replace(/\s+/g, " ");
         if (!STYLE.has(name) && !/ClassName$/.test(name)) attrs.push(`${name}=${clean}`);
       }
+      const isText = tag === "Text";
       if (tag === "Text") tag = asTag || (variantElementMap as Record<string, string>)[variant] || "p";
-      els.push({ tag, attrs: attrs.sort().join(" ") });
+      // The legacy Label renders a <label>, so a Label that became
+      // <Text as="label"> renders the same tag.
+      if (tag === "Label") tag = "label";
+      const text: string[] = [];
+      const hasJsx = (x: any): boolean => ts.isJsxElement(x) || ts.isJsxSelfClosingElement(x) || ts.isJsxFragment(x) || !!ts.forEachChild(x, (c: any) => hasJsx(c) || undefined);
+      const grab = (x: any) => { if (ts.isJsxAttributes(x)) return; if (ts.isJsxText(x)) text.push(x.getText(sf)); else if (ts.isJsxExpression(x) && x.expression && !hasJsx(x.expression)) text.push(x.expression.getText(sf)); else ts.forEachChild(x, grab); };
+      if (ts.isJsxOpeningElement(n)) n.parent.children.forEach(grab);
+      els.push({ tag, attrs: attrs.sort().join(" "), isText, text: text.join(" ").replace(/\s+/g, " ").trim() });
     }
     ts.forEachChild(n, visit);
   };
@@ -66,10 +74,27 @@ for (const f of files) {
   try { a = analyse(execSync(`git show "${base}:${f}"`, { cwd: ROOT, stdio: ["pipe", "pipe", "ignore"] }).toString(), f); } catch { rows.push(`| \`${f.split("build/")[1] ?? f.replace("autogpt_platform/frontend/", "")}\` | new file | | | |`); continue; }
   const b = analyse(execSync(`git show "${head}:${f}"`, { cwd: ROOT }).toString(), f);
   const expSame = JSON.stringify(a.exports) === JSON.stringify(b.exports);
-  const tagsSame = JSON.stringify(a.els.map((e) => e.tag)) === JSON.stringify(b.els.map((e) => e.tag));
-  const attrDiffs = a.els.length === b.els.length ? a.els.map((e, i) => (e.attrs === b.els[i].attrs ? null : `${e.tag}: \`${e.attrs}\` → \`${b.els[i].attrs}\``)).filter(Boolean) : ["element count differs"];
+  let tagsSame = JSON.stringify(a.els.map((e) => e.tag)) === JSON.stringify(b.els.map((e) => e.tag));
+  let attrDiffs: string[] = [], wrappers: string[] = [];
+  if (a.els.length === b.els.length) attrDiffs = a.els.map((e, i) => (e.attrs === b.els[i].attrs ? null : `${e.tag}: \`${e.attrs}\` → \`${b.els[i].attrs}\``)).filter(Boolean) as string[];
+  else {
+    // A head that wraps copy in a new <Text> has extra elements. Align on tag
+    // attributes and copy (LCS): the file passes when no base element is lost and
+    // every extra head element is a <Text> with no non-styling attributes.
+    const k = (e: { tag: string; attrs: string; text: string }) => `${e.tag}|${e.attrs}|${e.text}`;
+    const L = Array.from({ length: a.els.length + 1 }, () => new Array(b.els.length + 1).fill(0));
+    for (let i = a.els.length - 1; i >= 0; i--) for (let j = b.els.length - 1; j >= 0; j--) L[i][j] = k(a.els[i]) === k(b.els[j]) ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1]);
+    const hit = new Set<number>(); let lostBase = 0;
+    for (let i = 0, j = 0; i < a.els.length || j < b.els.length; ) {
+      if (i < a.els.length && j < b.els.length && k(a.els[i]) === k(b.els[j]) && L[i][j] === L[i + 1][j + 1] + 1) { hit.add(j); i++; j++; }
+      else if (j >= b.els.length || (i < a.els.length && L[i + 1][j] >= L[i][j + 1])) { lostBase++; attrDiffs.push(`lost ${a.els[i].tag}: \`${a.els[i].attrs}\``); i++; }
+      else j++;
+    }
+    for (let j = 0; j < b.els.length; j++) if (!hit.has(j)) { if (b.els[j].isText && b.els[j].attrs === "") wrappers.push(b.els[j].tag); else attrDiffs.push(`extra ${b.els[j].tag}: \`${b.els[j].attrs}\``); }
+    tagsSame = lostBase === 0 && attrDiffs.length === 0;
+  }
   if (!expSame || !tagsSame || attrDiffs.length) problems++;
-  rows.push(`| \`${f.split("build/")[1] ?? f.replace("autogpt_platform/frontend/", "")}\` | ${expSame ? `same (${a.exports.length})` : "**DIFFERS**"} | ${tagsSame ? `same (${a.els.length} elements)` : "**DIFFERS**"} | ${attrDiffs.length ? attrDiffs.join("<br>") : "same"} |`);
+  rows.push(`| \`${f.split("build/")[1] ?? f.replace("autogpt_platform/frontend/", "")}\` | ${expSame ? `same (${a.exports.length})` : "**DIFFERS**"} | ${tagsSame ? `same (${a.els.length} elements${wrappers.length ? `, plus ${wrappers.length} new \`<Text>\` copy wrapper${wrappers.length > 1 ? "s" : ""} (${wrappers.map((t) => `<${t}>`).join(", ")}) with no other attributes` : ""})` : "**DIFFERS**"} | ${attrDiffs.length ? attrDiffs.join("<br>") : "same"} |`);
 }
 const md = `${files.length} files: ${problems} with any difference\n\n| file | exports & prop types | rendered DOM tags (Text as its tag) | non-styling attributes (ids, aria, role, data-*, refs, handlers, props) |\n| --- | --- | --- | --- |\n${rows.join("\n")}\n`;
 writeFileSync(out, md);

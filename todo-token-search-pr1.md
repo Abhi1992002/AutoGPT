@@ -1,6 +1,6 @@
-83 hex values named in TODO(tokens) comments in build/** at 772559324; 67 held by no DS1 colour role; 16 held by a role of another kind (each such TODO says "no fitting role" and names it); 0 contradictions
+84 hex values named in TODO(tokens) comments in build/** at 3bbd77fa6; 67 held by no DS1 colour role; 17 held by a role of another kind (each such TODO says "no fitting role" and names it); 0 contradictions
 
-DS1 roles searched: 74 `--color-*` light values (`:root`) in `globals.css` at 772559324.
+DS1 roles searched: 74 `--color-*` light values (`:root`) in `globals.css` at 3bbd77fa6.
 
 | hex | search | roles holding it | TODO says | files |
 | --- | --- | --- | --- | --- |
@@ -34,6 +34,7 @@ DS1 roles searched: 74 `--color-*` light values (`:root`) in `globals.css` at 77
 | #675100 | `103 81 0` in `:root` → 0 | (none) | no exact role | 1 |
 | #6B7280 | `107 114 128` in `:root` → 0 | (none) | no exact role | 5 |
 | #6D28D9 | `109 40 217` in `:root` → 1 | `accent-strong` | no fitting role | 2 |
+| #7733F5 | `119 51 245` in `:root` → 1 | `brand` | no fitting role | 1 |
 | #78350F | `120 53 15` in `:root` → 0 | (none) | no exact role | 3 |
 | #7C3AED | `124 58 237` in `:root` → 0 | (none) | no exact role | 1 |
 | #876A00 | `135 106 0` in `:root` → 0 | (none) | no exact role | 1 |
@@ -58,11 +59,11 @@ DS1 roles searched: 74 `--color-*` light values (`:root`) in `globals.css` at 77
 | #D1D5DB | `209 213 219` in `:root` → 0 | (none) | no exact role | 4 |
 | #D4D4D4 | `212 212 212` in `:root` → 0 | (none) | no exact role | 1 |
 | #D97706 | `217 119 6` in `:root` → 0 | (none) | no exact role | 6 |
-| #DADADC | `218 218 220` in `:root` → 2 | `surface-active`, `border-base` | no fitting role | 1 |
+| #DADADC | `218 218 220` in `:root` → 2 | `surface-active`, `border-base` | no fitting role | 8 |
 | #E1E1E1 | `225 225 225` in `:root` → 0 | (none) | no exact role | 2 |
 | #E5E7EB | `229 231 235` in `:root` → 1 | `sidebar-border` | no fitting role | 2 |
 | #EAB308 | `234 179 8` in `:root` → 0 | (none) | no exact role | 1 |
-| #EFEFF0 | `239 239 240` in `:root` → 2 | `surface-hover`, `separator` | no fitting role | 1 |
+| #EFEFF0 | `239 239 240` in `:root` → 2 | `surface-hover`, `separator` | no fitting role | 11 |
 | #EFF1F4 | `239 241 244` in `:root` → 0 | (none) | no exact role | 5 |
 | #F0F0F0 | `240 240 240` in `:root` → 0 | (none) | no exact role | 2 |
 | #F26969 | `242 105 105` in `:root` → 0 | (none) | no exact role | 4 |

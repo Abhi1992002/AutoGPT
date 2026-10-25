@@ -1,0 +1,7 @@
+[
+ ["active:bg-surface-hover", "active:bg-zinc-100", "no fitting role for active:bg-zinc-100 #EFEFF0; #EFEFF0 is surface-hover, a hover fill, and this is the pressed state (QUALITY 41, SECRT-3154)"],
+ ["bg-surface-hover", "bg-zinc-100", "no fitting role for bg-zinc-100 #EFEFF0; #EFEFF0 is surface-hover, a hover fill, and this fill is not a hover state (QUALITY 41, SECRT-3154)"],
+ ["bg-surface-active", "bg-zinc-200", "no fitting role for bg-zinc-200 #DADADC; #DADADC is surface-active, an active-state fill, and border-base (a border colour), and this fill is static (QUALITY 41, SECRT-3154)"],
+ ["!text-brand", "!text-purple-500", "no fitting role for !text-purple-500 #7733F5; #7733F5 is brand (a button fill), and this colours a type label (QUALITY 41, SECRT-3154)"],
+ ["!text-info", "!text-blue-500", "no fitting role for !text-blue-500 #3B82F6; #3B82F6 is info (a status colour), sidebar-ring (a focus ring colour)"]
+]

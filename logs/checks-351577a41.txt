@@ -1,8 +1,0 @@
-lint, types and full vitest on 351577a41
-
-All matched files use Prettier code style!
-lint 0
-types 0
- Test Files  1086 passed (1086)
-      Tests  11800 passed | 4 expected fail (11804)
-exit 0

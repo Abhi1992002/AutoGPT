@@ -5,7 +5,7 @@ import { join } from "node:path";
 const { cn } = await import(join(process.cwd(), "src/lib/utils.ts"));
 const { variants } = await import(join(process.cwd(), "src/components/atoms/Text/helpers.ts"));
 const f = "src/app/(platform)/build/components/FlowEditor/nodes/OutputHandler.tsx";
-const colour = "!text-info"; // a typed output's label colour (getTypeDisplayInfo); the same class on both sides
+const colour = "!text-blue-500"; // a typed output's label colour (getTypeDisplayInfo, number); the same class on both sides
 const pairs = [];
 for (const broken of [false, true]) {
   pairs.push({ file: f, line: 135, tag: "Text-merged", variant: broken ? "body-line-through" : "body", state: broken ? "broken" : "connected",

@@ -21,6 +21,13 @@ const NEW: [string, string, string][] = [
   ["small-line-through", "small", "line-through"],
   ["body-tight-italic", "body", "italic leading-5"],
   ["small-medium-loose-underline", "small-medium", "leading-5 underline"],
+  ["small-tight-underline", "small", "leading-4 underline"],
+  ["small-semibold-tight", "small", "font-semibold leading-4"],
+  ["small-medium-lh-normal", "small-medium", "leading-normal"],
+  ["small-semibold-lh-normal", "small", "font-semibold leading-normal"],
+  ["large-semibold-tight", "large-semibold", "leading-6"],
+  ["tiny-inherit", "small", "text-tiny leading-inherit"],
+  ["caption-sm-mono-inherit", "small", "font-mono text-caption-sm leading-inherit"],
 ];
 const pairs = NEW.map(([nv, bv, extra]) => ({ file: `<Text variant="${nv}"> vs <Text variant="${bv}" className="${extra}">`, old: cn(variants[bv], extra), new: variants[nv], tag: null }));
 pairs.push({ file: 'tone="inherit" vs className="text-inherit"', old: cn(variants["small"], "text-inherit"), new: cn(variants["small"], "text-inherit"), tag: null });

@@ -1,0 +1,18 @@
+build/components/BuilderActions/components/CronSchedulerDialog/CronSchedulerDialog.tsx:81 <a> className: underline
+build/components/BuilderChatPanel/components/NoModelNotice.tsx:27 <a> className: font-medium underline
+build/components/FlowEditor/Flow/components/TriggerAgentBanner.tsx:37 <Link> className: underline
+build/components/FlowEditor/nodes/CustomNode/components/NodeOutput/NodeOutput.tsx:37 <AccordionTrigger> className: hover:no-underline
+build/components/FlowEditor/nodes/CustomNode/components/WebhookDisclaimer.tsx:37 <Link> className: underline
+build/components/FlowEditor/nodes/CustomNode/components/NodeCost.tsx:133 <div> className: text-body-lg font-light leading-6
+build/components/FlowEditor/nodes/CustomNode/components/NodeCost.tsx:142 <div> className: text-body-lg font-light leading-6
+build/components/FlowEditor/nodes/CustomNode/components/NodeCost.tsx:157 <div> className: text-body-lg font-light leading-6
+build/components/FlowEditor/nodes/CustomNode/components/NodeCost.tsx:168 <div> className: text-body-lg font-light leading-6
+build/components/FlowEditor/nodes/CustomNode/components/NodeHeader.tsx:68 <input> className: font-sans text-body-lg font-semibold leading-6
+build/components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx:107 <Button> className: underline
+build/components/NewControlPanel/NewBlockMenu/BlockMenuSearchBar/BlockMenuSearchBar.tsx:39 <Input> className: font-sans text-body-lg font-normal leading-6
+build/components/NewControlPanel/NewBlockMenu/helpers.tsx:22 <mark> className: font-bold
+build/components/NewControlPanel/NewSearchGraph/GraphMenuSearchBar/GraphMenuSearchBar.tsx:40 <Input> className: font-sans text-body-lg font-normal leading-6
+build/components/MCPToolDialog.tsx:452 <MCPAuthSchemeField> selectClassName: text-body leading-5
+build/components/MCPToolDialog.tsx:645 <Badge> className: text-tiny leading-inherit
+build/components/MCPToolDialog.tsx:666 <Badge> className: text-tiny font-normal leading-inherit
+build/components/MCPToolDialog.tsx:683 <Badge> className: text-tiny font-normal leading-inherit

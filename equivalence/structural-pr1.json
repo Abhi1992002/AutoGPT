@@ -1,0 +1,223 @@
+{
+ "pairs": [
+  {
+   "file": "src/app/(platform)/build/components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx",
+   "old": "",
+   "new": "font-sans text-body font-normal leading-5 text-inherit",
+   "tag": "Text-merged",
+   "variant": "body-tight",
+   "line": 134,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/BuilderActions/components/RunInputDialog/RunInputDialog.tsx",
+   "old": "font-semibold",
+   "new": "font-sans text-body font-semibold leading-5 text-inherit",
+   "tag": "Text-merged",
+   "variant": "body-semibold-tight",
+   "line": 148,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/BuilderActions/components/RunInputDialog/RunInputDialog.tsx",
+   "old": "font-semibold",
+   "new": "font-sans text-body font-semibold leading-5 text-inherit",
+   "tag": "Text-merged",
+   "variant": "body-semibold-tight",
+   "line": 165,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/BuilderChatPanel/BuilderChatPanel.tsx",
+   "old": "font-medium text-slate-800",
+   "new": "font-sans text-body font-medium leading-5 text-slate-800",
+   "tag": "Text-merged",
+   "variant": "body-medium-tight",
+   "line": 91,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/BuilderChatPanel/BuilderChatPanel.tsx",
+   "old": "text-slate-500",
+   "new": "font-sans text-body font-normal leading-5 text-slate-500",
+   "tag": "Text-merged",
+   "variant": "body-tight",
+   "line": 98,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/FloatingSafeModeToogle.tsx",
+   "old": "font-medium",
+   "new": "font-sans text-caption font-medium leading-normal text-inherit",
+   "tag": "Text-merged",
+   "variant": "small-medium-lh-normal",
+   "line": 74,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeOutput/components/NodeDataViewer/NodeDataViewer.tsx",
+   "old": "font-semibold",
+   "new": "font-sans text-body font-semibold leading-5 text-inherit",
+   "tag": "Text-merged",
+   "variant": "body-semibold-tight",
+   "line": 151,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeOutput/components/NodeDataViewer/NodeDataViewer.tsx",
+   "old": "font-semibold",
+   "new": "font-sans text-body font-semibold leading-5 text-inherit",
+   "tag": "Text-merged",
+   "variant": "body-semibold-tight",
+   "line": 184,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/SubAgentUpdateFeature.tsx",
+   "old": "font-medium",
+   "new": "font-sans text-caption font-medium leading-normal text-inherit",
+   "tag": "Text-merged",
+   "variant": "small-medium-lh-normal",
+   "line": 111,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx",
+   "old": "font-medium",
+   "new": "font-sans text-body-lg font-medium leading-6 text-inherit",
+   "tag": "Text-merged",
+   "variant": "large-medium-tight",
+   "line": 192,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/IncompatibleUpdateDialog.tsx",
+   "old": "font-medium",
+   "new": "font-sans text-body-lg font-medium leading-6 text-inherit",
+   "tag": "Text-merged",
+   "variant": "large-medium-tight",
+   "line": 308,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
+   "old": "font-semibold",
+   "new": "font-sans text-caption font-semibold leading-4 text-inherit",
+   "tag": "Text-merged",
+   "variant": "small-semibold-tight",
+   "line": 27,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
+   "old": "font-mono",
+   "new": "font-mono text-caption font-normal leading-4 text-inherit",
+   "tag": "Text-merged",
+   "variant": "small-mono-tight",
+   "line": 32,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
+   "old": "font-semibold",
+   "new": "font-sans text-caption font-semibold leading-4 text-inherit",
+   "tag": "Text-merged",
+   "variant": "small-semibold-tight",
+   "line": 44,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
+   "old": "font-mono",
+   "new": "font-mono text-caption font-normal leading-4 text-inherit",
+   "tag": "Text-merged",
+   "variant": "small-mono-tight",
+   "line": 49,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
+   "old": "font-semibold",
+   "new": "font-sans text-caption font-semibold leading-4 text-inherit",
+   "tag": "Text-merged",
+   "variant": "small-semibold-tight",
+   "line": 61,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
+   "old": "font-mono",
+   "new": "font-mono text-caption font-normal leading-4 text-inherit",
+   "tag": "Text-merged",
+   "variant": "small-mono-tight",
+   "line": 66,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
+   "old": "font-semibold",
+   "new": "font-sans text-caption font-semibold leading-4 text-inherit",
+   "tag": "Text-merged",
+   "variant": "small-semibold-tight",
+   "line": 78,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
+   "old": "font-mono",
+   "new": "font-mono text-caption font-normal leading-4 text-inherit",
+   "tag": "Text-merged",
+   "variant": "small-mono-tight",
+   "line": 83,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/components/ResolutionModeBar.tsx",
+   "old": "mb-2 font-semibold",
+   "new": "font-sans text-caption font-semibold leading-normal text-inherit mb-2",
+   "tag": "Text-merged",
+   "variant": "small-semibold-lh-normal",
+   "line": 131,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
+   "old": "mx-3 mb-2 rounded border border-gray-100 bg-gray-50/50 dark:border-slate-700 dark:bg-slate-800/50",
+   "new": "font-sans text-caption font-normal leading-4 text-inherit mx-3 mb-2 rounded border border-gray-100 bg-gray-50/50 dark:border-slate-700 dark:bg-slate-800/50",
+   "tag": "Text-merged",
+   "variant": "small-tight",
+   "line": 695,
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
+   "old": "font-sans text-zinc-400",
+   "new": "font-sans text-body font-medium leading-5 text-foreground-subtle",
+   "tag": "Text-merged",
+   "variant": "body-medium-tight",
+   "line": 89,
+   "parent": "font-medium",
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
+   "old": "font-sans text-zinc-400",
+   "new": "font-sans text-body font-medium leading-5 text-foreground-subtle",
+   "tag": "Text-merged",
+   "variant": "body-medium-tight",
+   "line": 101,
+   "parent": "font-medium",
+   "structural": true
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx",
+   "old": "font-sans text-zinc-400",
+   "new": "font-sans text-body font-medium leading-5 text-foreground-subtle",
+   "tag": "Text-merged",
+   "variant": "body-medium-tight",
+   "line": 87,
+   "parent": "font-medium",
+   "structural": true
+  }
+ ]
+}

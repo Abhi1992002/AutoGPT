@@ -1,0 +1,43 @@
+{
+ "excluded": [
+  {
+   "file": "src/app/(platform)/build/components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx",
+   "old": "text-xl",
+   "new": "lead-semibold",
+   "tag": "Text",
+   "variant": "lead-semibold",
+   "why": "SheetTitle's className paired with the variant of the <Text> it now wraps; markup case 'AgentOutputs: sheet title and description'"
+  },
+  {
+   "file": "src/app/(platform)/build/components/BuilderActions/components/AgentOutputs/AgentOutputs.tsx",
+   "old": "mt-1 text-sm text-muted-foreground",
+   "new": "mt-1 text-muted-foreground",
+   "tag": "SheetDescription",
+   "variant": null,
+   "why": "SheetDescription's className without the atom's own text-body leading-5; measured merged (pr1-agentoutputs-merged.md, 0 failing) and as a class set (pr1-merged-sets.md, same set)"
+  },
+  {
+   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
+   "old": "w-full text-xs",
+   "new": "w-full",
+   "tag": "table",
+   "why": "the table's type moved to the <Text variant=\"small-tight\" as=\"div\"> around it; markup case 'MCP: parameter table'"
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx",
+   "old": "font-sans text-sm leading-[1.375rem] text-zinc-600",
+   "new": "m-0 p-0 text-foreground-emphasis hover:text-foreground-secondary",
+   "tag": "Button",
+   "variant": null,
+   "why": "a creator label's dev string paired with the More/Less link Button; the label is a Text row, the link is markup case 'FilterSheet: More/Less'"
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx",
+   "old": "m-0 p-0 font-sans text-sm font-medium leading-[1.375rem] text-zinc-800 underline hover:text-zinc-600",
+   "new": "body-medium",
+   "tag": "Text",
+   "variant": "body-medium",
+   "why": "the More/Less link's dev string paired with the variant of the <Text> it now wraps; markup case 'FilterSheet: More/Less'"
+  }
+ ]
+}

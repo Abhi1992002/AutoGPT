@@ -23,6 +23,16 @@ function roles(list: string) {
   else w[i] = role;
   return w.join(" ");
 }
+// QUALITY 41(c): the codemod's state roles that this PR keeps raw on static,
+// selected or pressed fills, and the brand/info roles kept off type labels.
+const KEPT_RAW: Record<string, string> = {
+  "bg-surface-active": "bg-zinc-200",
+  "bg-surface-hover": "bg-zinc-100",
+  "active:bg-surface-hover": "active:bg-zinc-100",
+  "!text-brand": "!text-purple-500",
+  "!text-info": "!text-blue-500",
+};
+const keptRaw = (list: string) => list.split(/\s+/).map((w) => KEPT_RAW[w] ?? w).join(" ");
 const [pairsFile, textFile, out] = process.argv.slice(2);
 const d = JSON.parse(readFileSync(pairsFile, "utf8"));
 const t = JSON.parse(readFileSync(textFile, "utf8"));
@@ -50,7 +60,7 @@ for (const u of d.unpaired) {
   const news = [...u.new];
   for (const o of u.old) {
     const noDark = o.split(/\s+/).filter((w: string) => !w.startsWith("dark:")).join(" ");
-    const cm = roles(rewriteClassList(noDark, map, size).output);
+    const cm = keptRaw(roles(rewriteClassList(noDark, map, size).output));
     const k = news.indexOf(cm);
     if (k >= 0) { pairs.push({ file: u.file.replace("autogpt_platform/frontend/", ""), old: o, new: cm, tag: null }); news.splice(k, 1); resolved++; continue; }
     if (noDark === "") { pairs.push({ file: u.file, old: o, new: "(removed)", tag: null }); removedDark++; continue; }

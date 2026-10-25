@@ -1,0 +1,52 @@
+{
+ "pairs": [
+  {
+   "file": "src/app/(platform)/build/components/BuilderChatPanel/BuilderChatPanel.tsx",
+   "old": "bg-white",
+   "new": "bg-surface",
+   "tag": "structural (markup_eq)"
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx",
+   "old": "text-zinc-600 hover:text-zinc-800",
+   "new": "text-foreground-secondary hover:text-foreground-emphasis",
+   "tag": "structural (markup_eq)"
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx",
+   "old": "text-zinc-800 hover:text-zinc-600",
+   "new": "text-foreground-emphasis hover:text-foreground-secondary",
+   "tag": "structural (markup_eq)"
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntegrationBlocks/IntegrationBlocks.tsx",
+   "old": "text-zinc-800",
+   "new": "text-foreground-emphasis",
+   "tag": "structural (markup_eq)"
+  },
+  {
+   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/SubAgentUpdate/SubAgentUpdateFeature.tsx",
+   "old": "border-amber-500 hover:bg-amber-50",
+   "new": "border-warning hover:bg-warning-surface",
+   "tag": "structural (markup_eq)"
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
+   "old": "text-zinc-400",
+   "new": "text-foreground-subtle",
+   "tag": "structural (markup_eq)"
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
+   "old": "text-zinc-400",
+   "new": "text-foreground-subtle",
+   "tag": "structural (markup_eq)"
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx",
+   "old": "text-zinc-400",
+   "new": "text-foreground-subtle",
+   "tag": "structural (markup_eq)"
+  }
+ ]
+}

@@ -30,12 +30,6 @@
   },
   {
    "file": "src/app/(platform)/build/components/FlowEditor/Flow/components/CustomControl.tsx",
-   "old": "bg-zinc-100",
-   "new": "bg-surface-hover",
-   "tag": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/FlowEditor/Flow/components/CustomControl.tsx",
    "old": "bg-white",
    "new": "bg-surface",
    "tag": null
@@ -60,12 +54,6 @@
    "new": "size-3.5 text-foreground-secondary",
    "tag": "Icon",
    "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/FlowEditor/Flow/components/CustomControl.tsx",
-   "old": "bg-zinc-100",
-   "new": "bg-surface-hover",
-   "tag": null
   },
   {
    "file": "src/app/(platform)/build/components/FlowEditor/Flow/components/CustomControl.tsx",
@@ -257,7 +245,7 @@
   {
    "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/block-menu.ts",
    "old": "bg-zinc-100 ring-1 ring-zinc-200 rounded-2xl p-2 px-4 mt-2 flex items-start gap-2 text-sm font-medium text-zinc-600",
-   "new": "bg-surface-hover ring-1 ring-border-base rounded-2xl p-2 px-4 mt-2 flex items-start gap-2 text-body leading-5 font-medium text-foreground-secondary",
+   "new": "bg-zinc-100 ring-1 ring-border-base rounded-2xl p-2 px-4 mt-2 flex items-start gap-2 text-body leading-5 font-medium text-foreground-secondary",
    "tag": "div"
   },
   {
@@ -599,7 +587,7 @@
   {
    "file": "src/app/(platform)/build/components/FlowEditor/tutorial/steps/run.ts",
    "old": "mt-2 p-2 bg-zinc-100 ring-1 ring-zinc-200 rounded-xl",
-   "new": "mt-2 p-2 bg-surface-hover ring-1 ring-border-base rounded-xl",
+   "new": "mt-2 p-2 bg-zinc-100 ring-1 ring-border-base rounded-xl",
    "tag": "div"
   },
   {

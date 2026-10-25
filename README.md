@@ -4,8 +4,8 @@ Evidence-only branch: never merged, not part of any PR branch.
 
 Current set, on the PR heads:
 - base: dev `4bf85fe86` (#16099 merged it)
-- #16099 `772559324`
-- #16103 `351577a41`
+- #16099 `3bbd77fa6`
+- #16103 `8e515a5ba`
 
 Rule 43 (25 Oct 09:42 IST): every `dark:` class is kept, and every colour swap's token renders the same `.dark` value as the old class.
 
@@ -23,6 +23,11 @@ Screenshots: per Abhimanyu (25 Oct 08:57 IST), the visual check is the orchestra
 | `dark-check-pr*.txt` | `git diff <base>...<head> \| grep -E '^-.*dark:'`, and whether each removed `dark:` class is back on an added code line |
 | `dark-multiset-*.txt` | every `dark:` class in `build/**` code at dev and at each head (identical) |
 | `swap-dark-pr*.md` | every colour swap, with the new token's `:root` and `.dark` values |
+| `equivalence/pr1-markup-equivalence.md` | copy moved into a `<Text>` inside its element, rendered as dev and as head inside its real ancestors (`tools/markup_eq.mts`, cases in `tools/gen_markup_cases.mts`), and its negative control |
+| `removed-tokens-pr1.md` | QUALITY 46: every class token the last push removed, and where it comes from now |
+| `text-variants-xpr-pr*.txt` | rules 34/35: Text variants against dev and every open `abhi/*` PR head |
+| `rule31-non-text-pr*.txt` | every non-`<Text>` element in `build/**` whose className carries type |
+| `text-table-pr1.md` | every `<Text>` element: dev string, merged string, computed values, result |
 | `parity-pr*.md` | exports and prop types, rendered DOM tags and non-styling attributes, base vs head |
-| `logs/` | lint, types and full vitest on `351577a41`; patch coverage |
+| `logs/` | lint, types and full vitest on `8e515a5ba`; patch coverage |
 | `tools/` | every script used |

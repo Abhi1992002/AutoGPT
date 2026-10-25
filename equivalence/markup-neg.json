@@ -1,0 +1,51 @@
+[
+ {
+  "name": "NEG Retry span without font-medium",
+  "where": "BuilderChatPanel.tsx:84",
+  "ctx": "<div class=\"bg-canvas font-sans text-foreground\"><div class=\"flex h-[400px] w-[360px] flex-col\">{X}</div></div>",
+  "old": "<div data-eq-root class=\"flex flex-1 flex-col items-center justify-center gap-3 px-4 py-6 text-center text-sm text-slate-600\"><p class=\"font-medium text-slate-800\">Something failed</p><p class=\"text-slate-500\">Something went wrong. Retry to try again.</p><button class=\"rounded-md border border-slate-300 bg-white px-3 py-1.5 text-sm font-medium text-slate-700 shadow-sm hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400\" type=\"button\">Retry</button></div>",
+  "new": "<div data-eq-root class=\"font-sans text-body font-normal leading-5 flex flex-1 flex-col items-center justify-center gap-3 px-4 py-6 text-center text-slate-600\"><p class=\"font-sans text-body font-medium leading-5 text-slate-800\">Something failed</p><p class=\"font-sans text-body font-normal leading-5 text-slate-500\">Something went wrong. Retry to try again.</p><button class=\"rounded-md border border-slate-300 bg-surface px-3 py-1.5 text-slate-700 shadow-sm hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400\" type=\"button\"><span class=\"font-sans text-body font-normal leading-5 text-inherit\">Retry</span></button></div>"
+ },
+ {
+  "name": "NEG credential span inline, not block",
+  "where": "MCPToolDialog.tsx:433",
+  "ctx": "<div class=\"bg-canvas font-sans text-foreground\"><div class=\"w-[512px] bg-surface p-6\"><div class=\"flex flex-col gap-4 py-2\">{X}</div></div></div>",
+  "old": "<button data-eq-root class=\"text-xs text-gray-500 underline hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200\">or enter an API credential manually</button>",
+  "new": "<button data-eq-root class=\"text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200\"><span class=\"font-sans text-caption font-normal leading-4 underline text-inherit\">or enter an API credential manually</span></button>"
+ },
+ {
+  "name": "NEG table name cell at caption, not caption-sm",
+  "where": "MCPToolDialog.tsx:685",
+  "ctx": "<div class=\"bg-canvas font-sans text-foreground\"><div class=\"w-[480px]\"><div class=\"flex flex-col gap-2 pr-3\"><button class=\"group flex flex-col rounded-lg border text-left transition-colors border-gray-200 hover:border-gray-300 hover:bg-gray-50\">{X}</button></div></div></div>",
+  "old": "<div data-eq-root class=\"mx-3 mb-2 rounded border border-gray-100 bg-gray-50/50 dark:border-slate-700 dark:bg-slate-800/50\"><table class=\"w-full text-xs\"><thead><tr class=\"border-b border-gray-100\"><th class=\"px-2 py-1 text-left font-medium text-gray-500\">Parameter</th><th class=\"px-2 py-1 text-left font-medium text-gray-500\">Type</th><th class=\"px-2 py-1 text-left font-medium text-gray-500\">Description</th></tr></thead><tbody><tr class=\"border-b border-gray-50 last:border-0\"><td class=\"px-2 py-1 font-mono text-[11px] text-gray-700\">query<span class=\"ml-0.5 text-red-400\">*</span></td><td class=\"px-2 py-1 text-gray-500\">string</td><td class=\"max-w-[200px] truncate px-2 py-1 text-gray-500\">The search query to run against the index, which is long</td></tr><tr class=\"border-b border-gray-50 last:border-0\"><td class=\"px-2 py-1 font-mono text-[11px] text-gray-700\">limit</td><td class=\"px-2 py-1 text-gray-500\">string</td><td class=\"max-w-[200px] truncate px-2 py-1 text-gray-500\">The search query to run against the index, which is long</td></tr></tbody></table></div>",
+  "new": "<div data-eq-root class=\"font-sans text-caption font-normal leading-4 text-inherit mx-3 mb-2 rounded border border-gray-100 bg-gray-50/50 dark:border-slate-700 dark:bg-slate-800/50\"><table class=\"w-full\"><thead><tr class=\"border-b border-gray-100\"><th class=\"px-2 py-1 text-left text-gray-500\"><span class=\"font-sans text-caption font-medium leading-4 text-inherit\">Parameter</span></th><th class=\"px-2 py-1 text-left text-gray-500\"><span class=\"font-sans text-caption font-medium leading-4 text-inherit\">Type</span></th><th class=\"px-2 py-1 text-left text-gray-500\"><span class=\"font-sans text-caption font-medium leading-4 text-inherit\">Description</span></th></tr></thead><tbody><tr class=\"border-b border-gray-50 last:border-0\"><td class=\"px-2 py-1 text-gray-700\"><span class=\"font-mono text-caption font-normal leading-inherit text-inherit block\">query<span class=\"ml-0.5 text-red-400\">*</span></span></td><td class=\"px-2 py-1 text-gray-500\">string</td><td class=\"max-w-[200px] truncate px-2 py-1 text-gray-500\">The search query to run against the index, which is long</td></tr><tr class=\"border-b border-gray-50 last:border-0\"><td class=\"px-2 py-1 text-gray-700\"><span class=\"font-mono text-caption-sm font-normal leading-inherit text-inherit block\">limit</span></td><td class=\"px-2 py-1 text-gray-500\">string</td><td class=\"max-w-[200px] truncate px-2 py-1 text-gray-500\">The search query to run against the index, which is long</td></tr></tbody></table></div>"
+ },
+ {
+  "name": "NEG sheet title span not block",
+  "where": "AgentOutputs.tsx:115",
+  "ctx": "<div class=\"bg-canvas font-sans text-foreground\"><div class=\"w-[600px]\"><div class=\"flex flex-col space-y-2 text-center sm:text-left px-2 py-2\"><div class=\"flex items-center justify-between\">{X}</div></div></div></div>",
+  "old": "<div data-eq-root><h2 class=\"font-semibold text-neutral-950 dark:text-neutral-50 text-xl\">Run Outputs</h2><p class=\"dark:text-neutral-400 mt-1 text-sm text-muted-foreground\"><span class=\"inline-flex items-center gap-1.5\"><span class=\"rounded-md bg-yellow-100 px-2 py-0.5 text-xs font-medium text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400\">Beta</span><span>This feature is in beta and may contain bugs</span></span></p></div>",
+  "new": "<div data-eq-root><h2 class=\"text-lg font-semibold text-neutral-950 dark:text-neutral-50\"><span class=\"font-sans text-lead font-semibold text-inherit\">Run Outputs</span></h2><p class=\"text-body leading-5 dark:text-neutral-400 mt-1 text-muted-foreground\"><span class=\"inline-flex items-center gap-1.5\"><span class=\"font-sans text-caption font-medium leading-4 rounded-md bg-yellow-100 px-2 py-0.5 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400\">Beta</span><span class=\"font-sans text-body font-normal leading-5 text-inherit\">This feature is in beta and may contain bugs</span></span></p></div>"
+ },
+ {
+  "name": "NEG tooltip title at leading-4",
+  "where": "FloatingSafeModeToogle.tsx:74",
+  "ctx": "<div class=\"bg-canvas font-sans text-foreground\"><div class=\"z-50 max-w-xs overflow-hidden rounded-md bg-action-hover px-3 py-1.5 text-caption font-normal leading-normal text-surface-muted\">{X}</div></div>",
+  "old": "<div data-eq-root class=\"text-center\"><div class=\"font-medium\">Safe mode: ON</div><div class=\"mt-1 text-xs text-muted-foreground\">Blocks that change data ask first</div></div>",
+  "new": "<div data-eq-root class=\"text-center\"><div class=\"font-sans text-caption font-medium leading-4 text-inherit\">Safe mode: ON</div><div class=\"font-sans text-caption font-normal leading-4 mt-1 text-muted-foreground\">Blocks that change data ask first</div></div>"
+ },
+ {
+  "name": "NEG link copy at leading-5",
+  "where": "AllBlocksContent.tsx:108",
+  "ctx": "<div class=\"bg-canvas font-sans text-foreground\"><div class=\"flex w-[360px] items-center justify-between gap-1\">{X}<span>/</span></div></div>",
+  "old": "<button data-eq-root class=\"inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 underline-offset-4 hover:underline dark:text-neutral-50 h-9 py-2 px-0 font-sans text-sm leading-[1.375rem] text-zinc-600 underline hover:text-zinc-800\">see all</button>",
+  "new": "<button data-eq-root class=\"inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 underline-offset-4 hover:underline dark:text-neutral-50 h-9 py-2 px-0 text-foreground-secondary underline hover:text-foreground-emphasis\"><span class=\"font-sans text-body font-medium leading-5 text-inherit\">see all</span></button>"
+ },
+ {
+  "name": "NEG see all without underline (the d944e57a9 bug)",
+  "where": "AllBlocksContent.tsx:108",
+  "ctx": "<div class=\"bg-canvas font-sans text-foreground\"><div class=\"flex w-[360px] items-center justify-between gap-1\">{X}<span>/</span></div></div>",
+  "old": "<button data-eq-root class=\"inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 underline-offset-4 hover:underline dark:text-neutral-50 h-9 py-2 px-0 font-sans text-sm leading-[1.375rem] text-zinc-600 underline hover:text-zinc-800\">see all</button>",
+  "new": "<button data-eq-root class=\"inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 underline-offset-4 hover:underline dark:text-neutral-50 h-9 py-2 px-0 text-foreground-secondary hover:text-foreground-emphasis\"><span class=\"font-sans text-body font-medium text-inherit\">see all</span></button>"
+ }
+]

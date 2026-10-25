@@ -1,7 +1,7 @@
-UNCOVERED src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:23: ['#7C3BED', '#8b5cf6', '#8B5CF6', 'rgba(1']  | (accent is #7C3BED), #8b5cf6 #8B5CF6 and rgba(124, 58, 237) #7C3AED. */
-UNCOVERED src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:30: ['rgba(1']  | 0 0 30px 8px rgba(124, 58, 237, 0.4);
-UNCOVERED src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:34: ['white']  | 0 0 0 4px white,
-UNCOVERED src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:35: ['#8b5cf6']  | 0 0 0 8px #8b5cf6,
-UNCOVERED src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:36: ['rgba(1']  | 0 0 40px 12px rgba(124, 58, 237, 0.55);
-UNCOVERED src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:135: ['#27272a', '#27272A']  | #27272a #27272A. */
-297 lines with a raw colour; 6 without a TODO(tokens)
+UNCOVERED autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:23: ['#7C3BED', '#8b5cf6', '#8B5CF6', 'rgba(1']  | (accent is #7C3BED), #8b5cf6 #8B5CF6 and rgba(124, 58, 237) #7C3AED. */
+UNCOVERED autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:30: ['rgba(1']  | 0 0 30px 8px rgba(124, 58, 237, 0.4);
+UNCOVERED autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:34: ['white']  | 0 0 0 4px white,
+UNCOVERED autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:35: ['#8b5cf6']  | 0 0 0 8px #8b5cf6,
+UNCOVERED autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:36: ['rgba(1']  | 0 0 40px 12px rgba(124, 58, 237, 0.55);
+UNCOVERED autogpt_platform/frontend/src/app/(platform)/build/components/FlowEditor/tutorial/tutorial.css:135: ['#27272a', '#27272A']  | #27272a #27272A. */
+349 lines with a raw colour; 6 without a TODO(tokens)
