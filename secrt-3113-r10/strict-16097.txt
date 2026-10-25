@@ -1,10 +1,6 @@
 src/components/organisms/Conversation/Conversation.tsx:39:7: "scrollbar-thumb-zinc-300" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
 src/components/organisms/Conversation/Conversation.tsx:70:33: "text-neutral-500" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
 src/components/organisms/Conversation/Conversation.tsx:77:57: "text-neutral-500" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
-src/components/organisms/PromptInput/PromptInput.tsx:387:9: "border-zinc-800" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
-src/components/organisms/PromptInput/PromptInput.tsx:387:9: "hover:border-zinc-900" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
-src/components/organisms/PromptInput/PromptInput.tsx:387:9: "disabled:border-zinc-200" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
-src/components/organisms/PromptInput/PromptInput.tsx:387:9: "disabled:bg-zinc-200" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
 src/components/organisms/Message/Message.tsx:60:7: "group-[.is-user]:bg-neutral-100" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
 src/components/organisms/Message/Message.tsx:60:7: "group-[.is-user]:text-neutral-950" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
 src/components/organisms/Message/Message.tsx:61:7: "group-[.is-assistant]:text-neutral-950" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
@@ -19,5 +15,9 @@ src/components/organisms/Message/components/ButtonGroup.tsx:53:9: "border-neutra
 src/components/organisms/Message/components/ButtonGroup.tsx:53:9: "bg-neutral-100" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
 src/components/organisms/Message/components/ButtonGroup.tsx:53:9: "dark:border-neutral-800" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
 src/components/organisms/Message/components/ButtonGroup.tsx:53:9: "dark:bg-neutral-800" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+src/components/organisms/PromptInput/PromptInput.tsx:387:9: "border-zinc-800" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+src/components/organisms/PromptInput/PromptInput.tsx:387:9: "hover:border-zinc-900" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+src/components/organisms/PromptInput/PromptInput.tsx:387:9: "disabled:border-zinc-200" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
+src/components/organisms/PromptInput/PromptInput.tsx:387:9: "disabled:bg-zinc-200" uses the raw Tailwind palette. Use a theme token, or define one for this color. See docs/engineering/design-system.md. [Error/shadcn(no-raw-colors)]
 
 21 problems

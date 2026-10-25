@@ -1,4 +1,4 @@
-# DS4 strict config (1ee6580dc) on d6adf3739's ButtonGroup.tsx + Message.tsx, linted at a path outside organisms/** (the override that turns no-restyle off)
+# DS4 strict config (1ee6580dc) on df01d8259's ButtonGroup.tsx + Message.tsx (identical to d6adf3739), linted at a path outside organisms/** (the override that turns no-restyle off)
 organisms/Message/components/ButtonGroup.tsx:53:9: "shadow-xs" not allowed on <Text>: owns its effects
 organisms/Message/components/ButtonGroup.tsx:53:9: Use a Text size: . Margin here or gap on the parent (gap-2)
 organisms/Message/components/ButtonGroup.tsx:53:9: "rounded-md" not allowed on <Text>: owns its shape
@@ -14,7 +14,7 @@ organisms/Message/Message.tsx:311:9: "border-none" not allowed on <ButtonGroupTe
 organisms/Message/Message.tsx:311:9: "bg-transparent" not allowed on <ButtonGroupText>: owns its color
 organisms/Message/Message.tsx:311:9: "text-neutral-500" not allowed on <ButtonGroupText>: owns its color
 organisms/Message/Message.tsx:311:9: "shadow-none" not allowed on <ButtonGroupText>: owns its effects
-# base 0d5ac323f, ui/button-group.tsx (8 problems)
+# base dev 44126db0f, ui/button-group.tsx (8 problems)
 ui/button-group.tsx:52:9: "border-neutral-200" raw colour
 ui/button-group.tsx:52:9: "bg-neutral-100" raw colour
 ui/button-group.tsx:52:9: "dark:border-neutral-800" raw colour
