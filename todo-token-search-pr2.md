@@ -1,6 +1,6 @@
-99 hex values named in TODO(tokens) comments in build/** at 316bc1e4d; 76 held by no DS1 colour role; 23 held by a role of another kind (each such TODO says "no fitting role" and names it); 0 contradictions
+100 hex values named in TODO(tokens) comments in build/** at 72b4b1f66; 76 held by no DS1 colour role; 24 held by a role of another kind (each such TODO says "no fitting role" and names it); 0 contradictions
 
-DS1 roles searched: 74 `--color-*` light values (`:root`) in `globals.css` at 316bc1e4d.
+DS1 roles searched: 74 `--color-*` light values (`:root`) in `globals.css` at 72b4b1f66.
 
 | hex | search | roles holding it | TODO says | files |
 | --- | --- | --- | --- | --- |
@@ -57,7 +57,7 @@ DS1 roles searched: 74 `--color-*` light values (`:root`) in `globals.css` at 31
 | #A855F7 | `168 85 247` in `:root` → 0 | (none) | no exact role | 1 |
 | #ADADB3 | `173 173 179` in `:root` → 1 | `foreground-subtle` | no fitting role | 5 |
 | #AE8800 | `174 136 0` in `:root` → 0 | (none) | no exact role | 1 |
-| #B45309 | `180 83 9` in `:root` → 1 | `warning-foreground` | no fitting role | 1 |
+| #B45309 | `180 83 9` in `:root` → 1 | `warning-foreground` | no fitting role | 3 |
 | #B46000 | `180 96 0` in `:root` → 0 | (none) | no exact role | 1 |
 | #B7E2C7 | `183 226 199` in `:root` → 0 | (none) | no exact role | 2 |
 | #B8BFCA | `184 191 202` in `:root` → 0 | (none) | no exact role | 3 |
@@ -102,4 +102,5 @@ DS1 roles searched: 74 `--color-*` light values (`:root`) in `globals.css` at 31
 | #FEF9E6 | `254 249 230` in `:root` → 0 | (none) | no exact role | 1 |
 | #FEFEFE | `254 254 254` in `:root` → 3 | `surface`, `action-foreground`, `node-surface` | no fitting role | 1 |
 | #FFC88A | `255 200 138` in `:root` → 0 | (none) | no exact role | 1 |
+| #FFFBEB | `255 251 235` in `:root` → 1 | `warning-surface` | no fitting role | 1 |
 | #FFFFFF | `255 255 255` in `:root` → 3 | `card`, `popover`, `accent-foreground` | no fitting role | 1 |

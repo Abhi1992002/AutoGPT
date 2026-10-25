@@ -1,4 +1,4 @@
-129 colour swaps (20 distinct) at 316bc1e4d; 0 onto a token whose .dark value differs
+129 colour swaps (20 distinct) at 72b4b1f66; 0 onto a token whose .dark value differs
 
 | old class | new token | uses | `:root` value | `.dark` value | kind | meaning | dark mode |
 | --- | --- | --- | --- | --- | --- | --- | --- |

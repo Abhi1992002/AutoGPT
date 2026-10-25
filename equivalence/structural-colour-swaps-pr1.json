@@ -7,21 +7,9 @@
    "tag": "structural (markup_eq)"
   },
   {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx",
-   "old": "text-zinc-600 hover:text-zinc-800",
-   "new": "text-foreground-secondary hover:text-foreground-emphasis",
-   "tag": "structural (markup_eq)"
-  },
-  {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx",
    "old": "text-zinc-800 hover:text-zinc-600",
    "new": "text-foreground-emphasis hover:text-foreground-secondary",
-   "tag": "structural (markup_eq)"
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntegrationBlocks/IntegrationBlocks.tsx",
-   "old": "text-zinc-800",
-   "new": "text-foreground-emphasis",
    "tag": "structural (markup_eq)"
   },
   {

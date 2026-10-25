@@ -35,7 +35,8 @@ function elements(src: string, f: string) {
     return undefined;
   };
   // The legacy <Button> sets font-medium on itself; children inherit it.
-  const legacyButton = /from "@\/components\/__legacy__\/ui\/button"/.test(src);
+  // ... or the atoms Button in one of its legacy-* variants (dev #16092).
+  const legacyButton = /from "@\/components\/__legacy__\/ui\/button"/.test(src) || /variant=\{?"legacy-/.test(src);
   const stack: string[] = [];
   function visit(n: any) {
     if (ts.isJsxElement(n)) {

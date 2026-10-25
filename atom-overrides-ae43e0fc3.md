@@ -1,96 +1,125 @@
-296 overriding classes on 174 atom elements (base: 230 on 130)
+397 overriding classes on 206 atom elements (base: 369 on 185)
 
 | atom | elements |
 | --- | --- |
-| `<Text>` | 82 |
+| `<Text>` | 88 |
 | `<Icon>` | 60 |
-| `<Button>` | 22 |
+| `<Button>` | 44 |
+| `<BaseInput>` | 4 |
 | `<Separator>` | 4 |
 | `<Alert>` | 2 |
 | `<AccordionItem>` | 1 |
 | `<AccordionTrigger>` | 1 |
-| `<PopoverContent>` | 1 |
 | `<SheetDescription>` | 1 |
+| `<PopoverContent>` | 1 |
 
 | class | uses |
 | --- | --- |
 | `group-disabled:text-foreground-subtle` | 15 |
-| `border` | 9 |
+| `shadow-none` | 11 |
+| `focus:ring-0` | 11 |
+| `dark:text-gray-400` | 10 |
+| `text-gray-500` | 10 |
 | `transition-transform` | 9 |
-| `text-foreground-base` | 8 |
+| `border` | 9 |
 | `text-slate-600` | 8 |
+| `hover:bg-surface-hover` | 8 |
+| `bg-surface-muted` | 8 |
+| `text-foreground-base` | 8 |
+| `rounded-[0.75rem]` | 7 |
+| `active:ring-1` | 7 |
+| `active:ring-zinc-300` | 7 |
 | `rounded-full` | 7 |
-| `text-slate-700` | 6 |
-| `text-zinc-50` | 6 |
 | `text-error` | 6 |
+| `text-slate-700` | 6 |
+| `active:bg-zinc-100` | 6 |
+| `text-zinc-50` | 6 |
 | `text-gray-400` | 6 |
+| `hover:bg-transparent` | 5 |
 | `text-success` | 5 |
-| `dark:text-gray-400` | 5 |
-| `text-gray-500` | 5 |
 | `text-zinc-600` | 5 |
-| `border-border-base` | 4 |
-| `hover:text-slate-900` | 4 |
-| `animate-spin` | 4 |
-| `dark:text-gray-100` | 4 |
-| `text-amber-600` | 4 |
+| `opacity-100` | 4 |
 | `duration-200` | 4 |
 | `ease-out` | 4 |
-| `text-foreground-body` | 4 |
+| `animate-spin` | 4 |
+| `text-amber-600` | 4 |
+| `dark:text-gray-100` | 4 |
+| `text-foreground-emphasis` | 4 |
+| `border-border-base` | 4 |
+| `hover:text-slate-900` | 4 |
+| `border-none` | 4 |
 | `text-warning` | 4 |
-| `rounded` | 4 |
-| `opacity-100` | 4 |
+| `text-gray-700` | 4 |
+| `dark:text-gray-300` | 4 |
+| `text-foreground-body` | 4 |
+| `dark:text-red-400` | 3 |
+| `text-slate-800` | 3 |
+| `text-slate-500` | 3 |
+| `text-blue-700` | 3 |
+| `border-gray-300` | 3 |
+| `bg-gray-50` | 3 |
 | `border-green-400` | 3 |
 | `bg-green-100` | 3 |
 | `hover:border-green-400` | 3 |
 | `hover:bg-green-200` | 3 |
-| `rounded-[0.75rem]` | 3 |
-| `dark:text-red-400` | 3 |
+| `rounded` | 3 |
 | `text-[#E1E1E1]` | 3 |
-| `text-gray-700` | 3 |
-| `dark:text-gray-300` | 3 |
-| `text-blue-700` | 3 |
-| `text-slate-800` | 3 |
-| `border-gray-300` | 3 |
-| `bg-gray-50` | 3 |
-| `text-slate-500` | 3 |
-| `bg-surface-muted` | 2 |
-| `border-none` | 2 |
-| `text-gray-900` | 2 |
-| `bg-zinc-200` | 2 |
-| `hover:bg-warning-surface` | 2 |
+| `rounded-[0.5rem]` | 2 |
+| `bg-transparent` | 2 |
+| `bg-zinc-100` | 2 |
 | `hover:border-transparent` | 2 |
-| `hover:bg-transparent` | 2 |
 | `rounded-xlarge` | 2 |
-| `dark:text-amber-400` | 2 |
-| `text-amber-900` | 2 |
-| `text-gray-600` | 2 |
-| `text-green-500` | 2 |
-| `text-error-foreground` | 2 |
-| `dark:text-gray-500` | 2 |
 | `rounded-[1.25rem]` | 2 |
 | `bg-[#f0f0f0]` | 2 |
+| `text-slate-900` | 2 |
 | `bg-zinc-700` | 2 |
 | `text-action-foreground` | 2 |
 | `drop-shadow` | 2 |
-| `text-slate-900` | 2 |
-| `text-red-500` | 2 |
+| `text-gray-600` | 2 |
 | `rounded-[8px]` | 2 |
+| `rounded-[1.5rem]` | 2 |
+| `text-amber-900` | 2 |
+| `text-green-500` | 2 |
+| `text-error-foreground` | 2 |
+| `dark:text-gray-500` | 2 |
+| `text-red-500` | 2 |
+| `dark:text-amber-400` | 2 |
 | `text-muted-foreground` | 2 |
-| `hover:no-underline` | 1 |
-| `bg-zinc-100` | 1 |
-| `!text-slate-500` | 1 |
-| `hover:text-warning-foreground` | 1 |
+| `font-sans` | 2 |
+| `text-body-lg` | 2 |
+| `font-normal` | 2 |
+| `leading-6` | 2 |
+| `outline-none` | 2 |
+| `placeholder:text-foreground-subtle` | 2 |
+| `focus:shadow-none` | 2 |
+| `focus:outline-none` | 2 |
+| `text-gray-900` | 2 |
+| `bg-zinc-200` | 2 |
+| `transition-opacity` | 1 |
+| `bg-red-500` | 1 |
+| `hover:bg-red-600` | 1 |
+| `opacity-0` | 1 |
+| `hover:bg-amber-50` | 1 |
+| `hover:text-amber-700` | 1 |
 | `text-foreground-subtle` | 1 |
+| `text-amber-800` | 1 |
+| `!text-error` | 1 |
+| `active:bg-surface-muted` | 1 |
+| `border-slate-300` | 1 |
+| `bg-slate-100` | 1 |
+| `hover:text-foreground-secondary` | 1 |
+| `hover:no-underline` | 1 |
+| `border-border-strong` | 1 |
+| `hover:border-violet-500` | 1 |
+| `border-0` | 1 |
+| `bg-violet-700` | 1 |
+| `hover:border` | 1 |
+| `group-hover:text-foreground-secondary` | 1 |
+| `text-accent-strong` | 1 |
+| `!text-slate-500` | 1 |
+| `rounded-2xl` | 1 |
+| `bg-warning-surface` | 1 |
 | `!text-purple-700` | 1 |
-| `dark:bg-slate-700` | 1 |
-| `dark:text-slate-100` | 1 |
-| `dark:hover:bg-slate-800` | 1 |
-| `text-zinc-300` | 1 |
-| `dark:text-amber-300` | 1 |
-| `dark:text-amber-100` | 1 |
-| `text-warning-foreground` | 1 |
-| `rounded-[1rem]` | 1 |
-| `shadow-[0_2px_6px_0_rgba(0,0,0,0.05)]` | 1 |
 | `border-amber-700` | 1 |
 | `bg-amber-600` | 1 |
 | `hover:bg-amber-700` | 1 |
@@ -108,38 +137,27 @@
 | `dark:text-blue-400` | 1 |
 | `dark:text-blue-300` | 1 |
 | `border-warning` | 1 |
+| `hover:bg-warning-surface` | 1 |
 | `text-violet-600` | 1 |
-| `rounded-2xl` | 1 |
-| `bg-warning-surface` | 1 |
-| `dark:text-white` | 1 |
-| `border-gray-100` | 1 |
-| `bg-gray-50/50` | 1 |
-| `dark:border-slate-700` | 1 |
-| `dark:bg-slate-800/50` | 1 |
-| `text-foreground-emphasis` | 1 |
-| `hover:text-foreground-secondary` | 1 |
+| `dark:text-amber-300` | 1 |
 | `rounded-md` | 1 |
 | `bg-yellow-100` | 1 |
 | `text-yellow-800` | 1 |
 | `dark:bg-yellow-900/30` | 1 |
 | `dark:text-yellow-400` | 1 |
-| `text-amber-800` | 1 |
-| `border-slate-300` | 1 |
-| `bg-slate-100` | 1 |
-| `transition-opacity` | 1 |
-| `bg-red-500` | 1 |
-| `hover:bg-red-600` | 1 |
-| `opacity-0` | 1 |
-| `shadow-none` | 1 |
-| `hover:bg-surface-hover` | 1 |
-| `focus:ring-0` | 1 |
-| `active:bg-zinc-100` | 1 |
-| `active:ring-1` | 1 |
-| `active:ring-zinc-300` | 1 |
 | `text-zinc-200` | 1 |
-| `group-hover:text-foreground-secondary` | 1 |
-| `text-accent-strong` | 1 |
-| `!text-error` | 1 |
+| `dark:text-amber-100` | 1 |
+| `text-warning-foreground` | 1 |
+| `text-foreground-secondary` | 1 |
+| `hover:text-foreground-emphasis` | 1 |
+| `underline` | 1 |
+| `dark:text-white` | 1 |
+| `text-zinc-300` | 1 |
+| `rounded-[1rem]` | 1 |
+| `shadow-[0_2px_6px_0_rgba(0,0,0,0.05)]` | 1 |
+| `dark:bg-slate-700` | 1 |
+| `dark:text-slate-100` | 1 |
+| `dark:hover:bg-slate-800` | 1 |
 
 | element | atom | classes it overrides |
 | --- | --- | --- |
@@ -148,7 +166,7 @@
 | `components/BuilderActions/components/CronSchedulerDialog/CronSchedulerDialog.tsx:78` | `<Text>` | `text-amber-800` |
 | `components/BuilderActions/components/RunGraph/RunGraph.tsx:40` | `<Icon>` | `transition-transform` `duration-200` `ease-out` `transition-transform` `duration-200` `ease-out` `transition-transform` `duration-200` `ease-out` |
 | `components/BuilderActions/components/RunGraph/RunGraph.tsx:46` | `<Icon>` | `animate-spin` |
-| `components/BuilderActions/components/RunGraph/RunGraph.tsx:70` | `<Button>` | `text-amber-600` `hover:bg-warning-surface` `hover:text-warning-foreground` |
+| `components/BuilderActions/components/RunGraph/RunGraph.tsx:70` | `<Button>` | `text-amber-600` `hover:bg-amber-50` `hover:text-amber-700` |
 | `components/BuilderActions/components/RunGraph/RunGraph.tsx:74` | `<Icon>` | `transition-transform` `duration-200` `ease-out` |
 | `components/BuilderActions/components/RunInputDialog/RunInputDialog.tsx:84` | `<Text>` | `text-gray-900` |
 | `components/BuilderActions/components/RunInputDialog/RunInputDialog.tsx:108` | `<Text>` | `text-gray-900` |
@@ -266,47 +284,76 @@
 | `components/FlowEditor/nodes/OutputHandler.tsx:194` | `<Icon>` | `transition-transform` |
 | `components/MCPToolDialog.tsx:485` | `<Text>` | `text-gray-500` |
 | `components/MCPToolDialog.tsx:498` | `<Text>` | `text-error-foreground` `dark:text-red-400` |
-| `components/MCPToolDialog.tsx:638` | `<Text>` | `dark:text-white` |
-| `components/MCPToolDialog.tsx:654` | `<Text>` | `text-gray-500` `dark:text-gray-400` |
-| `components/MCPToolDialog.tsx:698` | `<Text>` | `rounded` `border` `border-gray-100` `bg-gray-50/50` `dark:border-slate-700` `dark:bg-slate-800/50` |
-| `components/MCPToolDialog.tsx:798` | `<Icon>` | `transition-transform` |
+| `components/MCPToolDialog.tsx:643` | `<Text>` | `dark:text-white` |
+| `components/MCPToolDialog.tsx:659` | `<Text>` | `text-gray-500` `dark:text-gray-400` |
+| `components/MCPToolDialog.tsx:712` | `<Text>` | `text-gray-500` `dark:text-gray-400` |
+| `components/MCPToolDialog.tsx:720` | `<Text>` | `text-gray-500` `dark:text-gray-400` |
+| `components/MCPToolDialog.tsx:728` | `<Text>` | `text-gray-500` `dark:text-gray-400` |
+| `components/MCPToolDialog.tsx:747` | `<Text>` | `text-gray-700` `dark:text-gray-300` |
+| `components/MCPToolDialog.tsx:763` | `<Text>` | `text-gray-500` `dark:text-gray-400` |
+| `components/MCPToolDialog.tsx:771` | `<Text>` | `text-gray-500` `dark:text-gray-400` |
+| `components/MCPToolDialog.tsx:799` | `<Icon>` | `transition-transform` |
 | `components/MobileWarning/MobileWarning.tsx:28` | `<Icon>` | `text-amber-600` |
 | `components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx:74` | `<Text>` | `rounded-full` `bg-zinc-100` |
-| `components/NewControlPanel/NewBlockMenu/Block.tsx:142` | `<Text>` | `group-disabled:text-foreground-subtle` |
-| `components/NewControlPanel/NewBlockMenu/Block.tsx:157` | `<Text>` | `group-disabled:text-foreground-subtle` |
-| `components/NewControlPanel/NewBlockMenu/Block.tsx:173` | `<Icon>` | `text-zinc-50` |
+| `components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx:112` | `<Button>` | `text-foreground-secondary` `hover:text-foreground-emphasis` |
+| `components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx:120` | `<Text>` | `underline` |
+| `components/NewControlPanel/NewBlockMenu/Block.tsx:126` | `<Button>` | `rounded-[0.75rem]` `bg-surface-muted` `shadow-none` |
+| `components/NewControlPanel/NewBlockMenu/Block.tsx:128` | `<Button>` | `hover:bg-surface-hover` `focus:ring-0` `active:bg-zinc-100` `active:ring-1` `active:ring-zinc-300` |
+| `components/NewControlPanel/NewBlockMenu/Block.tsx:143` | `<Text>` | `group-disabled:text-foreground-subtle` |
+| `components/NewControlPanel/NewBlockMenu/Block.tsx:158` | `<Text>` | `group-disabled:text-foreground-subtle` |
+| `components/NewControlPanel/NewBlockMenu/Block.tsx:174` | `<Icon>` | `text-zinc-50` |
 | `components/NewControlPanel/NewBlockMenu/BlockMenuSearchBar/BlockMenuSearchBar.tsx:35` | `<Icon>` | `text-foreground-body` |
+| `components/NewControlPanel/NewBlockMenu/BlockMenuSearchBar/BlockMenuSearchBar.tsx:49` | `<BaseInput>` | `border-none` `font-sans` `text-body-lg` `font-normal` `leading-6` `text-foreground-emphasis` `shadow-none` `outline-none` |
+| `components/NewControlPanel/NewBlockMenu/BlockMenuSearchBar/BlockMenuSearchBar.tsx:50` | `<BaseInput>` | `placeholder:text-foreground-subtle` `focus:shadow-none` `focus:outline-none` `focus:ring-0` |
+| `components/NewControlPanel/NewBlockMenu/BlockMenuSearchBar/BlockMenuSearchBar.tsx:58` | `<Button>` | `hover:bg-transparent` |
 | `components/NewControlPanel/NewBlockMenu/BlockMenuSearchBar/BlockMenuSearchBar.tsx:62` | `<Icon>` | `text-foreground-body` |
-| `components/NewControlPanel/NewBlockMenu/FilterChip.tsx:44` | `<Text>` | `group-hover:text-foreground-secondary` `group-disabled:text-foreground-subtle` |
-| `components/NewControlPanel/NewBlockMenu/FilterChip.tsx:46` | `<Text>` | `text-zinc-50` |
-| `components/NewControlPanel/NewBlockMenu/FilterChip.tsx:62` | `<Icon>` | `text-accent-strong` |
+| `components/NewControlPanel/NewBlockMenu/FilterChip.tsx:31` | `<Button>` | `rounded-[1.5rem]` `border` `border-border-strong` `bg-transparent` `shadow-none` |
+| `components/NewControlPanel/NewBlockMenu/FilterChip.tsx:33` | `<Button>` | `hover:border-violet-500` `hover:bg-transparent` `focus:ring-0` |
+| `components/NewControlPanel/NewBlockMenu/FilterChip.tsx:35` | `<Button>` | `border-0` `bg-violet-700` `hover:border` |
+| `components/NewControlPanel/NewBlockMenu/FilterChip.tsx:45` | `<Text>` | `group-hover:text-foreground-secondary` `group-disabled:text-foreground-subtle` |
+| `components/NewControlPanel/NewBlockMenu/FilterChip.tsx:47` | `<Text>` | `text-zinc-50` |
+| `components/NewControlPanel/NewBlockMenu/FilterChip.tsx:63` | `<Icon>` | `text-accent-strong` |
 | `components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx:134` | `<Button>` | `text-foreground-emphasis` `hover:text-foreground-secondary` |
 | `components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx:150` | `<Button>` | `rounded-[8px]` |
 | `components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx:159` | `<Button>` | `rounded-[8px]` |
 | `components/NewControlPanel/NewBlockMenu/HorizontalScroll.tsx:90` | `<Icon>` | `rounded-full` `bg-zinc-700` `text-action-foreground` `drop-shadow` |
 | `components/NewControlPanel/NewBlockMenu/HorizontalScroll.tsx:105` | `<Icon>` | `rounded-full` `bg-zinc-700` `text-action-foreground` `drop-shadow` |
-| `components/NewControlPanel/NewBlockMenu/Integration.tsx:55` | `<Text>` | `group-disabled:text-foreground-subtle` |
-| `components/NewControlPanel/NewBlockMenu/Integration.tsx:65` | `<Text>` | `rounded-[1.25rem]` `bg-[#f0f0f0]` `group-disabled:text-foreground-subtle` |
-| `components/NewControlPanel/NewBlockMenu/Integration.tsx:74` | `<Text>` | `group-disabled:text-foreground-subtle` |
+| `components/NewControlPanel/NewBlockMenu/Integration.tsx:31` | `<Button>` | `rounded-[0.75rem]` `bg-surface-muted` `shadow-none` |
+| `components/NewControlPanel/NewBlockMenu/Integration.tsx:33` | `<Button>` | `hover:bg-surface-hover` `focus:ring-0` `active:bg-surface-muted` `active:ring-1` `active:ring-zinc-300` |
+| `components/NewControlPanel/NewBlockMenu/Integration.tsx:56` | `<Text>` | `group-disabled:text-foreground-subtle` |
+| `components/NewControlPanel/NewBlockMenu/Integration.tsx:66` | `<Text>` | `rounded-[1.25rem]` `bg-[#f0f0f0]` `group-disabled:text-foreground-subtle` |
+| `components/NewControlPanel/NewBlockMenu/Integration.tsx:75` | `<Text>` | `group-disabled:text-foreground-subtle` |
+| `components/NewControlPanel/NewBlockMenu/IntegrationBlocks/IntegrationBlocks.tsx:80` | `<Button>` | `text-foreground-emphasis` |
 | `components/NewControlPanel/NewBlockMenu/IntegrationBlocks/IntegrationBlocks.tsx:101` | `<Text>` | `rounded-[1.25rem]` `bg-[#f0f0f0]` `group-disabled:text-foreground-subtle` |
+| `components/NewControlPanel/NewBlockMenu/IntegrationChip.tsx:27` | `<Button>` | `rounded-[0.5rem]` `bg-surface-muted` `shadow-none` |
+| `components/NewControlPanel/NewBlockMenu/IntegrationChip.tsx:29` | `<Button>` | `hover:bg-surface-hover` `focus:ring-0` `active:bg-zinc-100` `active:ring-1` `active:ring-zinc-300` |
 | `components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx:69` | `<Button>` | `rounded-[0.75rem]` `bg-surface-muted` `shadow-none` |
 | `components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx:71` | `<Button>` | `hover:bg-surface-hover` `focus:ring-0` `active:bg-zinc-100` `active:ring-1` `active:ring-zinc-300` |
 | `components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx:95` | `<Text>` | `group-disabled:text-foreground-subtle` |
 | `components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx:108` | `<Text>` | `group-disabled:text-foreground-subtle` |
-| `components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx:74` | `<Text>` | `group-disabled:text-foreground-subtle` |
-| `components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx:84` | `<Text>` | `group-disabled:text-foreground-subtle` |
-| `components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx:97` | `<Text>` | `group-disabled:text-foreground-subtle` |
-| `components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx:113` | `<Text>` | `text-blue-700` |
-| `components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx:120` | `<Icon>` | `text-blue-700` |
-| `components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx:136` | `<Icon>` | `text-zinc-50` |
-| `components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx:140` | `<Icon>` | `animate-spin` |
+| `components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx:49` | `<Button>` | `rounded-[0.75rem]` `bg-surface-muted` `shadow-none` |
+| `components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx:51` | `<Button>` | `hover:bg-surface-hover` `focus:ring-0` `active:bg-zinc-100` `active:ring-1` `active:ring-zinc-300` |
+| `components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx:75` | `<Text>` | `group-disabled:text-foreground-subtle` |
+| `components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx:85` | `<Text>` | `group-disabled:text-foreground-subtle` |
+| `components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx:98` | `<Text>` | `group-disabled:text-foreground-subtle` |
+| `components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx:114` | `<Text>` | `text-blue-700` |
+| `components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx:121` | `<Icon>` | `text-blue-700` |
+| `components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx:137` | `<Icon>` | `text-zinc-50` |
+| `components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx:141` | `<Icon>` | `animate-spin` |
+| `components/NewControlPanel/NewBlockMenu/MenuItem.tsx:28` | `<Button>` | `rounded-[0.5rem]` `bg-transparent` `shadow-none` |
+| `components/NewControlPanel/NewBlockMenu/MenuItem.tsx:29` | `<Button>` | `hover:bg-surface-hover` `focus:ring-0` |
+| `components/NewControlPanel/NewBlockMenu/MenuItem.tsx:31` | `<Button>` | `bg-zinc-100` |
 | `components/NewControlPanel/NewBlockMenu/NoSearchResult.tsx:11` | `<Icon>` | `text-foreground-subtle` |
-| `components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx:68` | `<Text>` | `group-disabled:text-foreground-subtle` |
-| `components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx:80` | `<Text>` | `group-disabled:text-foreground-subtle` |
-| `components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx:95` | `<Text>` | `group-disabled:text-foreground-subtle` |
-| `components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx:105` | `<Text>` | `rounded-[0.75rem]` `bg-zinc-200` |
-| `components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx:121` | `<Icon>` | `animate-spin` `text-zinc-50` |
-| `components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx:127` | `<Icon>` | `text-zinc-50` |
+| `components/NewControlPanel/NewBlockMenu/SearchHistoryChip.tsx:25` | `<Button>` | `rounded-[1.5rem]` `bg-surface-muted` `shadow-none` |
+| `components/NewControlPanel/NewBlockMenu/SearchHistoryChip.tsx:27` | `<Button>` | `hover:bg-surface-hover` `focus:ring-0` `active:bg-zinc-100` `active:ring-1` `active:ring-zinc-300` |
+| `components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx:43` | `<Button>` | `rounded-[0.75rem]` `bg-surface-muted` `shadow-none` |
+| `components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx:45` | `<Button>` | `hover:bg-surface-hover` `focus:ring-0` `active:bg-zinc-100` `active:ring-1` `active:ring-zinc-300` |
+| `components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx:69` | `<Text>` | `group-disabled:text-foreground-subtle` |
+| `components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx:81` | `<Text>` | `group-disabled:text-foreground-subtle` |
+| `components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx:96` | `<Text>` | `group-disabled:text-foreground-subtle` |
+| `components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx:106` | `<Text>` | `rounded-[0.75rem]` `bg-zinc-200` |
+| `components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx:122` | `<Icon>` | `animate-spin` `text-zinc-50` |
+| `components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx:128` | `<Icon>` | `text-zinc-50` |
 | `components/NewControlPanel/NewControlPanel.tsx:34` | `<Separator>` | `text-[#E1E1E1]` |
 | `components/NewControlPanel/NewControlPanel.tsx:39` | `<Separator>` | `text-[#E1E1E1]` |
 | `components/NewControlPanel/NewControlPanel.tsx:44` | `<Separator>` | `text-[#E1E1E1]` |
@@ -316,4 +363,7 @@
 | `components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:126` | `<Text>` | `rounded-[0.75rem]` `bg-zinc-200` |
 | `components/NewControlPanel/NewSearchGraph/GraphMenuContent/GraphContent.tsx:150` | `<Icon>` | `text-zinc-50` |
 | `components/NewControlPanel/NewSearchGraph/GraphMenuSearchBar/GraphMenuSearchBar.tsx:36` | `<Icon>` | `text-foreground-body` |
+| `components/NewControlPanel/NewSearchGraph/GraphMenuSearchBar/GraphMenuSearchBar.tsx:48` | `<BaseInput>` | `border-none` `font-sans` `text-body-lg` `font-normal` `leading-6` `text-foreground-emphasis` `shadow-none` `outline-none` |
+| `components/NewControlPanel/NewSearchGraph/GraphMenuSearchBar/GraphMenuSearchBar.tsx:49` | `<BaseInput>` | `placeholder:text-foreground-subtle` `focus:shadow-none` `focus:outline-none` `focus:ring-0` |
+| `components/NewControlPanel/NewSearchGraph/GraphMenuSearchBar/GraphMenuSearchBar.tsx:58` | `<Button>` | `hover:bg-transparent` |
 | `components/NewControlPanel/NewSearchGraph/GraphMenuSearchBar/GraphMenuSearchBar.tsx:62` | `<Icon>` | `text-foreground-body` |

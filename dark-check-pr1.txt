@@ -1,2 +1,2 @@
-$ git diff 85d7643d5...27ab38e75 | grep -E '^-.*dark:'  -> 46 lines, 56 dark: classes (29 distinct)
-each on an added code line: 56 of 56; missing: none
+$ git diff e19dee473...ae43e0fc3 | grep -E '^-.*dark:'  -> 36 lines, 44 dark: classes (27 distinct)
+each on an added code line: 44 of 44; missing: none

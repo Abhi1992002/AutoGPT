@@ -1,4 +1,4 @@
-29 cases, 2040 measurements (root box, per text run: boxes, type and colour, decorations; svg boxes; 2 widths x 3 states): 0 failing
+29 cases, 1824 measurements (root box, per text run: boxes, type and colour, decorations; svg boxes; 2 widths x 3 states): 0 failing
 
 | case | where | text runs | result |
 | --- | --- | --- | --- |
@@ -6,16 +6,15 @@
 | MCP: enter a credential manually | `MCPToolDialog.tsx:433` | 1 | identical |
 | MCP: auth scheme label (MCPAuthSchemeField) | `MCPToolDialog.tsx:446` | 2 | identical |
 | MCP: token label (legacy Label kept) | `MCPToolDialog.tsx:461` | 1 | identical |
-| MCP: parameter table | `MCPToolDialog.tsx:685` | 10 | identical |
 | MCP: show details toggle | `MCPToolDialog.tsx:775` | 1 | identical |
 | SubAgentUpdate: Update (compatible) | `SubAgentUpdateFeature.tsx:128` | 1 | identical |
 | SubAgentUpdate: Update (incompatible) | `SubAgentUpdateFeature.tsx:128` | 1 | identical |
 | ViewMoreData: View More | `ViewMoreData.tsx:60` | 1 | identical |
 | RunInputDialog: Manual Run | `RunInputDialog.tsx:148` | 1 | identical |
 | RunInputDialog: Schedule Run | `RunInputDialog.tsx:165` | 1 | identical |
-| Block menu: see all (legacy Button) | `AllBlocksContent.tsx:108` | 1 | identical |
+| Block menu: see all (legacy-link Button) | `AllBlocksContent.tsx:110` | 1 | identical |
 | FilterSheet: More/Less (atom Button) | `FilterSheet.tsx:131` | 1 | identical |
-| IntegrationBlocks: Integrations (legacy Button) | `IntegrationBlocks.tsx:80` | 1 | identical |
+| IntegrationBlocks: Integrations (legacy-link Button) | `IntegrationBlocks.tsx:80` | 1 | identical |
 | AgentOutputs: sheet title and description | `AgentOutputs.tsx:115` | 3 | identical |
 | AgentOutputs: output group name and description (legacy Label kept) | `AgentOutputs.tsx:150/162` | 2 | identical |
 | ResolutionModeBar: tooltip title and list | `ResolutionModeBar.tsx:27-131` | 9 | identical |
@@ -31,3 +30,4 @@
 | NodeCost: free row | `NodeCost.tsx:133` | 1 | identical |
 | NodeCost: amount and suffix row | `NodeCost.tsx:168` | 2 | identical |
 | Block menu: search match in a title and a description | `helpers.tsx:22 (Block, IntergrationBlock, MarketplaceAgentBlock, UGCAgentBlock)` | 6 | identical |
+| ContentRenderer: short text output | `ContentRenderer.tsx:60` | 1 | identical |

@@ -165,7 +165,6 @@
   {
    "file": "<Text variant=\"caption-sm-mono-inherit\"> vs <Text variant=\"small\" className=\"font-mono text-caption-sm leading-inherit\">",
    "old": "font-normal text-foreground-base font-mono text-caption-sm leading-inherit",
-   "new": "font-mono text-caption-sm font-normal leading-inherit text-foreground-base",
    "tag": null
   },
   {

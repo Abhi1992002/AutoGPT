@@ -10,7 +10,11 @@ const D = process.cwd();
 const { cn } = await import(join(D, "src/lib/utils.ts"));
 const { variants, tones } = await import(join(D, "src/components/atoms/Text/helpers.ts"));
 const { extendedButtonVariants } = await import(join(D, "src/components/atoms/Button/helpers.ts"));
-const { buttonVariants } = await import(join(D, "src/components/__legacy__/ui/button.tsx"));
+const { legacyButtonVariants } = await import(join(D, "src/components/atoms/Button/helpers.ts"));
+// The base's own Text strings (the checkout at wt-base), for the old side.
+const DEVH = await import("/home/vercel-sandbox/wt-base/autogpt_platform/frontend/src/components/atoms/Text/helpers.ts");
+const TD = (v: string, tone?: string, cls?: string) => cn(DEVH.variants[v], tone ? DEVH.tones[tone] : undefined, cls);
+const buttonVariants = (o: { variant?: string; className?: string }) => legacyButtonVariants({ variant: o.variant ?? "legacy-default", className: o.className });
 const T = (v: string, tone?: string, cls?: string) => cn(variants[v], tone ? tones[tone] : undefined, cls);
 const tag = (t: string, cls: string, inner: string, root = false, attrs = "") => `<${t}${root ? " data-eq-root" : ""}${cls ? ` class="${cls}"` : ""}${attrs}>${inner}</${t}>`;
 const atomBtn = (o: { variant?: string; size?: string; className?: string }) => cn(extendedButtonVariants(o));
@@ -28,16 +32,16 @@ add("chat error: title, copy, Retry", "BuilderChatPanel.tsx:84", BODY(`<div clas
 // 2-4. MCPToolDialog manual credential
 const dlg = (x: string) => BODY(`<div class="w-[512px] bg-surface p-6"><div class="flex flex-col gap-4 py-2">${x}</div></div>`);
 add("MCP: enter a credential manually", "MCPToolDialog.tsx:433", dlg("{X}"),
-  tag("button", "text-xs text-gray-500 underline hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200", "or enter an API credential manually", true),
+  tag("button", "flex justify-center text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200", tag("span", TD("small-tight", "inherit", "underline"), "or enter an API credential manually"), true),
   tag("button", "text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200", tag("span", T("small-tight-underline", "inherit", "block"), "or enter an API credential manually"), true));
-const selOld = `<select class="h-10 rounded-md border border-input bg-background px-3 text-sm"><option>API token (Bearer)</option></select>`;
+const selOld = `<select class="h-10 rounded-md border border-input bg-background px-3 text-body leading-5"><option>API token (Bearer)</option></select>`;
 const selNew = `<select class="h-10 rounded-md border border-input bg-background px-3 text-body leading-5"><option>API token (Bearer)</option></select>`;
 add("MCP: auth scheme label (MCPAuthSchemeField)", "MCPToolDialog.tsx:446", dlg(`<div class="flex flex-col gap-2">{X}</div>`),
-  tag("div", "flex flex-col gap-2", tag("label", "text-sm font-medium", "Authentication type") + selOld, true),
+  tag("div", "flex flex-col gap-2", tag("label", "text-body font-medium leading-5", "Authentication type") + selOld, true),
   tag("div", "flex flex-col gap-2", tag("label", T("body-medium-tight", "inherit"), "Authentication type") + selNew, true));
 const legacyLabel = "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70";
 add("MCP: token label (legacy Label kept)", "MCPToolDialog.tsx:461", dlg(`<div class="flex flex-col gap-2">{X}<input class="h-10"></div>`),
-  tag("label", cn(legacyLabel, "text-sm"), "API token", true),
+  tag("label", cn(legacyLabel), tag("span", TD("body-medium-tight", "inherit"), "API token"), true),
   tag("label", cn(legacyLabel), tag("span", T("body-medium-tight", "inherit"), "API token"), true));
 
 // 5-6. MCP tool card: parameter table and the details toggle
@@ -47,13 +51,10 @@ const rows = (tdName: (n: string, req: boolean) => string) => ["query", "limit"]
 const star = tag("span", "ml-0.5 text-red-400", "*");
 const boxCls = "mx-3 mb-2 rounded border border-gray-100 bg-gray-50/50 dark:border-slate-700 dark:bg-slate-800/50";
 const head = (f: (c: string) => string) => tag("thead", "", tag("tr", "border-b border-gray-100", ["Parameter", "Type", "Description"].map(f).join("")));
-add("MCP: parameter table", "MCPToolDialog.tsx:685", cardCtx("{X}"),
-  tag("div", boxCls, tag("table", "w-full text-xs", head((c) => tag("th", "px-2 py-1 text-left font-medium text-gray-500", c)) + tag("tbody", "", rows((n, r) => tag("td", "px-2 py-1 font-mono text-[11px] text-gray-700", n + (r ? star : ""))))), true),
-  tag("div", T("small-tight", "inherit", boxCls), tag("table", "w-full", head((c) => tag("th", "px-2 py-1 text-left text-gray-500", tag("span", T("small-medium-tight", "inherit"), c))) + tag("tbody", "", rows((n, r) => tag("td", "px-2 py-1 text-gray-700", tag("span", T("caption-sm-mono-inherit", "inherit", "block"), n + (r ? star : "")))))), true));
 const tgl = "flex w-full items-center justify-center gap-1 border-t border-gray-100 py-1.5";
 const tglC = "text-gray-400 hover:text-gray-600 dark:border-slate-700 dark:text-gray-500 dark:hover:text-gray-300";
 add("MCP: show details toggle", "MCPToolDialog.tsx:775", cardCtx("{X}"),
-  tag("button", `${tgl} text-[10px] ${tglC}`, "Show details" + ICON("h-3 w-3 transition-transform"), true, ' type="button"'),
+  tag("button", `${tgl} ${tglC}`, tag("span", TD("tiny-inherit", "inherit"), "Show details") + ICON("h-3 w-3 transition-transform"), true, ' type="button"'),
   tag("button", `${tgl} ${tglC}`, tag("span", T("tiny-inherit", "inherit"), "Show details") + ICON("h-3 w-3 transition-transform"), true, ' type="button"'));
 
 // 7-8. Atom Buttons whose type override moved onto <Text>
@@ -77,14 +78,14 @@ for (const [name, where, copy] of [["RunInputDialog: Manual Run", "RunInputDialo
 // variant only underlines on hover; FilterSheet uses the atom's, which always
 // underlines. The atom wraps children in a display:contents label span.
 const atomLink = (c: string) => cn(extendedButtonVariants({ variant: "link", className: c }));
-const legacyLink = (c: string) => cn(buttonVariants({ variant: "link", className: c }));
+const legacyLink = (c: string) => cn(legacyButtonVariants({ variant: "legacy-link", className: c }));
 for (const [name, where, mk, wrap, o, n, copy] of [
-  ["Block menu: see all (legacy Button)", "AllBlocksContent.tsx:108", legacyLink, false, "px-0 font-sans text-sm leading-[1.375rem] text-zinc-600 underline hover:text-zinc-800", "px-0 text-foreground-secondary underline hover:text-foreground-emphasis", "see all"],
+  ["Block menu: see all (legacy-link Button)", "AllBlocksContent.tsx:110", legacyLink, false, "px-0 text-foreground-secondary hover:text-foreground-emphasis", "px-0 text-foreground-secondary hover:text-foreground-emphasis", "see all"],
   ["FilterSheet: More/Less (atom Button)", "FilterSheet.tsx:131", atomLink, true, "m-0 p-0 font-sans text-sm font-medium leading-[1.375rem] text-zinc-800 underline hover:text-zinc-600", "m-0 p-0 text-foreground-emphasis hover:text-foreground-secondary", "More"],
-  ["IntegrationBlocks: Integrations (legacy Button)", "IntegrationBlocks.tsx:80", legacyLink, false, "p-0 font-sans text-sm font-medium leading-[1.375rem] text-zinc-800", "p-0 text-foreground-emphasis", "Integrations"],
+  ["IntegrationBlocks: Integrations (legacy-link Button)", "IntegrationBlocks.tsx:80", legacyLink, false, "p-0 text-foreground-emphasis", "p-0 text-foreground-emphasis", "Integrations"],
 ] as [string, string, (c: string) => string, boolean, string, string, string][]) add(name, where, BODY(`<div class="flex w-[360px] items-center justify-between gap-1">{X}<span>/</span></div>`),
-  tag("button", mk(o), wrap ? lbl(copy) : copy, true),
-  tag("button", mk(n), wrap ? lbl(tag("span", T("body-medium", "inherit"), copy)) : tag("span", T("body-medium", "inherit"), copy), true));
+  tag("button", mk(o), wrap ? lbl(copy) : tag("span", TD("body-medium", "inherit", name.startsWith("Block menu: see all") ? "underline" : undefined), copy), true),
+  tag("button", mk(n), wrap ? lbl(tag("span", T("body-medium", "inherit"), copy)) : tag("span", T("body-medium", "inherit", name.startsWith("Block menu: see all") ? "underline" : undefined), copy), true));
 
 // 9. AgentOutputs sheet header and group labels
 const sheetTitle = "text-lg font-semibold text-neutral-950 dark:text-neutral-50";
@@ -119,12 +120,12 @@ const sec = "rounded-md border border-gray-200 p-3 dark:border-gray-700";
 add("IncompatibleUpdateDialog: section titles", "IncompatibleUpdateDialog.tsx:192/308", BODY(`<div class="w-[560px] bg-surface p-6"><div class="space-y-4">{X}</div></div>`),
   tag("div", "", tag("div", sec, tag("span", "font-medium", "Input Changes") + tag("div", "mt-2", "body")) + tag("div", sec, tag("div", "flex items-center gap-2", ICON("h-4 w-4") + tag("span", "font-medium", "New required inputs"))), true),
   tag("div", "", tag("div", sec, tag("span", T("large-medium-tight", "inherit"), "Input Changes") + tag("div", "mt-2", "body")) + tag("div", sec, tag("div", "flex items-center gap-2", ICON("h-4 w-4") + tag("span", T("large-medium-tight", "inherit"), "New required inputs"))), true));
-const metaOld = tag("div", "flex flex-1 flex-col items-start gap-0.5", tag("span", "line-clamp-1 font-sans text-sm font-medium leading-[1.375rem] text-zinc-800", "Agent title") + tag("div", "flex items-center space-x-2.5", tag("span", "truncate font-sans text-xs font-normal leading-5 text-zinc-500", "By someone") + tag("span", "font-sans text-zinc-400", "•") + tag("span", "truncate font-sans text-xs font-normal leading-5 text-zinc-500", "12 runs")));
-const metaNew = tag("div", "flex flex-1 flex-col items-start gap-0.5", tag("span", T("body-medium", "emphasis", "line-clamp-1"), "Agent title") + tag("div", "flex items-center space-x-2.5", tag("span", T("small-loose", "muted", "truncate"), "By someone") + tag("span", T("body-medium-tight", "subtle"), "•") + tag("span", T("small-loose", "muted", "truncate"), "12 runs")));
-const lb = (bg: string) => cn(buttonVariants({}), `group flex h-[4.375rem] w-full min-w-[7.5rem] items-center justify-start gap-3 whitespace-normal rounded-[0.75rem] ${bg} p-[0.625rem] pr-[0.875rem] text-start shadow-none`);
+const metaOld = tag("div", "flex flex-1 flex-col items-start gap-0.5", tag("span", TD("body-medium", "emphasis", "line-clamp-1 group-disabled:text-foreground-subtle"), "Agent title") + tag("div", "flex items-center space-x-2.5", tag("span", TD("small-loose", "muted", "truncate group-disabled:text-foreground-subtle"), "By someone") + tag("span", "font-sans text-zinc-400", "•") + tag("span", TD("small-loose", "muted", "truncate group-disabled:text-foreground-subtle"), "12 runs")));
+const metaNew = tag("div", "flex flex-1 flex-col items-start gap-0.5", tag("span", T("body-medium", "emphasis", "line-clamp-1 group-disabled:text-foreground-subtle"), "Agent title") + tag("div", "flex items-center space-x-2.5", tag("span", T("small-loose", "muted", "truncate group-disabled:text-foreground-subtle"), "By someone") + tag("span", T("body-medium-tight", "subtle"), "•") + tag("span", T("small-loose", "muted", "truncate group-disabled:text-foreground-subtle"), "12 runs")));
+const lb = (bg: string, hov: string) => cn(legacyButtonVariants({ variant: "legacy-default", className: cn(`group flex h-[4.375rem] w-full min-w-[7.5rem] items-center justify-start gap-3 whitespace-normal rounded-[0.75rem] ${bg} p-[0.625rem] pr-[0.875rem] text-start shadow-none`, `hover:cursor-default ${hov} focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300 disabled:pointer-events-none`) }));
 add("Block menu: • separators", "MarketplaceAgentBlock.tsx:89/101, UGCAgentBlock.tsx:87", BODY(`<div class="w-[400px]">{X}</div>`),
-  tag("button", lb("bg-zinc-50"), metaOld, true),
-  tag("button", lb("bg-surface-muted"), metaNew, true));
+  tag("button", lb("bg-zinc-50", "hover:bg-zinc-100"), metaOld, true),
+  tag("button", lb("bg-surface-muted", "hover:bg-surface-hover"), metaNew, true));
 // 13. Links and the search match: decoration stays on the owning element, the
 // copy moves into a <Text> matching the sentence around it. NodeCost's flex
 // rows lose type that styles no text of their own. Dev's own Text variants.
@@ -153,7 +154,12 @@ add("NodeCost: amount and suffix row", "NodeCost.tsx:168", nodeHead("{X}"),
 const matchOld = (c: string) => `Calcu${tag("mark", "bg-transparent font-bold", "lat")}or ${c}`;
 const matchNew = (v: string, c: string) => `Calcu${tag("mark", "bg-transparent", tag("span", T(v, "inherit"), "lat"))}or ${c}`;
 add("Block menu: search match in a title and a description", "helpers.tsx:22 (Block, IntergrationBlock, MarketplaceAgentBlock, UGCAgentBlock)", BODY(`<div class="w-[400px]"><div class="flex flex-1 flex-col items-start gap-0.5">{X}</div></div>`),
-  tag("div", "", tag("span", "line-clamp-1 font-sans text-sm font-medium leading-[1.375rem] text-zinc-800", matchOld("block")) + tag("span", "line-clamp-1 font-sans text-xs font-normal leading-5 text-zinc-500", matchOld("adds two numbers")), true),
+  tag("div", "", tag("span", TD("body-medium", "emphasis", "line-clamp-1"), matchOld("block")) + tag("span", TD("small-loose", "muted", "line-clamp-1"), matchOld("adds two numbers")), true),
   tag("div", "", tag("span", T("body-medium", "emphasis", "line-clamp-1"), matchNew("body-bold", "block")) + tag("span", T("small-loose", "muted", "line-clamp-1"), matchNew("small-bold-loose", "adds two numbers")), true));
+// 14. ContentRenderer's short text output: the wrapper's [&>*] size override
+// is gone where its only child is a <Text variant="small-tight">.
+add("ContentRenderer: short text output", "ContentRenderer.tsx:60", BODY(`<div class="w-[300px] p-2">{X}</div>`),
+  tag("div", "overflow-x-auto [&>*]:rounded-xlarge [&>*]:!text-xs", tag("div", "break-words bg-zinc-50 p-3 text-xs", "{&quot;result&quot;: 42, &quot;status&quot;: &quot;ok&quot;}"), true),
+  tag("div", "overflow-x-auto [&>*]:rounded-xlarge", tag("div", T("small-tight", "inherit", "break-words bg-surface-muted p-3"), "{&quot;result&quot;: 42, &quot;status&quot;: &quot;ok&quot;}"), true));
 writeFileSync(process.argv[2], JSON.stringify(cases, null, 1));
 console.log(cases.length, "cases");

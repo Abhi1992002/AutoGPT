@@ -3,11 +3,11 @@ build/components/BuilderChatPanel/components/NoModelNotice.tsx:27 <a> className:
 build/components/FlowEditor/Flow/components/TriggerAgentBanner.tsx:38 <Link> className: underline
 build/components/FlowEditor/nodes/CustomNode/components/NodeHeader.tsx:68 <input> className: font-sans text-body-lg font-semibold leading-6
 build/components/FlowEditor/nodes/CustomNode/components/NodeOutput/NodeOutput.tsx:37 <AccordionTrigger> className: hover:no-underline
+build/components/FlowEditor/nodes/CustomNode/components/NodeOutput/components/ContentRenderer.tsx:53 <div> className: [&>*]:!text-caption [&>*]:!leading-4
 build/components/FlowEditor/nodes/CustomNode/components/WebhookDisclaimer.tsx:37 <Link> className: underline
-build/components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx:110 <Button> className: underline
-build/components/NewControlPanel/NewBlockMenu/BlockMenuSearchBar/BlockMenuSearchBar.tsx:39 <Input> className: font-sans text-body-lg font-normal leading-6
-build/components/NewControlPanel/NewSearchGraph/GraphMenuSearchBar/GraphMenuSearchBar.tsx:40 <Input> className: font-sans text-body-lg font-normal leading-6
+build/components/NewControlPanel/NewBlockMenu/BlockMenuSearchBar/BlockMenuSearchBar.tsx:39 <BaseInput> className: font-sans text-body-lg font-normal leading-6
+build/components/NewControlPanel/NewSearchGraph/GraphMenuSearchBar/GraphMenuSearchBar.tsx:40 <BaseInput> className: font-sans text-body-lg font-normal leading-6
 build/components/MCPToolDialog.tsx:452 <MCPAuthSchemeField> selectClassName: text-body leading-5
-build/components/MCPToolDialog.tsx:643 <Badge> className: text-tiny leading-inherit
-build/components/MCPToolDialog.tsx:664 <Badge> className: text-tiny font-normal leading-inherit
-build/components/MCPToolDialog.tsx:681 <Badge> className: text-tiny font-normal leading-inherit
+build/components/MCPToolDialog.tsx:648 <Badge> className: text-tiny leading-inherit
+build/components/MCPToolDialog.tsx:669 <Badge> className: text-tiny font-normal leading-inherit
+build/components/MCPToolDialog.tsx:686 <Badge> className: text-tiny font-normal leading-inherit

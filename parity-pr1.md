@@ -34,10 +34,10 @@
 | `components/FlowEditor/nodes/CustomNode/helpers.ts` | same (4) | same (0 elements) | same |
 | `components/FlowEditor/nodes/OutputHandler.tsx` | same (1) | same (19 elements) | same |
 | `components/FlowEditor/nodes/helpers.ts` | same (4) | same (0 elements) | same |
-| `components/MCPToolDialog.tsx` | same (4) | same (50 elements, plus 7 new `<Text>` copy wrappers (<span>, <span>, <span>, <span>, <span>, <span>, <span>) with no other attributes) | same |
+| `components/MCPToolDialog.tsx` | same (4) | same (53 elements) | same |
 | `components/MobileWarning/MobileWarning.tsx` | same (1) | same (8 elements) | same |
 | `components/NewControlPanel/ControlPanelButton.tsx` | same (2) | same (1 elements) | same |
-| `components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx` | same (1) | same (16 elements, plus 1 new `<Text>` copy wrapper (<span>) with no other attributes) | same |
+| `components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx` | same (1) | same (17 elements) | same |
 | `components/NewControlPanel/NewBlockMenu/Block.tsx` | same (2) | same (12 elements) | same |
 | `components/NewControlPanel/NewBlockMenu/BlockMenu/BlockMenu.tsx` | same (1) | same (9 elements) | same |
 | `components/NewControlPanel/NewBlockMenu/BlockMenuContent/BlockMenuContent.tsx` | same (1) | same (5 elements) | same |
@@ -48,7 +48,7 @@
 | `components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx` | same (1) | same (25 elements, plus 1 new `<Text>` copy wrapper (<span>) with no other attributes) | same |
 | `components/NewControlPanel/NewBlockMenu/HorizontalScroll.tsx` | same (2) | same (9 elements) | same |
 | `components/NewControlPanel/NewBlockMenu/Integration.tsx` | same (3) | same (15 elements) | same |
-| `components/NewControlPanel/NewBlockMenu/IntegrationBlocks/IntegrationBlocks.tsx` | same (1) | same (16 elements, plus 1 new `<Text>` copy wrapper (<span>) with no other attributes) | same |
+| `components/NewControlPanel/NewBlockMenu/IntegrationBlocks/IntegrationBlocks.tsx` | same (1) | same (17 elements) | same |
 | `components/NewControlPanel/NewBlockMenu/IntegrationChip.tsx` | same (3) | same (7 elements) | same |
 | `components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx` | same (3) | same (14 elements) | same |
 | `components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx` | same (3) | same (24 elements) | same |

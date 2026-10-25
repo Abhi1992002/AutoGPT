@@ -45,29 +45,6 @@
    "why": "the cost row's flex container lost type that styled no text of its own (its copy is all <Text>); markup cases 'NodeCost: free row' and 'NodeCost: amount and suffix row'"
   },
   {
-   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": "text-sm font-medium",
-   "new": "body-medium-tight",
-   "tag": "MCPAuthSchemeField",
-   "variant": null,
-   "why": "MCPAuthSchemeField's dev labelClassName paired with the labelVariant that replaced it; markup case 'MCP: auth scheme label (MCPAuthSchemeField)'"
-  },
-  {
-   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": "text-sm",
-   "new": "body-medium-tight",
-   "tag": "MCPAuthSchemeField",
-   "variant": null,
-   "why": "the token Label's dev className paired with the variant of the <Text> it now wraps; markup case 'MCP: token label (legacy Label kept)'"
-  },
-  {
-   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": "w-full text-xs",
-   "new": "w-full",
-   "tag": "table",
-   "why": "the table's type moved to the <Text variant=\"small-tight\" as=\"div\"> around it; markup case 'MCP: parameter table'"
-  },
-  {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/FilterSheet/FilterSheet.tsx",
    "old": "font-sans text-sm leading-[1.375rem] text-zinc-600",
    "new": "m-0 p-0 text-foreground-emphasis hover:text-foreground-secondary",
@@ -82,6 +59,30 @@
    "tag": "Text",
    "variant": "body-medium",
    "why": "the More/Less link's dev string paired with the variant of the <Text> it now wraps; markup case 'FilterSheet: More/Less'"
+  },
+  {
+   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
+   "old": "flex justify-center text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200",
+   "new": "text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200",
+   "tag": "button",
+   "why": "the credential link's button against dev's #16092 version, which centres an inline <Text className=\"underline\">; here the copy is a block <Text variant=\"small-tight-underline\">; markup case 'MCP: enter a credential manually'"
+  },
+  {
+   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
+   "old": "text-body font-medium leading-5",
+   "new": "body-medium-tight",
+   "tag": "MCPAuthSchemeField",
+   "variant": null,
+   "why": "dev's labelClassName paired with the labelVariant that replaced it; markup case 'MCP: auth scheme label (MCPAuthSchemeField)'"
+  },
+  {
+   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
+   "old": "font-sans text-caption font-normal leading-4 text-inherit underline",
+   "new": "font-sans text-caption font-normal leading-4 underline text-inherit block",
+   "tag": "Text-merged",
+   "variant": "small-tight-underline",
+   "line": 438,
+   "why": "the same credential link's <Text>: dev's inline span in a flex button against this block span; markup case 'MCP: enter a credential manually'"
   }
  ]
 }

@@ -15,11 +15,14 @@ DROP = {
   ("NoModelNotice.tsx", "font-medium underline underline-offset-2", "underline underline-offset-2"): "the link keeps its underline; its weight moved into the <Text variant=\"body-medium-tight\"> inside it; markup case 'NoModelNotice: setup guide link'",
   ("MCPToolDialog.tsx", "text-sm font-medium", "body-medium-tight"): "MCPAuthSchemeField's dev labelClassName paired with the labelVariant that replaced it; markup case 'MCP: auth scheme label (MCPAuthSchemeField)'",
   ("MCPToolDialog.tsx", "text-sm", "body-medium-tight"): "the token Label's dev className paired with the variant of the <Text> it now wraps; markup case 'MCP: token label (legacy Label kept)'",
+  ("MCPToolDialog.tsx", "flex justify-center text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200", "text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"): "the credential link's button against dev's #16092 version, which centres an inline <Text className=\"underline\">; here the copy is a block <Text variant=\"small-tight-underline\">; markup case 'MCP: enter a credential manually'",
+  ("MCPToolDialog.tsx", "font-sans text-caption font-normal leading-4 text-inherit underline", "font-sans text-caption font-normal leading-4 underline text-inherit block"): "the same credential link's <Text>: dev's inline span in a flex button against this block span; markup case 'MCP: enter a credential manually'",
+  ("MCPToolDialog.tsx", "text-body font-medium leading-5", "body-medium-tight"): "dev's labelClassName paired with the labelVariant that replaced it; markup case 'MCP: auth scheme label (MCPAuthSchemeField)'",
 }
 d = json.load(open(sys.argv[1])); keep, out = [], []
 for p in d["pairs"]:
     k = (p["file"].split("/")[-1], p["old"], p["new"])
-    if p.get("tag") != "Text-merged" and k in DROP: out.append({**p, "why": DROP[k]})
+    if k in DROP: out.append({**p, "why": DROP[k]})
     else: keep.append(p)
 d["pairs"] = keep; json.dump(d, open(sys.argv[1], "w"))
 json.dump({"excluded": out}, open(sys.argv[2], "w"), indent=1)

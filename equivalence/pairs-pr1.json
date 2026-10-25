@@ -39,13 +39,6 @@
    "tag": "div"
   },
   {
-   "file": "src/app/(platform)/build/components/BuilderActions/components/RunGraph/RunGraph.tsx",
-   "old": "group text-amber-600 hover:bg-amber-50 hover:text-amber-700",
-   "new": "group text-amber-600 hover:bg-warning-surface hover:text-warning-foreground",
-   "tag": "Button",
-   "variant": null
-  },
-  {
    "file": "src/app/(platform)/build/components/BuilderActions/components/RunInputDialog/RunInputDialog.tsx",
    "old": "font-semibold",
    "new": "body-semibold-tight",
@@ -198,12 +191,6 @@
    "new": "small-medium",
    "tag": "Text",
    "variant": "small-medium"
-  },
-  {
-   "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeExecutionBadge.tsx",
-   "old": "text-amber-700 border-amber-400",
-   "new": "text-warning-foreground border-amber-400",
-   "tag": null
   },
   {
    "file": "src/app/(platform)/build/components/FlowEditor/nodes/CustomNode/components/NodeExecutionBadge.tsx",
@@ -575,51 +562,23 @@
   },
   {
    "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": "text-sm font-medium",
-   "new": "body-medium-tight",
-   "tag": "MCPAuthSchemeField",
-   "variant": null
+   "old": "flex justify-center text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200",
+   "new": "text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200",
+   "tag": "button"
   },
   {
    "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": "h-10 rounded-md border border-input bg-background px-3 text-sm",
-   "new": "h-10 rounded-md border border-input bg-background px-3 text-body leading-5",
-   "tag": "MCPAuthSchemeField",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": "text-sm",
-   "new": "body-medium-tight",
-   "tag": "MCPAuthSchemeField",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": "text-sm text-red-700 dark:text-red-400",
-   "new": "text-error-foreground dark:text-red-400",
+   "old": "small-tight",
+   "new": "small-tight-underline",
    "tag": "Text",
-   "variant": "body-tight"
+   "variant": "small-tight-underline"
   },
   {
    "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": "text-[10px] font-normal",
-   "new": "text-tiny font-normal leading-inherit",
-   "tag": "Badge",
+   "old": "text-body font-medium leading-5",
+   "new": "body-medium-tight",
+   "tag": "MCPAuthSchemeField",
    "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": "text-[10px] font-normal",
-   "new": "text-tiny font-normal leading-inherit",
-   "tag": "Badge",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": "w-full text-xs",
-   "new": "w-full",
-   "tag": "table"
   },
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/ControlPanelButton.tsx",
@@ -634,20 +593,6 @@
    "new": "bg-accent-surface text-accent-strong hover:cursor-default hover:bg-accent-surface hover:text-accent-strong active:bg-accent-surface active:text-accent-strong",
    "tag": "Component",
    "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx",
-   "old": "font-sans text-sm font-medium leading-[1.375rem] text-zinc-800",
-   "new": "body-medium",
-   "tag": "Text",
-   "variant": "body-medium"
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx",
-   "old": "rounded-full bg-zinc-100 px-[0.375rem] font-sans text-sm leading-[1.375rem] text-zinc-600",
-   "new": "rounded-full bg-zinc-100 px-[0.375rem]",
-   "tag": "Text",
-   "variant": "body"
   },
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/Block.tsx",
@@ -672,16 +617,9 @@
   },
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/BlockMenuSearchBar/BlockMenuSearchBar.tsx",
-   "old": "m-0 border-none p-0 font-sans text-base font-normal text-zinc-800 shadow-none outline-none",
-   "new": "m-0 border-none p-0 font-sans text-body-lg font-normal leading-6 text-foreground-emphasis shadow-none outline-none",
-   "tag": "Input",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/BlockMenuSearchBar/BlockMenuSearchBar.tsx",
    "old": "placeholder:text-zinc-400 focus:shadow-none focus:outline-none focus:ring-0",
    "new": "placeholder:text-foreground-subtle focus:shadow-none focus:outline-none focus:ring-0",
-   "tag": "Input",
+   "tag": "BaseInput",
    "variant": null
   },
   {
@@ -840,6 +778,34 @@
    "tag": "div"
   },
   {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
+   "old": "font-sans text-zinc-400",
+   "new": "body-medium-tight",
+   "tag": "Text",
+   "variant": "body-medium-tight"
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
+   "old": "font-sans text-zinc-400",
+   "new": "body-medium-tight",
+   "tag": "Text",
+   "variant": "body-medium-tight"
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
+   "old": "small-medium-loose",
+   "new": "small-medium-loose-underline",
+   "tag": "Text",
+   "variant": "small-medium-loose-underline"
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
+   "old": "text-blue-700 underline",
+   "new": "text-blue-700",
+   "tag": "Text",
+   "variant": "small-medium-loose-underline"
+  },
+  {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MenuItem.tsx",
    "old": "hover:cursor-default hover:bg-zinc-100 focus:ring-0",
    "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0",
@@ -851,6 +817,27 @@
    "old": "mb-10 text-zinc-400",
    "new": "mb-10 text-foreground-subtle",
    "tag": "Icon",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/SearchHistoryChip.tsx",
+   "old": "my-[1px] h-[2.25rem] space-x-1 rounded-[1.5rem] bg-zinc-50 p-[0.375rem] pr-[0.625rem] shadow-none",
+   "new": "my-[1px] h-[2.25rem] space-x-1 rounded-[1.5rem] bg-surface-muted p-[0.375rem] pr-[0.625rem] shadow-none",
+   "tag": "Button",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/SearchHistoryChip.tsx",
+   "old": "hover:cursor-default hover:bg-zinc-100 focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300",
+   "new": "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300",
+   "tag": "Button",
+   "variant": null
+  },
+  {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/SearchHistoryChip.tsx",
+   "old": "h-6 w-6 text-zinc-500",
+   "new": "h-6 w-6 text-foreground-tertiary",
+   "tag": "ArrowUpRight",
    "variant": null
   },
   {
@@ -895,6 +882,13 @@
    "tag": "div"
   },
   {
+   "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx",
+   "old": "font-sans text-zinc-400",
+   "new": "body-medium-tight",
+   "tag": "Text",
+   "variant": "body-medium-tight"
+  },
+  {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewControlPanel.tsx",
    "old": "absolute left-4 top-10 z-10 overflow-hidden rounded-[1rem] border-none bg-white p-0 shadow-[0_1px_5px_0_rgba(0,0,0,0.1)]",
    "new": "absolute left-4 top-10 z-10 overflow-hidden rounded-[1rem] border-none bg-surface p-0 shadow-[0_1px_5px_0_rgba(0,0,0,0.1)]",
@@ -921,16 +915,9 @@
   },
   {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewSearchGraph/GraphMenuSearchBar/GraphMenuSearchBar.tsx",
-   "old": "m-0 border-none p-0 font-sans text-base font-normal text-zinc-800 shadow-none outline-none",
-   "new": "m-0 border-none p-0 font-sans text-body-lg font-normal leading-6 text-foreground-emphasis shadow-none outline-none",
-   "tag": "Input",
-   "variant": null
-  },
-  {
-   "file": "src/app/(platform)/build/components/NewControlPanel/NewSearchGraph/GraphMenuSearchBar/GraphMenuSearchBar.tsx",
    "old": "placeholder:text-zinc-400 focus:shadow-none focus:outline-none focus:ring-0",
    "new": "placeholder:text-foreground-subtle focus:shadow-none focus:outline-none focus:ring-0",
-   "tag": "Input",
+   "tag": "BaseInput",
    "variant": null
   },
   {
@@ -1109,7 +1096,7 @@
     "small-tight",
     "break-words bg-surface-muted p-3",
     "overflow-x-auto [&>*]:rounded-xlarge [&>*]:!text-caption [&>*]:!leading-4 [&_pre]:whitespace-pre-wrap [&_pre]:break-words",
-    "overflow-x-auto [&>*]:rounded-xlarge [&>*]:!text-caption [&>*]:!leading-4"
+    "overflow-x-auto [&>*]:rounded-xlarge"
    ]
   },
   {
@@ -1353,91 +1340,6 @@
    ]
   },
   {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": [
-    "text-xs text-gray-500 underline hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
-   ],
-   "new": [
-    "text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200",
-    "small-tight-underline"
-   ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": [],
-   "new": [
-    "small-tight"
-   ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": [
-    "text-xs text-gray-500"
-   ],
-   "new": [
-    "text-gray-500",
-    "body-tight"
-   ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": [
-    "flex-1 text-sm font-semibold dark:text-white",
-    "text-[10px]",
-    "px-3 pb-1 text-xs leading-relaxed text-gray-500 dark:text-gray-400"
-   ],
-   "new": [
-    "body-semibold-tight",
-    "flex-1 dark:text-white",
-    "text-tiny leading-inherit",
-    "small-relaxed",
-    "px-3 pb-1 text-gray-500 dark:text-gray-400"
-   ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": [],
-   "new": [
-    "small-tight"
-   ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": [
-    "px-2 py-1 text-left font-medium text-gray-500 dark:text-gray-400",
-    "px-2 py-1 text-left font-medium text-gray-500 dark:text-gray-400",
-    "px-2 py-1 text-left font-medium text-gray-500 dark:text-gray-400"
-   ],
-   "new": [
-    "px-2 py-1 text-left text-gray-500 dark:text-gray-400",
-    "small-medium-tight",
-    "px-2 py-1 text-left text-gray-500 dark:text-gray-400",
-    "small-medium-tight",
-    "px-2 py-1 text-left text-gray-500 dark:text-gray-400",
-    "small-medium-tight"
-   ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": [
-    "px-2 py-1 font-mono text-[11px] text-gray-700 dark:text-gray-300"
-   ],
-   "new": [
-    "px-2 py-1 text-gray-700 dark:text-gray-300",
-    "caption-sm-mono-inherit"
-   ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": [
-    "flex w-full items-center justify-center gap-1 border-t border-gray-100 py-1.5 text-[10px] text-gray-400 hover:text-gray-600 dark:border-slate-700 dark:text-gray-500 dark:hover:text-gray-300"
-   ],
-   "new": [
-    "flex w-full items-center justify-center gap-1 border-t border-gray-100 py-1.5 text-gray-400 hover:text-gray-600 dark:border-slate-700 dark:text-gray-500 dark:hover:text-gray-300",
-    "tiny-inherit"
-   ]
-  },
-  {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/MobileWarning/MobileWarning.tsx",
    "old": [
     "text-zinc-700"
@@ -1445,37 +1347,10 @@
    "new": []
   },
   {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/AllBlocksContent/AllBlocksContent.tsx",
-   "old": [
-    "px-0 font-sans text-sm leading-[1.375rem] text-zinc-600 underline hover:text-zinc-800"
-   ],
-   "new": [
-    "px-0 text-foreground-secondary underline hover:text-foreground-emphasis",
-    "body-medium"
-   ]
-  },
-  {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/Block.tsx",
-   "old": [
-    "line-clamp-1 font-sans text-sm font-medium leading-[1.375rem] text-zinc-800 group-disabled:text-zinc-400",
-    "line-clamp-1 font-sans text-xs font-normal leading-5 text-zinc-500 group-disabled:text-zinc-400"
-   ],
+   "old": [],
    "new": [
-    "body-medium",
-    "line-clamp-1 group-disabled:text-foreground-subtle",
-    "small-loose",
-    "line-clamp-1 group-disabled:text-foreground-subtle",
     "small-bold-loose"
-   ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/FilterChip.tsx",
-   "old": [
-    "font-sans text-sm font-medium leading-[1.375rem] text-zinc-600 group-hover:text-zinc-600 group-disabled:text-zinc-400"
-   ],
-   "new": [
-    "body-medium",
-    "group-hover:text-foreground-secondary group-disabled:text-foreground-subtle"
    ]
   },
   {
@@ -1487,45 +1362,6 @@
    "new": [
     "border border-[#D4D4D4] shadow-none data-[state=checked]:border-none data-[state=checked]:bg-violet-700 data-[state=checked]:text-action-foreground"
    ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/Integration.tsx",
-   "old": [
-    "line-clamp-1 flex-1 font-sans text-sm font-medium leading-[1.375rem] text-zinc-700 group-disabled:text-zinc-400",
-    "flex h-[1.375rem] w-[1.6875rem] items-center justify-center rounded-[1.25rem] bg-[#f0f0f0] p-1.5 font-sans text-sm leading-[1.375rem] text-zinc-500 group-disabled:text-zinc-400",
-    "line-clamp-1 font-sans text-xs font-normal leading-5 text-zinc-500 group-disabled:text-zinc-400"
-   ],
-   "new": [
-    "body-medium",
-    "line-clamp-1 flex-1 group-disabled:text-foreground-subtle",
-    "body-medium",
-    "flex h-[1.375rem] w-[1.6875rem] items-center justify-center rounded-[1.25rem] bg-[#f0f0f0] p-1.5 group-disabled:text-foreground-subtle",
-    "small-loose",
-    "line-clamp-1 group-disabled:text-foreground-subtle"
-   ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntegrationBlocks/IntegrationBlocks.tsx",
-   "old": [
-    "p-0 font-sans text-sm font-medium leading-[1.375rem] text-zinc-800",
-    "font-sans text-sm font-medium leading-[1.375rem] text-zinc-800",
-    "font-sans text-sm font-medium leading-[1.375rem] text-zinc-800",
-    "flex h-[1.375rem] w-[1.6875rem] items-center justify-center rounded-[1.25rem] bg-[#f0f0f0] p-1.5 font-sans text-sm leading-[1.375rem] text-zinc-500 group-disabled:text-zinc-400"
-   ],
-   "new": [
-    "p-0 text-foreground-emphasis",
-    "body-medium",
-    "body-medium",
-    "body-medium",
-    "flex h-[1.375rem] w-[1.6875rem] items-center justify-center rounded-[1.25rem] bg-[#f0f0f0] p-1.5 group-disabled:text-foreground-subtle"
-   ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntegrationChip.tsx",
-   "old": [
-    "truncate font-sans text-sm font-normal leading-[1.375rem] text-zinc-800"
-   ],
-   "new": []
   },
   {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/IntergrationBlock.tsx",
@@ -1542,53 +1378,6 @@
    ]
   },
   {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
-   "old": [
-    "line-clamp-1 font-sans text-sm font-medium leading-[1.375rem] text-zinc-800 group-disabled:text-zinc-400"
-   ],
-   "new": [
-    "body-medium",
-    "line-clamp-1 group-disabled:text-foreground-subtle"
-   ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
-   "old": [
-    "truncate font-sans text-xs font-normal leading-5 text-zinc-500 group-disabled:text-zinc-400",
-    "font-sans text-zinc-400",
-    "truncate font-sans text-xs font-normal leading-5 text-zinc-500 group-disabled:text-zinc-400",
-    "font-sans text-zinc-400"
-   ],
-   "new": [
-    "small-loose",
-    "truncate group-disabled:text-foreground-subtle",
-    "body-medium-tight",
-    "small-loose",
-    "truncate group-disabled:text-foreground-subtle",
-    "body-medium-tight"
-   ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
-   "old": [
-    "font-sans text-xs leading-5 text-blue-700 underline"
-   ],
-   "new": [
-    "small-medium-loose-underline",
-    "text-blue-700"
-   ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MenuItem.tsx",
-   "old": [
-    "truncate font-sans text-sm font-medium leading-[1.375rem] text-zinc-800",
-    "font-sans text-sm font-normal leading-[1.375rem] text-zinc-600"
-   ],
-   "new": [
-    "body-medium"
-   ]
-  },
-  {
    "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/NoSearchResult.tsx",
    "old": [
     "font-sans text-sm font-medium leading-[1.375rem] text-zinc-800",
@@ -1596,48 +1385,6 @@
    ],
    "new": [
     "body-medium"
-   ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/SearchHistoryChip.tsx",
-   "old": [
-    "my-[1px] h-[2.25rem] space-x-1 rounded-[1.5rem] bg-zinc-50 p-[0.375rem] pr-[0.625rem] shadow-none",
-    "hover:cursor-default hover:bg-zinc-100 focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300",
-    "h-6 w-6 text-zinc-500",
-    "font-sans text-sm font-normal leading-[1.375rem] text-zinc-800"
-   ],
-   "new": [
-    "my-[1px] h-[2.25rem] space-x-1 rounded-[1.5rem] bg-surface-muted p-[0.375rem] pr-[0.625rem] shadow-none",
-    "hover:cursor-default hover:bg-surface-hover focus:ring-0 active:bg-zinc-100 active:ring-1 active:ring-zinc-300",
-    "h-6 w-6 text-foreground-tertiary"
-   ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx",
-   "old": [
-    "line-clamp-1 font-sans text-sm font-medium leading-[1.375rem] text-zinc-800 group-disabled:text-zinc-400"
-   ],
-   "new": [
-    "body-medium",
-    "line-clamp-1 group-disabled:text-foreground-subtle"
-   ]
-  },
-  {
-   "file": "autogpt_platform/frontend/src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/UGCAgentBlock.tsx",
-   "old": [
-    "line-clamp-1 font-sans text-xs font-normal leading-5 text-zinc-500 group-disabled:text-zinc-400",
-    "font-sans text-zinc-400",
-    "line-clamp-1 font-sans text-xs font-normal leading-5 text-zinc-500 group-disabled:text-zinc-400",
-    "rounded-[0.75rem] bg-zinc-200 px-[0.5rem] font-sans text-xs leading-[1.25rem] text-zinc-500"
-   ],
-   "new": [
-    "small-loose",
-    "line-clamp-1 group-disabled:text-foreground-subtle",
-    "body-medium-tight",
-    "small-loose",
-    "line-clamp-1 group-disabled:text-foreground-subtle",
-    "small-medium-loose",
-    "rounded-[0.75rem] bg-zinc-200 px-[0.5rem]"
    ]
   },
   {
@@ -1714,8 +1461,6 @@
    "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
    "old": [],
    "new": [
-    "large-medium-tight",
-    "font-sans text-body-lg font-medium leading-6 text-foreground-base",
     "large-semibold-tight",
     "font-sans text-body-lg font-semibold leading-6 text-foreground-base"
    ]
@@ -1731,10 +1476,16 @@
     "body-line-through",
     "font-sans text-body font-normal line-through text-foreground-base",
     "body-tight-italic",
-    "font-sans text-body font-normal italic leading-5 text-foreground-base",
-    "body-semibold-tight",
-    "font-sans text-body font-semibold leading-5 text-foreground-base"
+    "font-sans text-body font-normal italic leading-5 text-foreground-base"
    ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
+   "old": [
+    "body-mono-tight",
+    "font-mono text-body font-normal leading-5 text-foreground-base"
+   ],
+   "new": []
   },
   {
    "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
@@ -1749,13 +1500,21 @@
     "small-semibold-lh-normal",
     "font-sans text-caption font-semibold leading-normal text-foreground-base",
     "small-line-through",
-    "font-sans text-caption font-normal line-through text-foreground-base",
-    "small-tight",
-    "font-sans text-caption font-normal leading-4 text-foreground-base",
+    "font-sans text-caption font-normal line-through text-foreground-base"
+   ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
+   "old": [],
+   "new": [
     "small-tight-underline",
-    "font-sans text-caption font-normal leading-4 underline text-foreground-base",
-    "small-medium-tight",
-    "font-sans text-caption font-medium leading-4 text-foreground-base",
+    "font-sans text-caption font-normal leading-4 underline text-foreground-base"
+   ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
+   "old": [],
+   "new": [
     "small-mono-tight",
     "font-mono text-caption font-normal leading-4 text-foreground-base",
     "small-medium-mono-tight",
@@ -1767,16 +1526,43 @@
     "small-medium-loose",
     "font-sans text-caption font-medium leading-5 text-foreground-base",
     "small-medium-loose-underline",
-    "font-sans text-caption font-medium leading-5 underline text-foreground-base",
-    "small-relaxed",
-    "font-sans text-caption font-normal leading-relaxed text-foreground-base",
+    "font-sans text-caption font-medium leading-5 underline text-foreground-base"
+   ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
+   "old": [
+    "small-loose",
+    "font-sans text-caption font-normal leading-5 text-foreground-base",
+    "small-medium-loose",
+    "font-sans text-caption font-medium leading-5 text-foreground-base"
+   ],
+   "new": [
     "small-medium-inherit",
     "font-sans text-caption font-medium leading-inherit text-foreground-base",
     "tiny-inherit",
     "font-sans text-tiny font-normal leading-inherit text-foreground-base",
-    "caption-sm-mono-inherit",
-    "font-mono text-caption-sm font-normal leading-inherit text-foreground-base"
+    "font-sans text-[0.6785rem] font-medium uppercase leading-5 tracking-[0.06785rem] text-foreground-base",
+    "font-sans text-caption font-medium uppercase leading-4 tracking-eyebrow text-foreground-tertiary",
+    "body-mono-tight",
+    "font-mono text-body font-normal leading-5 text-foreground-base"
    ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
+   "old": [
+    "tiny-inherit",
+    "font-sans text-tiny font-normal leading-inherit text-foreground-base"
+   ],
+   "new": []
+  },
+  {
+   "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
+   "old": [
+    "font-sans text-[0.6785rem] font-medium uppercase leading-5 tracking-[0.06785rem] text-foreground-base",
+    "font-sans text-caption font-medium uppercase leading-4 tracking-eyebrow text-foreground-tertiary"
+   ],
+   "new": []
   },
   {
    "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
@@ -1789,7 +1575,6 @@
    "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
    "old": [],
    "new": [
-    "large-medium-tight",
     "large-semibold-tight"
    ]
   },
@@ -1805,34 +1590,53 @@
   },
   {
    "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
-   "old": [],
-   "new": [
-    "body-semibold-tight"
-   ]
+   "old": [
+    "body-mono-tight"
+   ],
+   "new": []
   },
   {
    "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
    "old": [],
    "new": [
-    "small-tight",
     "small-tight-underline",
     "small-semibold",
     "small-semibold-tight",
     "small-medium-lh-normal",
     "small-semibold-lh-normal",
     "small-line-through",
-    "small-medium-loose-underline",
-    "small-medium-tight",
+    "small-medium-loose-underline"
+   ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
+   "old": [],
+   "new": [
     "small-mono-tight",
     "small-medium-mono-tight",
     "small-loose",
     "small-bold-loose",
-    "small-medium-loose",
-    "small-relaxed",
+    "small-medium-loose"
+   ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
+   "old": [
+    "small-loose",
+    "small-medium-loose"
+   ],
+   "new": [
     "small-medium-inherit",
     "tiny-inherit",
-    "caption-sm-mono-inherit"
+    "body-mono-tight"
    ]
+  },
+  {
+   "file": "autogpt_platform/frontend/src/components/atoms/Text/helpers.ts",
+   "old": [
+    "tiny-inherit"
+   ],
+   "new": []
   },
   {
    "file": "autogpt_platform/frontend/src/components/contextual/MCPAuthSchemeField/__tests__/MCPAuthSchemeField.test.tsx",

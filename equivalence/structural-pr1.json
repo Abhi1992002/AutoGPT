@@ -181,21 +181,12 @@
    "structural": true
   },
   {
-   "file": "src/app/(platform)/build/components/MCPToolDialog.tsx",
-   "old": "mx-3 mb-2 rounded border border-gray-100 bg-gray-50/50 dark:border-slate-700 dark:bg-slate-800/50",
-   "new": "font-sans text-caption font-normal leading-4 text-inherit mx-3 mb-2 rounded border border-gray-100 bg-gray-50/50 dark:border-slate-700 dark:bg-slate-800/50",
-   "tag": "Text-merged",
-   "variant": "small-tight",
-   "line": 693,
-   "structural": true
-  },
-  {
    "file": "src/app/(platform)/build/components/NewControlPanel/NewBlockMenu/MarketplaceAgentBlock.tsx",
    "old": "font-sans text-zinc-400",
    "new": "font-sans text-body font-medium leading-5 text-foreground-subtle",
    "tag": "Text-merged",
    "variant": "body-medium-tight",
-   "line": 89,
+   "line": 90,
    "parent": "font-medium",
    "structural": true
   },
@@ -205,7 +196,7 @@
    "new": "font-sans text-body font-medium leading-5 text-foreground-subtle",
    "tag": "Text-merged",
    "variant": "body-medium-tight",
-   "line": 101,
+   "line": 102,
    "parent": "font-medium",
    "structural": true
   },
@@ -215,7 +206,7 @@
    "new": "font-sans text-body font-medium leading-5 text-foreground-subtle",
    "tag": "Text-merged",
    "variant": "body-medium-tight",
-   "line": 87,
+   "line": 88,
    "parent": "font-medium",
    "structural": true
   }

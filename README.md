@@ -3,9 +3,9 @@
 Evidence-only branch: never merged, not part of any PR branch.
 
 Current set, on the PR heads:
-- base: dev `85d7643d5` (#16099 merged it)
-- #16099 `27ab38e75`
-- #16103 `316bc1e4d`
+- base: dev `e19dee473` (#16099 merged it)
+- #16099 `ae43e0fc3`
+- #16103 `72b4b1f66`
 
 Rule 43 (25 Oct 09:42 IST): every `dark:` class is kept, and every colour swap's token renders the same `.dark` value as the old class.
 
@@ -29,5 +29,5 @@ Screenshots: per Abhimanyu (25 Oct 08:57 IST), the visual check is the orchestra
 | `rule31-non-text-pr*.txt` | every non-`<Text>` element in `build/**` whose className carries type |
 | `text-table-pr1.md` | every `<Text>` element: dev string, merged string, computed values, result |
 | `parity-pr*.md` | exports and prop types, rendered DOM tags and non-styling attributes, base vs head |
-| `logs/` | lint, types and full vitest on `316bc1e4d`; patch coverage |
+| `logs/` | lint, types and full vitest on `72b4b1f66`; patch coverage |
 | `tools/` | every script used |

@@ -6,7 +6,7 @@ import { createRequire } from "node:module";
 import { join } from "node:path";
 const req = createRequire(join(process.cwd(), "package.json"));
 const ts = req("typescript");
-const TYPO = /^(?:[\w\-\[\]&>:=]+:)?!?(text-(?:xs|sm|base|lg|xl|\d?xl|body(?:-\w+)?|caption(?:-\w+)?|tiny|lead|title|heading(?:-\w+)?|display|\[[\d.]+(?:px|rem|em)\])|leading-\S+|font-(?:sans|mono|poppins|serif|thin|extralight|light|normal|medium|semibold|bold|extrabold|black)|tracking-\S+|italic|not-italic|uppercase|lowercase|capitalize|underline|line-through|no-underline)$/;
+const TYPO = /^(?:[\w\-\[\]&>:=*_()]+:)?!?(text-(?:xs|sm|base|lg|xl|\d?xl|body(?:-\w+)?|caption(?:-\w+)?|tiny|lead|title|heading(?:-\w+)?|display|\[[\d.]+(?:px|rem|em)\])|leading-\S+|font-(?:sans|mono|poppins|serif|thin|extralight|light|normal|medium|semibold|bold|extrabold|black)|tracking-\S+|italic|not-italic|uppercase|lowercase|capitalize|underline|line-through|no-underline)$/;
 const ATTRS = new Set(["className", "labelClassName", "selectClassName", "inputClassName", "titleClassName"]);
 for (const f of process.argv.slice(2)) {
   const sf = ts.createSourceFile(f, readFileSync(f, "utf8"), ts.ScriptTarget.Latest, true, ts.ScriptKind.TSX);
