@@ -1,0 +1,10 @@
+after-wt 3cbe095dc
+after build exit 0
+after sb exit 0
+move-wt 86c1ba3da
+move build exit 0
+move sb exit 0
+eq exit 0 55 cases (+3 negative controls) x 5 parents x 2 viewports x rest/hover states, every computed property of every node (5974170 property comparisons): 0 failing; every negative control caught: true
+alltones ba exit 0 mobile: base 181 entries; isolated 181/181 at 0 px; in place 161/181 at 0 px (the rest moved: positions in the json); head adds 51
+alltones bb exit 0 mobile: base 181 entries; isolated 181/181 at 0 px; in place 181/181 at 0 px (the rest moved: positions in the json); head adds 0
+alltones hh exit 0 mobile: base 232 entries; isolated 232/232 at 0 px; in place 232/232 at 0 px (the rest moved: positions in the json); head adds 0

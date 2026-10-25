@@ -1,0 +1,191 @@
+"use client";
+
+// UNCOMMITTED evidence harness for SECRT-3113 (#16083/#16097). Identical on
+// every side except the three ai-elements/organisms import paths. Renders
+// every call site the PRs touch that no real route shows locally.
+import { useQueryClient } from "@tanstack/react-query";
+import { useSearchParams } from "next/navigation";
+import type { UIMessage } from "ai";
+import { ChatMessagesContainer } from "@/app/(platform)/copilot/components/ChatMessagesContainer/ChatMessagesContainer";
+import { ChatInput } from "@/app/(platform)/copilot/components/ChatInput/ChatInput";
+import { Suspense, useState } from "react";
+import {
+  Conversation,
+  ConversationContent,
+  ConversationEmptyState,
+  ConversationScrollButton,
+} from "@@CONV@@";
+import {
+  Message,
+  MessageAction,
+  MessageActions,
+  MessageBranch,
+  MessageBranchContent,
+  MessageBranchNext,
+  MessageBranchPage,
+  MessageBranchPrevious,
+  MessageBranchSelector,
+  MessageContent,
+  MessageResponse,
+  MessageToolbar,
+} from "@@MSG@@";
+import {
+  PromptInput,
+  PromptInputButton,
+  PromptInputSubmit,
+  PromptInputTextarea,
+} from "@@PI@@";
+import { WorkOutputSheet } from "@/components/organisms/WorkOutputSheet/WorkOutputSheet";
+import { getGetV1GetExecutionDetailsQueryKey } from "@/app/api/__generated__/endpoints/graphs/graphs";
+import { StopButton } from "@/app/(platform)/copilot/components/ChatInput/components/StopButton";
+import { COMPACT_SEND_BUTTON_CLASS, CARD_SEND_BUTTON_CLASS } from "@/app/(platform)/copilot/components/ChatInput/helpers";
+import { PendingUploadMessage } from "@/app/(platform)/copilot/components/ChatMessagesContainer/components/PendingUploadMessage";
+import { TTSButton } from "@/app/(platform)/copilot/components/ChatMessagesContainer/components/TTSButton";
+import { CopyButton } from "@/app/(platform)/copilot/components/ChatMessagesContainer/components/CopyButton";
+import { UserRowActions } from "@/app/(platform)/copilot/components/ChatMessagesContainer/components/MessageRow/components/UserRowActions";
+import { CredentialMentionMarkdown } from "@/app/(platform)/copilot/components/CredentialMention/CredentialMentionMarkdown";
+
+const DOC = "# Weekly report\n\nRevenue is **up 12%**. See [the dashboard](https://example.com).\n\n| Metric | Value | Note |\n| --- | --- | --- |\n| Runs | `1,200` | **steady** |\n| Cost | $3.60 | three turns at `1.2c` |";
+
+function msg(id: string, role: "user" | "assistant", text: string): UIMessage {
+  return { id, role, parts: [{ type: "text", text }] } as UIMessage;
+}
+const THREAD: UIMessage[] = [
+  msg("u1", "user", "Compare the plans, please."),
+  msg("a1", "assistant", "First answer with `code` and **bold**."),
+  msg("u2", "user", "And the table?"),
+  msg("a2", "assistant", DOC),
+];
+const ONLY_USER: UIMessage[] = [msg("u1", "user", "Run the weekly report.")];
+
+function Thread({ id, title, ...props }: { id: string; title: string } & Partial<React.ComponentProps<typeof ChatMessagesContainer>>) {
+  return (
+    <Section id={id} title={title}>
+      <div className="relative flex h-[560px] flex-col overflow-hidden border">
+        <ChatMessagesContainer messages={THREAD} status="ready" error={undefined} isLoading={false} sessionID={null} showThreadHeader={false} {...props} />
+      </div>
+    </Section>
+  );
+}
+
+function Section({ id, title, children }: { id: string; title: string; children: React.ReactNode }) {
+  const only = useSearchParams().get("only");
+  if (only && only !== id) return null;
+  return (
+    <section data-harness={id} className="flex flex-col gap-3 border-b border-zinc-200 p-6">
+      <h2 className="font-mono text-xs text-zinc-500">{title}</h2>
+      {children}
+    </section>
+  );
+}
+
+export default function Page() {
+  return (
+    <Suspense>
+      <HarnessPage />
+    </Suspense>
+  );
+}
+
+function HarnessPage() {
+  const qc = useQueryClient();
+  const key = getGetV1GetExecutionDetailsQueryKey("g-harness", "e-harness");
+  const [seeded] = useState(() => {
+    qc.setQueryDefaults(key, { staleTime: Infinity, retry: false, refetchOnMount: false, refetchOnWindowFocus: false });
+    qc.setQueryData(key, { status: 200, data: { id: "e-harness", outputs: { result: [DOC] } }, headers: new Headers() });
+    return true;
+  });
+  const [sheetOpen, setSheetOpen] = useState(false);
+  const [text, setText] = useState("");
+  return (
+    <main className="mx-auto flex w-full max-w-3xl flex-col bg-white">
+      <Thread id="cmc-owned" title="ChatMessagesContainer owned thread: AssistantRowActions (readOnly=false), UserRowActions, queued row (default)" queuedMessages={["Queued follow-up with **bold**"]} />
+      <Thread id="cmc-owned-compact" title="ChatMessagesContainer compact: queued row (compact)" variant="compact" queuedMessages={["Queued compact follow-up"]} />
+      <Thread id="cmc-readonly" title="ChatMessagesContainer readOnly: AssistantRowActions read-only branch (MessageActions + CopyButton)" readOnly />
+      <Thread id="cmc-submitted" title="ChatMessagesContainer submitted: thinking indicator row (MessageContent text-body-lg)" messages={ONLY_USER} status="submitted" />
+      <Thread id="cmc-submitted-compact" title="ChatMessagesContainer submitted, compact" messages={ONLY_USER} status="submitted" variant="compact" />
+      <Thread id="cmc-restoring" title="ChatMessagesContainer restoring: restore row (Retrieving, then the 6s fallback)" messages={ONLY_USER} isRestoringActiveSession restoreStatusMessage="Reconnecting…" />
+      <Thread id="cmc-pending" title="ChatMessagesContainer pending upload row" messages={ONLY_USER} pendingSend={{ text: "Here are my files", attachments: [{ name: "report.pdf", mediaType: "application/pdf", sizeBytes: 120000, isUploading: true }] } as never} />
+      <Section id="chatinput-default" title="ChatInput default (send disabled until typed)">
+        <ChatInput onSend={async () => undefined} hasSession sessionId={null} />
+      </Section>
+      <Section id="chatinput-reset" title="ChatInput at reset: PromptInputSubmit with the at-reset label">
+        <ChatInput onSend={async () => undefined} atReset={{ onSchedule: async () => undefined }} hasSession sessionId={null} />
+      </Section>
+      <Section id="chatinput-compact" title="ChatInput compact (COMPACT_SEND_BUTTON_CLASS, compact textarea)">
+        <ChatInput onSend={async () => undefined} variant="compact" hasSession sessionId={null} />
+      </Section>
+      <Section id="chatinput-streaming" title="ChatInput streaming: StopButton">
+        <ChatInput onSend={async () => undefined} isStreaming onStop={() => undefined} hasSession sessionId={null} />
+      </Section>
+      <Section id="chatinput-turn-starting" title="ChatInput turn starting: PromptInputSubmit submitted (spinner)">
+        <ChatInput onSend={async () => undefined} isStreaming isTurnStarting onStop={() => undefined} hasSession sessionId={null} />
+      </Section>
+      <Section id="empty-state" title="ConversationEmptyState (default, with icon)">
+        <div className="h-40"><ConversationEmptyState /></div>
+        <div className="h-40"><ConversationEmptyState icon={<span>✦</span>} title="Nothing here" description="Ask Otto anything" /></div>
+      </Section>
+      <Section id="conversation-scroll" title="Conversation scrolled up (scroll button)">
+        <div className="relative h-64 border">
+          <Conversation initial="instant" className="h-64">
+            <ConversationContent>
+              {Array.from({ length: 12 }, (_, i) => (
+                <Message key={i} from={i % 2 ? "assistant" : "user"}>
+                  <MessageContent><MessageResponse>{`Message ${i + 1}: some text in the thread.`}</MessageResponse></MessageContent>
+                </Message>
+              ))}
+            </ConversationContent>
+            <ConversationScrollButton />
+          </Conversation>
+        </div>
+      </Section>
+      <Section id="branch-toolbar" title="MessageBranch + selector + MessageToolbar + MessageActions">
+        <MessageBranch defaultBranch={0}>
+          <MessageBranchContent>
+            <Message key="a" from="assistant"><MessageContent><MessageResponse>{"First branch answer with `code`."}</MessageResponse></MessageContent></Message>
+            <Message key="b" from="assistant"><MessageContent><MessageResponse>{"Second branch answer."}</MessageResponse></MessageContent></Message>
+          </MessageBranchContent>
+          <MessageToolbar>
+            <MessageBranchSelector from="assistant">
+              <MessageBranchPrevious />
+              <MessageBranchPage />
+              <MessageBranchNext />
+            </MessageBranchSelector>
+            <MessageActions>
+              <MessageAction tooltip="Retry" label="Retry">↻</MessageAction>
+              <CopyButton text="Copy me" />
+              <TTSButton text="Read me" sessionID={null} />
+            </MessageActions>
+          </MessageToolbar>
+        </MessageBranch>
+        <UserRowActions showQueueBadge showCopy createdAt="2026-01-15T11:00:00Z" copyText="hello" sessionID={null} />
+      </Section>
+      <Section id="prompt-input" title="PromptInput: textarea, tool button with tooltip, submit ready/disabled/submitted/streaming">
+        <PromptInput onSubmit={() => undefined}>
+          <PromptInputTextarea value={text} onChange={(e) => setText(e.currentTarget.value)} placeholder="Harness composer" />
+          <div className="flex items-center gap-2 p-2">
+            <PromptInputButton tooltip={{ content: "Attach", shortcut: "⌘U" }}>+</PromptInputButton>
+            <PromptInputSubmit data-testid="submit-ready" />
+            <PromptInputSubmit data-testid="submit-disabled" disabled />
+            <PromptInputSubmit data-testid="submit-submitted" status="submitted" />
+            <PromptInputSubmit data-testid="submit-streaming" status="streaming" onStop={() => undefined} />
+            <PromptInputSubmit data-testid="submit-compact" className={COMPACT_SEND_BUTTON_CLASS} />
+            <PromptInputSubmit data-testid="submit-card" className={CARD_SEND_BUTTON_CLASS} disabled />
+            <StopButton onStop={() => undefined} className={COMPACT_SEND_BUTTON_CLASS} />
+          </div>
+        </PromptInput>
+      </Section>
+      <Section id="pending-upload" title="PendingUploadMessage (compact and not)">
+        <PendingUploadMessage pendingSend={{ text: "Here are my files", attachments: [{ name: "report.pdf", mediaType: "application/pdf", sizeBytes: 120000, isUploading: true }] } as never} />
+        <PendingUploadMessage isCompact pendingSend={{ text: "Compact upload", attachments: [{ name: "a.png", mediaType: "image/png", sizeBytes: 2000, isUploading: false }] } as never} />
+      </Section>
+      <Section id="mention-markdown" title="CredentialMentionMarkdown">
+        <Message from="assistant"><MessageContent><CredentialMentionMarkdown>{DOC}</CredentialMentionMarkdown></MessageContent></Message>
+      </Section>
+      <Section id="work-output" title="WorkOutputSheet (doc output through MessageResponse)">
+        <button type="button" data-testid="open-sheet" onClick={() => setSheetOpen(true)} disabled={!seeded}>Open work output</button>
+        <WorkOutputSheet open={sheetOpen} onOpenChange={setSheetOpen} title="Weekly report" outputType="doc" graphId="g-harness" executionId="e-harness" runLink="/library" />
+      </Section>
+    </main>
+  );
+}

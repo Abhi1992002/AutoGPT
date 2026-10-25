@@ -1,0 +1,22 @@
+scan of autogpt_platform/frontend/src/components/atoms/Text/helpers.ts
+sources: 18 (dev + 17 open PRs that change the file)
+  dev@c2ce8655a: 17 variants, 10 tones
+  #16083@3cbe095dc (abhi/fold-ai-elements-into-organisms): 20 variants, 11 tones
+  #16091@234ba62a7 (abhi/drop-legacy-ui-button-and-input): 23 variants, 12 tones
+  #16092@dcb8a946f (abhi/drop-legacy-ui-button-and-input-button): 25 variants, 12 tones
+  #16099@88ed81a79 (abhi/tokenise-flow-editor): 35 variants, 11 tones
+  #16110@84702388c (abhi/drop-ui-duplicate-primitives): 21 variants, 11 tones
+  #16116@560de8ae6 (abhi/drop-ui-duplicate-primitives-separator): 22 variants, 11 tones
+  #16118@e6cd11726 (abhi/drop-legacy-ui-form-controls): 34 variants, 15 tones
+  #16119@cf0916720 (abhi/drop-legacy-ui-form-controls-skeleton): 36 variants, 15 tones
+  #16120@8f96505cc (abhi/drop-legacy-ui-form-controls-checkbox): 37 variants, 15 tones
+  #16122@e6c617bdf (abhi/drop-legacy-ui-form-controls-form): 40 variants, 15 tones
+  #16125@c1e4eb891 (abhi/move-ui-primitives-behind-molecules-collapsible): 18 variants, 10 tones
+  #16126@b76fec870 (abhi/move-ui-primitives-behind-molecules-scroll-area): 21 variants, 10 tones
+  #16127@6cab9ece3 (abhi/move-ui-primitives-behind-molecules-sheet): 22 variants, 10 tones
+  #16128@9f9098f00 (abhi/move-ui-primitives-behind-molecules-sidebar): 23 variants, 10 tones
+  #16134@7b25bf83a (abhi/add-data-slots-profile-tabs): 27 variants, 15 tones
+  #16136@d4e7945cf (abhi/drop-legacy-ui-small-primitives): 18 variants, 11 tones
+  #16139@813c9a56a (abhi/drop-legacy-ui-small-primitives-multiselect-command): 19 variants, 11 tones
+involving #16083, #16097: 0
+OK 0 clashes

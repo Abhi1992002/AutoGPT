@@ -1,0 +1,16 @@
+tailwind-merge (Streamdown's copy): 3.4.0
+kept    [&_table_th]:text-caption-sm
+kept    [&_table_th]:leading-5
+kept    [&_table_td]:text-body-sm
+kept    [&_table_td_code]:text-caption
+kept    [&_table_td_code]:leading-5
+kept    [&_td]:text-foreground-body
+kept    [&_td_code]:text-foreground-body
+kept    [&_table]:text-body-sm
+kept    [&_table]:leading-inherit
+pre-existing on dev, unchanged: [&_th]:text-indigo-950/70 is dropped (tailwind-merge reads the later [&_th]:text-shadow-message-table-indigo as a text colour; dev's own cn drops it too)
+same-scope proof (why the sizes moved):
+  in:  [&_th]:text-caption-sm [&_th]:text-indigo-950/70
+  out: [&_th]:text-indigo-950/70
+  in:  [&_table_th]:text-caption-sm [&_th]:text-indigo-950/70
+  out: [&_table_th]:text-caption-sm [&_th]:text-indigo-950/70

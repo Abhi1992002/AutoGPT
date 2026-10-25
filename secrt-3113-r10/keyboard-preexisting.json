@@ -1,0 +1,72 @@
+[
+  {
+    "viewport": "desktop",
+    "step": "focus returns to the trigger after Esc",
+    "expected": "button[data-streamdown=link] \"link to the docs\"",
+    "baseActual": "body",
+    "base": "dev 0d5ac323f"
+  },
+  {
+    "viewport": "desktop",
+    "step": "sheet: focus returns to the trigger",
+    "expected": "button \"Open work output\"",
+    "baseActual": "body",
+    "base": "dev 0d5ac323f"
+  },
+  {
+    "viewport": "desktop",
+    "step": "story: focus returns to the trigger",
+    "expected": "button[data-streamdown=link] \"Example Site\"",
+    "baseActual": "body",
+    "base": "dev 0d5ac323f"
+  },
+  {
+    "viewport": "mobile",
+    "step": "focus moves into the dialog on open",
+    "expected": "focus inside dialog",
+    "baseActual": "button[data-streamdown=link] \"link to the docs\" (outside)",
+    "base": "dev 0d5ac323f"
+  },
+  {
+    "viewport": "mobile",
+    "step": "Tab 1 inside the open dialog",
+    "expected": "focus stays inside dialog",
+    "baseActual": "button[data-streamdown=link] \"settings\" (outside)",
+    "base": "dev 0d5ac323f"
+  },
+  {
+    "viewport": "mobile",
+    "step": "Tab 2 inside the open dialog",
+    "expected": "focus stays inside dialog",
+    "baseActual": "button[data-streamdown=code-block-download-button] (outside)",
+    "base": "dev 0d5ac323f"
+  },
+  {
+    "viewport": "mobile",
+    "step": "Tab 3 inside the open dialog",
+    "expected": "focus stays inside dialog",
+    "baseActual": "button[data-streamdown=code-block-copy-button] (outside)",
+    "base": "dev 0d5ac323f"
+  },
+  {
+    "viewport": "mobile",
+    "step": "Tab 4 inside the open dialog",
+    "expected": "focus stays inside dialog",
+    "baseActual": "pre[data-streamdown=code-block-body] \"def total(turns): return sum(t\" (outside)",
+    "base": "dev 0d5ac323f"
+  },
+  {
+    "viewport": "mobile",
+    "step": "focus returns to the trigger after Esc",
+    "expected": "button[data-streamdown=link] \"link to the docs\"",
+    "baseActual": "pre[data-streamdown=code-block-body] \"def total(turns): return sum(t\"",
+    "base": "dev 0d5ac323f"
+  },
+  {
+    "viewport": "mobile",
+    "step": "sheet: focus returns to the trigger",
+    "expected": "button \"Open work output\"",
+    "baseActual": "body",
+    "base": "dev 0d5ac323f"
+  }
+]

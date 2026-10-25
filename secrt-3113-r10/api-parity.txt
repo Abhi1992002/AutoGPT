@@ -1,0 +1,4 @@
+src/components/ai-elements/conversation.tsx: DIFFERS
+src/components/ai-elements/message.stories.tsx: DIFFERS
+src/components/ai-elements/message.tsx: DIFFERS
+src/components/ai-elements/prompt-input.tsx: identical once string literals and comments are blanked
