@@ -1,8 +1,0 @@
-app__admin_diagnostics__desktop.png	827	(534, 591, 955, 652)	T
-app__admin_diagnostics__mobile.png	726	(258, 639, 312, 1200)	T
-app__copilot__mobile.png	4562	(8, 12, 358, 120)	O
-app__home__mobile.png	4562	(8, 12, 358, 120)	O
-interact__admin-diagnostics__desktop.png	716	(534, 591, 954, 652)	T
-interact__admin-diagnostics__mobile.png	694	(258, 639, 312, 1200)	T
-interact__kb-marketplace-carousel-focus-visible__desktop.png	6014	(0, 133, 46, 323)	S
-SUMMARY base-determinism: 121 compared, 7 non-zero, 0 unexplained
