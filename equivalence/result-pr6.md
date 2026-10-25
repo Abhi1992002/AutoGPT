@@ -1,0 +1,12 @@
+| `div` | font-size 16px; line-height 24px; weight 400; color rgb(9, 9, 11); background rgb(254, 254, 254); border rgb(229, 229, 229) | identical (406 props x 3 parents x 2 widths) |
+| `div` | font-size 14px; line-height 20px; weight 500; color rgb(113, 113, 122); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `div` | font-size 14px; line-height 20px; weight 500; color rgb(113, 113, 122); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `div` | font-size 14px; line-height 20px; weight 500; color rgb(113, 113, 122); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `div` | font-size 14px; line-height 20px; weight 500; color rgb(113, 113, 122); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `button` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `button` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `button` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `button` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `textarea` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11); background rgb(255, 255, 255); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `div` | font-size 16px; line-height 32px; weight 400; color rgb(44, 44, 48); background rgb(239, 239, 240); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `span` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11); background rgb(239, 239, 240); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |

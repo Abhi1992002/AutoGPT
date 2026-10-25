@@ -1,0 +1,11 @@
+| `h2` | font-size 16px; line-height 24px; weight 600; color rgb(44, 44, 48); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `p` | font-size 14px; line-height 20px; weight 400; color rgb(115, 115, 115); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `table` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `div` | font-size 12px; line-height 16px; weight 500; color rgba(63, 63, 70, 0.7); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `ul` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `button` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `button` | font-size 12px; line-height 16px; weight 400; color rgb(9, 9, 11); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `button` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `div` | font-size 12px; line-height 16px; weight 500; color rgb(63, 63, 70); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `a` | font-size 12px; line-height 16px; weight 400; color rgb(9, 9, 11); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |
+| `a` | font-size 14px; line-height 20px; weight 400; color rgb(9, 9, 11); background rgba(0, 0, 0, 0); border rgb(228, 228, 231) | identical (406 props x 3 parents x 2 widths) |

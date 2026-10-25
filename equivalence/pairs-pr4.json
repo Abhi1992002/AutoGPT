@@ -1,0 +1,57 @@
+[
+ {
+  "file": "ContextPanel.tsx (desktop title)",
+  "old": "h2|shrink-0 px-6 pb-1 pt-6 text-base font-semibold text-foreground-strong",
+  "new": "h2|font-sans text-body-lg font-semibold leading-6 text-foreground-strong shrink-0 px-6 pb-1 pt-6"
+ },
+ {
+  "file": "Sheet.tsx (SheetDescription; no caller)",
+  "old": "p|text-sm text-neutral-500 dark:text-neutral-400",
+  "new": "p|text-body leading-5 text-neutral-500 dark:text-neutral-400"
+ },
+ {
+  "file": "WorkOutputSheet.tsx (table)",
+  "old": "table|w-full border-collapse text-sm",
+  "new": "table|w-full border-collapse text-body leading-5"
+ },
+ {
+  "file": "ui/sidebar.tsx (group label)",
+  "old": "div|flex h-8 shrink-0 items-center rounded-md px-2 text-xs font-medium text-sidebar-foreground/70 outline-none ring-sidebar-ring transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&>svg]:size-4 [&>svg]:shrink-0",
+  "new": "div|flex h-8 shrink-0 items-center rounded-md px-2 text-caption font-medium leading-4 text-sidebar-foreground/70 outline-none ring-sidebar-ring transition-[margin,opacity] duration-200 ease-linear focus-visible:ring-2 [&>svg]:size-4 [&>svg]:shrink-0"
+ },
+ {
+  "file": "ui/sidebar.tsx (menu)",
+  "old": "ul|w-full text-sm",
+  "new": "ul|w-full text-body leading-5"
+ },
+ {
+  "file": "ui/sidebar.tsx (menu button base + default size)",
+  "old": "button|peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left outline-none h-8 text-sm",
+  "new": "button|peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left outline-none h-8 text-body leading-5"
+ },
+ {
+  "file": "ui/sidebar.tsx (menu button sm size)",
+  "old": "button|peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left outline-none h-7 text-xs",
+  "new": "button|peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left outline-none h-7 text-caption leading-4"
+ },
+ {
+  "file": "ui/sidebar.tsx (menu button lg size)",
+  "old": "button|peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left outline-none h-12 text-sm",
+  "new": "button|peer/menu-button flex w-full items-center gap-2 overflow-hidden rounded-md p-2 text-left outline-none h-12 text-body leading-5"
+ },
+ {
+  "file": "ui/sidebar.tsx (menu badge)",
+  "old": "div|pointer-events-none absolute right-1 flex h-5 min-w-5 select-none items-center justify-center rounded-md px-1 text-xs font-medium tabular-nums text-sidebar-foreground",
+  "new": "div|pointer-events-none absolute right-1 flex h-5 min-w-5 select-none items-center justify-center rounded-md px-1 text-caption font-medium tabular-nums leading-4 text-sidebar-foreground"
+ },
+ {
+  "file": "ui/sidebar.tsx (sub-button sm)",
+  "old": "a|flex h-7 min-w-0 items-center gap-2 rounded-md px-2 text-xs",
+  "new": "a|flex h-7 min-w-0 items-center gap-2 rounded-md px-2 text-caption leading-4"
+ },
+ {
+  "file": "ui/sidebar.tsx (sub-button md)",
+  "old": "a|flex h-7 min-w-0 items-center gap-2 rounded-md px-2 text-sm",
+  "new": "a|flex h-7 min-w-0 items-center gap-2 rounded-md px-2 text-body leading-5"
+ }
+]

@@ -1,0 +1,33 @@
+#!/usr/bin/env python3
+"""Text variants defined on <head> vs the same names in every open PR's diff:
+a name with a different class string is a clash. usage: xprscan.py <head>"""
+import json, re, subprocess, sys
+h = sys.argv[1]
+R = "/home/vercel-sandbox/autogpt"
+src = subprocess.run(["git", "show", f"{h}:autogpt_platform/frontend/src/components/atoms/Text/helpers.ts"], capture_output=True, text=True, cwd=R).stdout
+body = src[src.index("export const variants"): src.index("} as const")]
+mine = {m.group(1) or m.group(2): " ".join(m.group(3).split()) for m in re.finditer(r'^\s*(?:"([a-z0-9-]+)"|([a-z0-9]+)):\s*\n?\s*"([^"]+)"', body, re.M)}
+prs = json.loads(subprocess.run(["gh", "pr", "list", "--repo", "Significant-Gravitas/AutoGPT", "--state", "open", "--limit", "200", "--json", "number"], capture_output=True, text=True).stdout)
+clash = 0; seen = 0; table = {}
+STACK = set(range(16124, 16131))
+for p in prs:
+    if p["number"] in STACK:
+        continue
+    d = subprocess.run(["gh", "pr", "diff", str(p["number"]), "--repo", "Significant-Gravitas/AutoGPT"], capture_output=True, text=True).stdout
+    if "atoms/Text/helpers.ts" not in d:
+        continue
+    seen += 1
+    for m in re.finditer(r'^\+\s*"([a-z0-9-]+)":\s*\n\+\s*"([^"]+)"|^\+\s*"([a-z0-9-]+)":\s*"([^"]+)",', d, re.M):
+        name = m.group(1) or m.group(3); val = " ".join((m.group(2) or m.group(4)).split())
+        if name in mine and val not in ("p", "span", "h5", "div"):
+            table.setdefault(name, set()).add((p["number"], val == mine[name]))
+        if name in mine and mine[name] != val and val not in ("p", "span", "h5", "div"):
+            clash += 1; print(f"CLASH {name}: #{p['number']} '{val}' vs mine '{mine[name]}'")
+if "--table" in sys.argv:
+    names = [x for x in sys.argv[sys.argv.index("--table") + 1].split(",") if x]
+    print("| variant | class string on this head | other open PRs defining the same name | same string |")
+    print("| --- | --- | --- | --- |")
+    for n in names:
+        prsn = sorted(table.get(n, set()))
+        print(f"| `{n}` | `{mine.get(n, 'MISSING')}` | {', '.join('#' + str(a) for a, _ in prsn) or 'none (new name)'} | {'yes' if all(ok for _, ok in prsn) else 'NO'} |")
+print(f"OK {clash} clashes ({len(mine)} variants on {h}; {seen} open PRs edit Text/helpers.ts)" if not clash else f"{clash} clashes")
