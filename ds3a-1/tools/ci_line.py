@@ -10,7 +10,7 @@ def item(label, names):
     if not cs: return None
     ok = all(c["state"] in ("SUCCESS", "SKIPPED", "NEUTRAL") for c in cs)
     return f"{label} {'✓' if ok else '(' + ', '.join(sorted({c['state'].lower() for c in cs})) + ')'} ([run]({cs[0]['link']}))", ok
-parts = [item("production build (Vercel preview of this head)", ["Vercel"]),
+parts = [item("production `next build` (in the end-to-end smoke job's Docker image; the Vercel check reads \"Canceled by Ignored Build Step\" and built nothing)", ["end-to-end tests (smoke)"]),
          item("lint (ESLint + oxlint + Prettier)", ["lint"]),
          item("type check", ["check API types", "Analyze (typescript)"]),
          item("full `vitest` suite (integration shards 1-4)", [f"integration_test (shard {i}/4)" for i in range(1, 5)]),

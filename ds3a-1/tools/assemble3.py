@@ -45,7 +45,10 @@ def counts_section(k):
         o, n = counts[(k - 1, dname)], counts[(k, dname)]
         rows.append(f"| `{dname}` | {o[1]} | **{n[1]}** |")
     fc = files_counts[k]
-    rows.append(f"| the {fc[1][2]} files this PR touches | {fc[0][1]} | **{fc[1][1]}** |")
+    dele = subprocess.run(["git", "-C", "/home/vercel-sandbox/autogpt", "diff", "--name-only", "--diff-filter=D", b, h, "--", "autogpt_platform/frontend/src"], capture_output=True, text=True).stdout.split()
+    nf = max(int(fc[0][2]), int(fc[1][2]))
+    lab = f"the {nf} files this PR touches" + (" (incl. the deleted " + ", ".join(f"`{x.rsplit('/', 1)[-1]}`" for x in dele) + ")" if dele and int(fc[0][2]) > int(fc[1][2]) else "")
+    rows.append(f"| {lab} | {fc[0][1]} | **{fc[1][1]}** |")
     rb, rh = rules[k].get(b, {}), rules[k].get(h, {})
     by = ", ".join(f"{r} {rb.get(r, 0)} → {rh.get(r, 0)}" for r in sorted(set(rb) | set(rh)))
     return "\n".join(rows) + f"\n\nTouched files by rule, base → head: {by}. Counted with the strict oxlint config from DS4 `1ee6580dc` overlaid on both SHAs (`oxlint -c .oxlintrc.strict.json -f unix`, never committed)." + (("\n\n" + body_r0616.COUNT_NOTE[k]) if k in body_r0616.COUNT_NOTE else "")

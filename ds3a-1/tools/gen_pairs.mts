@@ -15,8 +15,9 @@ add("pr1", { file: "molecules/PaginationControls/PaginationControls.tsx (<Text v
 // ---- PR1 pagination buttons: legacy outline Button -> atoms/Button variant="legacy-outline" (DS3a-3 #16092's strings)
 {
   const { buttonVariants: LEGACY_BTN } = await import("/home/vercel-sandbox/autogpt/autogpt_platform/frontend/src/components/__legacy__/ui/button.tsx");
-  const { legacyButtonVariants } = await import("/home/vercel-sandbox/autogpt/autogpt_platform/frontend/src/components/atoms/Button/helpers.ts");
+  const { legacyButtonVariants } = await import("/home/vercel-sandbox/wt/p1/autogpt_platform/frontend/src/components/atoms/Button/helpers.ts");
   add("pr1", { file: "molecules/PaginationControls: Previous / Next (<Button variant=\"legacy-outline\">, was the legacy outline Button)", old: cn(LEGACY_BTN({ variant: "outline", size: "default" })), new: cn(legacyButtonVariants({ variant: "legacy-outline", size: "legacy-default" })), tag: "button", atomOwnsBase: true });
+  add("pr1", { file: "atoms/Button `legacy-destructive` (#16092's 520bc19e6 string; no call site in this stack)", old: cn(LEGACY_BTN({ variant: "destructive", size: "default" })), new: cn(legacyButtonVariants({ variant: "legacy-destructive", size: "legacy-default" })), tag: "button", atomOwnsBase: true });
 }
 
 // ---- PR2 calendar

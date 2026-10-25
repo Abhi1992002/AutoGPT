@@ -310,3 +310,54 @@ POST.append(("`focus:ring-neutral-950` → `focus:ring-focus`; the legacy badge'
 drop(3, "**Rule 31 scanner hit on `atoms/Badge`")
 POST += [("`chipBase` + `chipVariants.secondary`", "`chipLayout` + `chipSizes.default` + `chipBehaviour` + `chipVariants.secondary`"),
          ("and `chipBase` + `secondary`'s are in table 2", "and the chip's (`chipLayout`, `chipSizes.default`, `chipBehaviour`, `secondary`) are in table 2")]
+
+# ===== Cursor gate #16136 findings 4-5 (run1101) =====
+def xpr(k):
+    if k not in (1, 3): return ""
+    pr = {1: "16136", 3: "16139"}[k]
+    t = subprocess.run(["python3", "-I", f"{E}/variants_xpr.py", pr], capture_output=True, text=True).stdout.strip()
+    rows = [l for l in t.split("\n")]
+    body = "\n".join(rows)
+    note = ("\n\nThe two exact duplicates are #16092's `legacy-default` / `legacy-icon` sizes against #16110's `compact` / `compact-icon` (and `legacy-sm` / `compact-sm` differ only by `rounded-md`). "
+            "This PR carries #16092's `atoms/Button` files byte for byte (QUALITY rule 41) and adds no Button name of its own; which family stays is #16092's and #16110's to settle (QUALITY rule 44), raised with the orchestrator."
+            if "h-9 w-9" in t and "OK 0 clashes" not in t else "")
+    return ("#### Rules 35/44: Text, Button and Badge names across open PRs\n\n"
+            f"[`variants_xpr.py`]({{TREE}}/tools/variants_xpr.py): every variant, tone and size each open PR adds or changes against its merge-base with `dev`, for `atoms/Text/helpers.ts`, `atoms/Button/helpers.ts` and `atoms/Badge/Badge.tsx`; the rows are the ones this PR defines, with every PR that defines the same name and string. "
+            "A clash is one name with two strings or one string under two names.\n\n" + body + note)
+_extra_x = extra
+def extra(k):
+    x = xpr(k)
+    return _extra_x(k) + ("\n\n" + x if x else "")
+POST.append(("`legacyButtonVariants` `legacy-outline` + size `default` (`h-9 px-4 py-2`)", "`legacyButtonVariants` `legacy-outline` + size `legacy-default` (`h-9 px-4 py-2`)"))
+
+# ===== Cursor gate #16140 findings 1-2 and the rule-44 ruling (run1128) =====
+PRS[4]["deviations"] = [d for d in PRS[4]["deviations"] if not d.startswith("**`data-slot` on the popover triggers:**")] + [
+    "**`data-slot` from `molecules/Popover`:** `BlockMenu` and `NewSaveControl` now render the molecule's parts, which carry DS7's slots on `dev` (`src/components/molecules/Popover/Popover.tsx`): "
+    "`data-slot=\"popover-trigger\"` on each trigger (`:14`) and `data-slot=\"popover-popup\"` on each `PopoverContent` (`:35`); the legacy popover rendered neither. `DateInput` and `DateTimeInput` pass their own "
+    "`date-input-popup` / `date-time-input-popup` slots (DS7-1, below) and their trigger is the Button's own slot, so nothing changes there. Nothing in `src` targets `popover-trigger` or `popover-popup` "
+    "(styles, tests, tutorial and Playwright selectors use `data-id`). Attributes only: the element, its classes, its Tab order and its pixels are the same."]
+POST_K.setdefault(4, []).append(("the DOM change is the `data-slot` attributes under Deviations", "the DOM change is the `data-slot` attributes under Deviations (`popover-trigger` and `popover-popup` on `BlockMenu` and `NewSaveControl`)"))
+POST_K[4].append(("markup is unchanged apart from the `data-slot` attributes listed under Deviations", "markup is unchanged apart from the `data-slot` attributes listed under Deviations (`popover-trigger`, `popover-popup`)"))
+
+_xpr_a = xpr
+def xpr(k):
+    out = _xpr_a(k)
+    lines = out.split("\n"); kept = []; resolved = 0
+    for l in lines:
+        if (l.startswith("string `h-9 px-4 py-2`") or l.startswith("string `h-9 w-9`")) and "compact" in l:
+            resolved += 1; continue
+        kept.append(l)
+    out = "\n".join(kept)
+    if resolved:
+        out = out.replace("\n\nThe two exact duplicates are", "\n\nResolved, not open: #16092's `legacy-default` / `legacy-icon` sizes have the same strings as #16110's `compact` / `compact-icon`; the orchestrator ruled #16092's `legacy-*` family canonical (QUALITY rule 44, run1101) and #16110 is to adopt it. Recorded for reference: the two exact duplicates are")
+        out = out.replace("which family stays is #16092's and #16110's to settle (QUALITY rule 44), raised with the orchestrator.", "resolved: #16110 to adopt `legacy-*`.")
+        if not re.search(r"(?m)^(name|string) `", out.split("Resolved, not open")[0].split("| --- |")[-1]):
+            out = out.replace("\n\nResolved, not open", "\n\nOK 0 clashes\n\nResolved, not open", 1) if "OK 0 clashes" not in out else out
+    return out
+
+# ===== #16092's helpers.ts at 520bc19e6 (run1128) =====
+COUNT_NOTE[1] = COUNT_NOTE[1].replace("+23 `no-raw-colors` in `src/components/atoms/Button/helpers.ts`", "+22 `no-raw-colors` in `src/components/atoms/Button/helpers.ts`")
+_SWAPS[1].insert(2, ("`text-neutral-50`", "`text-destructive-foreground`", "`legacy-destructive` (#16092's `520bc19e6`; no call site in this PR)", "#FAFAFA", "#FAFAFA", "#FAFAFA (`250 250 250`, the same)", "`dark:text-neutral-50` (kept on both)", "foreground", "text on a destructive fill"))
+POST_K.setdefault(1, []).append(("#FAFAFA is shadcn's `background` (and its `*-foreground` pairs), the page background; the `legacy-*` Button uses it only as `text-neutral-50` on dark fills and in its `dark:` classes, all kept raw.",
+    "#FAFAFA is `destructive-foreground` in `:root` and `.dark` alike, so `legacy-destructive` uses it; `primary-foreground` (#18181B in `.dark`) and `background` (#09090B in `.dark`) do not hold it in both modes, so `legacy-default` keeps raw `text-neutral-50` (QUALITY rule 43; SECRT-3154 pair, Deviations)."))
+PRS[1]["deviations"] = PRS[1]["deviations"] + ["**Rule 13 pair for SECRT-3154:** `legacy-default`'s `text-neutral-50` #FAFAFA ↔ role `primary-foreground`, which is #FAFAFA in `:root` but #18181B in `.dark` (text on the light `.dark` primary fill), so the raw class stays; `atoms/Button/helpers.ts`'s `TODO(tokens)` says so (#16092's `520bc19e6` wording)."]
