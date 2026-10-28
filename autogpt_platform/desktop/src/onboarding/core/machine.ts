@@ -99,7 +99,7 @@ export function initialState(step: StepId, freeze: boolean): OnboardingState {
       ? { phase: "done", attempt: 0, progress: downloadAt(1), log: downloadLogAt(1) }
       : { phase: "idle", attempt: 0, progress: downloadAt(0), log: [] },
     start: started
-      ? { phase: "healthy", attempt: 0, services: servicesAt(Infinity), log: startLogAt(Infinity), polls: 2, health: { ok: true, detail: "GET /health → 200 OK" } }
+      ? { phase: "healthy", attempt: 0, services: servicesAt(Infinity), log: startLogAt(Infinity), polls: 2, health: { ok: true, detail: "GET /health/status → 200 OK" } }
       : { phase: "idle", attempt: 0, services: pendingServices(), log: [], polls: 0 },
     integrations,
     brain: "",

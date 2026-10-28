@@ -1,7 +1,7 @@
 //! Runs backend-docker/run.sh for onboarding and streams its output to the webview.
 //! The frontend side is src/onboarding/core/backend-tauri.ts.
 
-use std::io::{BufRead, BufReader, Read, Write};
+use std::io::{BufRead, BufReader, Read as _, Write};
 use std::net::{SocketAddr, TcpStream};
 use std::path::{Path, PathBuf};
 use std::process::{Command, Stdio};
@@ -75,9 +75,12 @@ fn run_script(script: &Path, action: &str, on_line: &Channel<String>) -> Result<
 pub struct Health {
     ok: bool,
     status: u16,
+    /// The /health/status JSON: {status, version, services: {name: "ok" | "down"}}
+    body: String,
 }
 
-/// GET /health on the local API. Done here rather than in the webview, which the API's CORS rules would block.
+/// GET /health/status on the local API (200 when every service is up, 503 while some are not).
+/// Done here rather than in the webview, which the API's CORS rules would block.
 #[tauri::command]
 pub async fn backend_health() -> Result<Health, String> {
     tauri::async_runtime::spawn_blocking(check_health)
@@ -91,11 +94,12 @@ fn check_health() -> Result<Health, String> {
     let mut stream = TcpStream::connect_timeout(&addr, timeout).map_err(|e| e.to_string())?;
     stream.set_read_timeout(Some(timeout)).map_err(|e| e.to_string())?;
     stream
-        .write_all(format!("GET /health HTTP/1.1\r\nHost: {API_ADDR}\r\nConnection: close\r\n\r\n").as_bytes())
+        .write_all(format!("GET /health/status HTTP/1.1\r\nHost: {API_ADDR}\r\nConnection: close\r\n\r\n").as_bytes())
         .map_err(|e| e.to_string())?;
-    let mut head = [0u8; 64];
-    let n = stream.read(&mut head).map_err(|e| e.to_string())?;
-    let line = String::from_utf8_lossy(&head[..n]);
-    let status = line.split_whitespace().nth(1).and_then(|code| code.parse::<u16>().ok()).unwrap_or(0);
-    Ok(Health { ok: (200..300).contains(&status), status })
+    let mut raw = Vec::new();
+    stream.take(64 * 1024).read_to_end(&mut raw).map_err(|e| e.to_string())?;
+    let text = String::from_utf8_lossy(&raw);
+    let (head, body) = text.split_once("\r\n\r\n").unwrap_or((&text, ""));
+    let status = head.split_whitespace().nth(1).and_then(|code| code.parse::<u16>().ok()).unwrap_or(0);
+    Ok(Health { ok: status == 200, status, body: body.to_string() })
 }

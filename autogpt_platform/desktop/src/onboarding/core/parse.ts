@@ -1,79 +1,81 @@
 import type { Layer, ServiceState, ServiceStatus } from "./backend";
-import { SERVICE_IDS, type ServiceId } from "./data";
+import type { ServiceId } from "./data";
 
-/* Parsers for run.sh output: docker pull progress and container status. */
+/* Parsers for run.sh output and the backend's /health/status. */
 
 const UNITS: Record<string, number> = { B: 1, kB: 1e3, KB: 1e3, MB: 1e6, GB: 1e9 };
-
 const toBytes = (value: string, unit: string) => parseFloat(value) * (UNITS[unit] ?? 1);
+
+/**
+ * Without a TTY, `docker pull` prints each layer's state but not its bytes. Until a byte count
+ * shows up, a layer counts as this many bytes, so the bars still move in proportion.
+ */
+const NOMINAL_LAYER = 40e6;
 
 const LAYER = /(?:^|\s)([0-9a-f]{12})\s*:?\s+(Pulling fs layer|Waiting|Downloading|Verifying Checksum|Download complete|Extracting|Pull complete|Already exists)/;
 const BYTES = /([\d.]+)\s*(B|kB|KB|MB|GB)\s*\/\s*([\d.]+)\s*(B|kB|KB|MB|GB)/;
+/** BuildKit plain progress, e.g. `#12 [server 5/9] RUN poetry install` */
+const BUILD_STEP = /^#\d+ \[(?:[\w.-]+ )?(\d+)\/(\d+)\]/;
 
-/** Updates `layers` in place from one line of `docker pull` / `docker compose pull` output. */
+const SHARE: Record<Layer["status"], number> = { waiting: 0, downloading: 0.4, extracting: 0.9, done: 1 };
+
+/** Updates `layers` in place from one line of `run.sh pull` (docker pull, or a BuildKit build). */
 export function parseLayerLine(line: string, layers: Map<string, Layer>) {
+  const build = BUILD_STEP.exec(line);
+  if (build) {
+    const step = Number(build[1]);
+    const steps = Number(build[2]);
+    const layer = layers.get("build") ?? { id: "build", label: "Building the engine image", received: 0, total: steps * NOMINAL_LAYER, status: "downloading" as const };
+    layer.total = Math.max(layer.total, steps * NOMINAL_LAYER);
+    layer.received = Math.max(layer.received, (step - 1) * NOMINAL_LAYER);
+    layers.set("build", layer);
+    return;
+  }
+
   const match = LAYER.exec(line);
   if (!match) return;
   const [, id, verb] = match;
-  const layer = layers.get(id) ?? { id, label: `Layer ${id.slice(0, 7)}`, received: 0, total: 0, status: "waiting" as const };
+  const layer: Layer & { sized?: boolean } = layers.get(id) ?? { id, label: `Layer ${id.slice(0, 7)}`, received: 0, total: NOMINAL_LAYER, status: "waiting" };
   const bytes = BYTES.exec(line);
   if (bytes) {
-    const received = toBytes(bytes[1], bytes[2]);
-    const total = toBytes(bytes[3], bytes[4]);
-    layer.total = Math.max(layer.total, total);
-    if (verb === "Downloading") layer.received = received;
+    layer.sized = true;
+    layer.total = toBytes(bytes[3], bytes[4]);
+    layer.received = toBytes(bytes[1], bytes[2]);
   }
   if (verb === "Downloading") layer.status = "downloading";
-  if (verb === "Download complete" || verb === "Verifying Checksum" || verb === "Extracting") {
-    layer.received = layer.total;
-    layer.status = "extracting";
-  }
-  if (verb === "Pull complete" || verb === "Already exists") {
-    layer.received = layer.total;
-    layer.status = "done";
-  }
+  if (verb === "Verifying Checksum" || verb === "Download complete" || verb === "Extracting") layer.status = "extracting";
+  if (verb === "Pull complete" || verb === "Already exists") layer.status = "done";
+  if (!layer.sized || layer.status !== "downloading") layer.received = Math.max(layer.received, layer.total * SHARE[layer.status]);
   layers.set(id, layer);
 }
 
-function serviceFor(name: string): ServiceId | null {
-  const n = name.toLowerCase();
-  if (n.includes("postgres") || /\bdb\b|[-_]db/.test(n)) return "db";
-  if (n.includes("redis")) return "redis";
-  if (n.includes("rabbit")) return "rabbitmq";
-  if (n.includes("executor")) return "executor";
-  if (n.includes("rest") || n.includes("api")) return "api";
-  return null;
+/** Every layer done – called when `run.sh pull` exits cleanly, e.g. when the image was already there */
+export function finishLayers(layers: Map<string, Layer>) {
+  if (layers.size === 0) layers.set("image", { id: "image", label: "Engine image", received: NOMINAL_LAYER, total: NOMINAL_LAYER, status: "done" });
+  for (const layer of layers.values()) Object.assign(layer, { received: layer.total, status: "done" });
 }
 
-function stateFor(state: string, health = ""): ServiceState {
-  const s = `${state} ${health}`.toLowerCase();
-  if (/exited|dead|unhealthy|error/.test(s)) return "error";
-  if (/starting|created|restarting/.test(s)) return "starting";
-  if (/running|healthy|up/.test(s)) return "running";
-  return "pending";
-}
+/** /health/status service names → the five rows onboarding shows */
+const HEALTH_SERVICES: Record<string, ServiceId> = { database: "db", redis: "redis", rabbitmq: "rabbitmq", executor: "executor" };
 
-/** Reads `run.sh status`: JSON lines from `docker compose ps --format json`, or `name: state` lines. */
-export function parseStatus(lines: string[], previous: ServiceStatus): ServiceStatus {
-  const next = { ...previous };
-  for (const raw of lines) {
-    const line = raw.trim();
-    if (!line) continue;
-    try {
-      const parsed = JSON.parse(line) as unknown;
-      const rows = Array.isArray(parsed) ? parsed : [parsed];
-      for (const row of rows as Record<string, string>[]) {
-        const id = serviceFor(row.Service ?? row.Name ?? row.name ?? "");
-        if (id) next[id] = stateFor(row.State ?? row.state ?? row.Status ?? "", row.Health ?? row.health);
-      }
-      continue;
-    } catch {
-      /* not JSON – try `name: state` */
+/**
+ * Reads the /health/status body. Any answer means the REST API is up; each listed service is
+ * running when "ok" and still starting when "down".
+ */
+export function servicesFromHealth(body: string, previous: ServiceStatus): ServiceStatus {
+  const next: ServiceStatus = { ...previous, api: "running" };
+  try {
+    const { services } = JSON.parse(body) as { services?: Record<string, string> };
+    for (const [name, state] of Object.entries(services ?? {})) {
+      const id = HEALTH_SERVICES[name];
+      if (id) next[id] = state === "ok" ? "running" : "starting";
     }
-    const [name, ...rest] = line.split(/[:\s]+/);
-    const id = serviceFor(name ?? "");
-    if (id) next[id] = stateFor(rest.join(" "));
+  } catch {
+    /* an answer without JSON still proves the API is up */
   }
-  for (const id of SERVICE_IDS) next[id] ??= "pending";
   return next;
 }
+
+/** Once run.sh starts the container, everything not yet running is starting */
+export const markStarting = (services: ServiceStatus): ServiceStatus =>
+  Object.fromEntries(Object.entries(services).map(([id, s]) => [id, s === "pending" ? ("starting" satisfies ServiceState) : s])) as ServiceStatus;

@@ -39,7 +39,7 @@ export function StartPanel({ flow }: ConsolePanelProps) {
           </tbody>
         </table>
         <p className="small con-health" data-state={healthy ? "ok" : phase} role="status">
-          <span className="mono">GET localhost:8006/health</span>
+          <span className="mono">GET localhost:8006/health/status</span>
           <span>{healthy ? "200 OK" : phase === "checking" ? `waiting · check ${polls + 1}` : "after services start"}</span>
         </p>
       </div>

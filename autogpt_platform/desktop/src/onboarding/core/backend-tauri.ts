@@ -1,17 +1,20 @@
 import { Channel, invoke } from "@tauri-apps/api/core";
 import { abortError, pendingServices, type Backend, type Layer } from "./backend";
-import { parseLayerLine, parseStatus } from "./parse";
+import { finishLayers, markStarting, parseLayerLine, servicesFromHealth } from "./parse";
 
 /*
- * Tauri implementation. Rust runs backend-docker/run.sh and streams each output line over a channel
- * (see src-tauri/src/backend.rs). The contract with run.sh:
- *   run.sh pull    – pulls the images; docker's per-layer progress lines are parsed below
- *   run.sh start   – starts the stack, returns when the containers are up
- *   run.sh status  – `docker compose ps --format json` (one object per line) or `name: state` lines
- * Health is checked in Rust (GET 127.0.0.1:8006/health), since the API's CORS rules block the webview.
+ * Tauri implementation over backend-docker/run.sh (see src-tauri/src/backend.rs):
+ *   run.sh pull   – makes sure the image is there: `docker pull` when AGPT_DESKTOP_IMAGE is set,
+ *                   otherwise a local build; per-layer lines or BuildKit steps drive the bars
+ *   run.sh start  – starts the container and returns once /health/status is ok
+ * Readiness comes from GET 127.0.0.1:8006/health/status, fetched in Rust because the API's
+ * CORS rules block the webview.
  */
 
-type Action = "pull" | "start" | "status";
+type Action = "pull" | "start";
+type RawHealth = { ok: boolean; status: number; body: string };
+
+const POLL_MS = 1500;
 
 async function run(action: Action, onLine: (line: string) => void, signal?: AbortSignal) {
   if (signal?.aborted) throw abortError();
@@ -21,8 +24,10 @@ async function run(action: Action, onLine: (line: string) => void, signal?: Abor
   };
   const code = await invoke<number>("backend_run", { action, onLine: channel });
   if (signal?.aborted) throw abortError();
-  if (code !== 0) throw new Error(`run.sh ${action} exited with code ${code}`);
+  if (code !== 0) throw new Error(`run.sh ${action} exited with code ${code}.`);
 }
+
+const readHealth = () => invoke<RawHealth>("backend_health").catch(() => null);
 
 export function createTauriBackend(): Backend {
   return {
@@ -30,37 +35,37 @@ export function createTauriBackend(): Backend {
 
     async download(onProgress, signal) {
       const layers = new Map<string, Layer>();
+      const report = (line?: string) => {
+        const list = [...layers.values()];
+        onProgress({ layers: list, received: list.reduce((s, l) => s + l.received, 0), total: list.reduce((s, l) => s + l.total, 0), line });
+      };
       await run(
         "pull",
         (line) => {
           parseLayerLine(line, layers);
-          const list = [...layers.values()];
-          onProgress({
-            layers: list,
-            received: list.reduce((sum, l) => sum + l.received, 0),
-            total: list.reduce((sum, l) => sum + l.total, 0),
-            line,
-          });
+          report(line);
         },
         signal,
       );
+      finishLayers(layers);
+      report();
     },
 
     async start(onStatus, signal) {
       let services = pendingServices();
       let lastLine: string | undefined;
       const poll = async () => {
-        const lines: string[] = [];
-        await run("status", (line) => lines.push(line)).catch(() => undefined);
-        services = parseStatus(lines, services);
+        const health = await readHealth();
+        if (health?.status) services = servicesFromHealth(health.body, services);
         onStatus({ services, line: lastLine });
       };
-      const timer = setInterval(poll, 1500);
+      const timer = setInterval(poll, POLL_MS);
       try {
         await run(
           "start",
           (line) => {
             lastLine = line;
+            services = markStarting(services);
             onStatus({ services, line });
           },
           signal,
@@ -72,12 +77,9 @@ export function createTauriBackend(): Backend {
     },
 
     async health() {
-      try {
-        const { ok, status } = await invoke<{ ok: boolean; status: number }>("backend_health");
-        return { ok, detail: `GET /health → ${status}${ok ? " OK" : ""}` };
-      } catch {
-        return { ok: false, detail: "GET /health → connection refused" };
-      }
+      const health = await readHealth();
+      if (!health?.status) return { ok: false, detail: "GET /health/status → connection refused" };
+      return { ok: health.ok, detail: `GET /health/status → ${health.status}${health.ok ? " OK" : ""}` };
     },
   };
 }

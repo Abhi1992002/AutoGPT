@@ -2,6 +2,7 @@
 # AutoGPT Desktop backend: runs the whole AutoGPT backend in one local Docker container.
 #
 #   ./run.sh start    build (or pull) the image if needed, start the container, wait until healthy
+#   ./run.sh pull     only make sure the image is there (pull or build); the app's download step
 #   ./run.sh stop     stop the container; data is kept
 #   ./run.sh status   container state and service health; exits 0 only when healthy
 #   ./run.sh logs     follow the container logs (extra args go to `docker logs`)
@@ -210,14 +211,15 @@ cmd_reset() {
 }
 
 usage() {
-  sed -n '2,9p' "${BASH_SOURCE[0]:-$0}" 2> /dev/null | sed 's/^# \{0,1\}//' ||
-    echo "usage: run.sh start|stop|status|logs|reset|build"
+  sed -n '2,10p' "${BASH_SOURCE[0]:-$0}" 2> /dev/null | sed 's/^# \{0,1\}//' ||
+    echo "usage: run.sh start|pull|stop|status|logs|reset|build"
 }
 
 command="${1:-}"
 [[ $# -gt 0 ]] && shift
 case "${command}" in
   start) cmd_start ;;
+  pull) require_docker && ensure_image ;;
   stop) cmd_stop ;;
   status) cmd_status ;;
   logs) cmd_logs "$@" ;;

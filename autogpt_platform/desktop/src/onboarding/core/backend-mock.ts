@@ -117,7 +117,7 @@ export function createMockBackend(): Backend {
     async health() {
       await wait(450);
       healthPolls += 1;
-      return healthPolls >= 2 ? { ok: true, detail: "GET /health → 200 OK" } : { ok: false, detail: "GET /health → connection refused" };
+      return healthPolls >= 2 ? { ok: true, detail: "GET /health/status → 200 OK" } : { ok: false, detail: "GET /health/status → connection refused" };
     },
   };
 }
