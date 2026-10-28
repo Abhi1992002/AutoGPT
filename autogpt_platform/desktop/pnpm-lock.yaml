@@ -11,6 +11,12 @@ importers:
       '@fontsource/inter':
         specifier: ^5.2.8
         version: 5.3.0
+      '@hugeicons/core-free-icons':
+        specifier: ^4.3.5
+        version: 4.3.5
+      '@hugeicons/react':
+        specifier: ^1.1.10
+        version: 1.1.10(react@19.3.1)
       '@tauri-apps/api':
         specifier: ^2
         version: 2.12.4
@@ -20,6 +26,12 @@ importers:
       '@tauri-apps/plugin-updater':
         specifier: ^2.14.1
         version: 2.14.1
+      bot-avatars:
+        specifier: ^0.2.2
+        version: 0.2.2(react@19.3.1)
+      framer-motion:
+        specifier: ^14.7.1
+        version: 14.7.1(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       inter-ui:
         specifier: ^4.1.1
         version: 4.1.1
@@ -56,6 +68,14 @@ packages:
 
   '@fontsource/inter@5.3.0':
     resolution: {integrity: sha512-RofMylZmjlJEfELXeNHFWBRcSs75rGU/6bV2S2jfnvv/3rPXPGe0LgUJTklcHZ9lM4OZmAVFhcJPnACfb91A3g==}
+
+  '@hugeicons/core-free-icons@4.3.5':
+    resolution: {integrity: sha512-Sv+NjHRPnQk+yZsGCMcGznCHdTfJR9PMMOEKcJYAQU4gy90dmlc9PwdtvYOImBZIjiheMsTLL5eMn2DmHxUiUg==}
+
+  '@hugeicons/react@1.1.10':
+    resolution: {integrity: sha512-9tAsd92yMVVGP+E+d8cM+wc0VnXuYZHNbWQi7TOe8k2neawmhiaFmVFbzyruejhOMa197/LbgvSED32ayUo3ZA==}
+    peerDependencies:
+      react: '>=16.0.0'
 
   '@oxc-project/types@0.155.0':
     resolution: {integrity: sha512-SeE8JPwW1xs1tHeNycjUtUBdhorRa8o4jlvjwk49R7/Z291i+4DQa7JJIgOm/TaYQZx+QrPQbVJ/9c8dMIZN8Q==}
@@ -257,6 +277,11 @@ packages:
       oxc-transform-react:
         optional: true
 
+  bot-avatars@0.2.2:
+    resolution: {integrity: sha512-EszpDsXfbO7SD3Jv/g8/7mt3I4EpN4WuDy6Uk3reuzIgU+dl4iKtk+fuIzGgfXjOraF1jQqUjaDOdcql1khXHQ==}
+    peerDependencies:
+      react: '>=18.0.0'
+
   csstype@3.2.3:
     resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
 
@@ -271,6 +296,17 @@ packages:
       picomatch: ^3 || ^4
     peerDependenciesMeta:
       picomatch:
+        optional: true
+
+  framer-motion@14.7.1:
+    resolution: {integrity: sha512-mFDYZxyfeZnpvL/zEQEqLZNYVA/ya47c9TBfZb/PEoNBBVSVvCLkMrCv9U38cuw72W161XENZwZB0+4nIBLEJg==}
+    peerDependencies:
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
         optional: true
 
   fsevents@2.3.3:
@@ -361,6 +397,12 @@ packages:
       '@types/react':
         optional: true
 
+  motion-dom@14.7.1:
+    resolution: {integrity: sha512-p9q9F7+HoijbQjUG/cSGNmWS2t1OaAKxkd2RG5gQJRoDwoTap/Khb7K1P5rLW90crnSmx0rcRXzh3Jd5UNrpEw==}
+
+  motion-utils@14.7.0:
+    resolution: {integrity: sha512-woO0/Nb7ys75f94fjvQi/6leiHGvZUYkeHUPEZ3vxsV+9OpEVhkxp01x8MlRwX0zt31EqgXsKDAoBoJLC148Tw==}
+
   nanoid@3.3.20:
     resolution: {integrity: sha512-uKdg2G3GNCKQn9byYOpxbGqrT2fGO5KRt5J/8b3pok8rT6qxGWF6hxMyJiEYtAf+FVyYuD9hRaDqX5uPFYJ4ZQ==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -401,6 +443,9 @@ packages:
   tinyglobby@0.2.17:
     resolution: {integrity: sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==}
     engines: {node: '>=12.0.0'}
+
+  tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
   typescript@6.0.3:
     resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
@@ -453,6 +498,12 @@ packages:
 snapshots:
 
   '@fontsource/inter@5.3.0': {}
+
+  '@hugeicons/core-free-icons@4.3.5': {}
+
+  '@hugeicons/react@1.1.10(react@19.3.1)':
+    dependencies:
+      react: 19.3.1
 
   '@oxc-project/types@0.155.0': {}
 
@@ -573,6 +624,10 @@ snapshots:
       '@rolldown/pluginutils': 1.0.1
       vite: 8.3.5
 
+  bot-avatars@0.2.2(react@19.3.1):
+    dependencies:
+      react: 19.3.1
+
   csstype@3.2.3: {}
 
   detect-libc@2.1.2: {}
@@ -580,6 +635,15 @@ snapshots:
   fdir@6.5.0(picomatch@4.0.7):
     optionalDependencies:
       picomatch: 4.0.7
+
+  framer-motion@14.7.1(react-dom@19.3.1(react@19.3.1))(react@19.3.1):
+    dependencies:
+      motion-dom: 14.7.1
+      motion-utils: 14.7.0
+      tslib: 2.8.1
+    optionalDependencies:
+      react: 19.3.1
+      react-dom: 19.3.1(react@19.3.1)
 
   fsevents@2.3.3:
     optional: true
@@ -641,6 +705,12 @@ snapshots:
     optionalDependencies:
       '@types/react': 19.3.0
 
+  motion-dom@14.7.1:
+    dependencies:
+      motion-utils: 14.7.0
+
+  motion-utils@14.7.0: {}
+
   nanoid@3.3.20: {}
 
   picocolors@1.1.1: {}
@@ -689,6 +759,8 @@ snapshots:
     dependencies:
       fdir: 6.5.0(picomatch@4.0.7)
       picomatch: 4.0.7
+
+  tslib@2.8.1: {}
 
   typescript@6.0.3: {}
 

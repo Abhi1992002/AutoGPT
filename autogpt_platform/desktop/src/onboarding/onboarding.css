@@ -1,0 +1,94 @@
+/*
+ * Onboarding – the purple ramp and the display sizes the design system doesn't carry.
+ * Ramp: one hue (OKLCH h≈295), anchored on the app icon tile #321f58 → #100a1e.
+ */
+
+.ob {
+  --ob-50: #f7f5fe;
+  --ob-100: #efecfe;
+  --ob-200: #e0d8fc;
+  --ob-300: #c8b9f9;
+  --ob-400: #ac91f2;
+  --ob-500: #906ce0;
+  --ob-600: #764ec6;
+  --ob-700: #5c379f;
+  --ob-800: #321f58;
+  --ob-900: #1c0f34;
+  --ob-950: #100a1e;
+
+  /* Roles */
+  --ob-canvas: var(--ob-50);
+  --ob-accent: var(--ob-600);
+  --ob-accent-soft: rgba(118, 78, 198, 0.1);
+  --ob-accent-text: var(--ob-600);
+  --ob-glow: rgba(144, 108, 224, 0.18);
+  --ob-stage-top: var(--ob-800);
+  --ob-stage-bottom: var(--ob-950);
+
+  /* The design system's accent follows the brand inside onboarding */
+  --ds-accent: var(--ob-accent);
+  --ds-accent-text: var(--ob-accent-text);
+  --ds-accent-soft: var(--ob-accent-soft);
+  --ds-focus: var(--ob-500);
+
+  position: relative;
+  min-height: 100dvh;
+  color: var(--ds-ink);
+  isolation: isolate;
+}
+
+.dark .ob,
+.ob.dark {
+  --ob-canvas: #141118;
+  --ob-accent: var(--ob-400);
+  --ob-accent-soft: rgba(172, 145, 242, 0.14);
+  --ob-accent-text: var(--ob-300);
+  --ob-glow: rgba(118, 78, 198, 0.22);
+  --ds-focus: var(--ob-300);
+}
+
+/* Primary buttons carry the brand purple; the design system's dark gradient becomes a purple one */
+.ob .ui-button {
+  --ui-btn-on-ink: #ffffff;
+  --ui-btn-dark-top: #7f58cf;
+  --ui-btn-dark-bottom: #6942b6;
+  --ui-btn-dark-hover-top: #8963d8;
+  --ui-btn-dark-hover-bottom: #724bbf;
+  --ui-btn-edge-top: #a387e8;
+  --ui-btn-edge-mid: #6d47ba;
+  --ui-btn-edge-bottom: #4b2d88;
+  --ui-btn-ring: #3d2470;
+  --ui-btn-dark-shadow: rgba(50, 31, 88, 0.28);
+  --ui-btn-shine-on-ink: rgba(255, 255, 255, 0.9);
+  --ui-btn-focus: var(--ds-focus);
+}
+
+/* Display type – onboarding headlines sit above the app's 16px title step */
+.ob-hero { font: 600 56px/1.05 var(--font-sans); letter-spacing: -0.03em; text-wrap: balance; }
+.ob-display { font: 600 30px/1.15 var(--font-sans); letter-spacing: -0.02em; text-wrap: balance; }
+.ob-lead { font: 400 16px/1.55 var(--font-sans); letter-spacing: 0; text-wrap: pretty; }
+.ob-num { font-variant-numeric: tabular-nums; }
+
+@media (max-width: 720px) {
+  .ob-hero { font-size: 40px; }
+  .ob-display { font-size: 26px; }
+}
+
+:where(.ob) :where(h1, h2, h3, p, ul, ol) { margin: 0; }
+:where(.ob) :where(h1, h2, h3)[tabindex="-1"]:focus { outline: none; }
+
+.ob-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* Integration and chip buttons share one focus ring */
+.ob :where(button, textarea, [tabindex="0"]):focus-visible {
+  outline: 2px solid var(--ds-focus);
+  outline-offset: 2px;
+}
