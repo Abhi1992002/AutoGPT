@@ -18,9 +18,9 @@ import { Row } from "./Row";
 import { Section } from "./Section";
 
 const menuItems = [
-  { label: "Run now", icon: <Icon icon={Play} size="md" />, shortcut: "Ctrl R" },
-  { label: "Edit in builder", icon: <Icon icon={Pencil} size="md" />, shortcut: "Ctrl E" },
-  { label: "Duplicate", icon: <Icon icon={Copy} size="md" /> },
+  { label: "Run now", icon: <Icon icon={Play} size="md" />, shortcut: "⌘R" },
+  { label: "Edit in builder", icon: <Icon icon={Pencil} size="md" />, shortcut: "⌘E" },
+  { label: "Duplicate", icon: <Icon icon={Copy} size="md" />, shortcut: "⇧⌘D" },
   { kind: "separator" as const },
   { kind: "label" as const, label: "Danger zone" },
   { label: "Archive", icon: <Icon icon={Archive} size="md" />, disabled: true },
@@ -99,7 +99,7 @@ export function Level3Section() {
           <DropdownMenu trigger={(props) => <Button variant="secondary" iconRight={<MoreHorizontal />} {...props}>Actions</Button>} items={menuItems} />
           <DropdownMenu align="end" trigger={(props) => <Button variant="ghost" icon={<Settings />} aria-label="Settings" {...props} />} items={menuItems.slice(0, 3)} />
         </Row>
-        <Row label="Open">
+        <Row label="Open" align="start">
           <div className="demo-open">
             <DropdownMenu open onOpenChange={() => {}} trigger={(props) => <Button variant="secondary" iconRight={<MoreHorizontal />} {...props}>Actions</Button>} items={menuItems} />
           </div>
@@ -119,7 +119,7 @@ export function Level3Section() {
             <span className="body">Opens above its trigger.</span>
           </Popover>
         </Row>
-        <Row label="Open">
+        <Row label="Open" align="start">
           <div className="demo-open">
             <Popover open onOpenChange={() => {}} width={280} trigger={(props) => <Button variant="secondary" {...props}>Run settings</Button>}>
               <div className="stack">

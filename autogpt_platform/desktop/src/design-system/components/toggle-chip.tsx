@@ -81,7 +81,7 @@ const css = /* css */ `
 .ui-chip:active { transform: scale(0.97); }
 .ui-chip[data-on] { background: var(--ds-ink); color: var(--ds-surface); }
 .ui-chip[data-on]:hover { background: var(--ds-ink); }
-.ui-chip[data-disabled] { opacity: 0.4; pointer-events: none; }
+.ui-chip[data-disabled] { opacity: 0.6; pointer-events: none; }
 .ui-chip button { display: inline-flex; align-items: center; gap: 6px; height: 100%; margin: 0; padding: 0; border: 0; background: none; font: inherit; color: inherit; cursor: pointer; -webkit-tap-highlight-color: transparent; }
 .ui-chip__main { padding: 0 7px !important; min-width: 0; }
 .ui-chip__label { min-width: 0; overflow: hidden; text-overflow: ellipsis; }

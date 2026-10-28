@@ -39,7 +39,7 @@ const css = /* css */ `
 .ui-link:hover { color: var(--ds-ink); text-decoration-color: currentColor; }
 .ui-link[data-tone="accent"] { color: var(--ds-accent-text); }
 .ui-link[data-tone="accent"]:hover { color: var(--ds-accent-text); }
-.ui-link[data-tone="muted"] { color: var(--ds-muted); }
+.ui-link[data-tone="muted"] { color: var(--ds-soft); }
 .ui-link[data-underline="hover"] { text-decoration-color: transparent; }
 .ui-link[data-underline="hover"]:hover { text-decoration-color: currentColor; }
 .ui-link:focus-visible { outline: 2px solid var(--ds-focus); outline-offset: 3px; }

@@ -490,7 +490,7 @@ const css = /* css */ `
 }
 .ui-seg[data-ready]:not([data-full]) .ui-seg__opt { transition: color 200ms ease, width 320ms var(--ui-seg-ease); }
 .ui-seg__opt[data-active] { color: var(--ui-seg-ink); }
-.ui-seg__opt:disabled { opacity: 0.4; cursor: not-allowed; }
+.ui-seg__opt:disabled { opacity: 0.6; color: var(--ui-seg-text); cursor: not-allowed; }
 .ui-seg__opt:focus-visible { outline: 2px solid var(--ui-seg-focus); outline-offset: 0; }
 @media (hover: hover) {
   .ui-seg__opt:not([data-active]):not(:disabled):hover { color: var(--ui-seg-text); }

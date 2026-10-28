@@ -190,7 +190,7 @@ const css = /* css */ `
 }
 .ui-select__option[data-active] { background: var(--ds-hover); color: var(--ds-ink); }
 .ui-select__option[aria-selected="true"] { color: var(--ds-ink); }
-.ui-select__option[aria-disabled] { opacity: 0.4; cursor: default; }
+.ui-select__option[aria-disabled] { opacity: 0.55; color: var(--ds-ink); cursor: default; }
 .ui-select__icon { display: grid; place-items: center; flex: none; color: var(--ds-soft); }
 .ui-select__text { display: grid; flex: 1; min-width: 0; overflow-wrap: anywhere; }
 .ui-select__label { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }

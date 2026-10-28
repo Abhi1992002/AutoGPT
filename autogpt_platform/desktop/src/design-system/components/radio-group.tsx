@@ -72,12 +72,12 @@ export function RadioGroup<T extends string = string>({ options, value, defaultV
 
 const css = /* css */ `
 .ui-radio { --ui-rd-ring: #8f8f8f; --ui-rd-dot: #ffffff; margin: 0; padding: 0; border: 0; min-width: 0; }
-.ui-radio:disabled { opacity: 0.5; pointer-events: none; }
+.ui-radio:disabled { opacity: 0.6; pointer-events: none; }
 .ui-radio__legend { padding: 0; margin: 0 0 8px; font: 500 13px/20px var(--font-sans); color: var(--ds-ink); }
 .ui-radio__options { display: flex; flex-direction: column; gap: 8px; }
 .ui-radio[data-orientation="horizontal"] .ui-radio__options { flex-direction: row; flex-wrap: wrap; gap: 8px 20px; }
 .ui-radio__option { display: inline-flex; align-items: flex-start; gap: 10px; max-width: 100%; cursor: pointer; -webkit-tap-highlight-color: transparent; user-select: none; }
-.ui-radio__option[data-disabled] { opacity: 0.5; cursor: default; pointer-events: none; }
+.ui-radio__option[data-disabled] { opacity: 0.6; cursor: default; pointer-events: none; }
 .ui-radio__input { position: absolute; width: 1px; height: 1px; margin: 0; opacity: 0; pointer-events: none; }
 .ui-radio__ring {
   display: grid;

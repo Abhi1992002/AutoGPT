@@ -59,7 +59,7 @@ const css = /* css */ `
 .ui-field { display: grid; gap: 6px; width: 100%; min-width: 0; font-family: var(--font-sans); }
 .ui-field__label { display: inline-flex; gap: 2px; font: 500 13px/20px var(--font-sans); color: var(--ds-ink); }
 .ui-field__req { color: var(--ds-danger); }
-.ui-field__help { margin: 0; font: 400 12px/16px var(--font-sans); color: var(--ds-muted); }
+.ui-field__help { margin: 0; font: 400 12px/16px var(--font-sans); color: var(--ds-soft); }
 .ui-field__error { margin: 0; font: 500 12px/16px var(--font-sans); color: var(--ds-danger); animation: ui-field-in 200ms var(--ds-ease) both; }
 @keyframes ui-field-in { from { opacity: 0; transform: translateY(-3px); } }
 

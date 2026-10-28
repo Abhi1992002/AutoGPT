@@ -42,7 +42,7 @@ export function TypographySection() {
           <div className="type-sample">
             <code className="type-sample__name">code / kbd</code>
             <span className="body">
-              Press <kbd>Ctrl</kbd> <kbd>K</kbd> to open the palette, then type <code>deploy --env prod</code> to ship.
+              Press <kbd>⌘</kbd> <kbd>K</kbd> to open the palette, <kbd>⇧</kbd> <kbd>⌘</kbd> <kbd>P</kbd> for commands, <kbd>⌥</kbd> <kbd>⌃</kbd> <kbd>⎋</kbd> to leave, then type <code>deploy --env prod</code> to ship.
             </span>
             <span className="type-sample__spec caption">0.85em mono · 22px keycap</span>
           </div>

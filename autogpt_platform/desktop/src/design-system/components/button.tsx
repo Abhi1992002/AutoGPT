@@ -320,8 +320,11 @@ const css = /* css */ `
   outline-offset: 2px;
 }
 .ui-button:disabled {
-  opacity: 0.4;
+  opacity: 0.55;
   cursor: default;
+}
+.ui-button[data-variant="ghost"]:disabled {
+  color: var(--ui-btn-hover);
 }
 .ui-button[data-loading] {
   cursor: default;

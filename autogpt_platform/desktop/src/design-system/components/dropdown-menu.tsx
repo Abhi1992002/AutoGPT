@@ -131,8 +131,8 @@ const css = /* css */ `
 }
 .ui-menu__item:hover, .ui-menu__item:focus-visible { background: var(--ds-hover); color: var(--ds-ink); outline: none; }
 .ui-menu__item:active { background: #efefef; }
-.ui-menu__item[aria-disabled] { opacity: 0.4; cursor: default; }
-.ui-menu__item[aria-disabled]:hover { background: transparent; color: var(--ds-text); }
+.ui-menu__item[aria-disabled] { opacity: 0.55; color: var(--ds-ink); cursor: default; }
+.ui-menu__item[aria-disabled]:hover { background: transparent; color: var(--ds-ink); }
 .ui-menu__item[data-tone="danger"] { color: var(--ds-danger); }
 .ui-menu__item[data-tone="danger"]:hover, .ui-menu__item[data-tone="danger"]:focus-visible { color: var(--ds-danger); background: rgba(229, 72, 77, 0.08); }
 .ui-menu__icon { display: grid; place-items: center; flex: none; width: 20px; height: 20px; color: var(--ds-soft); transition: color 160ms ease; }

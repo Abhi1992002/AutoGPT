@@ -75,7 +75,7 @@ const css = /* css */ `
   -webkit-tap-highlight-color: transparent;
   user-select: none;
 }
-.ui-checkbox[data-disabled] { opacity: 0.5; cursor: default; pointer-events: none; }
+.ui-checkbox[data-disabled] { opacity: 0.6; cursor: default; pointer-events: none; }
 .ui-checkbox__input { position: absolute; width: 1px; height: 1px; margin: 0; opacity: 0; pointer-events: none; }
 .ui-checkbox__box {
   position: relative;

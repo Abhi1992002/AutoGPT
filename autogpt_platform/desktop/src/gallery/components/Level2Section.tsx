@@ -19,10 +19,10 @@ import { Section } from "./Section";
 import { SegmentedControlBlock } from "./SegmentedControlBlock";
 
 const models = [
-  { value: "claude", label: "Claude Fable 5.1", description: "Most capable", icon: <Icon icon={Sparkles} /> },
-  { value: "gpt", label: "GPT-6 Astra", description: "OpenAI", icon: <Icon icon={Bot} /> },
-  { value: "local", label: "Local model", description: "Runs on this machine", icon: <Icon icon={Cpu} /> },
-  { value: "legacy", label: "Legacy model", description: "No longer available", icon: <Icon icon={Globe} />, disabled: true },
+  { value: "gpt-4o", label: "GPT-4o", description: "OpenAI", icon: <Icon icon={Bot} /> },
+  { value: "claude-sonnet-4", label: "Claude Sonnet 4", description: "Anthropic", icon: <Icon icon={Sparkles} /> },
+  { value: "llama-3.1-8b", label: "Llama 3.1 8B (local)", description: "Runs on this machine", icon: <Icon icon={Cpu} /> },
+  { value: "gpt-3.5", label: "GPT-3.5 Turbo", description: "Retired", icon: <Icon icon={Globe} />, disabled: true },
 ];
 
 const plainOptions = [
@@ -91,7 +91,7 @@ export function Level2Section() {
 
       <Block title="Select" description="A control box opening the email-draft menu list; arrow keys move, typing jumps.">
         <Row label="Options" layout="fields">
-          <Select label="Model" options={models} defaultValue="claude" help="Which model runs the agent." />
+          <Select label="Model" options={models} defaultValue="claude-sonnet-4" help="Which model runs the agent." />
           <Select label="Schedule" options={plainOptions} placeholder="Pick a cadence" />
           <Select label="With error" options={plainOptions} error="Choose a schedule." />
           <Select label="Disabled" options={plainOptions} defaultValue="daily" disabled />
