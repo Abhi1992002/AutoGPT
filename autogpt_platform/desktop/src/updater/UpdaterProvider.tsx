@@ -5,11 +5,10 @@ import { check, type Update } from "@tauri-apps/plugin-updater";
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from "react";
 
 /*
- * In-app updates. Checks the GitHub release feed on launch and every 30 minutes; the prompt and the
- * Settings screen share this state, so a download started in one shows its progress in the other.
+ * In-app updates. Checks the GitHub release feed once on launch and when asked from Settings; the
+ * prompt and the Settings screen share this state, so a download started in one shows its progress in
+ * the other.
  */
-
-const CHECK_EVERY_MS = 30 * 60 * 1000;
 
 export type UpdaterStatus =
   | { kind: "idle" }
@@ -60,12 +59,10 @@ export function UpdaterProvider({ children }: { children: ReactNode }) {
   const [lastChecked, setLastChecked] = useState<Date | null>(null);
   const [prompt, setPrompt] = useState<Update | null>(null);
 
-  // Mirrors for the interval callback, which outlives any single render
+  // Mirrors for the async callbacks, which outlive the render that started them
   const statusRef = useRef(status);
   const updateRef = useRef(update);
   const checking = useRef(false);
-  const dismissed = useRef(new Set<string>());
-
   const setStatus = useCallback((next: UpdaterStatus) => {
     statusRef.current = next;
     setStatusState(next);
@@ -93,7 +90,7 @@ export function UpdaterProvider({ children }: { children: ReactNode }) {
           return;
         }
         setStatus({ kind: "available" });
-        if (silent && !dismissed.current.has(found.version)) setPrompt(found);
+        if (silent) setPrompt(found);
       } catch (e) {
         if (silent) console.warn("Update check failed", e);
         else setStatus({ kind: "error", message: errorMessage(e) });
@@ -142,19 +139,12 @@ export function UpdaterProvider({ children }: { children: ReactNode }) {
     if (await download()) await restart();
   }, [download, restart]);
 
-  const dismissPrompt = useCallback(() => {
-    setPrompt((current) => {
-      if (current) dismissed.current.add(current.version);
-      return null;
-    });
-  }, []);
+  const dismissPrompt = useCallback(() => setPrompt(null), []);
 
   useEffect(() => {
     if (!supported) return;
     getVersion().then(setCurrentVersion, () => {});
     void runCheck(true);
-    const timer = window.setInterval(() => void runCheck(true), CHECK_EVERY_MS);
-    return () => window.clearInterval(timer);
   }, [supported, runCheck]);
 
   const value: UpdaterContextValue = {

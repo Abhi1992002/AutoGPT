@@ -21,15 +21,23 @@ pnpm tauri build --config '{"bundle":{"createUpdaterArtifacts":false}}'
 
 ## Releases
 
-Every push to `desktop/scaffold` that touches `autogpt_platform/desktop/**` runs
-[`.github/workflows/desktop-release.yml`](../../.github/workflows/desktop-release.yml). It can also be started by
-hand from the Actions tab (**Desktop Release → Run workflow**). The job:
+Releases are manual. Open **Actions → Desktop Release → Run workflow**
+([`.github/workflows/desktop-release.yml`](../../.github/workflows/desktop-release.yml)), pick the branch to build
+(`desktop/scaffold`) and fill in:
 
-1. sets the version to `0.1.<run number>` in `tauri.conf.json`, `Cargo.toml` and `package.json`;
+- **version** (required), e.g. `0.2.0`. It must be higher than the last release, or installed apps won't
+  see it as an update.
+- **notes** (optional): release notes for the release page and the app's update dialog.
+
+The job:
+
+1. sets the version in `tauri.conf.json`, `Cargo.toml` and `package.json`;
 2. builds a universal macOS app (Apple Silicon and Intel) with `tauri-apps/tauri-action`;
 3. signs the updater bundle with the `TAURI_SIGNING_PRIVATE_KEY` / `TAURI_SIGNING_PRIVATE_KEY_PASSWORD` repo secrets;
-4. publishes the GitHub Release `desktop-v0.1.<run number>` with the `.dmg`, the updater bundle
-   (`.app.tar.gz` + `.sig`) and `latest.json`. The release notes list the commits since the previous release.
+4. publishes the GitHub Release `desktop-v<version>` with the `.dmg`, the updater bundle (`.app.tar.gz` + `.sig`)
+   and `latest.json`, which carries the notes.
+
+Pushing code does not publish anything.
 
 ## Installing the first build
 
@@ -51,11 +59,11 @@ You only do this once. Updates installed from inside the app open normally.
 
 - The app reads
   [`releases/latest/download/latest.json`](https://github.com/Abhi1992002/autogpt-desktop-v2/releases/latest/download/latest.json)
-  when it starts and every 30 minutes after that. GitHub serves this file from the newest published release, which
-  is always the newest desktop build.
+  once, quietly, each time it starts. GitHub serves this file from the newest published release, which is always the
+  newest desktop build.
 - When a newer version is listed, a dialog shows **Update available vX → vY** with the release notes.
-  **Update & restart** downloads it, installs it and relaunches the app. **Later** hides the dialog for that version
-  until the next launch.
+  **Update & restart** downloads it, installs it and relaunches the app. **Later** closes the dialog until the next
+  launch. If there's no update, nothing is shown.
 - **Settings** (the button at the top of the gallery) shows the current version and has **Check for updates**.
   When an update is found you can download it there while a progress bar shows how far it got, then click
   **Restart to update**.

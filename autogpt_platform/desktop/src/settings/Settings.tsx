@@ -30,7 +30,7 @@ function UpdatesCard() {
   return (
     <Card
       title="Updates"
-      description="AutoGPT Desktop checks for a new version when it starts and every 30 minutes."
+      description="AutoGPT Desktop checks for a new version each time it starts."
       actions={
         supported && (
           <Button variant="secondary" size="sm" icon={<Icon icon={RefreshCw} />} loading={status.kind === "checking"} disabled={busy} onClick={() => void checkNow()}>
