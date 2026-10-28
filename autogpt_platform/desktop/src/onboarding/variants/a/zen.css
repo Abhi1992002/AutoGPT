@@ -36,8 +36,7 @@
 .zen-stack { display: grid; gap: 12px; }
 
 /* Welcome and done: Otto with the experts tucked beside */
-.zen-team { display: inline-flex; align-items: flex-end; }
-.zen-team > .ob-stack { margin-inline-start: -6px; --ob-cut: var(--ob-canvas); }
+.zen-team { --ob-cut: var(--ob-canvas); }
 .zen-plan__n { width: 12px; color: var(--ds-muted); font: 500 12px/16px var(--font-sans); }
 .zen-plan__icon { color: var(--ds-soft); }
 
@@ -83,3 +82,20 @@
 .zen-drafting { display: grid; gap: 2px; padding: 4px 12px 10px 38px; }
 .zen-drafting li { display: flex; align-items: center; gap: 8px; min-height: 28px; }
 .zen-drafting .ob-meta:last-child { margin-inline-start: auto; }
+
+/* Zen reads about 10% larger than the app's dense scale, so a single column fills 1280×800 */
+.zen__col { width: min(100%, 528px); }
+.zen__col[data-wide] { width: min(100%, 616px); }
+.zen .ob-display { font-size: 27px; }
+.zen__col[data-bookend] .ob-display { font-size: 31px; }
+.zen .ob-lead { font-size: 15px; }
+.zen__col .ob-label, .zen__col .ob-text { font-size: 14px; line-height: 22px; }
+.zen__col .ob-meta { font-size: 13px; line-height: 18px; }
+.zen__col .ob-mono { font-size: 12.5px; }
+.zen__col .ob-row { min-height: 44px; padding-inline: 14px; }
+.zen__col .ob-tile--lg { width: 40px; height: 40px; }
+.zen__col .ob-chip { height: 30px; font-size: 13px; }
+.zen__col .ob-composer textarea { font-size: 15px; }
+.zen__col .ob-run__prompt { font-size: 15px; }
+.zen__col .ob-tool { padding: 12px; }
+.zen-meter { padding: 14px; }

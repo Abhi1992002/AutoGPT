@@ -29,5 +29,5 @@
 .ob-understood__task { display: flex; align-items: center; gap: 10px; min-height: 40px; padding: 0 12px 0 8px; border: 1px solid var(--ds-line); border-radius: var(--ds-radius-md); background: var(--ds-surface); }
 .ob-understood__task > .ob-label { min-width: 0; }
 .ob-understood__when { display: inline-flex; flex: none; align-items: center; gap: 4px; margin-inline-start: auto; white-space: nowrap; }
-.ob-understood__empty { display: inline-flex; align-items: center; height: 24px; padding: 0 8px; border: 1px dashed var(--ds-line-strong); border-radius: 12px; color: var(--ds-muted); }
+.ob-understood__empty { display: inline-flex; align-items: center; height: 24px; padding: 0 8px; border: 1px dashed var(--ds-line-strong); border-radius: 12px; color: var(--ds-soft); }
 .ob-understood__empty[data-rows] { display: flex; height: 40px; padding: 0 12px; border-radius: var(--ds-radius-md); }

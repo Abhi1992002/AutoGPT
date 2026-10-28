@@ -3,6 +3,9 @@
 .ob.story {
   --ob-canvas: #0b0b0c;
   --story-window: #111113;
+  /* Secondary text holds 4.5:1 or more on the stage and inside windows */
+  --ds-soft: #8b8b93;
+  --ds-muted: #85858d;
   display: grid;
   grid-template-rows: auto minmax(0, 1fr);
   padding: 0 40px;
@@ -18,18 +21,20 @@
 /* Split stage */
 .story__split {
   display: grid;
-  grid-template-columns: minmax(0, 400px) minmax(0, 560px);
+  grid-template-columns: minmax(0, 420px) minmax(0, 620px);
   align-items: center;
+  align-content: center;
   justify-content: center;
   gap: 72px;
-  padding-block: 8px 48px;
+  /* The bottom pad matches the top bar, so the block sits on the window's centre line */
+  padding-block: 0 64px;
 }
 @media (max-width: 1080px) {
   .story__split { grid-template-columns: minmax(0, 1fr); gap: 32px; align-content: start; max-width: 560px; margin-inline: auto; }
 }
 .story__copy { display: grid; gap: 16px; }
-.story .ob-hero { font-size: 40px; }
-.story__lead { font-size: 15px; }
+.story .ob-hero { font-size: 44px; }
+.story__lead { font-size: 16px; }
 .story__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; min-height: 40px; padding-block-start: 8px; }
 .story__action { display: inline-flex; }
 .story__demo { display: grid; min-width: 0; }
@@ -66,18 +71,17 @@
 .story-window .ob-understood__task { background: rgba(255, 255, 255, 0.02); --ob-cut: var(--story-window); }
 
 /* Hero: welcome and done */
-.story-hero { display: grid; justify-items: center; align-content: center; gap: 16px; width: min(100%, 600px); margin-inline: auto; padding-block: 0 48px; text-align: center; }
-.story-hero .ob-hero { font-size: 48px; }
+.story-hero { display: grid; justify-items: center; align-content: center; gap: 16px; width: min(100%, 640px); margin-inline: auto; padding-block: 0 64px; text-align: center; }
+.story-hero .ob-hero { font-size: 52px; }
 .story-hero .story__lead { max-width: 30rem; }
-.story-hero__cast { display: inline-flex; align-items: flex-end; margin-block-end: 8px; --ob-cut: var(--ob-canvas); }
-.story-hero__cast > .ob-stack { margin-inline-start: -6px; }
+.story-hero__cast { margin-block-end: 8px; --ob-cut: var(--ob-canvas); }
 .story-hero__actions { display: flex; flex-direction: column; align-items: center; gap: 12px; padding-block: 8px 16px; }
 .story-hero__window { width: 100%; text-align: start; }
 .story-hero__window .story-window__body { padding: 4px 0; gap: 0; }
 .story-feed__row { display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 0 16px; }
 .story-feed__row + .story-feed__row { border-block-start: 1px solid var(--ds-hairline); }
 .story-feed__who { flex: none; }
-.story-feed__icon { flex: none; color: var(--ds-muted); }
+.story-feed__icon { flex: none; color: var(--ds-soft); }
 .story-feed__end { display: inline-flex; flex: none; align-items: center; gap: 8px; margin-inline-start: auto; }
 
 /* Download */
@@ -106,3 +110,19 @@
 .story-tour { display: grid; gap: 16px; }
 .story-window .ob-run__steps { min-height: 128px; }
 .story__actions > .ui-button[data-variant="ghost"] { margin-inline-start: 4px; }
+
+/* Like Zen, the stage reads about 10% larger than the dense app scale */
+.story-window .ob-label, .story-window .ob-text, .story__copy .ob-label { font-size: 14px; line-height: 22px; }
+.story-window .ob-meta, .story__copy .ob-meta { font-size: 13px; line-height: 18px; }
+.story-window__bar { height: 44px; }
+.story-window__body { gap: 20px; padding: 20px; }
+.story-window__foot { min-height: 44px; padding: 0 20px; }
+.story-feed__row { min-height: 48px; padding: 0 20px; }
+.story-chain__item { min-height: 46px; }
+.story-layers { gap: 16px; }
+.story-total__big { font-size: 36px; }
+.story-window .ob-tool { padding: 14px 12px; }
+.story-window .ob-run__prompt { font-size: 15px; }
+.story-window .ob-understood__task { min-height: 44px; }
+.story__copy .ob-composer textarea { font-size: 15px; }
+.story__copy .ob-chip { height: 30px; font-size: 13px; }

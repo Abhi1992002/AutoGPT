@@ -35,7 +35,7 @@ export function Narrator({ flow, step }: { flow: Onboarding; step: StepId }) {
 
   return (
     <p className="story-narrator" aria-live="polite">
-      <AgentAvatar character="otto" size={20} state={state} decorative />
+      <AgentAvatar character="otto" size={22} state={state} decorative />
       <span className="ob-label">Otto</span>
       <span className="story-narrator__line">
         <AnimatePresence mode="wait" initial={false}>

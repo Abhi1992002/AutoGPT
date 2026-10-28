@@ -2,8 +2,9 @@ import type { CSSProperties } from "react";
 import { characters, tileFor, type CharacterId } from "../assets/avatars";
 
 /*
- * AgentAvatar – the one place the app renders an agent character: the character's own tile, round,
- * with a hairline ring. The artwork is never tinted; state shows as a small dot on the edge.
+ * AgentAvatar – the one place the app renders an agent character: the whole character on a neutral
+ * disc that matches the surface, with a hairline ring. The artwork is never tinted; state shows as a
+ * small dot on the edge.
  */
 
 export type AgentState = "idle" | "working" | "sleeping";
@@ -44,23 +45,26 @@ export function AgentAvatar({ character = "otto", state = "idle", size = 32, dec
 
 const css = /* css */ `
 .agent-avatar {
-  --av-ring: oklch(0 0 0 / 0.1);
-  --av-cut: var(--ob-canvas, var(--ds-surface));
+  --av-fill: #f4f4f5;
+  --av-ring: rgba(0, 0, 0, 0.08);
+  --av-cut: var(--ob-cut, var(--ds-surface));
   position: relative;
-  display: inline-block;
+  display: inline-grid;
   flex: none;
+  place-items: center;
   width: var(--av-size);
   height: var(--av-size);
+  border-radius: 50%;
+  background: var(--av-fill);
+  box-shadow: inset 0 0 0 1px var(--av-ring);
   vertical-align: middle;
 }
 .agent-avatar__img {
   display: block;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  object-fit: cover;
-  outline: 1px solid var(--av-ring);
-  outline-offset: -1px;
+  /* 70% keeps the image box inside the disc, so no corner of the character pokes out */
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
   user-select: none;
 }
 .agent-avatar__dot {
@@ -76,5 +80,5 @@ const css = /* css */ `
 .agent-avatar[data-state="working"] .agent-avatar__dot { background: var(--ds-accent); animation: agent-avatar-pulse 1.4s ease-in-out infinite; }
 @keyframes agent-avatar-pulse { 50% { opacity: 0.45; } }
 @media (prefers-reduced-motion: reduce) { .agent-avatar__dot { animation: none !important; } }
-:where(.dark, [data-theme="dark"]) .agent-avatar { --av-ring: oklch(1 0 0 / 0.1); }
+:where(.dark, [data-theme="dark"]) .agent-avatar { --av-fill: #1a1a1c; --av-ring: rgba(255, 255, 255, 0.09); }
 `;

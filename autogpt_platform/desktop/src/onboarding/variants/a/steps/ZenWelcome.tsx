@@ -20,8 +20,8 @@ export function ZenWelcome({ flow }: ZenStepProps) {
         step="welcome"
         moved={flow.state.moved}
         visual={
-          <span className="zen-team">
-            <AgentAvatar character="otto" size={48} decorative />
+          <span className="ob-cast zen-team">
+            <AgentAvatar character="otto" size={40} decorative />
             <ExpertStack ids={["nadia", "casey", "frankie"]} size={28} label="Otto and three expert agents" />
           </span>
         }

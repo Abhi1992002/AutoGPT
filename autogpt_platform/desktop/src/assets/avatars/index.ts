@@ -1,7 +1,7 @@
 /*
  * The AutoGPT characters the app shows, from the platform's managed library
  * (Significant-Gravitas/AutoGPT, autogpt_platform/frontend/public/autogpt-characters).
- * Only the 128 and 256 px WebP tiles are copied into public/autogpt-characters.
+ * Cut out of their studio background and cropped (see public/autogpt-characters/README.md).
  * AgentAvatar is the only consumer, so a new set touches this file alone.
  */
 

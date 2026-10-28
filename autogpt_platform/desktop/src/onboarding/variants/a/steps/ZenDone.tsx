@@ -20,8 +20,8 @@ export function ZenDone({ flow }: ZenStepProps) {
         step="done"
         moved={flow.state.moved}
         visual={
-          <span className="zen-team">
-            <AgentAvatar character="otto" size={48} decorative />
+          <span className="ob-cast zen-team">
+            <AgentAvatar character="otto" size={40} decorative />
             {experts.length > 0 && <ExpertStack ids={experts} size={28} />}
           </span>
         }

@@ -195,6 +195,8 @@ const css = /* css */ `
   --ui-btn-danger: var(--ds-danger);
   --ui-btn-danger-bg: color-mix(in srgb, var(--ds-danger) 10%, transparent);
   --ui-btn-focus: var(--ds-focus);
+  --ui-btn-disabled-bg: var(--ds-fill);
+  --ui-btn-disabled-fg: var(--ds-muted);
   --ui-btn-ease: var(--ds-ease);
   --ui-btn-load: 650ms;
 
@@ -305,8 +307,12 @@ const css = /* css */ `
   opacity: 0.5;
   cursor: default;
 }
+/* Disabled primary goes neutral – a grey surface with muted text – rather than a faded accent */
 .ui-button[data-variant="primary"]:disabled {
-  box-shadow: 0 0 0 1px var(--ui-btn-edge);
+  background: var(--ui-btn-disabled-bg);
+  color: var(--ui-btn-disabled-fg);
+  box-shadow: inset 0 0 0 1px var(--ui-btn-line);
+  opacity: 1;
 }
 .ui-button[data-loading] {
   cursor: default;

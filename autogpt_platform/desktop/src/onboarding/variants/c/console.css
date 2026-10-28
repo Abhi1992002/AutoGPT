@@ -64,8 +64,8 @@ button.con-step__row { cursor: pointer; }
 .con__crumbs { display: inline-flex; align-items: center; gap: 6px; }
 .con__crumbs svg { color: var(--ds-muted); }
 .con__scroll { display: flex; flex-direction: column; min-height: 0; overflow-y: auto; overscroll-behavior: contain; }
-.con__view { display: grid; align-content: start; gap: 24px; width: 100%; max-width: 760px; margin: auto; padding: 32px 32px 48px; }
-.con__header { display: grid; gap: 6px; max-width: 36rem; }
+.con__view { display: grid; align-content: start; gap: 24px; width: 100%; max-width: 704px; margin: auto; padding: 32px 32px 48px; }
+.con__header { display: grid; gap: 6px; }
 .con__header .ob-lead { font-size: 13px; line-height: 20px; }
 .con__panel { min-width: 0; }
 .con__footer { display: flex; align-items: center; gap: 12px; height: 56px; padding: 0 20px; border-block-start: 1px solid var(--ds-hairline); }

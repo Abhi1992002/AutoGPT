@@ -49,8 +49,8 @@ export function Hero({ flow }: { flow: Onboarding }) {
 
   return (
     <motion.section className="story-hero" aria-labelledby="story-title" variants={stagger(0.06)} initial="hidden" animate="show" exit="exit">
-      <motion.div className="story-hero__cast" variants={enter}>
-        <AgentAvatar character="otto" size={48} decorative />
+      <motion.div className="ob-cast story-hero__cast" variants={enter}>
+        <AgentAvatar character="otto" size={40} decorative />
         <ExpertStack ids={items.map((i) => i.character)} size={28} />
       </motion.div>
       <motion.h1 id="story-title" ref={heading} tabIndex={-1} className="ob-hero" variants={enter}>

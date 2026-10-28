@@ -16,6 +16,7 @@ export function ZenTour({ flow }: ZenStepProps) {
       <Reveal className="zen-stack">
         <SegmentedControl
           aria-label="Capabilities"
+          size="lg"
           fullWidth
           value={active}
           onChange={setActive}
