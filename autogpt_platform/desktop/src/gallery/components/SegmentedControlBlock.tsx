@@ -2,7 +2,7 @@ import { useState } from "react";
 import { SegmentedControl } from "../../design-system/components/segmented-control";
 import { CalendarIcon, GridIcon, ListIcon } from "../icons";
 import { Row } from "./Row";
-import { Section } from "./Section";
+import { Block } from "./Block";
 
 const plain = [
   { value: "day", label: "Day" },
@@ -35,11 +35,12 @@ const withBadge = [
   { value: "yearly", label: "Yearly", badge: "Save 20%" },
 ];
 
-export function SegmentedControlSection() {
+export function SegmentedControlBlock() {
   const [tab, setTab] = useState("overview");
 
   return (
-    <Section
+    <Block
+      source="affectui"
       title="Segmented Control"
       description="Switch between two to six options – a raised pill or underline that glides, stretches a little and can be dragged across, with icons, counts and badges."
     >
@@ -88,6 +89,6 @@ export function SegmentedControlSection() {
       <Row label="Disabled">
         <SegmentedControl options={plain} disabled aria-label="Range disabled" />
       </Row>
-    </Section>
+    </Block>
   );
 }

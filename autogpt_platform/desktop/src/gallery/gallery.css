@@ -9,8 +9,6 @@ body {
   margin: 0;
   background: var(--ds-tray);
   color: var(--ds-ink);
-  font-family: var(--ds-font);
-  -webkit-font-smoothing: antialiased;
 }
 
 .gallery {
@@ -24,25 +22,30 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
 }
 
 .gallery__title {
   margin: 0;
   font-size: 22px;
-  font-weight: 600;
+  line-height: 28px;
   letter-spacing: -0.02em;
 }
 
 .gallery__subtitle {
   margin: 4px 0 0;
-  font-size: 13.5px;
-  color: var(--ds-muted);
+}
+
+.gallery__nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 24px;
 }
 
 .gallery__sections {
   display: grid;
-  gap: 20px;
+  gap: 24px;
 }
 
 .section {
@@ -55,21 +58,53 @@ body {
 
 .section__title {
   margin: 0;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .section__description {
-  margin: 4px 0 18px;
-  font-size: 13.5px;
-  line-height: 1.45;
+  margin: 2px 0 20px;
+}
+
+.section__blocks {
+  display: grid;
+  gap: 28px;
+}
+
+.block {
+  padding-top: 20px;
+  border-top: 1px solid var(--ds-hairline);
+}
+
+.block__head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.block__title {
+  margin: 0;
+}
+
+.block__source {
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--ds-fill);
   color: var(--ds-soft);
 }
 
-.section__rows {
+.block__source[data-source="affectui"] {
+  background: var(--ds-accent-soft);
+  color: var(--ds-accent);
+}
+
+.block__description {
+  margin: 4px 0 16px;
+}
+
+.block__rows {
   display: grid;
-  gap: 18px;
+  gap: 16px;
 }
 
 .row {
@@ -80,8 +115,6 @@ body {
 }
 
 .row__label {
-  font-size: 12.5px;
-  font-weight: 500;
   color: var(--ds-muted);
 }
 
@@ -105,6 +138,13 @@ body {
   gap: 24px;
 }
 
+.row__items--fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  align-items: start;
+  gap: 16px;
+}
+
 .row__block {
   width: 100%;
   max-width: 420px;
@@ -112,6 +152,52 @@ body {
 
 .row__panel {
   padding: 12px 0;
-  font-size: 13.5px;
   color: var(--ds-text);
+}
+
+.type-sample {
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr) 190px;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.type-sample__name {
+  color: var(--ds-muted);
+}
+
+.type-sample__spec {
+  text-align: right;
+  color: var(--ds-muted);
+}
+
+.stack {
+  display: grid;
+  gap: 8px;
+}
+
+.inline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.skeleton-card {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  width: 280px;
+}
+
+.demo-surface {
+  display: grid;
+  gap: 8px;
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--ds-tray);
+}
+
+.demo-open {
+  min-height: 300px;
 }

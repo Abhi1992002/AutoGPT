@@ -1,14 +1,14 @@
 import { Button } from "../../design-system/components/button";
 import { ArrowRightIcon, PlusIcon, TrashIcon } from "../icons";
 import { Row } from "./Row";
-import { Section } from "./Section";
+import { Block } from "./Block";
 
 const variants = ["primary", "secondary", "ghost", "destructive"] as const;
 const sizes = ["sm", "md", "lg"] as const;
 
-export function ButtonSection() {
+export function ButtonBlock() {
   return (
-    <Section title="Button" description="Primary, secondary, ghost and destructive buttons with icons, sizes and a shimmering loading state.">
+    <Block source="affectui" title="Button" description="Primary, secondary, ghost and destructive buttons with icons, sizes and a shimmering loading state.">
       <Row label="Variants">
         {variants.map((variant) => (
           <Button key={variant} variant={variant}>
@@ -57,6 +57,6 @@ export function ButtonSection() {
           </Button>
         ))}
       </Row>
-    </Section>
+    </Block>
   );
 }

@@ -1,0 +1,54 @@
+/*
+ * Typography – plain CSS utilities, the way AffectUI sets type.
+ * Values: AffectUI (MIT, see LICENSE-affectui). `.ui` is the default and applies to <body>.
+ */
+
+:where(body) {
+  font: 500 13px/20px var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.title { font: 600 16px/24px var(--font-sans); letter-spacing: -0.01em; }
+.heading { font: 600 15px/22px var(--font-sans); letter-spacing: -0.01em; }
+.body { font: 400 14px/20px var(--font-sans); letter-spacing: 0; }
+.ui { font: 500 13px/20px var(--font-sans); letter-spacing: 0; }
+.small { font: 500 12px/16px var(--font-sans); letter-spacing: 0; }
+.caption { font: 500 11px/16px var(--font-sans); letter-spacing: 0; }
+.micro { font: 500 10px/1 var(--font-sans); letter-spacing: 0; }
+.eyebrow { font: 500 11px/16px var(--font-sans); letter-spacing: 0.06em; text-transform: uppercase; }
+.mono { font: 400 12.5px/18px var(--font-mono); letter-spacing: 0; }
+
+.text-muted { color: var(--ds-soft); }
+.text-subtle { color: var(--ds-muted); }
+.text-accent { color: var(--ds-accent-text); }
+.text-danger { color: var(--ds-danger); }
+
+/* Inline code – the tool-call-card code well */
+code {
+  padding: 1px 5px;
+  border-radius: 5px;
+  background: var(--ds-code-bg, #fafafa);
+  box-shadow: inset 0 0 0 1px var(--ds-code-line, #e7e7e7);
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+}
+
+/* Keycap – the filter-menu keyboard hint */
+kbd {
+  display: inline-grid;
+  place-items: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  border-radius: 6px;
+  background: var(--ds-surface);
+  box-shadow: 0 0 0 1px var(--ds-line), 0 1px 1px rgba(0, 0, 0, 0.04);
+  font: 500 11.5px/16px var(--font-sans);
+  color: var(--ds-text);
+  vertical-align: middle;
+}
+
+.dark {
+  --ds-code-bg: rgba(255, 255, 255, 0.06);
+  --ds-code-line: rgba(255, 255, 255, 0.1);
+}

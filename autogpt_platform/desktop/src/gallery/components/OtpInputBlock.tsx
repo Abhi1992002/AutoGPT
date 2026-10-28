@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { OtpInput, type OtpStatus } from "../../design-system/components/otp-input";
 import { Row } from "./Row";
-import { Section } from "./Section";
+import { Block } from "./Block";
 
 function ErrorDemo() {
   const [status, setStatus] = useState<OtpStatus>("idle");
@@ -31,9 +31,10 @@ function InteractiveDemo() {
   );
 }
 
-export function OtpInputSection() {
+export function OtpInputBlock() {
   return (
-    <Section
+    <Block
+      source="affectui"
       title="OTP Input"
       description="The verification code field – a gliding focus ring, paste and SMS autofill, a calm shake on errors and a morph into Verified."
     >
@@ -75,6 +76,6 @@ export function OtpInputSection() {
           <OtpInput defaultValue="4829" disabled />
         </div>
       </Row>
-    </Section>
+    </Block>
   );
 }

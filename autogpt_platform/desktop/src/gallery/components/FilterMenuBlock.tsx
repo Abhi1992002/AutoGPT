@@ -1,6 +1,6 @@
 import { FilterMenu, type FilterGroup } from "../../design-system/components/filter-menu";
 import { Row } from "./Row";
-import { Section } from "./Section";
+import { Block } from "./Block";
 
 const groups: FilterGroup[] = [
   {
@@ -34,9 +34,10 @@ const groups: FilterGroup[] = [
   },
 ];
 
-export function FilterMenuSection() {
+export function FilterMenuBlock() {
   return (
-    <Section
+    <Block
+      source="affectui"
       title="Filter Menu"
       description="Grouped filters with removable chips, collapsible checkbox groups, Clear all and full keyboard control."
     >
@@ -44,6 +45,6 @@ export function FilterMenuSection() {
         <FilterMenu groups={groups} defaultValue={{ status: ["running", "failed"], cost: ["gt100"] }} defaultOpen={["status", "cost"]} />
         <FilterMenu groups={groups} title="Runs" hints={false} />
       </Row>
-    </Section>
+    </Block>
   );
 }
