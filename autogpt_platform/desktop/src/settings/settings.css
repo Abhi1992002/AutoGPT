@@ -1,0 +1,70 @@
+.settings {
+  display: grid;
+  gap: 20px;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 32px 32px 64px;
+}
+
+.settings__header {
+  display: grid;
+  justify-items: start;
+  gap: 8px;
+  padding: 0 6px;
+}
+
+.settings__title {
+  margin: 0;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+}
+
+.settings .ui-card__body {
+  display: grid;
+  gap: 16px;
+}
+
+.settings__facts {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 8px 16px;
+  margin: 0;
+}
+
+.settings__facts dd {
+  margin: 0;
+  color: var(--ds-ink);
+}
+
+.settings__status {
+  display: flex;
+}
+
+.settings__update {
+  display: grid;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid var(--ds-hairline);
+}
+
+.settings__update-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.settings__update-head p {
+  margin: 0;
+}
+
+.settings__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.settings__actions:empty {
+  display: none;
+}

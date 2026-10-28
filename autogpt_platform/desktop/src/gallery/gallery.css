@@ -36,6 +36,12 @@ body {
   margin: 4px 0 0;
 }
 
+.gallery__toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .gallery__nav {
   display: flex;
   flex-wrap: wrap;

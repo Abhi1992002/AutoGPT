@@ -1,0 +1,25 @@
+.update-prompt {
+  display: grid;
+  gap: 16px;
+}
+
+.update-notes {
+  max-height: 220px;
+  margin: 0;
+  padding: 12px 14px;
+  overflow: auto;
+  border-radius: var(--ds-radius-md);
+  background: var(--ds-tray);
+  color: var(--ds-text);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.update-progress {
+  display: grid;
+  gap: 6px;
+}
+
+.update-progress p {
+  margin: 0;
+}

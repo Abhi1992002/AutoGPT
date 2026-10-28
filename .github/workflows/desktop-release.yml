@@ -1,0 +1,102 @@
+name: Desktop Release
+
+# Builds a universal macOS AutoGPT Desktop and publishes it as a GitHub Release. The installed app
+# reads latest.json from the newest release to offer in-app updates.
+
+on:
+  push:
+    branches: [desktop/scaffold]
+    paths:
+      - "autogpt_platform/desktop/**"
+      - ".github/workflows/desktop-release.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: desktop-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: macos-latest
+    timeout-minutes: 60
+    env:
+      VERSION: 0.1.${{ github.run_number }}
+    defaults:
+      run:
+        working-directory: autogpt_platform/desktop
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          # Full history (without blobs) so the release notes can list commits since the last release
+          fetch-depth: 0
+          filter: blob:none
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: autogpt_platform/desktop/pnpm-lock.yaml
+
+      - name: Set up Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: aarch64-apple-darwin,x86_64-apple-darwin
+
+      - name: Cache Rust build
+        uses: swatinem/rust-cache@v2
+        with:
+          workspaces: autogpt_platform/desktop/src-tauri -> target
+
+      - name: Set version to ${{ env.VERSION }}
+        run: |
+          jq --arg v "$VERSION" '.version = $v' src-tauri/tauri.conf.json > tauri.conf.json.tmp
+          mv tauri.conf.json.tmp src-tauri/tauri.conf.json
+          jq --arg v "$VERSION" '.version = $v' package.json > package.json.tmp
+          mv package.json.tmp package.json
+          # The first `version = ` line in Cargo.toml is the [package] one
+          perl -0pi -e 's/^version = "[^"]*"/version = "$ENV{VERSION}"/m' src-tauri/Cargo.toml
+          grep -m1 '^version' src-tauri/Cargo.toml
+          jq -r .version src-tauri/tauri.conf.json package.json
+
+      - name: Write release notes
+        id: notes
+        run: |
+          prev=$(git describe --tags --abbrev=0 --match 'desktop-v*' --exclude "desktop-v$VERSION" 2>/dev/null || true)
+          range=${prev:+$prev..}HEAD
+          {
+            echo "body<<RELEASE_NOTES_EOF"
+            if [ -n "$prev" ]; then echo "Changes since ${prev#desktop-v}:"; else echo "Changes:"; fi
+            git log --no-merges -n 30 --pretty='- %s' "$range" -- . ../../.github/workflows/desktop-release.yml
+            echo "RELEASE_NOTES_EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build and publish
+        uses: tauri-apps/tauri-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+        with:
+          projectPath: autogpt_platform/desktop
+          tauriScript: pnpm tauri
+          args: --target universal-apple-darwin
+          tagName: desktop-v${{ env.VERSION }}
+          releaseName: AutoGPT Desktop v${{ env.VERSION }}
+          releaseBody: ${{ steps.notes.outputs.body }}
+          releaseDraft: false
+          prerelease: false
+          releaseCommitish: ${{ github.sha }}
+          uploadUpdaterJson: true
