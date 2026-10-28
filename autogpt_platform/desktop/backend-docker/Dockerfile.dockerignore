@@ -1,0 +1,4 @@
+# Build context for backend-docker/Dockerfile (the repo root). The backend itself comes from
+# BASE_IMAGE, so only this directory is needed.
+*
+!autogpt_platform/desktop/backend-docker/

@@ -39,7 +39,12 @@ ENV POETRY_VIRTUALENVS_CREATE=true
 ENV POETRY_VIRTUALENVS_IN_PROJECT=true
 ENV PATH=/opt/poetry/bin:$PATH
 
-RUN pip3 install poetry --break-system-packages
+# Poetry gets its own venv: in the system site-packages pip would have to replace
+# Debian's packages (e.g. packaging) and cannot uninstall them.
+RUN python3 -m venv $POETRY_HOME/venv \
+    && $POETRY_HOME/venv/bin/pip install --no-cache-dir poetry==2.2.1 \
+    && mkdir -p $POETRY_HOME/bin \
+    && ln -s ../venv/bin/poetry $POETRY_HOME/bin/poetry
 
 # Copy and install dependencies
 COPY autogpt_platform/autogpt_libs /app/autogpt_platform/autogpt_libs
@@ -114,8 +119,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy poetry (build-time only, for `poetry install --only-root` to create entry points)
-COPY --from=builder /usr/local/lib/python3* /usr/local/lib/python3*
-COPY --from=builder /usr/local/bin/poetry /usr/local/bin/poetry
+COPY --from=builder /opt/poetry /opt/poetry
+ENV PATH=/opt/poetry/bin:$PATH
 # Copy Node.js installation for Prisma and agent-browser.
 # npm/npx are symlinks in the builder (-> ../lib/node_modules/npm/bin/*-cli.js);
 # COPY resolves them to regular files, breaking require() paths.  Recreate as

@@ -76,6 +76,7 @@ from backend.util.workspace_storage import shutdown_workspace_storage
 
 from .external.fastapi_app import external_api
 from .features.analytics import router as analytics_router
+from .features.health import router as health_router
 from .features.integrations.router import router as integrations_router
 from .middleware.security import SecurityHeadersMiddleware
 from .utils.cors import build_cors_params
@@ -457,6 +458,9 @@ async def health():
     if not backend.data.db.is_connected():
         raise UnhealthyServiceError("Database is not connected")
     return {"status": "healthy"}
+
+
+app.include_router(health_router, prefix="/health")
 
 
 class AgentServer(backend.util.service.AppProcess):

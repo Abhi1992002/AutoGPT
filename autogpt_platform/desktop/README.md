@@ -19,6 +19,11 @@ updater artifacts off for that build:
 pnpm tauri build --config '{"bundle":{"createUpdaterArtifacts":false}}'
 ```
 
+## Local backend
+
+[`backend-docker/`](backend-docker/README.md) runs the AutoGPT backend in one Docker container on
+`localhost:8006`: `./backend-docker/run.sh start`.
+
 ## Releases
 
 Releases are manual. Open **Actions → Desktop Release → Run workflow**
