@@ -32,7 +32,7 @@ export function TourDemo({ flow }: StoryDemoProps) {
 
       <div className="story-panel story-run">
         <div className="story-run__head">
-          <AgentAvatar character={capability.character} size={44} state={done ? "idle" : "working"} theme="dark" decorative />
+          <AgentAvatar character={capability.character} size={56} state={done ? "idle" : "working"} theme="dark" decorative />
           <div>
             <p className="ui">{agent.name}</p>
             <p className="small story__muted">{done ? "Finished" : "Working…"}</p>

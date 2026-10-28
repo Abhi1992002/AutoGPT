@@ -27,7 +27,7 @@ export function ZenHeader({ step, moved, visual, icon }: { step: StepId; moved: 
         <Reveal className="zen__visual">
           {visual ?? (
             <span className="zen__tile">
-              <Icon icon={icon!} size={22} />
+              <Icon icon={icon!} size={26} />
             </span>
           )}
         </Reveal>

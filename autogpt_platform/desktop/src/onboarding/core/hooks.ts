@@ -9,6 +9,30 @@ export function useStepFocus(ref: RefObject<HTMLElement | null>, moved: boolean)
   }, []);
 }
 
+const OWNS_ENTER = "button, a[href], input, select, textarea, [contenteditable], [role='button'], [role='link'], [role='radio']";
+
+/**
+ * Enter continues. Controls that act on Enter themselves keep it; a text box continues on
+ * Ctrl/⌘+Enter, so plain Enter still starts a new line.
+ */
+export function useEnterToContinue(next: () => void, enabled: boolean) {
+  const latest = useRef({ next, enabled });
+  latest.current = { next, enabled };
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key !== "Enter" || event.defaultPrevented || event.isComposing || event.repeat || event.altKey || event.shiftKey) return;
+      const target = event.target instanceof Element ? event.target : null;
+      const inTextBox = target?.matches("textarea") ?? false;
+      if (inTextBox ? !(event.metaKey || event.ctrlKey) : target?.closest(OWNS_ENTER)) return;
+      if (!latest.current.enabled) return;
+      event.preventDefault();
+      latest.current.next();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+}
+
 /**
  * How the guide reacts on the brain-dump step: working while you type, idle when you pause,
  * asleep after a long silence with nothing written.

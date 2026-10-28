@@ -35,7 +35,7 @@ export function TourPanel({ flow }: ConsolePanelProps) {
 
       <div className="con-card con-run">
         <div className="con-run__head">
-          <AgentAvatar character={capability.character} size={36} state={done ? "idle" : "working"} decorative />
+          <AgentAvatar character={capability.character} size={48} state={done ? "idle" : "working"} decorative />
           <span className="ui">{characters[capability.character].name}</span>
           <span className="small text-subtle con-run__status">{done ? "Finished" : "Running"}</span>
         </div>

@@ -1,10 +1,9 @@
 import { ArrowLeft01Icon, ArrowRight01Icon } from "@hugeicons/core-free-icons";
 import { AnimatePresence, LayoutGroup, motion } from "framer-motion";
 import { useRef, type ComponentType } from "react";
-import { AgentAvatar } from "../../../components/AgentAvatar";
 import { Button } from "../../../design-system/components/button";
 import { useStepFocus } from "../../core/hooks";
-import { springSlow, stagger, useEnterExit } from "../../core/motion";
+import { springSlow, stagger, useEnterExit, useFade } from "../../core/motion";
 import { STEPS, type StepId } from "../../core/steps";
 import type { Onboarding } from "../../core/useOnboarding";
 import { Icon } from "../../ui/Icon";
@@ -15,6 +14,8 @@ import { StartDemo } from "./demos/StartDemo";
 import { TourDemo } from "./demos/TourDemo";
 import { Framing } from "./Framing";
 import { Hero } from "./Hero";
+import { StoryGuide } from "./StoryGuide";
+import { StoryWait } from "./StoryWait";
 import "./story.css";
 
 /*
@@ -31,8 +32,6 @@ const DEMOS: Partial<Record<StepId, ComponentType<StoryDemoProps>>> = {
   connect: ConnectDemo,
   brain: BrainDemo,
 };
-
-const GUIDE_STATE: Partial<Record<StepId, "working" | "idle">> = { download: "working", start: "working" };
 
 export function StoryOnboarding({ flow }: { flow: Onboarding }) {
   const { step } = flow.state;
@@ -81,15 +80,14 @@ export function StoryOnboarding({ flow }: { flow: Onboarding }) {
 
 function StoryCopy({ flow, step }: { flow: Onboarding; step: StepId }) {
   const enter = useEnterExit(16);
+  const swap = useFade();
   const heading = useRef<HTMLHeadingElement>(null);
   useStepFocus(heading, flow.state.moved);
   const copy = STEPS[step];
 
   return (
     <motion.section className="story__copy" aria-labelledby="story-title" variants={stagger(0.08)} initial="hidden" animate="show" exit="exit">
-      <motion.div layoutId="story-guide" className="story__guide" transition={springSlow}>
-        <AgentAvatar character="auto" size={56} state={GUIDE_STATE[step] ?? "idle"} theme="dark" decorative />
-      </motion.div>
+      <StoryGuide flow={flow} step={step} />
       <motion.h1 id="story-title" ref={heading} tabIndex={-1} className="ob-hero" variants={enter}>
         {copy.title}
       </motion.h1>
@@ -102,9 +100,19 @@ function StoryCopy({ flow, step }: { flow: Onboarding; step: StepId }) {
         </motion.div>
       )}
       <motion.div className="story__actions" variants={enter}>
-        <Button size="lg" disabled={!flow.canContinue} onClick={flow.next} iconRight={<Icon icon={ArrowRight01Icon} />}>
-          {copy.action}
-        </Button>
+        <AnimatePresence mode="popLayout" initial={false}>
+          {flow.canContinue ? (
+            <motion.span key="go" className="story__action" {...swap}>
+              <Button size="lg" onClick={flow.next} iconRight={<Icon icon={ArrowRight01Icon} />}>
+                {copy.action}
+              </Button>
+            </motion.span>
+          ) : (
+            <motion.span key="wait" className="story__action" {...swap}>
+              <StoryWait flow={flow} />
+            </motion.span>
+          )}
+        </AnimatePresence>
         <Button variant="ghost" size="lg" icon={<Icon icon={ArrowLeft01Icon} />} onClick={flow.back}>
           Back
         </Button>

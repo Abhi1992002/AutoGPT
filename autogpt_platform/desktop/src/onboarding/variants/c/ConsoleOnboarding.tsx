@@ -44,7 +44,7 @@ export function ConsoleOnboarding({ flow }: { flow: Onboarding }) {
       <Stepper flow={flow} />
       <main className="con__main">
         <AnimatePresence mode="wait" initial={false}>
-          <motion.section key={step} className="con__view" aria-labelledby="con-title" variants={stagger(0.08)} initial="hidden" animate="show" exit="exit">
+          <motion.section key={step} className="con__view" data-step={step} aria-labelledby="con-title" variants={stagger(0.08)} initial="hidden" animate="show" exit="exit">
             {/* The brain dump sets its own minimal prompt */}
             {step !== "brain" && <ConsoleHeader flow={flow} step={step} />}
             <motion.div className="con__panel" variants={enter}>

@@ -1,6 +1,6 @@
 import { pendingServices, type DownloadProgress, type Health, type ServiceStatus, type StartProgress } from "./backend";
 import { downloadLogAt, layersAt, servicesAt, startLogAt } from "./backend-mock";
-import { INTEGRATIONS, SERVICE_IDS } from "./data";
+import { INTEGRATIONS, SAMPLE_BRIEF, SERVICE_IDS } from "./data";
 import { stepAt, stepIndex, STEP_IDS, type StepId } from "./steps";
 
 /*
@@ -110,6 +110,7 @@ export function initialState(step: StepId, freeze: boolean): OnboardingState {
   if (step === "start") state.start = { phase: "running", attempt: 0, services: servicesAt(3400), log: startLogAt(3400), polls: 0 };
   if (step === "connect") state.integrations = { ...integrations, github: "connected", slack: "connected", notion: "connecting" };
   if (stepIndex(step) > stepIndex("connect")) state.integrations = { ...integrations, github: "connected", slack: "connected", notion: "connected" };
+  if (stepIndex(step) >= stepIndex("brain")) state.brain = SAMPLE_BRIEF;
   return state;
 }
 

@@ -1,57 +1,98 @@
-import { Add01Icon } from "@hugeicons/core-free-icons";
+import { Add01Icon, AiMagicIcon, Clock01Icon, Tick02Icon } from "@hugeicons/core-free-icons";
 import { AnimatePresence, motion } from "framer-motion";
-import { AgentAvatar } from "../../../../components/AgentAvatar";
+import { useMemo, type ReactNode } from "react";
 import { SUGGESTIONS } from "../../../core/data";
-import { useAgentMood } from "../../../core/hooks";
 import { springFast, useEnterExit } from "../../../core/motion";
+import { understand } from "../../../core/understand";
 import { Icon } from "../../../ui/Icon";
 import type { StoryDemoProps } from "../StoryOnboarding";
 
-/** What Auto picks up from the brain dump, shown live as notes */
-const TOPICS: { note: string; match: RegExp }[] = [
-  { note: "Email triage", match: /\b(e-?mail|inbox|gmail)/i },
-  { note: "GitHub", match: /\b(github|pull request|pr\b|repo)/i },
-  { note: "Slack", match: /\bslack/i },
-  { note: "Linear", match: /\blinear/i },
-  { note: "Weekly report", match: /\b(weekly|every friday|team update)/i },
-  { note: "Daily schedule", match: /\b(every (morning|day|weekday)|daily|at \d)/i },
-  { note: "Research", match: /\b(research|papers?|competitor|sources)/i },
-  { note: "Invoices", match: /\b(invoice|billing|finance)/i },
-  { note: "Small team", match: /\b(startup|studio|founder|team of|\d+-person)/i },
-];
+const plural = (n: number, one: string, many: string) => `${n} ${n === 1 ? one : many}`;
 
-const MOOD = { idle: "Listening", working: "Taking notes", sleeping: "Dozing – start typing to wake Auto" };
-
+/** "What Auto understood": fills with who you are, your tools and the agents worth drafting as you type */
 export function BrainDemo({ flow }: StoryDemoProps) {
-  const mood = useAgentMood(flow.state.brain);
-  const notes = TOPICS.filter((t) => t.match.test(flow.state.brain)).map((t) => t.note);
+  const { about, tools, tasks } = useMemo(() => understand(flow.state.brain), [flow.state.brain]);
   const enter = useEnterExit(8);
+  const found = about.length + tools.length + tasks.length;
+  const status = found === 0 ? "Nothing yet – start typing on the left" : `Picked up ${plural(tasks.length, "task", "tasks")} and ${plural(tools.length, "tool", "tools")}`;
+  const item = { variants: enter, initial: "hidden", animate: "show", exit: "exit", transition: springFast, layout: true } as const;
 
   return (
     <div className="story-panel story-brain">
-      <AgentAvatar character="auto" size={132} state={mood} theme="dark" interactive decorative />
-      <p className="ui story-brain__mood" role="status">
-        {MOOD[mood]}
-      </p>
-      <div className="story-brain__notes">
-        <p className="eyebrow story__muted">Auto’s notes</p>
-        <ul aria-label="Auto’s notes">
-          <AnimatePresence initial={false} mode="popLayout">
-            {notes.length === 0 ? (
-              <motion.li key="empty" className="small story__muted story-brain__empty" variants={enter} initial="hidden" animate="show" exit="exit">
-                Notes appear as you write
-              </motion.li>
-            ) : (
-              notes.map((note) => (
-                <motion.li key={note} layout className="story-note small" variants={enter} initial="hidden" animate="show" exit="exit" transition={springFast}>
-                  {note}
-                </motion.li>
-              ))
+      <header className="story-brain__head">
+        <span className="story-brain__icon" aria-hidden="true">
+          <Icon icon={AiMagicIcon} size={20} />
+        </span>
+        <div>
+          <h2 className="title">What Auto understood</h2>
+          <p className="small story__muted ob-num" role="status">
+            {status}
+          </p>
+        </div>
+      </header>
+
+      <Section title="About you" empty="Your role and team">
+        {about.map((label) => (
+          <motion.li key={label} className="story-note ui" {...item}>
+            {label}
+          </motion.li>
+        ))}
+      </Section>
+
+      <Section title="Tools it will use" empty="Apps you mention">
+        {tools.map((tool) => {
+          const connected = flow.state.integrations[tool.id] === "connected";
+          return (
+            <motion.li key={tool.id} className="story-note story-note--tool ui" {...item}>
+              <Icon icon={tool.icon} size={16} />
+              {tool.name}
+              {connected && (
+                <span className="story-note__ok" title="Connected">
+                  <Icon icon={Tick02Icon} size={12} strokeWidth={2.5} label="connected" />
+                </span>
+              )}
+            </motion.li>
+          );
+        })}
+      </Section>
+
+      <Section title="Agents to draft" empty="Tasks you’d hand off" rows>
+        {tasks.map((task) => (
+          <motion.li key={task.id} className="story-task-row" {...item}>
+            <span className="story-task-row__icon">
+              <Icon icon={task.icon} size={18} />
+            </span>
+            <span className="ui story-task-row__title">{task.title}</span>
+            {task.when && (
+              <span className="small story-task-row__when">
+                <Icon icon={Clock01Icon} size={14} />
+                {task.when}
+              </span>
             )}
-          </AnimatePresence>
-        </ul>
-      </div>
+          </motion.li>
+        ))}
+      </Section>
     </div>
+  );
+}
+
+function Section({ title, empty, rows, children }: { title: string; empty: string; rows?: boolean; children: ReactNode[] }) {
+  const enter = useEnterExit(8);
+  return (
+    <section className="story-brain__section">
+      <h3 className="eyebrow story__muted">{title}</h3>
+      <ul className={rows ? "story-brain__rows" : "story-brain__chips"} aria-label={title}>
+        <AnimatePresence initial={false} mode="popLayout">
+          {children.length > 0 ? (
+            children
+          ) : (
+            <motion.li key="empty" className={rows ? "story-brain__ghost story-brain__ghost--row small" : "story-brain__ghost small"} variants={enter} initial="hidden" animate="show" exit="exit">
+              {empty}
+            </motion.li>
+          )}
+        </AnimatePresence>
+      </ul>
+    </section>
   );
 }
 
@@ -71,8 +112,12 @@ export function BrainInput({ flow }: StoryDemoProps) {
         rows={3}
         value={text}
         placeholder="I’m a product manager. Every Friday I write the team update from Linear…"
+        aria-describedby="story-brain-hint"
         onChange={(e) => flow.setBrain(e.target.value)}
       />
+      <p id="story-brain-hint" className="ob-sr">
+        Press Control or Command plus Enter to continue.
+      </p>
       {unused.length > 0 && (
         <div className="story-chips" role="group" aria-label="Suggestions">
           {unused.map((s) => (

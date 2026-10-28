@@ -23,7 +23,7 @@ export function BrainPanel({ flow }: ConsolePanelProps) {
     <div className="con-duet">
       <motion.div className="con-orb" data-mood={mood} animate={reduce ? undefined : { scale: mood === "working" ? 1.08 : mood === "sleeping" ? 0.94 : 1 }} transition={springSlow}>
         <span className="con-orb__glow" aria-hidden="true" />
-        <AgentAvatar character="auto" size={84} state={mood} decorative />
+        <AgentAvatar character="auto" size={120} state={mood} decorative />
       </motion.div>
       <div className="con-duet__copy">
         <h1 id="con-title" ref={heading} tabIndex={-1} className="ob-display">

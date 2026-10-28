@@ -69,6 +69,10 @@
 .ob-lead { font: 400 16px/1.55 var(--font-sans); letter-spacing: 0; text-wrap: pretty; }
 .ob-num { font-variant-numeric: tabular-nums; }
 
+/* Onboarding text floor is 12px; only .micro labels go below it */
+.ob .caption, .ob .eyebrow { font-size: 12px; }
+.ob .eyebrow { letter-spacing: 0.05em; }
+
 @media (max-width: 720px) {
   .ob-hero { font-size: 40px; }
   .ob-display { font-size: 26px; }

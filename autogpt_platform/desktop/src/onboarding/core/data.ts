@@ -119,3 +119,7 @@ export const SUGGESTIONS: { label: string; text: string }[] = [
   { label: "Watch competitors", text: "Watch three competitors’ blogs and changelogs, and send me a short digest on Mondays." },
   { label: "Research papers", text: "I’m a researcher. Track new papers in my field and summarize the ones worth reading." },
 ];
+
+/** What a frozen preview of the brain dump shows as typed */
+export const SAMPLE_BRIEF =
+  "I run a 6-person design studio. Every Friday I write the team update from Linear. My inbox is out of control, so sort it every morning and draft replies in Gmail.";

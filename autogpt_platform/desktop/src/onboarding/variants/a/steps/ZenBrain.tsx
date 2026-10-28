@@ -16,7 +16,7 @@ export function ZenBrain({ flow }: ZenStepProps) {
 
   return (
     <>
-      <ZenHeader step="brain" moved={flow.state.moved} visual={<AgentAvatar character="auto" size={72} state={mood} decorative />} />
+      <ZenHeader step="brain" moved={flow.state.moved} visual={<AgentAvatar character="auto" size={88} state={mood} decorative />} />
       <Reveal className="zen-brain">
         <label htmlFor="zen-brain" className="ob-sr">
           About you and what your agents should do

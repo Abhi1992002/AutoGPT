@@ -1,5 +1,6 @@
 import { BotAvatar, type BotAvatarHat } from "bot-avatars";
-import { characters, type CharacterId } from "../assets/avatars";
+import { memo } from "react";
+import { characters, look, type CharacterId } from "../assets/avatars";
 
 /*
  * AgentAvatar – the one place the app renders an agent character.
@@ -26,7 +27,11 @@ export type AgentAvatarProps = {
 
 const STATES = { idle: "default", working: "working", sleeping: "sleeping" } as const;
 
-export function AgentAvatar({
+/**
+ * Memoised: BotAvatar runs a layout effect on every render and can loop when a parent re-renders
+ * per keystroke while its material is still baking, so it only re-renders when its own props change.
+ */
+export const AgentAvatar = memo(function AgentAvatar({
   character = "auto",
   state = "idle",
   size = 64,
@@ -40,6 +45,8 @@ export function AgentAvatar({
   return (
     <BotAvatar
       type={c.type}
+      shading={look.shading}
+      face={look.face}
       color={c.color}
       ink={c.ink}
       brightness={c.brightness}
@@ -56,4 +63,4 @@ export function AgentAvatar({
       role={decorative ? "presentation" : "img"}
     />
   );
-}
+});

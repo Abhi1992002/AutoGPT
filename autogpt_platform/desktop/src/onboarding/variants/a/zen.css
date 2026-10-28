@@ -19,11 +19,11 @@
   pointer-events: none;
 }
 
-.zen__top { display: grid; place-items: center; height: 40px; }
+.zen__top { display: grid; place-items: center; min-height: 56px; }
 
 .zen__card {
   align-self: center;
-  width: min(100%, 560px);
+  width: min(100%, 640px);
   margin-block: 24px;
   overflow: hidden;
   border: 1px solid transparent;
@@ -43,35 +43,73 @@
 .zen__content {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  padding: 40px;
+  gap: 28px;
+  padding: 48px 52px 44px;
   container-type: inline-size;
 }
 .zen__content[data-centered] { align-items: center; text-align: center; }
-@media (max-width: 520px) { .zen__content { padding: 28px 20px; } }
+@media (max-width: 560px) { .zen__content { padding: 32px 20px 28px; } }
 
-.zen__heading { display: grid; gap: 8px; max-width: 30rem; }
+/* Zen reads a step larger than the app's dense UI scale */
+.zen .ob-display { font-size: 36px; line-height: 1.12; }
+.zen .ob-lead { font-size: 17px; }
+.zen__content .ui { font-size: 15px; line-height: 22px; }
+.zen__content .small { font-size: 13px; line-height: 18px; }
+@media (max-width: 560px) { .zen .ob-display { font-size: 28px; } }
+
+.zen__heading { display: grid; gap: 12px; max-width: 32rem; }
+.zen__visual:has(.zen-hero) { align-self: stretch; margin-block: -8px -4px; }
 
 .zen__tile {
   display: grid;
   place-items: center;
-  width: 48px;
-  height: 48px;
-  border-radius: var(--ds-radius-lg);
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
   background: var(--ob-accent-soft);
   color: var(--ob-accent-text);
 }
 
-.zen__note { margin-block-start: -8px; }
+.zen__note { margin-block-start: -12px; }
 
 .zen__footer { display: flex; align-items: center; gap: 12px; padding-block-start: 8px; }
-.zen__footer .zen__primary { margin-inline-start: auto; min-width: 120px; }
+.zen__footer .zen__primary { margin-inline-start: auto; min-width: 140px; }
 .zen__content[data-centered] .zen__footer { justify-content: center; align-self: stretch; }
-.zen__content[data-centered] .zen__primary { margin-inline: auto; min-width: 220px; }
+.zen__content[data-centered] .zen__primary { margin-inline: auto; min-width: 240px; }
+
+/* Welcome and done hero */
+.zen-hero { position: relative; height: 220px; }
+.zen-hero__orbit { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; fill: none; stroke: var(--ob-200); stroke-width: 1; stroke-dasharray: 3 6; vector-effect: non-scaling-stroke; }
+.dark .zen-hero__orbit { stroke: rgba(255, 255, 255, 0.1); }
+.zen-hero__tool {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  margin: -22px 0 0 -22px;
+  border: 1px solid transparent;
+  border-radius: 14px;
+  background: var(--ds-surface);
+  color: var(--ob-800);
+  box-shadow: 0 0 0 1px rgba(50, 31, 88, 0.06), 0 2px 4px rgba(50, 31, 88, 0.06), 0 10px 20px -8px rgba(50, 31, 88, 0.2);
+}
+.dark .zen-hero__tool { background: #26222d; color: var(--ob-200); box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08), 0 10px 20px -8px rgba(0, 0, 0, 0.5); }
+[dir="rtl"] .zen-hero__tool { margin: -22px -22px 0 0; }
+.zen-hero__cast { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 4px; padding-block-start: 12px; }
+.zen-hero__side { margin-block-start: 36px; }
+@container (max-width: 480px) {
+  .zen-hero { height: 180px; }
+  .zen-hero__cast { scale: 0.7; }
+  .zen-hero__tool:is([data-slot="0"], [data-slot="1"]) { display: none; }
+}
 
 /* Pill progress */
-.zen-pills { display: flex; align-items: center; gap: 6px; height: 8px; }
-.zen-pills__pill { display: block; height: 8px; border-radius: 999px; background: var(--ob-200); transition: background-color 300ms ease; }
+.zen-progress { display: grid; justify-items: center; gap: 12px; }
+.zen-progress__label { display: inline-flex; align-items: center; gap: 10px; color: var(--ds-ink); }
+.zen-progress__sep { width: 3px; height: 3px; border-radius: 50%; background: var(--ds-faint); }
+.zen-pills { display: flex; align-items: center; gap: 8px; height: 10px; }
+.zen-pills__pill { display: block; height: 10px; border-radius: 999px; background: var(--ob-200); transition: background-color 300ms ease; }
 .zen-pills__pill[data-state="done"] { background: var(--ob-400); }
 .zen-pills__pill[data-state="current"] { background: var(--ob-accent); }
 .dark .zen-pills__pill { background: rgba(255, 255, 255, 0.1); }

@@ -43,7 +43,7 @@ export function Hero({ flow }: { flow: Onboarding }) {
                 </span>
                 <span className="story-task__text">
                   <span className="small">{task.text}</span>
-                  <span className="caption story__muted">{task.meta}</span>
+                  <span className="small story__muted">{task.meta}</span>
                 </span>
               </motion.li>
             ))}

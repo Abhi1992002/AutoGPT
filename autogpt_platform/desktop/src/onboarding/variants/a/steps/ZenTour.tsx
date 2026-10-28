@@ -35,7 +35,7 @@ export function ZenTour({ flow }: ZenStepProps) {
             {capability.title} <span className="text-muted">· {capability.description}</span>
           </p>
           <div className="zen-run__prompt">
-            <AgentAvatar character={capability.character} size={32} state={done ? "idle" : "working"} decorative />
+            <AgentAvatar character={capability.character} size={44} state={done ? "idle" : "working"} decorative />
             <p className="ui">{capability.prompt}</p>
           </div>
           <ol className="zen-run__steps" aria-label="Agent steps">

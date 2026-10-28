@@ -1,5 +1,6 @@
 import { MotionConfig } from "framer-motion";
 import { useState, type ComponentType } from "react";
+import { useEnterToContinue } from "./core/hooks";
 import { readParams, writeParams, type VariantId, type ViewParams } from "./core/params";
 import { useOnboarding, type Onboarding as OnboardingFlow } from "./core/useOnboarding";
 import { DevSwitcher } from "./DevSwitcher";
@@ -38,6 +39,7 @@ export function Onboarding({ onFinish }: { onFinish?: () => void }) {
 
 function FlowView({ view, onFinish }: { view: ViewParams; onFinish?: () => void }) {
   const flow = useOnboarding({ step: view.step, freeze: view.freeze, onFinish });
+  useEnterToContinue(flow.next, flow.canContinue);
   const View = VARIANT_VIEWS[view.variant];
   return <View flow={flow} />;
 }

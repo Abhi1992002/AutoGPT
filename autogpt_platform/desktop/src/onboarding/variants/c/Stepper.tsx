@@ -89,10 +89,12 @@ export function Stepper({ flow }: { flow: Onboarding }) {
           })}
         </ol>
       </nav>
-      <p className="small text-subtle con-side__foot">
-        <span className="con-side__dot" data-live={isTauri() || undefined} aria-hidden="true" />
-        {isTauri() ? "Local engine via Docker" : "Preview · simulated engine"}
-      </p>
+      {import.meta.env.DEV && (
+        <p className="small text-subtle con-side__foot">
+          <span className="con-side__dot" data-live={isTauri() || undefined} aria-hidden="true" />
+          {isTauri() ? "Local engine via Docker" : "Preview · simulated engine"}
+        </p>
+      )}
     </aside>
   );
 }
