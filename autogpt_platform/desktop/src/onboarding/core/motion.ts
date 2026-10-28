@@ -2,17 +2,17 @@ import { useReducedMotion, type Transition, type Variants } from "framer-motion"
 
 /*
  * Motion shared by the variants. Springs never bounce; enters and exits follow better-ui:
- * enter 300ms with 12px rise and 4px blur, staggered 100ms; exit 150ms with -12px and 4px blur.
+ * enter 250ms with a short rise and 4px blur, staggered; exit 150ms. Small distances keep it calm.
  * Under reduced motion everything falls back to an opacity cross-fade.
  */
 
-export const spring: Transition = { type: "spring", duration: 0.5, bounce: 0 };
-export const springSlow: Transition = { type: "spring", duration: 0.8, bounce: 0 };
-export const springFast: Transition = { type: "spring", duration: 0.3, bounce: 0 };
+export const spring: Transition = { type: "spring", duration: 0.35, bounce: 0 };
+export const springSlow: Transition = { type: "spring", duration: 0.5, bounce: 0 };
+export const springFast: Transition = { type: "spring", duration: 0.25, bounce: 0 };
 
 const easeOut = [0.2, 0, 0, 1] as const;
 
-export function useEnterExit(distance = 12): Variants {
+export function useEnterExit(distance = 8): Variants {
   const reduce = useReducedMotion();
   if (reduce) {
     return {
@@ -23,7 +23,7 @@ export function useEnterExit(distance = 12): Variants {
   }
   return {
     hidden: { opacity: 0, y: distance, filter: "blur(4px)" },
-    show: { opacity: 1, y: 0, filter: "blur(0px)", transition: { duration: 0.3, ease: easeOut } },
+    show: { opacity: 1, y: 0, filter: "blur(0px)", transition: { duration: 0.25, ease: easeOut } },
     exit: { opacity: 0, y: -distance, filter: "blur(4px)", transition: { duration: 0.15, ease: "easeOut" } },
   };
 }
@@ -42,7 +42,7 @@ export function useFade() {
     ? { initial: { opacity: 0 }, animate: { opacity: 1 }, exit: { opacity: 0 }, transition: { duration: 0.15 } }
     : {
         initial: { opacity: 0, y: 6, filter: "blur(4px)" },
-        animate: { opacity: 1, y: 0, filter: "blur(0px)", transition: { duration: 0.3, ease: easeOut } },
+        animate: { opacity: 1, y: 0, filter: "blur(0px)", transition: { duration: 0.25, ease: easeOut } },
         exit: { opacity: 0, y: -6, filter: "blur(4px)", transition: { duration: 0.15, ease: "easeOut" as const } },
       };
 }

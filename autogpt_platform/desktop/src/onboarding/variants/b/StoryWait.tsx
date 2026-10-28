@@ -11,7 +11,7 @@ export function StoryWait({ flow }: { flow: Onboarding }) {
   const failed = (step === "download" && download.phase === "error") || (step === "start" && start.phase === "error");
 
   let text: string;
-  if (failed) text = step === "download" ? "Download stopped – retry beside it" : "Start stopped – retry beside it";
+  if (failed) text = step === "download" ? "Download stopped. Retry it on the right." : "Start stopped. Retry it on the right.";
   else if (step === "download") {
     const { received, total } = download.progress;
     text = `Downloading · ${total ? Math.round((received / total) * 100) : 0}%`;
@@ -19,12 +19,12 @@ export function StoryWait({ flow }: { flow: Onboarding }) {
   else text = `Starting services · ${runningCount(start.services)} of ${SERVICE_IDS.length}`;
 
   return (
-    <p className="ui story-wait ob-num" data-failed={failed || undefined}>
+    <p className="story-wait ob-label ob-num" data-failed={failed || undefined}>
       <span className="story-wait__glyph" aria-hidden="true">
-        {failed ? <Icon icon={Alert02Icon} size={16} /> : <Spinner size="sm" label="" />}
+        {failed ? <Icon icon={Alert02Icon} size={14} /> : <Spinner size="sm" label="" />}
       </span>
       {text}
-      {!failed && <span className="story-wait__hint">Continues by itself</span>}
+      {!failed && <span className="story-wait__hint ob-meta">Continues on its own</span>}
     </p>
   );
 }

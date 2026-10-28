@@ -1,84 +1,35 @@
 /*
- * Onboarding – the purple ramp and the display sizes the design system doesn't carry.
- * Ramp: one hue (OKLCH h≈295), anchored on the app icon tile #321f58 → #100a1e.
+ * Onboarding – shared type and parts. Colour comes from the design-system tokens: neutral greys,
+ * the violet accent only on the primary action, focus, progress and selection.
  */
 
 .ob {
-  --ob-50: #f7f5fe;
-  --ob-100: #efecfe;
-  --ob-200: #e0d8fc;
-  --ob-300: #c8b9f9;
-  --ob-400: #ac91f2;
-  --ob-500: #906ce0;
-  --ob-600: #764ec6;
-  --ob-700: #5c379f;
-  --ob-800: #321f58;
-  --ob-900: #1c0f34;
-  --ob-950: #100a1e;
-
-  /* Roles */
-  --ob-canvas: var(--ob-50);
-  --ob-accent: var(--ob-600);
-  --ob-accent-soft: rgba(118, 78, 198, 0.1);
-  --ob-accent-text: var(--ob-600);
-  --ob-glow: rgba(144, 108, 224, 0.18);
-  --ob-stage-top: var(--ob-800);
-  --ob-stage-bottom: var(--ob-950);
-
-  /* The design system's accent follows the brand inside onboarding */
-  --ds-accent: var(--ob-accent);
-  --ds-accent-text: var(--ob-accent-text);
-  --ds-accent-soft: var(--ob-accent-soft);
-  --ds-focus: var(--ob-500);
-
+  --ob-canvas: var(--ds-canvas);
   position: relative;
   min-height: 100dvh;
+  background: var(--ob-canvas);
   color: var(--ds-ink);
+  font: 400 13px/20px var(--font-sans);
   isolation: isolate;
 }
 
-.dark .ob,
-.ob.dark {
-  --ob-canvas: #141118;
-  --ob-accent: var(--ob-400);
-  --ob-accent-soft: rgba(172, 145, 242, 0.14);
-  --ob-accent-text: var(--ob-300);
-  --ob-glow: rgba(118, 78, 198, 0.22);
-  --ds-focus: var(--ob-300);
-}
-
-/* Primary buttons carry the brand purple; the design system's dark gradient becomes a purple one */
-.ob .ui-button {
-  --ui-btn-on-ink: #ffffff;
-  --ui-btn-dark-top: #7f58cf;
-  --ui-btn-dark-bottom: #6942b6;
-  --ui-btn-dark-hover-top: #8963d8;
-  --ui-btn-dark-hover-bottom: #724bbf;
-  --ui-btn-edge-top: #a387e8;
-  --ui-btn-edge-mid: #6d47ba;
-  --ui-btn-edge-bottom: #4b2d88;
-  --ui-btn-ring: #3d2470;
-  --ui-btn-dark-shadow: rgba(50, 31, 88, 0.28);
-  --ui-btn-shine-on-ink: rgba(255, 255, 255, 0.9);
-  --ui-btn-focus: var(--ds-focus);
-}
-
-/* Display type – onboarding headlines sit above the app's 16px title step */
-.ob-hero { font: 600 56px/1.05 var(--font-sans); letter-spacing: -0.03em; text-wrap: balance; }
-.ob-display { font: 600 30px/1.15 var(--font-sans); letter-spacing: -0.02em; text-wrap: balance; }
-.ob-lead { font: 400 16px/1.55 var(--font-sans); letter-spacing: 0; text-wrap: pretty; }
+/* Type – a tight scale: 13px UI, 14–16px lead, 24–48px headings */
+.ob-hero { font: 600 44px/1.08 var(--font-sans); letter-spacing: -0.03em; text-wrap: balance; }
+.ob-display { font: 600 24px/1.25 var(--font-sans); letter-spacing: -0.02em; text-wrap: balance; }
+.ob-title { font: 600 20px/1.3 var(--font-sans); letter-spacing: -0.015em; text-wrap: balance; }
+.ob-lead { font: 400 14px/1.6 var(--font-sans); color: var(--ds-soft); text-wrap: pretty; }
+.ob-label { font: 500 13px/20px var(--font-sans); color: var(--ds-ink); }
+.ob-text { font: 400 13px/20px var(--font-sans); color: var(--ds-text); }
+.ob-meta { font: 400 12px/16px var(--font-sans); color: var(--ds-soft); }
+.ob-micro { font: 500 11px/16px var(--font-sans); letter-spacing: 0.04em; text-transform: uppercase; color: var(--ds-muted); }
+.ob-mono { font: 400 12px/18px var(--font-mono); }
 .ob-num { font-variant-numeric: tabular-nums; }
+.ob-soft { color: var(--ds-soft); }
+.ob-accent { color: var(--ds-accent-text); }
+.ob-truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
-/* Onboarding text floor is 12px; only .micro labels go below it */
-.ob .caption, .ob .eyebrow { font-size: 12px; }
-.ob .eyebrow { letter-spacing: 0.05em; }
-
-@media (max-width: 720px) {
-  .ob-hero { font-size: 40px; }
-  .ob-display { font-size: 26px; }
-}
-
-:where(.ob) :where(h1, h2, h3, p, ul, ol) { margin: 0; }
+:where(.ob) :where(h1, h2, h3, p, ul, ol, dl, dd) { margin: 0; }
+:where(.ob) :where(ul, ol) { padding: 0; list-style: none; }
 :where(.ob) :where(h1, h2, h3)[tabindex="-1"]:focus { outline: none; }
 
 .ob-sr {
@@ -91,8 +42,146 @@
   white-space: nowrap;
 }
 
-/* Integration and chip buttons share one focus ring */
 .ob :where(button, textarea, [tabindex="0"]):focus-visible {
   outline: 2px solid var(--ds-focus);
   outline-offset: 2px;
+}
+
+/* Brand */
+.ob-brand { display: inline-flex; align-items: center; gap: 8px; font: 600 13px/20px var(--font-sans); letter-spacing: -0.01em; color: var(--ds-ink); }
+.ob-brand__mark { display: block; width: 20px; height: 20px; border-radius: 5px; outline: 1px solid oklch(0 0 0 / 0.1); outline-offset: -1px; }
+.dark .ob-brand__mark, .ob.dark .ob-brand__mark { outline-color: oklch(1 0 0 / 0.1); }
+.ob-brand__detail { font-weight: 400; color: var(--ds-soft); }
+.ob-brand__detail::before { content: "/"; margin-inline-end: 8px; color: var(--ds-faint); }
+
+/* Surfaces: a hairline panel and a divided list inside it */
+.ob-panel {
+  border: 1px solid var(--ds-line);
+  border-radius: var(--ds-radius-md);
+  background: var(--ds-surface);
+  box-shadow: var(--ds-shadow-sm);
+}
+.ob-rows > * + * { border-block-start: 1px solid var(--ds-hairline); }
+.ob-row { display: flex; align-items: center; gap: 12px; min-height: 40px; padding: 0 12px; }
+.ob-row > .ob-row__end { margin-inline-start: auto; }
+
+/* Icon tile for tools and capabilities */
+.ob-tile {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--ds-line);
+  border-radius: var(--ds-radius-sm);
+  background: var(--ds-surface);
+  color: var(--ds-text);
+}
+.ob-tile--lg { width: 36px; height: 36px; border-radius: var(--ds-radius-md); }
+
+/* Status glyph */
+.ob-mark { display: inline-grid; flex: none; place-items: center; width: 16px; height: 16px; }
+.ob-mark__glyph { grid-area: 1 / 1; display: grid; place-items: center; width: 16px; height: 16px; border-radius: 50%; }
+.ob-mark[data-mark="pending"] .ob-mark__glyph { box-shadow: inset 0 0 0 1.5px var(--ds-faint); scale: 0.875; }
+.ob-mark[data-mark="active"] .ui-spinner { color: var(--ds-accent-text); }
+.ob-mark[data-mark="done"] .ob-mark__glyph { background: var(--ds-accent); color: var(--ds-on-accent); }
+.ob-mark[data-mark="error"] .ob-mark__glyph { background: var(--ds-danger); color: #ffffff; }
+
+/* Expert stack */
+.ob-stack { display: inline-flex; align-items: center; }
+.ob-stack__item { display: inline-flex; border-radius: 50%; box-shadow: 0 0 0 2px var(--ob-cut, var(--ds-surface)); }
+
+/* Seven-step progress */
+.ob-segments { display: flex; gap: 4px; }
+.ob-segments__seg { width: 20px; height: 3px; border-radius: 2px; background: var(--ds-line); transition: background-color 250ms ease-out; }
+.ob-segments__seg[data-on] { background: var(--ds-accent); }
+
+/* Suggestion chip */
+.ob-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 28px;
+  padding: 0 10px 0 8px;
+  border: 1px solid var(--ds-line);
+  border-radius: var(--ds-radius-sm);
+  background: var(--ds-surface);
+  color: var(--ds-text);
+  font: 500 12px/16px var(--font-sans);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition-property: background-color, border-color, color, scale;
+  transition-duration: 150ms;
+  transition-timing-function: ease-out;
+}
+.ob-chip svg { color: var(--ds-muted); }
+@media (hover: hover) { .ob-chip:hover { border-color: var(--ds-line-strong); color: var(--ds-ink); } }
+.ob-chip:active { scale: 0.96; }
+
+/* Label-like tag: a neutral property pill */
+.ob-tag { display: inline-flex; align-items: center; gap: 6px; height: 24px; padding: 0 8px; border: 1px solid var(--ds-line); border-radius: 12px; color: var(--ds-text); font: 500 12px/16px var(--font-sans); white-space: nowrap; }
+.ob-tag svg { color: var(--ds-soft); }
+
+/* Selectable tool card */
+.ob-tool {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid var(--ds-line);
+  border-radius: var(--ds-radius-md);
+  background: var(--ds-surface);
+  color: var(--ds-ink);
+  font: inherit;
+  text-align: start;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition-property: background-color, border-color, box-shadow, scale;
+  transition-duration: 150ms;
+  transition-timing-function: ease-out;
+}
+@media (hover: hover) { .ob-tool:hover { border-color: var(--ds-line-strong); } }
+.ob-tool:active { scale: 0.98; }
+.ob-tool[data-state="connected"] { border-color: var(--ds-accent-line); box-shadow: 0 0 0 1px var(--ds-accent-line); }
+.ob-tool__text { display: grid; min-width: 0; }
+.ob-tool__state { display: inline-flex; align-items: center; gap: 4px; color: var(--ds-soft); }
+.ob-tool[data-state="connected"] .ob-tool__state { color: var(--ds-accent-text); }
+.ob-tool__mark { position: absolute; inset-block-start: 10px; inset-inline-end: 10px; }
+
+/* Inline error with its retry */
+.ob-error { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 8px 8px 8px 12px; border: 1px solid color-mix(in srgb, var(--ds-danger) 30%, transparent); border-radius: var(--ds-radius-md); background: color-mix(in srgb, var(--ds-danger) 6%, transparent); color: var(--ds-ink); }
+
+/* Keyboard hint */
+.ob-kbd { display: inline-flex; align-items: center; gap: 6px; color: var(--ds-muted); font: 400 12px/16px var(--font-sans); white-space: nowrap; }
+.ob-kbd kbd { min-width: 20px; height: 20px; padding: 0 5px; border-radius: 4px; background: var(--ds-surface); box-shadow: 0 0 0 1px var(--ds-line); font: 500 11px/16px var(--font-sans); color: var(--ds-soft); }
+
+/* Brain-dump field: a quiet composer */
+.ob-composer {
+  display: grid;
+  border: 1px solid var(--ds-line);
+  border-radius: var(--ds-radius-md);
+  background: var(--ds-field);
+  box-shadow: var(--ds-shadow-sm);
+  transition: border-color 150ms ease-out, box-shadow 150ms ease-out;
+}
+.ob-composer:focus-within { border-color: var(--ds-accent-line); box-shadow: 0 0 0 3px var(--ds-accent-soft); }
+.ob-composer textarea {
+  width: 100%;
+  min-height: 96px;
+  padding: 12px 14px 4px;
+  border: 0;
+  outline: none;
+  background: none;
+  color: var(--ds-ink);
+  font: 400 14px/1.55 var(--font-sans);
+  resize: none;
+}
+.ob-composer textarea::placeholder { color: var(--ds-muted); }
+.ob-composer textarea:focus-visible { outline: none; }
+.ob-composer__foot { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 6px 8px 8px 14px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ob-chip:active, .ob-tool:active { scale: 1; }
 }

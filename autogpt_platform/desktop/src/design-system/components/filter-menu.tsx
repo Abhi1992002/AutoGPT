@@ -297,7 +297,7 @@ const css = /* css */ `
   --ui-fm-check: #ffffff;
   --ui-fm-row-hover: #f7f7f7;
   --ui-fm-kbd: #ffffff;
-  --ui-fm-focus: #2f6bff;
+  --ui-fm-focus: var(--ds-accent);
   --ui-fm-shadow: var(--ds-shadow-sm);
   --ui-fm-ease: var(--ds-ease);
   width: 100%;
@@ -512,6 +512,6 @@ const css = /* css */ `
   --ui-fm-check: #121213;
   --ui-fm-row-hover: rgba(255, 255, 255, 0.05);
   --ui-fm-kbd: #232326;
-  --ui-fm-focus: #6b95ff;
+  --ui-fm-focus: var(--ds-accent-text);
 }
 `;

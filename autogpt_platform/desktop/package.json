@@ -16,7 +16,6 @@
     "@tauri-apps/api": "^2",
     "@tauri-apps/plugin-process": "^2.4.0",
     "@tauri-apps/plugin-updater": "^2.14.1",
-    "bot-avatars": "^0.2.2",
     "framer-motion": "^14.7.1",
     "inter-ui": "^4.1.1",
     "lucide-react": "^1.63.0",

@@ -1,74 +1,87 @@
-import { ArrowRight01Icon, GithubIcon, Mail01Icon, SlackIcon } from "@hugeicons/core-free-icons";
+import { ArrowRight01Icon, Calendar03Icon, CheckListIcon, GithubIcon, Mail01Icon, Note01Icon, SparklesIcon } from "@hugeicons/core-free-icons";
 import type { IconSvgElement } from "@hugeicons/react";
 import { motion } from "framer-motion";
-import { useRef } from "react";
+import { useMemo, useRef } from "react";
+import type { CharacterId } from "../../../assets/avatars";
+import { characters } from "../../../assets/avatars";
 import { AgentAvatar } from "../../../components/AgentAvatar";
 import { Button } from "../../../design-system/components/button";
 import { useStepFocus } from "../../core/hooks";
-import { INTEGRATIONS } from "../../core/data";
-import { springSlow, stagger, useEnterExit } from "../../core/motion";
+import { stagger, useEnterExit } from "../../core/motion";
 import { STEPS } from "../../core/steps";
+import { understand } from "../../core/understand";
 import type { Onboarding } from "../../core/useOnboarding";
+import { ExpertStack } from "../../ui/ExpertStack";
 import { Icon } from "../../ui/Icon";
+import { StatusMark } from "../../ui/StatusMark";
+import { Window } from "./Window";
 
-/** Finished work Auto shows off on the first screen */
-const TASKS: { icon: IconSvgElement; text: string; meta: string }[] = [
-  { icon: Mail01Icon, text: "Sorted 42 emails, drafted 6 replies", meta: "Inbox · 8:02" },
-  { icon: GithubIcon, text: "Reviewed PR #128 and left 3 notes", meta: "GitHub · 9:15" },
-  { icon: SlackIcon, text: "Posted the standup summary", meta: "Slack · 9:30" },
+type FeedItem = { character: CharacterId; icon: IconSvgElement; text: string; meta: string; drafting?: boolean };
+
+/** Finished work the experts show off on the first screen */
+const TODAY: FeedItem[] = [
+  { character: "kai", icon: Mail01Icon, text: "Sorted 42 emails and drafted 6 replies", meta: "8:02" },
+  { character: "alex", icon: GithubIcon, text: "Reviewed PR #128 and left 3 notes", meta: "9:15" },
+  { character: "james", icon: Note01Icon, text: "Posted the standup summary to #team", meta: "9:30" },
 ];
 
-/** Welcome and done: a centered stage with Auto large */
+/** Starter agents when the brief is empty */
+const STARTERS: FeedItem[] = [
+  { character: "kai", icon: Mail01Icon, text: "Morning inbox sort", meta: "Template", drafting: true },
+  { character: "frankie", icon: Calendar03Icon, text: "Meeting prep notes", meta: "Template", drafting: true },
+];
+
+/** Welcome and done: a centred headline over a window of agent work */
 export function Hero({ flow }: { flow: Onboarding }) {
   const { step } = flow.state;
   const done = step === "done";
   const copy = STEPS[step];
-  const enter = useEnterExit(16);
+  const enter = useEnterExit(8);
   const heading = useRef<HTMLHeadingElement>(null);
   useStepFocus(heading, flow.state.moved);
-  const tools = INTEGRATIONS.filter((i) => flow.state.integrations[i.id] === "connected");
+  const { tasks } = useMemo(() => understand(flow.state.brain), [flow.state.brain]);
+
+  const items: FeedItem[] = done
+    ? tasks.length
+      ? tasks.map((t) => ({ character: t.character, icon: t.icon, text: t.title, meta: t.when ?? "On demand", drafting: true }))
+      : STARTERS
+    : TODAY;
 
   return (
-    <motion.section key={step} className="story-hero" aria-labelledby="story-title" variants={stagger(0.1)} initial="hidden" animate="show">
-      <div className="story-hero__stage">
-        <motion.div layoutId="story-guide" className="story__guide" transition={springSlow}>
-          <AgentAvatar character="auto" size={168} hat={done ? "party" : undefined} theme="dark" interactive decorative />
-        </motion.div>
-        {!done && (
-          <motion.ul className="story-hero__tasks" variants={stagger(0.12, 0.5)} aria-label="Things agents do">
-            {TASKS.map((task, i) => (
-              <motion.li key={task.text} className="story-task" data-slot={i} variants={enter}>
-                <span className="story-task__icon">
-                  <Icon icon={task.icon} size={16} />
-                </span>
-                <span className="story-task__text">
-                  <span className="small">{task.text}</span>
-                  <span className="small story__muted">{task.meta}</span>
-                </span>
-              </motion.li>
-            ))}
-          </motion.ul>
-        )}
-      </div>
+    <motion.section className="story-hero" aria-labelledby="story-title" variants={stagger(0.06)} initial="hidden" animate="show" exit="exit">
+      <motion.div className="story-hero__cast" variants={enter}>
+        <AgentAvatar character="otto" size={48} decorative />
+        <ExpertStack ids={items.map((i) => i.character)} size={28} />
+      </motion.div>
       <motion.h1 id="story-title" ref={heading} tabIndex={-1} className="ob-hero" variants={enter}>
         {copy.title}
       </motion.h1>
       <motion.p className="ob-lead story__lead" variants={enter}>
         {copy.description}
       </motion.p>
-      {done && tools.length > 0 && (
-        <motion.ul className="story-hero__tools" variants={enter} aria-label="Connected tools">
-          {tools.map((tool) => (
-            <li key={tool.id} title={tool.name}>
-              <Icon icon={tool.icon} size={16} label={tool.name} />
-            </li>
-          ))}
-        </motion.ul>
-      )}
-      <motion.div className="story__actions story__actions--center" variants={enter}>
+      <motion.div className="story-hero__actions" variants={enter}>
         <Button size="lg" onClick={flow.next} iconRight={<Icon icon={ArrowRight01Icon} />}>
           {copy.action}
         </Button>
+        {!done && <span className="ob-meta">Takes about three minutes</span>}
+      </motion.div>
+      <motion.div className="story-hero__window" variants={enter}>
+        <Window icon={done ? SparklesIcon : CheckListIcon} title={done ? "Otto is drafting" : "Done today"} meta={done ? `${items.length} agents` : "While you were away"}>
+          <ul className="story-feed">
+            {items.map((item) => (
+              <li key={item.text} className="story-feed__row">
+                <AgentAvatar character={item.character} size={24} decorative />
+                <span className="ob-label story-feed__who">{characters[item.character].name}</span>
+                <Icon icon={item.icon} size={14} className="story-feed__icon" />
+                <span className="ob-text ob-truncate">{item.text}</span>
+                <span className="story-feed__end">
+                  {item.drafting ? <StatusMark mark="active" label="Drafting" /> : <StatusMark mark="done" label="Done" />}
+                  <span className="ob-meta ob-num">{item.meta}</span>
+                </span>
+              </li>
+            ))}
+          </ul>
+        </Window>
       </motion.div>
     </motion.section>
   );

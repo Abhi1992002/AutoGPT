@@ -10,6 +10,7 @@ import {
   TaskDone01Icon,
 } from "@hugeicons/core-free-icons";
 import type { IconSvgElement } from "@hugeicons/react";
+import type { CharacterId } from "../../assets/avatars";
 import { INTEGRATIONS, type Integration } from "./data";
 
 /*
@@ -17,7 +18,8 @@ import { INTEGRATIONS, type Integration } from "./data";
  * the tools you mentioned and the agents worth drafting. The real version asks the model.
  */
 
-export type Task = { id: string; title: string; icon: IconSvgElement; when?: string };
+/** `character` is the expert who would run the agent */
+export type Task = { id: string; title: string; icon: IconSvgElement; character: CharacterId; when?: string };
 export type Understanding = { about: string[]; tools: Integration[]; tasks: Task[] };
 
 const ABOUT: { label: (m: RegExpMatchArray) => string; match: RegExp }[] = [
@@ -44,14 +46,14 @@ const TOOL_ALIASES: Record<string, RegExp> = {
 };
 
 const TASKS: (Omit<Task, "when"> & { match: RegExp })[] = [
-  { id: "inbox", title: "Sort the inbox and draft replies", icon: Mail01Icon, match: /\b(inbox|e-?mails?)\b/i },
-  { id: "update", title: "Write the team update", icon: Note01Icon, match: /\b(team update|weekly update|status report|standup)\b/i },
-  { id: "github", title: "Digest GitHub notifications", icon: GithubIcon, match: /\bgithub (notifications|digest)\b/i },
-  { id: "issues", title: "Triage bug reports into issues", icon: TaskDone01Icon, match: /\b(bug reports?|file issues|triage)\b/i },
-  { id: "competitors", title: "Watch competitors", icon: News01Icon, match: /\bcompetitors?\b/i },
-  { id: "papers", title: "Track new papers", icon: Search01Icon, match: /\bpapers?\b/i },
-  { id: "invoices", title: "Chase unpaid invoices", icon: Invoice01Icon, match: /\b(invoices?|billing)\b/i },
-  { id: "meetings", title: "Prepare meeting notes", icon: Calendar03Icon, match: /\b(meetings?|calls?)\b/i },
+  { id: "inbox", title: "Sort the inbox and draft replies", icon: Mail01Icon, character: "kai", match: /\b(inbox|e-?mails?)\b/i },
+  { id: "update", title: "Write the team update", icon: Note01Icon, character: "james", match: /\b(team update|weekly update|status report|standup)\b/i },
+  { id: "github", title: "Digest GitHub notifications", icon: GithubIcon, character: "alex", match: /\bgithub (notifications|digest)\b/i },
+  { id: "issues", title: "Triage bug reports into issues", icon: TaskDone01Icon, character: "casey", match: /\b(bug reports?|file issues|triage)\b/i },
+  { id: "competitors", title: "Watch competitors", icon: News01Icon, character: "nadia", match: /\bcompetitors?\b/i },
+  { id: "papers", title: "Track new papers", icon: Search01Icon, character: "quinn", match: /\bpapers?\b/i },
+  { id: "invoices", title: "Chase unpaid invoices", icon: Invoice01Icon, character: "mina", match: /\b(invoices?|billing)\b/i },
+  { id: "meetings", title: "Prepare meeting notes", icon: Calendar03Icon, character: "frankie", match: /\b(meetings?|calls?)\b/i },
 ];
 
 const DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];

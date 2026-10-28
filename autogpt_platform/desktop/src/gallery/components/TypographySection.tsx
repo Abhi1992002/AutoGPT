@@ -37,7 +37,7 @@ export function TypographySection() {
               <span className="ui text-accent">.text-accent</span>
               <span className="ui text-danger">.text-danger</span>
             </span>
-            <span className="type-sample__spec caption">ink · #737373 · #8f8f8f · #2f6bff · #e5484d</span>
+            <span className="type-sample__spec caption">ink · #6b6b72 · #8a8a91 · #6e56cf · #dc3e42</span>
           </div>
           <div className="type-sample">
             <code className="type-sample__name">code / kbd</code>

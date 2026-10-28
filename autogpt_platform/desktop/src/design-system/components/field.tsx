@@ -65,8 +65,8 @@ const css = /* css */ `
 
 /* The control box shared by Input, Textarea, Search, Select, File and Date inputs */
 .ui-control {
-  --ui-ctl-line-strong: #cfcfd4;
-  --ui-ctl-halo: rgba(23, 23, 23, 0.07);
+  --ui-ctl-line-strong: var(--ds-line-strong);
+  --ui-ctl-halo: var(--ds-accent-soft);
   --ui-ctl-danger-line: rgba(229, 72, 77, 0.6);
   --ui-ctl-danger-halo: rgba(229, 72, 77, 0.12);
   box-sizing: border-box;
@@ -74,26 +74,26 @@ const css = /* css */ `
   align-items: center;
   gap: 8px;
   width: 100%;
-  min-height: 36px;
+  min-height: 32px;
   padding: 0 10px;
   border: 1px solid var(--ds-line);
-  border-radius: 8px;
-  background: var(--ds-surface);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  border-radius: var(--ds-radius-sm);
+  background: var(--ds-field);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
   font: 500 13px/20px var(--font-sans);
   color: var(--ds-ink);
   cursor: text;
-  transition: border-color 160ms ease, box-shadow 160ms ease, background-color 160ms ease;
+  transition: border-color 150ms ease-out, box-shadow 150ms ease-out, background-color 150ms ease-out;
 }
-.ui-control:hover { border-color: var(--ui-ctl-line-strong); }
-.ui-control:focus-within { border-color: var(--ds-ink); box-shadow: 0 0 0 4px var(--ui-ctl-halo); }
+@media (hover: hover) { .ui-control:hover { border-color: var(--ui-ctl-line-strong); } }
+.ui-control:focus-within { border-color: var(--ds-accent-line); box-shadow: 0 0 0 3px var(--ui-ctl-halo); }
 .ui-control[data-invalid] { border-color: var(--ui-ctl-danger-line); }
-.ui-control[data-invalid]:focus-within { border-color: var(--ds-danger); box-shadow: 0 0 0 4px var(--ui-ctl-danger-halo); }
+.ui-control[data-invalid]:focus-within { border-color: var(--ds-danger); box-shadow: 0 0 0 3px var(--ui-ctl-danger-halo); }
 .ui-control[data-disabled] { background: var(--ds-field); opacity: 0.55; cursor: default; pointer-events: none; }
 .ui-control__input {
   flex: 1;
   min-width: 0;
-  height: 34px;
+  height: 30px;
   margin: 0;
   padding: 0;
   border: 0;
@@ -129,10 +129,10 @@ const css = /* css */ `
 @media (prefers-reduced-motion: reduce) { .ui-control, .ui-control__btn, .ui-field__error { transition: none; animation: none; } }
 
 :where(.dark, [data-theme="dark"]) .ui-control {
-  --ui-ctl-line-strong: #3a3a40;
-  --ui-ctl-halo: rgba(255, 255, 255, 0.08);
+  --ui-ctl-line-strong: var(--ds-line-strong);
+  --ui-ctl-halo: var(--ds-accent-soft);
   --ui-ctl-danger-line: rgba(255, 99, 105, 0.55);
   --ui-ctl-danger-halo: rgba(255, 99, 105, 0.14);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: none;
 }
 `;

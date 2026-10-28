@@ -8,6 +8,7 @@ import { ZenOnboarding } from "./variants/a/ZenOnboarding";
 import { StoryOnboarding } from "./variants/b/StoryOnboarding";
 import { ConsoleOnboarding } from "./variants/c/ConsoleOnboarding";
 import "./onboarding.css";
+import "./blocks/blocks.css";
 
 export type VariantProps = { flow: OnboardingFlow };
 

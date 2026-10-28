@@ -399,23 +399,23 @@ const css = /* css */ `
 .ui-seg {
   --ui-seg-tray: var(--ds-tray);
   --ui-seg-pill: var(--ds-surface);
-  --ui-seg-line: #ececec;
+  --ui-seg-line: var(--ds-hairline);
   --ui-seg-ink: var(--ds-ink);
   --ui-seg-text: var(--ds-text);
   --ui-seg-soft: var(--ds-soft);
   --ui-seg-muted: var(--ds-muted);
-  --ui-seg-count: rgba(0, 0, 0, 0.06);
+  --ui-seg-count: var(--ds-fill);
   --ui-seg-accent: var(--ds-accent);
   --ui-seg-accent-soft: var(--ds-accent-soft);
   --ui-seg-pill-shadow: var(--ds-shadow-raised);
   --ui-seg-focus: var(--ds-focus);
   --ui-seg-ease: var(--ds-ease);
   /* Size: md */
-  --ui-seg-h: 30px;
+  --ui-seg-h: 28px;
   --ui-seg-px: 12px;
-  --ui-seg-fs: 13.5px;
-  --ui-seg-r: 11px;
-  --ui-seg-pad: 3px;
+  --ui-seg-fs: 13px;
+  --ui-seg-r: 8px;
+  --ui-seg-pad: 2px;
   --ui-seg-icon: 15px;
   --ui-seg-gap: 20px;
   box-sizing: border-box;
@@ -431,8 +431,8 @@ const css = /* css */ `
   color: var(--ui-seg-soft);
   -webkit-font-smoothing: antialiased;
 }
-.ui-seg[data-size="sm"] { --ui-seg-h: 26px; --ui-seg-px: 10px; --ui-seg-fs: 12.5px; --ui-seg-r: 9px; --ui-seg-pad: 2px; --ui-seg-icon: 14px; --ui-seg-gap: 16px; }
-.ui-seg[data-size="lg"] { --ui-seg-h: 36px; --ui-seg-px: 16px; --ui-seg-fs: 14px; --ui-seg-r: 13px; --ui-seg-pad: 4px; --ui-seg-icon: 16px; --ui-seg-gap: 24px; }
+.ui-seg[data-size="sm"] { --ui-seg-h: 24px; --ui-seg-px: 10px; --ui-seg-fs: 12px; --ui-seg-r: 7px; --ui-seg-pad: 2px; --ui-seg-icon: 14px; --ui-seg-gap: 16px; }
+.ui-seg[data-size="lg"] { --ui-seg-h: 32px; --ui-seg-px: 14px; --ui-seg-fs: 13px; --ui-seg-r: 8px; --ui-seg-pad: 2px; --ui-seg-icon: 16px; --ui-seg-gap: 24px; }
 .ui-seg[data-full] { display: flex; width: 100%; }
 .ui-seg[data-disabled] { opacity: 0.5; pointer-events: none; }
 .ui-seg *, .ui-seg *::before, .ui-seg *::after { box-sizing: border-box; }
@@ -580,9 +580,8 @@ const css = /* css */ `
 
 /* Dark mode: follows a .dark class or data-theme="dark" on any ancestor, e.g. <html> */
 :where(.dark, [data-theme="dark"]) .ui-seg {
-  --ui-seg-tray: #111113;
-  --ui-seg-pill: #26262a;
-  --ui-seg-line: #2a2a2e;
+  --ui-seg-tray: rgba(255, 255, 255, 0.04);
+  --ui-seg-pill: rgba(255, 255, 255, 0.09);
   --ui-seg-count: rgba(255, 255, 255, 0.08);
 }
 `;

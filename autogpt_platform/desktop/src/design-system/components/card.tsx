@@ -50,25 +50,25 @@ export function Card({ title, description, actions, children, footer, tray = tru
 
 const css = /* css */ `
 .ui-card { box-sizing: border-box; width: 100%; min-width: 0; font-family: var(--font-sans); color: var(--ds-ink); }
-.ui-card[data-tray] { padding: 6px; border-radius: 22px; background: var(--ds-tray); }
+.ui-card[data-tray] { padding: 4px; border-radius: 12px; background: var(--ds-tray); box-shadow: inset 0 0 0 1px var(--ds-hairline); }
 .ui-card *, .ui-card *::before, .ui-card *::after { box-sizing: border-box; }
 .ui-card__card {
   --ui-card-pad: 16px;
   border: 1px solid var(--ds-line);
-  border-radius: 16px;
+  border-radius: var(--ds-radius-md);
   background: var(--ds-surface);
   box-shadow: var(--ds-shadow-sm);
 }
-.ui-card:not([data-tray]) .ui-card__card { border-radius: 20px; }
+.ui-card:not([data-tray]) .ui-card__card { border-radius: var(--ds-radius-lg); }
 .ui-card__card[data-padding="sm"] { --ui-card-pad: 12px; }
 .ui-card__card[data-padding="none"] { --ui-card-pad: 0px; }
 .ui-card__head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; padding: var(--ui-card-pad) var(--ui-card-pad) 0; }
 .ui-card__card[data-padding="none"] .ui-card__head { padding: 16px 16px 0; }
 .ui-card__titles { display: grid; gap: 2px; min-width: 0; }
-.ui-card__title { margin: 0; font: 600 16px/24px var(--font-sans); letter-spacing: -0.01em; overflow-wrap: anywhere; }
-.ui-card__desc { margin: 0; font: 400 13.5px/20px var(--font-sans); color: var(--ds-soft); overflow-wrap: anywhere; }
+.ui-card__title { margin: 0; font: 600 14px/20px var(--font-sans); letter-spacing: -0.006em; overflow-wrap: anywhere; }
+.ui-card__desc { margin: 0; font: 400 13px/20px var(--font-sans); color: var(--ds-soft); overflow-wrap: anywhere; }
 .ui-card__actions { display: flex; flex: none; align-items: center; gap: 8px; }
-.ui-card__body { padding: var(--ui-card-pad); font: 400 14px/20px var(--font-sans); color: var(--ds-text); }
+.ui-card__body { padding: var(--ui-card-pad); font: 400 13px/20px var(--font-sans); color: var(--ds-text); }
 .ui-card__head + .ui-card__body { padding-top: 12px; }
 .ui-card__card[data-padding="none"] .ui-card__head + .ui-card__body { padding-top: 12px; }
 .ui-card__footer { display: flex; align-items: center; gap: 8px; padding: 10px 12px 6px; font: 500 13px/18px var(--font-sans); color: var(--ds-text); }

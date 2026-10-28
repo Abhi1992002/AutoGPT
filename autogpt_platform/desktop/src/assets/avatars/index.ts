@@ -1,31 +1,32 @@
-import type { BotAvatarFace, BotAvatarGlasses, BotAvatarHat, BotAvatarShading, BotAvatarType } from "bot-avatars";
-
 /*
- * Our named characters, mapped onto bot-avatars bodies (MIT, see LICENSE-bot-avatars.md).
- * AgentAvatar is the only consumer, so swapping the set for the Pro version touches this file alone.
+ * The AutoGPT characters the app shows, from the platform's managed library
+ * (Significant-Gravitas/AutoGPT, autogpt_platform/frontend/public/autogpt-characters).
+ * Only the 128 and 256 px WebP tiles are copied into public/autogpt-characters.
+ * AgentAvatar is the only consumer, so a new set touches this file alone.
  */
 
-export type CharacterId = "auto" | "scout" | "relay" | "tempo";
+export type CharacterId = "otto" | "nadia" | "casey" | "frankie" | "kai" | "james" | "alex" | "quinn" | "mina";
 
 export type Character = {
   name: string;
   role: string;
-  type: BotAvatarType;
-  /** Body colour – AutoGPT purples */
-  color: string;
-  ink?: string;
-  brightness?: number;
-  hat?: BotAvatarHat;
-  glasses?: BotAvatarGlasses;
-  headphones?: boolean;
+  /** Folder under public/, holding 128.webp and 256.webp */
+  path: string;
 };
 
-/** One look for the whole set: glossy bodies keep their shape at small sizes, and a mouth reads as a face */
-export const look: { shading: BotAvatarShading; face: BotAvatarFace } = { shading: "plastic", face: "mouth" };
+const tile = (library: "v1.1" | "v2.1", id: string) => `/autogpt-characters/${library}/${id}/neutral`;
 
 export const characters: Record<CharacterId, Character> = {
-  auto: { name: "Auto", role: "Your guide", type: "droid", color: "#7c55cc" },
-  scout: { name: "Scout", role: "Research", type: "drop", color: "#9b7fe0", glasses: "round" },
-  relay: { name: "Relay", role: "Tools", type: "square", color: "#5c379f", headphones: true, brightness: 1.15 },
-  tempo: { name: "Tempo", role: "Schedules", type: "clover", color: "#b9a6f2", hat: "beanie" },
+  otto: { name: "Otto", role: "Your guide", path: tile("v1.1", "otto") },
+  nadia: { name: "Nadia", role: "Research", path: tile("v2.1", "expert-nadia") },
+  casey: { name: "Casey", role: "Triage", path: tile("v2.1", "expert-casey") },
+  frankie: { name: "Frankie", role: "Schedules", path: tile("v2.1", "expert-frankie") },
+  kai: { name: "Kai", role: "Inbox", path: tile("v2.1", "expert-kai") },
+  james: { name: "James", role: "Team updates", path: tile("v2.1", "expert-james") },
+  alex: { name: "Alex", role: "Product", path: tile("v2.1", "expert-alex") },
+  quinn: { name: "Quinn", role: "Analysis", path: tile("v2.1", "expert-quinn") },
+  mina: { name: "Mina", role: "Bookkeeping", path: tile("v1.1", "expert-mina") },
 };
+
+/** The tile that stays sharp on a 2x screen: 128 px up to 64 px wide, 256 px above */
+export const tileFor = (id: CharacterId, size: number) => `${characters[id].path}/${size > 64 ? 256 : 128}.webp`;

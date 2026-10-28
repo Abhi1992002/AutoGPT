@@ -64,8 +64,8 @@ export function Checkbox({ checked, defaultChecked = false, indeterminate = fals
 
 const css = /* css */ `
 .ui-checkbox {
-  --ui-cb-box: #f0f0f0;
-  --ui-cb-box-line: #e3e3e3;
+  --ui-cb-box: var(--ds-field);
+  --ui-cb-box-line: var(--ds-line-strong);
   --ui-cb-check: #ffffff;
   display: inline-flex;
   align-items: flex-start;
@@ -82,17 +82,18 @@ const css = /* css */ `
   display: grid;
   place-items: center;
   flex: none;
-  width: 20px;
-  height: 20px;
-  border-radius: 6px;
+  width: 16px;
+  height: 16px;
+  margin-block-start: 2px;
+  border-radius: var(--ds-radius-xs);
   background: var(--ui-cb-box);
   box-shadow: inset 0 0 0 1px var(--ui-cb-box-line);
   transition: background-color 180ms ease, box-shadow 180ms ease;
 }
 .ui-checkbox__box svg {
   grid-area: 1 / 1;
-  width: 14px;
-  height: 14px;
+  width: 12px;
+  height: 12px;
   fill: none;
   stroke: var(--ui-cb-check);
   stroke-width: 2.2;
@@ -103,7 +104,7 @@ const css = /* css */ `
   transition: stroke-dashoffset 260ms var(--ds-ease);
 }
 .ui-checkbox__input:checked + .ui-checkbox__box,
-.ui-checkbox__input:indeterminate + .ui-checkbox__box { background: var(--ds-ink); box-shadow: inset 0 0 0 1px var(--ds-ink); }
+.ui-checkbox__input:indeterminate + .ui-checkbox__box { background: var(--ds-accent); box-shadow: inset 0 0 0 1px var(--ds-accent); }
 .ui-checkbox__input:checked:not(:indeterminate) + .ui-checkbox__box .ui-checkbox__tick { stroke-dashoffset: 0; }
 .ui-checkbox__input:indeterminate + .ui-checkbox__box .ui-checkbox__dash { stroke-dashoffset: 0; }
 .ui-checkbox__input:focus-visible + .ui-checkbox__box { outline: 2px solid var(--ds-focus); outline-offset: 2px; }
@@ -112,5 +113,5 @@ const css = /* css */ `
 .ui-checkbox__desc { font: 400 12px/16px var(--font-sans); color: var(--ds-muted); }
 @media (prefers-reduced-motion: reduce) { .ui-checkbox__box, .ui-checkbox__box svg { transition: none; } }
 
-:where(.dark, [data-theme="dark"]) .ui-checkbox { --ui-cb-box: #2a2a2d; --ui-cb-box-line: rgba(255, 255, 255, 0.1); --ui-cb-check: #121213; }
+:where(.dark, [data-theme="dark"]) .ui-checkbox { --ui-cb-check: #ffffff; }
 `;

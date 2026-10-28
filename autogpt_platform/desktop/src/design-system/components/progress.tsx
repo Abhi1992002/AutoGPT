@@ -64,16 +64,16 @@ export function Progress({ value, max = 100, label, showValue, size = "md", tone
 }
 
 const css = /* css */ `
-.ui-pbar { --ui-pb-h: 8px; --ui-pb-track: #f0f0f0; --ui-pb-fill: var(--ds-ink); display: grid; gap: 8px; width: 100%; min-width: 0; font-family: var(--font-sans); color: var(--ds-ink); }
-.ui-pbar[data-size="sm"] { --ui-pb-h: 4px; --ui-pb-track: rgba(0, 0, 0, 0.07); gap: 7px; }
+.ui-pbar { --ui-pb-h: 6px; --ui-pb-track: var(--ds-fill); --ui-pb-fill: var(--ds-ink); display: grid; gap: 8px; width: 100%; min-width: 0; font-family: var(--font-sans); color: var(--ds-ink); }
+.ui-pbar[data-size="sm"] { --ui-pb-h: 4px; gap: 8px; }
 .ui-pbar[data-tone="accent"] { --ui-pb-fill: var(--ds-accent); }
 .ui-pbar__head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
 .ui-pbar__label { min-width: 0; font: 500 13px/18px var(--font-sans); color: var(--ds-text); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 .ui-pbar__count { flex: none; font: 500 13px/18px var(--font-sans); color: var(--ds-muted); font-variant-numeric: tabular-nums; }
 .ui-pbar__digit { display: inline-block; animation: ui-pbar-roll 560ms var(--ds-ease); }
 .ui-pbar__bar { position: relative; height: var(--ui-pb-h); overflow: hidden; border-radius: 999px; background: var(--ui-pb-track); }
-.ui-pbar__fill { position: absolute; inset: 0; overflow: hidden; border-radius: inherit; background: var(--ui-pb-fill); transform-origin: 0 50%; transition: transform 1100ms var(--ds-ease); }
-.ui-pbar[data-size="sm"] .ui-pbar__fill { transition-duration: 900ms; }
+.ui-pbar__fill { position: absolute; inset: 0; overflow: hidden; border-radius: inherit; background: var(--ui-pb-fill); transform-origin: 0 50%; transition: transform 600ms var(--ds-ease); }
+.ui-pbar[data-size="sm"] .ui-pbar__fill { transition-duration: 500ms; }
 .ui-pbar__shine { position: absolute; inset: 0; background: linear-gradient(90deg, transparent 30%, rgba(255, 255, 255, 0.28) 50%, transparent 70%) 0 0 / 220% 100% no-repeat; animation: ui-pbar-shine 1400ms ease-out both; }
 .ui-pbar[data-indeterminate] .ui-pbar__fill { width: 40%; transform: none; animation: ui-pbar-run 1400ms var(--ds-ease) infinite; }
 .ui-pbar[data-indeterminate] .ui-pbar__shine { display: none; }
@@ -82,6 +82,6 @@ const css = /* css */ `
 @keyframes ui-pbar-run { from { left: -40%; } to { left: 100%; } }
 @media (prefers-reduced-motion: reduce) { .ui-pbar__fill { transition-duration: 1ms; } .ui-pbar__shine, .ui-pbar__digit { animation: none; } .ui-pbar[data-indeterminate] .ui-pbar__fill { animation-duration: 2800ms; } }
 
-:where(.dark, [data-theme="dark"]) .ui-pbar { --ui-pb-track: rgba(255, 255, 255, 0.1); }
-:where(.dark, [data-theme="dark"]) .ui-pbar__shine { background-image: linear-gradient(90deg, transparent 30%, rgba(255, 255, 255, 0.7) 50%, transparent 70%); }
+:where(.dark, [data-theme="dark"]) .ui-pbar { --ui-pb-track: rgba(255, 255, 255, 0.08); }
+:where(.dark, [data-theme="dark"]) .ui-pbar__shine { background-image: linear-gradient(90deg, transparent 30%, rgba(255, 255, 255, 0.35) 50%, transparent 70%); }
 `;

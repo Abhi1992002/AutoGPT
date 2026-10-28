@@ -26,9 +26,6 @@ importers:
       '@tauri-apps/plugin-updater':
         specifier: ^2.14.1
         version: 2.14.1
-      bot-avatars:
-        specifier: ^0.2.2
-        version: 0.2.2(react@19.3.1)
       framer-motion:
         specifier: ^14.7.1
         version: 14.7.1(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
@@ -276,11 +273,6 @@ packages:
         optional: true
       oxc-transform-react:
         optional: true
-
-  bot-avatars@0.2.2:
-    resolution: {integrity: sha512-EszpDsXfbO7SD3Jv/g8/7mt3I4EpN4WuDy6Uk3reuzIgU+dl4iKtk+fuIzGgfXjOraF1jQqUjaDOdcql1khXHQ==}
-    peerDependencies:
-      react: '>=18.0.0'
 
   csstype@3.2.3:
     resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
@@ -623,10 +615,6 @@ snapshots:
     dependencies:
       '@rolldown/pluginutils': 1.0.1
       vite: 8.3.5
-
-  bot-avatars@0.2.2(react@19.3.1):
-    dependencies:
-      react: 19.3.1
 
   csstype@3.2.3: {}
 

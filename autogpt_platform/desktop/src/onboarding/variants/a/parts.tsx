@@ -16,28 +16,26 @@ export function Reveal({ children, className }: { children: ReactNode; className
   );
 }
 
-/** Visual, title and description – the top of every Zen card */
+/** Visual, title and description – the top of every Zen step */
 export function ZenHeader({ step, moved, visual, icon }: { step: StepId; moved: boolean; visual?: ReactNode; icon?: IconSvgElement }) {
   const heading = useRef<HTMLHeadingElement>(null);
   useStepFocus(heading, moved);
   const copy = STEPS[step];
   return (
-    <>
+    <Reveal className="zen__head">
       {(visual || icon) && (
-        <Reveal className="zen__visual">
+        <div className="zen__visual">
           {visual ?? (
-            <span className="zen__tile">
-              <Icon icon={icon!} size={26} />
+            <span className="ob-tile ob-tile--lg">
+              <Icon icon={icon!} size={18} />
             </span>
           )}
-        </Reveal>
+        </div>
       )}
-      <Reveal className="zen__heading">
-        <h1 id="zen-title" ref={heading} tabIndex={-1} className="ob-display">
-          {copy.title}
-        </h1>
-        <p className="ob-lead text-muted">{copy.description}</p>
-      </Reveal>
-    </>
+      <h1 id="zen-title" ref={heading} tabIndex={-1} className="ob-display">
+        {copy.title}
+      </h1>
+      <p className="ob-lead">{copy.description}</p>
+    </Reveal>
   );
 }

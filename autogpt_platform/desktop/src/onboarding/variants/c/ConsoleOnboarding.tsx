@@ -1,4 +1,4 @@
-import { ArrowLeft01Icon } from "@hugeicons/core-free-icons";
+import { ArrowLeft01Icon, ArrowRight01Icon } from "@hugeicons/core-free-icons";
 import { AnimatePresence, motion } from "framer-motion";
 import { useRef, type ComponentType } from "react";
 import { Button } from "../../../design-system/components/button";
@@ -18,8 +18,8 @@ import { Stepper } from "./Stepper";
 import "./console.css";
 
 /*
- * Variant C – Console. A checklist stepper on the left, a rich visual panel on the right:
- * the download as a stylised terminal with layer bars, the start as a service table.
+ * Variant C – Console. Setup inside the app's own shell, the way Linear lays out a workspace:
+ * a sidebar checklist, an inset main panel with a breadcrumb bar, dense tables and a terminal.
  */
 
 export type ConsolePanelProps = { flow: Onboarding };
@@ -34,52 +34,64 @@ const PANELS: Record<StepId, ComponentType<ConsolePanelProps>> = {
   done: DonePanel,
 };
 
+const AUTO: Partial<Record<StepId, string>> = { download: "Continues when the download finishes", start: "Continues when the engine is healthy" };
+
 export function ConsoleOnboarding({ flow }: { flow: Onboarding }) {
   const { step } = flow.state;
   const Panel = PANELS[step];
-  const enter = useEnterExit(10);
+  const enter = useEnterExit(6);
+  const waiting = !flow.canContinue ? AUTO[step] : undefined;
 
   return (
     <div className="ob con">
       <Stepper flow={flow} />
       <main className="con__main">
-        <AnimatePresence mode="wait" initial={false}>
-          <motion.section key={step} className="con__view" data-step={step} aria-labelledby="con-title" variants={stagger(0.08)} initial="hidden" animate="show" exit="exit">
-            {/* The brain dump sets its own minimal prompt */}
-            {step !== "brain" && <ConsoleHeader flow={flow} step={step} />}
-            <motion.div className="con__panel" variants={enter}>
-              <Panel flow={flow} />
-            </motion.div>
-            <motion.footer className="con__footer" variants={enter}>
-              {step !== "welcome" && step !== "done" && (
-                <Button variant="ghost" icon={<Icon icon={ArrowLeft01Icon} />} onClick={flow.back}>
-                  Back
-                </Button>
-              )}
-              <Button className="con__primary" disabled={!flow.canContinue} onClick={flow.next}>
-                {STEPS[step].action}
-              </Button>
-            </motion.footer>
-          </motion.section>
-        </AnimatePresence>
+        <header className="con__bar">
+          <p className="ob-meta con__crumbs">
+            <span>Setup</span>
+            <Icon icon={ArrowRight01Icon} size={12} />
+            <span className="ob-label">{STEPS[step].label}</span>
+          </p>
+          <span className="ob-meta ob-num">
+            {stepIndex(step) + 1} / {STEP_IDS.length}
+          </span>
+        </header>
+        <div className="con__scroll">
+          <AnimatePresence mode="wait" initial={false}>
+            <motion.section key={step} className="con__view" data-step={step} aria-labelledby="con-title" variants={stagger(0.05)} initial="hidden" animate="show" exit="exit">
+              <ConsoleHeader flow={flow} step={step} />
+              <motion.div className="con__panel" variants={enter}>
+                <Panel flow={flow} />
+              </motion.div>
+            </motion.section>
+          </AnimatePresence>
+        </div>
+        <footer className="con__footer">
+          {step !== "welcome" && step !== "done" && (
+            <Button variant="ghost" icon={<Icon icon={ArrowLeft01Icon} />} onClick={flow.back}>
+              Back
+            </Button>
+          )}
+          {waiting && <span className="ob-meta con__waiting">{waiting}</span>}
+          <Button className="con__primary" disabled={!flow.canContinue} onClick={flow.next}>
+            {STEPS[step].action}
+          </Button>
+        </footer>
       </main>
     </div>
   );
 }
 
 function ConsoleHeader({ flow, step }: { flow: Onboarding; step: StepId }) {
-  const enter = useEnterExit(10);
+  const enter = useEnterExit(6);
   const heading = useRef<HTMLHeadingElement>(null);
   useStepFocus(heading, flow.state.moved);
   return (
     <motion.header className="con__header" variants={enter}>
-      <p className="eyebrow text-subtle ob-num">
-        Step {stepIndex(step) + 1} of {STEP_IDS.length}
-      </p>
-      <h1 id="con-title" ref={heading} tabIndex={-1} className="ob-display">
+      <h1 id="con-title" ref={heading} tabIndex={-1} className="ob-title">
         {STEPS[step].title}
       </h1>
-      <p className="ob-lead text-muted">{STEPS[step].description}</p>
+      <p className="ob-lead">{STEPS[step].description}</p>
     </motion.header>
   );
 }

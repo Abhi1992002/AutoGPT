@@ -1,54 +1,51 @@
-import { Tick02Icon } from "@hugeicons/core-free-icons";
+import { CloudDownloadIcon } from "@hugeicons/core-free-icons";
 import { motion } from "framer-motion";
 import { Button } from "../../../../design-system/components/button";
 import { formatMB } from "../../../core/hooks";
 import { springSlow } from "../../../core/motion";
-import { Icon } from "../../../ui/Icon";
+import { layerMark, StatusMark } from "../../../ui/StatusMark";
 import type { StoryDemoProps } from "../StoryOnboarding";
+import { Window } from "../Window";
 
-/** The engine assembling itself: one slab per image, filling as its bytes arrive */
+/** The engine arriving: a running total, then one thin bar per image */
 export function DownloadDemo({ flow }: StoryDemoProps) {
   const { progress, phase, log, error } = flow.state.download;
   const ratio = progress.total ? progress.received / progress.total : 0;
 
   return (
-    <div className="story-panel story-dl">
-      <div className="story-dl__count">
-        <span className="story-dl__big ob-num">{formatMB(progress.received)}</span>
-        <span className="ui story__muted ob-num">of {formatMB(progress.total)}</span>
+    <Window
+      icon={CloudDownloadIcon}
+      title="Engine"
+      meta={phase === "done" ? "Downloaded" : `${Math.round(ratio * 100)}%`}
+      footer={<span className="ob-mono ob-truncate">{phase === "done" ? "All images pulled" : (log[log.length - 1] ?? "Connecting to the registry…")}</span>}
+    >
+      <div className="story-total">
+        <span className="story-total__big ob-num">{formatMB(progress.received)}</span>
+        <span className="ob-meta ob-num">of {formatMB(progress.total)}</span>
       </div>
-      <div className="story-dl__stack" role="progressbar" aria-label="Download progress" aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.round(ratio * 100)}>
-        {progress.layers.map((layer, i) => {
+      <ul className="story-layers" role="progressbar" aria-label="Download progress" aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.round(ratio * 100)}>
+        {progress.layers.map((layer) => {
           const r = layer.total ? layer.received / layer.total : 0;
           return (
-            <motion.div
-              key={layer.id}
-              className="story-slab"
-              data-status={layer.status}
-              initial={{ opacity: 0, y: 16 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ ...springSlow, delay: 0.1 + i * 0.08 }}
-            >
-              <motion.span className="story-slab__fill" animate={{ scaleX: r }} transition={springSlow} initial={false} />
-              <span className="small story-slab__label">{layer.label}</span>
-              <span className="small story-slab__meta ob-num">
-                {layer.status === "done" ? <Icon icon={Tick02Icon} size={14} strokeWidth={2} label="Done" /> : layer.status === "waiting" ? "Queued" : `${Math.round(r * 100)}%`}
+            <li key={layer.id} className="story-layer" data-status={layer.status}>
+              <StatusMark mark={layerMark(layer.status)} />
+              <span className="ob-label">{layer.label}</span>
+              <span className="ob-meta ob-num story-layer__pct">{layer.status === "done" ? formatMB(layer.total) : layer.status === "waiting" ? "Queued" : `${Math.round(r * 100)}%`}</span>
+              <span className="story-layer__bar">
+                <motion.span className="story-layer__fill" animate={{ scaleX: r }} transition={springSlow} initial={false} />
               </span>
-            </motion.div>
+            </li>
           );
         })}
-      </div>
-      <p className="mono story-dl__log" aria-hidden="true">
-        {phase === "done" ? "Engine downloaded" : (log[log.length - 1] ?? "Connecting to the registry…")}
-      </p>
+      </ul>
       {phase === "error" && (
-        <div className="story-error" role="alert">
-          <p className="ui">Download stopped. {error} Check your connection, then try again.</p>
+        <div className="ob-error" role="alert">
+          <p className="ob-text">Download stopped. {error} Check your connection, then try again.</p>
           <Button variant="secondary" size="sm" onClick={flow.retryDownload}>
             Try again
           </Button>
         </div>
       )}
-    </div>
+    </Window>
   );
 }

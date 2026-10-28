@@ -48,14 +48,14 @@ export const STEPS: Record<StepId, StepCopy> = {
   },
   brain: {
     label: "About you",
-    title: "Tell your agent about you",
+    title: "Tell Otto about you",
     description: "What do you do, and what would you hand off first? A few sentences is plenty.",
     action: "Continue",
   },
   done: {
     label: "Done",
     title: "You’re all set",
-    description: "Auto is drafting your first agent from what you told it. You’ll find it in your library.",
+    description: "Otto is drafting your first agents from what you told it. You’ll find it in your library.",
     action: "Open AutoGPT",
   },
 };

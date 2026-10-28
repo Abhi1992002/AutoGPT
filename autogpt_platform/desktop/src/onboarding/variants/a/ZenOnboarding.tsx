@@ -1,12 +1,13 @@
 import { ArrowLeft01Icon } from "@hugeicons/core-free-icons";
 import { AnimatePresence, motion } from "framer-motion";
-import { useLayoutEffect, useRef, useState, type ComponentType } from "react";
+import type { ComponentType } from "react";
 import { Button } from "../../../design-system/components/button";
-import { springSlow, stagger, useEnterExit } from "../../core/motion";
-import { STEPS, type StepId } from "../../core/steps";
+import { stagger, useEnterExit } from "../../core/motion";
+import { STEP_IDS, STEPS, stepIndex, type StepId } from "../../core/steps";
 import type { Onboarding } from "../../core/useOnboarding";
+import { Brand } from "../../ui/Brand";
 import { Icon } from "../../ui/Icon";
-import { PillProgress } from "./PillProgress";
+import { Segments } from "../../ui/Segments";
 import { ZenBrain } from "./steps/ZenBrain";
 import { ZenConnect } from "./steps/ZenConnect";
 import { ZenDone } from "./steps/ZenDone";
@@ -17,8 +18,8 @@ import { ZenWelcome } from "./steps/ZenWelcome";
 import "./zen.css";
 
 /*
- * Variant A – Zen. One centered card, one idea per screen. The card's height glides between steps
- * while the content cross-fades; a pill progress sits at the top.
+ * Variant A – Zen. One quiet column on a plain canvas, one idea per screen, the way Linear onboards:
+ * a thin seven-segment progress up top, the step's title and a single focused control below it.
  */
 
 export type ZenStepProps = { flow: Onboarding };
@@ -33,27 +34,36 @@ const VIEWS: Record<StepId, ComponentType<ZenStepProps>> = {
   done: ZenDone,
 };
 
+/** Steps that hand off on their own once the engine work finishes */
+const AUTO: Partial<Record<StepId, string>> = { download: "Continues when the download finishes", start: "Continues when the engine is healthy" };
+
 export function ZenOnboarding({ flow }: { flow: Onboarding }) {
   const { state } = flow;
   const View = VIEWS[state.step];
   const copy = STEPS[state.step];
   const enter = useEnterExit(8);
-  const showBack = state.step !== "welcome" && state.step !== "done";
-  const centered = state.step === "welcome" || state.step === "done";
+  const bookend = state.step === "welcome" || state.step === "done";
+  const wide = state.step === "connect" || state.step === "tour";
+  const waiting = !flow.canContinue ? AUTO[state.step] : undefined;
 
   return (
     <main className="ob zen">
-      <div className="zen__glow" aria-hidden="true" />
       <header className="zen__top">
-        <PillProgress step={state.step} />
+        <Brand />
+        <Segments step={state.step} />
+        <p className="ob-meta ob-num zen__count" aria-hidden="true">
+          {stepIndex(state.step) + 1} of {STEP_IDS.length}
+          <span className="zen__count-label">{copy.label}</span>
+        </p>
       </header>
 
-      <AutoHeight className="zen__card">
+      <div className="zen__stage">
         <AnimatePresence mode="wait" initial={false}>
           <motion.section
             key={state.step}
-            className="zen__content"
-            data-centered={centered || undefined}
+            className="zen__col"
+            data-wide={wide || undefined}
+            data-bookend={bookend || undefined}
             aria-labelledby="zen-title"
             variants={stagger(0.06)}
             initial="hidden"
@@ -62,36 +72,25 @@ export function ZenOnboarding({ flow }: { flow: Onboarding }) {
           >
             <View flow={flow} />
             <motion.footer className="zen__footer" variants={enter}>
-              {showBack && (
-                <Button variant="ghost" icon={<Icon icon={ArrowLeft01Icon} />} onClick={flow.back}>
-                  Back
+              {bookend ? (
+                <Button size="lg" className="zen__wide" onClick={flow.next}>
+                  {copy.action}
                 </Button>
+              ) : (
+                <>
+                  <Button variant="ghost" size="lg" icon={<Icon icon={ArrowLeft01Icon} />} onClick={flow.back}>
+                    Back
+                  </Button>
+                  {waiting && <span className="ob-meta zen__waiting">{waiting}</span>}
+                  <Button size="lg" className="zen__primary" disabled={!flow.canContinue} onClick={flow.next}>
+                    {copy.action}
+                  </Button>
+                </>
               )}
-              <Button size={centered ? "lg" : "md"} className="zen__primary" disabled={!flow.canContinue} onClick={flow.next}>
-                {copy.action}
-              </Button>
             </motion.footer>
           </motion.section>
         </AnimatePresence>
-      </AutoHeight>
+      </div>
     </main>
-  );
-}
-
-/** Animates its height to fit the content, so a step change glides instead of jumping */
-function AutoHeight({ className, children }: { className: string; children: React.ReactNode }) {
-  const inner = useRef<HTMLDivElement>(null);
-  const [height, setHeight] = useState<number | "auto">("auto");
-  useLayoutEffect(() => {
-    const el = inner.current;
-    if (!el) return;
-    const observer = new ResizeObserver(([entry]) => setHeight(entry.borderBoxSize[0]?.blockSize ?? el.offsetHeight));
-    observer.observe(el);
-    return () => observer.disconnect();
-  }, []);
-  return (
-    <motion.div className={className} animate={{ height }} transition={springSlow} initial={false}>
-      <div ref={inner}>{children}</div>
-    </motion.div>
   );
 }

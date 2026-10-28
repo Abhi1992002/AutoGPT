@@ -1,0 +1,33 @@
+/* Blocks shared by the variants */
+
+.ob-tools { display: grid; grid-template-columns: repeat(var(--cols, 3), minmax(0, 1fr)); gap: 8px; }
+.ob-tool__glyph { grid-area: 1 / 1; display: grid; }
+.ob-tool__mark { display: grid; }
+.ob-tool__mark .ui-spinner { color: var(--ds-accent-text); }
+
+.ob-run { display: grid; gap: 12px; }
+.ob-run__head { display: flex; align-items: center; gap: 10px; }
+.ob-run__who { display: grid; }
+.ob-run__who .ob-meta { line-height: 16px; }
+.ob-run__status { margin-inline-start: auto; color: var(--ds-soft); }
+.ob-run__status[data-done] { color: var(--ds-accent-text); border-color: var(--ds-accent-line); }
+.ob-run__prompt { padding: 10px 12px; border-radius: var(--ds-radius-sm); background: var(--ds-fill); color: var(--ds-ink); font: 400 14px/20px var(--font-sans); }
+.ob-run__steps { display: grid; align-content: start; gap: 2px; min-height: 120px; }
+.ob-run__step { display: flex; align-items: center; gap: 10px; min-height: 28px; }
+.ob-run__result { display: flex; align-items: center; gap: 8px; min-height: 20px; color: var(--ds-accent-text); font: 500 13px/20px var(--font-sans); opacity: 0; transition: opacity 200ms ease-out; }
+.ob-run__result[data-visible] { opacity: 1; }
+
+.ob-brain { display: grid; gap: 12px; }
+.ob-composer__mood { display: inline-flex; align-items: center; gap: 6px; }
+.ob-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.ob-understood { display: grid; gap: 20px; }
+.ob-understood__section { display: grid; gap: 8px; }
+.ob-understood__tags { display: flex; flex-wrap: wrap; gap: 6px; min-height: 24px; }
+.ob-understood__tags .ob-mark { scale: 0.875; }
+.ob-understood__rows { display: grid; gap: 6px; min-height: 84px; align-content: start; }
+.ob-understood__task { display: flex; align-items: center; gap: 10px; min-height: 40px; padding: 0 12px 0 8px; border: 1px solid var(--ds-line); border-radius: var(--ds-radius-md); background: var(--ds-surface); }
+.ob-understood__task > .ob-label { min-width: 0; }
+.ob-understood__when { display: inline-flex; flex: none; align-items: center; gap: 4px; margin-inline-start: auto; white-space: nowrap; }
+.ob-understood__empty { display: inline-flex; align-items: center; height: 24px; padding: 0 8px; border: 1px dashed var(--ds-line-strong); border-radius: 12px; color: var(--ds-muted); }
+.ob-understood__empty[data-rows] { display: flex; height: 40px; padding: 0 12px; border-radius: var(--ds-radius-md); }
