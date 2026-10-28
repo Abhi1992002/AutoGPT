@@ -55,19 +55,19 @@ export function downloadLogAt(fraction: number): string[] {
 type StartStep = { at: number; id: ServiceId; state: "starting" | "running"; line: string };
 
 const START_ORDER: StartStep[] = [
-  { at: 300, id: "db", state: "starting", line: "Container autogpt-db  Starting" },
-  { at: 1200, id: "db", state: "running", line: "Container autogpt-db  Healthy" },
-  { at: 1300, id: "redis", state: "starting", line: "Container autogpt-redis  Starting" },
-  { at: 1800, id: "redis", state: "running", line: "Container autogpt-redis  Started" },
-  { at: 1900, id: "rabbitmq", state: "starting", line: "Container autogpt-rabbitmq  Starting" },
-  { at: 2900, id: "rabbitmq", state: "running", line: "Container autogpt-rabbitmq  Healthy" },
-  { at: 3000, id: "api", state: "starting", line: "Container autogpt-rest  Starting" },
-  { at: 3100, id: "executor", state: "starting", line: "Container autogpt-executor  Starting" },
-  { at: 4200, id: "api", state: "running", line: "Container autogpt-rest  Started" },
-  { at: 4700, id: "executor", state: "running", line: "Container autogpt-executor  Started" },
+  { at: 300, id: "db", state: "starting", line: "==> Waiting for the backend (the first start applies migrations)" },
+  { at: 1200, id: "db", state: "running", line: "    database   ok" },
+  { at: 1300, id: "redis", state: "starting", line: "    redis      starting" },
+  { at: 1800, id: "redis", state: "running", line: "    redis      ok" },
+  { at: 1900, id: "rabbitmq", state: "starting", line: "    rabbitmq   starting" },
+  { at: 2900, id: "rabbitmq", state: "running", line: "    rabbitmq   ok" },
+  { at: 3000, id: "api", state: "starting", line: "    rest api   starting" },
+  { at: 3100, id: "executor", state: "starting", line: "    executor   starting" },
+  { at: 4200, id: "api", state: "running", line: "    rest api   ok" },
+  { at: 4700, id: "executor", state: "running", line: "    executor   ok" },
 ];
 
-const FIRST_LINE = "Network autogpt_default  Created";
+const FIRST_LINE = "==> Starting autogpt-desktop-backend";
 
 /** The services at a moment of the mock start, for frozen previews */
 export function servicesAt(ms: number): ServiceStatus {

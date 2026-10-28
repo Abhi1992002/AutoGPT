@@ -93,7 +93,7 @@ button.con-step__row { cursor: pointer; }
 .con-term__title { flex: 1; color: var(--con-term-dim); }
 .con-term__meta { color: var(--ob-200); }
 .con-term__log { display: flex; flex-direction: column; justify-content: flex-end; height: calc(var(--rows, 7) * 18px + 46px); padding: 14px 16px; overflow: hidden; mask-image: linear-gradient(transparent, #000 45%); }
-.con-term__log p { overflow: hidden; color: var(--con-term-dim); text-overflow: ellipsis; white-space: nowrap; }
+.con-term__log p { overflow: hidden; color: var(--con-term-dim); text-overflow: ellipsis; white-space: pre; }
 .con-term__log p[data-fresh] { color: #f3effd; }
 .con-term__log p[data-ok] { color: var(--ob-300); }
 .con-term__prompt { color: var(--ob-400); }
